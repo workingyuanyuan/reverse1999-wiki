@@ -1,0 +1,108 @@
+---
+// Override of Starlight's ThemeSelect: three buttons instead of a drop-down, so every
+// theme is one click away. It keeps Starlight's storage key; the site opens in the dark
+// theme, so auto is stored as "auto" and nothing stored means dark (ThemeProvider.astro
+// sets the theme before the first paint).
+const t = Astro.locals.t;
+const choices = [
+	{ value: 'auto', label: t('themeSelect.auto') },
+	{ value: 'light', label: t('themeSelect.light') },
+	{ value: 'dark', label: t('themeSelect.dark') },
+];
+---
+
+<theme-buttons role="group" aria-label={t('themeSelect.accessibleLabel')}>
+	{
+		choices.map((choice) => (
+			<button type="button" data-choice={choice.value} aria-pressed={choice.value === 'dark' ? 'true' : 'false'}>
+				{choice.label}
+			</button>
+		))
+	}
+</theme-buttons>
+
+{/* Inlined so the pressed button is right before the first paint. */}
+<script is:inline>
+	(() => {
+		let stored = '';
+		try {
+			stored = localStorage.getItem('starlight-theme') || '';
+		} catch {}
+		const theme = stored === 'light' || stored === 'auto' ? stored : 'dark';
+		document.querySelectorAll('theme-buttons button').forEach((button) => {
+			button.setAttribute('aria-pressed', String(button.dataset.choice === theme));
+		});
+	})();
+</script>
+
+<style>
+	theme-buttons {
+		display: inline-flex;
+		border: 1px solid var(--sl-color-gray-5);
+	}
+	button {
+		margin: 0;
+		padding: 0 0.6em;
+		border: 0;
+		background: transparent;
+		color: var(--sl-color-gray-2);
+		font: inherit;
+		font-size: var(--sl-text-xs);
+		line-height: 2;
+		white-space: nowrap;
+		cursor: pointer;
+	}
+	button + button {
+		border-inline-start: 1px solid var(--sl-color-gray-5);
+	}
+	button:hover {
+		color: var(--sl-color-white);
+	}
+	/* The chosen theme: the heading ink and a copper line under it, not a filled block. */
+	button[aria-pressed='true'] {
+		color: var(--sl-color-white);
+		box-shadow: inset 0 -2px 0 var(--rv-copper);
+	}
+</style>
+
+<script>
+	type Theme = 'auto' | 'dark' | 'light';
+	const storageKey = 'starlight-theme';
+
+	const parseTheme = (value: unknown): Theme => (value === 'auto' || value === 'light' ? value : 'dark');
+	const systemTheme = (): Theme => (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+	function loadTheme(): Theme {
+		try {
+			return parseTheme(localStorage.getItem(storageKey));
+		} catch {
+			return 'dark';
+		}
+	}
+
+	/** Sets the page theme, the pressed button in every copy of the control, and the stored choice. */
+	function applyTheme(theme: Theme): void {
+		document.querySelectorAll<HTMLButtonElement>('theme-buttons button').forEach((button) => {
+			button.setAttribute('aria-pressed', String(button.dataset.choice === theme));
+		});
+		document.documentElement.dataset.theme = theme === 'auto' ? systemTheme() : theme;
+		try {
+			localStorage.setItem(storageKey, theme);
+		} catch {}
+	}
+
+	matchMedia('(prefers-color-scheme: light)').addEventListener('change', () => {
+		if (loadTheme() === 'auto') applyTheme('auto');
+	});
+
+	class ThemeButtons extends HTMLElement {
+		constructor() {
+			super();
+			applyTheme(loadTheme());
+			this.addEventListener('click', (event) => {
+				const button = event.target instanceof Element ? event.target.closest<HTMLButtonElement>('button[data-choice]') : null;
+				if (button) applyTheme(parseTheme(button.dataset.choice));
+			});
+		}
+	}
+	customElements.define('theme-buttons', ThemeButtons);
+</script>

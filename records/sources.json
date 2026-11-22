@@ -1,0 +1,14 @@
+{
+	"cn": {
+		"repo": "St-Pavlov-Foundation/re1999-data",
+		"commit": "ab87bfc0e9855eca7075599a1adb667584afdd99",
+		"build": "113.0.1422",
+		"server": "cn"
+	},
+	"gl": {
+		"repo": "St-Pavlov-Foundation/re1999-data-global",
+		"commit": "7308a19ec644c60fd539034c9815cfaa23237dda",
+		"build": "111.0.1077",
+		"server": "gl"
+	}
+}

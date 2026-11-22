@@ -1,0 +1,23 @@
+---
+// Override of Starlight's ThemeProvider: the site opens in the dark theme. A reader who
+// chose light or dark keeps that choice; one who chose auto follows the system. Starlight's
+// own script reads any stored value but "light" as dark, so it cannot tell auto from
+// nothing stored. The stored values are set by ThemeSelect.astro.
+---
+
+{/* Inlined so the theme is right before the first paint. */}
+<script is:inline>
+	(() => {
+		let stored = '';
+		try {
+			stored = localStorage.getItem('starlight-theme') || '';
+		} catch {}
+		const theme =
+			stored === 'light' || stored === 'dark'
+				? stored
+				: stored === 'auto' && matchMedia('(prefers-color-scheme: light)').matches
+					? 'light'
+					: 'dark';
+		document.documentElement.dataset.theme = theme;
+	})();
+</script>

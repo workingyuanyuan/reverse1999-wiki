@@ -1,0 +1,149 @@
+---
+// Override of Starlight's MarkdownContent: the one-sentence answer and the facts
+// block, placed in the same container as the page body. Extractors that keep only
+// the main article (Readability and the like) would drop them anywhere else.
+// The same frontmatter fields also produce the Markdown twin (src/lib/page-md.mjs)
+// and the JSON-LD (src/routeData.ts).
+import '@astrojs/starlight/style/markdown.css';
+import { SITE, LABELS, LOCALES, pageId, localeOf, mdPath, llmsPath, withBase, isoDate } from '../lib/site.mjs';
+
+const { data } = Astro.locals.starlightRoute.entry;
+const id = pageId(Astro.locals.starlightRoute.entry.id);
+const t = LABELS[localeOf(id).lang];
+// Starlight's built-in 404 page has no contract fields. It gets links to each
+// language's home page and page list instead, so a wrong URL is not a dead end.
+const hasFacts = Boolean(data.lastVerified && data.sources);
+// A pointer for agents that read the HTML. It is hidden from sighted readers with a
+// CSS class (not `hidden` or `aria-hidden`, which extractors treat as "drop this").
+// Chinese and Japanese take full-width punctuation; English and Korean take Latin punctuation.
+const cjk = ['zh-TW', 'zh-CN', 'ja'].includes(localeOf(id).lang);
+const p = cjk ? { sep: '：', stop: '。', list: '、' } : { sep: ': ', stop: '. ', list: ', ' };
+const sep = p.sep;
+const agentNote = hasFacts
+	? `${t.appliesTo}${p.sep}${data.appliesTo}${p.stop}${t.caveat}${p.sep}${data.caveat} Markdown${p.sep}${SITE}${mdPath(id)} ${p.stop}${t.allPages}${p.sep}${SITE}${llmsPath(localeOf(id))} ${p.list}${SITE}/index.json ${p.stop}`.trim()
+	: '';
+---
+
+<div class="sl-markdown-content">
+{/* No wrapper around the note, the answer and the page notes: as direct children of
+     the article container they make it the element a readability-style extractor
+     keeps, together with the body. */}
+{hasFacts && <>
+<p class="not-content agent-note">{agentNote}</p>
+<p class="not-content answer">{data.description}</p>
+</>}
+{!hasFacts && <div class="not-content not-found">
+<p>Page addresses use lower-case English names: <code>/operators/laevatain/</code>. 頁面網址使用小寫英文名稱。<span lang="ja">ページのアドレスは小文字の英語名です。</span> <span lang="ko">페이지 주소는 소문자 영어 이름입니다.</span></p>
+<ul>
+	{LOCALES.map((locale) => (
+		<li lang={locale.lang}>
+			{locale.label}: <a href={withBase(locale.dir ? `/${locale.dir}/` : '/')}>{LABELS[locale.lang].home}</a>, <a href={withBase(llmsPath(locale))}>{LABELS[locale.lang].pageList}</a>
+		</li>
+	))}
+</ul>
+</div>}
+<slot />
+{/* Page notes: scope, dates, sources, image credits and the other formats, after the body. */}
+{hasFacts && <dl class="not-content facts">
+	{
+		data.aliases?.length && (
+			<>
+				<dt>{t.aliases}</dt>
+				<dd translate="no">{data.aliases.join(p.list)}</dd>
+			</>
+		)
+	}
+	<dt>{t.appliesTo}</dt>
+	<dd>{data.appliesTo}</dd>
+	<dt>{t.caveat}</dt>
+	<dd>{data.caveat}</dd>
+	{
+		data.effectiveDate && (
+			<>
+				<dt>{t.effectiveDate}</dt>
+				<dd>
+					<time datetime={isoDate(data.effectiveDate)}>{isoDate(data.effectiveDate)}</time>
+				</dd>
+			</>
+		)
+	}
+	<dt>{t.lastVerified}</dt>
+	<dd><time datetime={isoDate(data.lastVerified)}>{isoDate(data.lastVerified)}</time></dd>
+	<dt>{t.sources}</dt>
+	<dd>
+		<ul>
+			{data.sources.map((source) => <li><a href={source.url}>{source.title}</a></li>)}
+		</ul>
+	</dd>
+	{
+		data.art?.length && (
+			<>
+				<dt>{t.art}</dt>
+				<dd>
+					{t.artBy}{sep}{data.art.map((item, i) => <>{i > 0 && p.list}<a href={item.url}>{item.title}</a></>)}
+				</dd>
+			</>
+		)
+	}
+	<dt>{t.markdown}</dt>
+	<dd><a href={withBase(mdPath(id))}>{mdPath(id)}</a></dd>
+	<dt>{t.allPages}</dt>
+	<dd class="outputs"><a href={withBase(llmsPath(localeOf(id)))}>{llmsPath(localeOf(id))}</a>{p.list}<a href={withBase('/index.json')}>/index.json</a></dd>
+</dl>}
+</div>
+
+<style>
+	.agent-note {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		margin: -1px;
+		padding: 0;
+		overflow: hidden;
+		clip-path: inset(50%);
+		white-space: nowrap;
+	}
+	.not-found {
+		margin-top: 1.5rem;
+		font-size: var(--sl-text-sm);
+	}
+	.answer {
+		margin-top: 0;
+		padding: 0.15rem 0 0.15rem 1rem;
+		font-size: var(--sl-text-lg);
+		font-weight: 400;
+		line-height: 1.75;
+		color: var(--sl-color-white);
+	}
+	/* Page notes. Colours and type come from src/styles/reverse.css. */
+	.facts {
+		display: grid;
+		grid-template-columns: minmax(6.5rem, max-content) 1fr;
+		gap: 0.4rem 1.25rem;
+		margin-top: 3.5rem;
+		margin-bottom: 0.5rem;
+		padding: 1rem 1.15rem;
+		font-size: var(--sl-text-xs);
+		line-height: 1.6;
+	}
+	dd {
+		margin: 0;
+		min-width: 0;
+		overflow-wrap: anywhere;
+		color: var(--sl-color-text);
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	@media (max-width: 36rem) {
+		.facts {
+			grid-template-columns: 1fr;
+			gap: 0.1rem;
+		}
+		dd {
+			margin-bottom: 0.5rem;
+		}
+	}
+</style>

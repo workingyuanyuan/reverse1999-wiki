@@ -1,0 +1,131 @@
+---
+// Override of Starlight's SiteTitle: the site name, a mark that the site is not the
+// publisher's, and a link to the first page of each top-level sidebar group, in the
+// sidebar's order and labels. A site with one group shows no section links. The Markdown
+// twin, llms.txt and index.json are linked from the page notes (MarkdownContent.astro).
+import { LABELS, pageId, localeOf } from '../lib/site.mjs';
+
+const { siteTitle, siteTitleHref, id: routeId, sidebar } = Astro.locals.starlightRoute;
+const t = LABELS[localeOf(pageId(routeId)).lang];
+const links = (entries) => entries.flatMap((e) => (e.type === 'link' ? [e] : links(e.entries)));
+const groups = sidebar
+	.filter((entry) => entry.type === 'group')
+	.map((group) => {
+		const inner = links(group.entries);
+		return { label: group.label, href: inner[0]?.href, current: inner.some((e) => e.isCurrent) };
+	})
+	.filter((s) => s.href);
+const sections = groups.length > 1 ? groups : [];
+---
+
+<a href={siteTitleHref} class="site-title" translate="no">
+	<span class="name">{siteTitle}</span>
+	<span class="unofficial">{t.unofficial}</span>
+</a>
+<nav class="sections" aria-label={t.sections}>
+	{sections.map((s) => <a href={s.href} aria-current={s.current ? 'true' : undefined}>{s.label}</a>)}
+</nav>
+
+<script is:inline>
+	// Entrance of section headings, tables and the page notes: each plays once, when it
+	// first comes into view (motion section of reverse.css). The class on <html> is set here,
+	// in the header, before the body is parsed; without this script or without
+	// IntersectionObserver nothing is hidden.
+	const motion = matchMedia('(prefers-reduced-motion: no-preference)').matches && 'IntersectionObserver' in window;
+	if (motion) document.documentElement.classList.add('rv-motion');
+	document.addEventListener('DOMContentLoaded', () => {
+		if (!motion) return;
+		const targets = document.querySelectorAll(
+			'.sl-markdown-content > .sl-heading-wrapper.level-h2, .sl-markdown-content > table, .sl-markdown-content > .facts',
+		);
+		let first = true;
+		const io = new IntersectionObserver((entries) => {
+			let n = 0;
+			for (const entry of entries) {
+				if (!entry.isIntersecting) continue;
+				const el = entry.target;
+				// Blocks on the first screen follow the title in turn; later ones start at once.
+				if (first) el.style.setProperty('--rv-delay', `${0.3 + n++ * 0.08}s`);
+				el.classList.add('rv-in');
+				io.unobserve(el);
+			}
+			first = false;
+		});
+		targets.forEach((el) => io.observe(el));
+	});
+</script>
+
+<style>
+	.site-title {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.7rem;
+		font-family: var(--rv-serif);
+		font-size: 1.2rem;
+		font-weight: 600;
+		letter-spacing: 0.04em;
+		line-height: 1;
+		color: var(--sl-color-white);
+		text-decoration: none;
+		white-space: nowrap;
+	}
+	/* A copper rhombus before the name, as the ornaments of the official site. */
+	.name::before {
+		content: '';
+		display: inline-block;
+		width: 0.42em;
+		height: 0.42em;
+		margin-inline-end: 0.6em;
+		background: var(--rv-copper);
+		transform: rotate(45deg);
+		vertical-align: 0.12em;
+	}
+	/* On a phone the name and its label must fit beside the search and menu buttons. */
+	@media (max-width: 50rem) {
+		.site-title {
+			gap: 0.45rem;
+			font-size: 0.98rem;
+			letter-spacing: 0.01em;
+		}
+		.unofficial {
+			font-size: 0.56rem !important;
+			letter-spacing: 0.04em !important;
+		}
+	}
+	.unofficial {
+		padding: 0.28em 0.55em;
+		border: 1px solid var(--rv-line);
+		color: var(--rv-muted);
+		font-family: var(--sl-font);
+		font-size: 0.62rem;
+		font-weight: 400;
+		letter-spacing: 0.2em;
+	}
+	.sections {
+		display: none;
+		gap: 1.6rem;
+		margin-inline-start: 2rem;
+		font-family: var(--rv-serif);
+		font-size: 0.9rem;
+		white-space: nowrap;
+	}
+	@media (min-width: 72rem) {
+		.sections:not(:empty) {
+			display: flex;
+		}
+	}
+	.sections a {
+		padding: 0.2em 0;
+		color: var(--sl-color-gray-2);
+		text-decoration: none;
+	}
+	/* The section of the current page, in copper as on the official site's menu. */
+	.sections a[aria-current] {
+		color: var(--rv-copper-text);
+		box-shadow: inset 0 -1px 0 var(--rv-copper);
+	}
+	.sections a:hover,
+	.sections a:focus-visible {
+		color: var(--rv-copper-text);
+	}
+</style>

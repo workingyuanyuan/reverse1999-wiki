@@ -1,0 +1,644 @@
+/* Skin for the Reverse: 1999 wiki. It borrows the look of the game's mainland and Taiwan
+   official sites (re.bluepoch.com/home/, re1999.movergames.com, seen 2026-11-22): parchment
+   text, copper and rust accents (#a95d35, #b55829, #db6f39), tan secondary text (#bba893),
+   a serif for names and headings (the sites use Source Han Serif) and small rhombus
+   ornaments. The dark theme follows a dark, analogue, editorial design language in the
+   game's manner, as far as it suits a reference site: black painted ground, warm light that
+   leaks in from the edges of the window and leaves the middle darkest, a static film grain
+   over everything, one orange-brown accent family, square corners, no shadows, tables ruled
+   only across. The light theme is parchment paper with brown ink. No wordmark, image or font
+   file of the publisher is used. Motion is at the end of this file.
+   Rule: every mark here is drawn with CSS and is never written into the page text, so the
+   text an agent extracts from a page stays clean (scripts/check-dist.mjs, check 5). */
+
+:root,
+::backdrop {
+	/* Grain: a 200 px tile of grey noise with its 10 % opacity baked in (src/assets/grain.png,
+	   uniform grey 0-255 per pixel). Over black it gives a mean of about 13 and a spread of
+	   about 7 levels: the near-black that the eye sees comes from the grain, not from a
+	   painted colour. It never moves and is never blended other than normally. */
+	--rv-grain: url('../assets/grain.png') 0 0 / 200px 200px;
+	--rv-panel: #29241e;
+	--rv-line: rgb(238 228 213 / 0.14);
+	--rv-muted: #bba893;
+	--rv-row: rgb(238 228 213 / 0.025);
+	--rv-head-text: #eee4d5;
+	/* Copper: rules and marks (#b55829); borders and the table head rule (#a95d35); hover
+	   (#db6f39). Small text is never copper on the dark ground: copper there falls short of
+	   text contrast, so links and current items stay parchment and carry a copper line. */
+	--rv-copper: #b55829;
+	--rv-copper-rule: #a95d35;
+	--rv-copper-hover: #db6f39;
+	--rv-copper-text: #eee4d5;
+	--rv-link: #eee4d5;
+	/* Serif for names and headings, as the official sites set theirs in Source Han Serif:
+	   Noto Serif (SIL OFL 1.1), the same design, served with the site at weight 600
+	   (astro.config.mjs). Each language's cut comes first, and draws the Latin letters and
+	   figures as well, so one heading never mixes two serif families. */
+	--rv-serif: 'Noto Serif TC', 'Source Han Serif TC', 'Noto Serif CJK TC', 'Songti TC', 'PMingLiU',
+		'Noto Serif', Georgia, serif;
+
+	--sl-color-accent-low: #331c0f;
+	--sl-color-accent: #a95d35;
+	--sl-color-accent-high: #eee4d5;
+	--sl-color-white: #eee4d5;
+	--sl-color-gray-1: #e6dbcb;
+	--sl-color-gray-2: #dacdbb;
+	--sl-color-gray-3: #bba893;
+	--sl-color-gray-4: #7d7063;
+	--sl-color-gray-5: #40362c;
+	--sl-color-gray-6: #1a1714;
+	--sl-color-black: #000;
+	--sl-color-hairline: rgb(238 228 213 / 0.11);
+	--sl-color-hairline-shade: rgb(238 228 213 / 0.11);
+
+	--sl-color-bg-nav: #000;
+	--sl-color-bg-sidebar: #000;
+
+	--sl-font: 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', system-ui, sans-serif;
+	--sl-content-width: 50rem;
+	--sl-text-h1: 1.9rem;
+	--sl-text-h2: 1.4rem;
+	--sl-text-h3: 1.12rem;
+}
+
+/* Simplified Chinese, Japanese and Korean pages take their own fonts first, so that
+   punctuation and glyph shapes are those their readers expect. */
+:root[lang='zh-CN'] {
+	--sl-font: 'Segoe UI', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+	--rv-serif: 'Noto Serif SC', 'Source Han Serif SC', 'Noto Serif CJK SC', 'Songti SC', 'SimSun', Georgia, serif;
+}
+:root[lang='ja'] {
+	--sl-font: 'Segoe UI', 'Noto Sans JP', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', system-ui, sans-serif;
+	--rv-serif: 'Noto Serif JP', 'Source Han Serif JP', 'Noto Serif CJK JP', 'Hiragino Mincho ProN', 'Yu Mincho', Georgia, serif;
+}
+:root[lang='ko'] {
+	--sl-font: 'Segoe UI', 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, sans-serif;
+	--rv-serif: 'Noto Serif KR', 'Source Han Serif K', 'Noto Serif CJK KR', 'Batang', Georgia, serif;
+	word-break: keep-all;
+}
+
+:root[data-theme='light'],
+[data-theme='light'] ::backdrop {
+	--rv-panel: #ece2d3;
+	--rv-line: #d8c9b4;
+	--rv-muted: #6b5a48;
+	--rv-row: rgb(69 57 47 / 0.04);
+	--rv-head-text: #2a221c;
+	--rv-copper: #b55829;
+	--rv-copper-rule: #b55829;
+	--rv-copper-hover: #7c4120;
+	--rv-copper-text: #9a4520;
+	--rv-link: #9a4520;
+
+	--sl-color-accent-low: #f1d9c8;
+	--sl-color-accent: #b55829;
+	--sl-color-accent-high: #4a2412;
+	--sl-color-white: #2a221c;
+	--sl-color-gray-1: #3a3029;
+	--sl-color-gray-2: #4f4339;
+	--sl-color-gray-3: #6b5a48;
+	--sl-color-gray-4: #8f7f6c;
+	--sl-color-gray-5: #c9b9a3;
+	--sl-color-gray-6: #e6dccd;
+	--sl-color-gray-7: #efe7da;
+	--sl-color-black: #f8f3ea;
+
+	--sl-color-bg-nav: #f8f3ea;
+	--sl-color-bg-sidebar: #f1e9dc;
+}
+
+body {
+	background: var(--sl-color-black);
+}
+/* Dark ground, from the bottom up: black paint (the body's background, which the browser
+   paints on the canvas), warm light leaking in from the window's edges (html::before), the
+   rain (body::before and ::after, below) and the grain on top (html::after). All three are
+   fixed to the window, not to the document, so a long page is lit the same at every scroll
+   position. The light comes from outside the window: one source past the right edge, low,
+   one past the bottom left corner; neither reaches the header, and the middle, where the text
+   column is, stays the darkest part. The radii are in vw with a cap: a % radius cannot sit in
+   min() beside a length, and an invalid value silently drops the whole background. Light is
+   faint for reading pages and fainter on narrow windows, where the column runs closer to the
+   edges. Without the leak the page is still black with grain. */
+:root:not([data-theme='light']) {
+	--rv-leak-a: 10%;
+	--rv-leak-b: 8%;
+}
+@media (max-width: 1023px) {
+	:root:not([data-theme='light']) {
+		--rv-leak-a: 6%;
+		--rv-leak-b: 5%;
+	}
+}
+:root:not([data-theme='light'])::before,
+:root:not([data-theme='light'])::after {
+	content: '';
+	position: fixed;
+	inset: 0;
+	pointer-events: none;
+}
+:root:not([data-theme='light'])::before {
+	z-index: -3;
+	background-color: #000;
+	background-image:
+		radial-gradient(ellipse min(55vw, 900px) 70% at 106% 70%, rgb(255 114 29 / var(--rv-leak-a)), rgb(255 114 29 / 0%)),
+		radial-gradient(ellipse min(45vw, 760px) 60% at -6% 96%, rgb(255 114 29 / var(--rv-leak-b)), rgb(255 114 29 / 0%));
+	background-blend-mode: screen;
+}
+:root:not([data-theme='light'])::after {
+	z-index: -1;
+	background: var(--rv-grain);
+}
+@media print {
+	:root::before,
+	:root::after {
+		display: none;
+	}
+}
+
+/* Rain that rises: in the game's story the Storm makes the rain go up, from the ground to
+   the sky. Short streaks drift up (body::before) and larger
+   drops creep up the glass (body::after), drawn with CSS. No element and no text: the text an agent extracts
+   is the same with or without it. Faint enough to stay behind the words; still when reduced
+   motion is asked for (it moves in the motion section). */
+:root {
+	--rv-rain: rgb(190 214 220 / 0.55);
+	--rv-drop: rgb(210 228 232 / 0.55);
+	--rv-drop-glint: rgb(236 154 108 / 0.35);
+	--rv-rain-opacity: 1;
+}
+:root[data-theme='light'] {
+	--rv-rain: rgb(69 90 98 / 0.16);
+	--rv-drop: rgb(69 90 98 / 0.20);
+	--rv-drop-glint: rgb(181 88 41 / 0.25);
+	--rv-rain-opacity: 0.8;
+}
+body::before,
+body::after {
+	content: '';
+	position: fixed;
+	inset: 0 0 auto 0;
+	z-index: -2;
+	pointer-events: none;
+	opacity: var(--rv-rain-opacity);
+}
+body::before {
+	top: -260px;
+	height: calc(100vh + 520px);
+	background-image:
+		radial-gradient(0.6px 11px at 22px 30px, var(--rv-rain), transparent),
+		radial-gradient(0.6px 8px at 71px 150px, var(--rv-rain), transparent),
+		radial-gradient(0.5px 13px at 118px 92px, var(--rv-rain), transparent),
+		radial-gradient(0.6px 7px at 160px 210px, var(--rv-rain), transparent),
+		radial-gradient(0.5px 10px at 203px 18px, var(--rv-rain), transparent),
+		radial-gradient(0.6px 12px at 47px 228px, var(--rv-rain), transparent),
+		radial-gradient(0.5px 8px at 139px 255px, var(--rv-rain), transparent),
+		radial-gradient(0.6px 10px at 186px 128px, var(--rv-rain), transparent);
+	background-size: 220px 260px;
+}
+body::after {
+	top: -520px;
+	height: calc(100vh + 1040px);
+	background-image:
+		radial-gradient(2.2px 3px at 64px 140px, var(--rv-drop), transparent 70%),
+		radial-gradient(1px 1.3px at 63px 139px, var(--rv-drop-glint), transparent),
+		radial-gradient(1.6px 2.2px at 300px 60px, var(--rv-drop), transparent 70%),
+		radial-gradient(2.6px 3.4px at 210px 380px, var(--rv-drop), transparent 70%),
+		radial-gradient(1.2px 1.5px at 209px 379px, var(--rv-drop-glint), transparent),
+		radial-gradient(1.4px 2px at 420px 250px, var(--rv-drop), transparent 70%),
+		radial-gradient(2px 2.8px at 470px 470px, var(--rv-drop), transparent 70%),
+		radial-gradient(0.6px 40px at 300px 100px, var(--rv-rain), transparent),
+		radial-gradient(0.7px 60px at 470px 520px, var(--rv-rain), transparent);
+	background-size: 520px 520px;
+}
+/* The rain stays out of the text, so that nothing moves between or behind the words: it rises
+   only in the two margins between the text column and the sidebars. From 72rem the sidebar
+   and the table of contents are each --sl-sidebar-width wide at the window's edges, and the
+   column is centred, at most --sl-content-width wide; a mask clears all three, fading over
+   1.5 to 2rem. The streaks rise straight up: a transform on the layer would move its mask
+   with it. Below 72rem the column fills all the space beside the sidebar, so there is no rain. */
+body::before,
+body::after {
+	display: none;
+	--rv-half: calc(min(var(--sl-content-width), 100% - 2 * var(--sl-sidebar-width) - 3rem) / 2);
+	mask-image: linear-gradient(
+		90deg,
+		transparent var(--sl-sidebar-width),
+		#000 calc(var(--sl-sidebar-width) + 1.5rem),
+		#000 calc(50% - var(--rv-half) - 2.5rem),
+		transparent calc(50% - var(--rv-half) - 0.5rem),
+		transparent calc(50% + var(--rv-half) + 0.5rem),
+		#000 calc(50% + var(--rv-half) + 2.5rem),
+		#000 calc(100% - var(--sl-sidebar-width) - 1.5rem),
+		transparent calc(100% - var(--sl-sidebar-width))
+	);
+}
+@media (min-width: 72rem) {
+	body::before,
+	body::after {
+		display: block;
+	}
+}
+@media print {
+	body::before,
+	body::after {
+		display: none;
+	}
+}
+
+@media (min-width: 50em) {
+	:root {
+		--sl-text-h1: 2.5rem;
+		--sl-text-h2: 1.55rem;
+	}
+}
+
+::selection {
+	background: var(--sl-color-accent-low);
+	color: var(--sl-color-white);
+}
+:focus-visible {
+	outline: 2px solid var(--rv-copper);
+	outline-offset: 2px;
+}
+
+/* Wide windows: the table of contents keeps the width of the left sidebar and the text
+   column sits in the middle of the space between the two. */
+@media (min-width: 72rem) {
+	.right-sidebar-container {
+		width: var(--sl-sidebar-width);
+	}
+	[data-has-sidebar][data-has-toc] .main-pane {
+		--sl-content-margin-inline: auto;
+		width: calc(100% - var(--sl-sidebar-width));
+	}
+}
+@media (min-width: 110rem) {
+	:root {
+		--sl-content-width: 60rem;
+	}
+}
+
+/* Header: a black bar with a hairline under it, as the official site's menu bar. In the dark
+   theme the bars that hide what scrolls under them (the header, the menu on a phone, the
+   table of contents bar) are black with their own grain, aligned with the window's grain;
+   the sidebars on a wide window are clear, so the edge light and the grain show through. */
+header.header {
+	border-bottom: 1px solid var(--rv-line);
+}
+:root:not([data-theme='light']) :is(header.header, .sidebar-pane, mobile-starlight-toc nav) {
+	background: var(--rv-grain), #000;
+}
+@media (min-width: 50rem) {
+	:root:not([data-theme='light']) .sidebar-pane {
+		background: transparent;
+	}
+}
+site-search button[data-open-modal],
+.pagination-links a {
+	border: 1px solid var(--rv-line);
+	border-radius: 1px;
+	box-shadow: none;
+}
+
+/* Line length: prose stays near 40 characters a line in Chinese and Japanese, 75 letters in
+   English and Korean, even where the column is wider; tables keep the full column. */
+.sl-markdown-content > :is(p, ul, ol, blockquote):not(.facts, .answer) {
+	max-width: 75ch;
+}
+:root:is([lang='zh-TW'], [lang='zh-CN'], [lang='ja']) .sl-markdown-content > :is(p, ul, ol, blockquote):not(.facts, .answer) {
+	max-width: 42em;
+}
+:root[lang='ko'] .sl-markdown-content > :is(p, ul, ol, blockquote):not(.facts, .answer) {
+	max-width: 46em;
+}
+
+/* Square controls: the phone menu button and the table of contents toggle, as the search
+   field, with a hairline frame and no filled disc. */
+button.sl-menu-button,
+button.sl-menu-button:has(~ :popover-open),
+mobile-starlight-toc .toggle {
+	border: 1px solid var(--rv-line);
+	border-radius: 1px;
+	background: transparent;
+	box-shadow: none;
+	color: var(--sl-color-white);
+}
+:root:not([data-theme='light']) site-search button[data-open-modal] {
+	background: var(--rv-panel);
+}
+
+/* Weights: 400 for text, 600 for titles, headings, names and the current item; nothing
+   heavier. */
+.sl-markdown-content :is(strong, b) {
+	font-weight: 600;
+	color: var(--sl-color-white);
+}
+
+/* Page title: serif, with spaced letters as the official site sets its headings. */
+.content-panel h1#_top {
+	font-family: var(--rv-serif);
+	font-weight: 600;
+	line-height: 1.2;
+	letter-spacing: 0.04em;
+}
+.content-panel + .content-panel {
+	border-top: 1px solid var(--rv-line);
+}
+
+/* The one-sentence answer under the title: a lead paragraph, larger and in the headings' ink
+   but not bold (MarkdownContent.astro), with a copper rule beside it. */
+.sl-markdown-content .answer {
+	padding: 0.2rem 0 0.2rem 1rem;
+	border-inline-start: 2px solid var(--rv-copper);
+}
+
+/* Section headings: serif, a hairline above that ends in a copper rhombus at each side of
+   the heading's start, as the ornaments beside the official site's section titles. */
+.sl-markdown-content .sl-heading-wrapper.level-h2 {
+	margin-top: 2.75rem;
+	padding-top: 1.1rem;
+	border-top: 1px solid var(--rv-line);
+}
+.sl-markdown-content :is(h2, h3) {
+	font-family: var(--rv-serif);
+	font-weight: 600;
+	line-height: 1.35;
+	letter-spacing: 0.03em;
+}
+.sl-markdown-content h2::before {
+	content: '';
+	display: inline-block;
+	width: 0.38em;
+	height: 0.38em;
+	margin-inline-end: 0.6em;
+	background: var(--rv-copper);
+	transform: rotate(45deg);
+	vertical-align: 0.18em;
+}
+
+/* Links in the text: the text's own ink with a copper underline; on hover the line lights up
+   and thickens, so the change is not in colour alone. */
+.sl-markdown-content a:not(:where(.not-content *)) {
+	color: var(--rv-link);
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.22em;
+	text-decoration-color: var(--rv-copper-rule);
+}
+.sl-markdown-content a:not(:where(.not-content *)):hover {
+	color: var(--sl-color-white);
+	text-decoration-color: var(--rv-copper-hover);
+	text-decoration-thickness: 2px;
+}
+
+/* Tables: no frame, rules across only, a copper rule over the head row, figures of one width
+   so that columns of numbers line up. A wide table scrolls inside itself, so the page never
+   scrolls sideways. */
+.sl-markdown-content table:not(:where(.not-content *)) {
+	display: block;
+	overflow-x: auto;
+	width: max-content;
+	max-width: 100%;
+	border-collapse: separate;
+	border-spacing: 0;
+	border: 0;
+	border-top: 2px solid var(--rv-copper-rule);
+	font-size: var(--sl-text-sm);
+	font-variant-numeric: tabular-nums;
+	line-height: 1.6;
+}
+.sl-markdown-content :is(th, td):not(:where(.not-content *)) {
+	min-width: 4.5rem;
+	padding: 0.5rem 0.75rem;
+	border: 0;
+	border-bottom: 1px solid var(--rv-line);
+	vertical-align: top;
+}
+.sl-markdown-content th:not(:where(.not-content *)) {
+	background: transparent;
+	color: var(--rv-head-text);
+	font-family: var(--rv-serif);
+	font-size: 0.82rem;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	text-align: start;
+	white-space: nowrap;
+}
+.sl-markdown-content tbody tr:nth-child(even):not(:where(.not-content *)) {
+	background: var(--rv-row);
+}
+/* The first column holds names: wide enough that a short name does not break. */
+.sl-markdown-content td:first-child:not(:where(.not-content *)) {
+	min-width: 7em;
+	font-weight: 600;
+	color: var(--sl-color-white);
+}
+.sl-markdown-content td code {
+	overflow-wrap: anywhere;
+}
+
+/* Character art: the full-length figure on its transparent ground, with no frame. On a wide
+   window it stands to the right of the profile table and the opening paragraph; the first
+   section starts below it. */
+.sl-markdown-content a:has(> img[src*='/art/']) {
+	display: block;
+}
+.sl-markdown-content img[src*='/art/'] {
+	display: block;
+	width: auto;
+	max-width: 100%;
+	max-height: 20rem;
+	margin-inline: auto;
+}
+@media (min-width: 50rem) {
+	.sl-markdown-content img[src*='/art/'] {
+		max-height: 26rem;
+	}
+	.sl-markdown-content p:has(img[src*='/art/characters/']) {
+		float: right;
+		width: min(42%, 19rem);
+		margin: 0.25rem 0 1.25rem 1.75rem;
+	}
+	.sl-markdown-content p:has(img[src*='/art/characters/']) ~ .sl-heading-wrapper.level-h2 {
+		clear: both;
+	}
+}
+
+/* Page notes after the body: a panel with a copper rule at its top; in the dark theme a dark
+   brown surface with its own grain. */
+.sl-markdown-content .facts {
+	clear: both;
+	border: 1px solid var(--rv-line);
+	border-top: 2px solid var(--rv-copper-rule);
+	border-radius: 1px;
+	background: var(--rv-panel);
+}
+:root:not([data-theme='light']) .sl-markdown-content .facts {
+	background: var(--rv-grain), var(--rv-panel);
+}
+.sl-markdown-content .facts dt {
+	color: var(--rv-muted);
+	font-size: 0.75rem;
+	letter-spacing: 0.06em;
+	line-height: 1.9;
+}
+.sl-markdown-content .facts a {
+	color: var(--sl-color-white);
+	text-decoration: underline;
+	text-decoration-color: var(--rv-muted);
+	text-underline-offset: 0.2em;
+}
+
+/* Sidebar: group names in serif; the current page has a copper edge. */
+.sidebar-content .large,
+.sidebar-content summary .large {
+	font-family: var(--rv-serif);
+	font-size: 0.95rem;
+	font-weight: 600;
+	color: var(--sl-color-gray-2);
+	letter-spacing: 0.04em;
+}
+.sidebar-content a {
+	font-size: var(--sl-text-sm);
+	border-radius: 0;
+}
+/* The current page: parchment ink, a copper line at its edge, no filled block. */
+.sidebar-content a[aria-current='page'],
+.sidebar-content a[aria-current='page']:hover,
+.sidebar-content a[aria-current='page']:focus {
+	background: transparent;
+	color: var(--sl-color-white);
+	font-weight: 600;
+	box-shadow: inset 2px 0 0 var(--rv-copper);
+}
+
+/* Table of contents. */
+starlight-toc h2,
+mobile-starlight-toc .toggle {
+	font-size: 0.8rem;
+	font-weight: 600;
+	letter-spacing: 0.06em;
+	color: var(--rv-muted);
+}
+starlight-toc a[aria-current='true'] {
+	color: var(--rv-copper-text);
+	font-weight: 600;
+	box-shadow: inset 2px 0 0 var(--rv-copper);
+}
+
+/* Motion, taken from the mainland official site (re.bluepoch.com/home/, its CSS read on
+   2026-11-22): blocks enter by fading in while they rise 2rem, in 0.5 s with the default
+   ease; characters fade in over 0.8 to 0.9 s; the pointer gets an answer in 0.3 s; the key
+   visual is a looping film of rain on a window. Here the title and the first blocks rise in,
+   section headings, tables and the page notes rise in as they first come into view, and the
+   page changes with a short cross-fade while the header and sidebar stay still; those play
+   once. The rain keeps rising in the margins: the streaks drift up one tile (260 px) in 4 s,
+   the drops creep one tile (520 px) up the glass in 90 s. Images do not move. All of it sits
+   inside prefers-reduced-motion: no-preference, and a block waits unseen for its entrance
+   only while the script in SiteTitle.astro runs (on screen, not in print). */
+@keyframes rv-rise {
+	from { opacity: 0; transform: translateY(2rem); }
+	to { opacity: 1; transform: none; }
+}
+@keyframes rv-rise-rain {
+	to { transform: translateY(-260px); }
+}
+@keyframes rv-rise-drops {
+	to { transform: translateY(-520px); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	body::before {
+		will-change: transform;
+		animation: rv-rise-rain 4s linear infinite;
+	}
+	body::after {
+		will-change: transform;
+		animation: rv-rise-drops 90s linear infinite;
+	}
+	/* Between pages the header and the sidebar stay put; only the page changes. */
+	@view-transition {
+		navigation: auto;
+	}
+	header.header {
+		view-transition-name: rv-header;
+	}
+	.sidebar-pane {
+		view-transition-name: rv-sidebar;
+	}
+	::view-transition-group(rv-header),
+	::view-transition-group(rv-sidebar),
+	::view-transition-old(rv-header),
+	::view-transition-new(rv-header),
+	::view-transition-old(rv-sidebar),
+	::view-transition-new(rv-sidebar) {
+		animation: none;
+	}
+	::view-transition-old(root),
+	::view-transition-new(root) {
+		animation-duration: 0.3s;
+	}
+
+	/* The title and the first blocks of the body rise in one after another. */
+	.content-panel h1#_top {
+		animation: rv-rise 0.5s ease 0.05s both;
+	}
+	.sl-markdown-content > :is(p, ul, ol, blockquote):not(.not-content, :has(img)):nth-child(-n + 9) {
+		animation: rv-rise 0.5s ease both;
+		animation-delay: calc(0.2s + var(--rv-i, 0) * 0.08s);
+	}
+	.sl-markdown-content > :nth-child(3) { --rv-i: 1; }
+	.sl-markdown-content > :nth-child(4) { --rv-i: 2; }
+	.sl-markdown-content > :nth-child(5) { --rv-i: 3; }
+	.sl-markdown-content > :nth-child(6) { --rv-i: 4; }
+	.sl-markdown-content > :nth-child(7) { --rv-i: 5; }
+	.sl-markdown-content > :nth-child(8) { --rv-i: 6; }
+	.sl-markdown-content > :nth-child(9) { --rv-i: 7; }
+
+	/* Until its entrance a heading, table or the page notes waits unseen, so it does not show
+	   for a frame and then vanish. Only on screen and only with the script running. */
+	@media screen {
+		.rv-motion .sl-markdown-content > :is(.sl-heading-wrapper.level-h2, table, .facts):not(.rv-in) {
+			opacity: 0;
+		}
+	}
+	.sl-markdown-content > :is(.sl-heading-wrapper.level-h2, table, .facts).rv-in {
+		animation: rv-rise 0.5s ease var(--rv-delay, 0s) both;
+	}
+
+	/* Response to the pointer: 0.3 s, as on the official site. */
+	.sl-markdown-content a:not(:where(.not-content *)),
+	.sidebar-content a,
+	starlight-toc a,
+	site-search button[data-open-modal],
+	.sl-markdown-content tbody tr {
+		transition:
+			background-color 0.3s ease,
+			color 0.3s ease,
+			text-decoration-color 0.3s ease,
+			box-shadow 0.3s ease;
+	}
+}
+
+/* Hover marks: a copper edge in the sidebar and a lit row in tables. Without motion they
+   appear at once. */
+.sidebar-content a:not([aria-current='page']):hover {
+	box-shadow: inset 2px 0 0 color-mix(in srgb, var(--rv-copper) 60%, transparent);
+}
+.sl-markdown-content tbody tr:hover:not(:where(.not-content *)) {
+	background: color-mix(in srgb, var(--rv-copper) 12%, transparent);
+}
+
+/* Figures in the serif stay lining: some fallback serifs (Georgia) draw old-style figures,
+   which make "1999" in a title look like small letters. */
+.content-panel h1#_top,
+.sl-markdown-content :is(h2, h3, th),
+.site-title {
+	font-variant-numeric: lining-nums;
+}
+/* Hangul and kana set with spaced letters read as separate syllables: no tracking there. */
+:root:is([lang='ko'], [lang='ja']) :is(.sl-markdown-content th, .content-panel h1#_top, .sl-markdown-content h2) {
+	letter-spacing: 0;
+}

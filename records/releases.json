@@ -1,0 +1,832 @@
+{
+	"source": "https://reverse1999.fandom.com/",
+	"read": "2026-11-22",
+	"arcanists": {
+		"a-knight": {
+			"page": "A Knight",
+			"revid": 84944,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"druvis-iii": {
+			"page": "Druvis III",
+			"revid": 84982,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"eagle": {
+			"page": "Eagle",
+			"revid": 92909,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"lilya": {
+			"page": "Lilya",
+			"revid": 85416,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"nick-bottom": {
+			"page": "Nick Bottom",
+			"revid": 88298,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"sotheby": {
+			"page": "Sotheby",
+			"revid": 85059,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"sweetheart": {
+			"page": "Sweetheart",
+			"revid": 85062,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"the-fool": {
+			"page": "The Fool",
+			"revid": 88261,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"x": {
+			"page": "X",
+			"revid": 85078,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"zima": {
+			"page": "Зима",
+			"revid": 88282,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"baby-blue": {
+			"page": "Baby Blue",
+			"revid": 84954,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"balloon-party": {
+			"page": "Balloon Party",
+			"revid": 84955,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"bkornblume": {
+			"page": "Bkornblume",
+			"revid": 98564,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"bunny-bunny": {
+			"page": "Bunny Bunny",
+			"revid": 88272,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"charlie": {
+			"page": "Charlie",
+			"revid": 84966,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"dikke": {
+			"page": "Dikke",
+			"revid": 84980,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"oliver-fog": {
+			"page": "Oliver Fog",
+			"revid": 88299,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"pavia": {
+			"page": "Pavia",
+			"revid": 88277,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"regulus": {
+			"page": "Regulus",
+			"revid": 101958,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"sonetto": {
+			"page": "Sonetto",
+			"revid": 85058,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"apple": {
+			"page": "APPLe",
+			"revid": 88226,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"alien-t": {
+			"page": "AliEn T",
+			"revid": 88267,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"centurion": {
+			"page": "Centurion",
+			"revid": 84965,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"cristallo": {
+			"page": "Cristallo",
+			"revid": 89899,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"la-source": {
+			"page": "La Source",
+			"revid": 88258,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"leilani": {
+			"page": "Leilani",
+			"revid": 88265,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"mondlicht": {
+			"page": "Mondlicht",
+			"revid": 88285,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"ms-radio": {
+			"page": "Ms. Radio",
+			"revid": 88256,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"schneider": {
+			"page": "Schneider",
+			"revid": 85053
+		},
+		"ttt": {
+			"page": "TTT",
+			"revid": 88274,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"an-an-lee": {
+			"page": "An-an Lee",
+			"revid": 84949,
+			"cn": "2023-03-31",
+			"global": "2023-10-26"
+		},
+		"bette": {
+			"page": "Bette",
+			"revid": 88263,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"john-titor": {
+			"page": "John Titor",
+			"revid": 88262,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"matilda": {
+			"page": "Matilda",
+			"revid": 85020,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"ms-moissan": {
+			"page": "Ms. Moissan",
+			"revid": 88297,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"necrologist": {
+			"page": "Necrologist",
+			"revid": 85035,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"rabies": {
+			"page": "Rabies",
+			"revid": 88270,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"satsuki": {
+			"page": "Satsuki",
+			"revid": 85052,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"tennant": {
+			"page": "Tennant",
+			"revid": 90926,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"twins-sleep": {
+			"page": "Twins Sleep",
+			"revid": 88260,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"click": {
+			"page": "Click",
+			"revid": 89873,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"darley-clatter": {
+			"page": "Darley Clatter",
+			"revid": 88266,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"eternity": {
+			"page": "Eternity",
+			"revid": 89894,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"medicine-pocket": {
+			"page": "Medicine Pocket",
+			"revid": 88067,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"ms-newbabel": {
+			"page": "Ms. NewBabel",
+			"revid": 85029,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"onion": {
+			"page": "ONiON",
+			"revid": 88264,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"poltergeist": {
+			"page": "Poltergeist",
+			"revid": 88300,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"sputnik": {
+			"page": "Sputnik",
+			"revid": 88268,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"tooth-fairy": {
+			"page": "Tooth Fairy",
+			"revid": 85068,
+			"cn": "2023-07-27",
+			"global": "2023-12-07"
+		},
+		"voyager": {
+			"page": "Voyager",
+			"revid": 89733,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"blonney": {
+			"page": "Blonney",
+			"revid": 84961,
+			"cn": "2023-07-27",
+			"global": "2023-12-07"
+		},
+		"diggers": {
+			"page": "Diggers",
+			"revid": 84979,
+			"cn": "2023-07-06",
+			"global": "2023-11-23"
+		},
+		"door": {
+			"page": "Door",
+			"revid": 88257,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"erick": {
+			"page": "Erick",
+			"revid": 88302,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"horropedia": {
+			"page": "Horropedia",
+			"revid": 84994,
+			"cn": "2023-08-17",
+			"global": "2023-12-28"
+		},
+		"jessica": {
+			"page": "Jessica",
+			"revid": 84998,
+			"cn": "2023-08-17",
+			"global": "2023-12-28"
+		},
+		"marcus": {
+			"page": "Marcus",
+			"revid": 85444,
+			"cn": "2024-03-21",
+			"global": "2024-08-01"
+		},
+		"melania": {
+			"page": "Melania",
+			"revid": 85022,
+			"cn": "2023-06-15",
+			"global": "2023-11-09"
+		},
+		"mesmer-jr": {
+			"page": "Mesmer Jr.",
+			"revid": 88279,
+			"cn": "2023-05-31",
+			"global": "2023-10-26"
+		},
+		"pickles": {
+			"page": "Pickles",
+			"revid": 85042,
+			"cn": "2023-07-05",
+			"global": "2023-11-23"
+		},
+		"37": {
+			"page": "37",
+			"revid": 84942,
+			"cn": "2023-10-19",
+			"global": "2024-02-29"
+		},
+		"avgust": {
+			"page": "Avgust",
+			"revid": 84952,
+			"cn": "2024-04-11",
+			"global": "2024-08-15"
+		},
+		"desert-flannel": {
+			"page": "Desert Flannel",
+			"revid": 84978,
+			"cn": "2023-12-21",
+			"global": "2024-05-09"
+		},
+		"ezra": {
+			"page": "Ezra",
+			"revid": 84989,
+			"cn": "2023-12-21",
+			"global": "2024-05-09"
+		},
+		"kaalaa-baunaa": {
+			"page": "Kaalaa Baunaa",
+			"revid": 85001,
+			"cn": "2023-09-28",
+			"global": "2024-01-18"
+		},
+		"kanjira": {
+			"page": "Kanjira",
+			"revid": 85005,
+			"cn": "2023-09-07",
+			"global": "2024-01-18"
+		},
+		"shamane": {
+			"page": "Shamane",
+			"revid": 85056,
+			"cn": "2023-09-07"
+		},
+		"spathodea": {
+			"page": "Spathodea",
+			"revid": 85060,
+			"cn": "2023-11-30",
+			"global": "2024-04-18"
+		},
+		"ulu": {
+			"page": "Ulu",
+			"revid": 85205,
+			"cn": "2023-11-30",
+			"global": "2024-04-18"
+		},
+		"windsong": {
+			"page": "Windsong",
+			"revid": 85077,
+			"cn": "2024-04-25",
+			"global": "2024-08-29"
+		},
+		"6": {
+			"page": "6",
+			"revid": 84943,
+			"cn": "2023-11-09",
+			"global": "2024-03-28"
+		},
+		"getian": {
+			"page": "Getian",
+			"revid": 84992,
+			"cn": "2024-02-01",
+			"global": "2024-06-20"
+		},
+		"isolde": {
+			"page": "Isolde",
+			"revid": 85004,
+			"cn": "2024-02-22"
+		},
+		"jiu-niangzi": {
+			"page": "Jiu Niangzi",
+			"revid": 96733,
+			"cn": "2024-01-11",
+			"global": "2024-05-30"
+		},
+		"kakania": {
+			"page": "Kakania",
+			"revid": 85003,
+			"cn": "2024-06-06",
+			"global": "2024-10-10"
+		},
+		"lorelei": {
+			"page": "Lorelei",
+			"revid": 85015,
+			"cn": "2024-05-30",
+			"global": "2024-09-19"
+		},
+		"lucy": {
+			"page": "Lucy",
+			"revid": 90493,
+			"cn": "2024-05-16",
+			"global": "2024-09-19"
+		},
+		"semmelweis": {
+			"page": "Semmelweis",
+			"revid": 89245,
+			"cn": "2024-05-16",
+			"global": "2024-09-19"
+		},
+		"vila": {
+			"page": "Vila",
+			"revid": 85073,
+			"cn": "2024-04-11",
+			"global": "2024-08-15"
+		},
+		"yenisei": {
+			"page": "Yenisei",
+			"revid": 85079,
+			"cn": "2024-01-11",
+			"global": "2024-05-30"
+		},
+		"anjo-nala": {
+			"page": "Anjo Nala",
+			"revid": 84950,
+			"cn": "2024-09-19",
+			"global": "2025-01-09"
+		},
+		"argus": {
+			"page": "Argus",
+			"revid": 84951,
+			"cn": "2024-08-29",
+			"global": "2024-12-26"
+		},
+		"barbara": {
+			"page": "Barbara",
+			"revid": 84956,
+			"cn": "2024-08-08",
+			"global": "2024-12-05"
+		},
+		"igor": {
+			"page": "Igor",
+			"revid": 88988,
+			"cn": "2026-01-01",
+			"global": "2026-03-26"
+		},
+		"j": {
+			"page": "J",
+			"revid": 94458,
+			"cn": "2024-06-27",
+			"global": "2024-11-21"
+		},
+		"lopera": {
+			"page": "Lopera",
+			"revid": 87281,
+			"cn": "2024-10-10",
+			"global": "2025-01-30"
+		},
+		"mercuria": {
+			"page": "Mercuria",
+			"revid": 85023,
+			"cn": "2024-07-18",
+			"global": "2024-10-31"
+		},
+		"pioneer": {
+			"page": "Pioneer",
+			"revid": 102344,
+			"cn": "2024-06-27",
+			"global": "2024-10-31"
+		},
+		"tuesday": {
+			"page": "Tuesday",
+			"revid": 85069,
+			"cn": "2024-08-08",
+			"global": "2024-12-05"
+		},
+		"white-rum": {
+			"page": "White Rum",
+			"revid": 88303,
+			"cn": "2024-09-19",
+			"global": "2025-01-09"
+		},
+		"barcarola": {
+			"page": "Barcarola",
+			"revid": 84957,
+			"cn": "2024-12-12",
+			"global": "2025-03-27"
+		},
+		"brimley": {
+			"page": "Brimley",
+			"revid": 84962,
+			"cn": "2024-11-21",
+			"global": "2025-03-06"
+		},
+		"fatutu": {
+			"page": "Fatutu",
+			"revid": 84990,
+			"cn": "2024-12-26",
+			"global": "2025-04-10"
+		},
+		"flutterpage": {
+			"page": "Flutterpage",
+			"revid": 84991,
+			"cn": "2024-11-21",
+			"global": "2025-03-06"
+		},
+		"liang-yue": {
+			"page": "Liang Yue",
+			"revid": 85011,
+			"cn": "2025-01-16",
+			"global": "2025-04-24"
+		},
+		"loggerhead": {
+			"page": "Loggerhead",
+			"revid": 85013,
+			"cn": "2025-01-16",
+			"global": "2025-04-24"
+		},
+		"mr-duncan": {
+			"page": "Mr. Duncan",
+			"revid": 85027,
+			"cn": "2024-09-19",
+			"global": "2025-01-09"
+		},
+		"noire": {
+			"page": "Noire",
+			"revid": 85037,
+			"cn": "2025-02-06",
+			"global": "2025-05-08"
+		},
+		"ulrich": {
+			"page": "Ulrich",
+			"revid": 85071,
+			"cn": "2025-05-15",
+			"global": "2025-09-19"
+		},
+		"willow": {
+			"page": "Willow",
+			"revid": 85076,
+			"cn": "2024-10-31",
+			"global": "2025-02-20"
+		},
+		"aleph": {
+			"page": "Aleph",
+			"revid": 84946,
+			"cn": "2025-03-20",
+			"global": "2025-06-19"
+		},
+		"alexios": {
+			"page": "Alexios",
+			"revid": 84947,
+			"cn": "2025-08-28",
+			"global": "2025-08-28"
+		},
+		"buddy-fairchild": {
+			"page": "Buddy Fairchild",
+			"revid": 84963,
+			"cn": "2025-05-15",
+			"global": "2025-09-19"
+		},
+		"ezio-auditore": {
+			"page": "Ezio Auditore",
+			"revid": 84988,
+			"cn": "2025-08-07",
+			"global": "2025-08-07"
+		},
+		"hissabeth": {
+			"page": "Hissabeth",
+			"revid": 94459,
+			"cn": "2025-04-10",
+			"global": "2025-07-03"
+		},
+		"kiperina": {
+			"page": "Kiperina",
+			"revid": 85007,
+			"cn": "2025-04-24",
+			"global": "2025-07-24"
+		},
+		"moldir": {
+			"page": "Moldir",
+			"revid": 86547,
+			"cn": "2025-06-05",
+			"global": "2025-10-09"
+		},
+		"name-day": {
+			"page": "Name Day",
+			"revid": 87550,
+			"cn": "2025-04-10",
+			"global": "2025-07-03"
+		},
+		"nautika": {
+			"page": "Nautika",
+			"revid": 101999,
+			"cn": "2025-05-15",
+			"global": "2025-09-19"
+		},
+		"recoleta": {
+			"page": "Recoleta",
+			"revid": 92845,
+			"cn": "2025-02-27",
+			"global": "2025-05-29"
+		},
+		"beryl": {
+			"page": "Beryl",
+			"revid": 97396,
+			"cn": "2025-10-30",
+			"global": "2026-01-20"
+		},
+		"brume": {
+			"page": "Brume",
+			"revid": 84967,
+			"cn": "2025-11-20",
+			"global": "2026-02-12"
+		},
+		"charon": {
+			"page": "Charon",
+			"revid": 84968,
+			"cn": "2025-07-17",
+			"global": "2025-11-20"
+		},
+		"cheng-heguang": {
+			"page": "Cheng Heguang",
+			"revid": 86785,
+			"cn": "2026-02-12",
+			"global": "2026-05-07"
+		},
+		"corvus": {
+			"page": "Corvus",
+			"revid": 84975,
+			"cn": "2025-10-09",
+			"global": "2026-01-01"
+		},
+		"kassandra": {
+			"page": "Kassandra",
+			"revid": 85006,
+			"cn": "2025-08-28",
+			"global": "2025-08-28"
+		},
+		"lady-by-the-lake": {
+			"page": "Lady by the Lake",
+			"revid": 92534
+		},
+		"marsha": {
+			"page": "Marsha",
+			"revid": 89026,
+			"cn": "2025-12-11",
+			"global": "2026-03-05"
+		},
+		"rubuska": {
+			"page": "Rubuska",
+			"revid": 85051,
+			"cn": "2025-09-19",
+			"global": "2025-12-11"
+		},
+		"sentinel": {
+			"page": "Sentinel",
+			"revid": 91285,
+			"cn": "2025-06-26",
+			"global": "2025-10-30"
+		},
+		"coppelia": {
+			"page": "Coppélia",
+			"revid": 98913,
+			"cn": "2026-04-30",
+			"global": "2026-08-13"
+		},
+		"cornerstone": {
+			"page": "Cornerstone",
+			"revid": 101523,
+			"cn": "2026-07-02",
+			"global": "2026-10-15"
+		},
+		"enigma": {
+			"page": "Enigma",
+			"revid": 92535,
+			"cn": "2026-04-09",
+			"global": "2026-07-02"
+		},
+		"everecho": {
+			"page": "Everecho",
+			"revid": 102002,
+			"cn": "2026-06-11",
+			"global": "2026-09-24"
+		},
+		"lorentz-butterfly": {
+			"page": "Lorentz Butterfly",
+			"revid": 100694,
+			"cn": "2026-03-05",
+			"global": "2026-05-28"
+		},
+		"ms-stranger": {
+			"page": "Ms. Stranger",
+			"revid": 89946,
+			"cn": "2026-05-21",
+			"global": "2026-09-03"
+		},
+		"paper-heron": {
+			"page": "Paper Heron",
+			"revid": 97034,
+			"cn": "2026-01-20",
+			"global": "2026-04-16"
+		},
+		"ramona": {
+			"page": "Ramona",
+			"revid": 93271,
+			"cn": "2026-03-26",
+			"global": "2026-06-18"
+		},
+		"reed": {
+			"page": "Reed",
+			"revid": 96732,
+			"cn": "2026-02-12",
+			"global": "2026-05-01"
+		},
+		"rhiannon": {
+			"page": "Rhiannon",
+			"revid": 93343,
+			"cn": "2026-04-30",
+			"global": "2026-08-13"
+		},
+		"drake": {
+			"page": "Drake",
+			"revid": 101381
+		},
+		"evelyn": {
+			"page": "Evelyn",
+			"revid": 109755,
+			"cn": "2026-11-26"
+		},
+		"glyndwr": {
+			"page": "Glyndŵr",
+			"revid": 101416
+		},
+		"hedone": {
+			"page": "Hedone",
+			"revid": 108711,
+			"cn": "2026-08-13",
+			"global": "2026-11-05"
+		},
+		"huntsworn-lilya": {
+			"page": "Huntsworn Lilya",
+			"revid": 101270,
+			"cn": "2026-09-24"
+		},
+		"nora": {
+			"page": "NORA",
+			"revid": 92540,
+			"cn": "2026-07-23",
+			"global": "2026-07-23"
+		},
+		"narcissus": {
+			"page": "Narcissus",
+			"revid": 107389,
+			"cn": "2026-09-03"
+		},
+		"perchta": {
+			"page": "Perchta",
+			"revid": 108771,
+			"cn": "2026-11-05"
+		},
+		"silverwing-eagle": {
+			"page": "Silverwing Eagle",
+			"revid": 103308,
+			"cn": "2026-04-30",
+			"global": "2026-08-13"
+		},
+		"the-twins": {
+			"page": "The Twins",
+			"revid": 109164,
+			"cn": "2026-07-23",
+			"global": "2026-07-23"
+		}
+	}
+}
