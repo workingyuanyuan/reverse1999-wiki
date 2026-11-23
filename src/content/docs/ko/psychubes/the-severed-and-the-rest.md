@@ -8,6 +8,11 @@ aliases:
   - "The Severed and the Rest"
   - "留置心底"
   - "心に刻み込んだもの"
+art:
+  - title: "Reverse: 1999 Wiki (Fandom), File:The Severed and the Rest Psychube.png"
+    url: https://reverse1999.fandom.com/wiki/File:The_Severed_and_the_Rest_Psychube.png
+  - title: "이미지 파일, 2025-08-17 업로드"
+    url: https://static.wikia.nocookie.net/reverse1999/images/2/20/The_Severed_and_the_Rest_Psychube.png/revision/latest?cb=20250817095931
 sources:
   - title: "re1999-data, 중국 본토 클라이언트 113.0.1422: equip.json, equip_skill.json, equip_strengthen.json, equip_break_attr.json, character_recommend.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
@@ -16,6 +21,8 @@ sources:
   - title: "re1999-data-global, 글로벌 클라이언트 111.0.1077: 영어 텍스트"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language/language_en.json
 ---
+
+![마음 속에 남겨진 것 의지 일러스트](/art/psychubes/the-severed-and-the-rest.webp)
 
 | 항목 | 내용 |
 | --- | --- |

@@ -9,6 +9,11 @@ aliases:
   - "惶然的貝殼"
   - "惶然的贝壳"
   - "두려워하는 조개껍데기"
+art:
+  - title: "Reverse: 1999 Wiki (Fandom)、File:Cracks in the Shell Psychube.png"
+    url: https://reverse1999.fandom.com/wiki/File:Cracks_in_the_Shell_Psychube.png
+  - title: "画像ファイル、2024-12-26 アップロード"
+    url: https://static.wikia.nocookie.net/reverse1999/images/c/c5/Cracks_in_the_Shell_Psychube.png/revision/latest?cb=20241226085743
 sources:
   - title: "re1999-data、中国本土版クライアント 113.0.1422：equip.json、equip_skill.json、equip_strengthen.json、equip_break_attr.json、character_recommend.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
@@ -17,6 +22,8 @@ sources:
   - title: "re1999-data-global、グローバル版クライアント 111.0.1077：英語テキスト"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language/language_en.json
 ---
+
+![貝殻のひび割れの心相イラスト](/art/psychubes/cracks-in-the-shell.webp)
 
 | 項目 | 内容 |
 | --- | --- |

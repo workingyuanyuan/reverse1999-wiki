@@ -56,6 +56,7 @@ sources:
 - [战斗基础](/zh-cn/systems/combat/)
 - [状态效果](/zh-cn/systems/statuses/)
 - [洞悉与等级](/zh-cn/systems/insight/)
+- [共鸣](/zh-cn/systems/resonance/)
 - [上线日期](/zh-cn/systems/releases/)
 - [征集与保底](/zh-cn/systems/summoning/)
 

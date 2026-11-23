@@ -9,6 +9,11 @@ aliases:
   - "漸近的雨聲"
   - "近づく雨の音"
   - "가까워지는 빗소리"
+art:
+  - title: "Reverse: 1999 Wiki (Fandom)，File:Approaching Rain Psychube.png"
+    url: https://reverse1999.fandom.com/wiki/File:Approaching_Rain_Psychube.png
+  - title: "图片档，2024-10-20 上传"
+    url: https://static.wikia.nocookie.net/reverse1999/images/7/7c/Approaching_Rain_Psychube.png/revision/latest?cb=20241020004226
 sources:
   - title: "re1999-data，中国大陆版客户端 113.0.1422：equip.json、equip_skill.json、equip_strengthen.json、equip_break_attr.json、character_recommend.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
@@ -17,6 +22,8 @@ sources:
   - title: "re1999-data-global，国际版客户端 111.0.1077：英文文字"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language/language_en.json
 ---
+
+![渐近的雨声心相插图](/art/psychubes/approaching-rain.webp)
 
 | 项目 | 内容 |
 | --- | --- |

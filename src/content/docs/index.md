@@ -56,6 +56,7 @@ Arcanists in the mainland China client 113.0.1422 who are not in the global clie
 - [Combat basics](/systems/combat/)
 - [Statuses](/systems/statuses/)
 - [Insight and levels](/systems/insight/)
+- [Resonance](/systems/resonance/)
 - [Release dates](/systems/releases/)
 - [Summoning and pity](/systems/summoning/)
 

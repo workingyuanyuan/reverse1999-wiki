@@ -9,6 +9,11 @@ aliases:
   - "非物质真情"
   - "愛の本質"
   - "실체 없는 진실"
+art:
+  - title: "Reverse: 1999 Wiki (Fandom)，File:Transcendent Love Psychube.png"
+    url: https://reverse1999.fandom.com/wiki/File:Transcendent_Love_Psychube.png
+  - title: "圖片檔，2024-11-02 上傳"
+    url: https://static.wikia.nocookie.net/reverse1999/images/e/e6/Transcendent_Love_Psychube.png/revision/latest?cb=20241102071641
 sources:
   - title: "re1999-data，中國大陸版用戶端 113.0.1422：equip.json、equip_skill.json、equip_strengthen.json、equip_break_attr.json、character_recommend.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
@@ -17,6 +22,8 @@ sources:
   - title: "re1999-data-global，國際版用戶端 111.0.1077：英文文字"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language/language_en.json
 ---
+
+![非物質真情心相插圖](/art/psychubes/transcendent-love.webp)
 
 | 項目 | 內容 |
 | --- | --- |

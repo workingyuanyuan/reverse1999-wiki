@@ -9,6 +9,11 @@ aliases:
   - "世界多喧鬧"
   - "世界多喧闹"
   - "喧騒を遠ざけて"
+art:
+  - title: "Reverse: 1999 Wiki (Fandom), File:Drown Out the Hustle Psychube.png"
+    url: https://reverse1999.fandom.com/wiki/File:Drown_Out_the_Hustle_Psychube.png
+  - title: "이미지 파일, 2026-06-11 업로드"
+    url: https://static.wikia.nocookie.net/reverse1999/images/9/9d/Drown_Out_the_Hustle_Psychube.png/revision/latest?cb=20260611050937
 sources:
   - title: "re1999-data, 중국 본토 클라이언트 113.0.1422: equip.json, equip_skill.json, equip_strengthen.json, equip_break_attr.json, character_recommend.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
@@ -17,6 +22,8 @@ sources:
   - title: "re1999-data-global, 글로벌 클라이언트 111.0.1077: 영어 텍스트"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language/language_en.json
 ---
+
+![소란스러운 세상 의지 일러스트](/art/psychubes/drown-out-the-hustle.webp)
 
 | 항목 | 내용 |
 | --- | --- |

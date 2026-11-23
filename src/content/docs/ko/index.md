@@ -56,6 +56,7 @@ sources:
 - [전투 기본](/ko/systems/combat/)
 - [상태 효과](/ko/systems/statuses/)
 - [통찰과 레벨](/ko/systems/insight/)
+- [공명](/ko/systems/resonance/)
 - [출시일](/ko/systems/releases/)
 - [모집과 천장](/ko/systems/summoning/)
 

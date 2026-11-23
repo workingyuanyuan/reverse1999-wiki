@@ -2,7 +2,7 @@
 
   python3 -I pipeline/write_systems.py [lang ...]     (default: en zh-tw ja ko)
 
-Writes src/content/docs/{,zh-tw/,ja/,ko/}systems/{releases,insight}.md (zh-cn: scripts/to-zh-cn.py).
+Writes src/content/docs/{,zh-tw/,ja/,ko/}systems/{releases,insight,statuses,resonance}.md (zh-cn: scripts/to-zh-cn.py).
 Overwrites them; they are not edited by hand. Change the wording here.
 
 releases: every arcanist's release date on the mainland and the global service (records/releases.json,
@@ -11,6 +11,11 @@ insight: what each Insight gives and costs by rarity, from character_rank.json o
   Levels in that table run on across Insight stages (caps 30, 70, 120, 180): the cap of Insight n is the
   difference. Level costs (character_cosume.json) are left out: their rows do not line up one to one with
   the levels of a stage, and no second source gives the totals.
+resonance: Resonance levels, grid, main Idea, materials and Resonance Patterns by rarity, from
+  character_talent.json, talent_mould.json, talent_style.json, talent_style_cost.json and talent_cube_attr.json
+  of the mainland client; every value is checked to agree within a rarity. What a pattern raises or lowers
+  is the sign of the difference between its main Idea and Placidity's at the main Idea's top level; the
+  values themselves are left out, as no second source gives their unit.
 """
 import collections
 import datetime as dt
@@ -358,7 +363,254 @@ def statuses(lang):
 	return fm(d['title'], d['description'], l['applies_cn'], d['caveat'], d['aliases'], srcs) + '\n'.join(body).rstrip() + '\n'
 
 
-PAGES = {'releases': releases, 'insight': insight, 'statuses': statuses}
+# ---------------------------------------------------------------- resonance
+
+RES_ALIASES = ['Resonance', '共鳴', '共鸣', '공명', 'Resonance Patterns', '共鳴調頻', '共鸣调频', '共鳴の変調', '공명 변조',
+	'Reasoning', '覺察', '觉察', '察知', '감지']
+CUBE = {'hp': 'hp', 'atk': 'attack', 'def': 'defense', 'mdef': 'mdefense', 'cri': 'cri', 'recri': 'recri',
+	'cri_dmg': 'criDmg', 'cri_def': 'criDef', 'add_dmg': 'addDmg', 'drop_dmg': 'dropDmg', 'revive': 'revive',
+	'absorb': 'absorb', 'clutch': 'clutch', 'heal': 'heal', 'defenseIgnore': 'defenseIgnore', 'normalSkillRate': 'normalSkillRate'}
+RES_ITEMS = {'dissonance': 120011, 'cacophony': 120012, 'knell': 120013}
+RES_ADV = [120001, 120002, 120003, 120004]
+# Language keys of the global client: Resonance, Resonance Patterns, Idea Level, Reasoning, Reasoning Patterns.
+RES_KEYS = {'resonance': 'language_10005055', 'patterns': 'language_10047749', 'idea': 'language_10030990',
+	'reasoning': 'language_10030057', 'rpatterns': 'language_10047750'}
+RT2 = {
+	'en': dict(
+		title='Resonance', desc='Reverse: 1999 Resonance: levels and Insight by rarity, the grid, materials and Resonance Patterns.',
+		caveat='Resonance levels 11 to 15 exist for 5- and 6-star arcanists only and need Insight III; 2-, 3- and 4-star arcanists stop at level 10.',
+		lead='Resonance raises an arcanist\'s stats with Ideas: pieces of several shapes placed on a grid. Each level enlarges the grid, adds Ideas or raises their level, and raises the main Idea, the piece in the shape of the arcanist\'s own set. Resonance opens at Insight I. Some arcanists show the same system as {reasoning}, with {rpatterns}.',
+		head=('Field', 'Value'),
+		rows=[('Opens at', 'Insight I'), ('Max level', '{max56} for 5- and 6-star arcanists, {max24} for 2-, 3- and 4-star'),
+			('Resonance Patterns', 'from Resonance level {style}'), ('Main Idea, max level', '{m56} (5 and 6 stars), {m24} (2 to 4 stars)')],
+		levels='Levels', levcols=('Resonance level', 'Insight needed', 'Grid', 'Main Idea level'), ins={2: 'Insight I', 3: 'Insight II', 4: 'Insight III'},
+		mats='Materials', matnote='Totals over every level. Each level also takes general materials that differ by arcanist.',
+		matcols=('Material', 'Levels', '6 stars', '5 stars', '4 stars', '2 and 3 stars'), adv='one of {names}, by arcanist', lv='{a} to {b}', lv2='{a} and {b}',
+		pat='Resonance Patterns', patlead='Patterns open at Resonance level {style}. Each arcanist has one of four sets, told apart by the shape of their main Idea; every set has the default pattern {default} and five more. A pattern changes the stats of the main Idea, and changing pattern keeps the Idea level. Compared with {default}:',
+		patcols=('Set', 'Pattern', 'Raises', 'Lowers'), shapes={1: 'Z-shaped', 2: 'Cross-shaped', 3: 'T-shaped', 4: 'U-shaped'},
+		patdiff='For 2-, 3- and 4-star arcanists the same, except: {items}.', patdiffitem='{p} does not lower {s}',
+		cost='Each pattern other than {default} costs Sharpodonty and materials that differ by arcanist:', costcols=('Rarity', 'Each pattern', 'All five'),
+		who='Arcanists by set', whocols=('Set', 'Arcanists'),
+		names='Names', namecols=('English', 'Simplified Chinese', 'Traditional Chinese', 'Japanese', 'Korean'),
+		stars='{n} stars', stars23='2 and 3 stars', none='—', sep=', ', orw=' or ',
+		src=[('re1999-data, mainland client {cn}: character_talent.json, talent_mould.json, talent_style.json, talent_style_cost.json, talent_cube_attr.json', 'cn'),
+			('re1999-data-global, global client {gl}: talent_style.json and the names of materials and patterns', 'gl'),
+			('BWIKI, 十四行诗, revision 26647 (Resonance and pattern materials)', 'bwiki')]),
+	'zh-tw': dict(
+		title='共鳴', desc='重返未來：1999 的共鳴：各稀有度的等級與洞悉、格子、材料與共鳴調頻。',
+		caveat='共鳴 11 到 15 級只有 5、6 星神秘學家有，且需要洞悉三；2、3、4 星神秘學家最高 10 級。',
+		lead='共鳴以思緒提升神秘學家的屬性：思緒是形狀各異的方塊，放在格子上。每升一級，格子變大、思緒增加或升級，主思緒也隨之升級；主思緒是神秘學家所屬組別形狀的方塊。洞悉一後開放共鳴。部分神秘學家的同一系統顯示為{reasoning}，調頻顯示為{rpatterns}。',
+		head=('項目', '內容'),
+		rows=[('開放條件', '洞悉一'), ('等級上限', '5、6 星神秘學家 {max56} 級，2、3、4 星 {max24} 級'),
+			('共鳴調頻', '共鳴 {style} 級起'), ('主思緒等級上限', '{m56}（5、6 星）、{m24}（2 至 4 星）')],
+		levels='等級', levcols=('共鳴等級', '所需洞悉', '格子', '主思緒等級'), ins={2: '洞悉一', 3: '洞悉二', 4: '洞悉三'},
+		mats='材料', matnote='以下為所有等級的合計。每一級另需因神秘學家而異的一般材料。',
+		matcols=('材料', '等級', '6 星', '5 星', '4 星', '2 星與 3 星'), adv='{names}其中一種，因神秘學家而異', lv='{a} 至 {b}', lv2='{a} 與 {b}',
+		pat='共鳴調頻', patlead='共鳴 {style} 級開放調頻。每位神秘學家屬於四組之一，各組以主思緒的形狀區分；每組有預設調頻{default}和另外五種。調頻改變主思緒的屬性，更換調頻不會重置思緒等級。與{default}相比：',
+		patcols=('組別', '調頻', '提高', '降低'), shapes={1: 'Z 形', 2: '十字形', 3: 'T 形', 4: 'U 形'},
+		patdiff='2、3、4 星神秘學家相同，但{items}。', patdiffitem='{p}不降低{s}',
+		cost='{default}以外的每種調頻消耗利齒子兒與因神秘學家而異的材料：', costcols=('稀有度', '每種調頻', '五種合計'),
+		who='各組的神秘學家', whocols=('組別', '神秘學家'),
+		names='名稱', namecols=('英文', '簡體中文', '繁體中文', '日文', '韓文'),
+		stars='{n} 星', stars23='2 星與 3 星', none='—', sep='、', orw='或',
+		src=[('re1999-data，中國大陸版用戶端 {cn}：character_talent.json、talent_mould.json、talent_style.json、talent_style_cost.json、talent_cube_attr.json', 'cn'),
+			('re1999-data-global，國際版用戶端 {gl}：talent_style.json 與材料、調頻名稱', 'gl'),
+			('BWIKI，十四行诗，修訂版 26647（共鳴與調頻材料）', 'bwiki')]),
+	'ja': dict(
+		title='共鳴', desc='リバース：1999 の共鳴：レア度ごとのレベルと洞察、マス、素材、共鳴の変調。',
+		caveat='共鳴レベル11から15は★5と★6の神秘学家だけにあり、洞察3が必要。★2、★3、★4の神秘学家はレベル10まで。',
+		lead='共鳴は思念で神秘学家のステータスを上げる。思念はさまざまな形のピースで、マスに配置する。レベルが上がるごとにマスが広がり、思念が増えるかレベルが上がり、メイン思念も上がる。メイン思念はその神秘学家が属するグループの形のピース。共鳴は洞察1で開放される。一部の神秘学家では同じシステムが{reasoning}、変調が{rpatterns}と表示される。',
+		head=('項目', '内容'),
+		rows=[('開放条件', '洞察1'), ('最大レベル', '★5と★6の神秘学家は{max56}、★2、★3、★4は{max24}'),
+			('共鳴の変調', '共鳴レベル{style}から'), ('メイン思念の最大レベル', '{m56}（★5と★6）、{m24}（★2から★4）')],
+		levels='レベル', levcols=('共鳴レベル', '必要な洞察', 'マス', 'メイン思念レベル'), ins={2: '洞察1', 3: '洞察2', 4: '洞察3'},
+		mats='素材', matnote='全レベルの合計。各レベルでは神秘学家ごとに異なる一般素材も必要。',
+		matcols=('素材', 'レベル', '★6', '★5', '★4', '★2と★3'), adv='{names}のうち1種、神秘学家ごとに異なる', lv='{a}から{b}', lv2='{a}と{b}',
+		pat='共鳴の変調', patlead='変調は共鳴レベル{style}で開放される。神秘学家はそれぞれ4つのグループのどれかに属し、グループはメイン思念の形で見分けられる。どのグループにもデフォルトの{default}とほかに5つの変調がある。変調はメイン思念のステータスを変え、変調を切り替えても思念レベルは変わらない。{default}と比べて：',
+		patcols=('グループ', '変調', '上がる', '下がる'), shapes={1: 'Z字型', 2: '十字型', 3: 'T字型', 4: 'U字型'},
+		patdiff='★2、★3、★4の神秘学家も同じ。ただし{items}。', patdiffitem='{p}は{s}が下がらない',
+		cost='{default}以外の変調にはそれぞれ咬噛銭貨と神秘学家ごとに異なる素材が必要：', costcols=('レア度', '変調1つ', '5つの合計'),
+		who='グループ別の神秘学家', whocols=('グループ', '神秘学家'),
+		names='名前', namecols=('英語', '簡体字中国語', '繁体字中国語', '日本語', '韓国語'),
+		stars='★{n}', stars23='★2と★3', none='—', sep='、', orw='か',
+		src=[('re1999-data、中国本土版クライアント {cn}：character_talent.json、talent_mould.json、talent_style.json、talent_style_cost.json、talent_cube_attr.json', 'cn'),
+			('re1999-data-global、グローバル版クライアント {gl}：talent_style.json と素材名、変調名', 'gl'),
+			('BWIKI、十四行诗、版 26647（共鳴と変調の素材）', 'bwiki')]),
+	'ko': dict(
+		title='공명', desc='리버스: 1999 공명: 희귀도별 레벨과 통찰, 칸, 재료, 공명 변조.',
+		caveat='공명 레벨 11부터 15는 5성과 6성 마도학자에게만 있고 통찰 3이 필요하다. 2, 3, 4성 마도학자는 레벨 10까지다.',
+		lead='공명은 생각으로 마도학자의 스탯을 올린다. 생각은 여러 모양의 조각이며 칸 위에 배치한다. 레벨이 오를 때마다 칸이 넓어지고, 생각이 늘거나 레벨이 오르며, 주요 생각도 오른다. 주요 생각은 마도학자가 속한 그룹 모양의 조각이다. 공명은 통찰 1에 열린다. 일부 마도학자에게는 같은 시스템의 이름이 {reasoning}, 변조의 이름이 {rpatterns}이다.',
+		head=('항목', '내용'),
+		rows=[('개방 조건', '통찰 1'), ('최대 레벨', '5성과 6성 마도학자는 {max56}, 2, 3, 4성은 {max24}'),
+			('공명 변조', '공명 레벨 {style}부터'), ('주요 생각 최대 레벨', '{m56}(5성과 6성), {m24}(2성부터 4성)')],
+		levels='레벨', levcols=('공명 레벨', '필요한 통찰', '칸', '주요 생각 레벨'), ins={2: '통찰 1', 3: '통찰 2', 4: '통찰 3'},
+		mats='재료', matnote='모든 레벨의 합계다. 레벨마다 마도학자에 따라 다른 일반 재료도 든다.',
+		matcols=('재료', '레벨', '6성', '5성', '4성', '2성과 3성'), adv='{names} 중 하나, 마도학자에 따라 다름', lv='{a}부터 {b}', lv2='{a}와 {b}',
+		pat='공명 변조', patlead='변조는 공명 레벨 {style}에 열린다. 마도학자는 네 그룹 중 하나에 속하며, 그룹은 주요 생각의 모양으로 구별된다. 모든 그룹에 기본 변조 {default}와 다섯 가지가 더 있다. 변조는 주요 생각의 스탯을 바꾸며, 변조를 바꿔도 생각 레벨은 그대로다. {default}와 비교하면:',
+		patcols=('그룹', '변조', '오름', '내림'), shapes={1: 'Z자형', 2: '십자형', 3: 'T자형', 4: 'U자형'},
+		patdiff='2, 3, 4성 마도학자도 같다. 다만 {items}.', patdiffitem='{p}에서는 {s} 감소가 없다',
+		cost='{default} 외의 변조는 각각 톱니 동전과 마도학자에 따라 다른 재료가 든다:', costcols=('희귀도', '변조 하나', '다섯 가지 합계'),
+		who='그룹별 마도학자', whocols=('그룹', '마도학자'),
+		names='이름', namecols=('영어', '간체 중국어', '번체 중국어', '일본어', '한국어'),
+		stars='{n}성', stars23='2성과 3성', none='—', sep=', ', orw=' 또는 ',
+		src=[('re1999-data, 중국 본토 클라이언트 {cn}: character_talent.json, talent_mould.json, talent_style.json, talent_style_cost.json, talent_cube_attr.json', 'cn'),
+			('re1999-data-global, 글로벌 클라이언트 {gl}: talent_style.json과 재료, 변조 이름', 'gl'),
+			('BWIKI, 十四行诗, 판 26647 (공명과 변조 재료)', 'bwiki')]),
+}
+BWIKI_SONETTO = 'https://wiki.biligame.com/reverse1999/%E5%8D%81%E5%9B%9B%E8%A1%8C%E8%AF%97?oldid=26647'
+
+
+def _parts(consume):
+	for part in filter(None, (consume or '').split('|')):
+		kind, item, n = part.split('#')
+		yield kind, int(item), int(n)
+
+
+def resonance_data():
+	"""Everything the Resonance page states, checked to agree within a rarity (2 and 3 stars together)."""
+	rec = {a['id']: a for a in s.REC.values() if a['slug'] not in wi.SKIP}
+	rows = collections.defaultdict(list)
+	for r in g.cn('character_talent'):
+		if r['heroId'] in rec:
+			rows[r['heroId']].append(r)
+	band = lambda st: '23' if st in (2, 3) else str(st)  # noqa: E731
+	per = collections.defaultdict(set)
+	sets = collections.defaultdict(list)
+	for h, rs in rows.items():
+		a, rs = rec[h], sorted(rows[h], key=lambda r: r['talentId'])
+		b = band(a['stars'])
+		moulds = {r['talentMould'] for r in rs}
+		if len(moulds) != 1:
+			sys.exit(f'{a["slug"]}: more than one Resonance set')
+		sets[next(iter(moulds))].append(a)
+		per[(b, 'max')].add(len(rs))
+		per[(b, 'req')].add(tuple(r['requirement'] for r in rs))
+		per[(b, 'main')].add(tuple(int(r['exclusive'].split('#')[1]) for r in rs))
+		per[(b, 'sharp')].add(tuple(sum(n for k, i, n in _parts(r['consume']) if k == '2' and i == 3) for r in rs))
+		for key, item in RES_ITEMS.items():
+			per[(b, key)].add(tuple(sum(n for k, i, n in _parts(r['consume']) if k == '1' and i == item) for r in rs))
+		per[(b, 'adv')].add(tuple(sum(n for k, i, n in _parts(r['consume']) if k == '1' and i in RES_ADV) for r in rs))
+	for h in rows:
+		for r in g.cn('talent_style_cost'):
+			if r['heroId'] == h:
+				per[(band(rec[h]['stars']), 'style')].add(sum(n for k, i, n in _parts(r['consume']) if k == '2' and i == 3))
+	for k, v in per.items():
+		if len(v) != 1:
+			sys.exit(f'Resonance {k}: values differ between arcanists: {sorted(v)}')
+	d = {k: next(iter(v)) for k, v in per.items()}
+	grid = {}
+	for r in g.cn('talent_mould'):
+		grid.setdefault(r['talentId'], set()).add(r['allShape'])
+	if any(len(v) != 1 for v in grid.values()):
+		sys.exit('Resonance grid differs between sets')
+	styles = collections.defaultdict(dict)
+	for r in g.cn('talent_style'):
+		styles[r['talentMould']][r['styleId']] = r
+	opens = {r['level'] for m in styles.values() for r in m.values() if r['styleId']}
+	if len(opens) != 1:
+		sys.exit(f'Resonance Patterns open at different levels: {opens}')
+	cube = collections.defaultdict(dict)
+	for r in g.cn('talent_cube_attr'):
+		cube[r['id']][r['level']] = r
+	gl_style = {(r['talentMould'], r['styleId']): r['name'] for r in g.gl('talent_style')}
+
+	def change(base, new):
+		a, b = cube[base][max(cube[base])], cube[new][max(cube[new])]
+		return ([c for c in CUBE if b.get(c, 0) > a.get(c, 0)], [c for c in CUBE if b.get(c, 0) < a.get(c, 0)])
+	pats = {}
+	for m, st in styles.items():
+		for sid, r in st.items():
+			if sid:
+				big, small = change(60 + m, (60 + m) * 10 + sid), change(40 + m, (40 + m) * 10 + sid)
+				pats[(m, sid)] = {'big': big, 'small': small, 'cn': r['name'], 'gl': gl_style.get((m, sid))}
+	default = styles[1][0]
+	return {'d': d, 'grid': {k: next(iter(v)) for k, v in grid.items()}, 'sets': sets, 'opens': opens.pop(),
+		'pats': pats, 'default': {'cn': default['name'], 'gl': gl_style[(1, 0)]}}
+
+
+def resonance(lang):
+	t, l, key = RT2[lang], s.L[lang], GLK[lang]
+	R = resonance_data()
+	d = R['d']
+	stat = lambda c: _stat(CUBE[c], lang)  # noqa: E731
+	item = lambda i: g.gl_text('item', i, 'name', key)  # noqa: E731
+	sharp = g.gl_text('currency', 3, 'name', key)
+	pname = lambda p: g.text(p['gl'], key) if p['gl'] else p['cn']  # noqa: E731
+	default = pname(R['default'])
+	main56, main24 = d[('6', 'main')], d[('4', 'main')]
+	vals = dict(max56=d[('6', 'max')], max24=d[('4', 'max')], style=R['opens'], m56=max(main56), m24=max(main24))
+	for b in ('5', '23'):
+		if d[(b, 'max')] != (vals['max56'] if b == '5' else vals['max24']) or d[(b, 'req')] != d[('6' if b == '5' else '4', 'req')][:d[(b, 'max')]]:
+			sys.exit(f'Resonance: {b} stars differ in levels or Insight')
+	req = d[('6', 'req')]
+	if req[:vals['max24']] != d[('4', 'req')] or main56[:vals['max24']] != main24:
+		sys.exit('Resonance: levels 1 to 10 differ between rarities')
+	words = {k: g.text(v, key) for k, v in RES_KEYS.items()}
+	body = [t['lead'].format(**words), '', f'| {t["head"][0]} | {t["head"][1]} |', '| --- | --- |']
+	body += [f'| {a} | {b.format(**vals)} |' for a, b in t['rows']]
+	body += ['', f'## {t["levels"]}', '', '| ' + ' | '.join(t['levcols']) + ' |', '| --- | --- | --- | --- |']
+	for n in range(1, vals['max56'] + 1):
+		w, h = R['grid'][n].split(',')
+		body.append(f'| {n} | {t["ins"][req[n - 1]]} | {w} × {h} | {main56[n - 1]} |')
+	cols = ['6', '5', '4', '23']
+
+	def first_last(seq):
+		idx = [i + 1 for i, x in enumerate(seq) if x]
+		return idx[0], idx[-1]
+
+	def lv(seq):
+		a, b = first_last(seq)
+		return str(a) if a == b else t['lv'].format(a=a, b=b)
+	body += ['', f'## {t["mats"]}', '', t['matnote'], '', '| ' + ' | '.join(t['matcols']) + ' |', '| --- | --- | --- | --- | --- | --- |']
+	adv = t['adv'].format(names=t['sep'].join(item(i) for i in RES_ADV[:-1]) + t['orw'] + item(RES_ADV[-1]))
+	for name, k in [(item(RES_ITEMS['dissonance']), 'dissonance'), (item(RES_ITEMS['cacophony']), 'cacophony'), (adv, 'adv'), (item(RES_ITEMS['knell']), 'knell')]:
+		body.append(f'| {name} | {lv(d[("6", k)])} | ' + ' | '.join(str(sum(d[(c, k)])) for c in cols) + ' |')
+	sh = d[('6', 'sharp')]
+	where = [i + 1 for i, x in enumerate(sh) if x]
+	body.append(f'| {sharp} | {t["lv2"].format(a=where[0], b=where[1])} | ' + ' | '.join(num(sum(d[(c, "sharp")])) for c in cols) + ' |')
+	body += ['', f'## {t["pat"]}', '', t['patlead'].format(style=R['opens'], default=default), '',
+		'| ' + ' | '.join(t['patcols']) + ' |', '| --- | --- | --- | --- |']
+	diffs = []
+	for (m, sid), p in sorted(R['pats'].items()):
+		up, down = p['big']
+		body.append(f'| {t["shapes"][m]} | {pname(p)} | {t["sep"].join(stat(c) for c in up) or t["none"]} | {t["sep"].join(stat(c) for c in down) or t["none"]} |')
+		if p['small'] != p['big']:
+			if p['small'][0] != up or not set(p['small'][1]) <= set(down):
+				sys.exit(f'Resonance pattern {m}/{sid}: lower rarities differ in another way')
+			for c in down:
+				if c not in p['small'][1]:
+					diffs.append(t['patdiffitem'].format(p=pname(p), s=stat(c)))
+	if diffs:
+		body += ['', t['patdiff'].format(items=t['sep'].join(diffs))]
+	body += ['', t['cost'].format(default=default), '', '| ' + ' | '.join(t['costcols']) + ' |', '| --- | --- | --- |']
+	for c in cols:
+		lab = t['stars23'] if c == '23' else t['stars'].format(n=int(c))
+		body.append(f'| {lab} | {num(d[(c, "style")])} {sharp} | {num(d[(c, "style")] * 5)} {sharp} |')
+	body += ['', f'## {t["who"]}', '', '| ' + ' | '.join(t['whocols']) + ' |', '| --- | --- |']
+	for m in sorted(R['sets']):
+		names = sorted({s.name(a, lang) for a in R['sets'][m]}, key=lambda n: n.lower())
+		body.append(f'| {t["shapes"][m]} | {t["sep"].join(names)} |')
+	body += ['', f'## {t["names"]}', '', '| ' + ' | '.join(t['namecols']) + ' |', '| --- | --- | --- | --- | --- |']
+	terms = [(g.text(RES_KEYS[k], 'en'), g.text(RES_KEYS[k], 'zh-CN'), g.text(RES_KEYS[k], 'zh-TW'), g.text(RES_KEYS[k], 'ja'), g.text(RES_KEYS[k], 'ko'))
+		for k in ('resonance', 'patterns', 'idea', 'reasoning', 'rpatterns')]
+	seen = set()
+	for p in [R['default']] + [p for _, p in sorted(R['pats'].items())]:
+		if p['cn'] in seen:
+			continue
+		seen.add(p['cn'])
+		terms.append((g.text(p['gl'], 'en'), p['cn'], g.text(p['gl'], 'zh-TW'), g.text(p['gl'], 'ja'), g.text(p['gl'], 'ko')))
+	body += ['| ' + ' | '.join(row) + ' |' for row in terms]
+	srcs = [(x.format(cn=s.CN['build'], gl=s.GL['build']),
+		{'cn': g.CN_JSON.replace('/blob/', '/tree/').rstrip('/'), 'gl': g.GL_JSON + 'talent_style.json', 'bwiki': BWIKI_SONETTO}[u]) for x, u in t['src']]
+	return fm(t['title'], t['desc'], l['applies_gl'], t['caveat'], RES_ALIASES, srcs) + '\n'.join(body) + '\n'
+
+
+def _stat(attr, lang):
+	import psychube
+	return psychube._attr_name(attr, lang)
+
+
+PAGES = {'releases': releases, 'insight': insight, 'statuses': statuses, 'resonance': resonance}
 
 
 def main():

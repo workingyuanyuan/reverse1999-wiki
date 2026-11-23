@@ -43,7 +43,7 @@ export default defineConfig({
 				{
 					label: 'Systems',
 					translations: { 'zh-TW': '系統', 'zh-CN': '系统', ja: 'システム', ko: '시스템' },
-					items: ['summoning', 'combat', 'statuses', 'insight', 'releases'].map((p) => ({ slug: `systems/${p}` })),
+					items: ['summoning', 'combat', 'statuses', 'insight', 'resonance', 'releases'].map((p) => ({ slug: `systems/${p}` })),
 				},
 			],
 			// The heading serif, self-hosted (SIL OFL 1.1): split by Unicode range, so a page

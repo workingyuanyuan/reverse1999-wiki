@@ -56,6 +56,7 @@ sources:
 - [バトルの基本](/ja/systems/combat/)
 - [状態効果](/ja/systems/statuses/)
 - [洞察とレベル](/ja/systems/insight/)
+- [共鳴](/ja/systems/resonance/)
 - [実装日](/ja/systems/releases/)
 - [召喚と天井](/ja/systems/summoning/)
 

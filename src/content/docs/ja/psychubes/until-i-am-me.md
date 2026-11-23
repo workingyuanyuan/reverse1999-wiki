@@ -9,6 +9,11 @@ aliases:
   - "蛻至我為我"
   - "蜕至我为我"
   - "허물을 벗어 내가 되리라"
+art:
+  - title: "Reverse: 1999 Wiki (Fandom)、File:Until I Am Me Psychube.png"
+    url: https://reverse1999.fandom.com/wiki/File:Until_I_Am_Me_Psychube.png
+  - title: "画像ファイル、2026-08-22 アップロード"
+    url: https://static.wikia.nocookie.net/reverse1999/images/a/ac/Until_I_Am_Me_Psychube.png/revision/latest?cb=20260822131342
 sources:
   - title: "re1999-data、中国本土版クライアント 113.0.1422：equip.json、equip_skill.json、equip_strengthen.json、equip_break_attr.json、character_recommend.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
@@ -17,6 +22,8 @@ sources:
   - title: "re1999-data-global、グローバル版クライアント 111.0.1077：英語テキスト"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language/language_en.json
 ---
+
+![私が「私」になるまでの心相イラスト](/art/psychubes/until-i-am-me.webp)
 
 | 項目 | 内容 |
 | --- | --- |

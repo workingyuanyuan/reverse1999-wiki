@@ -17,6 +17,8 @@ and compares, page by page, the facts each page rests on:
   systems/statuses   the text of every status the page describes (records/statuses.json), both clients
   systems/insight    level caps and Sharpodonty cost of each Insight by rarity
   systems/combat     the Field Manual tips, the stat names and the Moxie cost of every Ultimate
+  systems/resonance  levels, grid, main Idea, materials, Resonance Patterns and their costs by rarity,
+                     and each arcanist's set (pipeline/write_systems.py resonance_data)
 
 Report: one line per difference, naming the page; lines starting "note" do not fail the check
 (a new client build, a newer revision of a cited wiki page).
@@ -116,6 +118,15 @@ def system_facts(pins):
 		'stats': [(r['id'], r['name']) for r in gamedata.cn('character_attribute')],
 		'ultimate cost': sorted(str(c['uniqueSkill_point']) for c in gamedata.cn('character')),
 	}
+	try:
+		r = write_systems.resonance_data()
+		out['resonance'] = {
+			**{f'{k[0]} stars {k[1]}': v for k, v in r['d'].items()},
+			'grid': r['grid'], 'patterns open at': r['opens'],
+			**{f'set {m}': sorted(a['slug'] for a in v) for m, v in r['sets'].items()},
+			**{f'pattern {m}/{sid}': p for (m, sid), p in r['pats'].items()}}
+	except SystemExit as e:  # the values no longer agree within a rarity: the page cannot be written as it is
+		out['resonance'] = {'cannot be written': str(e)}
 	gamedata.use(PINNED)
 	return out
 
@@ -137,17 +148,26 @@ def fandom_notes():
 			rev = next(iter(pages.values()))['revisions'][0]['revid']
 			if str(rev) != oldid:
 				notes.append(f'note {page.relative_to(DOCS).with_suffix("")}: Fandom {urllib.parse.unquote(title)} has revision {rev}; the page cites {oldid}')
-	# The art (records/art.json, written by pipeline/fetch_art.py): a newer upload of the file.
-	art = json.loads((ROOT / 'records' / 'art.json').read_text()) if (ROOT / 'records' / 'art.json').exists() else {}
-	for slug, a in sorted(art.items()):
-		q = urllib.parse.urlencode({'action': 'query', 'titles': a['file'], 'prop': 'imageinfo', 'iiprop': 'url', 'format': 'json'})
+	# The art (records/art.json and records/art-psychubes.json, written by pipeline/fetch_art.py):
+	# a newer upload of the file, and a Psychube file that was missing and is now there.
+	def image_url(file):
+		q = urllib.parse.urlencode({'action': 'query', 'titles': file, 'prop': 'imageinfo', 'iiprop': 'url', 'format': 'json'})
 		req = urllib.request.Request(f'https://reverse1999.fandom.com/api.php?{q}', headers={'User-Agent': 'Mozilla/5.0'})
 		with urllib.request.urlopen(req, timeout=60) as r:
 			page = next(iter(json.load(r)['query']['pages'].values()))
-		url = (page.get('imageinfo') or [{}])[0].get('url')
-		if url != a['url']:
-			now = 'is gone' if not url else 'has a newer upload'
-			notes.append(f'note arcanists/{slug}: Fandom {a["file"]} {now}; the page shows the upload of {a["uploaded"]}')
+		return (page.get('imageinfo') or [{}])[0].get('url')
+	for section, record in (('arcanists', 'art.json'), ('psychubes', 'art-psychubes.json')):
+		path = ROOT / 'records' / record
+		art = json.loads(path.read_text()) if path.exists() else {}
+		for slug, a in sorted(art.items()):
+			url = image_url(a['file'])
+			if url != a['url']:
+				now = 'is gone' if not url else 'has a newer upload'
+				notes.append(f'note {section}/{slug}: Fandom {a["file"]} {now}; the page shows the upload of {a["uploaded"]}')
+		if section == 'psychubes':
+			for p in json.loads((ROOT / 'records' / 'psychubes.json').read_text())['psychubes']:
+				if p['slug'] not in art and image_url(f'File:{p["en"]} Psychube.png'):
+					notes.append(f'note psychubes/{p["slug"]}: Fandom now has File:{p["en"]} Psychube.png; the page has no art')
 	return notes
 
 
@@ -184,7 +204,7 @@ def main():
 					lines.append(f'psychubes/{slug}: gone from the mainland client')
 				else:
 					lines.append(f'psychubes/{slug}: changed in {", ".join(diff_parts(old["psychubes"][slug], new["psychubes"][slug]))}')
-			for page in ('statuses', 'insight', 'combat'):
+			for page in ('statuses', 'insight', 'combat', 'resonance'):
 				for part in diff_parts(old[page], new[page]):
 					lines.append(f'systems/{page}: {part} changed')
 		lines += fandom_notes()

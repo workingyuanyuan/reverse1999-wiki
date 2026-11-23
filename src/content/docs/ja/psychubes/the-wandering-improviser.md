@@ -9,6 +9,11 @@ aliases:
   - "流浪即興曲"
   - "流浪即兴曲"
   - "방랑 즉흥곡"
+art:
+  - title: "Reverse: 1999 Wiki (Fandom)、File:The Wandering Improviser Psychube.png"
+    url: https://reverse1999.fandom.com/wiki/File:The_Wandering_Improviser_Psychube.png
+  - title: "画像ファイル、2025-12-13 アップロード"
+    url: https://static.wikia.nocookie.net/reverse1999/images/f/f1/The_Wandering_Improviser_Psychube.png/revision/latest?cb=20251213010835
 sources:
   - title: "re1999-data、中国本土版クライアント 113.0.1422：equip.json、equip_skill.json、equip_strengthen.json、equip_break_attr.json、character_recommend.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
@@ -17,6 +22,8 @@ sources:
   - title: "re1999-data-global、グローバル版クライアント 111.0.1077：英語テキスト"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language/language_en.json
 ---
+
+![さすらいの即興曲の心相イラスト](/art/psychubes/the-wandering-improviser.webp)
 
 | 項目 | 内容 |
 | --- | --- |

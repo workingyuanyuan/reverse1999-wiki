@@ -441,7 +441,8 @@ mobile-starlight-toc .toggle {
 
 /* Character art: the full-length figure on its transparent ground, with no frame. On a wide
    window it stands to the right of the profile table and the opening paragraph; the first
-   section starts below it. */
+   section starts below it. A Psychube's illustration (brushed edge, about square) takes the same
+   place, narrower, beside the profile table. */
 .sl-markdown-content a:has(> img[src*='/art/']) {
 	display: block;
 }
@@ -462,6 +463,14 @@ mobile-starlight-toc .toggle {
 		margin: 0.25rem 0 1.25rem 1.75rem;
 	}
 	.sl-markdown-content p:has(img[src*='/art/characters/']) ~ .sl-heading-wrapper.level-h2 {
+		clear: both;
+	}
+	.sl-markdown-content p:has(img[src*='/art/psychubes/']) {
+		float: right;
+		width: min(44%, 22rem);
+		margin: 0 0 1.25rem 1.5rem;
+	}
+	.sl-markdown-content p:has(img[src*='/art/psychubes/']) ~ .sl-heading-wrapper.level-h2 {
 		clear: both;
 	}
 }

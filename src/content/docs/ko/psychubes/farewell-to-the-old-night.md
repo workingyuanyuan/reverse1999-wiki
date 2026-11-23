@@ -9,6 +9,11 @@ aliases:
   - "暫別舊夜"
   - "暂别旧夜"
   - "古き夜に別れを"
+art:
+  - title: "Reverse: 1999 Wiki (Fandom), File:Farewell to the Old Night Psychube.png"
+    url: https://reverse1999.fandom.com/wiki/File:Farewell_to_the_Old_Night_Psychube.png
+  - title: "이미지 파일, 2026-10-18 업로드"
+    url: https://static.wikia.nocookie.net/reverse1999/images/e/e6/Farewell_to_the_Old_Night_Psychube.png/revision/latest?cb=20261018131153
 sources:
   - title: "re1999-data, 중국 본토 클라이언트 113.0.1422: equip.json, equip_skill.json, equip_strengthen.json, equip_break_attr.json, character_recommend.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
@@ -17,6 +22,8 @@ sources:
   - title: "re1999-data-global, 글로벌 클라이언트 111.0.1077: 영어 텍스트"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language/language_en.json
 ---
+
+![다시 만날 지난밤과의 작별 의지 일러스트](/art/psychubes/farewell-to-the-old-night.webp)
 
 | 항목 | 내용 |
 | --- | --- |

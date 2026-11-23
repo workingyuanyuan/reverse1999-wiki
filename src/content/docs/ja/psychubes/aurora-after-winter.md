@@ -9,6 +9,11 @@ aliases:
   - "春日輕步至"
   - "春日轻步至"
   - "살포시 다가오는 봄날"
+art:
+  - title: "Reverse: 1999 Wiki (Fandom)、File:Aurora After Winter Psychube.png"
+    url: https://reverse1999.fandom.com/wiki/File:Aurora_After_Winter_Psychube.png
+  - title: "画像ファイル、2025-07-05 アップロード"
+    url: https://static.wikia.nocookie.net/reverse1999/images/c/c7/Aurora_After_Winter_Psychube.png/revision/latest?cb=20250705011155
 sources:
   - title: "re1999-data、中国本土版クライアント 113.0.1422：equip.json、equip_skill.json、equip_strengthen.json、equip_break_attr.json、character_recommend.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
@@ -17,6 +22,8 @@ sources:
   - title: "re1999-data-global、グローバル版クライアント 111.0.1077：英語テキスト"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language/language_en.json
 ---
+
+![春の足取りの心相イラスト](/art/psychubes/aurora-after-winter.webp)
 
 | 項目 | 内容 |
 | --- | --- |

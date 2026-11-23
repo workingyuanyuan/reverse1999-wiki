@@ -9,6 +9,11 @@ aliases:
   - "圣歌应缄默"
   - "沈黙のアンセム"
   - "성가는 침묵하라"
+art:
+  - title: "Reverse: 1999 Wiki (Fandom), File:The Silent Anthem Psychube.png"
+    url: https://reverse1999.fandom.com/wiki/File:The_Silent_Anthem_Psychube.png
+  - title: "Image file, uploaded 2026-08-22"
+    url: https://static.wikia.nocookie.net/reverse1999/images/e/ea/The_Silent_Anthem_Psychube.png/revision/latest?cb=20260822131508
 sources:
   - title: "re1999-data, mainland client 113.0.1422: equip.json, equip_skill.json, equip_strengthen.json, equip_break_attr.json, character_recommend.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
@@ -17,6 +22,8 @@ sources:
   - title: "re1999-data-global, global client 111.0.1077: English text"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language/language_en.json
 ---
+
+![The Silent Anthem, Psychube art](/art/psychubes/the-silent-anthem.webp)
 
 | Field | Value |
 | --- | --- |

@@ -9,6 +9,11 @@ aliases:
   - "驚魂拍檔"
   - "惊魂拍档"
   - "친절한 퇴마사"
+art:
+  - title: "Reverse: 1999 Wiki (Fandom)、File:Your Friendly Exorcist Psychube.png"
+    url: https://reverse1999.fandom.com/wiki/File:Your_Friendly_Exorcist_Psychube.png
+  - title: "画像ファイル、2025-08-17 アップロード"
+    url: https://static.wikia.nocookie.net/reverse1999/images/4/4f/Your_Friendly_Exorcist_Psychube.png/revision/latest?cb=20250817091956
 sources:
   - title: "re1999-data、中国本土版クライアント 113.0.1422：equip.json、equip_skill.json、equip_strengthen.json、equip_break_attr.json、character_recommend.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
@@ -17,6 +22,8 @@ sources:
   - title: "re1999-data-global、グローバル版クライアント 111.0.1077：英語テキスト"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language/language_en.json
 ---
+
+![除霊パートナーの心相イラスト](/art/psychubes/your-friendly-exorcist.webp)
 
 | 項目 | 内容 |
 | --- | --- |

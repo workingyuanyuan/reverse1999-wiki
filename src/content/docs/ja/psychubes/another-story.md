@@ -9,6 +9,11 @@ aliases:
   - "另一個故事"
   - "另一个故事"
   - "또 다른 이야기"
+art:
+  - title: "Reverse: 1999 Wiki (Fandom)、File:Another Story Psychube.png"
+    url: https://reverse1999.fandom.com/wiki/File:Another_Story_Psychube.png
+  - title: "画像ファイル、2024-08-09 アップロード"
+    url: https://static.wikia.nocookie.net/reverse1999/images/8/84/Another_Story_Psychube.png/revision/latest?cb=20240809025718
 sources:
   - title: "re1999-data、中国本土版クライアント 113.0.1422：equip.json、equip_skill.json、equip_strengthen.json、equip_break_attr.json、character_recommend.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
@@ -17,6 +22,8 @@ sources:
   - title: "re1999-data-global、グローバル版クライアント 111.0.1077：英語テキスト"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language/language_en.json
 ---
+
+![もうひとつの物語の心相イラスト](/art/psychubes/another-story.webp)
 
 | 項目 | 内容 |
 | --- | --- |

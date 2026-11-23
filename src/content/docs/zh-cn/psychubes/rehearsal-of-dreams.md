@@ -9,6 +9,11 @@ aliases:
   - "造夢的預演"
   - "夢づくりのリハーサル"
   - "꿈의 리허설"
+art:
+  - title: "Reverse: 1999 Wiki (Fandom)，File:Rehearsal of Dreams Psychube.png"
+    url: https://reverse1999.fandom.com/wiki/File:Rehearsal_of_Dreams_Psychube.png
+  - title: "图片档，2025-06-05 上传"
+    url: https://static.wikia.nocookie.net/reverse1999/images/c/c8/Rehearsal_of_Dreams_Psychube.png/revision/latest?cb=20250605063822
 sources:
   - title: "re1999-data，中国大陆版客户端 113.0.1422：equip.json、equip_skill.json、equip_strengthen.json、equip_break_attr.json、character_recommend.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
@@ -17,6 +22,8 @@ sources:
   - title: "re1999-data-global，国际版客户端 111.0.1077：英文文字"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language/language_en.json
 ---
+
+![造梦的预演心相插图](/art/psychubes/rehearsal-of-dreams.webp)
 
 | 项目 | 内容 |
 | --- | --- |

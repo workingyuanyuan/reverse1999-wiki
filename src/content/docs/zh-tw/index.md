@@ -56,6 +56,7 @@ sources:
 - [戰鬥基礎](/zh-tw/systems/combat/)
 - [狀態效果](/zh-tw/systems/statuses/)
 - [洞悉與等級](/zh-tw/systems/insight/)
+- [共鳴](/zh-tw/systems/resonance/)
 - [上線日期](/zh-tw/systems/releases/)
 - [徵集與保底](/zh-tw/systems/summoning/)
 

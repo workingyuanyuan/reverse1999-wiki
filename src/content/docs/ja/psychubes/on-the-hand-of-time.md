@@ -9,6 +9,11 @@ aliases:
   - "秒針棲息地"
   - "秒针栖息地"
   - "초침의 서식지"
+art:
+  - title: "Reverse: 1999 Wiki (Fandom)、File:On the Hand of Time Psychube.png"
+    url: https://reverse1999.fandom.com/wiki/File:On_the_Hand_of_Time_Psychube.png
+  - title: "画像ファイル、2025-04-18 アップロード"
+    url: https://static.wikia.nocookie.net/reverse1999/images/b/b4/On_the_Hand_of_Time_Psychube.png/revision/latest?cb=20250418171400
 sources:
   - title: "re1999-data、中国本土版クライアント 113.0.1422：equip.json、equip_skill.json、equip_strengthen.json、equip_break_attr.json、character_recommend.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
@@ -17,6 +22,8 @@ sources:
   - title: "re1999-data-global、グローバル版クライアント 111.0.1077：英語テキスト"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language/language_en.json
 ---
+
+![秒針の住み処の心相イラスト](/art/psychubes/on-the-hand-of-time.webp)
 
 | 項目 | 内容 |
 | --- | --- |

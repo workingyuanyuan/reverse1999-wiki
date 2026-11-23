@@ -8,6 +8,11 @@ aliases:
   - "Faded Epitaphs"
   - "碑文已逝"
   - "사라진 비문"
+art:
+  - title: "Reverse: 1999 Wiki (Fandom)、File:Faded Epitaphs Psychube.png"
+    url: https://reverse1999.fandom.com/wiki/File:Faded_Epitaphs_Psychube.png
+  - title: "画像ファイル、2025-12-17 アップロード"
+    url: https://static.wikia.nocookie.net/reverse1999/images/c/c1/Faded_Epitaphs_Psychube.png/revision/latest?cb=20251217015713
 sources:
   - title: "re1999-data、中国本土版クライアント 113.0.1422：equip.json、equip_skill.json、equip_strengthen.json、equip_break_attr.json、character_recommend.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
@@ -16,6 +21,8 @@ sources:
   - title: "re1999-data-global、グローバル版クライアント 111.0.1077：英語テキスト"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language/language_en.json
 ---
+
+![色褪せたエピタフの心相イラスト](/art/psychubes/faded-epitaphs.webp)
 
 | 項目 | 内容 |
 | --- | --- |

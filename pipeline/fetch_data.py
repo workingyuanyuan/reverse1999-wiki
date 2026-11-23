@@ -31,6 +31,8 @@ TABLES = [
 	'character_recommend',  # Psychubes: effects by amplification, stats, costs, tags, the game's recommendations
 	'character_cosume', 'character_level', 'character_attribute',  # level and Insight costs, stats
 	'skill_bufftype', 'skill_buff', 'helppage', 'fight_const', 'loading_text',  # status types, battle rules and tips
+	'resonance', 'character_talent', 'talent_cube_attr', 'talent_cube_shape', 'talent_mould', 'talent_scheme',
+	'talent_style', 'talent_style_cost', 'talent_effectiveness', 'talent_upgrade_item',  # Resonance
 ]
 FILES = {
 	'cn': ['data/meta.json'] + [f'data/json/{t}.json' for t in TABLES],

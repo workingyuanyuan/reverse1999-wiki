@@ -8,6 +8,11 @@ aliases:
   - "The Carat of a Heart"
   - "可度量之心"
   - "헤아릴 수 있는 마음"
+art:
+  - title: "Reverse: 1999 Wiki (Fandom)、File:The Carat of a Heart Psychube.png"
+    url: https://reverse1999.fandom.com/wiki/File:The_Carat_of_a_Heart_Psychube.png
+  - title: "画像ファイル、2024-01-19 アップロード"
+    url: https://static.wikia.nocookie.net/reverse1999/images/4/40/The_Carat_of_a_Heart_Psychube.png/revision/latest?cb=20240119091920
 sources:
   - title: "re1999-data、中国本土版クライアント 113.0.1422：equip.json、equip_skill.json、equip_strengthen.json、equip_break_attr.json、character_recommend.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
@@ -16,6 +21,8 @@ sources:
   - title: "re1999-data-global、グローバル版クライアント 111.0.1077：英語テキスト"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language/language_en.json
 ---
+
+![測定可能な心の心相イラスト](/art/psychubes/the-carat-of-a-heart.webp)
 
 | 項目 | 内容 |
 | --- | --- |

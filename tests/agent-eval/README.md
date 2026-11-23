@@ -49,3 +49,6 @@ Runs on the live site once its pages are indexed; a record, not a gate for publi
 
 9 questions on Combat basics, Statuses, Insight and levels, Release dates and Psychubes. This site: 8 pass, 1 partial, 0 fail, 15 fetches. Original sources: 3 pass, 1 partial, 5 fail, 22 fetches, 1 refused with 403. One Claude Sonnet reader, one run per side, local serving; questions by the author of the site. Details in `results/2026-11-23b/scores.md`.
 
+### 2026-11-23, Resonance
+
+4 questions on the Resonance page. This site: 4 pass, 7 fetches; the list of arcanists by set needed a second fetch of the English page. Original sources: 0 of 4, 11 fetches, 4 refused with 403; Fandom has no Resonance page. One Claude Sonnet reader, one run per side, local serving; questions by the author of the site. Details in `results/2026-11-23c/scores.md`.

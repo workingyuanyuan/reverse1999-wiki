@@ -122,3 +122,7 @@ Collected on 2026-11-22 from the game's systems and the wording of search result
 | T29 | 燃燒：每回合結束受到攜帶者攻擊 4% × 層數的本源創傷，受治療效果 -15%，最多 30 層。Asked from `/zh-tw/` | 生效後扣除一半層數；多層只算 1 個狀態異常 | `/zh-tw/systems/statuses/` |
 | T30 | 中国本土版のみ（例：Atop the Tempest／立于风暴脊）。Asked from `/ja/` | 英語・日本語の名前は非公式 | `/ja/psychubes/atop-the-tempest/` |
 | T31 | 통찰 2, 레벨 50. Asked from `/ko/` | 통찰하면 레벨 1로 돌아간다 | `/ko/systems/insight/` |
+| T32 | 10; levels 6 to 10 need Insight II | 5- and 6-star arcanists go on to level 15, and levels 11 to 15 need Insight III | `/systems/resonance/` |
+| T33 | 150,000 for levels 1 to 15 (30,000 at level 6, 120,000 at level 11); 120,000 per pattern, 600,000 for all five | Each level and pattern also takes materials that differ by arcanist | `/systems/resonance/` |
+| T34 | 平和（預設）、亢奮、饜足、沉靜、節制、安恬泰然。Asked from `/zh-tw/` | 共鳴 10 級才開放調頻 | `/zh-tw/systems/resonance/` |
+| T35 | Placidity (default), Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia | Patterns open at Resonance level 10 | `/systems/resonance/` |

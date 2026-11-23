@@ -9,6 +9,11 @@ aliases:
   - "新旧歌谣"
   - "懐かしい歌、新しいメロディー"
   - "올드앤뉴 멜로디"
+art:
+  - title: "Reverse: 1999 Wiki (Fandom)，File:Melodies Old and New Psychube.png"
+    url: https://reverse1999.fandom.com/wiki/File:Melodies_Old_and_New_Psychube.png
+  - title: "圖片檔，2025-07-05 上傳"
+    url: https://static.wikia.nocookie.net/reverse1999/images/6/6f/Melodies_Old_and_New_Psychube.png/revision/latest?cb=20250705013223
 sources:
   - title: "re1999-data，中國大陸版用戶端 113.0.1422：equip.json、equip_skill.json、equip_strengthen.json、equip_break_attr.json、character_recommend.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
@@ -17,6 +22,8 @@ sources:
   - title: "re1999-data-global，國際版用戶端 111.0.1077：英文文字"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language/language_en.json
 ---
+
+![新舊歌謠心相插圖](/art/psychubes/melodies-old-and-new.webp)
 
 | 項目 | 內容 |
 | --- | --- |

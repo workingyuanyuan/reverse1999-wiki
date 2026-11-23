@@ -5,6 +5,7 @@
   python3 -I pipeline/psychube.py write <lang> <slug|all> ...   page skeletons (never overwrites)
   python3 -I pipeline/psychube.py check <page.md> ...        exit 1 on a difference
   python3 -I pipeline/psychube.py indexes                    the four index pages in en, zh-tw, ja, ko; records/psychubes.json
+  python3 -I pipeline/psychube.py art                        put the art line and credits of records/art-psychubes.json in every page
 
 <lang> is en, zh-tw, ja or ko (zh-cn is written by scripts/to-zh-cn.py).
 
@@ -48,6 +49,10 @@ STAT = {'attack': 'attack', 'hp': 'hp', 'def': 'defense', 'mdef': 'mdefense', 'c
 	'addDmg': 'addDmg', 'normalSkillRate': 'normalSkillRate', 'clutch': 'clutch', 'heal': 'heal', 'dropDmg': 'dropDmg',
 	'revive': 'revive'}
 BASE = [('hp', 'hp'), ('atk', 'attack'), ('def', 'defense'), ('mdef', 'mdefense')]
+# The Psychube's illustration from Fandom (pipeline/fetch_art.py --psychubes); a Psychube with no file there has none.
+_ART = Path(__file__).resolve().parent.parent / 'records' / 'art-psychubes.json'
+ART = json.loads(_ART.read_text()) if _ART.exists() else {}
+ALT = {'en': '{n}, Psychube art', 'zh-tw': '{n}心相插圖', 'ja': '{n}の心相イラスト', 'ko': '{n} 의지 일러스트'}
 
 L = {
 	'en': dict(
@@ -226,6 +231,11 @@ def blocks(slug, lang):
 	out['lastVerified'] = f'lastVerified: {LAST_VERIFIED}'
 	out['aliases'] = 'aliases:\n' + '\n'.join(f'  - "{n}"' for n in aliases) if aliases else ''
 	out['sources'] = 'sources:\n' + '\n'.join(f'  - title: "{x}"\n    url: {u}' for x, u in t['src']())
+	if slug in ART:
+		f, c = ART[slug], s.L[lang]['art']
+		out['art'] = (f'art:\n  - title: "{c[0].format(f=f["file"])}"\n    url: {f["page"]}\n'
+			f'  - title: "{c[1].format(d=f["uploaded"])}"\n    url: {f["url"]}')
+		out['art line'] = f'![{ALT[lang].format(n=title)}](/art/psychubes/{slug}.webp)'
 	tagnames = [g.gl_text('equip_tag', tg['id'], 'name', GLK[lang]) or tg['name'] for tg in p['tags']]
 	rows = [(t['rows']['rarity'], t['stars'].format(n=p['stars']))]
 	if tagnames:
@@ -262,8 +272,8 @@ def skeleton(slug, lang):
 	b, t = blocks(slug, lang), L[lang]
 	fm = ['---', b['title'], 'description: "<!-- WRITE: one sentence, what the Psychube is and does -->"', b['appliesTo'],
 		'caveat: "<!-- WRITE: the one qualifier a reader most likely misses -->"', b['lastVerified']]
-	fm += ([b['aliases']] if b['aliases'] else []) + [b['sources'], '---', '']
-	body = [b['profile'], '', f'## {t["sec"]["effect"]}', '',
+	fm += ([b['aliases']] if b['aliases'] else []) + ([b['art']] if 'art' in b else []) + [b['sources'], '---', '']
+	body = ([b['art line'], ''] if 'art line' in b else []) + [b['profile'], '', f'## {t["sec"]["effect"]}', '',
 		'<!-- WRITE: the effect in our words, every value that changes given for Amplification 1 to 5 as 16/20/24/28/32% -->', '',
 		f'## {t["sec"]["names"]}', '', b['names'], '']
 	return '\n'.join(fm + body)
@@ -337,6 +347,7 @@ def index_page(lang, key):
 		rows.append('| ' + ' | '.join(cells) + ' |')
 	others = [L[o]['index']['titles'][key] for o in LANGS if o != lang]
 	others.append({'critical': '暴击心相', 'damage-6': '6 星输出心相', 'damage-5': '5 星输出心相', 'might': '威力心相', 'survival': '生存与治疗心相'}[key])
+	others = [x for i, x in enumerate(others) if x != l['titles'][key] and x not in others[:i]]
 	fm = ['---', f'title: "{l["titles"][key]}"', f'description: "{l["desc"][key]}"',
 		f'appliesTo: "{s.L[lang]["applies_gl"]}"', f'caveat: "{l["caveat"]}"', f'lastVerified: {LAST_VERIFIED}',
 		'aliases:\n' + '\n'.join(f'  - "{x}"' for x in others),
@@ -387,6 +398,23 @@ def main(argv):
 			for key in GROUPS:
 				(d / f'{key}.md').write_text(index_page(lang, key))
 		print(f'{len(GROUPS) * len(LANGS)} index pages written')
+		return 0
+	if argv[:1] == ['art']:
+		# Pages already written: the credits go before sources, the art line before the profile table.
+		n = 0
+		for lang in LANGS:
+			for slug in REC:
+				path = s.DOCS / L[lang]['dir'] / 'psychubes' / f'{slug}.md'
+				b = blocks(slug, lang)
+				if 'art' not in b or not path.exists():
+					continue
+				text = re.sub(r'^art:\n(?:  .*\n)+', '', path.read_text(), flags=re.M)
+				text = re.sub(r'^!\[[^\]]*\]\(/art/psychubes/[^)]+\)\n\n', '', text, flags=re.M)
+				text = text.replace(b['sources'], f'{b["art"]}\n{b["sources"]}', 1)
+				text = text.replace(b['profile'], f'{b["art line"]}\n\n{b["profile"]}', 1)
+				path.write_text(text)
+				n += 1
+		print(f'{n} page(s) given art')
 		return 0
 	print(__doc__)
 	return 2
