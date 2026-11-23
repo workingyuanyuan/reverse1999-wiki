@@ -33,6 +33,7 @@ sources:
 | 創傷類型 | 精神 |
 | 標籤 | 治療、輔助、控制 |
 | 共鳴調頻 | [U 形組](/zh-tw/systems/resonance/)：亢奮、饜足、沉靜、節制、安恬泰然 |
+| 遊戲內推薦的心相 | [惶然的貝殼](/zh-tw/psychubes/cracks-in-the-shell/)、[新舊歌謠](/zh-tw/psychubes/melodies-old-and-new/)、[自食苦果](/zh-tw/psychubes/you-deserve-it/) |
 | 中國大陸版上線 | 2023-05-31 |
 | 國際版上線 | 2023-10-26 |
 

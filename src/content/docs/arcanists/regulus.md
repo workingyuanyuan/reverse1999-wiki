@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS |
 | Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
+| Psychubes recommended in game | [Thunderous Applause](/psychubes/thunderous-applause/), [Another Story](/psychubes/another-story/), [Belt It Out](/psychubes/belt-it-out/), [For Rehabilitation](/psychubes/for-rehabilitation/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
 

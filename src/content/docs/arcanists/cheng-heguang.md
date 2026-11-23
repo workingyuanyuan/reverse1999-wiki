@@ -32,6 +32,7 @@ sources:
 | Damage | Reality |
 | Tags | Support, Extra Action, DPS, Follow-Up |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [All Honor is but Dust](/psychubes/all-honor-is-but-dust/) |
 | Mainland release | 2026-02-12 |
 | Global release | 2026-05-07 |
 

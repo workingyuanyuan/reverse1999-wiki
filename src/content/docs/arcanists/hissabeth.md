@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS, Ritual, Control |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [Never-Ending Q&A](/psychubes/never-ending-q-a/), [Luxurious Leisure](/psychubes/luxurious-leisure/) |
 | Mainland release | 2025-04-10 |
 | Global release | 2025-07-03 |
 

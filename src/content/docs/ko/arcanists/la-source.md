@@ -33,6 +33,7 @@ sources:
 | 피해 유형 | 정신 |
 | 태그 | 치료 |
 | 공명 변조 | [T자형 그룹](/ko/systems/resonance/): 이해, 정성, 광분, 격려, 제한 없는 상상 |
+| 게임 내 추천 의지 | [직접 맛본 쓴맛](/ko/psychubes/you-deserve-it/), [고통의 여정](/ko/psychubes/take-the-hard-journey/), [용감한 전진](/ko/psychubes/lets-set-sail/) |
 | 중국 본토 출시 | 2023-05-31 |
 | 글로벌 출시 | 2023-10-26 |
 

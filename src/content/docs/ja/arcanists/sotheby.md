@@ -34,6 +34,7 @@ sources:
 | ダメージタイプ | リアル |
 | タグ | 回復、中毒 |
 | 共鳴の変調 | [Z字型グループ](/ja/systems/resonance/)：通暁、誠実、慈悲、泰然自若、均衡調和 |
+| ゲーム内のおすすめ心相 | [除霊パートナー](/ja/psychubes/your-friendly-exorcist/)、[デプレッション](/ja/psychubes/her-mournful-face/) |
 | 中国本土版の実装 | 2023-05-31 |
 | グローバル版の実装 | 2023-10-26 |
 

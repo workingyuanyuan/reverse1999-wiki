@@ -33,6 +33,7 @@ sources:
 | 피해 유형 | 정신 |
 | 태그 | 공격, 추격 |
 | 공명 변조 | [Z자형 그룹](/ko/systems/resonance/): 이해, 정성, 연민, 편안과 태연, 순환 균형 |
+| 게임 내 추천 의지 | [성 밖의 세상](/ko/psychubes/outside-the-city/), [또 다른 이야기](/ko/psychubes/another-story/), [초침의 서식지](/ko/psychubes/on-the-hand-of-time/) |
 | 중국 본토 출시 | 2023-09-28 |
 | 글로벌 출시 | 2024-01-18 |
 

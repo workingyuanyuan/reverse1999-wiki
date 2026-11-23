@@ -33,6 +33,7 @@ sources:
 | 创伤类型 | 现实 |
 | 标签 | 辅助、燃烧、吟诵、子弹、术阵 |
 | 共鸣调频 | [十字形组](/zh-cn/systems/resonance/)：洞彻、赤诚、恍然惊诧、希冀、瞬息迷狂 |
+| 游戏内推荐的心相 | [第三次信任](/zh-cn/psychubes/the-third-commitment/)、[家庭指导员](/zh-cn/psychubes/family-mentor/)、[寻入夜深处](/zh-cn/psychubes/stray-off-the-path/) |
 | 中国大陆版上线 | 2024-10-10 |
 | 国际版上线 | 2025-01-30 |
 

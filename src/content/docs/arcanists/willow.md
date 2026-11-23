@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS, Poison, Channel |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [Offbeat Strides](/psychubes/offbeat-strides/), [Transcendent Love](/psychubes/transcendent-love/) |
 | Mainland release | 2024-10-31 |
 | Global release | 2025-02-20 |
 

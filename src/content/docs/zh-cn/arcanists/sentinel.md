@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 现实 |
 | 标签 | 辅助、薪血、输出、子弹 |
 | 共鸣调频 | [Z 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、怜悯、安恬泰然、循序平衡 |
+| 游戏内推荐的心相 | [归乡哀悼词](/zh-cn/psychubes/homecoming-lament/)、[在四方城外](/zh-cn/psychubes/outside-the-city/) |
 | 中国大陆版上线 | 2025-06-26 |
 | 国际版上线 | 2025-10-30 |
 

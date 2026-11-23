@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 現實 |
 | 標籤 | 輸出、輔助、控制 |
 | 共鳴調頻 | [U 形組](/zh-tw/systems/resonance/)：亢奮、饜足、沉靜、節制、安恬泰然 |
+| 遊戲內推薦的心相 | [遠大前程](/zh-tw/psychubes/her-bright-future/)、[第二次生命](/zh-tw/psychubes/her-second-life/) |
 | 中國大陸版上線 | 2023-05-31 |
 | 國際版上線 | 2023-10-26 |
 

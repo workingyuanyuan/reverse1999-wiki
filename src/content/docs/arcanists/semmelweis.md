@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, HP Sacrifice, Support, Array |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [The Third Commitment](/psychubes/the-third-commitment/), [In the Shadow](/psychubes/in-the-shadow/), [From the Depths](/psychubes/from-the-depths/) |
 | Mainland release | 2024-05-16 |
 | Global release | 2024-09-19 |
 

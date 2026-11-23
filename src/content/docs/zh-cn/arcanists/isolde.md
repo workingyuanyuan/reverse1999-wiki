@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 现实 |
 | 标签 | 输出、燃烧、辅助 |
 | 共鸣调频 | [Z 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、怜悯、安恬泰然、循序平衡 |
+| 游戏内推荐的心相 | [敲响这窄门](/zh-cn/psychubes/knock-on-the-door/)、[夜色亵渎者](/zh-cn/psychubes/blasphemer-of-night/)、[无意识梦魇](/zh-cn/psychubes/shadows-in-the-subconscious/) |
 | 中国大陆版上线 | 2024-02-22 |
 | 国际版上线 | 已在国际版客户端中 |
 

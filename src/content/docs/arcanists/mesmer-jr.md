@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS, Control |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [The Severed and the Rest](/psychubes/the-severed-and-the-rest/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
 

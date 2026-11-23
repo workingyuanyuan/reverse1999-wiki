@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 精神 |
 | 標籤 | 輸出 |
 | 共鳴調頻 | [T 形組](/zh-tw/systems/resonance/)：洞徹、赤誠、亢奮、鼓舞、縱情狂想 |
+| 遊戲內推薦的心相 | [掌聲如雷鳴](/zh-tw/psychubes/thunderous-applause/)、[另一個故事](/zh-tw/psychubes/another-story/)、[縱情一曲](/zh-tw/psychubes/belt-it-out/)、[故嘗試證明](/zh-tw/psychubes/for-rehabilitation/) |
 | 中國大陸版上線 | 2023-05-31 |
 | 國際版上線 | 2023-10-26 |
 

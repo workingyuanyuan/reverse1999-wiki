@@ -33,6 +33,7 @@ sources:
 | 创伤类型 | 现实 |
 | 标签 | 护盾、辅助、子弹 |
 | 共鸣调频 | [十字形组](/zh-cn/systems/resonance/)：洞彻、赤诚、恍然惊诧、希冀、瞬息迷狂 |
+| 游戏内推荐的心相 | [请保持平衡](/zh-cn/psychubes/balance-please/)、[步此苦旅](/zh-cn/psychubes/take-the-hard-journey/)、[勇往直前](/zh-cn/psychubes/lets-set-sail/) |
 | 中国大陆版上线 | 2023-05-31 |
 | 国际版上线 | 2023-10-26 |
 

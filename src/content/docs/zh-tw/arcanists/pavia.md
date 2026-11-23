@@ -33,6 +33,7 @@ sources:
 | 創傷類型 | 精神 |
 | 標籤 | 輸出 |
 | 共鳴調頻 | [T 形組](/zh-tw/systems/resonance/)：洞徹、赤誠、亢奮、鼓舞、縱情狂想 |
+| 遊戲內推薦的心相 | [食足餮滿](/zh-tw/psychubes/a-satisfied-eater/)、[大娛樂至上](/zh-tw/psychubes/luxurious-leisure/) |
 | 中國大陸版上線 | 2023-05-31 |
 | 國際版上線 | 2023-10-26 |
 

@@ -33,6 +33,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS |
 | Resonance Patterns | [U-shaped set](/systems/resonance/): Hyper, Overindulgence, Quiescence, Prudentiality, Equanimity |
+| Psychubes recommended in game | [Brave New World](/psychubes/brave-new-world/), [Hopscotch](/psychubes/hopscotch/), [Her Second Life](/psychubes/her-second-life/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
 

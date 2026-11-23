@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | Heal |
 | Resonance Patterns | [U-shaped set](/systems/resonance/): Hyper, Overindulgence, Quiescence, Prudentiality, Equanimity |
+| Psychubes recommended in game | [The Fighter's Best Wishes](/psychubes/the-fighters-best-wishes/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
 

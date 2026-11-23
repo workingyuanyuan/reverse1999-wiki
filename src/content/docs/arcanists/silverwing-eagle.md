@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Ritual, Support, Follow-Up |
 | Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
+| Psychubes recommended in game | [Growing Pains](/psychubes/growing-pains/) |
 | Mainland release | 2026-04-30 |
 | Global release | 2026-08-13 |
 

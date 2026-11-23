@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 정신 |
 | 태그 | 공격 |
 | 공명 변조 | [T자형 그룹](/ko/systems/resonance/): 이해, 정성, 광분, 격려, 제한 없는 상상 |
+| 게임 내 추천 의지 | [우레와 같은 박수](/ko/psychubes/thunderous-applause/), [또 다른 이야기](/ko/psychubes/another-story/), [열정의 노래](/ko/psychubes/belt-it-out/), [증명 시도](/ko/psychubes/for-rehabilitation/) |
 | 중국 본토 출시 | 2023-05-31 |
 | 글로벌 출시 | 2023-10-26 |
 

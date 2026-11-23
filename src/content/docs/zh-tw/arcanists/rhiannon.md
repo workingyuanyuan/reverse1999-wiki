@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 精神 |
 | 標籤 | 輔助、百靈百驗 |
 | 共鳴調頻 | [U 形組](/zh-tw/systems/resonance/)：亢奮、饜足、沉靜、節制、安恬泰然 |
+| 遊戲內推薦的心相 | [昨日雨聲輕](/zh-tw/psychubes/the-soft-rain-of-yesterday/) |
 | 中國大陸版上線 | 2026-04-30 |
 | 國際版上線 | 2026-08-13 |
 

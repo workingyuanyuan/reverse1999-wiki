@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 精神 |
 | 标签 | 治疗 |
 | 共鸣调频 | [T 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、亢奋、鼓舞、纵情狂想 |
+| 游戏内推荐的心相 | [惊魂拍档](/zh-cn/psychubes/your-friendly-exorcist/) |
 | 中国大陆版上线 | 2025-01-16 |
 | 国际版上线 | 2025-04-24 |
 

@@ -32,6 +32,7 @@ sources:
 | 創傷類型 | 現實 |
 | 標籤 | 輔助、吟誦、靈光、術陣 |
 | 共鳴調頻 | [T 形組](/zh-tw/systems/resonance/)：洞徹、赤誠、亢奮、鼓舞、縱情狂想 |
+| 遊戲內推薦的心相 | [秒針棲息地](/zh-tw/psychubes/on-the-hand-of-time/)、[第三次信任](/zh-tw/psychubes/the-third-commitment/)、[此刻無新事](/zh-tw/psychubes/same-old-story/) |
 | 中國大陸版上線 | 2024-02-01 |
 | 國際版上線 | 2024-06-20 |
 

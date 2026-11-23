@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | Shield, Lingering Glow, Support, Remove Debuffs |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [Singleness of Heart](/psychubes/singleness-of-heart/) |
 | Mainland release | 2025-12-11 |
 | Global release | 2026-03-05 |
 

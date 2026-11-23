@@ -34,6 +34,7 @@ sources:
 | ダメージタイプ | メンタル |
 | タグ | シールド、サポート、ひらめき |
 | 共鳴の変調 | [十字型グループ](/ja/systems/resonance/)：通暁、誠実、奇想天外、希望、無我夢中 |
+| ゲーム内のおすすめ心相 | [おとぎの国の外](/ja/psychubes/beyond-wonderland/)、[懐かしい歌、新しいメロディー](/ja/psychubes/melodies-old-and-new/)、[勇ましい者の言葉](/ja/psychubes/the-fighters-best-wishes/) |
 | 中国本土版の実装 | 2023-12-21 |
 | グローバル版の実装 | 2024-05-09 |
 

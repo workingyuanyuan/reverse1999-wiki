@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Bullet |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [Luxurious Leisure](/psychubes/luxurious-leisure/), [His Bounden Duty](/psychubes/his-bounden-duty/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
 

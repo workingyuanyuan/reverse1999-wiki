@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 정신 |
 | 태그 | 공격, 중독, 보조, 술진 |
 | 공명 변조 | [T자형 그룹](/ko/systems/resonance/): 이해, 정성, 광분, 격려, 제한 없는 상상 |
+| 게임 내 추천 의지 | [메이드의 목격](/ko/psychubes/and-the-maid-says/), [미로의 밖](/ko/psychubes/one-with-the-flow/) |
 | 중국 본토 출시 | 2024-08-08 |
 | 글로벌 출시 | 2024-12-05 |
 

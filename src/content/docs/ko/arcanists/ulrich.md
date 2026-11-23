@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 현실 |
 | 태그 | 공격, 전력, 보조, 음송, 술진 |
 | 공명 변조 | [십자형 그룹](/ko/systems/resonance/): 이해, 정성, 불시의 의아함, 희망, 순식간의 광증 |
+| 게임 내 추천 의지 | [떠오른 생각](/ko/psychubes/a-tingle-of-a-thought/), [초침의 서식지](/ko/psychubes/on-the-hand-of-time/) |
 | 중국 본토 출시 | 2025-05-15 |
 | 글로벌 출시 | 2025-09-19 |
 

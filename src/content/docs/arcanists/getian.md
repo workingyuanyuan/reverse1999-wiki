@@ -32,6 +32,7 @@ sources:
 | Damage | Reality |
 | Tags | Support, Channel, Eureka, Array |
 | Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
+| Psychubes recommended in game | [On the Hand of Time](/psychubes/on-the-hand-of-time/), [The Third Commitment](/psychubes/the-third-commitment/), [Same Old Story](/psychubes/same-old-story/) |
 | Mainland release | 2024-02-01 |
 | Global release | 2024-06-20 |
 

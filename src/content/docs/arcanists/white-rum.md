@@ -33,6 +33,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Shift, Control, Channel |
 | Resonance Patterns | [U-shaped set](/systems/resonance/): Hyper, Overindulgence, Quiescence, Prudentiality, Equanimity |
+| Psychubes recommended in game | [Balance, Please](/psychubes/balance-please/) |
 | Mainland release | 2024-09-19 |
 | Global release | 2025-01-09 |
 

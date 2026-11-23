@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 現實 |
 | 標籤 | 輸出、燃燒、輔助 |
 | 共鳴調頻 | [Z 形組](/zh-tw/systems/resonance/)：洞徹、赤誠、憐憫、安恬泰然、循序平衡 |
+| 遊戲內推薦的心相 | [敲響這窄門](/zh-tw/psychubes/knock-on-the-door/)、[夜色褻瀆者](/zh-tw/psychubes/blasphemer-of-night/)、[無意識夢魘](/zh-tw/psychubes/shadows-in-the-subconscious/) |
 | 中國大陸版上線 | 2024-02-22 |
 | 國際版上線 | 已在國際版用戶端中 |
 

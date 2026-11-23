@@ -33,6 +33,7 @@ sources:
 | ダメージタイプ | メンタル |
 | タグ | アタッカー、サポート、バフ解除 |
 | 共鳴の変調 | [Z字型グループ](/ja/systems/resonance/)：通暁、誠実、慈悲、泰然自若、均衡調和 |
+| ゲーム内のおすすめ心相 | [長い夜話](/ja/psychubes/long-night-talk/)、[苦しい旅の途中](/ja/psychubes/take-the-hard-journey/)、[いざ出航](/ja/psychubes/lets-set-sail/) |
 | 中国本土版の実装 | 2023-08-17 |
 | グローバル版の実装 | 2023-12-28 |
 

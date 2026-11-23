@@ -29,6 +29,7 @@ sources:
 | 피해 유형 | 현실 |
 | 태그 | 보호막, 연소, 보조, 반격 |
 | 공명 변조 | [Z자형 그룹](/ko/systems/resonance/): 이해, 정성, 연민, 편안과 태연, 순환 균형 |
+| 게임 내 추천 의지 | [말할 수 없는 가벼움](/ko/psychubes/the-unbearable-lightness/), [가정 지도사](/ko/psychubes/family-mentor/), [밤의 모독자](/ko/psychubes/blasphemer-of-night/) |
 | 중국 본토 출시 | 2024-06-27 |
 | 글로벌 출시 | 2024-11-21 |
 

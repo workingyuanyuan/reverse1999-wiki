@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | Support, DPS, Rewrite |
 | Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
+| Psychubes recommended in game | [Balance, Please](/psychubes/balance-please/) |
 | Mainland release | 2026-07-23 |
 | Global release | 2026-07-23 |
 

@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Extra Action, Ritual, Bullet |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [Across the Acheron](/psychubes/across-the-acheron/) |
 | Mainland release | 2026-01-01 |
 | Global release | 2026-03-26 |
 

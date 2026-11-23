@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 現實 |
 | 標籤 | 治療、薪血、輔助 |
 | 共鳴調頻 | [U 形組](/zh-tw/systems/resonance/)：亢奮、饜足、沉靜、節制、安恬泰然 |
+| 遊戲內推薦的心相 | [流浪即興曲](/zh-tw/psychubes/the-wandering-improviser/) |
 | 中國大陸版上線 | 2025-09-19 |
 | 國際版上線 | 2025-12-11 |
 

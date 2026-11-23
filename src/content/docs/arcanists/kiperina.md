@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | Shield, Inspiration, Support, Eureka |
 | Resonance Patterns | [U-shaped set](/systems/resonance/): Hyper, Overindulgence, Quiescence, Prudentiality, Equanimity |
+| Psychubes recommended in game | [Aurora After Winter](/psychubes/aurora-after-winter/), [Long Night Talk](/psychubes/long-night-talk/) |
 | Mainland release | 2025-04-24 |
 | Global release | 2025-07-24 |
 

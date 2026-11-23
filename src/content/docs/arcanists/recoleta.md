@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Ritual, Support |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [The Final Roll](/psychubes/the-final-roll/), [The Carat of a Heart](/psychubes/the-carat-of-a-heart/) |
 | Mainland release | 2025-02-27 |
 | Global release | 2025-05-29 |
 

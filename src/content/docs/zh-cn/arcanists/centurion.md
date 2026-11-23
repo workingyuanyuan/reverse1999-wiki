@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 现实 |
 | 标签 | 输出 |
 | 共鸣调频 | [十字形组](/zh-cn/systems/resonance/)：洞彻、赤诚、恍然惊诧、希冀、瞬息迷狂 |
+| 游戏内推荐的心相 | [另一个故事](/zh-cn/psychubes/another-story/)、[最后的投掷](/zh-cn/psychubes/the-final-roll/) |
 | 中国大陆版上线 | 2023-05-31 |
 | 国际版上线 | 2023-10-26 |
 

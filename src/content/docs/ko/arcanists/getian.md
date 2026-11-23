@@ -32,6 +32,7 @@ sources:
 | 피해 유형 | 현실 |
 | 태그 | 보조, 음송, 신기한 빛, 술진 |
 | 공명 변조 | [T자형 그룹](/ko/systems/resonance/): 이해, 정성, 광분, 격려, 제한 없는 상상 |
+| 게임 내 추천 의지 | [초침의 서식지](/ko/psychubes/on-the-hand-of-time/), [세 번째 신뢰](/ko/psychubes/the-third-commitment/), [평범한 순간](/ko/psychubes/same-old-story/) |
 | 중국 본토 출시 | 2024-02-01 |
 | 글로벌 출시 | 2024-06-20 |
 

@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | Support, Extra Action, DPS, Channel, Eureka |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [On the Hand of Time](/psychubes/on-the-hand-of-time/), [Transcendent Love](/psychubes/transcendent-love/), [Aurora After Winter](/psychubes/aurora-after-winter/) |
 | Mainland release | 2024-11-21 |
 | Global release | 2025-03-06 |
 

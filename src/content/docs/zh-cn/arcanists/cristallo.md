@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 现实 |
 | 标签 | 辅助 |
 | 共鸣调频 | [U 形组](/zh-cn/systems/resonance/)：亢奋、餍足、沉静、节制、安恬泰然 |
+| 游戏内推荐的心相 | [漫长悄悄话](/zh-cn/psychubes/long-night-talk/)、[步此苦旅](/zh-cn/psychubes/take-the-hard-journey/)、[勇往直前](/zh-cn/psychubes/lets-set-sail/) |
 | 中国大陆版上线 | 2023-05-31 |
 | 国际版上线 | 2023-10-26 |
 

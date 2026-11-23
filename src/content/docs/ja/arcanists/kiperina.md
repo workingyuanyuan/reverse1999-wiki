@@ -34,6 +34,7 @@ sources:
 | ダメージタイプ | メンタル |
 | タグ | シールド、啓示、サポート、ひらめき |
 | 共鳴の変調 | [U字型グループ](/ja/systems/resonance/)：亢奮、満足、沈静、節制、泰然自若 |
+| ゲーム内のおすすめ心相 | [春の足取り](/ja/psychubes/aurora-after-winter/)、[長い夜話](/ja/psychubes/long-night-talk/) |
 | 中国本土版の実装 | 2025-04-24 |
 | グローバル版の実装 | 2025-07-24 |
 

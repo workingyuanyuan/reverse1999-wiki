@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | Support, Extra Action, Remove Debuffs |
 | Resonance Patterns | [U-shaped set](/systems/resonance/): Hyper, Overindulgence, Quiescence, Prudentiality, Equanimity |
+| Psychubes recommended in game | [Her Second Life](/psychubes/her-second-life/) |
 | Mainland release | 2024-11-21 |
 | Global release | 2025-03-06 |
 

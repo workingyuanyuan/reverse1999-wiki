@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 现实 |
 | 标签 | 输出、追击 |
 | 共鸣调频 | [十字形组](/zh-cn/systems/resonance/)：洞彻、赤诚、恍然惊诧、希冀、瞬息迷狂 |
+| 游戏内推荐的心相 | [在四方城外](/zh-cn/psychubes/outside-the-city/)、[掌声如雷鸣](/zh-cn/psychubes/thunderous-applause/) |
 | 中国大陆版上线 | 2023-05-31 |
 | 国际版上线 | 2023-10-26 |
 

@@ -34,6 +34,7 @@ sources:
 | ダメージタイプ | メンタル |
 | タグ | 回復、ランクUP、サポート、デバフ解除 |
 | 共鳴の変調 | [U字型グループ](/ja/systems/resonance/)：亢奮、満足、沈静、節制、泰然自若 |
+| ゲーム内のおすすめ心相 | [夜は明ける](/ja/psychubes/dawn-is-coming/)、[懐かしい歌、新しいメロディー](/ja/psychubes/melodies-old-and-new/)、[舞台裏の注釈](/ja/psychubes/off-the-scene/) |
 | 中国本土版の実装 | 2024-04-11 |
 | グローバル版の実装 | 2024-08-15 |
 

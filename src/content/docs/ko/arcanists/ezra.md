@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 정신 |
 | 태그 | 보호막, 보조, 신기한 빛 |
 | 공명 변조 | [십자형 그룹](/ko/systems/resonance/): 이해, 정성, 불시의 의아함, 희망, 순식간의 광증 |
+| 게임 내 추천 의지 | [원더랜드 너머](/ko/psychubes/beyond-wonderland/), [올드앤뉴 멜로디](/ko/psychubes/melodies-old-and-new/), [용자의 충고](/ko/psychubes/the-fighters-best-wishes/) |
 | 중국 본토 출시 | 2023-12-21 |
 | 글로벌 출시 | 2024-05-09 |
 

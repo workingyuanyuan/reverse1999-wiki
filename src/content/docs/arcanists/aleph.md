@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | Support, Inspiration, Channel, Eureka |
 | Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
+| Psychubes recommended in game | [Mental Cage](/psychubes/mental-cage/), [Long Night Talk](/psychubes/long-night-talk/) |
 | Mainland release | 2025-03-20 |
 | Global release | 2025-06-19 |
 

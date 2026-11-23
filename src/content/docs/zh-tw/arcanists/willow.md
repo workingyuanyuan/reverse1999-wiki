@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 精神 |
 | 標籤 | 輸出、中毒、吟誦 |
 | 共鳴調頻 | [Z 形組](/zh-tw/systems/resonance/)：洞徹、赤誠、憐憫、安恬泰然、循序平衡 |
+| 遊戲內推薦的心相 | [無韻律跳步](/zh-tw/psychubes/offbeat-strides/)、[非物質真情](/zh-tw/psychubes/transcendent-love/) |
 | 中國大陸版上線 | 2024-10-31 |
 | 國際版上線 | 2025-02-20 |
 

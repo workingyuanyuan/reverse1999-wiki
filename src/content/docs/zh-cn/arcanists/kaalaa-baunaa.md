@@ -33,6 +33,7 @@ sources:
 | 创伤类型 | 精神 |
 | 标签 | 输出、追击 |
 | 共鸣调频 | [Z 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、怜悯、安恬泰然、循序平衡 |
+| 游戏内推荐的心相 | [在四方城外](/zh-cn/psychubes/outside-the-city/)、[另一个故事](/zh-cn/psychubes/another-story/)、[秒针栖息地](/zh-cn/psychubes/on-the-hand-of-time/) |
 | 中国大陆版上线 | 2023-09-28 |
 | 国际版上线 | 2024-01-18 |
 

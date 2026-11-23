@@ -34,6 +34,7 @@ sources:
 | ダメージタイプ | リアル |
 | タグ | アタッカー、行動阻害 |
 | 共鳴の変調 | [十字型グループ](/ja/systems/resonance/)：通暁、誠実、奇想天外、希望、無我夢中 |
+| ゲーム内のおすすめ心相 | [娯楽至上](/ja/psychubes/luxurious-leisure/)、[家族の導き手](/ja/psychubes/family-mentor/) |
 | 中国本土版の実装 | 2023-05-31 |
 | グローバル版の実装 | 2023-10-26 |
 

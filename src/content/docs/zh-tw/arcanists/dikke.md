@@ -33,6 +33,7 @@ sources:
 | 創傷類型 | 精神 |
 | 標籤 | 治療 |
 | 共鳴調頻 | [Z 形組](/zh-tw/systems/resonance/)：洞徹、赤誠、憐憫、安恬泰然、循序平衡 |
+| 遊戲內推薦的心相 | [步此苦旅](/zh-tw/psychubes/take-the-hard-journey/) |
 | 中國大陸版上線 | 2023-05-31 |
 | 國際版上線 | 2023-10-26 |
 

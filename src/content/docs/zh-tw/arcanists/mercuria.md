@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 精神 |
 | 標籤 | 輔助、升階、輸出 |
 | 共鳴調頻 | [十字形組](/zh-tw/systems/resonance/)：洞徹、赤誠、恍然驚詫、希冀、瞬息迷狂 |
+| 遊戲內推薦的心相 | [迷途以外](/zh-tw/psychubes/one-with-the-flow/)、[漫行如泉流](/zh-tw/psychubes/starlight-wellspring/) |
 | 中國大陸版上線 | 2024-07-18 |
 | 國際版上線 | 2024-10-31 |
 

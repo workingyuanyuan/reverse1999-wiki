@@ -33,6 +33,7 @@ sources:
 | ダメージタイプ | リアル |
 | タグ | サポート、燃焼、チャネル、バレット、陣法 |
 | 共鳴の変調 | [十字型グループ](/ja/systems/resonance/)：通暁、誠実、奇想天外、希望、無我夢中 |
+| ゲーム内のおすすめ心相 | [三度目の信頼](/ja/psychubes/the-third-commitment/)、[家族の導き手](/ja/psychubes/family-mentor/)、[夜の奥深くへと](/ja/psychubes/stray-off-the-path/) |
 | 中国本土版の実装 | 2024-10-10 |
 | グローバル版の実装 | 2025-01-30 |
 

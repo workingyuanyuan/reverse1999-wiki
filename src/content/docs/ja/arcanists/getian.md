@@ -32,6 +32,7 @@ sources:
 | ダメージタイプ | リアル |
 | タグ | サポート、チャネル、ひらめき、陣法 |
 | 共鳴の変調 | [T字型グループ](/ja/systems/resonance/)：通暁、誠実、亢奮、鼓舞、一意専心 |
+| ゲーム内のおすすめ心相 | [秒針の住み処](/ja/psychubes/on-the-hand-of-time/)、[三度目の信頼](/ja/psychubes/the-third-commitment/)、[目下に新事なし](/ja/psychubes/same-old-story/) |
 | 中国本土版の実装 | 2024-02-01 |
 | グローバル版の実装 | 2024-06-20 |
 

@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 현실 |
 | 태그 | 공격 |
 | 공명 변조 | [Z자형 그룹](/ko/systems/resonance/): 이해, 정성, 연민, 편안과 태연, 순환 균형 |
+| 게임 내 추천 의지 | [용자의 충고](/ko/psychubes/the-fighters-best-wishes/), [풍족한 식탁](/ko/psychubes/a-satisfied-eater/), [밤이면 밤마다](/ko/psychubes/night-after-night/), [개울 속으로](/ko/psychubes/into-the-gentle-current/) |
 | 중국 본토 출시 | 2023-05-31 |
 | 글로벌 출시 | 2023-10-26 |
 

@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 精神 |
 | 標籤 | 治療、輔助、驅散 |
 | 共鳴調頻 | [Z 形組](/zh-tw/systems/resonance/)：洞徹、赤誠、憐憫、安恬泰然、循序平衡 |
+| 遊戲內推薦的心相 | [驚魂拍檔](/zh-tw/psychubes/your-friendly-exorcist/)、[第二次生命](/zh-tw/psychubes/her-second-life/) |
 | 中國大陸版上線 | 2024-04-11 |
 | 國際版上線 | 2024-08-15 |
 

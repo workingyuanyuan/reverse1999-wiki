@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Inspiration, Support, Array, Eureka |
 | Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
+| Psychubes recommended in game | [Wayfarer of the Dao](/psychubes/wayfarer-of-the-dao/) |
 | Mainland release | 2026-01-20 |
 | Global release | 2026-04-16 |
 

@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 现实 |
 | 标签 | 输出 |
 | 共鸣调频 | [Z 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、怜悯、安恬泰然、循序平衡 |
+| 游戏内推荐的心相 | [勇敢者赠言](/zh-cn/psychubes/the-fighters-best-wishes/)、[食足餮满](/zh-cn/psychubes/a-satisfied-eater/)、[夜夜亦然](/zh-cn/psychubes/night-after-night/)、[汇入涓流中](/zh-cn/psychubes/into-the-gentle-current/) |
 | 中国大陆版上线 | 2023-05-31 |
 | 国际版上线 | 2023-10-26 |
 

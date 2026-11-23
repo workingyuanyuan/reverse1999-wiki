@@ -32,6 +32,7 @@ sources:
 | 创伤类型 | 现实 |
 | 标签 | 辅助、吟诵、灵光、术阵 |
 | 共鸣调频 | [T 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、亢奋、鼓舞、纵情狂想 |
+| 游戏内推荐的心相 | [秒针栖息地](/zh-cn/psychubes/on-the-hand-of-time/)、[第三次信任](/zh-cn/psychubes/the-third-commitment/)、[此刻无新事](/zh-cn/psychubes/same-old-story/) |
 | 中国大陆版上线 | 2024-02-01 |
 | 国际版上线 | 2024-06-20 |
 

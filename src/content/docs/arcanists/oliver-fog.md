@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Support |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [Remaining Absurdity](/psychubes/remaining-absurdity/), [Hopscotch](/psychubes/hopscotch/), [Her Second Life](/psychubes/her-second-life/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
 

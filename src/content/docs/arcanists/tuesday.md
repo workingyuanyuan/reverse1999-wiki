@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS, Poison, Support, Array |
 | Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
+| Psychubes recommended in game | [And the Maid Says](/psychubes/and-the-maid-says/), [One with the Flow](/psychubes/one-with-the-flow/) |
 | Mainland release | 2024-08-08 |
 | Global release | 2024-12-05 |
 

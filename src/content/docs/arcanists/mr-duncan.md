@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Riposte, Bullet |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [Family Mentor](/psychubes/family-mentor/) |
 | Mainland release | 2024-09-19 |
 | Global release | 2025-01-09 |
 

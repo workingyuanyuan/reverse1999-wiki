@@ -33,6 +33,7 @@ sources:
 | 创伤类型 | 精神 |
 | 标签 | 输出、驱散 |
 | 共鸣调频 | [T 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、亢奋、鼓舞、纵情狂想 |
+| 游戏内推荐的心相 | [食足餮满](/zh-cn/psychubes/a-satisfied-eater/)、[掌声如雷鸣](/zh-cn/psychubes/thunderous-applause/) |
 | 中国大陆版上线 | 2023-05-31 |
 | 国际版上线 | 2023-10-26 |
 

@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 現實 |
 | 標籤 | 治療 |
 | 共鳴調頻 | [U 形組](/zh-tw/systems/resonance/)：亢奮、饜足、沉靜、節制、安恬泰然 |
+| 遊戲內推薦的心相 | [勇敢者贈言](/zh-tw/psychubes/the-fighters-best-wishes/) |
 | 中國大陸版上線 | 2023-05-31 |
 | 國際版上線 | 2023-10-26 |
 

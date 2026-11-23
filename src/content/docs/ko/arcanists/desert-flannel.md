@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 현실 |
 | 태그 | 보조, 공격 |
 | 공명 변조 | [Z자형 그룹](/ko/systems/resonance/): 이해, 정성, 연민, 편안과 태연, 순환 균형 |
+| 게임 내 추천 의지 | [가정 지도사](/ko/psychubes/family-mentor/), [두 번째 생명](/ko/psychubes/her-second-life/) |
 | 중국 본토 출시 | 2023-12-21 |
 | 글로벌 출시 | 2024-05-09 |
 

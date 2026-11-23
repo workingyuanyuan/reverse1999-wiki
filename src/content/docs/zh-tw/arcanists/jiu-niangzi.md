@@ -32,6 +32,7 @@ sources:
 | 創傷類型 | 現實 |
 | 標籤 | 輸出、額外行動、吟誦 |
 | 共鳴調頻 | [Z 形組](/zh-tw/systems/resonance/)：洞徹、赤誠、憐憫、安恬泰然、循序平衡 |
+| 遊戲內推薦的心相 | [在四方城外](/zh-tw/psychubes/outside-the-city/)、[尋入夜深處](/zh-tw/psychubes/stray-off-the-path/) |
 | 中國大陸版上線 | 2024-01-11 |
 | 國際版上線 | 2024-05-30 |
 

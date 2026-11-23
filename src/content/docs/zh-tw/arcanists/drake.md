@@ -35,6 +35,7 @@ sources:
 | 創傷類型 | 精神 |
 | 標籤 | 輔助、餘輝、輸出、吟誦 |
 | 共鳴調頻 | [Z 形組](/zh-tw/systems/resonance/)：洞徹、赤誠、憐憫、安恬泰然、循序平衡 |
+| 遊戲內推薦的心相 | [宿命之向背（非官方）](/zh-tw/psychubes/to-choose-against-fate/) |
 | 中國大陸版上線 | 4.0 版 |
 | 國際版上線 | 尚未上線 |
 

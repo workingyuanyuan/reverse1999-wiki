@@ -32,6 +32,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Extra Action, Channel |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [Outside the City](/psychubes/outside-the-city/), [Stray Off the Path](/psychubes/stray-off-the-path/) |
 | Mainland release | 2024-01-11 |
 | Global release | 2024-05-30 |
 

@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 现实 |
 | 标签 | 治疗、薪血、辅助 |
 | 共鸣调频 | [U 形组](/zh-cn/systems/resonance/)：亢奋、餍足、沉静、节制、安恬泰然 |
+| 游戏内推荐的心相 | [流浪即兴曲](/zh-cn/psychubes/the-wandering-improviser/) |
 | 中国大陆版上线 | 2025-09-19 |
 | 国际版上线 | 2025-12-11 |
 

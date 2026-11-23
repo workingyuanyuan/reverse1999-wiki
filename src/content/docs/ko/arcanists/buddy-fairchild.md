@@ -33,6 +33,7 @@ sources:
 | 피해 유형 | 현실 |
 | 태그 | 공격, 술식 |
 | 공명 변조 | [Z자형 그룹](/ko/systems/resonance/): 이해, 정성, 연민, 편안과 태연, 순환 균형 |
+| 게임 내 추천 의지 | [네버엔딩 Q&A](/ko/psychubes/never-ending-q-a/), [친절한 퇴마사](/ko/psychubes/your-friendly-exorcist/) |
 | 중국 본토 출시 | 2025-05-15 |
 | 글로벌 출시 | 2025-09-19 |
 

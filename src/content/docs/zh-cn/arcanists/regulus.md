@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 精神 |
 | 标签 | 输出 |
 | 共鸣调频 | [T 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、亢奋、鼓舞、纵情狂想 |
+| 游戏内推荐的心相 | [掌声如雷鸣](/zh-cn/psychubes/thunderous-applause/)、[另一个故事](/zh-cn/psychubes/another-story/)、[纵情一曲](/zh-cn/psychubes/belt-it-out/)、[故尝试证明](/zh-cn/psychubes/for-rehabilitation/) |
 | 中国大陆版上线 | 2023-05-31 |
 | 国际版上线 | 2023-10-26 |
 

@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 精神 |
 | 标签 | 治疗、辅助 |
 | 共鸣调频 | [U 形组](/zh-cn/systems/resonance/)：亢奋、餍足、沉静、节制、安恬泰然 |
+| 游戏内推荐的心相 | [勇敢者赠言](/zh-cn/psychubes/the-fighters-best-wishes/) |
 | 中国大陆版上线 | 2024-06-06 |
 | 国际版上线 | 2024-10-10 |
 

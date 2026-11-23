@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Conduit |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [The Art of Atoms](/psychubes/the-art-of-atoms/), [The Dance of Science](/psychubes/the-dance-of-science/) |
 | Mainland release | 2026-07-23 |
 | Global release | 2026-07-23 |
 

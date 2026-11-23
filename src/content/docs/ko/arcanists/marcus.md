@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 정신 |
 | 태그 | 공격, 승급, 신기한 빛 |
 | 공명 변조 | [T자형 그룹](/ko/systems/resonance/): 이해, 정성, 광분, 격려, 제한 없는 상상 |
+| 게임 내 추천 의지 | [또 다른 이야기](/ko/psychubes/another-story/), [밤의 모독자](/ko/psychubes/blasphemer-of-night/) |
 | 중국 본토 출시 | 2024-03-21 |
 | 글로벌 출시 | 2024-08-01 |
 

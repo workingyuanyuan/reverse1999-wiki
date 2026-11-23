@@ -33,6 +33,7 @@ sources:
 | 創傷類型 | 精神 |
 | 標籤 | 輔助、電能、輸出、吟誦、術陣 |
 | 共鳴調頻 | [U 形組](/zh-tw/systems/resonance/)：亢奮、饜足、沉靜、節制、安恬泰然 |
+| 遊戲內推薦的心相 | [向種子呢喃](/zh-tw/psychubes/buds-yet-to-bloom/)、[非物質真情](/zh-tw/psychubes/transcendent-love/)、[秒針棲息地](/zh-tw/psychubes/on-the-hand-of-time/) |
 | 中國大陸版上線 | 2025-07-17 |
 | 國際版上線 | 2025-11-20 |
 

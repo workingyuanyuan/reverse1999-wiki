@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [The Carat of a Heart](/psychubes/the-carat-of-a-heart/), [Balance, Please](/psychubes/balance-please/), [Rehearsal of Dreams](/psychubes/rehearsal-of-dreams/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
 

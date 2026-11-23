@@ -33,6 +33,7 @@ sources:
 | 创伤类型 | 现实 |
 | 标签 | 输出、反击 |
 | 共鸣调频 | [Z 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、怜悯、安恬泰然、循序平衡 |
+| 游戏内推荐的心相 | [光影的栖所](/zh-cn/psychubes/where-light-and-shadows-rest/) |
 | 中国大陆版上线 | 2026-07-02 |
 | 国际版上线 | 2026-10-15 |
 

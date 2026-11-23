@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 精神 |
 | 標籤 | 護盾、輔助、靈光 |
 | 共鳴調頻 | [十字形組](/zh-tw/systems/resonance/)：洞徹、赤誠、恍然驚詫、希冀、瞬息迷狂 |
+| 遊戲內推薦的心相 | [在仙境之外](/zh-tw/psychubes/beyond-wonderland/)、[新舊歌謠](/zh-tw/psychubes/melodies-old-and-new/)、[勇敢者贈言](/zh-tw/psychubes/the-fighters-best-wishes/) |
 | 中國大陸版上線 | 2023-12-21 |
 | 國際版上線 | 2024-05-09 |
 

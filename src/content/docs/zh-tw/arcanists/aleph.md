@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 精神 |
 | 標籤 | 輔助、啟示、吟誦、靈光 |
 | 共鳴調頻 | [T 形組](/zh-tw/systems/resonance/)：洞徹、赤誠、亢奮、鼓舞、縱情狂想 |
+| 遊戲內推薦的心相 | [腦室即囚室](/zh-tw/psychubes/mental-cage/)、[漫長悄悄話](/zh-tw/psychubes/long-night-talk/) |
 | 中國大陸版上線 | 2025-03-20 |
 | 國際版上線 | 2025-06-19 |
 

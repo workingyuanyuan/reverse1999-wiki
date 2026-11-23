@@ -32,6 +32,7 @@ sources:
 | 피해 유형 | 현실 |
 | 태그 | 공격, 추가 행동, 면역 |
 | 공명 변조 | [십자형 그룹](/ko/systems/resonance/): 이해, 정성, 불시의 의아함, 희망, 순식간의 광증 |
+| 게임 내 추천 의지 | [응답 바람](/ko/psychubes/ready-on-call/), [성 밖의 세상](/ko/psychubes/outside-the-city/), [초침의 서식지](/ko/psychubes/on-the-hand-of-time/) |
 | 중국 본토 출시 | 2025-01-16 |
 | 글로벌 출시 | 2025-04-24 |
 

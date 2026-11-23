@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 정신 |
 | 태그 | 치료, 추가 행동, 정화 |
 | 공명 변조 | [T자형 그룹](/ko/systems/resonance/): 이해, 정성, 광분, 격려, 제한 없는 상상 |
+| 게임 내 추천 의지 | [두려워하는 조개껍데기](/ko/psychubes/cracks-in-the-shell/), [올드앤뉴 멜로디](/ko/psychubes/melodies-old-and-new/) |
 | 중국 본토 출시 | 2024-12-26 |
 | 글로벌 출시 | 2025-04-10 |
 

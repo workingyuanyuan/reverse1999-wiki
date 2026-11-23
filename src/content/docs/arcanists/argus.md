@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Rank Up, Support, Remove Buffs |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [Stray Off the Path](/psychubes/stray-off-the-path/), [Outside the City](/psychubes/outside-the-city/), [Thunderous Applause](/psychubes/thunderous-applause/) |
 | Mainland release | 2024-08-29 |
 | Global release | 2024-12-26 |
 

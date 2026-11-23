@@ -33,6 +33,7 @@ sources:
 | ダメージタイプ | メンタル |
 | タグ | サポート、電力、アタッカー、チャネル、陣法 |
 | 共鳴の変調 | [U字型グループ](/ja/systems/resonance/)：亢奮、満足、沈静、節制、泰然自若 |
+| ゲーム内のおすすめ心相 | [種に囁きかけ](/ja/psychubes/buds-yet-to-bloom/)、[愛の本質](/ja/psychubes/transcendent-love/)、[秒針の住み処](/ja/psychubes/on-the-hand-of-time/) |
 | 中国本土版の実装 | 2025-07-17 |
 | グローバル版の実装 | 2025-11-20 |
 

@@ -33,6 +33,7 @@ sources:
 | 피해 유형 | 정신 |
 | 태그 | 공격, 추가 행동, 술식, 제어, 음송 |
 | 공명 변조 | [Z자형 그룹](/ko/systems/resonance/): 이해, 정성, 연민, 편안과 태연, 순환 균형 |
+| 게임 내 추천 의지 | [실체 없는 진실](/ko/psychubes/transcendent-love/), [성 밖의 세상](/ko/psychubes/outside-the-city/), [밤의 모독자](/ko/psychubes/blasphemer-of-night/) |
 | 중국 본토 출시 | 2024-09-19 |
 | 글로벌 출시 | 2025-01-09 |
 

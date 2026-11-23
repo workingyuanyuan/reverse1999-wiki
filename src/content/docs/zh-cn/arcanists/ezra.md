@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 精神 |
 | 标签 | 护盾、辅助、灵光 |
 | 共鸣调频 | [十字形组](/zh-cn/systems/resonance/)：洞彻、赤诚、恍然惊诧、希冀、瞬息迷狂 |
+| 游戏内推荐的心相 | [在仙境之外](/zh-cn/psychubes/beyond-wonderland/)、[新旧歌谣](/zh-cn/psychubes/melodies-old-and-new/)、[勇敢者赠言](/zh-cn/psychubes/the-fighters-best-wishes/) |
 | 中国大陆版上线 | 2023-12-21 |
 | 国际版上线 | 2024-05-09 |
 

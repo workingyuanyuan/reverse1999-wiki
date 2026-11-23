@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Dynamo, Support, Channel, Array |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [A Tingle of a Thought](/psychubes/a-tingle-of-a-thought/), [On the Hand of Time](/psychubes/on-the-hand-of-time/) |
 | Mainland release | 2025-05-15 |
 | Global release | 2025-09-19 |
 

@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 精神 |
 | 標籤 | 治療 |
 | 共鳴調頻 | [T 形組](/zh-tw/systems/resonance/)：洞徹、赤誠、亢奮、鼓舞、縱情狂想 |
+| 遊戲內推薦的心相 | [驚魂拍檔](/zh-tw/psychubes/your-friendly-exorcist/) |
 | 中國大陸版上線 | 2025-01-16 |
 | 國際版上線 | 2025-04-24 |
 

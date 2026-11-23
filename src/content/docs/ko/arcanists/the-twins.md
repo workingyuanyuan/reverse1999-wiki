@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 현실 |
 | 태그 | 공격, 마도구 |
 | 공명 변조 | [십자형 그룹](/ko/systems/resonance/): 이해, 정성, 불시의 의아함, 희망, 순식간의 광증 |
+| 게임 내 추천 의지 | [예술 원자력](/ko/psychubes/the-art-of-atoms/), [과학 안무법](/ko/psychubes/the-dance-of-science/) |
 | 중국 본토 출시 | 2026-07-23 |
 | 글로벌 출시 | 2026-07-23 |
 

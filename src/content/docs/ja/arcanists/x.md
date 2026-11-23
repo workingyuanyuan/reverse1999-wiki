@@ -29,6 +29,7 @@ sources:
 | ダメージタイプ | リアル |
 | タグ | アタッカー、バフ解除、行動阻害 |
 | 共鳴の変調 | [Z字型グループ](/ja/systems/resonance/)：通暁、誠実、慈悲、泰然自若、均衡調和 |
+| ゲーム内のおすすめ心相 | [美しい新世界](/ja/psychubes/brave-new-world/)、[ホップスコッチ](/ja/psychubes/hopscotch/)、[二度目の人生](/ja/psychubes/her-second-life/) |
 | 中国本土版の実装 | 2023-05-31 |
 | グローバル版の実装 | 2023-10-26 |
 

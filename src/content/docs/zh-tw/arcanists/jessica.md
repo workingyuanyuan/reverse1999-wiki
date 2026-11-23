@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 現實 |
 | 標籤 | 輸出、中毒 |
 | 共鳴調頻 | [T 形組](/zh-tw/systems/resonance/)：洞徹、赤誠、亢奮、鼓舞、縱情狂想 |
+| 遊戲內推薦的心相 | [夜色褻瀆者](/zh-tw/psychubes/blasphemer-of-night/)、[落於現象](/zh-tw/psychubes/falling-for-a-sweet-phenomenon/) |
 | 中國大陸版上線 | 2023-08-17 |
 | 國際版上線 | 2023-12-28 |
 

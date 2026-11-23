@@ -33,6 +33,7 @@ sources:
 | 피해 유형 | 현실 |
 | 태그 | 보호막, 보조, 탄환 |
 | 공명 변조 | [십자형 그룹](/ko/systems/resonance/): 이해, 정성, 불시의 의아함, 희망, 순식간의 광증 |
+| 게임 내 추천 의지 | [균형 유지](/ko/psychubes/balance-please/), [고통의 여정](/ko/psychubes/take-the-hard-journey/), [용감한 전진](/ko/psychubes/lets-set-sail/) |
 | 중국 본토 출시 | 2023-05-31 |
 | 글로벌 출시 | 2023-10-26 |
 

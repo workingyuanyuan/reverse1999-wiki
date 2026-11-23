@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Burn |
 | Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
+| Psychubes recommended in game | [Long Night Talk](/psychubes/long-night-talk/), [Luxurious Leisure](/psychubes/luxurious-leisure/), [Never-Ending Q&A](/psychubes/never-ending-q-a/) |
 | Mainland release | 2023-11-30 |
 | Global release | 2024-04-18 |
 

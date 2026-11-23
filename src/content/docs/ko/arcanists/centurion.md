@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 현실 |
 | 태그 | 공격 |
 | 공명 변조 | [십자형 그룹](/ko/systems/resonance/): 이해, 정성, 불시의 의아함, 희망, 순식간의 광증 |
+| 게임 내 추천 의지 | [또 다른 이야기](/ko/psychubes/another-story/), [마지막 던지기](/ko/psychubes/the-final-roll/) |
 | 중국 본토 출시 | 2023-05-31 |
 | 글로벌 출시 | 2023-10-26 |
 

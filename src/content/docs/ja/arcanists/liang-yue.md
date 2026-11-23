@@ -32,6 +32,7 @@ sources:
 | ダメージタイプ | リアル |
 | タグ | アタッカー、追加行動、弱体無効 |
 | 共鳴の変調 | [十字型グループ](/ja/systems/resonance/)：通暁、誠実、奇想天外、希望、無我夢中 |
+| ゲーム内のおすすめ心相 | [直ちに応答せよ](/ja/psychubes/ready-on-call/)、[四方城の外にて](/ja/psychubes/outside-the-city/)、[秒針の住み処](/ja/psychubes/on-the-hand-of-time/) |
 | 中国本土版の実装 | 2025-01-16 |
 | グローバル版の実装 | 2025-04-24 |
 

@@ -33,6 +33,7 @@ sources:
 | 創傷類型 | 現實 |
 | 標籤 | 輔助、燃燒、吟誦、子彈、術陣 |
 | 共鳴調頻 | [十字形組](/zh-tw/systems/resonance/)：洞徹、赤誠、恍然驚詫、希冀、瞬息迷狂 |
+| 遊戲內推薦的心相 | [第三次信任](/zh-tw/psychubes/the-third-commitment/)、[家庭指導員](/zh-tw/psychubes/family-mentor/)、[尋入夜深處](/zh-tw/psychubes/stray-off-the-path/) |
 | 中國大陸版上線 | 2024-10-10 |
 | 國際版上線 | 2025-01-30 |
 

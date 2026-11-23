@@ -34,6 +34,7 @@ sources:
 | ダメージタイプ | リアル |
 | タグ | アタッカー、ランクUP、サポート、バフ解除 |
 | 共鳴の変調 | [Z字型グループ](/ja/systems/resonance/)：通暁、誠実、慈悲、泰然自若、均衡調和 |
+| ゲーム内のおすすめ心相 | [夜の奥深くへと](/ja/psychubes/stray-off-the-path/)、[四方城の外にて](/ja/psychubes/outside-the-city/)、[万雷の拍手](/ja/psychubes/thunderous-applause/) |
 | 中国本土版の実装 | 2024-08-29 |
 | グローバル版の実装 | 2024-12-26 |
 

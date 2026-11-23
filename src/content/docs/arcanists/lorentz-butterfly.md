@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | Support, Lingering Glow, DPS, Rewrite |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [The Fluttering Moment](/psychubes/the-fluttering-moment/) |
 | Mainland release | 2026-03-05 |
 | Global release | 2026-05-28 |
 

@@ -34,6 +34,7 @@ sources:
 | ダメージタイプ | メンタル |
 | タグ | アタッカー |
 | 共鳴の変調 | [Z字型グループ](/ja/systems/resonance/)：通暁、誠実、慈悲、泰然自若、均衡調和 |
+| ゲーム内のおすすめ心相 | [娯楽至上](/ja/psychubes/luxurious-leisure/)、[測定可能な心](/ja/psychubes/the-carat-of-a-heart/)、[家族の導き手](/ja/psychubes/family-mentor/) |
 | 中国本土版の実装 | 2023-06-15 |
 | グローバル版の実装 | 2023-11-09 |
 

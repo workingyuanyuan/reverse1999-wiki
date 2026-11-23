@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | Heal, Rank Up, Support, Remove Debuffs |
 | Resonance Patterns | [U-shaped set](/systems/resonance/): Hyper, Overindulgence, Quiescence, Prudentiality, Equanimity |
+| Psychubes recommended in game | [Dawn Is Coming](/psychubes/dawn-is-coming/), [Melodies Old and New](/psychubes/melodies-old-and-new/), [Off the Scene](/psychubes/off-the-scene/) |
 | Mainland release | 2024-04-11 |
 | Global release | 2024-08-15 |
 

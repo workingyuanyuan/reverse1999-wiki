@@ -34,6 +34,7 @@ sources:
 | ダメージタイプ | メンタル |
 | タグ | アタッカー |
 | 共鳴の変調 | [T字型グループ](/ja/systems/resonance/)：通暁、誠実、亢奮、鼓舞、一意専心 |
+| ゲーム内のおすすめ心相 | [万雷の拍手](/ja/psychubes/thunderous-applause/)、[もうひとつの物語](/ja/psychubes/another-story/)、[ベルト・イット・アウト](/ja/psychubes/belt-it-out/)、[証明の試み](/ja/psychubes/for-rehabilitation/) |
 | 中国本土版の実装 | 2023-05-31 |
 | グローバル版の実装 | 2023-10-26 |
 

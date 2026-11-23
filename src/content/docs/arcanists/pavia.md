@@ -33,6 +33,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS |
 | Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
+| Psychubes recommended in game | [A Satisfied Eater](/psychubes/a-satisfied-eater/), [Luxurious Leisure](/psychubes/luxurious-leisure/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
 

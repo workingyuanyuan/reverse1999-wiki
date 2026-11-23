@@ -33,6 +33,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS, Poison, Support |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [Her Mournful Face](/psychubes/her-mournful-face/) |
 | Mainland release | 2023-09-07 |
 | Global release | 2024-01-18 |
 

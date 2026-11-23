@@ -34,6 +34,7 @@ sources:
 | ダメージタイプ | メンタル |
 | タグ | アタッカー、中毒、チャネル |
 | 共鳴の変調 | [Z字型グループ](/ja/systems/resonance/)：通暁、誠実、慈悲、泰然自若、均衡調和 |
+| ゲーム内のおすすめ心相 | [ノンリズムジャンプ](/ja/psychubes/offbeat-strides/)、[愛の本質](/ja/psychubes/transcendent-love/) |
 | 中国本土版の実装 | 2024-10-31 |
 | グローバル版の実装 | 2025-02-20 |
 

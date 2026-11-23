@@ -33,6 +33,7 @@ sources:
 | 피해 유형 | 정신 |
 | 태그 | 공격 |
 | 공명 변조 | [T자형 그룹](/ko/systems/resonance/): 이해, 정성, 광분, 격려, 제한 없는 상상 |
+| 게임 내 추천 의지 | [풍족한 식탁](/ko/psychubes/a-satisfied-eater/), [오락 지상주의](/ko/psychubes/luxurious-leisure/) |
 | 중국 본토 출시 | 2023-05-31 |
 | 글로벌 출시 | 2023-10-26 |
 

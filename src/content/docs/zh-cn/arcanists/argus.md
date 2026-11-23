@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 现实 |
 | 标签 | 输出、升阶、辅助、驱散 |
 | 共鸣调频 | [Z 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、怜悯、安恬泰然、循序平衡 |
+| 游戏内推荐的心相 | [寻入夜深处](/zh-cn/psychubes/stray-off-the-path/)、[在四方城外](/zh-cn/psychubes/outside-the-city/)、[掌声如雷鸣](/zh-cn/psychubes/thunderous-applause/) |
 | 中国大陆版上线 | 2024-08-29 |
 | 国际版上线 | 2024-12-26 |
 

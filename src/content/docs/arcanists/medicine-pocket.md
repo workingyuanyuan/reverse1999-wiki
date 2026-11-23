@@ -33,6 +33,7 @@ sources:
 | Damage | Mental |
 | Tags | Heal, Support, Control |
 | Resonance Patterns | [U-shaped set](/systems/resonance/): Hyper, Overindulgence, Quiescence, Prudentiality, Equanimity |
+| Psychubes recommended in game | [Cracks in the Shell](/psychubes/cracks-in-the-shell/), [Melodies Old and New](/psychubes/melodies-old-and-new/), [You Deserve It](/psychubes/you-deserve-it/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
 

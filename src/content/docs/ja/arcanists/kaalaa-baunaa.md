@@ -33,6 +33,7 @@ sources:
 | ダメージタイプ | メンタル |
 | タグ | アタッカー、追撃 |
 | 共鳴の変調 | [Z字型グループ](/ja/systems/resonance/)：通暁、誠実、慈悲、泰然自若、均衡調和 |
+| ゲーム内のおすすめ心相 | [四方城の外にて](/ja/psychubes/outside-the-city/)、[もうひとつの物語](/ja/psychubes/another-story/)、[秒針の住み処](/ja/psychubes/on-the-hand-of-time/) |
 | 中国本土版の実装 | 2023-09-28 |
 | グローバル版の実装 | 2024-01-18 |
 

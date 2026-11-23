@@ -33,6 +33,7 @@ sources:
 | ダメージタイプ | メンタル |
 | タグ | アタッカー、追加行動、アルティメット、行動阻害、チャネル |
 | 共鳴の変調 | [Z字型グループ](/ja/systems/resonance/)：通暁、誠実、慈悲、泰然自若、均衡調和 |
+| ゲーム内のおすすめ心相 | [愛の本質](/ja/psychubes/transcendent-love/)、[四方城の外にて](/ja/psychubes/outside-the-city/)、[夜を冒涜する者](/ja/psychubes/blasphemer-of-night/) |
 | 中国本土版の実装 | 2024-09-19 |
 | グローバル版の実装 | 2025-01-09 |
 

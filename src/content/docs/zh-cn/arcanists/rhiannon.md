@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 精神 |
 | 标签 | 辅助、百灵百验 |
 | 共鸣调频 | [U 形组](/zh-cn/systems/resonance/)：亢奋、餍足、沉静、节制、安恬泰然 |
+| 游戏内推荐的心相 | [昨日雨声轻](/zh-cn/psychubes/the-soft-rain-of-yesterday/) |
 | 中国大陆版上线 | 2026-04-30 |
 | 国际版上线 | 2026-08-13 |
 

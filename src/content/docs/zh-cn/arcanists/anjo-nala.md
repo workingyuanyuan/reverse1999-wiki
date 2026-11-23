@@ -33,6 +33,7 @@ sources:
 | 创伤类型 | 精神 |
 | 标签 | 输出、额外行动、仪式、控制、吟诵 |
 | 共鸣调频 | [Z 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、怜悯、安恬泰然、循序平衡 |
+| 游戏内推荐的心相 | [非物质真情](/zh-cn/psychubes/transcendent-love/)、[在四方城外](/zh-cn/psychubes/outside-the-city/)、[夜色亵渎者](/zh-cn/psychubes/blasphemer-of-night/) |
 | 中国大陆版上线 | 2024-09-19 |
 | 国际版上线 | 2025-01-09 |
 

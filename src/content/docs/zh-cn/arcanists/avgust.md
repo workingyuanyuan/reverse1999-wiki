@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 精神 |
 | 标签 | 治疗、辅助、驱散 |
 | 共鸣调频 | [Z 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、怜悯、安恬泰然、循序平衡 |
+| 游戏内推荐的心相 | [惊魂拍档](/zh-cn/psychubes/your-friendly-exorcist/)、[第二次生命](/zh-cn/psychubes/her-second-life/) |
 | 中国大陆版上线 | 2024-04-11 |
 | 国际版上线 | 2024-08-15 |
 

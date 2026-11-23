@@ -33,6 +33,7 @@ sources:
 | 创伤类型 | 精神 |
 | 标签 | 输出、仪式、控制 |
 | 共鸣调频 | [T 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、亢奋、鼓舞、纵情狂想 |
+| 游戏内推荐的心相 | [造梦的预演](/zh-cn/psychubes/rehearsal-of-dreams/)、[夜色亵渎者](/zh-cn/psychubes/blasphemer-of-night/) |
 | 中国大陆版上线 | 2025-02-06 |
 | 国际版上线 | 2025-05-08 |
 

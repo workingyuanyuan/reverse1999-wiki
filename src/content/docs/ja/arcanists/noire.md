@@ -33,6 +33,7 @@ sources:
 | ダメージタイプ | メンタル |
 | タグ | アタッカー、アルティメット、行動阻害 |
 | 共鳴の変調 | [T字型グループ](/ja/systems/resonance/)：通暁、誠実、亢奮、鼓舞、一意専心 |
+| ゲーム内のおすすめ心相 | [夢づくりのリハーサル](/ja/psychubes/rehearsal-of-dreams/)、[夜を冒涜する者](/ja/psychubes/blasphemer-of-night/) |
 | 中国本土版の実装 | 2025-02-06 |
 | グローバル版の実装 | 2025-05-08 |
 

@@ -33,6 +33,7 @@ sources:
 | 创伤类型 | 精神 |
 | 标签 | 辅助、电能、输出、吟诵、术阵 |
 | 共鸣调频 | [U 形组](/zh-cn/systems/resonance/)：亢奋、餍足、沉静、节制、安恬泰然 |
+| 游戏内推荐的心相 | [向种子呢喃](/zh-cn/psychubes/buds-yet-to-bloom/)、[非物质真情](/zh-cn/psychubes/transcendent-love/)、[秒针栖息地](/zh-cn/psychubes/on-the-hand-of-time/) |
 | 中国大陆版上线 | 2025-07-17 |
 | 国际版上线 | 2025-11-20 |
 

@@ -33,6 +33,7 @@ sources:
 | 创伤类型 | 现实 |
 | 标签 | 输出、电能 |
 | 共鸣调频 | [十字形组](/zh-cn/systems/resonance/)：洞彻、赤诚、恍然惊诧、希冀、瞬息迷狂 |
+| 游戏内推荐的心相 | [行进的步音](/zh-cn/psychubes/steps-forward/)、[夜色亵渎者](/zh-cn/psychubes/blasphemer-of-night/) |
 | 中国大陆版上线 | 2024-05-16 |
 | 国际版上线 | 2024-09-19 |
 

@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 現實 |
 | 標籤 | 輸出、儀式、輔助 |
 | 共鳴調頻 | [十字形組](/zh-tw/systems/resonance/)：洞徹、赤誠、恍然驚詫、希冀、瞬息迷狂 |
+| 遊戲內推薦的心相 | [最後的投擲](/zh-tw/psychubes/the-final-roll/)、[可度量之心](/zh-tw/psychubes/the-carat-of-a-heart/) |
 | 中國大陸版上線 | 2025-02-27 |
 | 國際版上線 | 2025-05-29 |
 

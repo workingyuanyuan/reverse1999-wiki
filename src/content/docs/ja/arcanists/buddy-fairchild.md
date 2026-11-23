@@ -33,6 +33,7 @@ sources:
 | ダメージタイプ | リアル |
 | タグ | アタッカー、アルティメット |
 | 共鳴の変調 | [Z字型グループ](/ja/systems/resonance/)：通暁、誠実、慈悲、泰然自若、均衡調和 |
+| ゲーム内のおすすめ心相 | [終わらないQ&A](/ja/psychubes/never-ending-q-a/)、[除霊パートナー](/ja/psychubes/your-friendly-exorcist/) |
 | 中国本土版の実装 | 2025-05-15 |
 | グローバル版の実装 | 2025-09-19 |
 

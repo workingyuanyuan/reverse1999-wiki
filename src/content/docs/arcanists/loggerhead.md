@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | Heal |
 | Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
+| Psychubes recommended in game | [Your Friendly Exorcist](/psychubes/your-friendly-exorcist/) |
 | Mainland release | 2025-01-16 |
 | Global release | 2025-04-24 |
 

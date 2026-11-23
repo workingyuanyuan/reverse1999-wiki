@@ -33,6 +33,7 @@ sources:
 | Damage | Reality |
 | Tags | Support, Conduit, DPS |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [Arrow of Verdict](/psychubes/arrow-of-verdict/) |
 | Mainland release | 2026-08-13 |
 | Global release | 2026-11-05 |
 

@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 精神 |
 | 标签 | 输出、启示、辅助、灵光 |
 | 共鸣调频 | [T 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、亢奋、鼓舞、纵情狂想 |
+| 游戏内推荐的心相 | [离别变奏曲](/zh-cn/psychubes/addio-coda/)、[纵情一曲](/zh-cn/psychubes/belt-it-out/) |
 | 中国大陆版上线 | 2024-12-12 |
 | 国际版上线 | 2025-03-27 |
 

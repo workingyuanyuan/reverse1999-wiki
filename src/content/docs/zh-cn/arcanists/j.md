@@ -29,6 +29,7 @@ sources:
 | 创伤类型 | 现实 |
 | 标签 | 护盾、燃烧、辅助、反击 |
 | 共鸣调频 | [Z 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、怜悯、安恬泰然、循序平衡 |
+| 游戏内推荐的心相 | [不可诉之轻](/zh-cn/psychubes/the-unbearable-lightness/)、[家庭指导员](/zh-cn/psychubes/family-mentor/)、[夜色亵渎者](/zh-cn/psychubes/blasphemer-of-night/) |
 | 中国大陆版上线 | 2024-06-27 |
 | 国际版上线 | 2024-11-21 |
 

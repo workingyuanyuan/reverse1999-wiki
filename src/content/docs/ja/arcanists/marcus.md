@@ -34,6 +34,7 @@ sources:
 | ダメージタイプ | メンタル |
 | タグ | アタッカー、ランクUP、ひらめき |
 | 共鳴の変調 | [T字型グループ](/ja/systems/resonance/)：通暁、誠実、亢奮、鼓舞、一意専心 |
+| ゲーム内のおすすめ心相 | [もうひとつの物語](/ja/psychubes/another-story/)、[夜を冒涜する者](/ja/psychubes/blasphemer-of-night/) |
 | 中国本土版の実装 | 2024-03-21 |
 | グローバル版の実装 | 2024-08-01 |
 

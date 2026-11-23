@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | Shield, Riposte |
 | Resonance Patterns | [U-shaped set](/systems/resonance/): Hyper, Overindulgence, Quiescence, Prudentiality, Equanimity |
+| Psychubes recommended in game | [Off the Scene](/psychubes/off-the-scene/), [Approaching Rain](/psychubes/approaching-rain/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
 

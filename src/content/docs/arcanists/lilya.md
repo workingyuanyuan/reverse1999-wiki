@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Follow-Up |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [Outside the City](/psychubes/outside-the-city/), [Thunderous Applause](/psychubes/thunderous-applause/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
 

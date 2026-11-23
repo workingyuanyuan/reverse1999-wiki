@@ -33,6 +33,7 @@ sources:
 | 創傷類型 | 現實 |
 | 標籤 | 輸出、電能 |
 | 共鳴調頻 | [十字形組](/zh-tw/systems/resonance/)：洞徹、赤誠、恍然驚詫、希冀、瞬息迷狂 |
+| 遊戲內推薦的心相 | [行進的步音](/zh-tw/psychubes/steps-forward/)、[夜色褻瀆者](/zh-tw/psychubes/blasphemer-of-night/) |
 | 中國大陸版上線 | 2024-05-16 |
 | 國際版上線 | 2024-09-19 |
 

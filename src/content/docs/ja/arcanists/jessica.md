@@ -34,6 +34,7 @@ sources:
 | ダメージタイプ | リアル |
 | タグ | アタッカー、中毒 |
 | 共鳴の変調 | [T字型グループ](/ja/systems/resonance/)：通暁、誠実、亢奮、鼓舞、一意専心 |
+| ゲーム内のおすすめ心相 | [夜を冒涜する者](/ja/psychubes/blasphemer-of-night/)、[現象の中に落ちて](/ja/psychubes/falling-for-a-sweet-phenomenon/) |
 | 中国本土版の実装 | 2023-08-17 |
 | グローバル版の実装 | 2023-12-28 |
 

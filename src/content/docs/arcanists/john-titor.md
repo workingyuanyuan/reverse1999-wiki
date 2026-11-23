@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | Shield, Remove Debuffs, Remove Buffs |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [Long Night Talk](/psychubes/long-night-talk/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
 

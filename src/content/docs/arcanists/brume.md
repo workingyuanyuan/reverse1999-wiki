@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS, Dynamo, Support, Channel, Array |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [Her Willful Leap](/psychubes/her-willful-leap/) |
 | Mainland release | 2025-11-20 |
 | Global release | 2026-02-12 |
 

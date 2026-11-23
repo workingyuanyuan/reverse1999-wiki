@@ -29,6 +29,7 @@ sources:
 | Damage | Reality |
 | Tags | Shield, Burn, Support, Riposte |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [The Unbearable Lightness](/psychubes/the-unbearable-lightness/), [Family Mentor](/psychubes/family-mentor/), [Blasphemer of Night](/psychubes/blasphemer-of-night/) |
 | Mainland release | 2024-06-27 |
 | Global release | 2024-11-21 |
 

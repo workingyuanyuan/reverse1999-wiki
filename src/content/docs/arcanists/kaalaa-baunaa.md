@@ -33,6 +33,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS, Follow-Up |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [Outside the City](/psychubes/outside-the-city/), [Another Story](/psychubes/another-story/), [On the Hand of Time](/psychubes/on-the-hand-of-time/) |
 | Mainland release | 2023-09-28 |
 | Global release | 2024-01-18 |
 

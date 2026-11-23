@@ -33,6 +33,7 @@ sources:
 | ダメージタイプ | リアル |
 | タグ | シールド、サポート、バレット |
 | 共鳴の変調 | [十字型グループ](/ja/systems/resonance/)：通暁、誠実、奇想天外、希望、無我夢中 |
+| ゲーム内のおすすめ心相 | [バランスに注意](/ja/psychubes/balance-please/)、[苦しい旅の途中](/ja/psychubes/take-the-hard-journey/)、[いざ出航](/ja/psychubes/lets-set-sail/) |
 | 中国本土版の実装 | 2023-05-31 |
 | グローバル版の実装 | 2023-10-26 |
 

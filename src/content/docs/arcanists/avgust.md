@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | Heal, Support, Remove Buffs |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [Your Friendly Exorcist](/psychubes/your-friendly-exorcist/), [Her Second Life](/psychubes/her-second-life/) |
 | Mainland release | 2024-04-11 |
 | Global release | 2024-08-15 |
 

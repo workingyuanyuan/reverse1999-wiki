@@ -34,6 +34,7 @@ sources:
 | ダメージタイプ | リアル |
 | タグ | アタッカー、燃焼 |
 | 共鳴の変調 | [T字型グループ](/ja/systems/resonance/)：通暁、誠実、亢奮、鼓舞、一意専心 |
+| ゲーム内のおすすめ心相 | [長い夜話](/ja/psychubes/long-night-talk/)、[娯楽至上](/ja/psychubes/luxurious-leisure/)、[終わらないQ&A](/ja/psychubes/never-ending-q-a/) |
 | 中国本土版の実装 | 2023-11-30 |
 | グローバル版の実装 | 2024-04-18 |
 

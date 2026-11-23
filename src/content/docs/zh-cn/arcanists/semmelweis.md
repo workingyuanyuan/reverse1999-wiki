@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 现实 |
 | 标签 | 输出、燃血、辅助、术阵 |
 | 共鸣调频 | [Z 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、怜悯、安恬泰然、循序平衡 |
+| 游戏内推荐的心相 | [第三次信任](/zh-cn/psychubes/the-third-commitment/)、[形影相随](/zh-cn/psychubes/in-the-shadow/)、[来自最深处](/zh-cn/psychubes/from-the-depths/) |
 | 中国大陆版上线 | 2024-05-16 |
 | 国际版上线 | 2024-09-19 |
 

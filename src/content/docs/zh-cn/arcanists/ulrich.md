@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 现实 |
 | 标签 | 输出、电能、辅助、吟诵、术阵 |
 | 共鸣调频 | [十字形组](/zh-cn/systems/resonance/)：洞彻、赤诚、恍然惊诧、希冀、瞬息迷狂 |
+| 游戏内推荐的心相 | [思维一激灵](/zh-cn/psychubes/a-tingle-of-a-thought/)、[秒针栖息地](/zh-cn/psychubes/on-the-hand-of-time/) |
 | 中国大陆版上线 | 2025-05-15 |
 | 国际版上线 | 2025-09-19 |
 

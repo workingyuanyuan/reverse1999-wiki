@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | Heal, Conduit, Support |
 | Resonance Patterns | [U-shaped set](/systems/resonance/): Hyper, Overindulgence, Quiescence, Prudentiality, Equanimity |
+| Psychubes recommended in game | [A Dream Beyond Light](/psychubes/a-dream-beyond-light/) |
 | Mainland release | 2026-06-11 |
 | Global release | 2026-09-24 |
 

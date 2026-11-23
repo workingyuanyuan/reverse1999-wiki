@@ -32,6 +32,7 @@ sources:
 | 피해 유형 | 정신 |
 | 태그 | 공격, 제어 |
 | 공명 변조 | [십자형 그룹](/ko/systems/resonance/): 이해, 정성, 불시의 의아함, 희망, 순식간의 광증 |
+| 게임 내 추천 의지 | [밤의 모독자](/ko/psychubes/blasphemer-of-night/), [오락 지상주의](/ko/psychubes/luxurious-leisure/) |
 | 중국 본토 출시 | 2023-05-31 |
 | 글로벌 출시 | 2023-10-26 |
 

@@ -7,7 +7,7 @@
 <lang> is en, zh-tw, ja or ko (zh-cn is written by scripts/to-zh-cn.py).
 
 The skeleton holds everything the records decide: the frontmatter except description and caveat,
-the art line, the profile table (with the Resonance set and its patterns), the Insight material table, the Ultimate heading and the names
+the art line, the profile table (with the Resonance set and its patterns, and the Psychubes the game recommends), the Insight material table, the Ultimate heading and the names
 table. The rest is marked <!-- WRITE ... -->: the writer restates the kit in the site's words.
 
 `check` regenerates those blocks and fails when the page lacks one of them word for word, when a
@@ -54,7 +54,7 @@ VERSION_ONLY = {'drake': '4.0', 'glyndwr': '4.0'}
 L = {
 	'en': dict(
 		dir='', stars='{n} stars', head=('Field', 'Value'),
-		rows=('Rarity', 'Afflatus', 'Damage', 'Tags', 'Resonance Patterns', 'Mainland release', 'Global release'),
+		rows=('Rarity', 'Afflatus', 'Damage', 'Tags', 'Resonance Patterns', 'Psychubes recommended in game', 'Mainland release', 'Global release'),
 		res='[{s} set](/systems/resonance/): {p}',
 		afflatus={'Star': 'Star', 'Mineral': 'Mineral', 'Beast': 'Beast', 'Plant': 'Plant', 'Spirit': 'Spirit', 'Intellect': 'Intellect', 101: 'Mineral and Star'},
 		damage={'Reality': 'Reality', 'Mental': 'Mental'}, tagsep=', ',
@@ -80,7 +80,7 @@ L = {
 	),
 	'zh-tw': dict(
 		dir='zh-tw/', stars='{n} 星', head=('項目', '內容'),
-		rows=('稀有度', '靈感', '創傷類型', '標籤', '共鳴調頻', '中國大陸版上線', '國際版上線'),
+		rows=('稀有度', '靈感', '創傷類型', '標籤', '共鳴調頻', '遊戲內推薦的心相', '中國大陸版上線', '國際版上線'),
 		res='[{s}組](/zh-tw/systems/resonance/)：{p}',
 		afflatus={'Star': '星', 'Mineral': '岩', 'Beast': '獸', 'Plant': '木', 'Spirit': '靈', 'Intellect': '智', 101: '岩與星'},
 		damage={'Reality': '現實', 'Mental': '精神'}, tagsep='、',
@@ -106,7 +106,7 @@ L = {
 	),
 	'ja': dict(
 		dir='ja/', stars='★{n}', head=('項目', '内容'),
-		rows=('レア度', '本源', 'ダメージタイプ', 'タグ', '共鳴の変調', '中国本土版の実装', 'グローバル版の実装'),
+		rows=('レア度', '本源', 'ダメージタイプ', 'タグ', '共鳴の変調', 'ゲーム内のおすすめ心相', '中国本土版の実装', 'グローバル版の実装'),
 		res='[{s}グループ](/ja/systems/resonance/)：{p}',
 		afflatus={'Star': '星', 'Mineral': '岩', 'Beast': '獣', 'Plant': '木', 'Spirit': '霊', 'Intellect': '知', 101: '岩と星'},
 		damage={'Reality': 'リアル', 'Mental': 'メンタル'}, tagsep='、',
@@ -132,7 +132,7 @@ L = {
 	),
 	'ko': dict(
 		dir='ko/', stars='{n}성', head=('항목', '내용'),
-		rows=('희귀도', '영감', '피해 유형', '태그', '공명 변조', '중국 본토 출시', '글로벌 출시'),
+		rows=('희귀도', '영감', '피해 유형', '태그', '공명 변조', '게임 내 추천 의지', '중국 본토 출시', '글로벌 출시'),
 		res='[{s} 그룹](/ko/systems/resonance/): {p}',
 		afflatus={'Star': '천체', 'Mineral': '암석', 'Beast': '야수', 'Plant': '나무', 'Spirit': '영혼', 'Intellect': '지능', 101: '암석과 천체'},
 		damage={'Reality': '현실', 'Mental': '정신'}, tagsep=', ',
@@ -221,6 +221,30 @@ def resonance(slug, lang):
 	return t['res'].format(s=write_systems.RT2[lang]['shapes'][m], p=t['tagsep'].join(pats))
 
 
+def psychubes(slug, lang):
+	"""The Psychubes the game recommends for the arcanist (character_recommend.json, equipRec), in the
+	game's order, linked to their pages: the same records as the Recommended row of each Psychube page
+	(pipeline/psychube.py), read from the other side, so the two pages always agree."""
+	import psychube
+	t = psychube.L[lang]
+	out = []
+	for p in psychube.REC.values():
+		if slug in p['recommended']:
+			n = psychube.name(p, lang) if p['inGlobal'] else t['unofficial'].format(n=psychube.name(p, lang))
+			if (DOCS / t['dir'] / 'psychubes' / f'{p["slug"]}.md').exists():
+				n = f'[{n}](/{t["dir"]}psychubes/{p["slug"]}/)'
+			out.append((_rec_order(slug).get(p['id'], 99), n))
+	return t['sep'].join(n for _, n in sorted(out)) or None
+
+
+@functools.cache
+def _rec_order(slug):
+	import gamedata
+	row = next((r for r in gamedata.cn('character_recommend') if r['id'] == REC[slug]['id']), {})
+	ids = [int(e) for e in re.split(r'[|#]', row.get('equipRec') or '') if e]
+	return {e: i for i, e in enumerate(ids)}
+
+
 def blocks(slug, lang):
 	"""The parts of the page the records decide, as {name: text}."""
 	a, t = REC[slug], L[lang]
@@ -254,7 +278,8 @@ def blocks(slug, lang):
 	# profile
 	tags = t['tagsep'].join(TAGS.get(z, {}).get(lang, z) for z in a['tagsZh'])
 	mainland, glob = release(a, lang)
-	vals = (t['stars'].format(n=a['stars']), t['afflatus'][a['afflatus']], t['damage'][a['damage']], tags, resonance(slug, lang), mainland, glob)
+	vals = (t['stars'].format(n=a['stars']), t['afflatus'][a['afflatus']], t['damage'][a['damage']], tags, resonance(slug, lang),
+		psychubes(slug, lang), mainland, glob)
 	out['profile'] = '\n'.join([f'| {t["head"][0]} | {t["head"][1]} |', '| --- | --- |']
 		+ [f'| {k} | {v} |' for k, v in zip(t['rows'], vals) if v is not None])
 	# Insight materials

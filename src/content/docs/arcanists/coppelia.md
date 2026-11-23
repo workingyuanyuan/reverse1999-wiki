@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Conduit, Support |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [The Silent Anthem](/psychubes/the-silent-anthem/) |
 | Mainland release | 2026-04-30 |
 | Global release | 2026-08-13 |
 

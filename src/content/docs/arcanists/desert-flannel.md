@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | Support, DPS |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [Family Mentor](/psychubes/family-mentor/), [Her Second Life](/psychubes/her-second-life/) |
 | Mainland release | 2023-12-21 |
 | Global release | 2024-05-09 |
 

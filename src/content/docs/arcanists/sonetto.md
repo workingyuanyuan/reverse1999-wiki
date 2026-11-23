@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Support, Control |
 | Resonance Patterns | [U-shaped set](/systems/resonance/): Hyper, Overindulgence, Quiescence, Prudentiality, Equanimity |
+| Psychubes recommended in game | [Her Bright Future](/psychubes/her-bright-future/), [Her Second Life](/psychubes/her-second-life/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
 

@@ -33,6 +33,7 @@ sources:
 | 創傷類型 | 現實 |
 | 標籤 | 輸出、反擊 |
 | 共鳴調頻 | [Z 形組](/zh-tw/systems/resonance/)：洞徹、赤誠、憐憫、安恬泰然、循序平衡 |
+| 遊戲內推薦的心相 | [光影的棲所](/zh-tw/psychubes/where-light-and-shadows-rest/) |
 | 中國大陸版上線 | 2026-07-02 |
 | 國際版上線 | 2026-10-15 |
 

@@ -34,6 +34,7 @@ sources:
 | ダメージタイプ | メンタル |
 | タグ | アタッカー、行動阻害 |
 | 共鳴の変調 | [U字型グループ](/ja/systems/resonance/)：亢奮、満足、沈静、節制、泰然自若 |
+| ゲーム内のおすすめ心相 | [長い夜話](/ja/psychubes/long-night-talk/)、[苦しい旅の途中](/ja/psychubes/take-the-hard-journey/)、[いざ出航](/ja/psychubes/lets-set-sail/) |
 | 中国本土版の実装 | 2023-05-31 |
 | グローバル版の実装 | 2023-10-26 |
 

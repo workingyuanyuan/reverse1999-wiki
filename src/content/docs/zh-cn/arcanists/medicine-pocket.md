@@ -33,6 +33,7 @@ sources:
 | 创伤类型 | 精神 |
 | 标签 | 治疗、辅助、控制 |
 | 共鸣调频 | [U 形组](/zh-cn/systems/resonance/)：亢奋、餍足、沉静、节制、安恬泰然 |
+| 游戏内推荐的心相 | [惶然的贝壳](/zh-cn/psychubes/cracks-in-the-shell/)、[新旧歌谣](/zh-cn/psychubes/melodies-old-and-new/)、[自食苦果](/zh-cn/psychubes/you-deserve-it/) |
 | 中国大陆版上线 | 2023-05-31 |
 | 国际版上线 | 2023-10-26 |
 

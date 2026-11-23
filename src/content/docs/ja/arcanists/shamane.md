@@ -34,6 +34,7 @@ sources:
 | ダメージタイプ | リアル |
 | タグ | アタッカー、アルティメット、サポート |
 | 共鳴の変調 | [Z字型グループ](/ja/systems/resonance/)：通暁、誠実、慈悲、泰然自若、均衡調和 |
+| ゲーム内のおすすめ心相 | [測定可能な心](/ja/psychubes/the-carat-of-a-heart/)、[美しい新世界](/ja/psychubes/brave-new-world/)、[もうひとつの物語](/ja/psychubes/another-story/) |
 | 中国本土版の実装 | 2023-09-07 |
 | グローバル版の実装 | グローバル版クライアントに収録 |
 

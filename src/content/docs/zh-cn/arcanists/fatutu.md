@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 精神 |
 | 标签 | 治疗、额外行动、净化 |
 | 共鸣调频 | [T 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、亢奋、鼓舞、纵情狂想 |
+| 游戏内推荐的心相 | [惶然的贝壳](/zh-cn/psychubes/cracks-in-the-shell/)、[新旧歌谣](/zh-cn/psychubes/melodies-old-and-new/) |
 | 中国大陆版上线 | 2024-12-26 |
 | 国际版上线 | 2025-04-10 |
 

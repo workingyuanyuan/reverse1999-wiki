@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 精神 |
 | 標籤 | 治療、升階、輔助、淨化 |
 | 共鳴調頻 | [U 形組](/zh-tw/systems/resonance/)：亢奮、饜足、沉靜、節制、安恬泰然 |
+| 遊戲內推薦的心相 | [黎明將到來](/zh-tw/psychubes/dawn-is-coming/)、[新舊歌謠](/zh-tw/psychubes/melodies-old-and-new/)、[鏡頭註腳](/zh-tw/psychubes/off-the-scene/) |
 | 中國大陸版上線 | 2024-04-11 |
 | 國際版上線 | 2024-08-15 |
 

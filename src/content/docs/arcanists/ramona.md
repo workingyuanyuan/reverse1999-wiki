@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS, Poison, Rewrite |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [Drown Out the Hustle](/psychubes/drown-out-the-hustle/) |
 | Mainland release | 2026-03-26 |
 | Global release | 2026-06-18 |
 

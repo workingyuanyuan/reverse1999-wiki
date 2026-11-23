@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 現實 |
 | 標籤 | 輸出、燃燒 |
 | 共鳴調頻 | [T 形組](/zh-tw/systems/resonance/)：洞徹、赤誠、亢奮、鼓舞、縱情狂想 |
+| 遊戲內推薦的心相 | [漫長悄悄話](/zh-tw/psychubes/long-night-talk/)、[大娛樂至上](/zh-tw/psychubes/luxurious-leisure/)、[雙焦點問答](/zh-tw/psychubes/never-ending-q-a/) |
 | 中國大陸版上線 | 2023-11-30 |
 | 國際版上線 | 2024-04-18 |
 

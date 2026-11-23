@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | Shield, Support, Eureka |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [Beyond Wonderland](/psychubes/beyond-wonderland/), [Melodies Old and New](/psychubes/melodies-old-and-new/), [The Fighter's Best Wishes](/psychubes/the-fighters-best-wishes/) |
 | Mainland release | 2023-12-21 |
 | Global release | 2024-05-09 |
 

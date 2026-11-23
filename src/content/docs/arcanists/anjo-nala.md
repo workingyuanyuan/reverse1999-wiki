@@ -33,6 +33,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS, Extra Action, Ritual, Control, Channel |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [Transcendent Love](/psychubes/transcendent-love/), [Outside the City](/psychubes/outside-the-city/), [Blasphemer of Night](/psychubes/blasphemer-of-night/) |
 | Mainland release | 2024-09-19 |
 | Global release | 2025-01-09 |
 

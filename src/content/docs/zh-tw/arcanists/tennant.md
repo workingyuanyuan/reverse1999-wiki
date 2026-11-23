@@ -33,6 +33,7 @@ sources:
 | 創傷類型 | 現實 |
 | 標籤 | 護盾、輔助、子彈 |
 | 共鳴調頻 | [十字形組](/zh-tw/systems/resonance/)：洞徹、赤誠、恍然驚詫、希冀、瞬息迷狂 |
+| 遊戲內推薦的心相 | [請保持平衡](/zh-tw/psychubes/balance-please/)、[步此苦旅](/zh-tw/psychubes/take-the-hard-journey/)、[勇往直前](/zh-tw/psychubes/lets-set-sail/) |
 | 中國大陸版上線 | 2023-05-31 |
 | 國際版上線 | 2023-10-26 |
 

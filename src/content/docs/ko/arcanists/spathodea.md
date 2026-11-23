@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 현실 |
 | 태그 | 공격, 연소 |
 | 공명 변조 | [T자형 그룹](/ko/systems/resonance/): 이해, 정성, 광분, 격려, 제한 없는 상상 |
+| 게임 내 추천 의지 | [기나긴 속삭임](/ko/psychubes/long-night-talk/), [오락 지상주의](/ko/psychubes/luxurious-leisure/), [네버엔딩 Q&A](/ko/psychubes/never-ending-q-a/) |
 | 중국 본토 출시 | 2023-11-30 |
 | 글로벌 출시 | 2024-04-18 |
 

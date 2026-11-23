@@ -32,6 +32,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Extra Action, Immunity |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [Ready on Call](/psychubes/ready-on-call/), [Outside the City](/psychubes/outside-the-city/), [On the Hand of Time](/psychubes/on-the-hand-of-time/) |
 | Mainland release | 2025-01-16 |
 | Global release | 2025-04-24 |
 

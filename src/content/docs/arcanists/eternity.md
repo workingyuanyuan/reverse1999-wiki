@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [The Fighter's Best Wishes](/psychubes/the-fighters-best-wishes/), [A Satisfied Eater](/psychubes/a-satisfied-eater/), [Night After Night](/psychubes/night-after-night/), [Into the Gentle Current](/psychubes/into-the-gentle-current/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
 

@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | Support, DPS |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [Tiny Wish](/psychubes/tiny-wish/) |
 | Mainland release | 2024-05-30 |
 | Global release | 2024-09-19 |
 

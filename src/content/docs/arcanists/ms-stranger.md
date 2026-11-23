@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS, Ritual |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [Until I Am Me](/psychubes/until-i-am-me/) |
 | Mainland release | 2026-05-21 |
 | Global release | 2026-09-03 |
 

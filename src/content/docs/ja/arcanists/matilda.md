@@ -34,6 +34,7 @@ sources:
 | ダメージタイプ | メンタル |
 | タグ | アタッカー、サポート |
 | 共鳴の変調 | [十字型グループ](/ja/systems/resonance/)：通暁、誠実、奇想天外、希望、無我夢中 |
+| ゲーム内のおすすめ心相 | [別れの変奏曲](/ja/psychubes/addio-coda/)、[ベルト・イット・アウト](/ja/psychubes/belt-it-out/)、[「投影」が指し示すもの](/ja/psychubes/in-their-figures/) |
 | 中国本土版の実装 | 2023-05-31 |
 | グローバル版の実装 | 2023-10-26 |
 

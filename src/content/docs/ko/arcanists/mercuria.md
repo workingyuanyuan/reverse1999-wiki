@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 정신 |
 | 태그 | 보조, 승급, 공격 |
 | 공명 변조 | [십자형 그룹](/ko/systems/resonance/): 이해, 정성, 불시의 의아함, 희망, 순식간의 광증 |
+| 게임 내 추천 의지 | [미로의 밖](/ko/psychubes/one-with-the-flow/), [샘물처럼 천천히](/ko/psychubes/starlight-wellspring/) |
 | 중국 본토 출시 | 2024-07-18 |
 | 글로벌 출시 | 2024-10-31 |
 

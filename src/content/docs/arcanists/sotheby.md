@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | Heal, Poison |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [Your Friendly Exorcist](/psychubes/your-friendly-exorcist/), [Her Mournful Face](/psychubes/her-mournful-face/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
 

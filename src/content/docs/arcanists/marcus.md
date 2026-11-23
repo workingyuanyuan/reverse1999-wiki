@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS, Rank Up, Eureka |
 | Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
+| Psychubes recommended in game | [Another Story](/psychubes/another-story/), [Blasphemer of Night](/psychubes/blasphemer-of-night/) |
 | Mainland release | 2024-03-21 |
 | Global release | 2024-08-01 |
 

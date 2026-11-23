@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 精神 |
 | 标签 | 辅助、升阶、输出 |
 | 共鸣调频 | [十字形组](/zh-cn/systems/resonance/)：洞彻、赤诚、恍然惊诧、希冀、瞬息迷狂 |
+| 游戏内推荐的心相 | [迷途以外](/zh-cn/psychubes/one-with-the-flow/)、[漫行如泉流](/zh-cn/psychubes/starlight-wellspring/) |
 | 中国大陆版上线 | 2024-07-18 |
 | 国际版上线 | 2024-10-31 |
 

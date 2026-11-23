@@ -33,6 +33,7 @@ sources:
 | 創傷類型 | 精神 |
 | 標籤 | 治療、輔助、淨化 |
 | 共鳴調頻 | [十字形組](/zh-tw/systems/resonance/)：洞徹、赤誠、恍然驚詫、希冀、瞬息迷狂 |
+| 遊戲內推薦的心相 | [在仙境之外](/zh-tw/psychubes/beyond-wonderland/)、[離別變奏曲](/zh-tw/psychubes/addio-coda/) |
 | 中國大陸版上線 | 2023-07-27 |
 | 國際版上線 | 2023-12-07 |
 

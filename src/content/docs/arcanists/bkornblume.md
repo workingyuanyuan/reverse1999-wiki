@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Support, Control |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [Blasphemer of Night](/psychubes/blasphemer-of-night/), [Luxurious Leisure](/psychubes/luxurious-leisure/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
 

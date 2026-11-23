@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 精神 |
 | 標籤 | 治療、額外行動、淨化 |
 | 共鳴調頻 | [T 形組](/zh-tw/systems/resonance/)：洞徹、赤誠、亢奮、鼓舞、縱情狂想 |
+| 遊戲內推薦的心相 | [惶然的貝殼](/zh-tw/psychubes/cracks-in-the-shell/)、[新舊歌謠](/zh-tw/psychubes/melodies-old-and-new/) |
 | 中國大陸版上線 | 2024-12-26 |
 | 國際版上線 | 2025-04-10 |
 

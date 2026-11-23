@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | Heal, Extra Action, Remove Debuffs |
 | Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
+| Psychubes recommended in game | [Cracks in the Shell](/psychubes/cracks-in-the-shell/), [Melodies Old and New](/psychubes/melodies-old-and-new/) |
 | Mainland release | 2024-12-26 |
 | Global release | 2025-04-10 |
 

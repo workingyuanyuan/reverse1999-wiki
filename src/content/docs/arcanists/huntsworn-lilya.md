@@ -36,6 +36,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, 洞知, Channel |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [Atop the Tempest (not yet official)](/psychubes/atop-the-tempest/) |
 | Mainland release | 2026-09-24 |
 | Global release | not yet |
 

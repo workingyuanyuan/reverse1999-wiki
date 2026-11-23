@@ -33,6 +33,7 @@ sources:
 | ダメージタイプ | メンタル |
 | タグ | 回復、サポート、行動阻害 |
 | 共鳴の変調 | [U字型グループ](/ja/systems/resonance/)：亢奮、満足、沈静、節制、泰然自若 |
+| ゲーム内のおすすめ心相 | [貝殻のひび割れ](/ja/psychubes/cracks-in-the-shell/)、[懐かしい歌、新しいメロディー](/ja/psychubes/melodies-old-and-new/)、[自業自得](/ja/psychubes/you-deserve-it/) |
 | 中国本土版の実装 | 2023-05-31 |
 | グローバル版の実装 | 2023-10-26 |
 

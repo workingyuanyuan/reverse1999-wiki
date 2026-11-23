@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS, Burn, Support |
 | Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
+| Psychubes recommended in game | [Her Second Life](/psychubes/her-second-life/) |
 | Mainland release | 2023-11-30 |
 | Global release | 2024-04-18 |
 

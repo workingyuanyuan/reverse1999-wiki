@@ -33,6 +33,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS, Remove Buffs |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [Offbeat Strides](/psychubes/offbeat-strides/), [Knock on the Door](/psychubes/knock-on-the-door/), [Another Story](/psychubes/another-story/) |
 | Mainland release | 2023-07-05 |
 | Global release | 2023-11-23 |
 

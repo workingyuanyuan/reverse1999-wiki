@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [Luxurious Leisure](/psychubes/luxurious-leisure/), [The Carat of a Heart](/psychubes/the-carat-of-a-heart/), [Family Mentor](/psychubes/family-mentor/) |
 | Mainland release | 2023-06-15 |
 | Global release | 2023-11-09 |
 

@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | Shield, Dynamo, Support, Array |
 | Resonance Patterns | [U-shaped set](/systems/resonance/): Hyper, Overindulgence, Quiescence, Prudentiality, Equanimity |
+| Psychubes recommended in game | [The Riddle's Limit](/psychubes/the-riddles-limit/) |
 | Mainland release | 2026-04-09 |
 | Global release | 2026-07-02 |
 

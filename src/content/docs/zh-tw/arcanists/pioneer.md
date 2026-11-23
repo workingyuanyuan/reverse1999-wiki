@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 精神 |
 | 標籤 | 護盾、位移、輔助 |
 | 共鳴調頻 | [U 形組](/zh-tw/systems/resonance/)：亢奮、饜足、沉靜、節制、安恬泰然 |
+| 遊戲內推薦的心相 | [漫長悄悄話](/zh-tw/psychubes/long-night-talk/)、[步此苦旅](/zh-tw/psychubes/take-the-hard-journey/)、[勇往直前](/zh-tw/psychubes/lets-set-sail/) |
 | 中國大陸版上線 | 2024-06-27 |
 | 國際版上線 | 2024-10-31 |
 

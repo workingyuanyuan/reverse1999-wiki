@@ -33,6 +33,7 @@ sources:
 | 피해 유형 | 현실 |
 | 태그 | 치료, 정화 |
 | 공명 변조 | [Z자형 그룹](/ko/systems/resonance/): 이해, 정성, 연민, 편안과 태연, 순환 균형 |
+| 게임 내 추천 의지 | [멋진 신세계](/ko/psychubes/brave-new-world/), [땅따먹기 게임](/ko/psychubes/hopscotch/), [두 번째 생명](/ko/psychubes/her-second-life/) |
 | 중국 본토 출시 | 2023-05-31 |
 | 글로벌 출시 | 2023-10-26 |
 

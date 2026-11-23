@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 現實 |
 | 標籤 | 輸出、電能、輔助、吟誦、術陣 |
 | 共鳴調頻 | [十字形組](/zh-tw/systems/resonance/)：洞徹、赤誠、恍然驚詫、希冀、瞬息迷狂 |
+| 遊戲內推薦的心相 | [思維一激靈](/zh-tw/psychubes/a-tingle-of-a-thought/)、[秒針棲息地](/zh-tw/psychubes/on-the-hand-of-time/) |
 | 中國大陸版上線 | 2025-05-15 |
 | 國際版上線 | 2025-09-19 |
 

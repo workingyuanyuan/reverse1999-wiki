@@ -33,6 +33,7 @@ sources:
 | 创伤类型 | 精神 |
 | 标签 | 治疗 |
 | 共鸣调频 | [T 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、亢奋、鼓舞、纵情狂想 |
+| 游戏内推荐的心相 | [自食苦果](/zh-cn/psychubes/you-deserve-it/)、[步此苦旅](/zh-cn/psychubes/take-the-hard-journey/)、[勇往直前](/zh-cn/psychubes/lets-set-sail/) |
 | 中国大陆版上线 | 2023-05-31 |
 | 国际版上线 | 2023-10-26 |
 

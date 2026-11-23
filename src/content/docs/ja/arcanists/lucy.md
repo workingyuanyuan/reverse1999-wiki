@@ -33,6 +33,7 @@ sources:
 | ダメージタイプ | リアル |
 | タグ | アタッカー、電力 |
 | 共鳴の変調 | [十字型グループ](/ja/systems/resonance/)：通暁、誠実、奇想天外、希望、無我夢中 |
+| ゲーム内のおすすめ心相 | [前進の足音](/ja/psychubes/steps-forward/)、[夜を冒涜する者](/ja/psychubes/blasphemer-of-night/) |
 | 中国本土版の実装 | 2024-05-16 |
 | グローバル版の実装 | 2024-09-19 |
 

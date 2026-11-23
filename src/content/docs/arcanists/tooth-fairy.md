@@ -33,6 +33,7 @@ sources:
 | Damage | Mental |
 | Tags | Heal, Support, Remove Debuffs |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [Beyond Wonderland](/psychubes/beyond-wonderland/), [Addio Coda](/psychubes/addio-coda/) |
 | Mainland release | 2023-07-27 |
 | Global release | 2023-12-07 |
 

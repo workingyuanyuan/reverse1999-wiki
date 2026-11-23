@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS, Dynamo, Channel, Array |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [Bitter March of the Living](/psychubes/bitter-march-of-the-living/) |
 | Mainland release | 2025-10-09 |
 | Global release | 2026-01-01 |
 

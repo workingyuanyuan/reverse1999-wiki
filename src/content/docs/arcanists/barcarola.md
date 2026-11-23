@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS, Inspiration, Support, Eureka |
 | Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
+| Psychubes recommended in game | [Addio Coda](/psychubes/addio-coda/), [Belt It Out](/psychubes/belt-it-out/) |
 | Mainland release | 2024-12-12 |
 | Global release | 2025-03-27 |
 

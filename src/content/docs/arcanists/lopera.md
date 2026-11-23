@@ -33,6 +33,7 @@ sources:
 | Damage | Reality |
 | Tags | Support, Burn, Channel, Bullet, Array |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [The Third Commitment](/psychubes/the-third-commitment/), [Family Mentor](/psychubes/family-mentor/), [Stray Off the Path](/psychubes/stray-off-the-path/) |
 | Mainland release | 2024-10-10 |
 | Global release | 2025-01-30 |
 

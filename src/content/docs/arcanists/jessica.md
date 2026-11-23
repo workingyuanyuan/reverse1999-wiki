@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Poison |
 | Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
+| Psychubes recommended in game | [Blasphemer of Night](/psychubes/blasphemer-of-night/), [Falling for a Sweet Phenomenon](/psychubes/falling-for-a-sweet-phenomenon/) |
 | Mainland release | 2023-08-17 |
 | Global release | 2023-12-28 |
 

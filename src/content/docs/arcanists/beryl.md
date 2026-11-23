@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS, Lingering Glow, Extra Action, Rank Up |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [The Thousandfold Fate](/psychubes/the-thousandfold-fate/) |
 | Mainland release | 2025-10-30 |
 | Global release | 2026-01-20 |
 

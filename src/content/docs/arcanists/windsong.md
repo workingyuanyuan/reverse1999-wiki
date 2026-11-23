@@ -33,6 +33,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS, Extra Action, Eureka |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [For Rehabilitation](/psychubes/for-rehabilitation/), [Outside the City](/psychubes/outside-the-city/), [Blasphemer of Night](/psychubes/blasphemer-of-night/) |
 | Mainland release | 2024-04-25 |
 | Global release | 2024-08-29 |
 

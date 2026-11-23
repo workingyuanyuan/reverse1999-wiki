@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 정신 |
 | 태그 | 보조, 계시, 음송, 신기한 빛 |
 | 공명 변조 | [T자형 그룹](/ko/systems/resonance/): 이해, 정성, 광분, 격려, 제한 없는 상상 |
+| 게임 내 추천 의지 | [뇌실은 감옥이다](/ko/psychubes/mental-cage/), [기나긴 속삭임](/ko/psychubes/long-night-talk/) |
 | 중국 본토 출시 | 2025-03-20 |
 | 글로벌 출시 | 2025-06-19 |
 

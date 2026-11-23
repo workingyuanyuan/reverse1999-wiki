@@ -33,6 +33,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Ritual |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [Never-Ending Q&A](/psychubes/never-ending-q-a/), [Your Friendly Exorcist](/psychubes/your-friendly-exorcist/) |
 | Mainland release | 2025-05-15 |
 | Global release | 2025-09-19 |
 

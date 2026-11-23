@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Ritual, Assassination |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [Blasphemer of Night](/psychubes/blasphemer-of-night/) |
 | Mainland release | 2025-08-28 |
 | Global release | 2025-08-28 |
 

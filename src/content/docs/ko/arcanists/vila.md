@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 정신 |
 | 태그 | 치료, 승급, 보조, 정화 |
 | 공명 변조 | [U자형 그룹](/ko/systems/resonance/): 광분, 포식, 고요, 절제, 편안과 태연 |
+| 게임 내 추천 의지 | [새벽이 다가온다](/ko/psychubes/dawn-is-coming/), [올드앤뉴 멜로디](/ko/psychubes/melodies-old-and-new/), [장면 메모](/ko/psychubes/off-the-scene/) |
 | 중국 본토 출시 | 2024-04-11 |
 | 글로벌 출시 | 2024-08-15 |
 

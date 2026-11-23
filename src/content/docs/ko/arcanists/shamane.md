@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 현실 |
 | 태그 | 공격, 술식, 보조 |
 | 공명 변조 | [Z자형 그룹](/ko/systems/resonance/): 이해, 정성, 연민, 편안과 태연, 순환 균형 |
+| 게임 내 추천 의지 | [헤아릴 수 있는 마음](/ko/psychubes/the-carat-of-a-heart/), [멋진 신세계](/ko/psychubes/brave-new-world/), [또 다른 이야기](/ko/psychubes/another-story/) |
 | 중국 본토 출시 | 2023-09-07 |
 | 글로벌 출시 | 글로벌 클라이언트에 있음 |
 

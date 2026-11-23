@@ -33,6 +33,7 @@ sources:
 | Damage | Reality |
 | Tags | Support, DPS, Control |
 | Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
+| Psychubes recommended in game | [Your Friendly Exorcist](/psychubes/your-friendly-exorcist/), [Long Night Talk](/psychubes/long-night-talk/) |
 | Mainland release | 2023-03-31 |
 | Global release | 2023-10-26 |
 

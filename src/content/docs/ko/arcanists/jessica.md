@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 현실 |
 | 태그 | 공격, 중독 |
 | 공명 변조 | [T자형 그룹](/ko/systems/resonance/): 이해, 정성, 광분, 격려, 제한 없는 상상 |
+| 게임 내 추천 의지 | [밤의 모독자](/ko/psychubes/blasphemer-of-night/), [현상에 남다](/ko/psychubes/falling-for-a-sweet-phenomenon/) |
 | 중국 본토 출시 | 2023-08-17 |
 | 글로벌 출시 | 2023-12-28 |
 

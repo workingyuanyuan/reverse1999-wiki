@@ -33,6 +33,7 @@ sources:
 | 创伤类型 | 现实 |
 | 标签 | 辅助、输出、控制 |
 | 共鸣调频 | [T 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、亢奋、鼓舞、纵情狂想 |
+| 游戏内推荐的心相 | [惊魂拍档](/zh-cn/psychubes/your-friendly-exorcist/)、[漫长悄悄话](/zh-cn/psychubes/long-night-talk/) |
 | 中国大陆版上线 | 2023-03-31 |
 | 国际版上线 | 2023-10-26 |
 

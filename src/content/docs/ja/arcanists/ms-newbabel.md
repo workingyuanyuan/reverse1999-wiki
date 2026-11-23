@@ -34,6 +34,7 @@ sources:
 | ダメージタイプ | リアル |
 | タグ | シールド、反撃 |
 | 共鳴の変調 | [U字型グループ](/ja/systems/resonance/)：亢奮、満足、沈静、節制、泰然自若 |
+| ゲーム内のおすすめ心相 | [舞台裏の注釈](/ja/psychubes/off-the-scene/)、[近づく雨の音](/ja/psychubes/approaching-rain/) |
 | 中国本土版の実装 | 2023-05-31 |
 | グローバル版の実装 | 2023-10-26 |
 

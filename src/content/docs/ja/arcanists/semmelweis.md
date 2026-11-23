@@ -34,6 +34,7 @@ sources:
 | ダメージタイプ | リアル |
 | タグ | アタッカー、HP消費、サポート、陣法 |
 | 共鳴の変調 | [Z字型グループ](/ja/systems/resonance/)：通暁、誠実、慈悲、泰然自若、均衡調和 |
+| ゲーム内のおすすめ心相 | [三度目の信頼](/ja/psychubes/the-third-commitment/)、[影にて](/ja/psychubes/in-the-shadow/)、[最奥より](/ja/psychubes/from-the-depths/) |
 | 中国本土版の実装 | 2024-05-16 |
 | グローバル版の実装 | 2024-09-19 |
 

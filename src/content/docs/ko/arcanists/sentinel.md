@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 현실 |
 | 태그 | 보조, 신혈, 공격, 탄환 |
 | 공명 변조 | [Z자형 그룹](/ko/systems/resonance/): 이해, 정성, 연민, 편안과 태연, 순환 균형 |
+| 게임 내 추천 의지 | [귀향의 애도사](/ko/psychubes/homecoming-lament/), [성 밖의 세상](/ko/psychubes/outside-the-city/) |
 | 중국 본토 출시 | 2025-06-26 |
 | 글로벌 출시 | 2025-10-30 |
 

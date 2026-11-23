@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 精神 |
 | 標籤 | 輸出、儀式、控制 |
 | 共鳴調頻 | [十字形組](/zh-tw/systems/resonance/)：洞徹、赤誠、恍然驚詫、希冀、瞬息迷狂 |
+| 遊戲內推薦的心相 | [雙焦點問答](/zh-tw/psychubes/never-ending-q-a/)、[大娛樂至上](/zh-tw/psychubes/luxurious-leisure/) |
 | 中國大陸版上線 | 2025-04-10 |
 | 國際版上線 | 2025-07-03 |
 

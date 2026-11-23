@@ -34,6 +34,7 @@ sources:
 | ダメージタイプ | リアル |
 | タグ | アタッカー、術具 |
 | 共鳴の変調 | [十字型グループ](/ja/systems/resonance/)：通暁、誠実、奇想天外、希望、無我夢中 |
+| ゲーム内のおすすめ心相 | [原子の芸術](/ja/psychubes/the-art-of-atoms/)、[科学の振付](/ja/psychubes/the-dance-of-science/) |
 | 中国本土版の実装 | 2026-07-23 |
 | グローバル版の実装 | 2026-07-23 |
 

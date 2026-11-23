@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 现实 |
 | 标签 | 输出、辅助 |
 | 共鸣调频 | [Z 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、怜悯、安恬泰然、循序平衡 |
+| 游戏内推荐的心相 | [荒唐余生](/zh-cn/psychubes/remaining-absurdity/)、[跳房子游戏](/zh-cn/psychubes/hopscotch/)、[第二次生命](/zh-cn/psychubes/her-second-life/) |
 | 中国大陆版上线 | 2023-05-31 |
 | 国际版上线 | 2023-10-26 |
 

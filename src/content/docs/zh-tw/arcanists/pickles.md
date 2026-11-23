@@ -33,6 +33,7 @@ sources:
 | 創傷類型 | 精神 |
 | 標籤 | 輸出、驅散 |
 | 共鳴調頻 | [Z 形組](/zh-tw/systems/resonance/)：洞徹、赤誠、憐憫、安恬泰然、循序平衡 |
+| 遊戲內推薦的心相 | [無韻律跳步](/zh-tw/psychubes/offbeat-strides/)、[敲響這窄門](/zh-tw/psychubes/knock-on-the-door/)、[另一個故事](/zh-tw/psychubes/another-story/) |
 | 中國大陸版上線 | 2023-07-05 |
 | 國際版上線 | 2023-11-23 |
 

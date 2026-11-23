@@ -34,6 +34,7 @@ sources:
 | ダメージタイプ | リアル |
 | タグ | アタッカー |
 | 共鳴の変調 | [Z字型グループ](/ja/systems/resonance/)：通暁、誠実、慈悲、泰然自若、均衡調和 |
+| ゲーム内のおすすめ心相 | [勇ましい者の言葉](/ja/psychubes/the-fighters-best-wishes/)、[サティスファイド・イーター](/ja/psychubes/a-satisfied-eater/)、[夜な夜な](/ja/psychubes/night-after-night/)、[細流に流れ込んで](/ja/psychubes/into-the-gentle-current/) |
 | 中国本土版の実装 | 2023-05-31 |
 | グローバル版の実装 | 2023-10-26 |
 

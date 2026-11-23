@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 정신 |
 | 태그 | 보호막, 계시, 보조, 신기한 빛 |
 | 공명 변조 | [U자형 그룹](/ko/systems/resonance/): 광분, 포식, 고요, 절제, 편안과 태연 |
+| 게임 내 추천 의지 | [살포시 다가오는 봄날](/ko/psychubes/aurora-after-winter/), [기나긴 속삭임](/ko/psychubes/long-night-talk/) |
 | 중국 본토 출시 | 2025-04-24 |
 | 글로벌 출시 | 2025-07-24 |
 

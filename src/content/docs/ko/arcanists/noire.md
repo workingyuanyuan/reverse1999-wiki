@@ -33,6 +33,7 @@ sources:
 | 피해 유형 | 정신 |
 | 태그 | 공격, 술식, 제어 |
 | 공명 변조 | [T자형 그룹](/ko/systems/resonance/): 이해, 정성, 광분, 격려, 제한 없는 상상 |
+| 게임 내 추천 의지 | [꿈의 리허설](/ko/psychubes/rehearsal-of-dreams/), [밤의 모독자](/ko/psychubes/blasphemer-of-night/) |
 | 중국 본토 출시 | 2025-02-06 |
 | 글로벌 출시 | 2025-05-08 |
 

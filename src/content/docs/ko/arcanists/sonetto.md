@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 현실 |
 | 태그 | 공격, 보조, 제어 |
 | 공명 변조 | [U자형 그룹](/ko/systems/resonance/): 광분, 포식, 고요, 절제, 편안과 태연 |
+| 게임 내 추천 의지 | [원대한 여정](/ko/psychubes/her-bright-future/), [두 번째 생명](/ko/psychubes/her-second-life/) |
 | 중국 본토 출시 | 2023-05-31 |
 | 글로벌 출시 | 2023-10-26 |
 

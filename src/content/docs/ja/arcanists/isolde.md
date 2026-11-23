@@ -34,6 +34,7 @@ sources:
 | ダメージタイプ | リアル |
 | タグ | アタッカー、燃焼、サポート |
 | 共鳴の変調 | [Z字型グループ](/ja/systems/resonance/)：通暁、誠実、慈悲、泰然自若、均衡調和 |
+| ゲーム内のおすすめ心相 | [狭いドアをノックして](/ja/psychubes/knock-on-the-door/)、[夜を冒涜する者](/ja/psychubes/blasphemer-of-night/)、[潜在意識の影](/ja/psychubes/shadows-in-the-subconscious/) |
 | 中国本土版の実装 | 2024-02-22 |
 | グローバル版の実装 | グローバル版クライアントに収録 |
 

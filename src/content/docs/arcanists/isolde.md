@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Burn, Support |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [Knock on the Door](/psychubes/knock-on-the-door/), [Blasphemer of Night](/psychubes/blasphemer-of-night/), [Shadows in the Subconscious](/psychubes/shadows-in-the-subconscious/) |
 | Mainland release | 2024-02-22 |
 | Global release | in the global client |
 

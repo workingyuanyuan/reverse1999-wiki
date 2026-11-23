@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 現實 |
 | 標籤 | 輸出、術具 |
 | 共鳴調頻 | [十字形組](/zh-tw/systems/resonance/)：洞徹、赤誠、恍然驚詫、希冀、瞬息迷狂 |
+| 遊戲內推薦的心相 | [藝術原子能](/zh-tw/psychubes/the-art-of-atoms/)、[科學編舞法](/zh-tw/psychubes/the-dance-of-science/) |
 | 中國大陸版上線 | 2026-07-23 |
 | 國際版上線 | 2026-07-23 |
 

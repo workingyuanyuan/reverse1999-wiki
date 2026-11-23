@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 정신 |
 | 태그 | 공격, 술식, 제어 |
 | 공명 변조 | [십자형 그룹](/ko/systems/resonance/): 이해, 정성, 불시의 의아함, 희망, 순식간의 광증 |
+| 게임 내 추천 의지 | [네버엔딩 Q&A](/ko/psychubes/never-ending-q-a/), [오락 지상주의](/ko/psychubes/luxurious-leisure/) |
 | 중국 본토 출시 | 2025-04-10 |
 | 글로벌 출시 | 2025-07-03 |
 

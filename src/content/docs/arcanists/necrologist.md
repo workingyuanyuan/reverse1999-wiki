@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS, Remove Buffs |
 | Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
+| Psychubes recommended in game | [Her Second Life](/psychubes/her-second-life/), [Faded Epitaphs](/psychubes/faded-epitaphs/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
 

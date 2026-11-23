@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 現實 |
 | 標籤 | 輸出、燃血、輔助、術陣 |
 | 共鳴調頻 | [Z 形組](/zh-tw/systems/resonance/)：洞徹、赤誠、憐憫、安恬泰然、循序平衡 |
+| 遊戲內推薦的心相 | [第三次信任](/zh-tw/psychubes/the-third-commitment/)、[形影相隨](/zh-tw/psychubes/in-the-shadow/)、[來自最深處](/zh-tw/psychubes/from-the-depths/) |
 | 中國大陸版上線 | 2024-05-16 |
 | 國際版上線 | 2024-09-19 |
 

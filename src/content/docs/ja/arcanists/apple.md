@@ -31,6 +31,7 @@ sources:
 | ダメージタイプ | メンタル |
 | タグ | 回復 |
 | 共鳴の変調 | [T字型グループ](/ja/systems/resonance/)：通暁、誠実、亢奮、鼓舞、一意専心 |
+| ゲーム内のおすすめ心相 | [長い夜話](/ja/psychubes/long-night-talk/)、[苦しい旅の途中](/ja/psychubes/take-the-hard-journey/)、[いざ出航](/ja/psychubes/lets-set-sail/) |
 | 中国本土版の実装 | 2023-05-31 |
 | グローバル版の実装 | 2023-10-26 |
 

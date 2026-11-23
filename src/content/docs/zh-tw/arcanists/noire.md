@@ -33,6 +33,7 @@ sources:
 | 創傷類型 | 精神 |
 | 標籤 | 輸出、儀式、控制 |
 | 共鳴調頻 | [T 形組](/zh-tw/systems/resonance/)：洞徹、赤誠、亢奮、鼓舞、縱情狂想 |
+| 遊戲內推薦的心相 | [造夢的預演](/zh-tw/psychubes/rehearsal-of-dreams/)、[夜色褻瀆者](/zh-tw/psychubes/blasphemer-of-night/) |
 | 中國大陸版上線 | 2025-02-06 |
 | 國際版上線 | 2025-05-08 |
 

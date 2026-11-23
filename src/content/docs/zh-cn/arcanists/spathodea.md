@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 现实 |
 | 标签 | 输出、燃烧 |
 | 共鸣调频 | [T 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、亢奋、鼓舞、纵情狂想 |
+| 游戏内推荐的心相 | [漫长悄悄话](/zh-cn/psychubes/long-night-talk/)、[大娱乐至上](/zh-cn/psychubes/luxurious-leisure/)、[双焦点问答](/zh-cn/psychubes/never-ending-q-a/) |
 | 中国大陆版上线 | 2023-11-30 |
 | 国际版上线 | 2024-04-18 |
 

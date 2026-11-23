@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 정신 |
 | 태그 | 공격, 중독, 음송 |
 | 공명 변조 | [Z자형 그룹](/ko/systems/resonance/): 이해, 정성, 연민, 편안과 태연, 순환 균형 |
+| 게임 내 추천 의지 | [불규칙한 스텝](/ko/psychubes/offbeat-strides/), [실체 없는 진실](/ko/psychubes/transcendent-love/) |
 | 중국 본토 출시 | 2024-10-31 |
 | 글로벌 출시 | 2025-02-20 |
 

@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 현실 |
 | 태그 | 공격, HP 소모, 보조, 술진 |
 | 공명 변조 | [Z자형 그룹](/ko/systems/resonance/): 이해, 정성, 연민, 편안과 태연, 순환 균형 |
+| 게임 내 추천 의지 | [세 번째 신뢰](/ko/psychubes/the-third-commitment/), [그림자처럼](/ko/psychubes/in-the-shadow/), [가장 깊은 곳에서](/ko/psychubes/from-the-depths/) |
 | 중국 본토 출시 | 2024-05-16 |
 | 글로벌 출시 | 2024-09-19 |
 

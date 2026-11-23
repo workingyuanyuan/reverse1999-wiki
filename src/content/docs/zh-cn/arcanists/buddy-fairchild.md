@@ -33,6 +33,7 @@ sources:
 | 创伤类型 | 现实 |
 | 标签 | 输出、仪式 |
 | 共鸣调频 | [Z 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、怜悯、安恬泰然、循序平衡 |
+| 游戏内推荐的心相 | [双焦点问答](/zh-cn/psychubes/never-ending-q-a/)、[惊魂拍档](/zh-cn/psychubes/your-friendly-exorcist/) |
 | 中国大陆版上线 | 2025-05-15 |
 | 国际版上线 | 2025-09-19 |
 

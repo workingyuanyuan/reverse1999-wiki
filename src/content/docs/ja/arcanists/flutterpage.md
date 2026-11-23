@@ -34,6 +34,7 @@ sources:
 | ダメージタイプ | リアル |
 | タグ | サポート、追加行動、アタッカー、チャネル、ひらめき |
 | 共鳴の変調 | [十字型グループ](/ja/systems/resonance/)：通暁、誠実、奇想天外、希望、無我夢中 |
+| ゲーム内のおすすめ心相 | [秒針の住み処](/ja/psychubes/on-the-hand-of-time/)、[愛の本質](/ja/psychubes/transcendent-love/)、[春の足取り](/ja/psychubes/aurora-after-winter/) |
 | 中国本土版の実装 | 2024-11-21 |
 | グローバル版の実装 | 2025-03-06 |
 

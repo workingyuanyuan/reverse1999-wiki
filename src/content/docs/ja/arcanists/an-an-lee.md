@@ -33,6 +33,7 @@ sources:
 | ダメージタイプ | リアル |
 | タグ | サポート、アタッカー、行動阻害 |
 | 共鳴の変調 | [T字型グループ](/ja/systems/resonance/)：通暁、誠実、亢奮、鼓舞、一意専心 |
+| ゲーム内のおすすめ心相 | [除霊パートナー](/ja/psychubes/your-friendly-exorcist/)、[長い夜話](/ja/psychubes/long-night-talk/) |
 | 中国本土版の実装 | 2023-03-31 |
 | グローバル版の実装 | 2023-10-26 |
 

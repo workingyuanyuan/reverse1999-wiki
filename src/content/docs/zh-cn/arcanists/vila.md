@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 精神 |
 | 标签 | 治疗、升阶、辅助、净化 |
 | 共鸣调频 | [U 形组](/zh-cn/systems/resonance/)：亢奋、餍足、沉静、节制、安恬泰然 |
+| 游戏内推荐的心相 | [黎明将到来](/zh-cn/psychubes/dawn-is-coming/)、[新旧歌谣](/zh-cn/psychubes/melodies-old-and-new/)、[镜头注脚](/zh-cn/psychubes/off-the-scene/) |
 | 中国大陆版上线 | 2024-04-11 |
 | 国际版上线 | 2024-08-15 |
 

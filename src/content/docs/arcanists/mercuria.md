@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | Support, Rank Up, DPS |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [One with the Flow](/psychubes/one-with-the-flow/), [Starlight Wellspring](/psychubes/starlight-wellspring/) |
 | Mainland release | 2024-07-18 |
 | Global release | 2024-10-31 |
 

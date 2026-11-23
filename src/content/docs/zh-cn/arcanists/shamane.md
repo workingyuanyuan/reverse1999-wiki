@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 现实 |
 | 标签 | 输出、仪式、辅助 |
 | 共鸣调频 | [Z 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、怜悯、安恬泰然、循序平衡 |
+| 游戏内推荐的心相 | [可度量之心](/zh-cn/psychubes/the-carat-of-a-heart/)、[美丽新世界](/zh-cn/psychubes/brave-new-world/)、[另一个故事](/zh-cn/psychubes/another-story/) |
 | 中国大陆版上线 | 2023-09-07 |
 | 国际版上线 | 已在国际版客户端中 |
 

@@ -33,6 +33,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Dynamo |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [Steps Forward](/psychubes/steps-forward/), [Blasphemer of Night](/psychubes/blasphemer-of-night/) |
 | Mainland release | 2024-05-16 |
 | Global release | 2024-09-19 |
 

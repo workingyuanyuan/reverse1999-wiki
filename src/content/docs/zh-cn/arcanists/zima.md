@@ -33,6 +33,7 @@ sources:
 | 创伤类型 | 精神 |
 | 标签 | 辅助、控制 |
 | 共鸣调频 | [T 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、亢奋、鼓舞、纵情狂想 |
+| 游戏内推荐的心相 | [美丽新世界](/zh-cn/psychubes/brave-new-world/)、[跳房子游戏](/zh-cn/psychubes/hopscotch/)、[第二次生命](/zh-cn/psychubes/her-second-life/) |
 | 中国大陆版上线 | 2023-05-31 |
 | 国际版上线 | 2023-10-26 |
 

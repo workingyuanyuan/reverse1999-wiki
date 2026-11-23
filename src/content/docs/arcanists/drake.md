@@ -35,6 +35,7 @@ sources:
 | Damage | Mental |
 | Tags | Support, Lingering Glow, DPS, Channel |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [To Choose Against Fate (not yet official)](/psychubes/to-choose-against-fate/) |
 | Mainland release | version 4.0 |
 | Global release | not yet |
 

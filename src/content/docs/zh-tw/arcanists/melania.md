@@ -34,6 +34,7 @@ sources:
 | 創傷類型 | 精神 |
 | 標籤 | 輸出 |
 | 共鳴調頻 | [Z 形組](/zh-tw/systems/resonance/)：洞徹、赤誠、憐憫、安恬泰然、循序平衡 |
+| 遊戲內推薦的心相 | [大娛樂至上](/zh-tw/psychubes/luxurious-leisure/)、[可度量之心](/zh-tw/psychubes/the-carat-of-a-heart/)、[家庭指導員](/zh-tw/psychubes/family-mentor/) |
 | 中國大陸版上線 | 2023-06-15 |
 | 國際版上線 | 2023-11-09 |
 

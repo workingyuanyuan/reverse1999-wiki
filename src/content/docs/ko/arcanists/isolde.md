@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 현실 |
 | 태그 | 공격, 연소, 보조 |
 | 공명 변조 | [Z자형 그룹](/ko/systems/resonance/): 이해, 정성, 연민, 편안과 태연, 순환 균형 |
+| 게임 내 추천 의지 | [좁은 문을 두드려라](/ko/psychubes/knock-on-the-door/), [밤의 모독자](/ko/psychubes/blasphemer-of-night/), [무의식의 악몽](/ko/psychubes/shadows-in-the-subconscious/) |
 | 중국 본토 출시 | 2024-02-22 |
 | 글로벌 출시 | 글로벌 클라이언트에 있음 |
 

@@ -29,6 +29,7 @@ sources:
 | 创伤类型 | 精神 |
 | 标签 | 输出、控制、驱散 |
 | 共鸣调频 | [Z 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、怜悯、安恬泰然、循序平衡 |
+| 游戏内推荐的心相 | [漫长悄悄话](/zh-cn/psychubes/long-night-talk/)、[步此苦旅](/zh-cn/psychubes/take-the-hard-journey/)、[勇往直前](/zh-cn/psychubes/lets-set-sail/) |
 | 中国大陆版上线 | 2023-05-31 |
 | 国际版上线 | 2023-10-26 |
 

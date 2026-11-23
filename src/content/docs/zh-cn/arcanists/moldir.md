@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 现实 |
 | 标签 | 辅助、仪式、输出、反击 |
 | 共鸣调频 | [Z 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、怜悯、安恬泰然、循序平衡 |
+| 游戏内推荐的心相 | [家庭指导员](/zh-cn/psychubes/family-mentor/)、[双焦点问答](/zh-cn/psychubes/never-ending-q-a/) |
 | 中国大陆版上线 | 2025-06-05 |
 | 国际版上线 | 2025-10-09 |
 

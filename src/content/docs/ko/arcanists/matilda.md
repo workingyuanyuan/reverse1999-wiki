@@ -34,6 +34,7 @@ sources:
 | 피해 유형 | 정신 |
 | 태그 | 공격, 보조 |
 | 공명 변조 | [십자형 그룹](/ko/systems/resonance/): 이해, 정성, 불시의 의아함, 희망, 순식간의 광증 |
+| 게임 내 추천 의지 | [이별 변주곡](/ko/psychubes/addio-coda/), [열정의 노래](/ko/psychubes/belt-it-out/), [‘반사된 형상’의 지시](/ko/psychubes/in-their-figures/) |
 | 중국 본토 출시 | 2023-05-31 |
 | 글로벌 출시 | 2023-10-26 |
 

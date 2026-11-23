@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Bloodtithe, Channel |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [Embrace the Past](/psychubes/embrace-the-past/) |
 | Mainland release | 2025-05-15 |
 | Global release | 2025-09-19 |
 

@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS, Control |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [The Loner](/psychubes/the-loner/) |
 | Mainland release | 2023-07-06 |
 | Global release | 2023-11-23 |
 

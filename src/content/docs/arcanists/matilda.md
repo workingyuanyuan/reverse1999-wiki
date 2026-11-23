@@ -34,6 +34,7 @@ sources:
 | Damage | Mental |
 | Tags | DPS, Support |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [Addio Coda](/psychubes/addio-coda/), [Belt It Out](/psychubes/belt-it-out/), [In Their Figures](/psychubes/in-their-figures/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
 

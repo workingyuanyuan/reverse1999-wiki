@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 精神 |
 | 标签 | 输出、中毒、辅助、术阵 |
 | 共鸣调频 | [T 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、亢奋、鼓舞、纵情狂想 |
+| 游戏内推荐的心相 | [女佣看见了](/zh-cn/psychubes/and-the-maid-says/)、[迷途以外](/zh-cn/psychubes/one-with-the-flow/) |
 | 中国大陆版上线 | 2024-08-08 |
 | 国际版上线 | 2024-12-05 |
 

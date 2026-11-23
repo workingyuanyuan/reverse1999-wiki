@@ -33,6 +33,7 @@ sources:
 | 피해 유형 | 현실 |
 | 태그 | 보조, 연소, 음송, 탄환, 술진 |
 | 공명 변조 | [십자형 그룹](/ko/systems/resonance/): 이해, 정성, 불시의 의아함, 희망, 순식간의 광증 |
+| 게임 내 추천 의지 | [세 번째 신뢰](/ko/psychubes/the-third-commitment/), [가정 지도사](/ko/psychubes/family-mentor/), [밤의 깊은 곳](/ko/psychubes/stray-off-the-path/) |
 | 중국 본토 출시 | 2024-10-10 |
 | 글로벌 출시 | 2025-01-30 |
 

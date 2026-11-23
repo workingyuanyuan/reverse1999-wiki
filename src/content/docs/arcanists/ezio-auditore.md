@@ -34,6 +34,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Poison, Ritual, Extra Action, Assassination |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [As the Bell Tolls](/psychubes/as-the-bell-tolls/) |
 | Mainland release | 2025-08-07 |
 | Global release | 2025-08-07 |
 

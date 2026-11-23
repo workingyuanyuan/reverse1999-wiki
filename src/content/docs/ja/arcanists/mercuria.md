@@ -34,6 +34,7 @@ sources:
 | ダメージタイプ | メンタル |
 | タグ | サポート、ランクUP、アタッカー |
 | 共鳴の変調 | [十字型グループ](/ja/systems/resonance/)：通暁、誠実、奇想天外、希望、無我夢中 |
+| ゲーム内のおすすめ心相 | [迷道の外](/ja/psychubes/one-with-the-flow/)、[流れゆく泉のように](/ja/psychubes/starlight-wellspring/) |
 | 中国本土版の実装 | 2024-07-18 |
 | グローバル版の実装 | 2024-10-31 |
 

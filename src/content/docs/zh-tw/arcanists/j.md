@@ -29,6 +29,7 @@ sources:
 | 創傷類型 | 現實 |
 | 標籤 | 護盾、燃燒、輔助、反擊 |
 | 共鳴調頻 | [Z 形組](/zh-tw/systems/resonance/)：洞徹、赤誠、憐憫、安恬泰然、循序平衡 |
+| 遊戲內推薦的心相 | [不可訴之輕](/zh-tw/psychubes/the-unbearable-lightness/)、[家庭指導員](/zh-tw/psychubes/family-mentor/)、[夜色褻瀆者](/zh-tw/psychubes/blasphemer-of-night/) |
 | 中國大陸版上線 | 2024-06-27 |
 | 國際版上線 | 2024-11-21 |
 

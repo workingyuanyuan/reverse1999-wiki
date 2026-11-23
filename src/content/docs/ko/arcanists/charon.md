@@ -33,6 +33,7 @@ sources:
 | 피해 유형 | 정신 |
 | 태그 | 보조, 전력, 공격, 음송, 술진 |
 | 공명 변조 | [U자형 그룹](/ko/systems/resonance/): 광분, 포식, 고요, 절제, 편안과 태연 |
+| 게임 내 추천 의지 | [씨앗을 향한 속삭임](/ko/psychubes/buds-yet-to-bloom/), [실체 없는 진실](/ko/psychubes/transcendent-love/), [초침의 서식지](/ko/psychubes/on-the-hand-of-time/) |
 | 중국 본토 출시 | 2025-07-17 |
 | 글로벌 출시 | 2025-11-20 |
 

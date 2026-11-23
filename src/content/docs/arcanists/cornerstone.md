@@ -33,6 +33,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Riposte |
 | Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
+| Psychubes recommended in game | [Where Light and Shadows Rest](/psychubes/where-light-and-shadows-rest/) |
 | Mainland release | 2026-07-02 |
 | Global release | 2026-10-15 |
 

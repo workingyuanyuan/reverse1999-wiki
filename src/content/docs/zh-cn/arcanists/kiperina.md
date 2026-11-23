@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 精神 |
 | 标签 | 护盾、启示、辅助、灵光 |
 | 共鸣调频 | [U 形组](/zh-cn/systems/resonance/)：亢奋、餍足、沉静、节制、安恬泰然 |
+| 游戏内推荐的心相 | [春日轻步至](/zh-cn/psychubes/aurora-after-winter/)、[漫长悄悄话](/zh-cn/psychubes/long-night-talk/) |
 | 中国大陆版上线 | 2025-04-24 |
 | 国际版上线 | 2025-07-24 |
 

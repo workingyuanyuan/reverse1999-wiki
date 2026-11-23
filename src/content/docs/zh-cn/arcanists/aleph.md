@@ -34,6 +34,7 @@ sources:
 | 创伤类型 | 精神 |
 | 标签 | 辅助、启示、吟诵、灵光 |
 | 共鸣调频 | [T 形组](/zh-cn/systems/resonance/)：洞彻、赤诚、亢奋、鼓舞、纵情狂想 |
+| 游戏内推荐的心相 | [脑室即囚室](/zh-cn/psychubes/mental-cage/)、[漫长悄悄话](/zh-cn/psychubes/long-night-talk/) |
 | 中国大陆版上线 | 2025-03-20 |
 | 国际版上线 | 2025-06-19 |
 

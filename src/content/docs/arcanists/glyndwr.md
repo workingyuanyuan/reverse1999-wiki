@@ -36,6 +36,7 @@ sources:
 | Damage | Reality |
 | Tags | DPS, Support, Extra Action, Follow-Up |
 | Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
+| Psychubes recommended in game | [Luck Be a Lady](/psychubes/luck-be-a-lady/) |
 | Mainland release | version 4.0 |
 | Global release | not yet |
 
