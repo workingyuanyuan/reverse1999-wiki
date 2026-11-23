@@ -2,7 +2,7 @@
 
 This site is an unofficial wiki for the game Reverse: 1999 (重返未來：1999 / 重返未来：1999; developer and global publisher Bluepoch 深藍互動). Its first readers are AI agents; humans come second. The rules in `../AGENTS.md` apply; this file holds what is specific to this site.
 
-State on 2026-11-23: a page for every released arcanist (138; Evelyn not yet), six Afflatus index pages, Summoning and pity and the home page, in English and translated; the look and the content are approved (2026-11-23). Not published yet.
+State on 2026-11-23: a page for every released arcanist (138; Evelyn not yet), six Afflatus index pages, Summoning and pity and the home page, in English and translated; the look and the content are approved; published 2026-11-23 at https://yuanaruru.com/reverse1999-wiki/.
 
 ## Decisions by the owner (2026-11-22)
 
