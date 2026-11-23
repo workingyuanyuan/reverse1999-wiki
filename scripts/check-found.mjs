@@ -21,7 +21,7 @@ import { SITE, LOCALES, localeOf, idInLocale, htmlPath, isoDate } from '../src/l
  * @param {{ mayShareDescription?: (page: { id: string, data: Record<string, any> }) => boolean }} [options]
  *   pages whose description another page may repeat (their titles must still differ)
  */
-export function checkFound(DIST, pages, fail, { mayShareDescription = () => false } = {}) {
+export async function checkFound(DIST, pages, fail, { mayShareDescription = () => false } = {}) {
 	const read = (path) => readFileSync(join(DIST, path), 'utf8');
 	const ids = new Set(pages.map((p) => p.id));
 	/** The languages in which a page exists, as `lang url`, sorted. */
@@ -37,7 +37,9 @@ export function checkFound(DIST, pages, fail, { mayShareDescription = () => fals
 		const file = (htmlPath(id) + 'index.html').slice(1);
 		if (!existsSync(join(DIST, file))) continue; // check-dist.mjs reports the missing page
 		const html = read(file);
-		const head = new JSDOM(html.slice(0, html.indexOf('</head>') + '</head>'.length)).window.document;
+		// jsdom frees a closed window only once the event loop runs: close each and yield.
+		const win = new JSDOM(html.slice(0, html.indexOf('</head>') + '</head>'.length)).window;
+		const head = win.document;
 		const own = {
 			title: head.querySelector('title')?.textContent.trim(),
 			description: head.querySelector('meta[name="description"]')?.getAttribute('content')?.trim(),
@@ -65,6 +67,8 @@ export function checkFound(DIST, pages, fail, { mayShareDescription = () => fals
 				fail(id, `hreflang links do not name exactly the languages in which the page exists\n    want: ${want.join(' | ')}\n    got:  ${got.join(' | ')}`);
 			}
 		}
+		win.close();
+		await new Promise((resolve) => setImmediate(resolve));
 	}
 
 	// b. Sitemap

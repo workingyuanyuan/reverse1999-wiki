@@ -1,0 +1,44 @@
+---
+title: "黃昏的音序"
+description: "黃昏的音序：重返未來：1999 其他劇情，共 11 關，附劇情全文。"
+appliesTo: "重返未來：1999，國際版用戶端 111.0.1077（3.9 版），繁體中文文本"
+caveat: "文本是國際版的繁體中文；中國大陸版領先兩個版本，部分台詞措辭不同。"
+lastVerified: 2026-11-23
+aliases:
+  - "A Series of Dusks"
+  - "黄昏的音序"
+  - "黄昏の旋律"
+  - "황혼의 소리"
+sources:
+  - title: "Reverse: 1999 Story Compendium，commit 32bb097：五種語言的閱讀版文本；劇情文本的權利屬於深藍互動（Bluepoch）"
+    url: https://github.com/VioletWilde/Reverse1999-Story-Compendium/tree/32bb0978c14b933df871cfc60f745fd2b5af9d6c/readable/story_reader_linked
+  - title: "re1999-data-global，國際版用戶端 111.0.1077：chapter.json 與 episode.json（關卡編號、遊戲內時間）"
+    url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
+---
+黃昏的音序屬於重返未來：1999 的其他劇情，共 11 關。
+
+## 關卡
+
+| 關卡 | 名稱 | 遊戲內時間 | 小徑 |
+| --- | --- | --- | --- |
+| 01 | [一場惡夢](/zh-tw/story/a-series-of-dusks/01/) | — | 0 |
+| 02 | [二等公民](/zh-tw/story/a-series-of-dusks/02/) | — | 0 |
+| 03 | [職業道德](/zh-tw/story/a-series-of-dusks/03/) | — | 0 |
+| 04 | [致意亞琛·上](/zh-tw/story/a-series-of-dusks/04/) | — | 0 |
+| 05 | [致意亞琛·下](/zh-tw/story/a-series-of-dusks/05/) | — | 0 |
+| 06 | [鏡中的命運](/zh-tw/story/a-series-of-dusks/06/) | — | 0 |
+| 07 | [浪花與音符](/zh-tw/story/a-series-of-dusks/07/) | — | 0 |
+| 08 | [結局I: 如願以償](/zh-tw/story/a-series-of-dusks/08/) | — | 0 |
+| 09 | [結局II: 黃昏之歌](/zh-tw/story/a-series-of-dusks/09/) | — | 0 |
+| 10 | [結局III: 擁抱虛像](/zh-tw/story/a-series-of-dusks/10/) | — | 0 |
+| 11 | [結局IV: 喜極之處](/zh-tw/story/a-series-of-dusks/11/) | — | 0 |
+
+## 登場的神秘學家
+
+[塞梅爾維斯](/zh-tw/arcanists/semmelweis/)、[卡卡尼亞](/zh-tw/arcanists/kakania/)、[羅蕾萊](/zh-tw/arcanists/lorelei/)
+
+## 名稱
+
+| 英文 | 簡體中文 | 繁體中文 | 日文 | 韓文 |
+| --- | --- | --- | --- | --- |
+| A Series of Dusks | 黄昏的音序 | 黃昏的音序 | 黄昏の旋律 | 황혼의 소리 |

@@ -60,6 +60,15 @@ sources:
 - [上線日期](/zh-tw/systems/releases/)
 - [徵集與保底](/zh-tw/systems/summoning/)
 
+## 劇情
+
+- [主線](/zh-tw/story/main/)
+- [活動劇情](/zh-tw/story/events/)
+- [角色劇情 I](/zh-tw/story/characters/)
+- [角色劇情 II](/zh-tw/story/characters-2/)
+- [軼事](/zh-tw/story/anecdotes/)
+- [其他劇情](/zh-tw/story/other/)
+
 ## 徵集
 
 6 星基礎機率為 1.5%；連續 60 次徵集未獲得 6 星後機率開始提升，第 70 次內必得 6 星。只有限時角色徵集會把保底次數繼承至下一個；限定、聯動與多數活動徵集結束時清零：[徵集與保底](/zh-tw/systems/summoning/)。

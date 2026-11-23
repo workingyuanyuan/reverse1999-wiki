@@ -1,0 +1,38 @@
+---
+title: "ディス・イズ・トゥモロー"
+description: "ディス・イズ・トゥモロー：リバース：1999 のメインストーリー、全6ステージ。ストーリー全文つき。"
+appliesTo: "リバース：1999、グローバル版クライアント 111.0.1077（バージョン 3.9）、日本語テキスト"
+caveat: "テキストはグローバル版の日本語。2バージョン先行する中国本土版では一部のセリフの言い回しが異なる。"
+lastVerified: 2026-11-23
+aliases:
+  - "This Is Tomorrow"
+  - "此即明日"
+  - "다가온 미래"
+sources:
+  - title: "Reverse: 1999 Story Compendium、commit 32bb097：5言語の閲覧用テキスト。ストーリーのテキストの権利は Bluepoch に帰属"
+    url: https://github.com/VioletWilde/Reverse1999-Story-Compendium/tree/32bb0978c14b933df871cfc60f745fd2b5af9d6c/readable/story_reader_linked
+  - title: "re1999-data-global、グローバル版クライアント 111.0.1077：chapter.json と episode.json（ステージ番号、ゲーム内の時刻）"
+    url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
+---
+ディス・イズ・トゥモローはリバース：1999 のメインストーリーで、全6ステージ。
+
+## ステージ
+
+| ステージ | 名前 | ゲーム内の時刻 | 小径 |
+| --- | --- | --- | --- |
+| 01 | [ロックンロールラジオ](/ja/story/this-is-tomorrow/01/) | — | 0 |
+| 02 | [キングスロード](/ja/story/this-is-tomorrow/02/) | — | 0 |
+| 03 | [テレポート](/ja/story/this-is-tomorrow/03/) | — | 0 |
+| 04 | [見えない海賊](/ja/story/this-is-tomorrow/04/) | — | 0 |
+| 05 | [ストームの序幕](/ja/story/this-is-tomorrow/05/) | — | 0 |
+| 06 | [生きている過去](/ja/story/this-is-tomorrow/06/) | — | 0 |
+
+## 登場する神秘学家
+
+[レグルス](/ja/arcanists/regulus/)、[APPLe](/ja/arcanists/apple/)、[ソネット](/ja/arcanists/sonetto/)
+
+## 名前
+
+| 英語 | 簡体字中国語 | 繁体字中国語 | 日本語 | 韓国語 |
+| --- | --- | --- | --- | --- |
+| This Is Tomorrow | 此即明日 | 此即明日 | ディス・イズ・トゥモロー | 다가온 미래 |

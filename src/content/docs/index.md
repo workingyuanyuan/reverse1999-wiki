@@ -60,6 +60,15 @@ Arcanists in the mainland China client 113.0.1422 who are not in the global clie
 - [Release dates](/systems/releases/)
 - [Summoning and pity](/systems/summoning/)
 
+## Story
+
+- [Main story](/story/main/)
+- [Event stories](/story/events/)
+- [Character stories I](/story/characters/)
+- [Character stories II](/story/characters-2/)
+- [Anecdotes](/story/anecdotes/)
+- [Other stories](/story/other/)
+
 ## Summoning
 
 A 6-star has a 1.5% base rate; the rate rises after 60 summons without one and a 6-star is certain by the 70th. Only Time-limited Banners carry the count over to the next one; limited, collaboration and most event banners clear it when they end: [Summoning and pity](/systems/summoning/).

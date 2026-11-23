@@ -55,3 +55,10 @@ export function psychubeSidebar() {
 		],
 	}));
 }
+
+// The Story group: the index page of each kind of story (pipeline/story.py). A chapter is reached
+// from its index page and a stage from its chapter page: every link here is in the sidebar of
+// every page, ahead of the content in the extracted text.
+export function storySidebar() {
+	return ['main', 'events', 'characters', 'characters-2', 'anecdotes', 'other'].map((x) => ({ slug: `story/${x}` }));
+}

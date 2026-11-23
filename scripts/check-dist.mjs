@@ -30,7 +30,7 @@ import { fileURLToPath } from 'node:url';
 import { JSDOM } from 'jsdom';
 import { Readability } from '@mozilla/readability';
 import TurndownService from 'turndown';
-import { SITE, LOCALES, LLMS_NOTES, localeOf, bareId, idInLocale, htmlPath, mdPath, llmsPath, withBase } from '../src/lib/site.mjs';
+import { SITE, LOCALES, LLMS_NOTES, localeOf, bareId, idInLocale, htmlPath, mdPath, llmsPath, withBase, isStage, isStoryText } from '../src/lib/site.mjs';
 import { bundlePath } from '../src/lib/llms.mjs';
 import { readPages, readPending } from '../src/lib/content-index.mjs';
 import { checkFound } from './check-found.mjs';
@@ -39,7 +39,7 @@ import { checkHeaderAndOutputs, checkSelfReference } from './check-page-text.mjs
 const DIST = fileURLToPath(new URL('../dist/', import.meta.url));
 const LIMIT = 5000;
 // The top-level sidebar groups, in order, by the id of their first page (astro.config.mjs).
-const SECTIONS = ['afflatus/star', 'psychubes/critical', 'systems/summoning'];
+const SECTIONS = ['afflatus/star', 'psychubes/critical', 'systems/summoning', 'story/main'];
 const failures = [];
 const fail = (page, message) => failures.push(`${page}: ${message}`);
 
@@ -62,6 +62,7 @@ if (!existsSync(DIST)) {
 }
 
 const pages = readPages();
+const byId = new Map(pages.map((p) => [p.id, p]));
 const ids = new Set(pages.map((p) => p.id));
 const english = pages.filter((p) => localeOf(p.id) === LOCALES[0]);
 
@@ -107,9 +108,27 @@ const internalLinks = (body) => [...prose(body).matchAll(/\]\((\/[^)\s#]*)/g)].m
 /** Link targets of a body: pages without their language prefix, files as written. */
 const linkTargets = (body) => new Set(internalLinks(body).map((path) => (isFile(path) ? path : bareId(idFromLink(path)))));
 
+/** The first 5,000 characters a readability-style extractor returns for each page. jsdom frees a
+ * closed window only once the event loop runs, so this yields after each page. */
+async function extractHeads(list) {
+	const heads = [];
+	for (const p of list) {
+		const file = (htmlPath(p.id) + 'index.html').slice(1);
+		const w = new JSDOM(read(file), { url: SITE + htmlPath(p.id) }).window;
+		const parsed = new Readability(w.document).parse();
+		w.close();
+		heads.push(turndown.turndown(parsed?.content ?? '').slice(0, LIMIT));
+		await new Promise((resolve) => setImmediate(resolve));
+	}
+	return heads;
+}
+
+/** The bundles, read once: path -> normalized text. */
+const bundles = new Map();
 /** Each language's llms.txt, by locale. */
 const llmsTxt = new Map(LOCALES.map((l) => [l, read(llmsPath(l).slice(1))]));
 const indexJson = JSON.parse(read('index.json'));
+const indexed = new Set(indexJson.pages.map((p) => p.markdown));
 const turndown = new TurndownService({ headingStyle: 'atx', codeBlockStyle: 'fenced' });
 
 // Every HTML file in dist must belong to a known page (or be the 404 page).
@@ -159,7 +178,11 @@ for (const id of fallbackHtml.values()) {
 // loop that never yields kept every document and passed Node's 4 GB heap at 700 pages: close
 // the previous page's windows and yield.
 let openWindows = [];
-for (const { id, data } of pages) {
+// scripts/check-dist-parallel.mjs runs this script in several processes, each on every n-th page
+// (CHECK_SHARD=i/n); the checks of the whole site run in the first.
+const [SHARD, SHARDS] = (process.env.CHECK_SHARD ?? '0/1').split('/').map(Number);
+for (const [k, { id, data }] of pages.entries()) {
+	if (k % SHARDS !== SHARD) continue;
 	if (openWindows.length) {
 		for (const w of openWindows) w.close();
 		openWindows = [];
@@ -185,13 +208,16 @@ for (const { id, data } of pages) {
 	const alternate = doc.querySelector('link[rel="alternate"][type="text/markdown"]');
 	if (alternate?.getAttribute('href') !== SITE + mdPath(id)) fail(id, 'missing or wrong <link rel="alternate" type="text/markdown">');
 	if (!doc.querySelector(`main a[href="${withBase(mdPath(id))}"]`)) fail(id, 'no visible link to the Markdown twin inside <main>');
-	if (!llmsTxt.get(localeOf(id)).includes(SITE + mdPath(id))) fail(id, `Markdown twin not listed in ${llmsPath(localeOf(id))}`);
-	if (!indexJson.pages.some((p) => p.markdown === SITE + mdPath(id))) fail(id, 'page not listed in index.json');
+	// A story stage is listed by its chapter page, not in llms.txt or the bundles (src/lib/llms.mjs).
+	if (!isStage(id) && !llmsTxt.get(localeOf(id)).includes(SITE + mdPath(id))) fail(id, `Markdown twin not listed in ${llmsPath(localeOf(id))}`);
+	if (!indexed.has(SITE + mdPath(id))) fail(id, 'page not listed in index.json');
 	if (!doc.querySelector('script[type="application/ld+json"]')) fail(id, 'missing JSON-LD');
 
 	// 7. Bundles and the pointer for agents
-	for (const set of ['full', 'small']) {
-		const bundle = normalize(read(bundlePath(localeOf(id), set).slice(1)));
+	for (const set of isStage(id) ? [] : ['full', 'small']) {
+		const path = bundlePath(localeOf(id), set);
+		if (!bundles.has(path)) bundles.set(path, normalize(read(path.slice(1))));
+		const bundle = bundles.get(path);
 		for (const text of [data.description, data.caveat]) {
 			if (!bundle.includes(normalize(String(text)))) fail(id, `answer or caveat missing from ${bundlePath(localeOf(id), set)}`);
 		}
@@ -204,7 +230,7 @@ for (const { id, data } of pages) {
 
 	// 2. Clean Markdown
 	const mdProse = md.replace(/^```[^\n]*\n[\s\S]*?^```/gm, '').replace(/`[^`\n]*`/g, '');
-	if (/<[A-Z][A-Za-z]*[\s/>]/.test(mdProse)) fail(id, 'JSX component tag in Markdown twin');
+	if (/(?<!\\)<[A-Z][A-Za-z]*[\s/>]/.test(mdProse)) fail(id, 'JSX component tag in Markdown twin');
 	if (/^import\s.+from\s/m.test(mdProse)) fail(id, 'MDX import in Markdown twin');
 	if (/^:::/m.test(mdProse)) fail(id, '`:::` directive in Markdown twin');
 
@@ -238,8 +264,9 @@ for (const { id, data } of pages) {
 	const extracted = turndown.turndown(mainEl.innerHTML);
 	const mdBody = md.slice(md.indexOf('\n---\n') + 5);
 	// Starlight curls apostrophes in the HTML (Echoes' Embrace); compare them straight.
-	const straight = (h) => h.replace(/[\u2018\u2019]/g, "'");
-	const wantHeadings = headings(mdBody).map((h) => straight(normalize(h.replace(/`/g, ''))));
+	// The HTML renderer curls quotes and joins three dots.
+	const straight = (h) => h.replace(/[\u2018\u2019]/g, "'").replace(/[\u201c\u201d]/g, '"').replace(/\u2026/g, '...');
+	const wantHeadings = headings(mdBody).map((h) => straight(normalize(h.replace(/`/g, '').replace(/\\([<>*_[\]])/g, '$1'))));
 	const gotHeadings = headings(extracted)
 		.filter((h) => !h.startsWith('1 '))
 		.map((h) => straight(normalize(h.replace(/\\/g, '').replace(/`/g, ''))));
@@ -275,14 +302,16 @@ for (const { id, data } of pages) {
 		const head = turndown.turndown(article?.content ?? '').slice(0, LIMIT);
 		const mine = pages.filter((p) => p.id !== id && localeOf(p.id) === localeOf(id));
 		const direct = mine.filter((p) => head.includes(`(${withBase(htmlPath(p.id))})`) || head.includes(`(${SITE}${htmlPath(p.id)})`));
-		const indexHeads = direct.map((p) => {
-			const file = (htmlPath(p.id) + 'index.html').slice(1);
-			const parsed = new Readability(new JSDOM(read(file), { url: SITE + htmlPath(p.id) }).window.document).parse();
-			return turndown.turndown(parsed?.content ?? '').slice(0, LIMIT);
-		});
+		const indexHeads = await extractHeads(direct);
+		const linksTo = (heads, p) => [`(${withBase(htmlPath(p.id))})`, `(${SITE}${htmlPath(p.id)})`].some((l) => heads.some((h) => h.includes(l)));
+		// The story takes one step more (site AGENTS.md): home page, story index, chapter page,
+		// stage page. A chapter page that a story index lists is an index of its stages.
+		const chapters = mine.filter((p) => /\/story\/[^/]+$/.test('/' + p.id) && !direct.includes(p) && linksTo(indexHeads, p));
+		const chapterHeads = await extractHeads(chapters);
 		for (const other of mine) {
 			if (direct.includes(other)) continue;
 			const link = [`(${withBase(htmlPath(other.id))})`, `(${SITE}${htmlPath(other.id)})`];
+			if (/\/story\/[^/]+\/[^/]+$/.test('/' + other.id) && linksTo(chapterHeads, other)) continue;
 			if (!indexHeads.some((h) => link.some((l) => h.includes(l)))) {
 				fail(id, `${htmlPath(other.id)} is linked neither from the home page nor from an index page it links, within the first ${LIMIT} extracted characters`);
 			}
@@ -296,7 +325,8 @@ for (const { id, data } of pages) {
 		sections: SECTIONS.map((s) => withBase(htmlPath(idInLocale(s, localeOf(id))))),
 		outputs: [withBase(mdPath(id)), withBase(llmsPath(localeOf(id))), withBase('/index.json')],
 	});
-	checkSelfReference(doc, id, fail);
+	// Chapter and stage pages of the story quote the game's text, in which characters speak of pages.
+	if (!isStoryText(id)) checkSelfReference(doc, id, fail);
 
 	// 5. No decoration leak into extracted text.
 	const visible = normalize(doc.body.textContent);
@@ -305,7 +335,8 @@ for (const { id, data } of pages) {
 		// draws its rhombus marks as shapes, with no text; a typed rhombus would copy them.
 		['rhombus before a name', /(^|\s)[◆◇♦❖]\s?\S/],
 	]) {
-		if (pattern.test(visible)) fail(id, `decoration leaked into page text: ${name}`);
+		// The game's own text may hold a rhombus.
+		if (!isStoryText(id) && pattern.test(visible)) fail(id, `decoration leaked into page text: ${name}`);
 	}
 	// The skin draws a rhombus before each section heading. It may not be typed into one.
 	for (const h of doc.querySelectorAll('main h1, main h2, main h3')) {
@@ -315,7 +346,7 @@ for (const { id, data } of pages) {
 	// 6. Language parity
 	const mine = localeOf(id);
 	// Links stay inside the page's language and never lead to a page that language lacks.
-	for (const path of internalLinks(pages.find((p) => p.id === id).body).filter((path) => !isFile(path))) {
+	for (const path of internalLinks(byId.get(id).body).filter((path) => !isFile(path))) {
 		if (localeOf(idFromLink(path)) !== mine) fail(id, `link ${path} leaves the page's language`);
 		else if (isPending(bareId(idFromLink(path)), mine)) fail(id, `link ${path} leads to a page ${mine.label} does not have yet (records/pending.json)`);
 		else if (!ids.has(idFromLink(path))) fail(id, `link ${path} leads to no page`);
@@ -327,7 +358,7 @@ for (const { id, data } of pages) {
 			// Reported once, above, for each English page a language lacks.
 			continue;
 		}
-		const twin = pages.find((p) => p.id === otherId).data;
+		const twin = byId.get(otherId).data;
 		const same = (a, b) => JSON.stringify(a ?? null) === JSON.stringify(b ?? null);
 		if (!same(data.lastVerified, twin.lastVerified)) fail(id, `lastVerified differs from ${otherId}`);
 		if (!same(data.effectiveDate, twin.effectiveDate)) fail(id, `effectiveDate differs from ${otherId}`);
@@ -338,10 +369,11 @@ for (const { id, data } of pages) {
 		if (!same(data.sources?.map((s) => s.url), twin.sources?.map((s) => s.url))) fail(id, `source URLs differ from ${otherId}`);
 		const otherMd = read(mdPath(otherId).slice(1));
 		if (!same(codeBlocks(md), codeBlocks(otherMd))) fail(id, `code blocks differ from ${otherId}`);
-		if (headings(md).length !== headings(otherMd).length) fail(id, `number of headings differs from ${otherId}`);
+		// A stage's Trails can differ between the mainland text (zh-cn) and the global text.
+		if (!isStoryText(id) && headings(md).length !== headings(otherMd).length) fail(id, `number of headings differs from ${otherId}`);
 		// The same link targets, except links to pages that either language lacks.
 		const lacking = (bare) => isPending(bare, mine) || isPending(bare, other);
-		const targets = (pageId) => [...linkTargets(pages.find((p) => p.id === pageId).body)].filter((t) => !lacking(t)).sort();
+		const targets = (pageId) => [...linkTargets(byId.get(pageId).body)].filter((t) => !lacking(t)).sort();
 		const a = targets(id);
 		const b = targets(otherId);
 		if (!same(a, b)) {
@@ -350,6 +382,7 @@ for (const { id, data } of pages) {
 	}
 }
 
+if (SHARD === 0) {
 // 8. llms.txt: what an agent must know before it answers, the bundles and the other
 // languages all come within the first 5,000 characters, ahead of the page list.
 for (const locale of LOCALES) {
@@ -385,7 +418,8 @@ if (!robots.includes(`Sitemap: ${SITE}/sitemap-index.xml`)) fail('robots.txt', '
 if (!/^Content-Signal: /m.test(robots)) fail('robots.txt', 'no Content-Signal line');
 
 
-checkFound(DIST, pages, fail);
+await checkFound(DIST, pages, fail);
+}
 
 if (failures.length) {
 	console.error(`FAIL: ${failures.filter((f) => !f.startsWith('    ')).length} problem(s) in ${pages.length} pages\n`);

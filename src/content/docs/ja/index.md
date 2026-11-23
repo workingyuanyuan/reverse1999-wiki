@@ -60,6 +60,15 @@ sources:
 - [実装日](/ja/systems/releases/)
 - [召喚と天井](/ja/systems/summoning/)
 
+## ストーリー
+
+- [メインストーリー](/ja/story/main/)
+- [イベントストーリー](/ja/story/events/)
+- [キャラクターストーリー I](/ja/story/characters/)
+- [キャラクターストーリー II](/ja/story/characters-2/)
+- [エピソード](/ja/story/anecdotes/)
+- [その他のストーリー](/ja/story/other/)
+
 ## 召喚
 
 ★6の基礎確率は 1.5%。60回連続で★6が出ないと確率が上がり、70回目までに★6が確定する。回数を次へ引き継ぐのは期間限定キャラ召喚のみで、限定召喚、コラボ召喚、多くのイベント召喚は終了時にリセットされる：[召喚と天井](/ja/systems/summoning/)。

@@ -1,0 +1,41 @@
+---
+title: "黄金与悲喜剧"
+description: "黄金与悲喜剧：重返未来：1999 轶事，共 8 关，附剧情全文。"
+appliesTo: "重返未来：1999，中国大陆版客户端 113.0.1422（4.1 版），简体中文文本"
+caveat: "文本是中国大陆版的简体中文；国际版落后两个版本，繁体中文等语言的部分台词措辞不同。"
+lastVerified: 2026-11-23
+aliases:
+  - "A Fool's Gold"
+  - "黃金與悲喜劇"
+  - "黄金と悲喜劇"
+  - "황금과 희비극"
+sources:
+  - title: "Reverse: 1999 Story Compendium，commit 32bb097：五种语言的阅读版文本；剧情文本的权利属于深蓝互动（Bluepoch）"
+    url: https://github.com/VioletWilde/Reverse1999-Story-Compendium/tree/32bb0978c14b933df871cfc60f745fd2b5af9d6c/readable/story_reader_linked
+  - title: "re1999-data-global，国际版客户端 111.0.1077：chapter.json 与 episode.json（关卡编号、游戏内时间）"
+    url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
+---
+黄金与悲喜剧属于重返未来：1999 的轶事，共 8 关。
+
+## 关卡
+
+| 关卡 | 名称 | 游戏内时间 | 小径 |
+| --- | --- | --- | --- |
+| 01 | [星期日早上](/zh-cn/story/a-fool-s-gold/01/) | — | 0 |
+| 02 | [废话满天飞](/zh-cn/story/a-fool-s-gold/02/) | — | 0 |
+| 03 | [空中舞蹈](/zh-cn/story/a-fool-s-gold/03/) | — | 0 |
+| 04 | [灰尘星子](/zh-cn/story/a-fool-s-gold/04/) | — | 0 |
+| 05 | [“幽默故事”](/zh-cn/story/a-fool-s-gold/05/) | — | 0 |
+| 06 | [特殊事故](/zh-cn/story/a-fool-s-gold/06/) | — | 0 |
+| 07 | [麦高芬](/zh-cn/story/a-fool-s-gold/07/) | — | 0 |
+| 08 | [广告时间](/zh-cn/story/a-fool-s-gold/08/) | — | 0 |
+
+## 登场的神秘学家
+
+[洋葱头](/zh-cn/arcanists/onion/)、[环状水星](/zh-cn/arcanists/mercuria/)、[皮克勒斯](/zh-cn/arcanists/pickles/)、[槲寄生](/zh-cn/arcanists/druvis-iii/)、[十四行诗](/zh-cn/arcanists/sonetto/)、[阿尔古斯](/zh-cn/arcanists/argus/)
+
+## 名称
+
+| 英文 | 简体中文 | 繁体中文 | 日文 | 韩文 |
+| --- | --- | --- | --- | --- |
+| A Fool's Gold | 黄金与悲喜剧 | 黃金與悲喜劇 | 黄金と悲喜劇 | 황금과 희비극 |

@@ -6,6 +6,7 @@
 
 - The two repositories of decoded client tables pinned in `records/sources.json`: `St-Pavlov-Foundation/re1999-data` (mainland client) and `St-Pavlov-Foundation/re1999-data-global` (global client). The script reads the head of each with `git ls-remote`, fetches the tables this site reads at that head into `cache/`, and compares what each page rests on.
 - The Fandom revisions that pages cite (`?oldid=`), through the Fandom API. Fandom is a second witness, so a newer revision is a note.
+- The Story Compendium (`records/story.json`) that the story pages are written from: the head of its repository. A newer commit that changes the reading text is a note, since the Compendium revises and adds text often.
 - The art files that pages show (`records/art.json`, `records/art-psychubes.json`), through the Fandom API. A newer upload is a note, and so is a Psychube file that was missing and now exists.
 
 ## The report
@@ -26,6 +27,7 @@ One line per difference, naming the page:
 | `systems/insight: <rarity> changed` | a level cap or the Sharpodonty of an Insight changed | `pipeline/write_systems.py` rewrites the page |
 | `systems/combat: … changed` | the Field Manual tips, a stat name or the Moxie cost of an Ultimate changed | read the change and correct Combat basics |
 | `systems/resonance: … changed` | a Resonance level, grid size, material count, pattern cost, pattern stat or an arcanist's set changed | `pipeline/write_systems.py` rewrites the page; if it exits with an error, the values no longer agree within a rarity and the page needs a new table. A changed set or pattern name also changes the profile table of arcanist pages: `pipeline/scaffold.py profile` on them, then `scripts/to-zh-cn.py` |
+| `note story: the Story Compendium has commit …` | the Compendium changed or added story text | set the new commit in `records/story.json`, then `python3 -I pipeline/story.py fetch` and `write`; read the diff of `src/content/docs/**/story/` (new chapters, chapters that reached the global client) before the owner confirms |
 | `note …` | a new client build, a new arcanist in both clients, a newer Fandom revision | nothing fails; read when the pages are next checked |
 | `note arcanists/<slug>: Fandom File:… has a newer upload` | the wiki replaced the art file | look at the new file; if it is still the full-length art, run `python3 -I pipeline/fetch_art.py <slug>` and copy the printed `art` lines into the page in every language |
 | `note psychubes/<slug>: Fandom File:… has a newer upload` or `… now has File:…` | the wiki replaced or added a Psychube's illustration | look at the file; if it is the Psychube's own illustration, run `python3 -I pipeline/fetch_art.py --psychubes <slug>`, then `python3 -I pipeline/psychube.py art` and the zh-cn conversion |

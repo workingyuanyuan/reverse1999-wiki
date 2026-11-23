@@ -60,6 +60,15 @@ sources:
 - [출시일](/ko/systems/releases/)
 - [모집과 천장](/ko/systems/summoning/)
 
+## 스토리
+
+- [메인 스토리](/ko/story/main/)
+- [이벤트 스토리](/ko/story/events/)
+- [캐릭터 스토리 I](/ko/story/characters/)
+- [캐릭터 스토리 II](/ko/story/characters-2/)
+- [일화](/ko/story/anecdotes/)
+- [기타 스토리](/ko/story/other/)
+
 ## 모집
 
 6성의 기본 확률은 1.5%다. 60회 연속으로 6성이 나오지 않으면 확률이 오르고, 70회 안에 6성이 확정된다. 횟수를 다음 모집으로 이월하는 것은 한정 캐릭터 모집뿐이며, 한정 모집, 콜라보 모집, 대부분의 이벤트 모집은 종료 시 초기화된다: [모집과 천장](/ko/systems/summoning/).

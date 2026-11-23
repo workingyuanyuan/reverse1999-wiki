@@ -74,6 +74,10 @@ def body_of(text):
 def check(path):
     norm = path.replace(os.sep, '/')
     rel = re.sub(r'^.*?src/content/docs/(zh-tw/|zh-cn/|ja/|ko/)?', '', norm)
+    # Chapter and stage pages hold the game's own story text and names (pipeline/story.py), not
+    # prose of the site; their own sentences are fixed templates there. The index pages are checked.
+    if rel.startswith('story/') and not re.match(r'story/(main|events|characters|characters-2|anecdotes|other)\.md$', rel):
+        return []
     allowed = ALLOW.get(rel, set())
     jako = re.search(r'src/content/docs/(ja|ko)/', norm) is not None
     hits = []

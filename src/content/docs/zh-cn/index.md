@@ -60,6 +60,15 @@ sources:
 - [上线日期](/zh-cn/systems/releases/)
 - [征集与保底](/zh-cn/systems/summoning/)
 
+## 剧情
+
+- [主线](/zh-cn/story/main/)
+- [活动剧情](/zh-cn/story/events/)
+- [角色剧情 I](/zh-cn/story/characters/)
+- [角色剧情 II](/zh-cn/story/characters-2/)
+- [轶事](/zh-cn/story/anecdotes/)
+- [其他剧情](/zh-cn/story/other/)
+
 ## 征集
 
 6 星基础概率为 1.5%；连续 60 次征集未获得 6 星后概率开始提升，第 70 次内必得 6 星。只有限时角色征集会把保底次数继承至下一个；限定、联动与多数活动征集结束时清零：[征集与保底](/zh-cn/systems/summoning/)。

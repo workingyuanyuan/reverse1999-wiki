@@ -19,6 +19,8 @@ and compares, page by page, the facts each page rests on:
   systems/combat     the Field Manual tips, the stat names and the Moxie cost of every Ultimate
   systems/resonance  levels, grid, main Idea, materials, Resonance Patterns and their costs by rarity,
                      and each arcanist's set (pipeline/write_systems.py resonance_data)
+  story/             the Story Compendium's commit (records/story.json): a newer commit that changes the
+                     reading text is a note
 
 Report: one line per difference, naming the page; lines starting "note" do not fail the check
 (a new client build, a newer revision of a cited wiki page).
@@ -171,6 +173,21 @@ def fandom_notes():
 	return notes
 
 
+def story_notes():
+	"""The Story Compendium (records/story.json) behind the story pages: a newer commit that changes its
+	reading text is a note, since the Compendium revises and adds text often."""
+	pin = json.loads((ROOT / 'records' / 'story.json').read_text())
+	sha = head(pin['repo'])
+	if sha == pin['commit']:
+		return []
+	out = subprocess.run(['gh', 'api', f'repos/{pin["repo"]}/compare/{pin["commit"]}...{sha}', '--jq', '.files[].filename'],
+		capture_output=True, text=True, timeout=120, check=True).stdout.split('\n')
+	changed = [f for f in out if f.startswith('readable/story_reader_linked/')]
+	if not changed:
+		return []
+	return [f'note story: the Story Compendium has commit {sha[:7]} after {pin["commit"][:7]}, {len(changed)} reading file(s) changed']
+
+
 def main():
 	try:
 		current = {}
@@ -208,6 +225,7 @@ def main():
 				for part in diff_parts(old[page], new[page]):
 					lines.append(f'systems/{page}: {part} changed')
 		lines += fandom_notes()
+		lines += story_notes()
 	except Exception as e:  # noqa: BLE001
 		print(f'comparison failed: {e}', file=sys.stderr)
 		return 2

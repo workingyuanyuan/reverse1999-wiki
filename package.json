@@ -8,8 +8,8 @@
     "build": "astro build",
     "preview": "node scripts/preview.mjs",
     "astro": "astro",
-    "check": "node scripts/check-dist.mjs",
-    "verify": "python3 -I pipeline/check_prose.py && astro build && node scripts/check-dist.mjs",
+    "check": "node scripts/check-dist-parallel.mjs",
+    "verify": "python3 -I pipeline/check_prose.py && astro build && node scripts/check-dist-parallel.mjs",
     "upstream": "python3 -I pipeline/upstream.py"
   },
   "dependencies": {

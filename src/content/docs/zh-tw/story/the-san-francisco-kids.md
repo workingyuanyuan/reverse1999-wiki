@@ -1,0 +1,41 @@
+---
+title: "舊金山小子"
+description: "舊金山小子：重返未來：1999 角色劇情 II，共 8 關，附劇情全文。"
+appliesTo: "重返未來：1999，國際版用戶端 111.0.1077（3.9 版），繁體中文文本"
+caveat: "文本是國際版的繁體中文；中國大陸版領先兩個版本，部分台詞措辭不同。"
+lastVerified: 2026-11-23
+aliases:
+  - "The San Francisco Kids"
+  - "旧金山小子"
+  - "サンフランシスコボーイ"
+  - "샌프란시스코 키즈"
+sources:
+  - title: "Reverse: 1999 Story Compendium，commit 32bb097：五種語言的閱讀版文本；劇情文本的權利屬於深藍互動（Bluepoch）"
+    url: https://github.com/VioletWilde/Reverse1999-Story-Compendium/tree/32bb0978c14b933df871cfc60f745fd2b5af9d6c/readable/story_reader_linked
+  - title: "re1999-data-global，國際版用戶端 111.0.1077：chapter.json 與 episode.json（關卡編號、遊戲內時間）"
+    url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
+---
+舊金山小子屬於重返未來：1999 的角色劇情 II，共 8 關。
+
+## 關卡
+
+| 關卡 | 名稱 | 遊戲內時間 | 小徑 |
+| --- | --- | --- | --- |
+| 01 | [“一樁生意”](/zh-tw/story/the-san-francisco-kids/01/) | — | 0 |
+| 02 | [東方的朋友](/zh-tw/story/the-san-francisco-kids/02/) | — | 0 |
+| 03 | [撐傘人](/zh-tw/story/the-san-francisco-kids/03/) | — | 0 |
+| 04 | [友好會面](/zh-tw/story/the-san-francisco-kids/04/) | — | 0 |
+| 05 | [狂歡迪斯可](/zh-tw/story/the-san-francisco-kids/05/) | — | 0 |
+| 06 | [冤家路窄](/zh-tw/story/the-san-francisco-kids/06/) | — | 0 |
+| 07 | [盛情晚宴](/zh-tw/story/the-san-francisco-kids/07/) | — | 0 |
+| 08 | [夥計們](/zh-tw/story/the-san-francisco-kids/08/) | — | 0 |
+
+## 登場的神秘學家
+
+[J](/zh-tw/arcanists/j/)、[先驅者](/zh-tw/arcanists/pioneer/)、[溫妮弗雷德](/zh-tw/arcanists/eternity/)、[斯普特尼克](/zh-tw/arcanists/sputnik/)
+
+## 名稱
+
+| 英文 | 簡體中文 | 繁體中文 | 日文 | 韓文 |
+| --- | --- | --- | --- | --- |
+| The San Francisco Kids | 旧金山小子 | 舊金山小子 | サンフランシスコボーイ | 샌프란시스코 키즈 |

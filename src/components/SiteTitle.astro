@@ -3,7 +3,7 @@
 // publisher's, and a link to the first page of each top-level sidebar group, in the
 // sidebar's order and labels. A site with one group shows no section links. The Markdown
 // twin, llms.txt and index.json are linked from the page notes (MarkdownContent.astro).
-import { LABELS, pageId, localeOf } from '../lib/site.mjs';
+import { LABELS, pageId, localeOf, isStoryText } from '../lib/site.mjs';
 
 const { siteTitle, siteTitleHref, id: routeId, sidebar } = Astro.locals.starlightRoute;
 const t = LABELS[localeOf(pageId(routeId)).lang];
@@ -12,7 +12,9 @@ const groups = sidebar
 	.filter((entry) => entry.type === 'group')
 	.map((group) => {
 		const inner = links(group.entries);
-		return { label: group.label, href: inner[0]?.href, current: inner.some((e) => e.isCurrent) };
+		// Chapter and stage pages are not in the sidebar; they belong to the Story section.
+		const story = isStoryText(pageId(routeId)) && inner.some((e) => e.href.includes('/story/'));
+		return { label: group.label, href: inner[0]?.href, current: story || inner.some((e) => e.isCurrent) };
 	})
 	.filter((s) => s.href);
 const sections = groups.length > 1 ? groups : [];

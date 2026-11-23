@@ -7,7 +7,7 @@ import { sitemapOptions } from './src/lib/sitemap.mjs';
 import { ORIGIN, BASE, TITLE, DESCRIPTION } from './src/lib/site.mjs';
 import { satteri } from '@astrojs/markdown-satteri';
 import { hastBase } from './src/lib/hast-base.mjs';
-import { arcanistSidebar, psychubeSidebar } from './src/lib/sidebar.mjs';
+import { arcanistSidebar, psychubeSidebar, storySidebar } from './src/lib/sidebar.mjs';
 
 export default defineConfig({
 	site: ORIGIN,
@@ -44,6 +44,11 @@ export default defineConfig({
 					label: 'Systems',
 					translations: { 'zh-TW': '系統', 'zh-CN': '系统', ja: 'システム', ko: '시스템' },
 					items: ['summoning', 'combat', 'statuses', 'insight', 'resonance', 'releases'].map((p) => ({ slug: `systems/${p}` })),
+				},
+				{
+					label: 'Story',
+					translations: { 'zh-TW': '劇情', 'zh-CN': '剧情', ja: 'ストーリー', ko: '스토리' },
+					items: storySidebar(),
 				},
 			],
 			// The heading serif, self-hosted (SIL OFL 1.1): split by Unicode range, so a page
