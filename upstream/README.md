@@ -20,6 +20,11 @@ One line per difference, naming the page:
 | `index: <slug> new, mainland client only` | a new arcanist in the mainland client | add it to the mainland-only table; a page needs the owner's go-ahead |
 | `systems/summoning: <client> banner type <id> changed` | the rule text of a banner type changed (markup and line breaks ignored) | read the text in `const.json` (id from `summon_pool_detail.json`) and correct the page |
 | `systems/summoning: <client> rates and pity changed` | a pool has new base rates or pity counts | correct the rate and pity tables |
+| `psychubes/<slug>: changed in …` | the Psychube's record changed: stats, extra stat, tags, recommendations, names or effect text (`text`) | run `python3 -I pipeline/psychube.py text <slug>` and compare; correct the effect, then regenerate the generated blocks by writing a new skeleton beside the page |
+| `psychubes: new Psychube <slug>` | a new Psychube in the mainland client | `psychube.py write <lang> <slug>` in each language, write it, `psychube.py indexes` |
+| `systems/statuses: <client> <id> changed` | the text of a status the Statuses page describes changed | correct its row in `records/statuses.json` and the translations, then `pipeline/write_systems.py` |
+| `systems/insight: <rarity> changed` | a level cap or the Sharpodonty of an Insight changed | `pipeline/write_systems.py` rewrites the page |
+| `systems/combat: … changed` | the Field Manual tips, a stat name or the Moxie cost of an Ultimate changed | read the change and correct Combat basics |
 | `note …` | a new client build, a new arcanist in both clients, a newer Fandom revision | nothing fails; read when the pages are next checked |
 | `note arcanists/<slug>: Fandom File:… has a newer upload` | the wiki replaced the art file | look at the new file; if it is still the full-length art, run `python3 -I pipeline/fetch_art.py <slug>` and copy the printed `art` lines into the page in every language |
 

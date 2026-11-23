@@ -12,6 +12,11 @@ and compares, page by page, the facts each page rests on:
   index              which arcanists are out only on the mainland service
   systems/summoning  the summon rule texts of every banner type, in the mainland client and in
                      the global client's English text, and the base rates and pity of every pool
+  psychubes/<slug>   the Psychube's record: rarity, tags, stats at max level, extra stat, the game's
+                     recommendations, names and effect text in every language (pipeline/psychube.py)
+  systems/statuses   the text of every status the page describes (records/statuses.json), both clients
+  systems/insight    level caps and Sharpodonty cost of each Insight by rarity
+  systems/combat     the Field Manual tips, the stat names and the Moxie cost of every Ultimate
 
 Report: one line per difference, naming the page; lines starting "note" do not fail the check
 (a new client build, a newer revision of a cited wiki page).
@@ -84,6 +89,34 @@ def facts(pins):
 			# Markup and line breaks change with the layout of the in-game window, not with the rule.
 			out['summoning'][f'{key} banner type {d["id"]}'] = re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', '', text)).strip()
 		out['summoning'][f'{key} rates and pity'] = sorted({(p['initWeight'], p['awardTime']) for p in table(pins, key, 'summon_pool')})
+	out.update(system_facts(pins))
+	return out
+
+
+def system_facts(pins):
+	"""What the Psychube pages and the newer system pages rest on, read through pipeline/gamedata.py."""
+	import importlib
+	import gamedata
+	gamedata.use(pins)
+	import psychube
+	import write_systems
+	psychube = importlib.reload(psychube)
+	out = {'psychubes': {slug: {k: v for k, v in p.items() if k != 'slug'} for slug, p in psychube.REC.items()}}
+	st = json.loads((ROOT / 'records' / 'statuses.json').read_text())
+	ids = [r['id'] for sec in st['sections'] for r in sec['rows']]
+	out['statuses'] = {f'{key} {i}': ((gamedata.cn_row if key == 'cn' else gamedata.gl_row)('skill_eff_desc', i) or {}).get('desc')
+		for key in ('cn', 'gl') for i in ids}
+	for i in ids:
+		row = gamedata.gl_row('skill_eff_desc', i)
+		out['statuses'][f'en {i}'] = gamedata.text(row['desc'], 'en') if row else None
+	out['insight'] = {str(k): v for k, v in write_systems.insight_data().items()}
+	out['combat'] = {
+		'cn tips': [r['content'] for r in gamedata.cn('loading_text')],
+		'en tips': [gamedata.text(r['content'], 'en') for r in gamedata.gl('loading_text')],
+		'stats': [(r['id'], r['name']) for r in gamedata.cn('character_attribute')],
+		'ultimate cost': sorted(str(c['uniqueSkill_point']) for c in gamedata.cn('character')),
+	}
+	gamedata.use(PINNED)
 	return out
 
 
@@ -94,7 +127,7 @@ def diff_parts(a, b):
 def fandom_notes():
 	"""Cited Fandom revisions that are no longer the latest: notes, since Fandom is a second witness."""
 	notes = []
-	for page in sorted(DOCS.glob('arcanists/*.md')) + [DOCS / 'systems' / 'summoning.md']:
+	for page in sorted(DOCS.glob('arcanists/*.md')) + [DOCS / 'systems' / f'{p}.md' for p in ('summoning', 'combat', 'insight')]:
 		for title, oldid in re.findall(r'fandom\.com/wiki/([^?\s]+)\?oldid=(\d+)', page.read_text()):
 			q = urllib.parse.urlencode({'action': 'query', 'prop': 'revisions', 'titles': urllib.parse.unquote(title),
 				'rvprop': 'ids', 'format': 'json'})
@@ -144,6 +177,16 @@ def main():
 				lines.append(f'note: new arcanist {slug} in both clients')
 			for part in diff_parts(old['summoning'], new['summoning']):
 				lines.append(f'systems/summoning: {part} changed')
+			for slug in diff_parts(old['psychubes'], new['psychubes']):
+				if slug not in old['psychubes']:
+					lines.append(f'psychubes: new Psychube {slug}')
+				elif slug not in new['psychubes']:
+					lines.append(f'psychubes/{slug}: gone from the mainland client')
+				else:
+					lines.append(f'psychubes/{slug}: changed in {", ".join(diff_parts(old["psychubes"][slug], new["psychubes"][slug]))}')
+			for page in ('statuses', 'insight', 'combat'):
+				for part in diff_parts(old[page], new[page]):
+					lines.append(f'systems/{page}: {part} changed')
 		lines += fandom_notes()
 	except Exception as e:  # noqa: BLE001
 		print(f'comparison failed: {e}', file=sys.stderr)

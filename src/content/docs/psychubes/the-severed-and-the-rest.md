@@ -1,0 +1,42 @@
+---
+title: "The Severed and the Rest"
+description: "The Severed and the Rest is a 5-star ATK Psychube for Intellect arcanists against Paralyzed or Dazed foes."
+appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
+caveat: "The Penetration Rate bonus needs an Intellect carrier; the DMG Bonus needs a target in Paralyze or Daze and stacks up to 3 times."
+lastVerified: 2026-11-23
+aliases:
+  - "留置心底"
+  - "心に刻み込んだもの"
+  - "마음 속에 남겨진 것"
+sources:
+  - title: "re1999-data, mainland client 113.0.1422: equip.json, equip_skill.json, equip_strengthen.json, equip_break_attr.json, character_recommend.json"
+    url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
+  - title: "re1999-data-global, global client 111.0.1077: equip.json and equip_skill.json"
+    url: https://github.com/St-Pavlov-Foundation/re1999-data-global/tree/7308a19ec644c60fd539034c9815cfaa23237dda/data/json
+  - title: "re1999-data-global, global client 111.0.1077: English text"
+    url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language/language_en.json
+---
+
+| Field | Value |
+| --- | --- |
+| Rarity | 5 stars |
+| Tags | ATK |
+| Max level | 60 |
+| HP at max level | 2,200 |
+| ATK at max level | 300 |
+| Reality DEF at max level | 140 |
+| Mental DEF at max level | 140 |
+| Extra stat at max level | Mental DEF +8% |
+| Recommended in game for | [Mesmer Jr.](/arcanists/mesmer-jr/) |
+| Global client | yes |
+
+## Effect
+
+- An Intellect carrier has Penetration Rate +8/10/12/14/16% (Amplification 1 to 5).
+- When the carrier attacks an enemy in [Paralyze] or [Daze] status, the carrier gains DMG Bonus +4/5/6/7/8%, up to 3 stacks.
+
+## Names
+
+| English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
+| --- | --- | --- | --- | --- |
+| The Severed and the Rest | 留置心底 | 留置心底 | 心に刻み込んだもの | 마음 속에 남겨진 것 |

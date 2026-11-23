@@ -1,0 +1,932 @@
+{
+	"psychubes": [
+		{
+			"slug": "brave-new-world",
+			"id": 1501,
+			"stars": 6,
+			"group": "might",
+			"inGlobal": true,
+			"en": "Brave New World"
+		},
+		{
+			"slug": "hopscotch",
+			"id": 1502,
+			"stars": 6,
+			"group": "might",
+			"inGlobal": true,
+			"en": "Hopscotch"
+		},
+		{
+			"slug": "her-second-life",
+			"id": 1503,
+			"stars": 6,
+			"group": "damage-6",
+			"inGlobal": true,
+			"en": "Her Second Life"
+		},
+		{
+			"slug": "blasphemer-of-night",
+			"id": 1504,
+			"stars": 6,
+			"group": "might",
+			"inGlobal": true,
+			"en": "Blasphemer of Night"
+		},
+		{
+			"slug": "thunderous-applause",
+			"id": 1507,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "Thunderous Applause"
+		},
+		{
+			"slug": "that-inquisitive-dear",
+			"id": 1508,
+			"stars": 6,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "That Inquisitive Dear"
+		},
+		{
+			"slug": "his-bounden-duty",
+			"id": 1510,
+			"stars": 6,
+			"group": "damage-6",
+			"inGlobal": true,
+			"en": "His Bounden Duty"
+		},
+		{
+			"slug": "luxurious-leisure",
+			"id": 1509,
+			"stars": 6,
+			"group": "might",
+			"inGlobal": true,
+			"en": "Luxurious Leisure"
+		},
+		{
+			"slug": "beyond-wonderland",
+			"id": 1511,
+			"stars": 6,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "Beyond Wonderland"
+		},
+		{
+			"slug": "yearning-desire",
+			"id": 1401,
+			"stars": 5,
+			"group": "might",
+			"inGlobal": true,
+			"en": "Yearning Desire"
+		},
+		{
+			"slug": "tomorrow-also",
+			"id": 1402,
+			"stars": 5,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "Tomorrow Also"
+		},
+		{
+			"slug": "the-footloose",
+			"id": 1404,
+			"stars": 5,
+			"group": "might",
+			"inGlobal": true,
+			"en": "The Footloose"
+		},
+		{
+			"slug": "decode",
+			"id": 1405,
+			"stars": 5,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "Decode"
+		},
+		{
+			"slug": "an-afternoon-nap",
+			"id": 1407,
+			"stars": 5,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "An Afternoon Nap"
+		},
+		{
+			"slug": "her-bright-future",
+			"id": 1411,
+			"stars": 5,
+			"group": "damage-5",
+			"inGlobal": true,
+			"en": "Her Bright Future"
+		},
+		{
+			"slug": "a-free-heart",
+			"id": 4103,
+			"stars": 5,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "A Free Heart"
+		},
+		{
+			"slug": "laughter-and-laughter",
+			"id": 4104,
+			"stars": 5,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "Laughter and Laughter"
+		},
+		{
+			"slug": "the-carat-of-a-heart",
+			"id": 1512,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "The Carat of a Heart"
+		},
+		{
+			"slug": "silent-and-adoring",
+			"id": 1513,
+			"stars": 6,
+			"group": "damage-6",
+			"inGlobal": true,
+			"en": "Silent and Adoring"
+		},
+		{
+			"slug": "balance-please",
+			"id": 1514,
+			"stars": 6,
+			"group": "might",
+			"inGlobal": true,
+			"en": "Balance, Please"
+		},
+		{
+			"slug": "a-satisfied-eater",
+			"id": 1413,
+			"stars": 5,
+			"group": "might",
+			"inGlobal": true,
+			"en": "A Satisfied Eater"
+		},
+		{
+			"slug": "remaining-absurdity",
+			"id": 1414,
+			"stars": 5,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "Remaining Absurdity"
+		},
+		{
+			"slug": "long-night-talk",
+			"id": 1515,
+			"stars": 6,
+			"group": "might",
+			"inGlobal": true,
+			"en": "Long Night Talk"
+		},
+		{
+			"slug": "take-the-hard-journey",
+			"id": 1420,
+			"stars": 5,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "Take the Hard Journey"
+		},
+		{
+			"slug": "lets-set-sail",
+			"id": 1421,
+			"stars": 5,
+			"group": "damage-5",
+			"inGlobal": true,
+			"en": "Let's Set Sail"
+		},
+		{
+			"slug": "outside-the-city",
+			"id": 1521,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "Outside the City"
+		},
+		{
+			"slug": "same-old-story",
+			"id": 1522,
+			"stars": 6,
+			"group": "might",
+			"inGlobal": true,
+			"en": "Same Old Story"
+		},
+		{
+			"slug": "tea-break",
+			"id": 1422,
+			"stars": 5,
+			"group": "damage-5",
+			"inGlobal": true,
+			"en": "Tea Break"
+		},
+		{
+			"slug": "a-new-leaf",
+			"id": 1423,
+			"stars": 5,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "A New Leaf"
+		},
+		{
+			"slug": "knock-on-the-door",
+			"id": 1523,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "Knock on the Door"
+		},
+		{
+			"slug": "another-story",
+			"id": 1524,
+			"stars": 6,
+			"group": "might",
+			"inGlobal": true,
+			"en": "Another Story"
+		},
+		{
+			"slug": "his-tail",
+			"id": 1424,
+			"stars": 5,
+			"group": "damage-5",
+			"inGlobal": true,
+			"en": "His Tail"
+		},
+		{
+			"slug": "beyond-the-gears",
+			"id": 1425,
+			"stars": 5,
+			"group": "might",
+			"inGlobal": true,
+			"en": "Beyond the Gears"
+		},
+		{
+			"slug": "dawn-is-coming",
+			"id": 1525,
+			"stars": 6,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "Dawn Is Coming"
+		},
+		{
+			"slug": "for-rehabilitation",
+			"id": 1526,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "For Rehabilitation"
+		},
+		{
+			"slug": "night-after-night",
+			"id": 1426,
+			"stars": 5,
+			"group": "might",
+			"inGlobal": true,
+			"en": "Night After Night"
+		},
+		{
+			"slug": "silent-gaze",
+			"id": 1427,
+			"stars": 5,
+			"group": "damage-5",
+			"inGlobal": true,
+			"en": "Silent Gaze"
+		},
+		{
+			"slug": "steps-forward",
+			"id": 1527,
+			"stars": 6,
+			"group": "damage-6",
+			"inGlobal": true,
+			"en": "Steps Forward"
+		},
+		{
+			"slug": "the-fighters-best-wishes",
+			"id": 1528,
+			"stars": 6,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "The Fighter's Best Wishes"
+		},
+		{
+			"slug": "approaching-rain",
+			"id": 1529,
+			"stars": 6,
+			"group": "might",
+			"inGlobal": true,
+			"en": "Approaching Rain"
+		},
+		{
+			"slug": "in-the-shadow",
+			"id": 1428,
+			"stars": 5,
+			"group": "might",
+			"inGlobal": true,
+			"en": "In the Shadow"
+		},
+		{
+			"slug": "going-along-alone",
+			"id": 1429,
+			"stars": 5,
+			"group": "damage-5",
+			"inGlobal": true,
+			"en": "Going Along Alone"
+		},
+		{
+			"slug": "from-the-depths",
+			"id": 1530,
+			"stars": 6,
+			"group": "might",
+			"inGlobal": true,
+			"en": "From the Depths"
+		},
+		{
+			"slug": "the-unbearable-lightness",
+			"id": 1531,
+			"stars": 6,
+			"group": "damage-6",
+			"inGlobal": true,
+			"en": "The Unbearable Lightness"
+		},
+		{
+			"slug": "starlight-wellspring",
+			"id": 1532,
+			"stars": 6,
+			"group": "might",
+			"inGlobal": true,
+			"en": "Starlight Wellspring"
+		},
+		{
+			"slug": "her-mournful-face",
+			"id": 1430,
+			"stars": 5,
+			"group": "damage-5",
+			"inGlobal": true,
+			"en": "Her Mournful Face"
+		},
+		{
+			"slug": "you-deserve-it",
+			"id": 1431,
+			"stars": 5,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "You Deserve It"
+		},
+		{
+			"slug": "and-the-maid-says",
+			"id": 1533,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "And the Maid Says"
+		},
+		{
+			"slug": "stray-off-the-path",
+			"id": 1534,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "Stray Off the Path"
+		},
+		{
+			"slug": "spinning-yarns",
+			"id": 1432,
+			"stars": 5,
+			"group": "damage-5",
+			"inGlobal": true,
+			"en": "Spinning Yarns"
+		},
+		{
+			"slug": "the-loner",
+			"id": 1433,
+			"stars": 5,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "The Loner"
+		},
+		{
+			"slug": "transcendent-love",
+			"id": 1536,
+			"stars": 6,
+			"group": "damage-6",
+			"inGlobal": true,
+			"en": "Transcendent Love"
+		},
+		{
+			"slug": "the-third-commitment",
+			"id": 1537,
+			"stars": 6,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "The Third Commitment"
+		},
+		{
+			"slug": "falling-for-a-sweet-phenomenon",
+			"id": 1434,
+			"stars": 5,
+			"group": "damage-5",
+			"inGlobal": true,
+			"en": "Falling for a Sweet Phenomenon"
+		},
+		{
+			"slug": "the-severed-and-the-rest",
+			"id": 1435,
+			"stars": 5,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "The Severed and the Rest"
+		},
+		{
+			"slug": "tiny-wish",
+			"id": 1535,
+			"stars": 6,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "Tiny Wish"
+		},
+		{
+			"slug": "offbeat-strides",
+			"id": 1538,
+			"stars": 6,
+			"group": "damage-6",
+			"inGlobal": true,
+			"en": "Offbeat Strides"
+		},
+		{
+			"slug": "on-the-hand-of-time",
+			"id": 1539,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "On the Hand of Time"
+		},
+		{
+			"slug": "one-with-the-flow",
+			"id": 1436,
+			"stars": 5,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "One with the Flow"
+		},
+		{
+			"slug": "addio-coda",
+			"id": 1540,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "Addio Coda"
+		},
+		{
+			"slug": "cracks-in-the-shell",
+			"id": 1541,
+			"stars": 6,
+			"group": "damage-6",
+			"inGlobal": true,
+			"en": "Cracks in the Shell"
+		},
+		{
+			"slug": "belt-it-out",
+			"id": 1437,
+			"stars": 5,
+			"group": "damage-5",
+			"inGlobal": true,
+			"en": "Belt It Out"
+		},
+		{
+			"slug": "ready-on-call",
+			"id": 1542,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "Ready on Call"
+		},
+		{
+			"slug": "rehearsal-of-dreams",
+			"id": 1543,
+			"stars": 6,
+			"group": "might",
+			"inGlobal": true,
+			"en": "Rehearsal of Dreams"
+		},
+		{
+			"slug": "your-friendly-exorcist",
+			"id": 1438,
+			"stars": 5,
+			"group": "damage-5",
+			"inGlobal": true,
+			"en": "Your Friendly Exorcist"
+		},
+		{
+			"slug": "the-final-roll",
+			"id": 1544,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "The Final Roll"
+		},
+		{
+			"slug": "mental-cage",
+			"id": 1545,
+			"stars": 6,
+			"group": "might",
+			"inGlobal": true,
+			"en": "Mental Cage"
+		},
+		{
+			"slug": "off-the-scene",
+			"id": 1439,
+			"stars": 5,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "Off the Scene"
+		},
+		{
+			"slug": "never-ending-q-a",
+			"id": 1546,
+			"stars": 6,
+			"group": "damage-6",
+			"inGlobal": true,
+			"en": "Never-Ending Q&A"
+		},
+		{
+			"slug": "aurora-after-winter",
+			"id": 1547,
+			"stars": 6,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "Aurora After Winter"
+		},
+		{
+			"slug": "melodies-old-and-new",
+			"id": 1440,
+			"stars": 5,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "Melodies Old and New"
+		},
+		{
+			"slug": "embrace-the-past",
+			"id": 1548,
+			"stars": 6,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "Embrace the Past"
+		},
+		{
+			"slug": "family-mentor",
+			"id": 1549,
+			"stars": 6,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "Family Mentor"
+		},
+		{
+			"slug": "a-tingle-of-a-thought",
+			"id": 1550,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "A Tingle of a Thought"
+		},
+		{
+			"slug": "dust-on-the-roadside",
+			"id": 1441,
+			"stars": 5,
+			"group": "damage-5",
+			"inGlobal": true,
+			"en": "Dust on the Roadside"
+		},
+		{
+			"slug": "homecoming-lament",
+			"id": 1553,
+			"stars": 6,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "Homecoming Lament"
+		},
+		{
+			"slug": "buds-yet-to-bloom",
+			"id": 1554,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "Buds Yet to Bloom"
+		},
+		{
+			"slug": "substitutes-and-simulacra",
+			"id": 1442,
+			"stars": 5,
+			"group": "damage-5",
+			"inGlobal": true,
+			"en": "Substitutes and Simulacra"
+		},
+		{
+			"slug": "as-the-bell-tolls",
+			"id": 1551,
+			"stars": 6,
+			"group": "damage-6",
+			"inGlobal": true,
+			"en": "As the Bell Tolls"
+		},
+		{
+			"slug": "an-epics-end",
+			"id": 1552,
+			"stars": 6,
+			"group": "damage-6",
+			"inGlobal": true,
+			"en": "An Epic's End"
+		},
+		{
+			"slug": "into-the-gentle-current",
+			"id": 1555,
+			"stars": 6,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "Into the Gentle Current"
+		},
+		{
+			"slug": "the-wandering-improviser",
+			"id": 1556,
+			"stars": 6,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "The Wandering Improviser"
+		},
+		{
+			"slug": "bitter-march-of-the-living",
+			"id": 1557,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "Bitter March of the Living"
+		},
+		{
+			"slug": "faded-epitaphs",
+			"id": 1443,
+			"stars": 5,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "Faded Epitaphs"
+		},
+		{
+			"slug": "the-thousandfold-fate",
+			"id": 1558,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "The Thousandfold Fate"
+		},
+		{
+			"slug": "her-willful-leap",
+			"id": 1559,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "Her Willful Leap"
+		},
+		{
+			"slug": "shadows-in-the-subconscious",
+			"id": 1560,
+			"stars": 6,
+			"group": "damage-6",
+			"inGlobal": true,
+			"en": "Shadows in the Subconscious"
+		},
+		{
+			"slug": "in-their-figures",
+			"id": 1444,
+			"stars": 5,
+			"group": "damage-5",
+			"inGlobal": true,
+			"en": "In Their Figures"
+		},
+		{
+			"slug": "singleness-of-heart",
+			"id": 1561,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "Singleness of Heart"
+		},
+		{
+			"slug": "across-the-acheron",
+			"id": 1562,
+			"stars": 6,
+			"group": "damage-6",
+			"inGlobal": true,
+			"en": "Across the Acheron"
+		},
+		{
+			"slug": "partings-quiet-lament",
+			"id": 1445,
+			"stars": 5,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "Parting's Quiet Lament"
+		},
+		{
+			"slug": "wayfarer-of-the-dao",
+			"id": 1563,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "Wayfarer of the Dao"
+		},
+		{
+			"slug": "all-honor-is-but-dust",
+			"id": 1564,
+			"stars": 6,
+			"group": "damage-6",
+			"inGlobal": true,
+			"en": "All Honor is but Dust"
+		},
+		{
+			"slug": "the-winds-listener",
+			"id": 1446,
+			"stars": 5,
+			"group": "damage-5",
+			"inGlobal": true,
+			"en": "The Wind's Listener"
+		},
+		{
+			"slug": "the-fluttering-moment",
+			"id": 1565,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "The Fluttering Moment"
+		},
+		{
+			"slug": "drown-out-the-hustle",
+			"id": 1566,
+			"stars": 6,
+			"group": "damage-6",
+			"inGlobal": true,
+			"en": "Drown Out the Hustle"
+		},
+		{
+			"slug": "luck-be-a-lady",
+			"id": 1447,
+			"stars": 5,
+			"group": "damage-5",
+			"inGlobal": true,
+			"en": "Luck Be a Lady"
+		},
+		{
+			"slug": "the-riddles-limit",
+			"id": 1567,
+			"stars": 6,
+			"group": "damage-6",
+			"inGlobal": true,
+			"en": "The Riddle's Limit"
+		},
+		{
+			"slug": "the-soft-rain-of-yesterday",
+			"id": 1568,
+			"stars": 6,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "The Soft Rain of Yesterday"
+		},
+		{
+			"slug": "until-i-am-me",
+			"id": 1569,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "Until I Am Me"
+		},
+		{
+			"slug": "the-silent-anthem",
+			"id": 1570,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "The Silent Anthem"
+		},
+		{
+			"slug": "growing-pains",
+			"id": 1448,
+			"stars": 5,
+			"group": "damage-5",
+			"inGlobal": true,
+			"en": "Growing Pains"
+		},
+		{
+			"slug": "a-dream-beyond-light",
+			"id": 1573,
+			"stars": 6,
+			"group": "damage-6",
+			"inGlobal": true,
+			"en": "A Dream Beyond Light"
+		},
+		{
+			"slug": "where-light-and-shadows-rest",
+			"id": 1574,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "Where Light and Shadows Rest"
+		},
+		{
+			"slug": "farewell-to-the-old-night",
+			"id": 1449,
+			"stars": 5,
+			"group": "survival",
+			"inGlobal": true,
+			"en": "Farewell to the Old Night"
+		},
+		{
+			"slug": "the-art-of-atoms",
+			"id": 1571,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "The Art of Atoms"
+		},
+		{
+			"slug": "the-dance-of-science",
+			"id": 1572,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "The Dance of Science"
+		},
+		{
+			"slug": "dressing-up-the-truth",
+			"id": 1450,
+			"stars": 5,
+			"group": "damage-5",
+			"inGlobal": true,
+			"en": "Dressing Up the Truth"
+		},
+		{
+			"slug": "arrow-of-verdict",
+			"id": 1575,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": true,
+			"en": "Arrow of Verdict"
+		},
+		{
+			"slug": "tides-held-within",
+			"id": 1576,
+			"stars": 6,
+			"group": "damage-6",
+			"inGlobal": true,
+			"en": "Tides Held Within"
+		},
+		{
+			"slug": "living-in-the-moment",
+			"id": 1451,
+			"stars": 5,
+			"group": "critical",
+			"inGlobal": false,
+			"en": "Living in the Moment"
+		},
+		{
+			"slug": "atop-the-tempest",
+			"id": 1577,
+			"stars": 6,
+			"group": "damage-6",
+			"inGlobal": false,
+			"en": "Atop the Tempest"
+		},
+		{
+			"slug": "to-choose-against-fate",
+			"id": 1578,
+			"stars": 6,
+			"group": "critical",
+			"inGlobal": false,
+			"en": "To Choose Against Fate"
+		},
+		{
+			"slug": "flows-in-all-things-alike",
+			"id": 1579,
+			"stars": 6,
+			"group": "damage-6",
+			"inGlobal": false,
+			"en": "Flows in All Things Alike"
+		},
+		{
+			"slug": "the-path-to-perfection",
+			"id": 1452,
+			"stars": 5,
+			"group": "damage-5",
+			"inGlobal": false,
+			"en": "The Path to Perfection"
+		},
+		{
+			"slug": "the-coffin-of-purity",
+			"id": 1580,
+			"stars": 6,
+			"group": "survival",
+			"inGlobal": false,
+			"en": "The Coffin of Purity"
+		}
+	]
+}

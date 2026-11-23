@@ -43,6 +43,22 @@ Arcanists in the mainland China client 113.0.1422 who are not in the global clie
 - [Spirit arcanists](/afflatus/spirit/)
 - [Intellect arcanists](/afflatus/intellect/)
 
+## Psychubes
+
+- [Critical Psychubes](/psychubes/critical/)
+- [6-star damage Psychubes](/psychubes/damage-6/)
+- [5-star damage Psychubes](/psychubes/damage-5/)
+- [Might Psychubes](/psychubes/might/)
+- [Survival and healing Psychubes](/psychubes/survival/)
+
+## Systems
+
+- [Combat basics](/systems/combat/)
+- [Statuses](/systems/statuses/)
+- [Insight and levels](/systems/insight/)
+- [Release dates](/systems/releases/)
+- [Summoning and pity](/systems/summoning/)
+
 ## Summoning
 
 A 6-star has a 1.5% base rate; the rate rises after 60 summons without one and a 6-star is certain by the 70th. Only Time-limited Banners carry the count over to the next one; limited, collaboration and most event banners clear it when they end: [Summoning and pity](/systems/summoning/).

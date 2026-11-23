@@ -1,0 +1,43 @@
+---
+title: "敲響這窄門"
+description: "敲響這窄門是 6 星暴擊心相，提升對燃燒目標的傷害並強化群體額外行動。"
+appliesTo: "重返未來：1999，國際版用戶端 111.0.1077（3.9 版）與中國大陸版用戶端 113.0.1422（4.1 版）"
+caveat: "術法威力加成只作用於以額外行動發動的群體攻擊；單體攻擊與一般行動沒有。"
+lastVerified: 2026-11-23
+aliases:
+  - "Knock on the Door"
+  - "敲响这窄门"
+  - "狭いドアをノックして"
+  - "좁은 문을 두드려라"
+sources:
+  - title: "re1999-data，中國大陸版用戶端 113.0.1422：equip.json、equip_skill.json、equip_strengthen.json、equip_break_attr.json、character_recommend.json"
+    url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
+  - title: "re1999-data-global，國際版用戶端 111.0.1077：equip.json 與 equip_skill.json"
+    url: https://github.com/St-Pavlov-Foundation/re1999-data-global/tree/7308a19ec644c60fd539034c9815cfaa23237dda/data/json
+  - title: "re1999-data-global，國際版用戶端 111.0.1077：英文文字"
+    url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language/language_en.json
+---
+
+| 項目 | 內容 |
+| --- | --- |
+| 稀有度 | 6 星 |
+| 標籤 | 暴擊 |
+| 等級上限 | 60 |
+| 滿級生命 | 2,400 |
+| 滿級攻擊 | 380 |
+| 滿級現實防禦 | 150 |
+| 滿級精神防禦 | 160 |
+| 滿級附加屬性 | 暴擊率 +16% |
+| 遊戲內推薦的神秘學家 | [伊索爾德](/zh-tw/arcanists/isolde/)、[皮克勒斯](/zh-tw/arcanists/pickles/) |
+| 國際版用戶端 | 有 |
+
+## 效果
+
+- 記憶者攻擊持有【燃燒】的敵人時，傷害 +6%。
+- 記憶者的額外行動為群體攻擊時，術法威力 +4/10/16/22/28%（增幅 1 至 5）。
+
+## 名稱
+
+| 英文 | 簡體中文 | 繁體中文 | 日文 | 韓文 |
+| --- | --- | --- | --- | --- |
+| Knock on the Door | 敲响这窄门 | 敲響這窄門 | 狭いドアをノックして | 좁은 문을 두드려라 |

@@ -43,6 +43,22 @@ sources:
 - [霊本源の神秘学家](/ja/afflatus/spirit/)
 - [知本源の神秘学家](/ja/afflatus/intellect/)
 
+## 心相
+
+- [クリティカルの心相](/ja/psychubes/critical/)
+- [★6の攻撃心相](/ja/psychubes/damage-6/)
+- [★5の攻撃心相](/ja/psychubes/damage-5/)
+- [威力の心相](/ja/psychubes/might/)
+- [生存と回復の心相](/ja/psychubes/survival/)
+
+## システム
+
+- [バトルの基本](/ja/systems/combat/)
+- [状態効果](/ja/systems/statuses/)
+- [洞察とレベル](/ja/systems/insight/)
+- [実装日](/ja/systems/releases/)
+- [召喚と天井](/ja/systems/summoning/)
+
 ## 召喚
 
 ★6の基礎確率は 1.5%。60回連続で★6が出ないと確率が上がり、70回目までに★6が確定する。回数を次へ引き継ぐのは期間限定キャラ召喚のみで、限定召喚、コラボ召喚、多くのイベント召喚は終了時にリセットされる：[召喚と天井](/ja/systems/summoning/)。

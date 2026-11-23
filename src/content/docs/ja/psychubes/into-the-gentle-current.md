@@ -1,0 +1,43 @@
+---
+title: "細流に流れ込んで"
+description: "細流に流れ込んでは★6のクリティカル・生存系心相で、記憶者のアルティメットを強化する。"
+appliesTo: "リバース：1999、グローバル版クライアント 111.0.1077（バージョン 3.9）と中国本土版クライアント 113.0.1422（バージョン 4.1）"
+caveat: "アルティメット威力のスタックには岩本源の記憶者が必要で、最大3スタック。クリティカルダメージの上昇には血の薪の上限50以上が必要。"
+lastVerified: 2026-11-23
+aliases:
+  - "Into the Gentle Current"
+  - "匯入涓流中"
+  - "汇入涓流中"
+  - "개울 속으로"
+sources:
+  - title: "re1999-data、中国本土版クライアント 113.0.1422：equip.json、equip_skill.json、equip_strengthen.json、equip_break_attr.json、character_recommend.json"
+    url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
+  - title: "re1999-data-global、グローバル版クライアント 111.0.1077：equip.json と equip_skill.json"
+    url: https://github.com/St-Pavlov-Foundation/re1999-data-global/tree/7308a19ec644c60fd539034c9815cfaa23237dda/data/json
+  - title: "re1999-data-global、グローバル版クライアント 111.0.1077：英語テキスト"
+    url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language/language_en.json
+---
+
+| 項目 | 内容 |
+| --- | --- |
+| レア度 | ★6 |
+| タグ | クリティカル、生存 |
+| 最大レベル | 60 |
+| 最大レベルのHP | 3,800 |
+| 最大レベルの攻撃力 | 360 |
+| 最大レベルのリアル防御力 | 140 |
+| 最大レベルのメンタル防御力 | 140 |
+| 最大レベルの追加ステータス | HP +16% |
+| ゲーム内のおすすめ神秘学家 | [エターニティ](/ja/arcanists/eternity/) |
+| グローバル版クライアント | 収録 |
+
+## 効果
+
+- 各ターン開始時、岩本源の記憶者はアルティメット威力 +4/5/6/7/8% を得る（最大3スタック、増幅1〜5）。
+- 【血の薪】の上限が50以上のときに記憶者がアルティメットを発動すると、クリティカルダメージ +16/20/24/28/32% を得る。
+
+## 名前
+
+| 英語 | 簡体字中国語 | 繁体字中国語 | 日本語 | 韓国語 |
+| --- | --- | --- | --- | --- |
+| Into the Gentle Current | 汇入涓流中 | 匯入涓流中 | 細流に流れ込んで | 개울 속으로 |

@@ -43,6 +43,22 @@ sources:
 - [영혼 영감 마도학자](/ko/afflatus/spirit/)
 - [지능 영감 마도학자](/ko/afflatus/intellect/)
 
+## 의지
+
+- [치명타 의지](/ko/psychubes/critical/)
+- [6성 공격 의지](/ko/psychubes/damage-6/)
+- [5성 공격 의지](/ko/psychubes/damage-5/)
+- [위력 의지](/ko/psychubes/might/)
+- [생존과 치료 의지](/ko/psychubes/survival/)
+
+## 시스템
+
+- [전투 기본](/ko/systems/combat/)
+- [상태 효과](/ko/systems/statuses/)
+- [통찰과 레벨](/ko/systems/insight/)
+- [출시일](/ko/systems/releases/)
+- [모집과 천장](/ko/systems/summoning/)
+
 ## 모집
 
 6성의 기본 확률은 1.5%다. 60회 연속으로 6성이 나오지 않으면 확률이 오르고, 70회 안에 6성이 확정된다. 횟수를 다음 모집으로 이월하는 것은 한정 캐릭터 모집뿐이며, 한정 모집, 콜라보 모집, 대부분의 이벤트 모집은 종료 시 초기화된다: [모집과 천장](/ko/systems/summoning/).

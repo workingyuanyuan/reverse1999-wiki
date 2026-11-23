@@ -27,6 +27,10 @@ TABLES = [
 	'character', 'character_battle_tag', 'character_rank', 'character_destiny', 'character_destiny_facets',
 	'skill', 'skill_effect', 'skill_ex_level', 'skill_passive_level', 'skill_eff_desc', 'equip', 'item', 'currency',
 	'summon_pool', 'summon_pool_detail', 'const',  # summon rates, pity and the rule text of each banner type
+	'equip_skill', 'equip_break_attr', 'equip_strengthen', 'equip_strengthen_cost', 'equip_break_cost', 'equip_tag',
+	'character_recommend',  # Psychubes: effects by amplification, stats, costs, tags, the game's recommendations
+	'character_cosume', 'character_level', 'character_attribute',  # level and Insight costs, stats
+	'skill_bufftype', 'skill_buff', 'helppage', 'fight_const', 'loading_text',  # status types, battle rules and tips
 ]
 FILES = {
 	'cn': ['data/meta.json'] + [f'data/json/{t}.json' for t in TABLES],

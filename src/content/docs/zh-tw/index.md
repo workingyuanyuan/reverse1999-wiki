@@ -43,6 +43,22 @@ sources:
 - [靈靈感神秘學家](/zh-tw/afflatus/spirit/)
 - [智靈感神秘學家](/zh-tw/afflatus/intellect/)
 
+## 心相
+
+- [暴擊心相](/zh-tw/psychubes/critical/)
+- [6 星輸出心相](/zh-tw/psychubes/damage-6/)
+- [5 星輸出心相](/zh-tw/psychubes/damage-5/)
+- [威力心相](/zh-tw/psychubes/might/)
+- [生存與治療心相](/zh-tw/psychubes/survival/)
+
+## 系統
+
+- [戰鬥基礎](/zh-tw/systems/combat/)
+- [狀態效果](/zh-tw/systems/statuses/)
+- [洞悉與等級](/zh-tw/systems/insight/)
+- [上線日期](/zh-tw/systems/releases/)
+- [徵集與保底](/zh-tw/systems/summoning/)
+
 ## 徵集
 
 6 星基礎機率為 1.5%；連續 60 次徵集未獲得 6 星後機率開始提升，第 70 次內必得 6 星。只有限時角色徵集會把保底次數繼承至下一個；限定、聯動與多數活動徵集結束時清零：[徵集與保底](/zh-tw/systems/summoning/)。

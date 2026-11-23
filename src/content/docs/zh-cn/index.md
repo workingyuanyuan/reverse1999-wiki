@@ -43,6 +43,22 @@ sources:
 - [灵灵感神秘学家](/zh-cn/afflatus/spirit/)
 - [智灵感神秘学家](/zh-cn/afflatus/intellect/)
 
+## 心相
+
+- [暴击心相](/zh-cn/psychubes/critical/)
+- [6 星输出心相](/zh-cn/psychubes/damage-6/)
+- [5 星输出心相](/zh-cn/psychubes/damage-5/)
+- [威力心相](/zh-cn/psychubes/might/)
+- [生存与治疗心相](/zh-cn/psychubes/survival/)
+
+## 系统
+
+- [战斗基础](/zh-cn/systems/combat/)
+- [状态效果](/zh-cn/systems/statuses/)
+- [洞悉与等级](/zh-cn/systems/insight/)
+- [上线日期](/zh-cn/systems/releases/)
+- [征集与保底](/zh-cn/systems/summoning/)
+
 ## 征集
 
 6 星基础概率为 1.5%；连续 60 次征集未获得 6 星后概率开始提升，第 70 次内必得 6 星。只有限时角色征集会把保底次数继承至下一个；限定、联动与多数活动征集结束时清零：[征集与保底](/zh-cn/systems/summoning/)。

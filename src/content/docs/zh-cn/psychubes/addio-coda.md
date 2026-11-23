@@ -1,0 +1,43 @@
+---
+title: "离别变奏曲"
+description: "离别变奏曲是 6 星攻击、暴击心相，队伍消耗灵光时提升全队造成伤害。"
+appliesTo: "重返未来：1999，国际版客户端 111.0.1077（3.9 版）与中国大陆版客户端 113.0.1422（4.1 版）"
+caveat: "即兴咒语的额外攻击次数需要星灵感的记忆者，每回合生效 1 次，增幅 5 时为 2 次。"
+lastVerified: 2026-11-23
+aliases:
+  - "Addio Coda"
+  - "離別變奏曲"
+  - "別れの変奏曲"
+  - "이별 변주곡"
+sources:
+  - title: "re1999-data，中国大陆版客户端 113.0.1422：equip.json、equip_skill.json、equip_strengthen.json、equip_break_attr.json、character_recommend.json"
+    url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
+  - title: "re1999-data-global，国际版客户端 111.0.1077：equip.json 与 equip_skill.json"
+    url: https://github.com/St-Pavlov-Foundation/re1999-data-global/tree/7308a19ec644c60fd539034c9815cfaa23237dda/data/json
+  - title: "re1999-data-global，国际版客户端 111.0.1077：英文文字"
+    url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language/language_en.json
+---
+
+| 项目 | 内容 |
+| --- | --- |
+| 稀有度 | 6 星 |
+| 标签 | 攻击、暴击 |
+| 等级上限 | 60 |
+| 满级生命 | 2,800 |
+| 满级攻击 | 380 |
+| 满级现实防御 | 140 |
+| 满级精神防御 | 160 |
+| 满级附加属性 | 暴击率 +16% |
+| 游戏内推荐的神秘学家 | [芭卡洛儿](/zh-cn/arcanists/barcarola/)、[玛蒂尔达](/zh-cn/arcanists/matilda/)、[牙仙](/zh-cn/arcanists/tooth-fairy/)、[远旅](/zh-cn/arcanists/voyager/) |
+| 国际版客户端 | 有 |
+
+## 效果
+
+- 队伍消耗灵光时累计【启示】。每消耗 1 点灵光，我方全体造成伤害 +0.3/0.4/0.5/0.6/0.6%，最多叠加 20 层（增幅 1 至 5）。
+- 星灵感的记忆者行动后，该回合【即兴咒语】攻击次数 +1，每回合最多 1/1/1/1/2 次。
+
+## 名称
+
+| 英文 | 简体中文 | 繁体中文 | 日文 | 韩文 |
+| --- | --- | --- | --- | --- |
+| Addio Coda | 离别变奏曲 | 離別變奏曲 | 別れの変奏曲 | 이별 변주곡 |

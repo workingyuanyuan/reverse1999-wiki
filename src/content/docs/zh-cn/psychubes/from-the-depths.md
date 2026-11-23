@@ -1,0 +1,43 @@
+---
+title: "来自最深处"
+description: "来自最深处是 6 星攻击、生存心相，队友失去生命时提升术法威力。"
+appliesTo: "重返未来：1999，国际版客户端 111.0.1077（3.9 版）与中国大陆版客户端 113.0.1422（4.1 版）"
+caveat: "生的余音需要岩灵感的记忆者，每场战斗触发 1 次；术法威力的层数是否也需要岩灵感，国际版英文文字与中国大陆版说法不同。"
+lastVerified: 2026-11-23
+aliases:
+  - "From the Depths"
+  - "來自最深處"
+  - "最奥より"
+  - "가장 깊은 곳에서"
+sources:
+  - title: "re1999-data，中国大陆版客户端 113.0.1422：equip.json、equip_skill.json、equip_strengthen.json、equip_break_attr.json、character_recommend.json"
+    url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
+  - title: "re1999-data-global，国际版客户端 111.0.1077：equip.json 与 equip_skill.json"
+    url: https://github.com/St-Pavlov-Foundation/re1999-data-global/tree/7308a19ec644c60fd539034c9815cfaa23237dda/data/json
+  - title: "re1999-data-global，国际版客户端 111.0.1077：英文文字"
+    url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language/language_en.json
+---
+
+| 项目 | 内容 |
+| --- | --- |
+| 稀有度 | 6 星 |
+| 标签 | 攻击、生存 |
+| 等级上限 | 60 |
+| 满级生命 | 1,600 |
+| 满级攻击 | 380 |
+| 满级现实防御 | 180 |
+| 满级精神防御 | 190 |
+| 满级附加属性 | 术法威力 +18% |
+| 游戏内推荐的神秘学家 | [塞梅尔维斯](/zh-cn/arcanists/semmelweis/) |
+| 国际版客户端 | 有 |
+
+## 效果
+
+- 岩灵感的记忆者单次行动中，队伍累计失去 3 次以上生命时，记忆者在该次行动后获得【生的余音】，持续至战斗结束。每场战斗触发 1 次。增幅 5 时，国际版客户端的英文文字要求多于 3 次。
+- 任一队友行动期间，队友每失去 1 次生命，记忆者术法威力 +0.9/1.2/1.5/1.8/2.1%，最多叠加 10 层（增幅 1 至 5）。国际版客户端的英文文字在增幅 1 至 4 要求岩灵感的记忆者。
+
+## 名称
+
+| 英文 | 简体中文 | 繁体中文 | 日文 | 韩文 |
+| --- | --- | --- | --- | --- |
+| From the Depths | 来自最深处 | 來自最深處 | 最奥より | 가장 깊은 곳에서 |

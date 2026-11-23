@@ -39,7 +39,7 @@ import { checkHeaderAndOutputs, checkSelfReference } from './check-page-text.mjs
 const DIST = fileURLToPath(new URL('../dist/', import.meta.url));
 const LIMIT = 5000;
 // The top-level sidebar groups, in order, by the id of their first page (astro.config.mjs).
-const SECTIONS = ['afflatus/star', 'systems/summoning'];
+const SECTIONS = ['afflatus/star', 'psychubes/critical', 'systems/summoning'];
 const failures = [];
 const fail = (page, message) => failures.push(`${page}: ${message}`);
 

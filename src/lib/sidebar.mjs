@@ -30,3 +30,28 @@ export function arcanistSidebar() {
 		};
 	});
 }
+
+// The Psychubes group: one collapsed group per index page (pipeline/psychube.py, by the stat a
+// Psychube adds), its index page first, then its Psychubes by rarity and English name, from
+// records/psychubes.json (written by pipeline/psychube.py indexes).
+export function psychubeSidebar() {
+	const { psychubes } = JSON.parse(readFileSync(new URL('../../records/psychubes.json', import.meta.url), 'utf8'));
+	return [
+		['critical', 'Critical', { 'zh-TW': '暴擊', 'zh-CN': '暴击', ja: 'クリティカル', ko: '치명타' }],
+		['damage-6', '6-star damage', { 'zh-TW': '6 星輸出', 'zh-CN': '6 星输出', ja: '★6 攻撃', ko: '6성 공격' }],
+		['damage-5', '5-star damage', { 'zh-TW': '5 星輸出', 'zh-CN': '5 星输出', ja: '★5 攻撃', ko: '5성 공격' }],
+		['might', 'Might', { 'zh-TW': '威力', 'zh-CN': '威力', ja: '威力', ko: '위력' }],
+		['survival', 'Survival and healing', { 'zh-TW': '生存與治療', 'zh-CN': '生存与治疗', ja: '生存と回復', ko: '생존과 치료' }],
+	].map(([group, label, translations]) => ({
+		label,
+		translations,
+		collapsed: true,
+		items: [
+			{ slug: `psychubes/${group}` },
+			...psychubes
+				.filter((p) => p.group === group && existsSync(new URL(`psychubes/${p.slug}.md`, DOCS)))
+				.sort((a, b) => b.stars - a.stars || a.en.toLowerCase().localeCompare(b.en.toLowerCase()))
+				.map((p) => ({ slug: `psychubes/${p.slug}` })),
+		],
+	}));
+}
