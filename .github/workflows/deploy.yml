@@ -18,7 +18,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     outputs:
-      indexnow: ${{ steps.indexnow.outputs.body }}
+      indexnow: ${{ steps.indexnow.outputs.changed }}
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
@@ -31,13 +31,21 @@ jobs:
       - run: pnpm install --frozen-lockfile
       # Build, then run the acceptance checks. A failed check stops the deploy.
       - run: pnpm verify
-      # Compare each page's Markdown twin with the live one, before the deploy replaces it.
-      # A failed comparison shows as a warning and submits nothing; it does not block the deploy.
+      # Compare the hash of each page's Markdown twin with the hashes the live site published,
+      # before the deploy replaces them. A failed comparison shows as a warning and submits
+      # nothing; it does not block the deploy. The body goes as an artifact: with thousands of
+      # URLs it is too large for a job output or an environment variable.
       - id: indexnow
         continue-on-error: true
         run: |
-          body=$(node scripts/indexnow.mjs)
-          printf 'body=%s\n' "$body" >> "$GITHUB_OUTPUT"
+          node scripts/indexnow.mjs > indexnow-body.json
+          if [ -s indexnow-body.json ]; then echo 'changed=yes' >> "$GITHUB_OUTPUT"; fi
+      - if: steps.indexnow.outputs.changed == 'yes'
+        uses: actions/upload-artifact@v4
+        with:
+          name: indexnow-body
+          path: indexnow-body.json
+          retention-days: 1
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
@@ -58,10 +66,11 @@ jobs:
     if: needs.build.outputs.indexnow != ''
     runs-on: ubuntu-latest
     steps:
-      - env:
-          BODY: ${{ needs.build.outputs.indexnow }}
-        run: >
+      - uses: actions/download-artifact@v4
+        with:
+          name: indexnow-body
+      - run: >
           curl --silent --show-error --fail-with-body -X POST
           -H 'Content-Type: application/json; charset=utf-8'
-          --data "$BODY" https://api.indexnow.org/indexnow
+          --data-binary @indexnow-body.json https://api.indexnow.org/indexnow
           -w 'IndexNow HTTP %{http_code}\n'

@@ -1,14 +1,18 @@
 // Prints the IndexNow request body for pages whose content changed, or nothing.
 //
-// Run after `pnpm verify` and before the deploy. A page counts as changed when its
-// Markdown twin in dist/ differs from the live one (or the live one is missing). The
-// twin is built from the content only, so a change to the skin submits nothing.
+// Run after `pnpm verify` and before the deploy. A page counts as changed when the hash of its
+// Markdown twin in dist/ differs from the hash the live site published at the last deploy
+// (`/indexnow.json`, written here into dist/), or the page is new. One request to the live site:
+// fetching every live twin (about 9,500 with the story) gets HTTP 429 from GitHub Pages. The
+// twin is built from the content only, so a change to the skin submits nothing. Before the live
+// site has the file, every page counts as changed.
 //
 // The key file lives at the root of the domain (served by the user site), which
 // authorizes every URL on the host, project sites included.
 //
 // Usage: node scripts/indexnow.mjs > body.json   (empty output: nothing to submit)
-import { readFileSync, readdirSync } from 'node:fs';
+import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { join } from 'node:path';
 import { SITE as SITE_RAW } from '../src/lib/site.mjs';
 
@@ -28,16 +32,19 @@ function twinUrl(loc) {
 	return (trimmed === SITE ? `${SITE}/index` : trimmed) + '.md';
 }
 
-const changed = [];
-for (const loc of locs) {
-	const twin = twinUrl(loc);
-	const local = readFileSync(join(DIST, twin.slice(SITE.length + 1)), 'utf8');
-	// 404 means a new page. Any other failure stops the run: an outage is not a change.
-	const res = await fetch(twin, { signal: AbortSignal.timeout(15000) });
-	if (!res.ok && res.status !== 404) throw new Error(`indexnow: ${twin} returned ${res.status}`);
-	const live = res.ok ? await res.text() : null;
-	if (live !== local) changed.push(loc);
-}
+const hashes = Object.fromEntries(
+	locs.map((loc) => {
+		const twin = twinUrl(loc);
+		const local = readFileSync(join(DIST, twin.slice(SITE.length + 1)), 'utf8');
+		return [loc, createHash('sha256').update(local).digest('hex').slice(0, 16)];
+	})
+);
+// 404: the live site has no hashes yet. Any other failure stops the run: an outage is not a change.
+const res = await fetch(`${SITE}/indexnow.json`, { signal: AbortSignal.timeout(30000) });
+if (!res.ok && res.status !== 404) throw new Error(`indexnow: ${SITE}/indexnow.json returned ${res.status}`);
+const live = res.ok ? await res.json() : {};
+const changed = locs.filter((loc) => live[loc] !== hashes[loc]);
+writeFileSync(join(DIST, 'indexnow.json'), JSON.stringify(hashes) + '\n');
 
 console.error(`indexnow: ${changed.length} of ${locs.length} pages changed`);
 for (const url of changed) console.error(`  ${url}`);
@@ -47,7 +54,8 @@ if (changed.length > 0) {
 			host: new URL(SITE).host,
 			key: INDEXNOW_KEY,
 			keyLocation: `${origin}/${INDEXNOW_KEY}.txt`,
-			urlList: changed,
+			// IndexNow takes at most 10,000 URLs in one request.
+			urlList: changed.slice(0, 10000),
 		})
 	);
 }
