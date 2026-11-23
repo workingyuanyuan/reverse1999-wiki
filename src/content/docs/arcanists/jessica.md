@@ -33,6 +33,7 @@ sources:
 | Afflatus | Plant |
 | Damage | Reality |
 | Tags | DPS, Poison |
+| Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
 | Mainland release | 2023-08-17 |
 | Global release | 2023-12-28 |
 

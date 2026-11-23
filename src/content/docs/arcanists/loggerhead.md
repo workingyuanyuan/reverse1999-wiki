@@ -33,6 +33,7 @@ sources:
 | Afflatus | Plant |
 | Damage | Mental |
 | Tags | Heal |
+| Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
 | Mainland release | 2025-01-16 |
 | Global release | 2025-04-24 |
 

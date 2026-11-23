@@ -33,6 +33,7 @@ sources:
 | Afflatus | Beast |
 | Damage | Mental |
 | Tags | Support, All-Rounder |
+| Resonance Patterns | [U-shaped set](/systems/resonance/): Hyper, Overindulgence, Quiescence, Prudentiality, Equanimity |
 | Mainland release | 2026-04-30 |
 | Global release | 2026-08-13 |
 

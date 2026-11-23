@@ -32,6 +32,7 @@ sources:
 | Afflatus | Star |
 | Damage | Mental |
 | Tags | Heal, Support, Remove Debuffs |
+| Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
 | Mainland release | 2023-07-27 |
 | Global release | 2023-12-07 |
 

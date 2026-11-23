@@ -32,6 +32,7 @@ sources:
 | Afflatus | Beast |
 | Damage | Reality |
 | Tags | Support, Burn, Channel, Bullet, Array |
+| Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
 | Mainland release | 2024-10-10 |
 | Global release | 2025-01-30 |
 

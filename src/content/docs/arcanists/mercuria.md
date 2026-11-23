@@ -33,6 +33,7 @@ sources:
 | Afflatus | Spirit |
 | Damage | Mental |
 | Tags | Support, Rank Up, DPS |
+| Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
 | Mainland release | 2024-07-18 |
 | Global release | 2024-10-31 |
 

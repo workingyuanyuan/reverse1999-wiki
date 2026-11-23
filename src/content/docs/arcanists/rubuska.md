@@ -33,6 +33,7 @@ sources:
 | Afflatus | Mineral |
 | Damage | Reality |
 | Tags | Heal, Bloodtithe, Support |
+| Resonance Patterns | [U-shaped set](/systems/resonance/): Hyper, Overindulgence, Quiescence, Prudentiality, Equanimity |
 | Mainland release | 2025-09-19 |
 | Global release | 2025-12-11 |
 

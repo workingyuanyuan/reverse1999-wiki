@@ -28,6 +28,7 @@ sources:
 | Afflatus | Beast |
 | Damage | Reality |
 | Tags | Shield, Burn, Support, Riposte |
+| Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
 | Mainland release | 2024-06-27 |
 | Global release | 2024-11-21 |
 

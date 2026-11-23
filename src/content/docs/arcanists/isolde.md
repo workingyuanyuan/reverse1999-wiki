@@ -33,6 +33,7 @@ sources:
 | Afflatus | Spirit |
 | Damage | Reality |
 | Tags | DPS, Burn, Support |
+| Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
 | Mainland release | 2024-02-22 |
 | Global release | in the global client |
 

@@ -33,6 +33,7 @@ sources:
 | Afflatus | Plant |
 | Damage | Mental |
 | Tags | Heal, Rank Up, Support, Remove Debuffs |
+| Resonance Patterns | [U-shaped set](/systems/resonance/): Hyper, Overindulgence, Quiescence, Prudentiality, Equanimity |
 | Mainland release | 2024-04-11 |
 | Global release | 2024-08-15 |
 

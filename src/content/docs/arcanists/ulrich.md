@@ -33,6 +33,7 @@ sources:
 | Afflatus | Intellect |
 | Damage | Reality |
 | Tags | DPS, Dynamo, Support, Channel, Array |
+| Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
 | Mainland release | 2025-05-15 |
 | Global release | 2025-09-19 |
 

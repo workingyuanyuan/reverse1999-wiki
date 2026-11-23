@@ -33,6 +33,7 @@ sources:
 | Afflatus | Beast |
 | Damage | Reality |
 | Tags | Shield, Lingering Glow, Support, Remove Debuffs |
+| Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
 | Mainland release | 2025-12-11 |
 | Global release | 2026-03-05 |
 

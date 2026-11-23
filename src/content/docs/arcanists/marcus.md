@@ -33,6 +33,7 @@ sources:
 | Afflatus | Plant |
 | Damage | Mental |
 | Tags | DPS, Rank Up, Eureka |
+| Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
 | Mainland release | 2024-03-21 |
 | Global release | 2024-08-01 |
 

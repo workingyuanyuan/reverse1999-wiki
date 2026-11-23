@@ -31,6 +31,7 @@ sources:
 | Afflatus | Beast |
 | Damage | Reality |
 | Tags | Support, Channel, Eureka, Array |
+| Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
 | Mainland release | 2024-02-01 |
 | Global release | 2024-06-20 |
 

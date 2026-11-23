@@ -33,6 +33,7 @@ sources:
 | Afflatus | Plant |
 | Damage | Reality |
 | Tags | DPS, Rank Up, Support, Remove Buffs |
+| Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
 | Mainland release | 2024-08-29 |
 | Global release | 2024-12-26 |
 

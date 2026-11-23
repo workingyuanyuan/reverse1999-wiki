@@ -35,6 +35,7 @@ sources:
 | Afflatus | Beast |
 | Damage | Reality |
 | Tags | DPS, Support, Extra Action, Follow-Up |
+| Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
 | Mainland release | version 4.0 |
 | Global release | not yet |
 

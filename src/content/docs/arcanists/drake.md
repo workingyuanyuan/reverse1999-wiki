@@ -34,6 +34,7 @@ sources:
 | Afflatus | Beast |
 | Damage | Mental |
 | Tags | Support, Lingering Glow, DPS, Channel |
+| Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
 | Mainland release | version 4.0 |
 | Global release | not yet |
 

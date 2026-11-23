@@ -33,6 +33,7 @@ sources:
 | Afflatus | Plant |
 | Damage | Mental |
 | Tags | Heal, Support |
+| Resonance Patterns | [U-shaped set](/systems/resonance/): Hyper, Overindulgence, Quiescence, Prudentiality, Equanimity |
 | Mainland release | 2024-06-06 |
 | Global release | 2024-10-10 |
 

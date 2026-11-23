@@ -33,6 +33,7 @@ sources:
 | Afflatus | Spirit |
 | Damage | Reality |
 | Tags | Support, DPS, Rewrite |
+| Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
 | Mainland release | 2026-07-23 |
 | Global release | 2026-07-23 |
 

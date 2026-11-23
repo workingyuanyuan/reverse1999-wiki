@@ -33,6 +33,7 @@ sources:
 | Afflatus | Star |
 | Damage | Reality |
 | Tags | Support, Extra Action, DPS, Channel, Eureka |
+| Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
 | Mainland release | 2024-11-21 |
 | Global release | 2025-03-06 |
 

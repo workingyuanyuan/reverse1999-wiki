@@ -33,6 +33,7 @@ sources:
 | Afflatus | Mineral |
 | Damage | Reality |
 | Tags | DPS, Support, Control |
+| Resonance Patterns | [U-shaped set](/systems/resonance/): Hyper, Overindulgence, Quiescence, Prudentiality, Equanimity |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
 

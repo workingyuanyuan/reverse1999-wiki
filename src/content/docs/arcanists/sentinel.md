@@ -33,6 +33,7 @@ sources:
 | Afflatus | Mineral |
 | Damage | Reality |
 | Tags | Support, Bloodtithe, DPS, Bullet |
+| Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
 | Mainland release | 2025-06-26 |
 | Global release | 2025-10-30 |
 

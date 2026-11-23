@@ -31,6 +31,7 @@ sources:
 | Afflatus | Star |
 | Damage | Reality |
 | Tags | Support, Extra Action, DPS, Follow-Up |
+| Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
 | Mainland release | 2026-02-12 |
 | Global release | 2026-05-07 |
 

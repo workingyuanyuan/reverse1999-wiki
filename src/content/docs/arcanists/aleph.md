@@ -33,6 +33,7 @@ sources:
 | Afflatus | Intellect |
 | Damage | Mental |
 | Tags | Support, Inspiration, Channel, Eureka |
+| Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
 | Mainland release | 2025-03-20 |
 | Global release | 2025-06-19 |
 

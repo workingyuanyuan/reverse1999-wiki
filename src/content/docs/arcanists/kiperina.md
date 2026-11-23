@@ -33,6 +33,7 @@ sources:
 | Afflatus | Star |
 | Damage | Mental |
 | Tags | Shield, Inspiration, Support, Eureka |
+| Resonance Patterns | [U-shaped set](/systems/resonance/): Hyper, Overindulgence, Quiescence, Prudentiality, Equanimity |
 | Mainland release | 2025-04-24 |
 | Global release | 2025-07-24 |
 

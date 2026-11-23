@@ -33,6 +33,7 @@ sources:
 | Afflatus | Mineral |
 | Damage | Reality |
 | Tags | DPS, Ritual, Support |
+| Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
 | Mainland release | 2025-02-27 |
 | Global release | 2025-05-29 |
 

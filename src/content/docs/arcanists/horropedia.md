@@ -32,6 +32,7 @@ sources:
 | Afflatus | Mineral |
 | Damage | Mental |
 | Tags | DPS, Support, Remove Buffs |
+| Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
 | Mainland release | 2023-08-17 |
 | Global release | 2023-12-28 |
 

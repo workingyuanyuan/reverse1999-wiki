@@ -33,6 +33,7 @@ sources:
 | Afflatus | Beast |
 | Damage | Reality |
 | Tags | Support, Ritual, DPS, Riposte |
+| Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
 | Mainland release | 2025-06-05 |
 | Global release | 2025-10-09 |
 

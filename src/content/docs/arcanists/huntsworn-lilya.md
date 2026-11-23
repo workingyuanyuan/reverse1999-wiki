@@ -35,6 +35,7 @@ sources:
 | Afflatus | Star |
 | Damage | Reality |
 | Tags | DPS, 洞知, Channel |
+| Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
 | Mainland release | 2026-09-24 |
 | Global release | not yet |
 

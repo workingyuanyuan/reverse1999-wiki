@@ -34,6 +34,7 @@ sources:
 | Afflatus | Star |
 | Damage | Reality |
 | Tags | Heal, 洞知, Support, Remove Debuffs |
+| Resonance Patterns | [U-shaped set](/systems/resonance/): Hyper, Overindulgence, Quiescence, Prudentiality, Equanimity |
 | Mainland release | 2026-11-05 |
 | Global release | not yet |
 

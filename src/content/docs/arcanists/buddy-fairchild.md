@@ -32,6 +32,7 @@ sources:
 | Afflatus | Plant |
 | Damage | Reality |
 | Tags | DPS, Ritual |
+| Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
 | Mainland release | 2025-05-15 |
 | Global release | 2025-09-19 |
 

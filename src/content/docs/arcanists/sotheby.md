@@ -33,6 +33,7 @@ sources:
 | Afflatus | Plant |
 | Damage | Reality |
 | Tags | Heal, Poison |
+| Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
 

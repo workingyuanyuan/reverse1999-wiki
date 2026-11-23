@@ -32,6 +32,7 @@ sources:
 | Afflatus | Mineral |
 | Damage | Reality |
 | Tags | DPS, Riposte |
+| Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
 | Mainland release | 2026-07-02 |
 | Global release | 2026-10-15 |
 

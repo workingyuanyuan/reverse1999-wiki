@@ -31,6 +31,7 @@ sources:
 | Afflatus | Star |
 | Damage | Reality |
 | Tags | DPS, Extra Action, Immunity |
+| Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
 | Mainland release | 2025-01-16 |
 | Global release | 2025-04-24 |
 

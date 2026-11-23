@@ -33,6 +33,7 @@ sources:
 | Afflatus | Plant |
 | Damage | Mental |
 | Tags | DPS, Support |
+| Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
 | Mainland release | — |
 | Global release | in the global client |
 

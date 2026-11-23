@@ -33,6 +33,7 @@ sources:
 | Afflatus | Mineral |
 | Damage | Mental |
 | Tags | Support, Extra Action, Remove Debuffs |
+| Resonance Patterns | [U-shaped set](/systems/resonance/): Hyper, Overindulgence, Quiescence, Prudentiality, Equanimity |
 | Mainland release | 2024-11-21 |
 | Global release | 2025-03-06 |
 

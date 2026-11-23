@@ -33,6 +33,7 @@ sources:
 | Afflatus | Star |
 | Damage | Mental |
 | Tags | DPS, Inspiration, Support, Eureka |
+| Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
 | Mainland release | 2024-12-12 |
 | Global release | 2025-03-27 |
 

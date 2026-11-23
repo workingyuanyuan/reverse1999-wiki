@@ -32,6 +32,7 @@ sources:
 | Afflatus | Plant |
 | Damage | Mental |
 | Tags | DPS, Poison, Support |
+| Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
 | Mainland release | 2023-09-07 |
 | Global release | 2024-01-18 |
 

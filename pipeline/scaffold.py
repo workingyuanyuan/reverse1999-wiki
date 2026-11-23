@@ -2,11 +2,12 @@
 
   python3 -I pipeline/scaffold.py write <lang> <slug> ...    new page files (never overwrites)
   python3 -I pipeline/scaffold.py check <page.md> ...        exit 1 on a difference
+  python3 -I pipeline/scaffold.py profile <page.md> ...      rewrite the profile table from the records
 
 <lang> is en, zh-tw, ja or ko (zh-cn is written by scripts/to-zh-cn.py).
 
 The skeleton holds everything the records decide: the frontmatter except description and caveat,
-the art line, the profile table, the Insight material table, the Ultimate heading and the names
+the art line, the profile table (with the Resonance set and its patterns), the Insight material table, the Ultimate heading and the names
 table. The rest is marked <!-- WRITE ... -->: the writer restates the kit in the site's words.
 
 `check` regenerates those blocks and fails when the page lacks one of them word for word, when a
@@ -14,12 +15,14 @@ WRITE or TODO mark is left, or when a number in the written parts (description, 
 section but the generated tables) is not in the game's text of that arcanist in any language
 (cache/source/<slug>.json). Whole numbers up to 10 pass: ranks, Insight steps, levels, counts.
 """
+import functools
 import json
 import re
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / 'pipeline'))  # gamedata and write_systems, read for the Resonance set
 DOCS = ROOT / 'src' / 'content' / 'docs'
 REC = {a['slug']: a for a in json.loads((ROOT / 'records' / 'arcanists.json').read_text())['arcanists']}
 REL = json.loads((ROOT / 'records' / 'releases.json').read_text())['arcanists']
@@ -51,7 +54,8 @@ VERSION_ONLY = {'drake': '4.0', 'glyndwr': '4.0'}
 L = {
 	'en': dict(
 		dir='', stars='{n} stars', head=('Field', 'Value'),
-		rows=('Rarity', 'Afflatus', 'Damage', 'Tags', 'Mainland release', 'Global release'),
+		rows=('Rarity', 'Afflatus', 'Damage', 'Tags', 'Resonance Patterns', 'Mainland release', 'Global release'),
+		res='[{s} set](/systems/resonance/): {p}',
 		afflatus={'Star': 'Star', 'Mineral': 'Mineral', 'Beast': 'Beast', 'Plant': 'Plant', 'Spirit': 'Spirit', 'Intellect': 'Intellect', 101: 'Mineral and Star'},
 		damage={'Reality': 'Reality', 'Mental': 'Mental'}, tagsep=', ',
 		version='version {v}', unknown='—', notyet='not yet', notreleased='{d}, not yet released', inclient='in the global client',
@@ -76,7 +80,8 @@ L = {
 	),
 	'zh-tw': dict(
 		dir='zh-tw/', stars='{n} 星', head=('項目', '內容'),
-		rows=('稀有度', '靈感', '創傷類型', '標籤', '中國大陸版上線', '國際版上線'),
+		rows=('稀有度', '靈感', '創傷類型', '標籤', '共鳴調頻', '中國大陸版上線', '國際版上線'),
+		res='[{s}組](/zh-tw/systems/resonance/)：{p}',
 		afflatus={'Star': '星', 'Mineral': '岩', 'Beast': '獸', 'Plant': '木', 'Spirit': '靈', 'Intellect': '智', 101: '岩與星'},
 		damage={'Reality': '現實', 'Mental': '精神'}, tagsep='、',
 		version='{v} 版', unknown='—', notyet='尚未上線', notreleased='{d}，尚未上線', inclient='已在國際版用戶端中',
@@ -101,7 +106,8 @@ L = {
 	),
 	'ja': dict(
 		dir='ja/', stars='★{n}', head=('項目', '内容'),
-		rows=('レア度', '本源', 'ダメージタイプ', 'タグ', '中国本土版の実装', 'グローバル版の実装'),
+		rows=('レア度', '本源', 'ダメージタイプ', 'タグ', '共鳴の変調', '中国本土版の実装', 'グローバル版の実装'),
+		res='[{s}グループ](/ja/systems/resonance/)：{p}',
 		afflatus={'Star': '星', 'Mineral': '岩', 'Beast': '獣', 'Plant': '木', 'Spirit': '霊', 'Intellect': '知', 101: '岩と星'},
 		damage={'Reality': 'リアル', 'Mental': 'メンタル'}, tagsep='、',
 		version='バージョン {v}', unknown='—', notyet='未実装', notreleased='{d}、未実装', inclient='グローバル版クライアントに収録',
@@ -126,7 +132,8 @@ L = {
 	),
 	'ko': dict(
 		dir='ko/', stars='{n}성', head=('항목', '내용'),
-		rows=('희귀도', '영감', '피해 유형', '태그', '중국 본토 출시', '글로벌 출시'),
+		rows=('희귀도', '영감', '피해 유형', '태그', '공명 변조', '중국 본토 출시', '글로벌 출시'),
+		res='[{s} 그룹](/ko/systems/resonance/): {p}',
 		afflatus={'Star': '천체', 'Mineral': '암석', 'Beast': '야수', 'Plant': '나무', 'Spirit': '영혼', 'Intellect': '지능', 101: '암석과 천체'},
 		damage={'Reality': '현실', 'Mental': '정신'}, tagsep=', ',
 		version='{v} 버전', unknown='—', notyet='출시 전', notreleased='{d}, 출시 전', inclient='글로벌 클라이언트에 있음',
@@ -195,6 +202,25 @@ def release(a, lang):
 	return mainland, glob
 
 
+@functools.cache
+def _resonance():
+	"""Each arcanist's Resonance set and its patterns, as the Resonance page states them."""
+	import write_systems
+	return write_systems.resonance_data()
+
+
+def resonance(slug, lang):
+	"""The Resonance Patterns cell: the arcanist's set (the shape of the main Idea) and its five patterns besides the default."""
+	import gamedata
+	r, t = _resonance(), L[lang]
+	m = next((m for m, arcs in r['sets'].items() if any(a['slug'] == slug for a in arcs)), None)
+	if m is None:
+		return None
+	pats = [gamedata.text(p['gl'], KEY[lang]) if p['gl'] else p['cn'] for (m2, _), p in sorted(r['pats'].items()) if m2 == m]
+	import write_systems
+	return t['res'].format(s=write_systems.RT2[lang]['shapes'][m], p=t['tagsep'].join(pats))
+
+
 def blocks(slug, lang):
 	"""The parts of the page the records decide, as {name: text}."""
 	a, t = REC[slug], L[lang]
@@ -228,8 +254,9 @@ def blocks(slug, lang):
 	# profile
 	tags = t['tagsep'].join(TAGS.get(z, {}).get(lang, z) for z in a['tagsZh'])
 	mainland, glob = release(a, lang)
-	vals = (t['stars'].format(n=a['stars']), t['afflatus'][a['afflatus']], t['damage'][a['damage']], tags, mainland, glob)
-	out['profile'] = '\n'.join([f'| {t["head"][0]} | {t["head"][1]} |', '| --- | --- |'] + [f'| {k} | {v} |' for k, v in zip(t['rows'], vals)])
+	vals = (t['stars'].format(n=a['stars']), t['afflatus'][a['afflatus']], t['damage'][a['damage']], tags, resonance(slug, lang), mainland, glob)
+	out['profile'] = '\n'.join([f'| {t["head"][0]} | {t["head"][1]} |', '| --- | --- |']
+		+ [f'| {k} | {v} |' for k, v in zip(t['rows'], vals) if v is not None])
 	# Insight materials
 	key = KEY[lang]
 	rows = []
@@ -333,6 +360,19 @@ def main(argv):
 				continue
 			p.write_text(skeleton(slug, lang))
 			print(f'wrote {p.relative_to(ROOT)}')
+		return 0
+	if len(argv) >= 2 and argv[0] == 'profile':
+		# Rewrite the profile table of finished pages from the records; the rest of the page stays.
+		for arg in argv[1:]:
+			path = Path(arg).resolve()
+			m = re.match(r'(?:(zh-tw|ja|ko)/)?arcanists/([^/]+)\.md$', path.relative_to(DOCS).as_posix())
+			lang, slug = m.group(1) or 'en', m.group(2)
+			head = f'| {L[lang]["head"][0]} | {L[lang]["head"][1]} |\n| --- | --- |\n'
+			text = path.read_text()
+			new = re.sub(re.escape(head) + r'(?:\|.*\|\n)+', lambda _: blocks(slug, lang)['profile'] + '\n', text, count=1)
+			if new != text:
+				path.write_text(new)
+				print(f'profile rewritten: {path.relative_to(ROOT)}')
 		return 0
 	if len(argv) >= 2 and argv[0] == 'check':
 		errors = [e for p in argv[1:] for e in check(p)]

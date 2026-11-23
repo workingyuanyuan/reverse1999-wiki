@@ -32,6 +32,7 @@ sources:
 | Afflatus | Plant |
 | Damage | Mental |
 | Tags | DPS, Ritual, Control |
+| Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
 | Mainland release | 2025-02-06 |
 | Global release | 2025-05-08 |
 

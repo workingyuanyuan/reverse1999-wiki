@@ -33,6 +33,7 @@ sources:
 | Afflatus | Intellect |
 | Damage | Mental |
 | Tags | DPS, Lingering Glow, Extra Action, Rank Up |
+| Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
 | Mainland release | 2025-10-30 |
 | Global release | 2026-01-20 |
 

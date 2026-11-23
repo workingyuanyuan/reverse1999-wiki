@@ -33,6 +33,7 @@ sources:
 | Afflatus | Star |
 | Damage | Mental |
 | Tags | Shield, Support, Eureka |
+| Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
 | Mainland release | 2023-12-21 |
 | Global release | 2024-05-09 |
 

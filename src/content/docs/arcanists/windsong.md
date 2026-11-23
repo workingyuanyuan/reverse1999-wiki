@@ -32,6 +32,7 @@ sources:
 | Afflatus | Star |
 | Damage | Mental |
 | Tags | DPS, Extra Action, Eureka |
+| Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
 | Mainland release | 2024-04-25 |
 | Global release | 2024-08-29 |
 

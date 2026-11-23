@@ -33,6 +33,7 @@ sources:
 | Afflatus | Spirit |
 | Damage | Mental |
 | Tags | Shield, Support |
+| Resonance Patterns | [U-shaped set](/systems/resonance/): Hyper, Overindulgence, Quiescence, Prudentiality, Equanimity |
 | Mainland release | 2024-08-08 |
 | Global release | 2024-12-05 |
 

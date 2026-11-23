@@ -33,6 +33,7 @@ sources:
 | Afflatus | Mineral |
 | Damage | Mental |
 | Tags | DPS, Burn, Support |
+| Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
 | Mainland release | 2023-11-30 |
 | Global release | 2024-04-18 |
 

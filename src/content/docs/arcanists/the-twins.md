@@ -33,6 +33,7 @@ sources:
 | Afflatus | Mineral and Star |
 | Damage | Reality |
 | Tags | DPS, Conduit |
+| Resonance Patterns | [Cross-shaped set](/systems/resonance/): Elucidation, Genuinity, Stupefaction, Aspirational, Hyperphrenia |
 | Mainland release | 2026-07-23 |
 | Global release | 2026-07-23 |
 

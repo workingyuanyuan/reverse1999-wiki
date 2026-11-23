@@ -32,6 +32,7 @@ sources:
 | Afflatus | Spirit |
 | Damage | Mental |
 | Tags | Support, Dynamo, DPS, Channel, Array |
+| Resonance Patterns | [U-shaped set](/systems/resonance/): Hyper, Overindulgence, Quiescence, Prudentiality, Equanimity |
 | Mainland release | 2025-07-17 |
 | Global release | 2025-11-20 |
 

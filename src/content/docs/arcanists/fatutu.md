@@ -33,6 +33,7 @@ sources:
 | Afflatus | Mineral |
 | Damage | Mental |
 | Tags | Heal, Extra Action, Remove Debuffs |
+| Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
 | Mainland release | 2024-12-26 |
 | Global release | 2025-04-10 |
 

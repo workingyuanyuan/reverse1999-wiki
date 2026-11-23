@@ -33,6 +33,7 @@ sources:
 | Afflatus | Star |
 | Damage | Mental |
 | Tags | Heal, Immunity |
+| Resonance Patterns | [U-shaped set](/systems/resonance/): Hyper, Overindulgence, Quiescence, Prudentiality, Equanimity |
 | Mainland release | 2024-01-11 |
 | Global release | 2024-05-30 |
 

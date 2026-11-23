@@ -32,6 +32,7 @@ sources:
 | Afflatus | Beast |
 | Damage | Mental |
 | Tags | DPS, Extra Action, Ritual, Control, Channel |
+| Resonance Patterns | [Z-shaped set](/systems/resonance/): Elucidation, Genuinity, Mercy, Equanimity, Equibalance |
 | Mainland release | 2024-09-19 |
 | Global release | 2025-01-09 |
 
