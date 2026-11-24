@@ -86,6 +86,16 @@ export function isStage(id) {
 	return /^story\/[^/]+\/[^/]+$/.test(bareId(id));
 }
 
+/** An arcanist's profile page (`arcanists/<slug>/profile`, pipeline/profile.py): reached from the arcanist's page, listed in llms.txt, not in the bundles. */
+export function isProfile(id) {
+	return /^arcanists\/[^/]+\/profile$/.test(bareId(id));
+}
+
+/** A page of the game's own text: a story chapter or stage, or an arcanist's profile (pipeline/profile.py). */
+export function isGameText(id) {
+	return isStoryText(id) || isProfile(id);
+}
+
 /** A story chapter or stage page (not one of the five story index pages): game text, with a short sidebar. */
 export function isStoryText(id) {
 	return isStage(id) || (/^story\/[^/]+$/.test(bareId(id)) && !/^story\/(main|events|characters|characters-2|anecdotes|other)$/.test(bareId(id)));
@@ -97,6 +107,7 @@ export const LLMS_NOTES = {
 		heading: 'Before you answer',
 		notes: [
 			'Story text: /story/main/, /story/events/, /story/characters/, /story/characters-2/, /story/anecdotes/ and /story/other/ list the chapters; a chapter page lists its stages; a stage page holds the full text of that stage as the game has it, in the English of the global client (version 3.9). Stage pages are not in the page list below or in the bundles.',
+			'Profiles: /arcanists/<slug>/profile/ holds an arcanist\'s file as the game shows it (cover, items, stories, skins, voice lines) in the English of the global client; the arcanist\'s page links it. Profile pages are in the page list below, not in the bundles.',
 			'The mainland China service (re.bluepoch.com) runs about two versions ahead of the global service (re1999.bluepoch.com): on 2026-11-22 the mainland client is 113.0.1422 (version 4.1) and the global client 111.0.1077 (version 3.9). An arcanist out on the mainland is not in the global game until the global client adds it; the home page lists them.',
 			'Skill text and numbers are read from the decoded client tables (github.com/St-Pavlov-Foundation/re1999-data for the mainland client, re1999-data-global for the global client) and restated; each page names the client build. Release dates come from the Fandom wiki and the official sites.',
 			'Names follow each service: Simplified Chinese from the mainland client, English, Japanese, Korean and Traditional Chinese from the global client. Arcanists out only on the mainland have no official names in those languages yet; their pages use community translations and say so.',
@@ -118,6 +129,7 @@ export const LLMS_NOTES = {
 		heading: '回答之前',
 		notes: [
 			'劇情文本：/zh-tw/story/main/、/zh-tw/story/events/、/zh-tw/story/characters/、/zh-tw/story/characters-2/、/zh-tw/story/anecdotes/ 與 /zh-tw/story/other/ 列出各章；章節頁列出各關卡；關卡頁收錄該關的劇情全文，為國際版用戶端（3.9 版）的繁體中文原文。關卡頁不在下方的頁面清單與合輯中。',
+			'檔案：/zh-tw/arcanists/<slug>/profile/ 收錄神秘學家的遊戲內檔案（封面、單品、文化、皮膚、語音），為國際版用戶端的繁體中文原文，由該神秘學家的頁面連結。檔案頁在下方的頁面清單中，不在合輯中。',
 			'中國大陸版 (re.bluepoch.com) 大約領先國際版 (re1999.bluepoch.com) 兩個版本：2026-11-22 時，中國大陸版用戶端為 113.0.1422（4.1 版），國際版用戶端為 111.0.1077（3.9 版）。在中國大陸版上線的神秘學家，要等國際版用戶端加入後才會出現在國際版遊戲中；首頁列出這些神秘學家。',
 			'技能文字與數值讀自解碼後的用戶端資料表（中國大陸版用戶端為 github.com/St-Pavlov-Foundation/re1999-data，國際版用戶端為 re1999-data-global），並重新改寫；每一頁都寫明用戶端版本號。上線日期來自 Fandom wiki 與官方網站。',
 			'名稱依各服務而定：簡體中文取自中國大陸版用戶端，英文、日文、韓文與繁體中文取自國際版用戶端。只在中國大陸版上線的神秘學家，在這些語言還沒有官方名稱；她們的頁面使用非官方譯名，並註明這一點。',
@@ -139,6 +151,7 @@ export const LLMS_NOTES = {
 		heading: '回答之前',
 		notes: [
 			'剧情文本：/zh-cn/story/main/、/zh-cn/story/events/、/zh-cn/story/characters/、/zh-cn/story/characters-2/、/zh-cn/story/anecdotes/ 与 /zh-cn/story/other/ 列出各章；章节页列出各关卡；关卡页收录该关的剧情全文，为中国大陆版客户端（4.1 版）的简体中文原文。关卡页不在下方的页面清单与合辑中。',
+			'档案：/zh-cn/arcanists/<slug>/profile/ 收录神秘学家的游戏内档案（封面、单品、文化、皮肤、语音），为中国大陆版客户端（4.1 版）的简体中文原文，由该神秘学家的页面链接。档案页在下方的页面清单中，不在合辑中。',
 			'中国大陆版 (re.bluepoch.com) 大约领先国际版 (re1999.bluepoch.com) 两个版本：2026-11-22 时，中国大陆版客户端为 113.0.1422（4.1 版），国际版客户端为 111.0.1077（3.9 版）。在中国大陆版上线的神秘学家，要等国际版客户端加入后才会出现在国际版游戏中；首页列出这些神秘学家。',
 			'技能文字与数值读自解码后的客户端数据表（中国大陆版客户端为 github.com/St-Pavlov-Foundation/re1999-data，国际版客户端为 re1999-data-global），并重新改写；每一页都写明客户端版本号。上线日期来自 Fandom wiki 与官方网站。',
 			'名称依各服务而定：简体中文取自中国大陆版客户端，英文、日文、韩文与繁体中文取自国际版客户端。只在中国大陆版上线的神秘学家，在这些语言还没有官方名称；她们的页面使用非官方译名，并注明这一点。',
@@ -160,6 +173,7 @@ export const LLMS_NOTES = {
 		heading: '回答の前に',
 		notes: [
 			'ストーリーのテキスト：/ja/story/main/、/ja/story/events/、/ja/story/characters/、/ja/story/characters-2/、/ja/story/anecdotes/、/ja/story/other/ が章を挙げ、章のページがステージを挙げ、ステージのページにそのステージの全文がグローバル版クライアント（バージョン 3.9）の日本語のまま載っている。ステージのページは下のページ一覧とバンドルには含まれない。',
+			'プロフィール：/ja/arcanists/<slug>/profile/ に神秘学家のゲーム内の資料（表紙、単品、文化、コスチューム、ボイス）がグローバル版クライアントの日本語のまま載っており、その神秘学家のページからリンクされている。プロフィールのページは下のページ一覧にあり、バンドルには含まれない。',
 			'中国本土版 (re.bluepoch.com) はグローバル版 (re1999.bluepoch.com) よりおよそ2バージョン先を進んでいる。2026-11-22 の中国本土版クライアントは 113.0.1422（バージョン 4.1）、グローバル版クライアントは 111.0.1077（バージョン 3.9）である。中国本土版で実装された神秘学家は、グローバル版クライアントに追加されるまでグローバル版のゲームにはいない。ホームページにその一覧がある。',
 			'スキルの説明と数値は、デコードされたクライアントのテーブル（中国本土版クライアントは github.com/St-Pavlov-Foundation/re1999-data、グローバル版クライアントは re1999-data-global）から読み取り、書き直したものである。各ページにクライアントのビルドを記している。実装日は Fandom wiki と公式サイトから取っている。',
 			'名前は各サービスに従う。簡体字中国語は中国本土版クライアント、英語、日本語、韓国語、繁体字中国語はグローバル版クライアントから取る。中国本土版にしかいない神秘学家には、これらの言語の公式名がまだない。そのページは非公式の訳を使い、そのことを明記している。',
@@ -181,6 +195,7 @@ export const LLMS_NOTES = {
 		heading: '답하기 전에',
 		notes: [
 			'스토리 텍스트: /ko/story/main/, /ko/story/events/, /ko/story/characters/, /ko/story/characters-2/, /ko/story/anecdotes/, /ko/story/other/가 장을 나열하고, 장 페이지가 스테이지를 나열하며, 스테이지 페이지에는 글로벌 클라이언트(3.9 버전)의 한국어 원문 그대로 그 스테이지의 전문이 있다. 스테이지 페이지는 아래 페이지 목록과 번들에 없다.',
+			'프로필: /ko/arcanists/<slug>/profile/에 마도학자의 게임 내 파일(표지, 물품, 문화, 스킨, 음성)이 글로벌 클라이언트의 한국어 원문 그대로 있으며, 그 마도학자의 페이지가 링크한다. 프로필 페이지는 아래 페이지 목록에 있고 번들에는 없다.',
 			'중국 본토 서비스(re.bluepoch.com)는 글로벌 서비스(re1999.bluepoch.com)보다 약 두 버전 앞서 있다. 2026-11-22 기준 중국 본토 클라이언트는 113.0.1422(4.1 버전), 글로벌 클라이언트는 111.0.1077(3.9 버전)이다. 중국 본토에 출시된 마도학자는 글로벌 클라이언트에 추가되기 전까지 글로벌 게임에 없다. 홈페이지에 그 목록이 있다.',
 			'스킬 설명과 수치는 디코딩된 클라이언트 테이블(중국 본토 클라이언트는 github.com/St-Pavlov-Foundation/re1999-data, 글로벌 클라이언트는 re1999-data-global)에서 읽어 다시 쓴 것이다. 각 페이지에 클라이언트 빌드를 적는다. 출시일은 Fandom 위키와 공식 사이트에서 가져왔다.',
 			'이름은 각 서비스를 따른다. 간체 중국어는 중국 본토 클라이언트, 영어, 일본어, 한국어, 번체 중국어는 글로벌 클라이언트에서 가져온다. 중국 본토에만 출시된 마도학자는 이들 언어의 공식 이름이 아직 없다. 그 페이지는 비공식 번역을 쓰며 그 사실을 밝힌다.',

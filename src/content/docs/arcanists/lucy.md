@@ -36,6 +36,7 @@ sources:
 | Psychubes recommended in game | [Steps Forward](/psychubes/steps-forward/), [Blasphemer of Night](/psychubes/blasphemer-of-night/) |
 | Mainland release | 2024-05-16 |
 | Global release | 2024-09-19 |
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/lucy/profile/) |
 
 Lucy gathers [Dynamo] whenever she or an ally gains Moxie, and her attacks spend 10 stacks at a time for extra damage. Every 20 Dynamo the team gains gives her [Advancement], which reinforces one of her cards. Her Ultimate makes all her attacks count as the stronger Afflatus, and after it, and after each enemy falls, she casts [Conservation of Energy] at all enemies.
 

@@ -60,6 +60,8 @@
 	--sl-text-h1: 1.9rem;
 	--sl-text-h2: 1.4rem;
 	--sl-text-h3: 1.12rem;
+	/* Items under a skin on profile pages: one step below the skin's own heading. */
+	--sl-text-h4: 1rem;
 }
 
 /* Simplified Chinese, Japanese and Korean pages take their own fonts first, so that
@@ -361,7 +363,7 @@ mobile-starlight-toc .toggle {
 	padding-top: 1.1rem;
 	border-top: 1px solid var(--rv-line);
 }
-.sl-markdown-content :is(h2, h3) {
+.sl-markdown-content :is(h2, h3, h4) {
 	font-family: var(--rv-serif);
 	font-weight: 600;
 	line-height: 1.35;
@@ -643,7 +645,7 @@ starlight-toc a[aria-current='true'] {
 /* Figures in the serif stay lining: some fallback serifs (Georgia) draw old-style figures,
    which make "1999" in a title look like small letters. */
 .content-panel h1#_top,
-.sl-markdown-content :is(h2, h3, th),
+.sl-markdown-content :is(h2, h3, h4, th),
 .site-title {
 	font-variant-numeric: lining-nums;
 }

@@ -78,6 +78,9 @@ def check(path):
     # prose of the site; their own sentences are fixed templates there. The index pages are checked.
     if rel.startswith('story/') and not re.match(r'story/(main|events|characters|characters-2|anecdotes|other)\.md$', rel):
         return []
+    # Profile pages hold the game's file text and voice lines (pipeline/profile.py), likewise.
+    if re.match(r'arcanists/[^/]+/profile\.md$', rel):
+        return []
     allowed = ALLOW.get(rel, set())
     jako = re.search(r'src/content/docs/(ja|ko)/', norm) is not None
     hits = []

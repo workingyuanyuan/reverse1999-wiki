@@ -30,7 +30,7 @@ import { fileURLToPath } from 'node:url';
 import { JSDOM } from 'jsdom';
 import { Readability } from '@mozilla/readability';
 import TurndownService from 'turndown';
-import { SITE, LOCALES, LLMS_NOTES, localeOf, bareId, idInLocale, htmlPath, mdPath, llmsPath, withBase, isStage, isStoryText } from '../src/lib/site.mjs';
+import { SITE, LOCALES, LLMS_NOTES, localeOf, bareId, idInLocale, htmlPath, mdPath, llmsPath, withBase, isStage, isStoryText, isProfile, isGameText } from '../src/lib/site.mjs';
 import { bundlePath } from '../src/lib/llms.mjs';
 import { readPages, readPending } from '../src/lib/content-index.mjs';
 import { checkFound } from './check-found.mjs';
@@ -214,7 +214,7 @@ for (const [k, { id, data }] of pages.entries()) {
 	if (!doc.querySelector('script[type="application/ld+json"]')) fail(id, 'missing JSON-LD');
 
 	// 7. Bundles and the pointer for agents
-	for (const set of isStage(id) ? [] : ['full', 'small']) {
+	for (const set of isStage(id) || isProfile(id) ? [] : ['full', 'small']) {
 		const path = bundlePath(localeOf(id), set);
 		if (!bundles.has(path)) bundles.set(path, normalize(read(path.slice(1))));
 		const bundle = bundles.get(path);
@@ -308,10 +308,14 @@ for (const [k, { id, data }] of pages.entries()) {
 		// stage page. A chapter page that a story index lists is an index of its stages.
 		const chapters = mine.filter((p) => /\/story\/[^/]+$/.test('/' + p.id) && !direct.includes(p) && linksTo(indexHeads, p));
 		const chapterHeads = await extractHeads(chapters);
+		// A profile page takes the same step: home page, Afflatus index, arcanist page, profile page.
+		const arcanists = mine.filter((p) => /\/arcanists\/[^/]+$/.test('/' + p.id) && !direct.includes(p) && linksTo(indexHeads, p));
+		const arcanistHeads = await extractHeads(arcanists.filter((p) => mine.some((o) => o.id === p.id + '/profile')));
 		for (const other of mine) {
 			if (direct.includes(other)) continue;
 			const link = [`(${withBase(htmlPath(other.id))})`, `(${SITE}${htmlPath(other.id)})`];
 			if (/\/story\/[^/]+\/[^/]+$/.test('/' + other.id) && linksTo(chapterHeads, other)) continue;
+			if (isProfile(other.id) && linksTo(arcanistHeads, other)) continue;
 			if (!indexHeads.some((h) => link.some((l) => h.includes(l)))) {
 				fail(id, `${htmlPath(other.id)} is linked neither from the home page nor from an index page it links, within the first ${LIMIT} extracted characters`);
 			}
@@ -326,7 +330,20 @@ for (const [k, { id, data }] of pages.entries()) {
 		outputs: [withBase(mdPath(id)), withBase(llmsPath(localeOf(id))), withBase('/index.json')],
 	});
 	// Chapter and stage pages of the story quote the game's text, in which characters speak of pages.
-	if (!isStoryText(id)) checkSelfReference(doc, id, fail);
+	if (!isGameText(id)) checkSelfReference(doc, id, fail);
+	// Profile pages turn the client's <i>, <b> and <s> into *, ** and ~~ (pipeline/profile.py). A
+	// mark that CommonMark does not read shows as a literal character: the page shows exactly as
+	// many asterisks and tildes as the twin escapes.
+	if (isProfile(id)) {
+		const content = doc.querySelector('.sl-markdown-content')?.cloneNode(true);
+		content?.querySelectorAll('script, style').forEach((e) => e.remove());
+		const shown = content?.textContent ?? '';
+		for (const c of ['*', '~']) {
+			const want = md.split('\\' + c).length - 1;
+			const got = shown.split(c).length - 1;
+			if (got !== want) fail(id, `${got - want} ${c} mark(s) of the game's rich text were not read as Markdown`);
+		}
+	}
 
 	// 5. No decoration leak into extracted text.
 	const visible = normalize(doc.body.textContent);
@@ -336,7 +353,7 @@ for (const [k, { id, data }] of pages.entries()) {
 		['rhombus before a name', /(^|\s)[◆◇♦❖]\s?\S/],
 	]) {
 		// The game's own text may hold a rhombus.
-		if (!isStoryText(id) && pattern.test(visible)) fail(id, `decoration leaked into page text: ${name}`);
+		if (!isGameText(id) && pattern.test(visible)) fail(id, `decoration leaked into page text: ${name}`);
 	}
 	// The skin draws a rhombus before each section heading. It may not be typed into one.
 	for (const h of doc.querySelectorAll('main h1, main h2, main h3')) {

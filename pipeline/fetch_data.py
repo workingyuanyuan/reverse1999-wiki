@@ -34,6 +34,7 @@ TABLES = [
 	'resonance', 'character_talent', 'talent_cube_attr', 'talent_cube_shape', 'talent_mould', 'talent_scheme',
 	'talent_style', 'talent_style_cost', 'talent_effectiveness', 'talent_upgrade_item',  # Resonance
 	'chapter', 'episode',  # story chapters and stages: codes, names, in-game dates
+	'character_data', 'character_voice', 'skin',  # arcanist profiles: file, items, culture, voice lines, outfits
 ]
 FILES = {
 	'cn': ['data/meta.json'] + [f'data/json/{t}.json' for t in TABLES],

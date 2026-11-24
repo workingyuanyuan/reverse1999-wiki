@@ -106,8 +106,10 @@ def page(src, rel):
 
 base = os.path.join(root, 'zh-tw')
 files = sorted(glob.glob(base + '/**/*.md', recursive=True))
-# The story pages of zh-cn hold the mainland client's own text: pipeline/story.py writes them.
-files = [f for f in files if not os.path.relpath(f, base).startswith('story' + os.sep)]
+# The story and profile pages of zh-cn hold the mainland client's own text: pipeline/story.py
+# and pipeline/profile.py write them.
+files = [f for f in files if not os.path.relpath(f, base).startswith('story' + os.sep)
+    and not re.match(r'arcanists/[^/]+/profile\.md$', os.path.relpath(f, base).replace(os.sep, '/'))]
 for f in files:
     page(f, os.path.relpath(f, base))
 print(len(files), 'pages written to', os.path.join(root, 'zh-cn'))

@@ -2,7 +2,7 @@
 // Replaces starlight-llms-txt, which bundled the default language only and left
 // out each page's caveat, dates and sources.
 
-import { SITE, TITLE, LOCALES, LLMS_NOTES, localeOf, bareId, mdPath, llmsPath, isStage } from './site.mjs';
+import { SITE, TITLE, LOCALES, LLMS_NOTES, localeOf, bareId, mdPath, llmsPath, isStage, isProfile } from './site.mjs';
 import { pageHeader, pageMarkdown } from './page-md.mjs';
 
 /** Home page first, then by id. */
@@ -50,7 +50,8 @@ export function llmsIndex(entries, locale) {
 /** One language in one file. `full` keeps page bodies; `small` keeps the headers only. */
 export function llmsBundle(entries, locale, set) {
 	const allIds = new Set(entries.map((e) => e.id));
-	const pages = ordered(entries.filter((e) => localeOf(e.id) === locale && !isStage(e.id)));
+	// Profile pages are game text, like stages; llms.txt lists them (LLMS_NOTES says so).
+	const pages = ordered(entries.filter((e) => localeOf(e.id) === locale && !isStage(e.id) && !isProfile(e.id)));
 	const render = set === 'full' ? (e) => pageMarkdown(e, allIds).trim() : (e) => pageHeader(e, allIds);
 	return pages.map(render).join('\n\n\n') + '\n';
 }

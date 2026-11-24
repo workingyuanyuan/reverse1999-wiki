@@ -37,6 +37,7 @@ sources:
 | Psychubes recommended in game | [Her Bright Future](/psychubes/her-bright-future/), [Her Second Life](/psychubes/her-second-life/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/sonetto/profile/) |
 
 Sonetto is one of the launch arcanists. Her kit pairs a single-target attack that disarms with a team buff that raises damage dealt and lowers damage taken; her own damage rises while she holds a buff.
 

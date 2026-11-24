@@ -54,7 +54,8 @@ VERSION_ONLY = {'drake': '4.0', 'glyndwr': '4.0'}
 L = {
 	'en': dict(
 		dir='', stars='{n} stars', head=('Field', 'Value'),
-		rows=('Rarity', 'Afflatus', 'Damage', 'Tags', 'Resonance Patterns', 'Psychubes recommended in game', 'Mainland release', 'Global release'),
+		rows=('Rarity', 'Afflatus', 'Damage', 'Tags', 'Resonance Patterns', 'Psychubes recommended in game', 'Mainland release', 'Global release', 'Profile'),
+		prof='[Cover, items, stories, skins and voice lines](/arcanists/{s}/profile/)',
 		res='[{s} set](/systems/resonance/): {p}',
 		afflatus={'Star': 'Star', 'Mineral': 'Mineral', 'Beast': 'Beast', 'Plant': 'Plant', 'Spirit': 'Spirit', 'Intellect': 'Intellect', 101: 'Mineral and Star'},
 		damage={'Reality': 'Reality', 'Mental': 'Mental'}, tagsep=', ',
@@ -80,7 +81,8 @@ L = {
 	),
 	'zh-tw': dict(
 		dir='zh-tw/', stars='{n} 星', head=('項目', '內容'),
-		rows=('稀有度', '靈感', '創傷類型', '標籤', '共鳴調頻', '遊戲內推薦的心相', '中國大陸版上線', '國際版上線'),
+		rows=('稀有度', '靈感', '創傷類型', '標籤', '共鳴調頻', '遊戲內推薦的心相', '中國大陸版上線', '國際版上線', '檔案'),
+		prof='[封面、單品、文化、皮膚與語音](/zh-tw/arcanists/{s}/profile/)',
 		res='[{s}組](/zh-tw/systems/resonance/)：{p}',
 		afflatus={'Star': '星', 'Mineral': '岩', 'Beast': '獸', 'Plant': '木', 'Spirit': '靈', 'Intellect': '智', 101: '岩與星'},
 		damage={'Reality': '現實', 'Mental': '精神'}, tagsep='、',
@@ -106,7 +108,8 @@ L = {
 	),
 	'ja': dict(
 		dir='ja/', stars='★{n}', head=('項目', '内容'),
-		rows=('レア度', '本源', 'ダメージタイプ', 'タグ', '共鳴の変調', 'ゲーム内のおすすめ心相', '中国本土版の実装', 'グローバル版の実装'),
+		rows=('レア度', '本源', 'ダメージタイプ', 'タグ', '共鳴の変調', 'ゲーム内のおすすめ心相', '中国本土版の実装', 'グローバル版の実装', 'プロフィール'),
+		prof='[表紙、単品、文化、コスチューム、ボイス](/ja/arcanists/{s}/profile/)',
 		res='[{s}グループ](/ja/systems/resonance/)：{p}',
 		afflatus={'Star': '星', 'Mineral': '岩', 'Beast': '獣', 'Plant': '木', 'Spirit': '霊', 'Intellect': '知', 101: '岩と星'},
 		damage={'Reality': 'リアル', 'Mental': 'メンタル'}, tagsep='、',
@@ -132,7 +135,8 @@ L = {
 	),
 	'ko': dict(
 		dir='ko/', stars='{n}성', head=('항목', '내용'),
-		rows=('희귀도', '영감', '피해 유형', '태그', '공명 변조', '게임 내 추천 의지', '중국 본토 출시', '글로벌 출시'),
+		rows=('희귀도', '영감', '피해 유형', '태그', '공명 변조', '게임 내 추천 의지', '중국 본토 출시', '글로벌 출시', '프로필'),
+		prof='[표지, 물품, 문화, 스킨, 음성](/ko/arcanists/{s}/profile/)',
 		res='[{s} 그룹](/ko/systems/resonance/): {p}',
 		afflatus={'Star': '천체', 'Mineral': '암석', 'Beast': '야수', 'Plant': '나무', 'Spirit': '영혼', 'Intellect': '지능', 101: '암석과 천체'},
 		damage={'Reality': '현실', 'Mental': '정신'}, tagsep=', ',
@@ -209,6 +213,13 @@ def _resonance():
 	return write_systems.resonance_data()
 
 
+def profile_link(slug, lang):
+	"""The Profile cell: a link to the arcanist's profile page (pipeline/profile.py), where it exists."""
+	if not (DOCS / 'arcanists' / slug / 'profile.md').exists():
+		return None
+	return L[lang]['prof'].format(s=slug)
+
+
 def resonance(slug, lang):
 	"""The Resonance Patterns cell: the arcanist's set (the shape of the main Idea) and its five patterns besides the default."""
 	import gamedata
@@ -279,7 +290,7 @@ def blocks(slug, lang):
 	tags = t['tagsep'].join(TAGS.get(z, {}).get(lang, z) for z in a['tagsZh'])
 	mainland, glob = release(a, lang)
 	vals = (t['stars'].format(n=a['stars']), t['afflatus'][a['afflatus']], t['damage'][a['damage']], tags, resonance(slug, lang),
-		psychubes(slug, lang), mainland, glob)
+		psychubes(slug, lang), mainland, glob, profile_link(slug, lang))
 	out['profile'] = '\n'.join([f'| {t["head"][0]} | {t["head"][1]} |', '| --- | --- |']
 		+ [f'| {k} | {v} |' for k, v in zip(t['rows'], vals) if v is not None])
 	# Insight materials
