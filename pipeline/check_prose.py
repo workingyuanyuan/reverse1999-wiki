@@ -65,7 +65,10 @@ ALLOW = {
 
 ALL_PAGES = False
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from kit_text import GAME_KIT  # noqa: E402
+# Every arcanist page's kit is written by pipeline/kit_text.py. Read from the records, not from
+# cache/source as kit_text.py does: the deploy has no cache/.
+import json  # noqa: E402
+GAME_KIT = {a['slug'] for a in json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'records', 'arcanists.json'), encoding='utf8'))['arcanists']}
 
 
 def body_of(text):
