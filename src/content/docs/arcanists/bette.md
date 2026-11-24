@@ -37,31 +37,35 @@ sources:
 | Psychubes recommended in game | [Off the Scene](/psychubes/off-the-scene/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Bette is a launch support. Her Ultimate gives one ally a shield and two rounds of [Empower Incantation II], which ranks up random incantations at the start of each round; Important Part cuts the damage one ally takes, and Classic Shot is a plain attack with extra Penetration Rate.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/bette/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Classic Shot (single-target attack) | 160% Reality DMG | 240% | 400% |
-| Important Part (single-ally buff) | Reality DEF and Mental DEF +25%, DMG Taken −25%; 2 rounds | +30%, −30%; 2 rounds | +35%, −35%; 3 rounds |
+### Classic Shot
 
-Classic Shot has Penetration Rate +30% at every rank.
+**Rank 1**: 1-target attack. Deals 160% Reality DMG. This attack gains Penetration Rate +30%.
+
+**Rank 2**: 1-target attack. Deals 240% Reality DMG. This attack gains Penetration Rate +30%.
+
+**Rank 3**: 1-target attack. Deals 400% Reality DMG. This attack gains Penetration Rate +30%.
+
+### Important Part
+
+**Rank 1**: 1-target buff. Grants Reality DEF and Mental DEF +25% and DMG Taken -25% to the target for 2 rounds.
+
+**Rank 2**: 1-target buff. Grants Reality DEF and Mental DEF +30% and DMG Taken -30% to the target for 2 rounds.
+
+**Rank 3**: 1-target buff. Grants Reality DEF and Mental DEF +35% and DMG Taken -35% to the target for 3 rounds.
 
 ## Ultimate: Every Audition
 
-Gives one chosen ally a [Shield] with HP equal to 100% of Bette's ATK and puts that ally in [Empower Incantation II]; both last 2 rounds.
-
-- [Shield]: absorbs damage while it lasts.
-- [Empower Incantation II]: at the start of each round, 2 random incantations go up 1 rank.
+1-target buff. Gives one selected ally a \[Shield\] with (the caster's ATK ×100%) HP and inflicts \[Empower Incantation II\] on the target for 2 rounds.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | After Bette casts her Ultimate, the other ally with the lowest Moxie gains 1 Moxie. |
-| 2 | DMG Taken −8% on entering battle. |
+**Insight 1 · Inspiring Story**: After casting the Ultimate, Moxie +1 for the ally with the lowest Moxie.
+
+**Insight 2 · Inspiring Story Ⅱ**: DMG Taken -8% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -70,13 +74,20 @@ Gives one chosen ally a [Shield] with HP equal to 100% of Bette's ATK and puts t
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate's shield holds HP equal to 130% of her ATK. |
-| 2 | Classic Shot has Penetration Rate +40%. |
-| 3 | The Ultimate's shield holds 160% of her ATK. |
-| 4 | The Ultimate's shield holds 200% of her ATK. |
-| 5 | The Ultimate's shield holds 250% of her ATK. |
+**Portrait 1**: **Every Audition**'s effect changes to: inflicts a \[Shield\] with (the caster's ATK ×130%) HP on a single ally.
+
+**Portrait 2**: **Classic Shot**'s effect changes to: Penetration Rate +40%.
+
+**Portrait 3**: **Every Audition**'s effect changes to: inflicts a \[Shield\] with (the caster's ATK ×160%) HP on a single ally.
+
+**Portrait 4**: **Every Audition**'s effect changes to: inflicts a \[Shield\] with (the caster's ATK ×200%) HP on a single ally.
+
+**Portrait 5**: **Every Audition**'s effect changes to: inflicts a \[Shield\] with (the caster's ATK ×250%) HP on a single ally.
+
+## Statuses
+
+- **Shield**: Blocks certain DMG for a certain duration.
+- **Empower Incantation II**: At the start of the round, 2 random incantations gain rank +1.
 
 ## Names
 

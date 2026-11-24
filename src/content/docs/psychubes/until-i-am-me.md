@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- On entering battle, a Mineral carrier gains Critical DMG +12/15/18/21/24% (Amplification 1 to 5).
-- When the carrier attacks with a [Sovereign Incantation], it gains Ultimate Might +6/7.5/9/10.5/12% and Incantation Might +6/7.5/9/10.5/12%.
+**Amplification 1**: When entering battle, if the carrier is a \[Mineral\] character, gains Critical DMG +12%.
+
+When the carrier attacks with a \[Sovereign Incantation\], gains Ultimate Might +6% and Incantation Might +6%.
+
+**Amplification 2**: When entering battle, if the carrier is a \[Mineral\] character, gains Critical DMG +15%.
+
+When the carrier attacks with a \[Sovereign Incantation\], gains Ultimate Might +7.5% and Incantation Might +7.5%.
+
+**Amplification 3**: When entering battle, if the carrier is a \[Mineral\] character, gains Critical DMG +18%.
+
+When the carrier attacks with a \[Sovereign Incantation\], gains Ultimate Might +9% and Incantation Might +9%.
+
+**Amplification 4**: When entering battle, if the carrier is a \[Mineral\] character, gains Critical DMG +21%.
+
+When the carrier attacks with a \[Sovereign Incantation\], gains Ultimate Might +10.5% and Incantation Might +10.5%.
+
+**Amplification 5**: When entering battle, if the carrier is a \[Mineral\] character, gains Critical DMG +24%.
+
+When the carrier attacks with a \[Sovereign Incantation\], gains Ultimate Might +12% and Incantation Might +12%.
 
 ## Names
 

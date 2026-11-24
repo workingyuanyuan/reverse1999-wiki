@@ -37,30 +37,35 @@ sources:
 | Psychubes recommended in game | [The Severed and the Rest](/psychubes/the-severed-and-the-rest/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Mesmer Jr. strips buffs from one enemy, raises the team's Mental DEF and hands out [Stabilize], which cuts the next Mental DMG hit. Her Ultimate spreads [Paralyze] over all enemies and puts a second stack on the main target, which turns into Daze.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/mesmer-jr/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Magnetic Current (single-target attack) | 200% Mental DMG | 250%; dispels all Stats Up and Pos Status | 450%; dispels all Stats Up and Pos Status |
-| Inhibition Ring (team buff) | allies Mental DEF +10%, 2 rounds; 1 Stabilize | +15%, 2 rounds; 1 Stabilize | +20%, 2 rounds; 2 Stabilize |
+### Magnetic Current
 
-[Stabilize]: when the holder is hit by Mental DMG, DMG Taken Reduction +30%; each hit uses one stack.
+**Rank 1**: 1-target attack. Deals 200% Mental DMG.
+
+**Rank 2**: 1-target attack. Deals 250% Mental DMG and dispels all \[Stats Up\] and \[Pos Status\] statuses from the target.
+
+**Rank 3**: 1-target attack. Deals 450% Mental DMG and dispels all \[Stats Up\] and \[Pos Status\] statuses from the target.
+
+### Inhibition Ring
+
+**Rank 1**: Mass buff. Mental DEF +10% for all allies for 2 rounds and gives the caster 1 stack of \[Stabilize\].
+
+**Rank 2**: Mass buff. Mental DEF +15% for all allies for 2 rounds and gives the caster 1 stack of \[Stabilize\].
+
+**Rank 3**: Mass buff. Mental DEF +20% for all allies for 2 rounds and inflicts 2 stacks of \[Stabilize\] on them.
 
 ## Ultimate: Artificial Somnambulism Therapy
 
-Deals 200% Mental DMG to all enemies and puts 1 stack of [Paralyze] on each enemy hit, with 1 more stack on the main target.
-
-[Paralyze]: at 2 stacks it turns into Daze, or adds 1 round to a Daze the holder already has.
+Mass attack. Deals 200% Mental DMG to all enemies. Inflicts 1 stack of \[Paralyze\] on the targets hit and 1 additional stack of \[Paralyze\] on the main target.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Blocking Agent: at the end of every 2 rounds, the ally with the lowest HP percentage gains 1 stack of Stabilize. |
-| 2 | Reality DEF and Mental DEF +10% on entering battle. |
+**Insight 1 · Blocking Agent**: At the end of every 2 rounds, inflicts 1 stack of \[Stabilize\] on the ally with the lowest HP percentage.
+
+**Insight 2 · Blocking Agent Ⅱ**: Reality DEF and Mental DEF +10% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -69,13 +74,20 @@ Deals 200% Mental DMG to all enemies and puts 1 stack of [Paralyze] on each enem
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 225%. |
-| 2 | Magnetic Current deals 220, 280 or 500% by rank. |
-| 3 | The Ultimate deals 250%. |
-| 4 | The Ultimate deals 275%. |
-| 5 | The Ultimate deals 325%. |
+**Portrait 1**: **Artificial Somnambulism Therapy**'s effect changes to: deals 225% Mental DMG.
+
+**Portrait 2**: **Magnetic Current**'s effect changes to: at 1/2/3 stars, deals 220/280/500% Mental DMG.
+
+**Portrait 3**: **Artificial Somnambulism Therapy**'s effect changes to: deals 250% Mental DMG.
+
+**Portrait 4**: **Artificial Somnambulism Therapy**'s effect changes to: deals 275% Mental DMG.
+
+**Portrait 5**: **Artificial Somnambulism Therapy**'s effect changes to: deals 325% Mental DMG.
+
+## Statuses
+
+- **Stabilize**: When attacked by Mental DMG, DMG Taken Reduction +30% (-1 stack after trigger).
+- **Paralyze**: When there are 2 stacks, turns into Daze status or extends the duration of existing Daze status for 1 round.
 
 ## Names
 

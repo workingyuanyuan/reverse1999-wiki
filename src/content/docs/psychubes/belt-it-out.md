@@ -40,7 +40,15 @@ sources:
 
 ## Effect
 
-On entering battle, for each Star character present, the carrier included, all allied Star characters get DMG Dealt +2/2.5/3/3.5/4%, up to 4 stacks (Amplification 1 to 5).
+**Amplification 1**: When entering battle, for each character present with the \[Star\] afflatus, including the carrier, all allied \[Star\] afflatus characters gain DMG Dealt +2%, stacking up to 4 times.
+
+**Amplification 2**: When entering battle, for each character present with the \[Star\] afflatus, including the carrier, all allied \[Star\] afflatus characters gain DMG Dealt +2.5%, stacking up to 4 times.
+
+**Amplification 3**: When entering battle, for each character present with the \[Star\] afflatus, including the carrier, all allied \[Star\] afflatus characters gain DMG Dealt +3%, stacking up to 4 times.
+
+**Amplification 4**: When entering battle, for each character present with the \[Star\] afflatus, including the carrier, all allied \[Star\] afflatus characters gain DMG Dealt +3.5%, stacking up to 4 times.
+
+**Amplification 5**: When entering battle, for each character present with the \[Star\] afflatus, including the carrier, all allied \[Star\] afflatus characters gain DMG Dealt +4%, stacking up to 4 times.
 
 ## Names
 

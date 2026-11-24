@@ -1,6 +1,6 @@
 ---
 title: "轶事"
-description: "重返未来：1999 的轶事：每一章、各关卡与剧情全文。"
+description: "重返未来：1999 的轶事：共 33 章、240 关。"
 appliesTo: "重返未来：1999，中国大陆版客户端 113.0.1422（4.1 版），简体中文文本"
 caveat: "文本是中国大陆版的简体中文；国际版落后两个版本，繁体中文等语言的部分台词措辞不同。"
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global，国际版客户端 111.0.1077：chapter.json 与 episode.json（关卡编号、游戏内时间）"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-重返未来：1999 的轶事。章节页列出各关卡；关卡页收录该关的剧情全文与小径。
-
 | 章节 | 关卡数 | 小径 |
 | --- | --- | --- |
 | [风暴里，雏鹰振翅](/zh-cn/story/the-eaglet-takes-wing/) | 8 | 0 |
@@ -53,9 +51,7 @@ sources:
 | [字母的研究](/zh-cn/story/finding-xavier/) | 8 | 0 |
 | [风吹乌哈拉](/zh-cn/story/the-winds-of-juhalerat/) | 8 | 0 |
 
-## 仅中国大陆版
-
-只在中国大陆版上线的章节，以简体中文名称列出：
+## 仅中国大陆版（简体中文名称）
 
 - 天真的预言
 - 奇遇之夜

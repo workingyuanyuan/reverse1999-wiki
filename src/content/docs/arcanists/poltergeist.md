@@ -37,32 +37,35 @@ sources:
 | Psychubes recommended in game | [Long Night Talk](/psychubes/long-night-talk/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Poltergeist is one of the launch arcanists. She has two single-target Mental attacks, one with extra Penetration Rate and one that lowers the target's Mental DEF from rank 2 on. Her Ultimate makes her taunt enemies while she takes less damage and gains DMG Heal, and she starts battle concealed from Reality attacks.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/poltergeist/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Prank (single-target attack) | 160% Mental DMG | 240% | 400% |
-| Whispering Words (single-target attack) | 200% Mental DMG | 200%; Mental DEF −25% for 2 rounds | 350%; Mental DEF −35% for 3 rounds |
+### Prank
 
-Prank has Penetration Rate +30% at every rank.
+**Rank 1**: 1-target attack. Deals 160% Mental DMG. This attack gains Penetration Rate +30%.
+
+**Rank 2**: 1-target attack. Deals 240% Mental DMG. This attack gains Penetration Rate +30%.
+
+**Rank 3**: 1-target attack. Deals 400% Mental DMG. This attack gains Penetration Rate +30%.
+
+### Whispering Words
+
+**Rank 1**: 1-target attack. Deals 200% Mental DMG.
+
+**Rank 2**: 1-target attack. Deals 200% Mental DMG. Inflicts Mental DEF -25% for 2 rounds on the target hit.
+
+**Rank 3**: 1-target attack. Deals 350% Mental DMG. Inflicts Mental DEF -35% for 3 rounds on the target hit.
 
 ## Ultimate: The Sun Is Not Gentle
 
-Poltergeist enters [Taunt] for 3 rounds, with DMG Taken −20% and DMG Heal +20% for those rounds, and enters [Concealment] for 1 round. The card is a self counter.
-
-[Taunt]: draws the enemies' attention; some attacks have to target its holder first.
-
-[Concealment]: dodges Reality DMG from attacks that are not Ultimates.
+Self counter. Enters \[Taunt\]: DMG Taken -20% and DMG Heal +20% for 3 rounds. Also enters \[Concealment\] for 1 round.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | On entering battle, Poltergeist enters Concealment for 2 rounds, once per battle. |
-| 2 | DMG Heal +10% on entering battle. |
+**Insight 1 · Good Girl**: When entering battle, enters \[Concealment\] status for 2 rounds (only triggers 1 time).
+
+**Insight 2 · Good Girl Ⅱ**: DMG Heal +10% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -71,13 +74,20 @@ Poltergeist enters [Taunt] for 3 rounds, with DMG Taken −20% and DMG Heal +20%
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate gives DMG Heal +35%. |
-| 2 | Prank has Penetration Rate +40%. |
-| 3 | The Ultimate gives DMG Taken −30%. |
-| 4 | Whispering Words deals 220, 230 or 400% by rank. |
-| 5 | The Ultimate gives DMG Heal +50%. |
+**Portrait 1**: **The Sun Is Not Gentle**'s effect changes to: DMG Heal Rate +35%.
+
+**Portrait 2**: **Prank**'s effect changes to: Penetration Rate +40%.
+
+**Portrait 3**: **The Sun Is Not Gentle**'s effect changes to: DMG Taken -30%.
+
+**Portrait 4**: **Whispering Words**: at rank 1/2/3, deals 220/230/400% Mental DMG.
+
+**Portrait 5**: **The Sun Is Not Gentle**'s effect changes to: DMG Heal Rate +50%.
+
+## Statuses
+
+- **Taunt**: Draws the enemy's attention. When taking certain attacks, becomes the priority of the attacks.
+- **Concealment**: Dodges Reality DMG dealt by non-Ultimate attacks.
 
 ## Names
 

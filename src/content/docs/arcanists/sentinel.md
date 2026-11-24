@@ -37,41 +37,45 @@ sources:
 | Psychubes recommended in game | [Homecoming Lament](/psychubes/homecoming-lament/), [Outside the City](/psychubes/outside-the-city/) |
 | Mainland release | 2025-06-26 |
 | Global release | 2025-10-30 |
-
-Sentinel belongs to the Bloodtithe group, whose team builds Bloodtithe as it loses HP. Sentinel's attacks count as [Retribution], so Max HP sets their damage; Night Watch starts the [Hour of Repentance] channel, which answers enemy actions with rank-1 Expiations, and hands [Dread Bullet] stacks to the ally in front. The Insight 1 passive raises the Critical Rate and DMG Bonus of every ally that holds Dread Bullets.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/sentinel/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Expiation (single-target attack) | 130% Reality DMG; 2 Fresh Wound | 195%; 3 | 325%; 5 |
-| Night Watch (self channel) | 6 Dread Bullet | 9 | 15 |
+### Expiation
 
-- **Expiation** is a Retribution attack. After it, Sentinel gains the stacks of [Fresh Wound] in the table, and the team gains 1 Bloodtithe when the card is cast actively.
-- **Night Watch** puts Sentinel in Hour of Repentance with the Dread Bullets in the table, and adds 2 stacks of [Locked On] if Sentinel was not in Hour of Repentance before. It spends 1 Bloodtithe to give the adjacent ally in front the same number of Dread Bullets.
+**Rank 1**: 1-target attack. Deals 130% Reality DMG. This attack counts as a \[Retribution\]. After attacking, gains 2 stacks of \[Fresh Wound\]; gains an extra \[Bloodtithe\] +1 if actively used.
+
+**Rank 2**: 1-target attack. Deals 195% Reality DMG. This attack counts as a \[Retribution\]. After attacking, gains 3 stacks of \[Fresh Wound\]; gains an extra \[Bloodtithe\] +1 if actively used.
+
+**Rank 3**: 1-target attack. Deals 325% Reality DMG. This attack counts as a \[Retribution\]. After attacking, gains 5 stacks of \[Fresh Wound\]; gains an extra \[Bloodtithe\] +1 if actively used.
+
+### Night Watch
+
+**Rank 1**: Self channel. Enters the \[Hour of Repentance\] status and gains 6 stacks of \[Dread Bullet\]; additionally gains 2 stacks of \[Locked On\] if not already under \[Hour of Repentance\]. Consumes 1 point of Bloodtithe to grant 6 stacks of \[Dread Bullet\] to the adjacent ally in front.
+
+**Rank 2**: Self channel. Enters the \[Hour of Repentance\] status and gains 9 stacks of \[Dread Bullet\]; additionally gains 2 stacks of \[Locked On\] if not already under \[Hour of Repentance\]. Consumes 1 point of Bloodtithe to grant 9 stacks of \[Dread Bullet\] to the adjacent ally in front.
+
+**Rank 3**: Self channel. Enters the \[Hour of Repentance\] status and gains 15 stacks of \[Dread Bullet\]; additionally gains 2 stacks of \[Locked On\] if not already under \[Hour of Repentance\]. Consumes 1 point of Bloodtithe to grant 15 stacks of \[Dread Bullet\] to the adjacent ally in front.
 
 ## Ultimate: Infernal Mercy
 
-Deals 300% Reality DMG to all enemies as a Retribution attack; the card does not count toward the Incantation Draw Limit. Each stack of Fresh Wound raises the Retribution multiplier by 2%. Then all Fresh Wound is removed, and each stack removed heals Sentinel by 5% of missing HP.
+Mass attack. Deals 300% Reality DMG to all enemies. This attack counts as a \[Retribution\]; does not take up the allied Incantation Draw Limit.
 
-## Statuses
+For every stack of \[Fresh Wound\] owned, \[Retribution\] multiplier +2%.
 
-| Status | Effect |
-| --- | --- |
-| Retribution | The attack counts its damage from 20% of the attacker's Max HP instead of ATK. |
-| Bloodtithe | 1 point for every 3,000 HP the team loses; HP lost to attacks counts only 30%. Cannot exist alongside Lingering Glow or the Pursuit Scope. |
-| Fresh Wound | At the start of each round, the holder loses 1.5% of Max HP for each stack, never more than its current HP; Bloodtithe from that loss is raised by 50%. Up to 20 stacks. |
-| Hour of Repentance | A channel. At the start of each round Sentinel gains 2 Locked On. After each enemy action, 1 Locked On is spent to cast a rank-1 Expiation at that enemy; at the end of the enemy round all remaining Locked On are spent, each casting a rank-1 Expiation at a random enemy, bosses first. These Expiations have Retribution multiplier +10%. The channel ends when an attack uses up Sentinel's Dread Bullets. |
-| Dread Bullet | Each attack deals 75% more DMG of the holder's damage type, counted from 20% of the holder's Max HP instead of ATK; 1 stack is removed after the attack. |
-| Locked On | Spent by other effects. |
+Removes all stacks of \[Fresh Wound\] from self; each stack of \[Fresh Wound\] removed restores (Missing HP x5%) HP.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | The team builds Bloodtithe when it loses HP. Allies holding Dread Bullet gain Critical Rate +30%. When an ally's attack triggers Dread Bullet, that ally gains DMG Bonus equal to 0.25% of its Max HP, and 80% of its excess Critical Rate turns into Critical DMG. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | Each time an attack triggers a Bullet, a 50% chance: with less than 5 Moxie, Sentinel gains 1 Moxie; otherwise 1 stack of Fresh Wound. |
+**Insight 1 · Sin Brought to Light**: The team accumulates \[Bloodtithe\] when losing HP.
+
+When an ally has \[Dread Bullet\], they gain Critical Rate +30%.
+
+When an ally triggers \[Dread Bullet\], they gain DMG Bonus +(carrier's Max HP x0.25%), with excess Critical Rate converted into 80% Critical DMG.
+
+**Insight 2 · Sin Brought to Light II**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · Sin Brought to Light III**: When triggering Bullet effect, has a 50% chance to trigger this effect: If below 5 Moxie, gains Moxie +1; gains 1 stack of \[Fresh Wound\] otherwise.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -81,13 +85,31 @@ Deals 300% Reality DMG to all enemies as a Retribution attack; the card does not
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Critical Rate bonus for Dread Bullet holders becomes +40%; the DMG Bonus becomes 0.3% of Max HP; Fresh Wound raises the Bloodtithe from its HP loss by 100%. |
-| 2 | Night Watch gives Sentinel and the ally in front 9, 12 or 18 Dread Bullets by rank; Hour of Repentance gives 3 Locked On each round. |
-| 3 | Expiation deals 150, 225 or 375% by rank; Expiations cast by Hour of Repentance have Retribution multiplier +15%. |
-| 4 | The Ultimate deals 450%. |
-| 5 | The Critical Rate bonus for Dread Bullet holders becomes +60%; the DMG Bonus becomes 0.4% of Max HP; all excess Critical Rate (100%) turns into Critical DMG. |
+**Portrait 1**: **Sin Brought to Light**: \[Dread Bullet\]'s Critical Rate bonus is increased to 40%; when attacking, DMG Bonus multiplier based on Max HP is increased to 0.3%. The ratio of Bloodtithe points increased from \[Fresh Wound\] is increased to 100%.
+
+**Portrait 2**: **Night Watch**: The number of \[Dread Bullet\] stacks granted to self and the adjacent ally in front is increased to 9/12/18. At the start of the round, the number of \[Locked On\] stacks granted by \[Hour of Repentance\] is increased to 3.
+
+**Portrait 3**: **Expiation**: The Reality DMG dealt is increased to 150/225/375%. \[Retribution\] multiplier granted by \[Hour of Repentance\] is increased to 15%.
+
+**Portrait 4**: **Infernal Mercy**: The Reality DMG dealt is increased to 450%.
+
+**Portrait 5**: **Sin Brought to Light**: \[Dread Bullet\]'s Critical Rate bonus is increased to 60%; when attacking, DMG Bonus multiplier based on Max HP is increased to 0.4%; the "excess Critical Rate to Critical DMG" conversion rate is increased to 100%.
+
+## Statuses
+
+- **Retribution**: Deals DMG based on 20% of the user's Max HP instead of ATK.
+- **Fresh Wound**: At the start of the round, loses (own Max HP x1.5% x the number of stacks of this status) HP. Gains 50% increased points of Bloodtithe gained by this HP loss (stackable up to 20 times; the HP loss cannot exceed Current HP).
+- **Bloodtithe**: Whenever allies lose 3000 HP combined, accumulate 1 point of \[Bloodtithe\]; HP lost from being attacked accumulates \[Bloodtithe\] at only 30% efficiency.
+- **Hour of Repentance**: At the start of the round, gains 2 stacks of \[Locked On\]. After an enemy takes an action, consumes 1 stack of \[Locked On\] to cast rank 1 \[Expiation\] on them 1 time.
+
+  At the end of the enemy round, consumes all stacks of \[Locked On\]. For every stack consumed, casts rank 1 \[Expiation\] on a random enemy (boss prioritized) 1 time.
+
+  \[Expiation\] cast this way gains \[Retribution\] multiplier +10%.
+
+  This channel status ends when using up \[Dread Bullet\] after attacking.
+- **Dread Bullet**: When attacking, deals 75% additional Reality/Mental DMG (based on user's DMG type). This DMG is based on 20% of the user's Max HP instead of ATK. -1 stack after attacking.
+- **Locked On**: Consumed to trigger certain effects.
+- **Expiation**: 1-target attack. Deals 130% Reality DMG. This attack counts as a \[Retribution\]. After attacking, gains 2 stacks of \[Fresh Wound\]; gains an extra \[Bloodtithe\] +1 if actively used.
 
 ## Names
 

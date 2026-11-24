@@ -37,30 +37,35 @@ sources:
 | Psychubes recommended in game | [Luxurious Leisure](/psychubes/luxurious-leisure/), [His Bounden Duty](/psychubes/his-bounden-duty/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Mondlicht is one of the launch 4-star arcanists. Her two incantations both hit two enemies and split the work by the target's HP: one adds damage while the target is healthy, the other once it is below half. Her Insight I passive loads a Silver Bullet that lowers the main target's Reality DEF, and her Ultimate heals her by half the damage it deals.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/mondlicht/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| A Silver Bullet (attack on 2 enemies) | 120% Reality DMG; +50% on a target above 50% HP | 180%; +75% | 300%; +125% |
-| A Dance (attack on 2 enemies) | 120% Reality DMG; +50% on a target below 50% HP | 180%; +75% | 300%; +125% |
+### A Silver Bullet
 
-The HP condition is checked against each target's current HP.
+**Rank 1**: Mass attack. Deals 120% Reality DMG to 2 enemies. If the target's HP is above 50%, this attack also deals 50% more Reality DMG.
+
+**Rank 2**: Mass attack. Deals 180% Reality DMG to 2 enemies. If the target's HP is above 50%, this attack also deals 75% more Reality DMG.
+
+**Rank 3**: Mass attack. Deals 300% Reality DMG to 2 enemies. If the target's HP is above 50%, this attack also deals 125% more Reality DMG.
+
+### A Dance
+
+**Rank 1**: Mass attack. Deals 120% Reality DMG to 2 enemies. If the target's HP is below 50%, this attack also deals 50% more Reality DMG.
+
+**Rank 2**: Mass attack. Deals 180% Reality DMG to 2 enemies. If the target's HP is below 50%, this attack also deals 75% more Reality DMG.
+
+**Rank 3**: Mass attack. Deals 300% Reality DMG to 2 enemies. If the target's HP is below 50%, this attack also deals 125% more Reality DMG.
 
 ## Ultimate: More Deadly than the Big Bad Wolves
 
-Deals 450% Reality DMG to one enemy, and Mondlicht recovers HP equal to 50% of the damage this attack dealt.
-
-[Silver Bullet]: after Mondlicht attacks, the main target's Reality DEF drops by 20% for 3 rounds; each attack uses one loaded bullet.
+1-target attack. Deals 450% Reality DMG. HP +(this attack's DMG ×50%).
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Loads 1 [Silver Bullet] on entering battle and again every 3 rounds. |
-| 2 | ATK +5% on entering battle. |
+**Insight 1 · Hunter Instinct**: After entering battle and for every 3 rounds afterwards, loads 1 \[Silver Bullet\].
+
+**Insight 2 · Hunter Instinct Ⅱ**: ATK +5% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -69,13 +74,19 @@ Deals 450% Reality DMG to one enemy, and Mondlicht recovers HP equal to 50% of t
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 500%. |
-| 2 | A Silver Bullet adds its damage to targets above 40% HP. |
-| 3 | A Dance adds its damage to targets below 60% HP. |
-| 4 | The Ultimate deals 550%. |
-| 5 | The Ultimate deals 600%. |
+**Portrait 1**: **More Deadly than the Big Bad Wolves**: Reality DMG increased to 500%.
+
+**Portrait 2**: **A Silver Bullet**'s effect changes to: additionally deals Reality DMG when the target's HP is above 40%.
+
+**Portrait 3**: **A Dance**'s effect changes to: additionally deals Reality DMG when the target's HP is below 60%.
+
+**Portrait 4**: **More Deadly than the Big Bad Wolves**: Reality DMG increased to 550%.
+
+**Portrait 5**: **More Deadly than the Big Bad Wolves**'s effect changes to: deals 600% Reality DMG.
+
+## Statuses
+
+- **Silver Bullet**: After attacking, reduces the primary target’s Reality DEF by 20% (reduced by 1 stack on trigger).
 
 ## Names
 

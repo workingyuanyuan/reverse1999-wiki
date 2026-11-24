@@ -37,31 +37,37 @@ sources:
 | Psychubes recommended in game | [The Carat of a Heart](/psychubes/the-carat-of-a-heart/), [Balance, Please](/psychubes/balance-please/), [Rehearsal of Dreams](/psychubes/rehearsal-of-dreams/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-A Knight is one of the launch 6-star arcanists and a pure damage dealer. His damage and Penetration Rate rise as the enemy loses HP, his incantations give him Moxie when they defeat a target, and an Ultimate that defeats an enemy gives the whole team [Rousing Morale]. His Euphoria lets him cast the Ultimate on his own at the start of a round by spending [Virtues].
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/a-knight/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Justice (single-target attack) | 180% Reality DMG; Moxie +1 on a kill | 250%; Moxie +2 on a kill | 450%; Moxie +3 on a kill |
-| Glory (attack on 2 enemies) | 150% Reality DMG | 150%; Moxie +1 | 225%; Moxie +2 |
+### Justice
 
-Justice gives Moxie only when it defeats its target; Glory gives Moxie at ranks 2 and 3 whether or not it defeats anyone.
+**Rank 1**: 1-target attack. Deals 180% Reality DMG. If the target is defeated, Moxie +1 for self.
+
+**Rank 2**: 1-target attack. Deals 250% Reality DMG. If the target is defeated, Moxie +2 for self.
+
+**Rank 3**: 1-target attack. Deals 450% Reality DMG. If the target is defeated, Moxie +3 for self.
+
+### Glory
+
+**Rank 1**: Mass attack. Deals 150% Reality DMG to 2 enemies.
+
+**Rank 2**: Mass attack. Deals 150% Reality DMG to 2 enemies. Gains Moxie +1.
+
+**Rank 3**: Mass attack. Deals 225% Reality DMG to 2 enemies. Gains Moxie +2.
 
 ## Ultimate: After AD 778
 
-Deals 400% Reality DMG to all enemies. If it defeats any enemy, every ally gains 1 stack of [Rousing Morale].
-
-[Rousing Morale]: DMG Bonus +50% on the holder's next attack; each attack uses one stack.
+Mass attack. Deals 400% Reality DMG to all enemies. If any target is defeated, grants 1 stack of \[Rousing Morale\] to all allies.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Mercy: DMG Dealt +10% for every 20% of HP the enemy has lost. |
-| 2 | DMG Taken −8% on entering battle. |
-| 3 | Penetration Rate +10% for every 20% of HP the enemy has lost. |
+**Insight 1 · Mercy**: For every 20% Missing HP on the enemy, DMG Dealt +10%.
+
+**Insight 2 · Mercy Ⅱ**: DMG Taken -8% when entering battle.
+
+**Insight 3 · Mercy Ⅲ**: For every 20% Missing HP on the enemy, Penetration Rate +10%.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -71,30 +77,36 @@ Deals 400% Reality DMG to all enemies. If it defeats any enemy, every ally gains
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 500%. |
-| 2 | Justice deals 200, 275 or 480% by rank. |
-| 3 | The Ultimate deals 550%. |
-| 4 | Glory deals 165, 170 or 250% by rank. |
-| 5 | An Ultimate that defeats an enemy also gives A Knight 1 more stack of Rousing Morale. |
+**Portrait 1**: **After AD 778**: Reality DMG increased to 500%.
+
+**Portrait 2**: **Justice**: At Incantation rank 1/2/3, Reality DMG increased to 200/275/480%.
+
+**Portrait 3**: **After AD 778**: Reality DMG increased to 550%.
+
+**Portrait 4**: **Glory**: At Incantation rank 1/2/3, Reality DMG increased to 165/170/250%.
+
+**Portrait 5**: **After AD 778**: If this attack defeats an enemy, gains 1 additional stack of \[Rousing Morale\].
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. A Knight has one Epiphany of four levels.
+**Epiphany 1, level 1**: When entering battle, gains 4 stacks of \[Virtues\] and 1 stack of \[Rousing Morale\].
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | On entering battle, A Knight gains 4 stacks of [Virtues] and 1 stack of Rousing Morale. At the start of a round, if he holds 2 or more Virtues, he spends 2 to cast the Ultimate at once, as an extra action. |
-| 1 | 2 | Justice and Glory each deal extra Reality DMG equal to 100% of their base Reality DMG and benefit from Ultimate Might at a 100% rate. After attacking, Justice gives him 8, 10 or 12 stacks of [Ceremonious: Ultimate Might] by rank, and Glory 8, 10 or 12 stacks of [Ceremonious: Critical DMG]. |
-| 1 | 3 | The Ultimate deals extra Reality DMG equal to 60% of its base Reality DMG times the number of enemies; cast by hand, it deals 120% times the number of enemies instead and gives him 1 Virtue. Each enemy the Ultimate defeats gives him 1 Virtue. |
-| 1 | 4 | Mercy counts each 20% of HP the enemy still has instead of each 20% it has lost, and each such 20% also gives A Knight Critical Rate +8% against that enemy. |
+At the start of the round, if A Knight has at least 2 stacks of \[Virtues\], consumes 2 stacks of \[Virtues\] to immediately cast **After AD 778**. This attack counts as an extra action.
 
-[Virtues]: at the start of a round, with 2 or more stacks, A Knight spends 2 to cast his Ultimate at once.
+**Epiphany 1, level 2**: **Justice** deals an additional (base Reality DMG x100%) Reality DMG. This attack benefits from Ultimate Might at a 100% rate. After attacking, gains 8/10/12 stacks of \[Ceremonious: Ultimate Might\].
 
-[Ceremonious: Ultimate Might]: the Ultimate's Ultimate Might +3% per stack, up to 100 stacks; it cannot be dispelled and is gone once the Ultimate attacks.
+**Glory** deals an additional (base Reality DMG x100%) Reality DMG. This attack benefits from Ultimate Might at a 100% rate. After attacking, gains 8/10/12 stacks of \[Ceremonious: Critical DMG\].
 
-[Ceremonious: Critical DMG]: the Ultimate's Critical DMG +3% per stack, up to 100 stacks; it cannot be dispelled and is gone once the Ultimate attacks.
+**Epiphany 1, level 3**: **After AD 778** deals an additional (base Reality DMG x60% x number of enemies) Reality DMG. When actively cast, it deals an additional (base Reality DMG x120% x number of enemies) Reality DMG and grants 1 stack of \[Virtues\] to A Knight. For every enemy **After AD 778** defeats, A Knight gains 1 stack of \[Virtues\].
+
+**Epiphany 1, level 4**: **Mercy**: For every 20% Remaining HP (formerly every 20% Missing HP) on the enemy, A Knight gains Critical Rate +8% when attacking them.
+
+## Statuses
+
+- **Rousing Morale**: DMG Bonus +50% when attacking (reduced by 1 stack on trigger).
+- **Virtues**: At the start of the round, if carrying at least 2 stacks of this effect, A Knight consumes 2 stacks to cast Ultimate immediately.
+- **Ceremonious: Ultimate Might**: Ultimate Might +3% (up to 100 stacks, undispellable, disappears after casting an Ultimate).
+- **Ceremonious: Critical DMG**: Ultimate Critical DMG +3%, up to 100 stacks. Removes upon trigger. Undispellable.
 
 ## Names
 

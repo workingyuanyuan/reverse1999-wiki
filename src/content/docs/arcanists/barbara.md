@@ -37,35 +37,37 @@ sources:
 | Psychubes recommended in game | [Long Night Talk](/psychubes/long-night-talk/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2024-08-08 |
 | Global release | 2024-12-05 |
-
-Barbara shields the whole team with her second incantation and her Ultimate. The Ultimate also puts her into [Dream Visit]: her own cards turn into other allies' incantations, and each round she gets a [Counting Sheep] card that shifts the ranks of the cards next to it. Her Insight passives reward rounds in which she does not act and heal her and her neighbours while she dreams.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/barbara/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Troubled Sleep (attack on 2 enemies) | 160% Mental DMG | 240% | 400% |
-| Chat on the Lawn (team shield) | Shield of 120% of her ATK | 180% | 300% |
+### Troubled Sleep
 
-Troubled Sleep puts 1 stack of [Scared] on each target at every rank. The Shield of Chat on the Lawn lasts 2 rounds at every rank.
+**Rank 1**: Mass attack. Deals 160% Mental DMG to 2 enemies. After attacking, inflicts 1 stack of \[Scared\] on the targets.
 
-[Scared]: Mental DMG taken +25%; one stack is used each time it takes effect.
+**Rank 2**: Mass attack. Deals 240% Mental DMG to 2 enemies. After attacking, inflicts 1 stack of \[Scared\] on the targets.
+
+**Rank 3**: Mass attack. Deals 400% Mental DMG to 2 enemies. After attacking, inflicts 1 stack of \[Scared\] on the targets.
+
+### Chat on the Lawn
+
+**Rank 1**: Mass buff. Grants a Shield with (own ATK x120%) HP to all allies for 2 rounds.
+
+**Rank 2**: Mass buff. Grants a Shield with (own ATK x180%) HP to all allies for 2 rounds.
+
+**Rank 3**: Mass buff. Grants a Shield with (own ATK x300%) HP to all allies for 2 rounds.
 
 ## Ultimate: Another Jump This Way
 
-Barbara enters [Dream Visit] and gives all allies a [Shield] equal to 250% of her ATK, for 3 rounds.
-
-[Dream Visit]: Barbara can cast only Ultimates and special incantations, and the incantations she would draw on her own become random incantations of other allies. At the start of each round she gains 1 Moxie and 1 precast [Counting Sheep].
-
-[Counting Sheep]: before the AP Area resolves, the incantation in front of it gains one rank and the incantation behind it loses one rank.
+Self buff. Enter the \[Dream Visit\] status, grant a \[Shield\] with (own ATK x250%) HP to all allies for 3 rounds.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | At the end of a round in which Barbara took no action, all allies gain DMG Taken Reduction +10% for 1 round. |
-| 2 | DMG Heal +8% on entering battle. |
-| 3 | At the start of a round in Dream Visit, Barbara recovers 20% of her Max HP; if her HP is then above 90%, the allies next to her recover HP equal to 15% of her Max HP. |
+**Insight 1 · Germ-free Bedroom**: At the end of the round, if no action was taken this round, grant DMG Taken Reduction +10% to all allies for 1 round.
+
+**Insight 2 · Germ-free Bedroom II**: When entering battle, DMG Heal +8%.
+
+**Insight 3 · Germ-free Bedroom III**: At the start of the round, if in the \[Dream Visit\] status, recover (Max HP x20%) HP for self; then if own HP is above 90%, recover (own Max HP x15%) HP for adjacent allies.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -75,13 +77,22 @@ Barbara enters [Dream Visit] and gives all allies a [Shield] equal to 250% of he
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Troubled Sleep deals 180, 270 or 450% by rank. |
-| 2 | The Shield of Chat on the Lawn is 140, 210 or 350% of her ATK by rank. |
-| 3 | In Dream Visit she recovers 25% of her Max HP and her neighbours 20%. |
-| 4 | The DMG Taken Reduction of Insight 1 becomes +15%. |
-| 5 | Dream Visit lasts 1 round longer. |
+**Portrait 1**: **Troubled Sleep**: Mental DMG is increased to 180%/270%/450%.
+
+**Portrait 2**: **Chat on the Lawn**: The Shield granted is increased to (own ATK x140%/210%/350%) HP.
+
+**Portrait 3**: **Germ-free Bedroom**: Now recovers (Max HP x25%) HP for self and (Max HP x20%) HP for adjacent allies.
+
+**Portrait 4**: **Germ-free Bedroom**: The DMG Taken Reduction is increased to +15%.
+
+**Portrait 5**: **Another Jump This Way**: The duration of \[Dream Visit\] is increased by 1 round.
+
+## Statuses
+
+- **Scared**: Increases Mental DMG taken by 25% (-1 stack after triggering).
+- **Dream Visit**: Can only cast ultimates and special incantations. The holder's automatically replenished incantations are converted into random incantations of other allies. At the start of each round, gain Moxie +1 and 1 precast incantation \[Counting Sheep\].
+- **Shield**: Blocks certain DMG for a certain duration.
+- **Counting Sheep**: After incantations are cast and queued, grant rank +1 to the incantation ahead of this incantation, and rank -1 to the incantation behind this incantation.
 
 ## Names
 

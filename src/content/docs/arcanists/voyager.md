@@ -37,34 +37,37 @@ sources:
 | Psychubes recommended in game | [Addio Coda](/psychubes/addio-coda/), [Belt It Out](/psychubes/belt-it-out/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Voyager is one of the launch 6-star arcanists. Her Ultimate drains 2 Moxie from its target, Refrain silences all enemies after each of her actions once she has acted three times, and Starlight Sonata stacks Confusion, which lowers Critical Resist and adds damage to her Ultimate. Her Euphoria brings Eureka and Inspiration, which add Impromptu Incantation attacks to the team's turns.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/voyager/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Starlight Sonata (attack on 2 enemies) | 150% Mental DMG | 150%; 1 stack of [Confusion] | 200%; 2 stacks of Confusion |
-| Concerto in D-fense (team counter) | all allies 1 stack each of [Interstellar Blessing] and [Sturdiness] | the same; Voyager 1 more Interstellar Blessing | the same; Voyager 2 more Interstellar Blessing |
+### Starlight Sonata
 
-- [Confusion]: Critical Resist −25% per stack, each stack timed on its own; Starlight Sonata's stacks last 1 round.
-- [Interstellar Blessing]: when the holder is attacked, the attacker takes Genesis DMG equal to 100% of Voyager's ATK; one stack is used each time.
-- [Sturdiness]: DMG Taken Reduction +25% when attacked; one stack is used each time.
+**Rank 1**: Mass attack. Deals 150% Mental DMG to 2 enemies.
+
+**Rank 2**: Mass attack. Deals 150% Mental DMG to 2 enemies. After attacking, inflicts 1 stack of \[Confusion\] on the targets for 1 round.
+
+**Rank 3**: Mass attack. Deals 200% Mental DMG to 2 enemies. After attacking, inflicts 2 stacks of \[Confusion\] on the targets for 1 round.
+
+### Concerto in D-fense
+
+**Rank 1**: Mass counter. Gives all allies 1 stack of \[Interstellar Blessing\] and \[Sturdiness\] statuses.
+
+**Rank 2**: Mass counter. Gives all allies 1 stack of \[Interstellar Blessing\] and \[Sturdiness\] statuses. The caster gains 1 additional stack of \[Interstellar Blessing\].
+
+**Rank 3**: Mass counter. Gives all allies 1 stack of \[Interstellar Blessing\] and \[Sturdiness\] statuses. The caster gains 2 additional stacks of \[Interstellar Blessing\].
 
 ## Ultimate: Galaxy on the Strings
 
-Deals 500% Mental DMG to one enemy and lowers its Moxie by 2. Against a target in Confusion it deals 100% more Mental DMG.
+1-target attack. Deals 500% Mental DMG. After attacking, inflicts Moxie -2 on the target. If the target is in the \[Confusion\] status, this attack deals an additional 100% Mental DMG.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | After 3 actions, Voyager enters [Refrain]: after each of her actions, if an enemy is on the field, all enemies are silenced for 1 round. Refrain cannot be dispelled. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | Refrain also seals all enemies for 1 round. |
+**Insight 1 · Refrain**: After performing 3 actions, enters \[Refrain\].
 
-- [Silence]: the unit cannot cast buff, debuff, heal or counter incantations.
-- [Seal]: the unit cannot use its Ultimate.
+**Insight 2 · Refrain Ⅱ**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · Refrain Ⅲ**: Enhanced \[Refrain\] effect: If there are enemies after the caster takes action, also inflicts 1 round of \[Seal\] on all enemies.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -74,28 +77,43 @@ Deals 500% Mental DMG to one enemy and lowers its Moxie by 2. Against a target i
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate's bonus against Confusion becomes 175%. |
-| 2 | Starlight Sonata deals 165, 170 or 250% by rank. |
-| 3 | The bonus against Confusion becomes 250%. |
-| 4 | The bonus against Confusion becomes 325%. |
-| 5 | The bonus against Confusion becomes 400%. |
+**Portrait 1**: **Galaxy on the Strings**: If the target is in \[Confusion\] status, additional Mental DMG increased to 175%.
+
+**Portrait 2**: **Starlight Sonata**: At Incantation rank 1/2/3, Mental DMG increased to 165/170/250%.
+
+**Portrait 3**: **Galaxy on the Strings**: If the target is in \[Confusion\] status, additional Mental DMG increased to 250%.
+
+**Portrait 4**: **Galaxy on the Strings**: If the target is in \[Confusion\] status, additional Mental DMG increased to 325%.
+
+**Portrait 5**: **Galaxy on the Strings**: If the target is in \[Confusion\] status, additional Mental DMG increased to 400%.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Voyager has one Epiphany of four levels; it gives her Eureka and the team Inspiration.
+**Epiphany 1, level 1**: Gains Max Eureka +5. At the start of the round, gains Eureka +4. Whenever an ally consumes Eureka, accumulate points of \[Inspiration\]. When entering battle, accumulates 3 points of \[Inspiration\].
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | Voyager gains Eureka with a cap of 5 and 4 Eureka at the start of each round. Eureka the team spends builds [Inspiration], and she starts the battle with 3 Inspiration. The 1st, 3rd, 5th and later odd attacks of [Impromptu Incantation] split onto 1 more enemy, with Final DMG Dealt −70% against that extra target. |
-| 1 | 2 | After either incantation she spends 2 Eureka: Impromptu Incantation gains 1 more attack that round, and its split attack picks 1 more enemy. |
-| 1 | 3 | Moxie +5 on entering battle. After the Ultimate she gains 1 Moxie and, if the target is in Confusion, puts [Where the Stars Lead] on it for 3 rounds. |
-| 1 | 4 | The Ultimate's bonus damage and Where the Stars Lead no longer need Confusion, and the Ultimate adds 8 Inspiration to that round's Impromptu Incantation. |
+On odd-numbered attacks (#1, #3, #5 ...) \[Impromptu Incantation\] splits and attacks an additional enemy target, at a Final DMG Dealt -70% penalty to that target.
 
-- [Inspiration]: 1 point for each Eureka spent. At the start of each round the points are spread at random over basic incantations, at most 5 per card, and points on cards not used that round are cleared. Casting a card that carries Inspiration adds an Impromptu Incantation to the end of the action queue and passes the card's points to it.
-- [Impromptu Incantation]: 200% Mental DMG to a random enemy, plus 15% per Inspiration point it carries; with 3, 6, 12 or 20 points it gains 1, 2, 3 or 5 more attacks. Its damage uses the average stats of all allies.
-- [Where the Stars Lead]: Impromptu Incantation targets the holder first. Each time it hits the holder, the holder takes Genesis DMG equal to the user's ATK times (50% + 50% of the Ultimate's bonus Mental DMG percentage), at most 5 times per round.
+**Epiphany 1, level 2**: After casting **Starlight Sonata** or **Concerto in D-fense**, consume 2 Eureka to grant attack instance +1 to \[Impromptu Incantation\] for the round, and \[Impromptu Incantation\]'s split attack will select another 1 additional enemy target.
+
+**Epiphany 1, level 3**: After entering battle, Moxie +5. After casting **Galaxy on the Strings**, Moxie +1. If the target is in the \[Confusion\] status, inflict \[Where the Stars Lead\] on the target for 3 rounds.
+
+**Epiphany 1, level 4**: **Galaxy on the Strings**: The requirements for dealing additional Mental DMG and for inflicting \[Where the Stars Lead\] are removed; grants 8 points of \[Inspiration\] to \[Impromptu Incantation\] for the round.
+
+## Statuses
+
+- **Confusion**: Critical Resist -25% (stackable, each stack timed independently).
+- **Interstellar Blessing**: Inflicts Genesis DMG on the attacker equal to 100% of Voyager’s ATK (reduced by 1 stack on trigger).
+- **Sturdiness**: When attacked, DMG Taken Reduction +25% (-1 stack after trigger).
+- **Refrain**: If there are enemies after the caster takes action, inflicts 1 round of \[Silence\] on all enemies (cannot be dispelled).
+- **Seal**: Cannot use Ultimate.
+- **Inspiration**: For every 1 Eureka consumed, accumulate 1 point of \[Inspiration\].
+
+  At the start of each round, randomly distribute Inspiration points onto basic incantations (each incantation may receive up to 5 points of Inspiration, and at the end of the round, the points of Inspiration on unused incantations are cleared).
+
+  When actively casting an incantation with \[Inspiration\] points on it, add an \[Impromptu Incantation\] to the end of the spell queue, and all Inspiration points on these casted incantations will be granted to the \[Impromptu Incantation\].
+- **Impromptu Incantation**: 1-target attack. Deals 200% Mental DMG to a random enemy and an additional (the total points of Inspiration granted to Impromptu Incantation x15%) Mental DMG. If Impromptu Incantation has at least 3/6/12/20 points of Inspiration, it gains attack instances +1/2/3/5 (Impromptu Incantation's DMG calculation is based on the average stats of all allies).
+- **Where the Stars Lead**: Impromptu Incantations target this unit with priority. When being attacked by an Impromptu Incantation, takes X Genesis DMG, where X is equal to ((the user's ATK x (50% + the additional Mental DMG % dealt by \[Galaxy on the Strings\] x 50%)); triggers up to 5 times per round.
+- **Silence**: Cannot cast Buff, Debuff, Heal, or Counter-type incantations.
 
 ## Names
 

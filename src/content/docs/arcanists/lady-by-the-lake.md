@@ -36,34 +36,45 @@ sources:
 | Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
 | Mainland release | — |
 | Global release | in the global client |
-
-Lady by the Lake gathers [Composition] from two marks: the debuff of The Inner Fabric on an enemy and the buff of Collection of Brushstrokes on an ally. Her Ultimate spends every stack for extra damage and to strip enemy Shields, and each stack it spends later ranks up an ally's incantation.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/lady-by-the-lake/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| The Inner Fabric (single-target attack) | 130% Mental DMG | 250% | 380% |
-| Collection of Brushstrokes (single-target buff) | [Cubism] on one ally for 2 rounds | 3 rounds; the ally gains 1 Moxie | 3 rounds; the ally and Lady by the Lake each gain 1 Moxie |
+### The Inner Fabric
 
-The Inner Fabric puts [Negative Space] on its target for 2 rounds at every rank.
+**Rank 1**: 1-target attack. Deals 130% Mental DMG. After attacking, inflicts \[Negative Space\] on the target for 2 rounds.
+
+**Rank 2**: 1-target attack. Deals 250% Mental DMG. After attacking, inflicts \[Negative Space\] on the target for 2 rounds.
+
+**Rank 3**: 1-target attack. Deals 380% Mental DMG. After attacking, inflicts \[Negative Space\] on the target for 2 rounds.
+
+### Collection of Brushstrokes
+
+**Rank 1**: 1-target buff. Grants \[Cubism\] to an ally for 2 rounds.
+
+**Rank 2**: 1-target buff. Grants \[Cubism\] to an ally for 3 rounds, then grants Moxie +1 to the target.
+
+**Rank 3**: 1-target buff. Grants \[Cubism\] to an ally for 3 rounds, then grants Moxie +1 to the target and self.
 
 ## Ultimate: What She Bears and Beyond
 
-Deals 450% Mental DMG to all enemies. Before the hit, each stack of [Composition] she holds removes Shield equal to 300% of her ATK from each target and adds 50% Mental DMG to the attack; afterwards all stacks are removed.
-
-- [Negative Space]: DMG Taken Reduction −20%, and −10% more if the target has no other ally on the field when it is applied. Each time the holder acts, Lady by the Lake gains 1 stack of Composition.
-- [Cubism]: DMG Bonus +25%. Each time the holder actively casts an incantation, Lady by the Lake gains 1 stack of Composition. Gaining it again adds to its duration.
-- [Composition]: at most 10 stacks; her Ultimate uses them up.
-- [Continuous Action]: AP +1.
+Mass attack. Deals 450% Mental DMG to all enemies. For each stack of \[Composition\] held, removes (own ATK x300%) HP of each target's Shield before attacking and deals an additional 50% Mental DMG. After attacking, removes all stacks of \[Composition\].
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 0 (Precognition) | Only in The Syndrome of Silence: she gains Continuous Action after entering battle and 2 stacks of Composition at the start of each round; the DMG Taken Reduction cut of Negative Space, the DMG Bonus of Cubism and the Shield her Ultimate strips per stack each rise by 100% of their base value. |
-| 1 | For each stack of Composition her Ultimate removes, a random ally's non-Ultimate incantation gains rank +1 at the start of the next round, up to 3 times. |
-| 2 | ATK +5% on entering battle. |
+**Insight 0 · Precognition**: In \[The Syndrome of Silence\], *Lady by the Lake* gains the following enhancements:
+
+After entering battle, gains \[Continuous Action\]. At the start of the round, gains 2 stacks of \[Composition\].
+
+\[The Inner Fabric\]'s base DMG Taken Reduction debuff is increased by 100% of its basic effect.
+
+\[Collection of Brushstrokes\]'s DMG Bonus buff is increased by 100% of its basic effect.
+
+Her Ultimate's Shield HP removal for each stack of \[Composition\] held is increased by 100% of its basic effect.
+
+**Insight 1 · A Single Picture Plane**: For each stack of \[Composition\] removed by her Ultimate, at the start of the next round, grants rank +1 to a random allied non-Ultimate incantation, up to 3 times.
+
+**Insight 2 · A Single Picture Plane II**: ATK +5% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -72,13 +83,22 @@ Deals 450% Mental DMG to all enemies. Before the hit, each stack of [Composition
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 550% and strips Shield equal to 400% of her ATK per stack. |
-| 2 | Cubism gives DMG Bonus +40%. |
-| 3 | The Insight 1 rank-up counts up to 6 stacks. |
-| 4 | Negative Space gives DMG Taken Reduction −35%, and −15% more on a target with no other ally on the field. |
-| 5 | The Ultimate deals 650% and strips Shield equal to 500% of her ATK per stack. |
+**Portrait 1**: **What She Bears and Beyond** now deals 550% Mental DMG and removes (own ATK x400%) HP of each target's Shield.
+
+**Portrait 2**: **Collection of Brushstrokes**: \[Cubism\] now grants DMG Bonus +40%.
+
+**Portrait 3**: **Precognition**: *Lady by the Lake*'s allied incantation rank up effect for each stack of \[Composition\] removed by her Ultimate can now trigger up to 6 times.
+
+**Portrait 4**: **The Inner Fabric**: \[Negative Space\] now inflicts DMG Taken Reduction -35% and an additional DMG Taken Reduction -15% if there is only one enemy target.
+
+**Portrait 5**: **What She Bears and Beyond** now deals 650% Mental DMG and removes (own ATK x500%) HP of each target's Shield.
+
+## Statuses
+
+- **Negative Space**: DMG Taken Reduction -20%. If the holder has no other allies present when this is inflicted, additionally inflicts DMG Taken Reduction -10%. Whenever the holder takes an action, *Lady by the Lake* gains 1 stack of \[Composition\].
+- **Cubism**: DMG Bonus +25%. Whenever the holder actively casts an incantation, *Lady by the Lake* gains 1 stack of \[Composition\] (reapplying this status extends its duration).
+- **Composition**: Consumed when casting an Ultimate (stackable up to 10 times).
+- **Continuous Action**: AP +1.
 
 ## Names
 

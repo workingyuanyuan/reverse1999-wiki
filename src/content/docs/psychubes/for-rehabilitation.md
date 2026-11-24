@@ -40,8 +40,15 @@ sources:
 
 ## Effect
 
-- A Star carrier gets Incantation Might +5%.
-- For the rest of the round in which the carrier casts its Ultimate, each 1-target attack incantation it uses gives DMG Dealt +4/5/6/7/8% until the end of battle, up to 3 stacks (Amplification 1 to 5).
+**Amplification 1**: When the carrier is a \[Star\] character, Incantation Might +5%. Within the same round after they cast an ultimate, each of their 1-target attack-type incantations grants DMG Dealt +4% for the rest of the battle, stacking up to 3 times.
+
+**Amplification 2**: When the carrier is a \[Star\] character, Incantation Might +5%. Within the same round after they cast an ultimate, each of their 1-target attack-type incantations grants DMG Dealt +5% for the rest of the battle, stacking up to 3 times.
+
+**Amplification 3**: When the carrier is a \[Star\] character, Incantation Might +5%. Within the same round after they cast an ultimate, each of their 1-target attack-type incantations grants DMG Dealt +6% for the rest of the battle, stacking up to 3 times.
+
+**Amplification 4**: When the carrier is a \[Star\] character, Incantation Might +5%. Within the same round after they cast an ultimate, each of their 1-target attack-type incantations grants DMG Dealt +7% for the rest of the battle, stacking up to 3 times.
+
+**Amplification 5**: When the carrier is a \[Star\] character, Incantation Might +5%. Within the same round after they cast an ultimate, each of their 1-target attack-type incantations grants DMG Dealt +8% for the rest of the battle, stacking up to 3 times.
 
 ## Names
 

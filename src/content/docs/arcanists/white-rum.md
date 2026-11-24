@@ -36,34 +36,35 @@ sources:
 | Psychubes recommended in game | [Balance, Please](/psychubes/balance-please/) |
 | Mainland release | 2024-09-19 |
 | Global release | 2025-01-09 |
-
-White Rum fights by moving along the line. Her mass attack pushes her back one position, and in [Boarding Assault] she fires it on her own at the start of every round. Her Ultimate then charges her to the front, dealing more damage the farther she moves and dazing every enemy, while each move gives her stacks that boost her next attack or soften the next hit she takes.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/white-rum/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Port Side Barrage (mass attack) | 80% Reality DMG | 120% | 200% |
-| Prepare to Board! (self channel) | enters Boarding Assault | same | same |
+### Port Side Barrage
 
-- **Port Side Barrage** moves White Rum 1 position back after the attack.
-- **Prepare to Board!** gives 1 extra Moxie if she is already in Boarding Assault.
+**Rank 1**: Deals 80% Reality DMG to all enemies, then shifts 1 position backward.
+
+**Rank 2**: Deals 120% Reality DMG to all enemies, then shifts 1 position backward.
+
+**Rank 3**: Deals 200% Reality DMG to all enemies, then shifts 1 position backward.
+
+### Prepare to Board!
+
+**Rank 1**: Self channel. Enters the \[Boarding Assault\] status. If already in the \[Boarding Assault\] status, gains an additional Moxie +1.
+
+**Rank 2**: Self channel. Enters the \[Boarding Assault\] status. If already in the \[Boarding Assault\] status, gains an additional Moxie +1.
+
+**Rank 3**: Self channel. Enters the \[Boarding Assault\] status. If already in the \[Boarding Assault\] status, gains an additional Moxie +1.
 
 ## Ultimate: Boundless Sea, Limitless Sky
 
-Can be cast only in Boarding Assault. White Rum moves to the front position and deals 200% Reality DMG to all enemies, dazing them for 1 round. The attack deals 15% more damage for each position she moves forward; if she moves 3 or more positions, it ignores 50% of the targets' Daze resistance.
-
-- [Boarding Assault]: at the start of each round, White Rum casts Port Side Barrage at its current rank and gains 1 Moxie. Casting the Ultimate ends the status.
-- [Rousing Morale]: DMG Bonus +50% on her next attack; one stack is used each time.
-- [Sturdiness]: DMG Taken Reduction +25% when she is attacked; one stack is used each time.
-- [Daze]: the target cannot act.
+Mass attack. Can only be cast in the \[Boarding Assault\] status. Shifts to the front-most position, deals 200% Reality DMG to all enemies and inflicts \[Daze\] on the targets for 1 round; for every position shifted, this attack gains DMG Dealt +15%; if at least 3 positions were shifted, this attack ignores 50% Daze Resistance.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Each position White Rum is moved back gives her 1 stack of [Rousing Morale]; each position forward gives her 1 stack of [Sturdiness]. |
-| 2 | DMG Taken −8% on entering battle. |
+**Insight 1 · Privateering License**: When shifting, for each position shifted backward, gains 1 stack of \[Rousing Morale\], and for each position shifted forward, gains 1 stack of \[Sturdiness\].
+
+**Insight 2 · Privateering License II**: DMG Taken -8% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -72,13 +73,23 @@ Can be cast only in Boarding Assault. White Rum moves to the front position and 
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Each position moved gives 2 stacks of Rousing Morale or Sturdiness. |
-| 2 | The Ultimate's bonus for each position moved forward becomes 25%. |
-| 3 | The Ultimate deals 300%. |
-| 4 | Moving 3 or more positions makes the Ultimate ignore 100% of Daze resistance. |
-| 5 | Port Side Barrage deals 100, 150 or 250% by rank. |
+**Portrait 1**: **Privateering License**: Gain 2 stacks of \[Rousing Morale\] for each position shifted backward, and gain 2 stacks of \[Sturdiness\] for each position shifted forward.
+
+**Portrait 2**: **Boundless Sea, Limitless Sky**: For every position shifted, the DMG Dealt is increased to +25%.
+
+**Portrait 3**: **Boundless Sea, Limitless Sky**: Reality DMG is increased to 300%.
+
+**Portrait 4**: **Boundless Sea, Limitless Sky**: If at least 3 positions were shifted, this attack now ignores 100% Daze resistance.
+
+**Portrait 5**: **Port Side Barrage**: At incantation rank 1/2/3, the Reality DMG is increased to 100/150/250%.
+
+## Statuses
+
+- **Boarding Assault**: At the start of the round, auto cast a \[Port Side Barrage\] of the corresponding rank and gain Moxie +1. After casting an ultimate, this effect is removed.
+- **Daze**: Cannot act.
+- **Rousing Morale**: DMG Bonus +50% when attacking (reduced by 1 stack on trigger).
+- **Sturdiness**: When attacked, DMG Taken Reduction +25% (-1 stack after trigger).
+- **Port Side Barrage**: Deals Reality DMG to all enemies and shifts self 1 position backward.
 
 ## Names
 

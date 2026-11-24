@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- At the end of a round with [Lingering Glow] at 120 or more, all allies gain Critical DMG +6/7.5/9/10.5/12% for 2 rounds (Amplification 1 to 5).
-- When any ally attacks with an incantation that has been rewritten, all allies gain DMG Dealt +2/2.5/3/3.5/4% for 3 rounds, up to 3 stacks.
+**Amplification 1**: At the end of the round, if there are at least 120 points of \[Lingering Glow\], grants Critical DMG +6% to all allies for 2 rounds.
+
+When an ally attacks with a rewritten incantation, grants DMG Dealt +2% to all allies for 3 rounds, stacking up to 3 times.
+
+**Amplification 2**: At the end of the round, if there are at least 120 points of \[Lingering Glow\], grants Critical DMG +7.5% to all allies for 2 rounds.
+
+When an ally attacks with a rewritten incantation, grants DMG Dealt +2.5% to all allies for 3 rounds, stacking up to 3 times.
+
+**Amplification 3**: At the end of the round, if there are at least 120 points of \[Lingering Glow\], grants Critical DMG +9% to all allies for 2 rounds.
+
+When an ally attacks with a rewritten incantation, grants DMG Dealt +3% to all allies for 3 rounds, stacking up to 3 times.
+
+**Amplification 4**: At the end of the round, if there are at least 120 points of \[Lingering Glow\], grants Critical DMG +10.5% to all allies for 2 rounds.
+
+When an ally attacks with a rewritten incantation, grants DMG Dealt +3.5% to all allies for 3 rounds, stacking up to 3 times.
+
+**Amplification 5**: At the end of the round, if there are at least 120 points of \[Lingering Glow\], grants Critical DMG +12% to all allies for 2 rounds.
+
+When an ally attacks with a rewritten incantation, grants DMG Dealt +4% to all allies for 3 rounds, stacking up to 3 times.
 
 ## Names
 

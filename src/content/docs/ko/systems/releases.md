@@ -1,6 +1,6 @@
 ---
 title: "출시일"
-description: "리버스: 1999 마도학자의 중국 본토와 글로벌 서비스 출시일, 그리고 그 사이의 일수."
+description: "리버스: 1999 마도학자 대부분은 중국 본토보다 78~209일 늦게 글로벌 서비스에 나온다."
 appliesTo: "리버스: 1999, 글로벌 클라이언트 111.0.1077(3.9 버전)와 중국 본토 클라이언트 113.0.1422(4.1 버전)"
 caveat: "글로벌 서비스의 출시는 중국 본토 서비스보다 0일에서 209일 늦었다. 중국 본토 서비스에만 나온 마도학자는 발표되기 전까지 글로벌 날짜가 없다."
 lastVerified: 2026-11-23
@@ -21,6 +21,8 @@ sources:
   - title: "re1999-data, 중국 본토 클라이언트 113.0.1422: character.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/blob/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json/character.json
 ---
+## 두 서비스 사이의 출시 간격
+
 두 서비스에 모두 나온 마도학자 130명 중 5명은 글로벌 서비스에도 중국 본토와 같은 날 나왔다: [알렉시오스](/ko/arcanists/alexios/), [에지오 아디토레](/ko/arcanists/ezio-auditore/), [카산드라](/ko/arcanists/kassandra/), [노라](/ko/arcanists/nora/), [쌍둥이](/ko/arcanists/the-twins/). 나머지는 78일에서 209일 늦었고 중앙값은 140일이다. 2025-06-01 이후 중국 본토에 나온 마도학자의 중앙값은 84일이다.
 
 ## 중국 본토 한정
@@ -33,7 +35,7 @@ sources:
 | [드레이크](/ko/arcanists/drake/) (德雷克) | 6성 | 야수 | 정신 | 4.0 버전 |
 | [글린두르](/ko/arcanists/glyndwr/) (格林杜尔) | 4성 | 야수 | 현실 | 4.0 버전 |
 
-## 모든 마도학자, 최신순
+## 모든 마도학자의 출시일
 
 | 마도학자 | 희귀도 | 중국 본토 출시 | 글로벌 출시 | 일수 |
 | --- | --- | --- | --- | --- |

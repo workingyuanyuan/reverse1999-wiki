@@ -35,47 +35,61 @@ sources:
 | Psychubes recommended in game | [Ready on Call](/psychubes/ready-on-call/), [Outside the City](/psychubes/outside-the-city/), [On the Hand of Time](/psychubes/on-the-hand-of-time/) |
 | Mainland release | 2025-01-16 |
 | Global release | 2025-04-24 |
-
-Liang Yue's Ultimate puts her in [Arise, Qiangliang!], which splits the team's Spelldock into sections: cards on the right rise one rank, cards on the left make their buffs and debuffs last longer. While it lasts, each card played from those sections earns a Justice Talon or a Peace Talon, and every 6 talons she casts one of three [Bane of All Evil] attacks, chosen by which kind she holds more of. Along the way the team builds stacks of [Guardian's Resolve], a damage reduction.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/liang-yue/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Banish Evil (single-target attack) | 200% Reality DMG | 300%; Penetration Rate +30% | 500%; Penetration Rate +80% |
-| Bless Life (single-ally buff) | Guardian's Blessing I, 1 round | Guardian's Blessing II | Guardian's Blessing III |
+### Banish Evil
 
-- **Banish Evil** adds 1 round to Guardian's Resolve on all allies at every rank. Played from the Spelldock during Arise, Qiangliang!, it also gives 1 extra Justice Talon.
-- **Bless Life** adds 1 round to the blessing each time it is cast on the same ally. Played from the Spelldock during Arise, Qiangliang!, it also gives 1 extra Peace Talon.
+**Rank 1**: 1-target attack. Deals 200% Reality DMG. Extends the duration of \[Guardian's Resolve\] on all allies by 1 round.
+
+If Liang Yue is in the \[Arise, Qiangliang!\] status, actively casting this incantation grants 1 additional \[Justice Talon\].
+
+**Rank 2**: 1-target attack. Deals 300% Reality DMG; this attack gains Penetration Rate +30%. Extends the duration of \[Guardian's Resolve\] on all allies by 1 round.
+
+If Liang Yue is in the \[Arise, Qiangliang!\] status, actively casting this incantation grants 1 additional \[Justice Talon\].
+
+**Rank 3**: 1-target attack. Deals 500% Reality DMG; this attack gains Penetration Rate +80%. Extends the duration of \[Guardian's Resolve\] on all allies by 1 round.
+
+If Liang Yue is in the \[Arise, Qiangliang!\] status, actively casting this incantation grants 1 additional \[Justice Talon\].
+
+### Bless Life
+
+**Rank 1**: 1-target buff. Grants \[Guardian's Blessing I\] to the target for 1 round; repeated applications will extend its duration.
+
+If Liang Yue is in the \[Arise, Qiangliang!\] status, actively casting this incantation grants 1 additional \[Peace Talon\].
+
+**Rank 2**: 1-target buff. Grants \[Guardian's Blessing II\] to the target for 1 round; repeated applications will extend its duration.
+
+If Liang Yue is in the \[Arise, Qiangliang!\] status, actively casting this incantation grants 1 additional \[Peace Talon\].
+
+**Rank 3**: 1-target buff. Grants \[Guardian's Blessing III\] to the target for 1 round; repeated applications will extend its duration.
+
+If Liang Yue is in the \[Arise, Qiangliang!\] status, actively casting this incantation grants 1 additional \[Peace Talon\].
 
 ## Ultimate: Call of Thunder: #0305
 
-Deals 300% Reality DMG to all enemies. All allies gain [Immunity] for 1 round and 6 stacks of Guardian's Resolve for 2 rounds. Liang Yue gains Arise, Qiangliang! for 3 rounds; if she already has it, its duration resets to 3 rounds.
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Guardian's Resolve | DMG Taken −0.8% per stack; each stack keeps its own duration; up to 30 stacks. |
-| Arise, Qiangliang! | Splits the team's Spelldock. The 3 rightmost cards gain 1 rank before they take effect. The 3 leftmost cards make the Stats Up, Stats Down, Counter, Pos Status and Neg Status effects they apply last 1 round longer. Cards where the two sections overlap get both. |
-| Guardian's Blessing I, II, III | DMG Dealt +25% and DMG Taken −25%. When the holder attacks, is attacked, or the round ends, Liang Yue casts Banish Evil at rank 1, 2 or 3 on the target, the attacker or the enemy with the lowest HP; each successful cast takes 1 round off the blessing. |
-| Bane of All Evil · Justice | 400% Reality DMG to all enemies, counted as a rank 2 incantation; Critical Rate above the cap turns into Critical DMG. Each Justice Talon spent gives the attack Critical Rate +5%, Critical DMG +20% and DMG Dealt +10%. |
-| Bane of All Evil · Peace | 400% Reality DMG to all enemies. For each Peace Talon spent, the target first receives 1 [Poison] for 1 round and 3 stacks of [Burn]. The attack gains DMG Dealt +10% for each Poison on the target and Penetration Rate +3% for each Burn stack. |
-| Bane of All Evil · Balance | 200% Reality DMG to all enemies; Liang Yue gains 1 stack of Swift Resolve. |
-| Swift Resolve | Bane of All Evil needs 1 talon fewer and deals 20% more Reality DMG, adding up per stack; up to 2 stacks, all used when it fires. Bane of All Evil · Balance deals a further 40% per stack on top and leaves the stacks in place. |
-| Immunity | The holder is not affected by Stats Down, Neg Status or Control effects. |
-| Poison | Genesis DMG at the end of the round, based on the caster's ATK; it stacks. |
-| Burn | Healing Taken −15%, not stacking; at the end of the round, Genesis DMG of 4% of the holder's ATK per stack. Up to 30 stacks that count as one Neg Status; half the stacks are removed each time it triggers. |
-
-Every Bane of All Evil gives all allies 1 stack of Guardian's Resolve for 2 rounds for each talon it spends.
+Mass attack. Deals 300% Reality DMG to all enemies. Grants \[Immunity\] to all allies for 1 round, and grants 6 stacks of \[Guardian's Resolve\] to all allies for 2 rounds. Grants \[Arise, Qiangliang!\] to self for 3 rounds, and if this unit is already in this status, extends the duration of the status to 3 rounds.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | During Arise, Qiangliang!, each card played from the right section gives 1 Justice Talon and each card from the left section 1 Peace Talon; a card from the overlap gives half of each. At 6 talons in total she spends 6 and casts Bane of All Evil: Justice if she holds more Justice Talons, Peace if more Peace Talons, Balance if they are equal. When Arise, Qiangliang! ends, her talons are cleared and each Swift Resolve stack turns into 3 stacks of Guardian's Resolve. |
-| 2 | Critical Rate +10% on entering battle. |
-| 3 | Moxie +3 on entering battle. |
+**Insight 1 · Destined Inheritor**: While in the \[Arise, Qiangliang!\] status, after actively casting a Qiangliang enhanced incantation, gain 1 \[Justice Talon\] or 1 \[Peace Talon\]; after actively casting an incantation from the overlap section of the Spelldock, gain 0.5 \[Justice Talon\] and 0.5 \[Peace Talon\].
+
+When reaching 6 \[Justice Talon\] and or \[Peace Talon\] combined, consume 6 of these \[Justice Talon\] and or \[Peace Talon\] to cast a \[Bane of All Evil\] based on the balance of Justice Talons to Peace Talons:
+
+Cast \[Bane of All Evil · Justice\] when there's more \[Justice Talon\].
+
+Cast \[Bane of All Evil · Peace\] when there's more \[Peace Talon\].
+
+Cast \[Bane of All Evil · Balance\] when there's an equal number of talons.
+
+For every 1 \[Justice Talon\] or \[Peace Talon\] consumed, grant 1 stack of \[Guardian's Resolve\] to all allies for 2 rounds.
+
+When \[Arise, Qiangliang!\] ends, all \[Justice Talon\] and \[Peace Talon\] are cleared, and every stack of \[Swift Resolve\] on Liang Yue is converted into 3 stacks of \[Guardian's Resolve\].
+
+**Insight 2 · Destined Inheritor II**: Critical Rate +10% when entering battle.
+
+**Insight 3 · Destined Inheritor III**: When entering battle, gain Moxie +3 for self.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -85,28 +99,114 @@ Every Bane of All Evil gives all allies 1 stack of Guardian's Resolve for 2 roun
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Arise, Qiangliang! lasts 4 rounds, and each enhanced section covers 4 cards. |
-| 2 | Liang Yue gains 5 Moxie on entering battle; Bane of All Evil needs 5 talons. |
-| 3 | The Ultimate gives Immunity for 2 rounds and 12 stacks of Guardian's Resolve. |
-| 4 | Banish Evil deals 240, 360 or 600% by rank, with Penetration Rate +40% at rank 2 and +100% at rank 3. Guardian's Resolve caps at 40 stacks of −1% each. |
-| 5 | Bane of All Evil · Justice deals 600% and gives Critical DMG +30% per Justice Talon; Bane of All Evil · Peace deals 600% and gives DMG Dealt +20% per Poison; Bane of All Evil · Balance deals 300%, Swift Resolve caps at 3 stacks, and Balance's extra damage per stack becomes 80%. |
+**Portrait 1**: **Call of Thunder: #0305**: \[Arise, Qiangliang!\]'s duration is extended to 4 rounds, and the size of each enhancement section in the Spelldock is increased to 4.
+
+**Portrait 2**: **Destined Inheritor**: When entering battle, the Moxie gained for self is increased to 5. The number of \[Justice Talon\] and or \[Peace Talon\] required for \[Bane of All Evil\] is decreased to 5.
+
+**Portrait 3**: **Call of Thunder: #0305**: The \[Immunity\] duration is increased to 2 rounds. The stacks of \[Guardian's Resolve\] granted is increased to 12.
+
+**Portrait 4**: **Banish Evil**: At incantation rank 1/2/3, the Reality DMG is increased to 240%/360%/600% and the Penetration rate is increased to 0%/40%/100%. \[Guardian's Resolve\]'s stack limit is increased to 40, and each stack's DMG Taken Reduction is boosted to -1%.
+
+**Portrait 5**: **Destined Inheritor**: \[Bane of All Evil · Justice\]'s Reality DMG is increased to 600%; for every \[Justice Talon\] consumed, the Critical DMG bonus is increased to 30%.
+
+\[Bane of All Evil · Peace\]'s Reality DMG is increased to 600%; for every instance of \[Poison\] on the target, the DMG Dealt is increased to 20%.
+
+\[Bane of All Evil · Balance\]'s Reality DMG is increased to 300%; \[Swift Resolve\]'s stack limit is increased to 3, and for each stack of \[Swift Resolve\], \[Bane of All Evil · Balance\]'s additional Reality DMG is increased to 80%.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Liang Yue has one Epiphany of four levels.
+**Epiphany 1, level 1**: When another ally performs an extra action, Liang Yue gains 1 stack of \[Ritual Dance\] for 2 rounds, up to 5 times per round.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | Each time another ally takes an extra action, Liang Yue gains 1 stack of [Ritual Dance] for 2 rounds, at most 5 times a round. Guardian's Resolve also gives DMG Dealt equal to its DMG Taken reduction, and attacks that use Incantation Might gain extra Incantation Might equal to 50% of that reduction. The effects that the left section of Arise, Qiangliang! extends now include [Force Field]. |
-| 1 | 2 | Bane of All Evil · Justice counts Peace Talons as Justice Talons, and each one spent gives the attack ATK +0.5%. Bane of All Evil · Peace counts Justice Talons as Peace Talons, and each one spent first puts 1 stack of [Evil Expelled] on the targets for 1 round. Bane of All Evil · Balance gains Incantation Might +2% per talon spent. Every Bane of All Evil gains Incantation Might +5% per stack of Swift Resolve. |
-| 1 | 3 | The Ultimate deals an extra 600% Reality DMG. During Arise, Qiangliang!, casting Banish Evil or Bless Life gives Liang Yue 1 stack of Ritual Dance for 2 rounds. |
-| 1 | 4 | Liang Yue no longer receives the Ultimate card: at the start of a round with 5 Moxie she casts it automatically. Cast during Arise, Qiangliang!, it gives all allies 1 more round of Immunity and Guardian's Resolve, gives her 2 stacks of Swift Resolve and has Ultimate Might +100%. During Arise, Qiangliang!, Banish Evil and Bane of All Evil deal extra Reality DMG equal to the base duration of Arise, Qiangliang! times 15% of their base Reality DMG. At 4 stacks of Ritual Dance, Banish Evil played from the Spelldock counts as an extra action; at 8 stacks, the Ritual Dance bonus doubles and Banish Evil and Bane of All Evil take a further 40% of the effect of Incantation Might. |
+\[Guardian's Resolve\] New Effects: Grants DMG Dealt +(original DMG Taken Reduction effect x100%). Grants additional Incantation Might +(original DMG Taken Reduction effect x50%) to attacks affected by Incantation Might.
 
-- **Ritual Dance**: each stack makes Banish Evil and Bane of All Evil deal extra Reality DMG equal to 5% of their base Reality DMG; up to 8 stacks, each with its own duration.
-- **Evil Expelled**: DMG Taken Reduction −2%; it stacks.
-- **Force Field**: an effect that its holder grants to chosen characters on the field; it ends when the holder leaves.
+\[Arise, Qiangliang!\]'s \[Specified Selection\] list now includes \[Force Field\] effects.
+
+**Epiphany 1, level 2**: When casting \[Bane of All Evil · Justice\], \[Peace Talon\] is counted as \[Justice Talon\], and for each \[Justice Talon\] consumed, this attack gains ATK +0.5%.
+
+When casting \[Bane of All Evil · Peace\], \[Justice Talon\] is counted as \[Peace Talon\], and for each \[Peace Talon\] consumed, this attack inflicts 1 stack of \[Evil Expelled\] on the targets for 1 round.
+
+When casting \[Bane of All Evil · Balance\], for each \[Justice Talon\]/\[Peace Talon\] consumed, this attack gains Incantation Might +2%.
+
+When casting \[Bane of All Evil\], this attack gains Incantation Might +5% for each stack of \[Swift Resolve\].
+
+**Epiphany 1, level 3**: **Call of Thunder: #0305** deals an additional 600% Reality DMG. \[Arise, Qiangliang!\] New Effects: When casting **Banish Evil** or **Bless Life**, gains 1 stack of \[Ritual Dance\] for 2 rounds.
+
+**Epiphany 1, level 4**: Liang Yue can no longer gain her Ultimate; instead, she automatically casts **Call of Thunder: #0305** at the start of the round if at 5 Moxie or above. When casting **Call of Thunder: #0305** while \[Arise, Qiangliang!\] is active, grants +1 round of \[Immunity\] and \[Guardian's Resolve\] to all allies, gains 2 stacks of \[Swift Resolve\], and grants Ultimate Might +100% to this attack.
+
+\[Arise, Qiangliang!\] New Effects: **Banish Evil** and \[Bane of All Evil\] deal an additional (\[Arise, Qiangliang!\]'s base round duration x base Reality DMG x15%) Reality DMG.
+
+\[Ritual Dance\] New Effects: At 4 stacks of \[Ritual Dance\], **Banish Evil** counts as an extra action when actively cast.
+
+At 8 stacks of \[Ritual Dance\], the Reality DMG bonus of \[Ritual Dance\] is doubled; **Banish Evil** and \[Bane of All Evil\] additionally benefit from Incantation Might at a 40% rate.
+
+## Statuses
+
+- **Guardian's Resolve**: DMG Taken -0.8%, (stackable up to 30 times, each stack is timed independently).
+- **Arise, Qiangliang!**: Enhances and categorizes the allied Spelldock into different sections, granting bonuses to incantations based on the section the incantations are played from:
+
+  The 3 rightmost incantations played from the Spelldock gain rank +1 before resolve;
+
+  The 3 leftmost incantations played from the Spelldock gain +1 round duration to the \[Specified Selection\] effects that the incantations actively apply.
+
+  The incantations played from the overlap section of the Spelldock gain both of the bonus effects above.
+- **Justice Talon**: While in the \[Arise, Qiangliang!\] status, gained after actively casting one of the 3 rightmost incantations from the Spelldock.
+
+  When reaching 6 \[Justice Talon\] and or \[Peace Talon\] combined, consume 6 of these \[Justice Talon\] and or \[Peace Talon\] to cast a \[Bane of All Evil\] based on the balance of Justice Talons to Peace Talons.
+- **Guardian's Blessing I**: DMG Dealt +25%, DMG Taken -25%.
+
+  When attacking/being attacked/at the end of the round, Liang Yue casts a rank 1 \[Banish Evil\] on the target/the attacker/the enemy with the lowest HP.
+
+  After a successful cast, the remaining duration gets deducted by 1 round; otherwise, no duration is deducted.
+- **Peace Talon**: While in the \[Arise, Qiangliang!\] status, gained after actively casting one of the 3 leftmost incantations from the Spelldock.
+
+  When reaching 6 \[Justice Talon\] and or \[Peace Talon\] combined, consume 6 of these \[Justice Talon\] and or \[Peace Talon\] to cast a \[Bane of All Evil\] based on the balance of Justice Talons to Peace Talons.
+- **Guardian's Blessing II**: DMG Dealt +25%, DMG Taken -25%.
+
+  When attacking/being attacked/at the end of the round, Liang Yue casts a rank 2 \[Banish Evil\] on the target/the attacker/the enemy with the lowest HP.
+
+  After a successful cast, the remaining duration gets deducted by 1 round; otherwise, no duration is deducted.
+- **Guardian's Blessing III**: DMG Dealt +25%, DMG Taken -25%.
+
+  When attacking/being attacked/at the end of the round, Liang Yue casts a rank 3 \[Banish Evil\] on the target/the attacker/the enemy with the lowest HP.
+
+  After a successful cast, the remaining duration gets deducted by 1 round; otherwise, no duration is deducted.
+- **Immunity**: Immune to \[Stats Down\], \[Neg Status\], and \[Control\] statuses.
+- **Bane of All Evil**: When reaching 6 \[Justice Talon\] and or \[Peace Talon\] combined, consume 6 of these \[Justice Talon\] and or \[Peace Talon\] to cast a \[Bane of All Evil\] based on the balance of Justice Talons to Peace Talons:
+
+  Cast \[Bane of All Evil · Justice\] when there's more \[Justice Talon\].
+
+  Cast \[Bane of All Evil · Peace\] when there's more \[Peace Talon\].
+
+  Cast \[Bane of All Evil · Balance\] when there's an equal number of talons.
+- **Bane of All Evil · Justice**: Deals 400% Reality DMG to all enemies. Excess Critical Rate is converted into Critical DMG. Considered as a rank 2 incantation.
+
+  For every 1 \[Justice Talon\] this attack consumes, this attack gains Critical Rate +5%, Critical DMG +20%, and DMG Dealt +10%.
+
+  For every 1 \[Justice Talon\] or \[Peace Talon\] this attack consumes, grant 1 stack of \[Guardian's Resolve\] to all allies for 2 rounds.
+- **Bane of All Evil · Peace**: Deals 400% Reality DMG to all enemies.
+
+  For every 1 \[Peace Talon\] this attack consumes, right before the attack, inflict 1 instance of \[Poison\] for 1 round on the target and 3 stack of \[Burn\] on the target.
+
+  For every instance of \[Poison\] on the target, this attack gains DMG Dealt +10%. For every stack of \[Burn\] on the target, this attack gains Penetration Rate +3%.
+
+  For every \[Justice Talon\] or \[Peace Talon\] this attack consumes, grants 1 stack of \[Guardian's Resolve\] to all allies for 2 rounds.
+- **Bane of All Evil · Balance**: Deals 200% Reality DMG to all enemies; grants 1 stack of \[Swift Resolve\] to self.
+
+  For every 1 \[Justice Talon\] or \[Peace Talon\] consumed, grants 1 stack of \[Guardian's Resolve\] to all allies for 2 rounds.
+- **Swift Resolve**: \[Bane of All Evil\] requires 1 less \[Justice Talon\]/\[Peace Talon\], and deals an additional 20% Reality DMG (stacks up to 2 times, all stacks are removed after trigger).
+
+  \[Bane of All Evil · Balance\] deals an additional 40% Reality DMG (stackable, stacks of \[Swift Resolve\] are not removed after trigger).
+- **Poison**: At the end of the round, takes Genesis DMG based on the user's ATK (stackable).
+- **Ritual Dance**: Each stack enables \[Banish Evil\] and \[Bane of All Evil\] to deal (base Reality DMG x5%) Reality DMG (stackable up to 8 times, each stack timed independently).
+- **Specified Selection**: \[Stats Up\], \[Stats Down\], \[Counter\], \[Pos Status\], \[Neg Status\].
+- **Force Field**: The holder is granting effects to the relevant characters. Disappears when defeated.
+- **Evil Expelled**: DMG Taken Reduction -2% (stackable).
+- **Banish Evil**: 1-target attack. Deals 200% Reality DMG to the target. Extends the duration of \[Guardian's Resolve\] on all allies by 1 round.
+
+  If Liang Yue is in the \[Arise, Qiangliang!\] status, actively casting this incantation grants 1 additional \[Justice Talon\].
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
+- **Burn**: Healing Taken -15% (unstackable). At the end of the round, takes (the holder's ATK x4%) Genesis DMG (stackable up to 30 times, multiple stacks of Burn is regarded as 1 \[Neg Status\], removes 50% of the stacks when triggered).
+- **Counter**: Grants continuous Counter. Effect is triggered When the caster is attacked.
 
 ## Names
 

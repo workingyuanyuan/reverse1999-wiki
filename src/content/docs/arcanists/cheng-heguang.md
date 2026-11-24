@@ -35,38 +35,37 @@ sources:
 | Psychubes recommended in game | [All Honor is but Dust](/psychubes/all-honor-is-but-dust/) |
 | Mainland release | 2026-02-12 |
 | Global release | 2026-05-07 |
-
-Cheng Heguang stacks [Feathered Blades], which feed his Ultimate. Just Pursuit gives him [Work as One], a field that raises all allies' Extra Action DMG and makes him strike again with [Piercing Strike] each time another ally attacks. His Ultimate is one large hit that spends every Feathered Blade, gives him an extra action point and hands his incantation draws to his allies for 2 rounds.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/cheng-heguang/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Slicing Wind (single-target attack) | 200% Reality DMG; 1 stack of Feathered Blades | 300%; 2 stacks | 500%; 3 stacks |
-| Just Pursuit (self buff) | 1 stack of Work as One for 2 rounds | 2 stacks; 2 rounds | 2 stacks; 3 rounds |
+### Slicing Wind
+
+**Rank 1**: 1-target attack. Deals 200% Reality DMG. After attacking, gains 1 stack of \[Feathered Blades\].
+
+**Rank 2**: 1-target attack. Deals 300% Reality DMG. After attacking, gains 2 stacks of \[Feathered Blades\].
+
+**Rank 3**: 1-target attack. Deals 500% Reality DMG. After attacking, gains 3 stacks of \[Feathered Blades\].
+
+### Just Pursuit
+
+**Rank 1**: Self buff. Gains 1 stack of \[Work as One\] for 2 rounds.
+
+**Rank 2**: Self buff. Gains 2 stacks of \[Work as One\] for 2 rounds.
+
+**Rank 3**: Self buff. Gains 2 stacks of \[Work as One\] for 3 rounds.
 
 ## Ultimate: Thus the Night Is Calm
 
-Deals 1000% Reality DMG to one enemy, plus what his Feathered Blades add, and gives Cheng Heguang [Lofty Ambitions] and [Continuous Action I] for 2 rounds. After the attack he loses all Feathered Blades and all of his incantations, gains 1 Moxie and 2 stacks of Work as One for 2 rounds. The attack counts as a follow-up attack.
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Feathered Blades | Up to 10 stacks; each adds 100% Reality DMG to the Ultimate. At 5 stacks, DMG Bonus +15%, and the Ultimate has Penetration Rate +30%. At 10 stacks, the Ultimate costs no AP and always crits. |
-| Work as One | A [Force Field]: all allies gain Extra Action DMG Bonus +25%, up to 2 stacks, each with its own duration. After each attack by another ally, Cheng Heguang follows up with Piercing Strike on that attack's main target, at most 3 times a round. |
-| Piercing Strike | Single-target attack: 300% Reality DMG; Cheng Heguang gains 1 stack of Feathered Blades. |
-| Lofty Ambitions | The team's Incantation Draw Limit −2. His drawn incantations turn into random incantations of his allies, and a refresh cannot give his own. Piercing Strike deals 150% more Reality DMG with Incantation Might +10%. At the start of each round he follows up with Piercing Strike on a random enemy. |
-| Continuous Action I | AP +1. |
-| Force Field | An effect its holder gives to other characters; it ends when the holder leaves the field. |
+1-target attack. Deals 1000% Reality DMG. Gains \[Lofty Ambitions\] and \[Continuous Action I\] for 2 rounds. After attacking, removes all stacks of \[Feathered Blades\], destroys all own incantations, gains Moxie +1, and gains 2 stacks of \[Work as One\] for 2 rounds. This attack counts as a follow-up attack.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Each time Cheng Heguang acts, he gains 1 stack of [Trail of Steel]. At 3 stacks, all allies gain [Metallic Trace] for 2 rounds; then the stacks are removed and he gains 1 Moxie. Metallic Trace: Critical DMG +15%, Incantation Might +35%. |
-| 2 | Critical Rate +10% on entering battle. |
-| 3 | Gains 2 Moxie on entering battle; his Ultimate does not count toward the Incantation Draw Limit. |
+**Insight 1 · On Night Patrol**: When taking an action, gains 1 stack of \[Trail of Steel\]. Upon reaching 3 stacks, grants \[Metallic Trace\] to all allies for 2 rounds, then removes all \[Trail of Steel\] from self to gain Moxie +1.
+
+**Insight 2 · On Night Patrol II**: Critical Rate +10% when entering battle.
+
+**Insight 3 · On Night Patrol III**: When entering battle, gains Moxie +2. Ultimate does not take up the allied Incantation Draw Limit.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -76,13 +75,36 @@ Deals 1000% Reality DMG to one enemy, plus what his Feathered Blades add, and gi
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Metallic Trace gives Critical DMG +25% and Incantation Might +50%; the Lofty Ambitions, Continuous Action I and Work as One that the Ultimate gives last 3 rounds. |
-| 2 | Work as One triggers Piercing Strike up to 4 times a round and gives Extra Action DMG Bonus +35%; Insight 3 gives 5 Moxie on entering battle. |
-| 3 | Each stack of Feathered Blades adds 200% to the Ultimate; at 5 stacks the DMG Bonus is +30%. |
-| 4 | Slicing Wind deals 240, 360 or 600% by rank and gives 2, 4 or 6 stacks; Piercing Strike deals 350% and gives 2 stacks. |
-| 5 | The Ultimate deals 1100%; Metallic Trace needs only 2 stacks of Trail of Steel, and removing them gives 2 Moxie. |
+**Portrait 1**: \[Metallic Trace\] now grants Critical DMG +25% and Incantation Might +50%. The \[Lofty Ambitions\], \[Continuous Action I\], and \[Work as One\] statuses granted by **Thus the Night Is Calm** now last 3 rounds.
+
+**Portrait 2**: \[Work as One\] now triggers \[Piercing Strike\] up to 4 times per round and grants Extra Action DMG Bonus +35%. **On Night Patrol** now grants Moxie +5 when entering battle.
+
+**Portrait 3**: For each stack of \[Feathered Blades\], Ultimate now deals an additional 200% Reality DMG. At 5 stacks, \[Feathered Blades\] now grants DMG Bonus +30%.
+
+**Portrait 4**: At rank 1/2/3, **Slicing Wind** now deals 240%/360%/600% Reality DMG and grants 2/4/6 stacks of \[Feathered Blades\]. \[Piercing Strike\] now deals 350% Reality DMG and grants 2 stacks of \[Feathered Blades\].
+
+**Portrait 5**: **Thus the Night Is Calm** now deals 1100% Reality DMG. Granting \[Metallic Trace\] now requires only 2 stacks of \[Trail of Steel\]. Removing \[Trail of Steel\] stacks now grants Moxie +2.
+
+## Statuses
+
+- **Feathered Blades**: Ultimate deals an additional 100% Reality DMG (stackable up to 10 times).
+
+  At 5 stacks of \[Feathered Blades\], DMG Bonus +15% and Ultimate Penetration Rate +30%.
+
+  At 10 stacks of \[Feathered Blades\], Ultimate no longer costs AP and is guaranteed to crit.
+- **Work as One**: \[Force Field\] effect: All allies gain Extra Action DMG Bonus +25% (stackable up to 2 times, each stack timed independently).
+
+  After another ally attacks, Cheng Heguang additionally casts \[Piercing Strike\] on the main target as a follow-up attack 1 time, triggering up to 3 times per round.
+- **Lofty Ambitions**: Allied Incantation Draw Limit -2. When drawing or refreshing incantations, the carrier's incantations will be changed to his allies'.
+
+  While this status is active, \[Piercing Strike\] deals an additional 150% Reality DMG and gains Incantation Might +10%.
+
+  At the start of the round, casts \[Piercing Strike\] once on a random enemy as a follow-up attack.
+- **Continuous Action I**: AP +1.
+- **Trail of Steel**: Upon reaching 3 stacks, grants \[Metallic Trace\] to all allies for 2 rounds, then removes all \[Trail of Steel\] from self to gain Moxie +1.
+- **Metallic Trace**: Critical DMG +15%, Incantation Might +35%.
+- **Piercing Strike**: 1-target attack. Deals 300% Reality DMG. After attacking, gains 1 stack of \[Feathered Blades\].
+- **Force Field**: The holder is granting effects to the relevant characters. Disappears when defeated.
 
 ## Names
 

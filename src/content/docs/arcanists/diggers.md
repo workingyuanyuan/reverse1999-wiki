@@ -37,34 +37,37 @@ sources:
 | Psychubes recommended in game | [The Loner](/psychubes/the-loner/) |
 | Mainland release | 2023-07-06 |
 | Global release | 2023-11-23 |
-
-Diggers pairs a single-target attack that weakens with a debuff that lowers the DEF of every enemy and frightens the main target. His Ultimate puts one enemy into Nightmare, and his Insight passives shield him and, from Insight III, the whole team when battle starts.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/diggers/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Long Live Peace (single-target attack) | 200% Mental DMG | 200%; 1 stack of Weakness | 400%; 1 stack of Weakness |
-| Bubblism (mass debuff) | all enemies Reality DEF and Mental DEF −15%, 2 rounds | same; Terror on the main target 1 round | same; Terror 2 rounds |
+### Long Live Peace
 
-Long Live Peace inflicts Weakness after the hit. Bubblism lowers both DEF stats of every enemy by 15% for 2 rounds at every rank.
+**Rank 1**: 1-target attack. Deals 200% Mental DMG.
 
-- [Weakness]: the holder's next attack has DMG Bonus −25%; each attack that it affects removes one stack.
-- [Terror]: the holder loses 1 Moxie at the end of each round.
+**Rank 2**: 1-target attack. Deals 200% Mental DMG. After attacking, inflicts 1 stack of \[Weakness\] on the target.
+
+**Rank 3**: 1-target attack. Deals 400% Mental DMG. After attacking, inflicts 1 stack of \[Weakness\] on the target.
+
+### Bubblism
+
+**Rank 1**: Mass debuff. Inflicts Reality DEF and Mental DEF -15% on all enemies for 2 rounds.
+
+**Rank 2**: Mass debuff. Inflicts Reality DEF and Mental DEF -15% on all enemies for 2 rounds. Inflicts \[Terror\] on the main target for 1 round.
+
+**Rank 3**: Mass debuff. Inflicts Reality DEF and Mental DEF -15% for all enemies for 2 rounds. Inflicts \[Terror\] on the main target for 2 rounds.
 
 ## Ultimate: Sweet Dreams for You
 
-Deals 450% Mental DMG to one enemy and inflicts [Nightmare] for 1 round, or for 2 rounds if the enemy has a Stats Down, Neg Status or Control effect.
-
-[Nightmare]: the target cannot act; any attack on it ends the effect.
+1-target attack. Deals 450% Mental DMG and inflicts 1 round of \[Nightmare\]. If the enemy is in \[Stats Down\], \[Neg Status\], or \[Control\] statuses, this effect lasts 2 rounds instead.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | On entering battle, Diggers gains a Shield equal to 33% of his Max HP for 3 rounds, once per battle. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | On entering battle, every other ally also gains a Shield equal to 33% of Diggers' Max HP for 3 rounds, once per battle. |
+**Insight 1 · Bubble Parade**: When entering battle, grants a Shield with (own Max HP x33%) HP to Diggers for 3 rounds (triggers only 1 time).
+
+**Insight 2 · Bubble Parade II**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · Bubble Parade III**: When entering battle, grants a Shield with (Diggers's Max HP x33%) HP to other allies for 3 rounds (triggers only 1 time).
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -74,13 +77,22 @@ Deals 450% Mental DMG to one enemy and inflicts [Nightmare] for 1 round, or for 
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 500%. |
-| 2 | Long Live Peace deals 220, 230 or 450% by rank. |
-| 3 | The Ultimate deals 550%. |
-| 4 | Long Live Peace inflicts 2 stacks of Weakness at ranks 2 and 3. |
-| 5 | The Ultimate deals 600%. |
+**Portrait 1**: **Sweet Dreams for You**: Mental DMG increased to 500%.
+
+**Portrait 2**: **Long Live Peace**'s effect changes to: at 1/2/3 stars, Mental DMG dealt is increased to 220%/230%/450%.
+
+**Portrait 3**: **Sweet Dreams for You**'s effect changes to: deals 550% Mental DMG.
+
+**Portrait 4**: **Long Live Peace**'s effect changes to: at 2/3 stars, inflicts 1 more stack of \[Weakness\] on the target.
+
+**Portrait 5**: **Sweet Dreams for You**: Mental DMG increased to 600%.
+
+## Statuses
+
+- **Weakness**: DMG Bonus -25% when attacking (reduced by 1 stack on trigger).
+- **Terror**: When a round ends, Moxie -1.
+- **Nightmare**: Cannot act. Dispels the effect after taking any attack.
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
 
 ## Names
 

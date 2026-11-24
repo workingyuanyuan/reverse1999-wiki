@@ -37,34 +37,43 @@ sources:
 | Psychubes recommended in game | [Stray Off the Path](/psychubes/stray-off-the-path/), [Outside the City](/psychubes/outside-the-city/), [Thunderous Applause](/psychubes/thunderous-applause/) |
 | Mainland release | 2024-08-29 |
 | Global release | 2024-12-26 |
-
-Argus strips one enemy of its buffs and marks it with [Pinpointed], a debuff that lowers its DMG Taken Reduction and Critical DEF and gains stacks with every hit. Her first incantation raises the ranks of her cards, and from Insight III each round adds a Grave Digger shot whose rank follows the total ranks of the incantations played that round. She also has Euphoria.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/argus/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Shotgun Shower (single-target attack) | 160% Reality DMG; Empower Incantation I 1 round | 280%; Empower Incantation II 1 round | 450%; Empower Incantation II 2 rounds |
-| Penetrating Eye (single-target debuff) | Pinpointed 3 rounds | 5 stacks of Pinpointed, 3 rounds | 10 stacks of Pinpointed, 3 rounds |
+### Shotgun Shower
 
-- **Shotgun Shower** gives Argus herself the Empower Incantation status after the hit.
-- **Penetrating Eye** first dispels every Stats Up and Pos Status effect on the target. Only one enemy on the field can hold Pinpointed at a time.
+**Rank 1**: 1-target attack. Deals 160% Reality DMG, then grants \[Empower Incantation I\] to self for 1 round.
 
-[Empower Incantation I]: at the start of the round, one random incantation goes up 1 rank. [Empower Incantation II] does the same for 2 random incantations.
+**Rank 2**: 1-target attack. Deals 280% Reality DMG, then grants \[Empower Incantation II\] to self for 1 round.
+
+**Rank 3**: 1-target attack. Deals 450% Reality DMG, then grants \[Empower Incantation II\] to self for 2 rounds.
+
+### Penetrating Eye
+
+**Rank 1**: 1-target debuff. Dispels all \[Stats Up\] and \[Pos Status\] on the target, then inflicts \[Pinpointed\] on the target for 3 rounds. Only 1 \[Pinpointed\] debuff can exist on the field at a time.
+
+**Rank 2**: 1-target debuff. Dispels all \[Stats Up\] and \[Pos Status\] on the target, then inflicts 5 stacks of \[Pinpointed\] on the target for 3 rounds. Only 1 \[Pinpointed\] debuff can exist on the field at a time.
+
+**Rank 3**: 1-target debuff. Dispels all \[Stats Up\] and \[Pos Status\] on the target, then inflicts 10 stacks of \[Pinpointed\] on the target for 3 rounds. Only 1 \[Pinpointed\] debuff can exist on the field at a time.
 
 ## Ultimate: No Mark Unstruck
 
-Deals 500% Reality DMG to one enemy. If the target has [Pinpointed], before the hit it gains 5 more stacks, the whole status lasts its full duration again, and the attack gains Penetration Rate +30% and Critical Rate +30%.
-
-[Pinpointed]: DMG Taken Reduction −15% and Critical DEF −15%, and both fall by a further 2% for each stack beyond the first. Each attack the holder takes adds stacks: 2, 3 or 4 for a rank 1, 2 or 3 incantation, 1 for an attack with no rank. Stacks added this way do not renew the duration. At most 15 stacks.
+1-target attack. Deals 500% Reality DMG to the target. Right before attacking, if the target is in the \[Pinpointed\] status, increase the \[Pinpointed\] status by 5 stacks, refresh the duration of the entire stack, and grant Penetration Rate +30% and Critical Rate +30% to this attack.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | After Argus casts an incantation of rank 1, 2 or 3, all allies gain DMG Dealt +10%, +15% or +25% for 2 rounds. |
-| 2 | Critical Rate +10% on entering battle. |
-| 3 | Before the incantations in the AP Area resolve, adds a [Grave Digger] to the queue as an extra action, aimed first at an enemy with Pinpointed. Its rank follows the total ranks played that round: 3 to 4 ranks give a rank 1 shot of 100% Reality DMG; 5 to 6 a rank 2 shot of 150% and Moxie +1; 7 or more a rank 3 shot of 300%, Moxie +1 and a guaranteed critical hit. |
+**Insight 1 · Miracle of a Hundred Eyes**: After Argus casts a rank 1/2/3 incantation, grant DMG Dealt +10%/15%/25% to all allies for 2 rounds.
+
+**Insight 2 · Miracle of a Hundred Eyes II**: Critical Rate +10% when entering battle.
+
+**Insight 3 · Miracle of a Hundred Eyes III**: Right before the incantations in the AP Area resolve, add a ranked incantation \[Grave Digger\] to the spell queue based on the total ranks of the incantations played this round. This attack is considered an extra action and prioritizes targets with \[Pinpointed\].
+
+3-4 Ranks: Adds a rank 1 incantation. 1-target attack, deals 100% Reality DMG.
+
+5-6 Ranks: Adds a rank 2 incantation. 1-target attack, deals 150% Reality DMG and gains Moxie +1 for self.
+
+7+ Ranks: Adds a rank 3 incantation. 1-target attack, deals 300% Reality DMG and gains Moxie +1 for self. This attack is always a critical hit.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -74,26 +83,38 @@ Deals 500% Reality DMG to one enemy. If the target has [Pinpointed], before the 
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Grave Digger deals 150, 250 or 400% by rank. |
-| 2 | Pinpointed starts at −20%, and each further stack lowers DMG Taken Reduction and Critical DEF by 2.5% more. |
-| 3 | Grave Digger deals 200, 350 or 500% by rank. |
-| 4 | Pinpointed starts at −25%, and each further stack lowers both by 3% more. |
-| 5 | The Ultimate deals 700%. |
+**Portrait 1**: **Miracle of a Hundred Eyes**: At incantation rank 1/2/3, the Reality DMG of \[Grave Digger\] is increased to 150%/250%/400%.
+
+**Portrait 2**: **Penetrating Eye**: The base effect of \[Pinpointed\] is increased to 20%, and each stack beyond the first now inflicts an additional DMG Taken Reduction -2.5% and Critical DEF -2.5%.
+
+**Portrait 3**: **Miracle of a Hundred Eyes**: At incantation rank 1/2/3, the Reality DMG of \[Grave Digger\] is increased to 200%/350%/500%.
+
+**Portrait 4**: **Penetrating Eye**: The base effect of \[Pinpointed\] is increased to 25%, and each stack beyond the first now inflicts an additional DMG Taken Reduction -3% and Critical DEF -3%.
+
+**Portrait 5**: **No Mark Unstruck** now deals 700% Reality DMG.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Argus has one Epiphany of four levels; two of them strengthen Grave Digger.
+**Epiphany 1, level 1**: After actively taking an action, gains 5 stacks of \[Incantation Bullet\].
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | After each action she takes herself, Argus gains 5 stacks of [Incantation Bullet]: Incantation Might +25% when attacking. |
-| 1 | 2 | Grave Digger raises a random incantation of hers by 1 rank after it hits; at rank 3 it raises one more. |
-| 1 | 3 | The Ultimate deals extra Reality DMG equal to 80% of its base Reality DMG to a target with Pinpointed. |
-| 1 | 4 | For each rank in the AP Area, up to 10, Grave Digger deals 50% more Reality DMG, gives Argus 1 stack of [Ceremonious: Ultimate Might] and has a 10% chance to fire once more. |
+**Epiphany 1, level 2**: \[Grave Digger\] New Effect: After attacking, grants rank +1 to a random own incantation. At rank 3, \[Grave Digger\] grants rank +1 to an additional random own incantation.
 
-[Ceremonious: Ultimate Might]: Ultimate Might +3% per stack, up to 100 stacks; it cannot be dispelled and is removed after Argus casts her Ultimate.
+**Epiphany 1, level 3**: **No Mark Unstruck** New Effect: Deals an additional (base Reality DMG x80%) Reality DMG to the target if they are \[Pinpointed\].
+
+**Epiphany 1, level 4**: \[Grave Digger\] New Effect: For every rank in the AP Area (up to 10 counted), \[Grave Digger\] deals 50% additional Reality DMG, grants 1 stack of \[Ceremonious: Ultimate Might\] to self, and has a 10% chance to cast \[Grave Digger\] an extra time.
+
+## Statuses
+
+- **Empower Incantation I**: At the start of the round, a random incantation gains rank +1.
+- **Empower Incantation II**: At the start of the round, 2 random incantations gain rank +1.
+- **Pinpointed**: DMG Taken Reduction -15%, Critical DEF -15%.
+
+  Each stack beyond the first inflicts an additional DMG Taken Reduction -2% and Critical DEF -2%.
+
+  After being attacked by a rank 1/2/3/rankless incantation, 2/3/4/1 stacks are added to this status. The existing stacks do not refresh in duration when new stacks are added this way; stacks up to 15 times.
+- **Grave Digger**: 1-target attack. At rank 1/2/3, deals 100%/150%/300% Reality DMG. At rank 2 and higher, gain Moxie +1 for self. At rank 3, this attack is always a critical hit.
+- **Incantation Bullet**: When attacking, Incantation Might +25%.
+- **Ceremonious: Ultimate Might**: Ultimate Might +3% (up to 100 stacks, undispellable, disappears after casting an Ultimate).
 
 ## Names
 

@@ -37,37 +37,45 @@ sources:
 | Psychubes recommended in game | [The Final Roll](/psychubes/the-final-roll/), [The Carat of a Heart](/psychubes/the-carat-of-a-heart/) |
 | Mainland release | 2025-02-27 |
 | Global release | 2025-05-29 |
-
-Recoleta can hold more than 5 Moxie, and her Ultimate spends all of it: every point beyond 5 adds Ultimate Might and gives Moxie to the ally who has least. Her incantations build [Monomythic Narrative] against a lone enemy or [Ensemble Narrative] against several, which the Ultimate spends for extra damage. Her Insight 3 passive brings Flood of Fiction, a card that makes the ally with the most Moxie cast an Ultimate and gives the Moxie back.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/recoleta/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Metaphysical Conceit (single-target attack) | 100% Reality DMG | 150% | 250% |
-| Literary Imagery (attack on 2 enemies) | 120% Reality DMG | 180% | 300% |
+### Metaphysical Conceit
 
-At every rank, Metaphysical Conceit puts 2 stacks of [Passion Drain] on its target, and Literary Imagery gives Recoleta 5 stacks of Monomythic Narrative if there is only one enemy, or 5 stacks of Ensemble Narrative otherwise.
+**Rank 1**: 1-target attack. Deals 100% Reality DMG; after attacking, inflicts 2 stacks of \[Passion Drain\] on the target.
 
-[Passion Drain]: when the holder is attacked, the attacker gains 1 Moxie; each hit uses one stack.
+**Rank 2**: 1-target attack. Deals 150% Reality DMG; after attacking, inflicts 2 stacks of \[Passion Drain\] on the target.
+
+**Rank 3**: 1-target attack. Deals 250% Reality DMG; after attacking, inflicts 2 stacks of \[Passion Drain\] on the target.
+
+### Literary Imagery
+
+**Rank 1**: Mass attack. Deals 120% Reality DMG to 2 enemies. If there's only 1 enemy target, grant 5 stacks of \[Monomythic Narrative\] to self; otherwise, grant 5 stacks of \[Ensemble Narrative\] to self.
+
+**Rank 2**: Mass attack. Deals 180% Reality DMG to 2 enemies. If there's only 1 enemy target, grant 5 stacks of \[Monomythic Narrative\] to self; otherwise, grant 5 stacks of \[Ensemble Narrative\] to self.
+
+**Rank 3**: Mass attack. Deals 300% Reality DMG to 2 enemies. If there's only 1 enemy target, grant 5 stacks of \[Monomythic Narrative\] to self; otherwise, grant 5 stacks of \[Ensemble Narrative\] to self.
 
 ## Ultimate: Maze of Visceral Realism
 
-Deals 450% Reality DMG to all enemies and 450% more to the main target, and spends all her Narrative stacks for extra Reality DMG. The cast uses up all her Moxie: each point beyond the usual cost adds Ultimate Might +3% to this attack and gives 1 Moxie to the other ally with the least Moxie. With at least 5 extra points spent, Ultimate Might counts double for this attack; the global English text doubles only the bonus from the extra Moxie.
+Mass attack. Deals 450% Reality DMG to all enemies and an additional 450% Reality DMG to the main target. Consumes all stacks of \[Monomythic Narrative\] and \[Ensemble Narrative\] on self to deal additional Reality DMG;
 
-- [Monomythic Narrative]: spent in full when she casts her Ultimate; each stack adds 50% Reality DMG to the main target. At most 20 stacks.
-- [Ensemble Narrative]: spent in full when she casts her Ultimate; each stack adds 25% Reality DMG to every target. At most 20 stacks.
-- [Preparation · Recoleta]: at the start of the next round, creates the [Precast Incantation] [Flood of Fiction].
-- [Flood of Fiction]: the ally with the most Moxie spends all of it to cast an Ultimate, then gets the spent Moxie back, at most the Ultimate's cost. That Ultimate does not count as an extra action.
-- [Precast Incantation]: counts as the incantation of the same name; removed at the end of the round if unused.
+When casting this ultimate, consume all Moxie on self. For each additional Moxie consumed, grant Ultimate Might +3% to this attack, and grant Moxie +1 to another ally with the lowest current Moxie;
+
+If at least 5 additional Moxie are consumed, the bonus Ultimate Might granted to this attack is doubled.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Max Moxie +2; an Ultimate still needs 5. After another ally casts an Ultimate, Recoleta gains 1 Moxie and 1 stack of Monomythic Narrative (single-target Ultimate) or Ensemble Narrative (mass Ultimate) for each point of Moxie it spent. |
-| 2 | Critical DMG +15% on entering battle. |
-| 3 | Max Moxie +3. On entering battle she gains 3 Moxie and 1 stack of Preparation · Recoleta. After her Ultimate she gains 1 stack of Preparation · Recoleta for every 10 Narrative stacks it spent, 1 at most. |
+**Insight 1 · Spontaneous Writing**: Max Moxie +2 (The Moxie required to gain ultimates is still 5).
+
+After another ally casts an ultimate, Recoleta gains Moxie +1; and for each point of Moxie consumed by that 1-target/mass ultimate, Recoleta gains 1 stack of \[Monomythic Narrative\]/\[Ensemble Narrative\].
+
+**Insight 2 · Spontaneous Writing II**: Critical DMG +15% when entering battle.
+
+**Insight 3 · Spontaneous Writing III**: Max Moxie +3. When entering battle, gain Moxie +3 and 1 stack of \[Preparation · Recoleta\].
+
+After casting an ultimate, for every 10 stacks of \[Monomythic Narrative\] and or \[Ensemble Narrative\] consumed, gain 1 stack of \[Preparation · Recoleta\]; a maximum of 1 stack can be gained in this way.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -77,27 +85,45 @@ Deals 450% Reality DMG to all enemies and 450% more to the main target, and spen
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Her Ultimate can give up to 2 stacks of Preparation · Recoleta. |
-| 2 | Each stack of Monomythic Narrative adds 70%, each stack of Ensemble Narrative 35%. |
-| 3 | The Ultimate deals 550% to all enemies and 550% more to the main target. |
-| 4 | Literary Imagery deals 150, 225 or 375% by rank and gives 10 Narrative stacks. |
-| 5 | The Ultimate deals 650% and 650% more to the main target; each extra point of Moxie adds Ultimate Might +6%. |
+**Portrait 1**: **Spontaneous Writing**: When casting an ultimate, the maximum stack limit of \[Preparation · Recoleta\] is increased to 2.
+
+**Portrait 2**: **Maze of Visceral Realism**: The additional Reality DMG dealt by consuming \[Monomythic Narrative\]/\[Ensemble Narrative\] is increased to 70%/35%.
+
+**Portrait 3**: **Maze of Visceral Realism**: The Reality DMG dealt is increased to 550%/550%.
+
+**Portrait 4**: **Literary Imagery**: At incantation rank 1/2/3, the Reality DMG dealt is increased to 150%/225%/375%, and the stacks of \[Monomythic Narrative\]/\[Ensemble Narrative\] granted to self are increased to 10.
+
+**Portrait 5**: **Maze of Visceral Realism**: The Reality DMG dealt is increased to 650%/650%, and for each additional Moxie consumed, the Ultimate Might bonus is increased to +6%.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Recoleta has one Epiphany of four levels.
+**Epiphany 1, level 1**: \[Flood of Fiction\] will now apply to the ally with the highest Moxie, excluding Recoleta.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | Flood of Fiction picks the ally with the most Moxie other than Recoleta. An Ultimate cast through it gives Recoleta twice the Narrative stacks and 1 Moxie. |
-| 1 | 2 | The Ultimate's damage, its extra damage to the main target and its Ultimate Might per extra Moxie each rise by 100% of the base: 900% and 900% more, with +6% per extra point, before Portraits. |
-| 1 | 3 | Each Narrative stack adds 100% of its base damage more (100% for Monomythic, 50% for Ensemble before Portraits) and gives the Ultimate DMG Dealt +1%; both Narratives hold up to 40 stacks. |
-| 1 | 4 | The Max Moxie bonus of Insight 3 becomes +8. |
+New Effect: Ultimates cast via \[Flood of Fiction\] grant double the number of \[Monomythic Narrative\]/\[Ensemble Narrative\] stacks and grant Moxie +1 to Recoleta.
+
+**Epiphany 1, level 2**: **Maze of Visceral Realism**: Deals an additional (base Reality DMG x100%) Reality DMG. Deals another additional (base Reality DMG x100%) Reality DMG to the main target. For each additional Moxie consumed, gains an additional (base Ultimate Might x100%) Ultimate Might.
+
+**Epiphany 1, level 3**: \[Monomythic Narrative\]/\[Ensemble Narrative\] deals an additional (base Reality DMG x100%) Reality DMG. New Effect: When casting **Maze of Visceral Realism**, DMG Dealt +1%, up to 40 stacks.
+
+**Epiphany 1, level 4**: **Spontaneous Writing**: Max Moxie Bonus increased to +8.
+
+## Statuses
+
+- **Passion Drain**: After the holder is attacked, the attacker gains Moxie +1 (-1 stack after trigger).
+- **Monomythic Narrative**: When casting an ultimate, consume all stacks of this status, with each consumed stack dealing an additional 50% Reality DMG to the main target (stacks up to 20 times).
+- **Ensemble Narrative**: When casting an ultimate, consume all stacks of this status, with each consumed stack dealing an additional 25% Reality DMG to all targets (stacks up to 20 times).
+- **Preparation · Recoleta**: At the start of the next round, generate a \[Precast Incantation\]: \[Flood of Fiction\].
+- **Flood of Fiction**: Make the ally with the highest Moxie consume all their current Moxie to cast an ultimate, then recover the consumed Moxie.
+
+  (This ultimate does not count as an extra action, and the recovered Moxie cannot exceed the Moxie required to cast the ultimate).
+- **Precast Incantation**: A \[Precast Incantation\] is regarded as an incantation of the same name. At the end of the round, all unused \[Precast Incantation\] are removed.
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | Recoleta | 虚构集 | 虛構集 | レコレータ | 레콜레타 |
+
+## Edition differences
+
+- Maze of Visceral Realism: with at least 5 extra Moxie spent, the Chinese texts double the whole Ultimate Might of the attack; the global client's English text doubles only the bonus from the extra Moxie.

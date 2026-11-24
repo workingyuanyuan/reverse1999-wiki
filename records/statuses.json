@@ -1,5 +1,5 @@
 {
-	"_note": "Text of the Statuses page in English (pipeline/write_systems.py); translations are statuses.<lang>.json with the same structure, section keys and row ids. Status names come from the game text by id (skill_eff_desc.json); 'unofficial' gives a name that no global client has yet, by language. Each desc restates the mainland text of that id in our own words; numbers as the game gives them.",
+	"_note": "Text of the Statuses page in English (pipeline/write_systems.py); translations are statuses.<lang>.json with the same structure, section keys and row ids. Status names come from the game text by id (skill_eff_desc.json); 'unofficial' gives a name that no global client has yet, by language. The effect column is the game's text of that id in each language (skill_eff_desc.json), written by pipeline/write_systems.py.",
 	"title": "Statuses",
 	"description": "Reverse: 1999 statuses: positive and negative kinds, Control effects and the statuses arcanists share.",
 	"caveat": "Petrify ends when the holder takes a Reality DMG attack and Freeze when it takes a Mental DMG attack, so an attack of that type frees a controlled enemy.",
@@ -29,44 +29,34 @@
 			"intro": "Control statuses stop a character acting or limit what it can cast. Three statuses build up into one of them at 2 stacks.",
 			"rows": [
 				{
-					"id": 401,
-					"desc": "cannot act"
+					"id": 401
 				},
 				{
-					"id": 402,
-					"desc": "cannot act; ends when the holder takes a Reality DMG attack"
+					"id": 402
 				},
 				{
-					"id": 404,
-					"desc": "cannot act; ends when the holder takes a Mental DMG attack"
+					"id": 404
 				},
 				{
-					"id": 403,
-					"desc": "cannot act; ends when the holder takes any attack"
+					"id": 403
 				},
 				{
-					"id": 405,
-					"desc": "cannot cast Attack incantations"
+					"id": 405
 				},
 				{
-					"id": 406,
-					"desc": "cannot cast Buff, Debuff, Heal or Counter incantations"
+					"id": 406
 				},
 				{
-					"id": 407,
-					"desc": "cannot cast the Ultimate"
+					"id": 407
 				},
 				{
-					"id": 408,
-					"desc": "at 2 stacks turns into Petrify, or adds 1 round to a Petrify already there"
+					"id": 408
 				},
 				{
-					"id": 409,
-					"desc": "at 2 stacks turns into Freeze, or adds 1 round to a Freeze already there"
+					"id": 409
 				},
 				{
-					"id": 410,
-					"desc": "at 2 stacks turns into Daze, or adds 1 round to a Daze already there"
+					"id": 410
 				}
 			]
 		},
@@ -76,56 +66,43 @@
 			"intro": "The damage these statuses deal is Genesis DMG.",
 			"rows": [
 				{
-					"id": 4150001,
-					"desc": "Healing Taken -15% (does not stack); at the end of each round, Genesis DMG equal to 4% of the holder's ATK per stack; up to 30 stacks, which count as one Neg Status; half the stacks go each time it deals damage"
+					"id": 4150001
 				},
 				{
-					"id": 31340001,
-					"desc": "like Burn, with Healing Taken -25% and the damage based on the ATK of whoever first applied it"
+					"id": 31340001
 				},
 				{
-					"id": 603,
-					"desc": "at the end of each round, Genesis DMG based on the ATK of whoever applied it; stacks"
+					"id": 603
 				},
 				{
-					"id": 604,
-					"desc": "after the holder acts, Genesis DMG equal to 100% of the applier's ATK"
+					"id": 604
 				},
 				{
-					"id": 605,
-					"desc": "at the end of each round, Genesis DMG based on the holder's current HP"
+					"id": 605
 				},
 				{
-					"id": 601,
-					"desc": "Healing Taken -50%"
+					"id": 601
 				},
 				{
-					"id": 612,
-					"desc": "DMG Bonus -25% on an attack; one stack is used each time"
+					"id": 612
 				},
 				{
-					"id": 842,
-					"desc": "DMG Bonus -30% on 1-target attacks"
+					"id": 842
 				},
 				{
-					"id": 843,
-					"desc": "DMG Bonus -30% on mass attacks"
+					"id": 843
 				},
 				{
-					"id": 1027,
-					"desc": "Critical Resist Rate -25%; stacks, each stack with its own duration"
+					"id": 1027
 				},
 				{
-					"id": 3120002,
-					"desc": "Mental DMG taken +25%; one stack is used each time"
+					"id": 3120002
 				},
 				{
-					"id": 610,
-					"desc": "cannot gain Moxie"
+					"id": 610
 				},
 				{
-					"id": 30620111,
-					"desc": "when the holder is attacked, the attacker gains 1 Moxie; one stack is used each time"
+					"id": 30620111
 				}
 			]
 		},
@@ -135,52 +112,40 @@
 			"intro": "Positive statuses that several arcanists grant.",
 			"rows": [
 				{
-					"id": 512,
-					"desc": "absorbs damage while it lasts"
+					"id": 512
 				},
 				{
-					"id": 300,
-					"desc": "a lasting status whose effect triggers when the holder is attacked"
+					"id": 300
 				},
 				{
-					"id": 301,
-					"desc": "draws some attacks to the holder first"
+					"id": 301
 				},
 				{
-					"id": 504,
-					"desc": "DMG Taken Reduction +25% when attacked; one stack is used each time"
+					"id": 504
 				},
 				{
-					"id": 503,
-					"desc": "DMG Bonus +50% on an attack; one stack is used each time"
+					"id": 503
 				},
 				{
-					"id": 21500002,
-					"desc": "DMG Bonus +25% on an attack; one stack is used each time"
+					"id": 21500002
 				},
 				{
-					"id": 502,
-					"desc": "unaffected by Stats Down, Neg Status and Control"
+					"id": 502
 				},
 				{
-					"id": 501,
-					"desc": "at the start of each round, heals based on the ATK of whoever granted it"
+					"id": 501
 				},
 				{
-					"id": 797,
-					"desc": "dodges Reality DMG attacks other than Ultimates"
+					"id": 797
 				},
 				{
-					"id": 518,
-					"desc": "at the start of each round, one random incantation goes up one rank"
+					"id": 518
 				},
 				{
-					"id": 816,
-					"desc": "at the start of each round, two random incantations go up one rank"
+					"id": 816
 				},
 				{
-					"id": 226006,
-					"desc": "AP +1"
+					"id": 226006
 				}
 			]
 		},
@@ -190,49 +155,38 @@
 			"intro": "Resources and effects that a group of arcanists builds together. Bloodtithe, Lingering Glow and Pursuit Scope cannot be active at the same time in the mainland client; the global client's text of Bloodtithe and Lingering Glow lacks that clause, and Pursuit is out only on the mainland service.",
 			"rows": [
 				{
-					"id": 30740203,
-					"desc": "1 point each time the team has lost 3,000 HP in total; HP lost to attacks counts at 30%"
+					"id": 30740203
 				},
 				{
-					"id": 31340029,
-					"desc": "builds whenever an enemy is given Burn or Halo, more of it the fewer enemies there are"
+					"id": 31340029
 				},
 				{
 					"id": 31550001,
-					"unofficial": "Pursuit Scope",
-					"desc": "before an incantation, a team with at least 6 Pursuit Points (15 at most) can enter Full Pursuit, take up to 10 points into it, and spend them on Pursuit incantations of the same Afflatus"
+					"unofficial": "Pursuit Scope"
 				},
 				{
-					"id": 2240001,
-					"desc": "each Eureka spent adds 1 point; at the start of a round the points go to random incantations, at most 5 each, and points on cards not cast are lost at the end of the round; casting a card that holds points adds an Impromptu Incantation at the end of the sequence"
+					"id": 2240001
 				},
 				{
-					"id": 2240002,
-					"desc": "200% Mental DMG to a random enemy plus 15% per Inspiration point it carries; at 3, 6, 12 and 20 points it attacks 1, 2, 3 and 5 more times; uses the average stats of the whole team"
+					"id": 2240002
 				},
 				{
-					"id": 90071,
-					"desc": "powers devices; up to 30 stacks, undispellable"
+					"id": 90071
 				},
 				{
-					"id": 227006,
-					"desc": "an Array that grows at the start of a round with the Dynamo poured into it: Lv.1 DMG Bonus +15% for 3 rounds; Lv.2 from 50 Dynamo, Incantation Might +25% as well; Lv.3 from 120, Ultimate Might +35% as well, for 2 rounds; the Dynamo is lost when it ends"
+					"id": 227006
 				},
 				{
-					"id": 31440007,
-					"desc": "charged with Energy; at the end of the action sequence it casts incantations again and again, spending Energy"
+					"id": 31440007
 				},
 				{
-					"id": 90091,
-					"desc": "Ultimate Might +3% per stack, up to 100 stacks, undispellable; gone after the Ultimate"
+					"id": 90091
 				},
 				{
-					"id": 114300001,
-					"desc": "casting it counts as the arcanist's own action"
+					"id": 114300001
 				},
 				{
-					"id": 30530520,
-					"desc": "a kind of Genesis DMG that stat bonuses do not change"
+					"id": 30530520
 				}
 			]
 		}

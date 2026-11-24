@@ -37,30 +37,35 @@ sources:
 | Psychubes recommended in game | [Long Night Talk](/psychubes/long-night-talk/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Door carries two plain attacks, one on a single target and one on two enemies. His Ultimate is a sacrifice: he gives up all his HP to hand Moxie, a Shield and [Inspire] to the rest of the team, and his Insight 1 passive gives another point of Moxie when he leaves the field.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/door/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Deep Vortex (single-target attack) | 200% Reality DMG | 300% | 500% |
-| Converging Mirror (attack on 2 enemies) | 150% Reality DMG | 225% | 375% |
+### Deep Vortex
+
+**Rank 1**: 1-target attack. Deals 200% Reality DMG.
+
+**Rank 2**: 1-target attack. Deals 300% Reality DMG.
+
+**Rank 3**: 1-target attack. Deals 500% Reality DMG.
+
+### Converging Mirror
+
+**Rank 1**: Mass attack. Deals 150% Reality DMG to 2 enemies.
+
+**Rank 2**: Mass attack. Deals 225% Reality DMG to 2 enemies.
+
+**Rank 3**: Mass attack. Deals 375% Reality DMG to 2 enemies.
 
 ## Ultimate: To the Universe in the Alley
 
-Door loses all of his current HP. Every other ally gains Moxie +2, a [Shield] worth 100% of Door's ATK and Inspire for 2 rounds. In the global client the base Shield is worth 100% of each target's ATK and is given to every ally; its Portrait levels use Door's ATK in both clients.
-
-[Shield]: absorbs damage while it lasts.
-
-[Inspire]: Moxie +1 at the start of each round.
+Mass buff. HP -(current HP ×100%) for the caster. Moxie +2 for other allies, inflicts a Shield with (the target’s ATK ×100%) HP on every ally, and they enter \[Inspire\] status for 2 rounds.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | When Door leaves the field, every other ally gains Moxie +1. |
-| 2 | DMG Taken −8% on entering battle. |
+**Insight 1 · Modesty**: When the caster dies, Moxie +1 for other allies.
+
+**Insight 2 · Modesty Ⅱ**: DMG Taken -8% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -69,16 +74,27 @@ Door loses all of his current HP. Every other ally gains Moxie +2, a [Shield] wo
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate's Shield is worth 150% of Door's ATK. |
-| 2 | Deep Vortex deals 220, 330 or 550% by rank. |
-| 3 | The Ultimate's Shield is worth 200% of Door's ATK. |
-| 4 | Converging Mirror deals 165, 245 or 400% by rank. |
-| 5 | The Ultimate's Shield is worth 250% of Door's ATK. |
+**Portrait 1**: **To the Universe in the Alley**'s effect changes to: inflicts a \[Shield\] with (the caster's ATK ×150%) HP on all allies.
+
+**Portrait 2**: **Deep Vortex**: At Incantation rank 1/2/3, Reality DMG increased to 220/330/550%.
+
+**Portrait 3**: **To the Universe in the Alley**'s effect changes to: inflicts a \[Shield\] with (the caster's ATK ×200%) HP on all allies.
+
+**Portrait 4**: **Converging Mirror**'s effect changes to: at 1/2/3 stars, deals 165/245/400% Reality DMG.
+
+**Portrait 5**: **To the Universe in the Alley**'s effect changes to: inflicts a \[Shield\] with (the caster's ATK ×250%) HP on all allies.
+
+## Statuses
+
+- **Inspire**: Begins round with Moxie +1.
+- **Shield**: Blocks certain DMG for a certain duration.
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | Door | 门 | 門 | ドア | 문 |
+
+## Edition differences
+
+- To the Universe in the Alley: on the mainland client the Shield is worth 100% of Door's ATK and goes to every other ally; on the global client it is worth 100% of each target's ATK and goes to every ally. The Portrait levels use Door's ATK on both clients.

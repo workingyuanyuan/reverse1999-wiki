@@ -1,6 +1,6 @@
 ---
 title: "キャラクターストーリー II"
-description: "リバース：1999 のキャラクターストーリー II：すべての章、ステージ、ストーリー全文。"
+description: "リバース：1999 のキャラクターストーリー II：全26章、226ステージ。"
 appliesTo: "リバース：1999、グローバル版クライアント 111.0.1077（バージョン 3.9）、日本語テキスト"
 caveat: "テキストはグローバル版の日本語。2バージョン先行する中国本土版では一部のセリフの言い回しが異なる。"
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global、グローバル版クライアント 111.0.1077：chapter.json と episode.json（ステージ番号、ゲーム内の時刻）"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-リバース：1999 のキャラクターストーリー II。章のページにはステージの一覧、ステージのページにはストーリー全文と小径がある。
-
 | 章 | ステージ数 | 小径 |
 | --- | --- | --- |
 | [太陽の裏側](/ja/story/shadow-of-the-sun/) | 8 | 0 |

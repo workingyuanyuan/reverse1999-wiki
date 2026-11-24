@@ -1,6 +1,6 @@
 ---
 title: "Combat basics"
-description: "Reverse: 1999 combat: Afflatus advantage, Reality, Mental and Genesis DMG, incantation ranks, Moxie and stats."
+description: "Reverse: 1999 combat: incantation cards each round, three damage types, a 5-Moxie Ultimate for most arcanists."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
 caveat: "Afflatus advantage works in two separate groups: the cycle Beast, Plant, Star, Mineral, and the pair Spirit and Intellect; an attack with the advantage deals 30% more damage."
 lastVerified: 2026-11-23
@@ -29,6 +29,7 @@ sources:
   - title: "Reverse: 1999 Wiki (Fandom), Moxie, revision 31417"
     url: https://reverse1999.fandom.com/wiki/Moxie?oldid=31417
 ---
+## Rounds
 
 A battle in Reverse: 1999 is fought in rounds. Each round the team gets a hand of incantation cards and a number of actions (AP) to spend on them; the enemies act on their own AP. Damage depends on the Afflatus of attacker and target, the damage type and the stats below.
 
@@ -57,7 +58,7 @@ Each arcanist deals Reality or Mental DMG; Genesis DMG comes from statuses such 
 ## Incantations and AP
 
 - The hand holds up to 7 incantations with 4 characters on the field (support included); the limit depends on how many are alive and deployed.
-- Casting an incantation or moving one in the hand spends an action. Moving a card onto an identical one raises its rank, up to rank 3; a higher rank is stronger, as each arcanist's page shows rank by rank.
+- Casting an incantation or moving one in the hand spends an action. Moving a card onto an identical one raises its rank, up to rank 3; a higher rank is stronger.
 - With fewer allies left, the team has fewer actions each round but gets higher-rank incantations more easily. Defeating an enemy likewise cuts the actions the enemies take.
 - A card cast this round can be taken back by tapping the action area before the round plays out.
 
@@ -66,7 +67,7 @@ Each arcanist deals Reality or Mental DMG; Genesis DMG comes from statuses such 
 Moxie is the resource the Ultimate spends. An arcanist gains it by casting and moving incantations, and through some skills.
 
 - 131 of the 138 released arcanists need 5 Moxie for the Ultimate.
-- Alexios, Ezio Auditore, Kassandra, Coppelia, Everecho, The Twins and Hedone fill another resource instead, given on their pages.
+- Alexios, Ezio Auditore, Kassandra, Coppelia, Everecho, The Twins and Hedone fill another resource instead.
 - Disconcert stops an arcanist gaining Moxie; some enemies and arcanists remove Moxie.
 
 ## Stats

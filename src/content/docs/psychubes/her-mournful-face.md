@@ -39,9 +39,15 @@ sources:
 
 ## Effect
 
-- The carrier gains Healing Done +8%.
-- If the carrier has [Cure] at the start of a round, it gains an extra DMG Taken Reduction +6%.
-- [Poison] inflicted by a Plant carrier gets DMG Dealt +16/22/28/34/40% (Amplification 1 to 5).
+**Amplification 1**: The carrier gains Healing Done +8%. At the start of the round, if in the \[Cure\] status, gain additional DMG Taken Reduction +6%. If the carrier is of the \[Plant\] Afflatus, the \[Poison\] effects inflicted by self gain DMG Dealt +16%.
+
+**Amplification 2**: The carrier gains Healing Done +8%. At the start of the round, if in the \[Cure\] status, gain additional DMG Taken Reduction +6%. If the carrier is of the \[Plant\] Afflatus, the \[Poison\] effects inflicted by self gain DMG Dealt +22%.
+
+**Amplification 3**: The carrier gains Healing Done +8%. At the start of the round, if in the \[Cure\] status, gain additional DMG Taken Reduction +6%. If the carrier is of the \[Plant\] Afflatus, the \[Poison\] effects inflicted by self gain DMG Dealt +28%.
+
+**Amplification 4**: The carrier gains Healing Done +8%. At the start of the round, if in the \[Cure\] status, gain additional DMG Taken Reduction +6%. If the carrier is of the \[Plant\] Afflatus, the \[Poison\] effects inflicted by self gain DMG Dealt +34%.
+
+**Amplification 5**: The carrier gains Healing Done +8%. At the start of the round, if in the \[Cure\] status, gain additional DMG Taken Reduction +6%. If the carrier is of the \[Plant\] Afflatus, the \[Poison\] effects inflicted by self gain DMG Dealt +40%.
 
 ## Names
 

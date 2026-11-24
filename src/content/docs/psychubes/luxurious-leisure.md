@@ -41,7 +41,15 @@ sources:
 
 ## Effect
 
-After the carrier casts a 1-target Ultimate, it gains DMG Dealt +5/6/7/8/9% (Amplification 1 to 5), stacking up to 3 times.
+**Amplification 1**: After the carrier casts a 1-target Ultimate, DMG Dealt +5%, up to 3 stacks.
+
+**Amplification 2**: After the carrier casts a 1-target Ultimate, DMG Dealt +6%, up to 3 stacks.
+
+**Amplification 3**: After the carrier casts a 1-target Ultimate, DMG Dealt +7%, up to 3 stacks.
+
+**Amplification 4**: After the carrier casts a 1-target Ultimate, DMG Dealt +8%, up to 3 stacks.
+
+**Amplification 5**: After the carrier casts a 1-target Ultimate, DMG Dealt +9%, up to 3 stacks.
 
 ## Names
 

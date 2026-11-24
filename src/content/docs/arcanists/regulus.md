@@ -37,31 +37,37 @@ sources:
 | Psychubes recommended in game | [Thunderous Applause](/psychubes/thunderous-applause/), [Another Story](/psychubes/another-story/), [Belt It Out](/psychubes/belt-it-out/), [For Rehabilitation](/psychubes/for-rehabilitation/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Regulus is a critical-hit attacker. When she casts no incantation in a round she ends it in [Restless Heart], a large Critical Rate boost that lasts until her next crit, and from Insight 3 she gains Moxie when it ends. Her Ultimate hits every enemy and lets the whole team dodge attacks until each ally acts; her Euphoria offers two different ways to play her.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/regulus/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Treat for the Ears (single-target attack) | 200% Mental DMG | 300% | 500% |
-| Challenge for the Eyes (attack on 2 enemies) | 150% Mental DMG | 175%; on a crit, targets Moxie −1 | 275%; on a crit, targets Moxie −2 |
+### Treat for the Ears
+
+**Rank 1**: 1-target attack. Deals 200% Mental DMG.
+
+**Rank 2**: 1-target attack. Deals 300% Mental DMG.
+
+**Rank 3**: 1-target attack. Deals 500% Mental DMG.
+
+### Challenge for the Eyes
+
+**Rank 1**: Mass attack. Deals 150% Mental DMG to 2 enemies.
+
+**Rank 2**: Mass attack. Deals 175% Mental DMG to 2 enemies. When this attack scores a critical hit, inflicts Moxie -1 on the targets.
+
+**Rank 3**: Mass attack. Deals 275% Mental DMG to 2 enemies. When this attack scores a critical hit, inflicts Moxie -2 on the targets.
 
 ## Ultimate: Sleepless Rave
 
-Deals 300% Mental DMG to all enemies and gives all allies [Riot and Roll] for 1 round.
-
-[Riot and Roll]: the holder dodges every attack that is not an Ultimate; the effect is removed after the holder takes an action.
-
-[Restless Heart]: Critical Rate +50%, and Critical Rate above the cap turns into Critical DMG; removed after Regulus lands a critical hit.
+Mass attack. Deals 300% Mental DMG to all enemies and grants \[Riot and Roll\] status to all allies for 1 round.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | If Regulus did not actively cast an incantation during the round, she enters Restless Heart at the end of it. |
-| 2 | Critical DMG +15% on entering battle. |
-| 3 | Moxie +1 when Restless Heart ends. |
+**Insight 1 · Listen to New Stuff**: If having not actively casted an incantation for the round, enter the \[Restless Heart\] status at the end of the round.
+
+**Insight 2 · Listen to New Stuff Ⅱ**: Critical DMG +15% when entering battle.
+
+**Insight 3 · Listen to New Stuff Ⅲ**: When \[Restless Heart\] status is dispelled, Moxie +1.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -71,36 +77,65 @@ Deals 300% Mental DMG to all enemies and gives all allies [Riot and Roll] for 1 
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 400%. |
-| 2 | Treat for the Ears deals 220, 330 or 550% by rank. |
-| 3 | Challenge for the Eyes deals 165, 195 or 300% by rank. |
-| 4 | The Ultimate deals 450%. |
-| 5 | Riot and Roll from the Ultimate lasts 1 round longer. |
+**Portrait 1**: **Sleepless Rave**: Mental DMG increased to 400%.
+
+**Portrait 2**: **Treat for the Ears**: At Incantation rank 1/2/3, Mental DMG increased to 220/330/550%.
+
+**Portrait 3**: **Challenge for the Eyes**: At Incantation rank 1/2/3, Mental DMG increased to 165/195/300%.
+
+**Portrait 4**: **Sleepless Rave**: Mental DMG increased to 450%.
+
+**Portrait 5**: **Sleepless Rave**: \[Riot and Roll\] +1 round for all allies.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Regulus has two Epiphanies of four levels each. Epiphany 1 builds on Impromptu Incantations fed by the team's Eureka; Epiphany 2 removes her incantation cards and Ultimate and has her cast through a Conduit instead.
+**Epiphany 1, level 1**: Gain Max Eureka +5. At the start of the round, gain Eureka +4. Whenever an ally consumes Eureka, accumulate points of \[Inspiration\]. When entering battle, accumulate 3 points of \[Inspiration\]. Starting from round 2, at the start of every round, generate 1 Precast Incantation \[Rock 'n' Roll Forever!\].
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | Max Eureka +5, and Eureka +4 at the start of each round. Every Eureka the team spends adds [Inspiration]; she starts the battle with 3 Inspiration. From round 2, each round starts with 1 Precast Incantation [Rock 'n' Roll Forever!]. She enters battle in Restless Heart, which now ends after an attack that does not crit; instead of the Moxie from Insight 3, she gains 1 stack of [Sturdiness] at the start of any round she begins in Restless Heart. |
-| 1 | 2 | After Treat for the Ears or Challenge for the Eyes, she spends 2 Eureka to give the round's Impromptu Incantation 1 more attack. |
-| 1 | 3 | Sleepless Rave adds 8 Inspiration to the round's Impromptu Incantation. |
-| 1 | 4 | At the start of each round, the adjacent ally in front of her is set to put [Rockstar Spotlight] on its main target for 1 round after its attack that round. |
-| 2 | 1 | No basic incantations or Ultimate: she casts through a [Conduit] powered by Energy, and Harmonization replaces Moxie. Sleepless Rave's Riot and Roll loses 1 stack per dodge instead, and after the attack the card turns into Treat for the Ears against a single enemy or Challenge for the Eyes otherwise. Treat for the Ears deals 320% and Challenge for the Eyes 240% to 2 enemies (160% of the rank 1 value); a crit removes 1 Moxie from the targets, at most once per round. |
-| 2 | 2 | Insight 1 becomes: she enters Restless Heart at the start of each round. Insight 3 becomes: Harmonization +15 at the end of a round she ends in Restless Heart, and +65 on entering battle. Restless Heart ends after an attack that does not crit. |
-| 2 | 3 | Treat for the Ears deals 64% and Challenge for the Eyes 48% more Mental DMG for each level of [Conduit Activation] (32% of the rank 1 value), counting at most 20 levels. |
-| 2 | 4 | Sleepless Rave deals 660% (an extra 120% of its base), and for the rest of the round each of her attacks adds 1 more level of Conduit Activation. |
+When entering battle, gain \[Restless Heart\]. \[Restless Heart\] removes after landing a non-critical attack. The effect of gaining Moxie when \[Restless Heart\] is dispelled is replaced with gaining 1 stack of \[Sturdiness\] if in \[Restless Heart\] at the start of the round.
 
-- **Inspiration**: 1 point for each Eureka spent. At the start of each round the points are spread at random over basic incantation cards, at most 5 a card; points on cards not played are cleared at the end of the round. Actively casting a card that carries points adds an Impromptu Incantation at the end of the queue, and the card's points count toward it.
-- **Impromptu Incantation**: a single-target attack on a random enemy for 200% Mental DMG plus 15% for each Inspiration point counted. At 3, 6, 12 and 20 points it gains 1, 2, 3 and 5 more attacks. Its damage uses the average stats of the whole team.
-- **Rock 'n' Roll Forever!**: adds to the round's Impromptu Incantation the Inspiration of the card that carried the most among the cards not played in the previous round.
-- **Rockstar Spotlight**: Impromptu Incantations target the holder first.
-- **Sturdiness**: DMG Taken Reduction +25% when attacked; one stack is used each time.
-- **Conduit**: charged with Energy; at the end of the action queue it runs in a loop, spending Energy to cast incantations.
-- **Conduit Activation**: how many times all of the team's Conduits have activated this round; it resets at the start of each round.
+**Epiphany 1, level 2**: After casting **Treat for the Ears** or **Challenge for the Eyes**, consume 2 Eureka and gain \[Impromptu Incantation\] attack instances +1 for the round.
+
+**Epiphany 1, level 3**: **Sleepless Rave**: Grant 8 points of \[Inspiration\] to \[Impromptu Incantation\] for the round.
+
+**Epiphany 1, level 4**: At the start of the round, inflicts the \[Rockstar Spotlight\] status on the main target for 1 round after the adjacent ally in front performs their attack for the round.
+
+**Epiphany 2, level 1**: No longer generates basic incantations or Ultimates. Casts incantations by activating a \[Conduit\] with Energy instead.
+
+Moxie is replaced with Harmonization.
+
+**Sleepless Rave**: \[Riot and Roll\] now loses 1 stack after trigger. After attacking, switches to \[Treat for the Ears\] if only 1 enemy target is present; otherwise, switches to \[Challenge for the Eyes\].
+
+**Treat for the Ears** now deals (rank 1 base Mental DMG x160%) Mental DMG and inflicts Moxie -1 when scoring a critical hit, up to 1 time per round.
+
+**Challenge for the Eyes** now deals (rank 1 base Mental DMG x160%) Mental DMG to 2 enemies and inflicts Moxie -1 when scoring a critical hit, up to 1 time per round.
+
+**Epiphany 2, level 2**: **Listen to New Stuff** Insight I effects changed to: At the start of the round, enters the \[Restless Heart\] status.
+
+**Listen to New Stuff** Insight III effects changed to: At the end of the round, if Regulus is in the \[Restless Heart\] status, she gains Harmonization +15. When entering battle, Regulus gains Harmonization +65.
+
+\[Restless Heart\] effects changed to: Critical Rate +50%. Excess Critical Rate is converted into Critical DMG. Removed after an attack does not crit.
+
+**Epiphany 2, level 3**: **Treat for the Ears** New Effects: For each level of \[Conduit Activation\], deals an additional (rank 1 base Mental DMG x32%) Mental DMG (counting up to 20 levels).
+
+**Challenge for the Eyes** New Effects: For each level of \[Conduit Activation\], deals an additional (rank 1 base Mental DMG x32%) Mental DMG (counting up to 20 levels).
+
+**Epiphany 2, level 4**: **Sleepless Rave** additionally deals (base Mental DMG x120%) Mental DMG and enables Regulus to increase \[Conduit Activation\] by 1 additional level after she attacks for the rest of the round.
+
+## Statuses
+
+- **Riot and Roll**: Dodges any non-Ultimate attacks. Dispels the effect after the caster takes action.
+- **Restless Heart**: Critical Rate +50%. Excess Critical Rate is converted to Critical DMG. Removed after scoring a critical hit.
+- **Inspiration**: For every 1 Eureka consumed, accumulate 1 point of \[Inspiration\].
+
+  At the start of each round, randomly distribute Inspiration points onto basic incantations (each incantation may receive up to 5 points of Inspiration, and at the end of the round, the points of Inspiration on unused incantations are cleared).
+
+  When actively casting an incantation with \[Inspiration\] points on it, add an \[Impromptu Incantation\] to the end of the spell queue, and all Inspiration points on these casted incantations will be granted to the \[Impromptu Incantation\].
+- **Rock 'n' Roll Forever!**: Grants the highest \[Inspiration\] points among the unselected incantations from last round to \[Impromptu Incantation\].
+- **Sturdiness**: When attacked, DMG Taken Reduction +25% (-1 stack after trigger).
+- **Impromptu Incantation**: 1-target attack. Deals 200% Mental DMG to a random enemy and an additional (the total points of Inspiration granted to Impromptu Incantation x15%) Mental DMG. If Impromptu Incantation has at least 3/6/12/20 points of Inspiration, it gains attack instances +1/2/3/5 (Impromptu Incantation's DMG calculation is based on the average stats of all allies).
+- **Rockstar Spotlight**: Prioritized by Impromptu Incantations.
+- **Conduit**: Use Energy to power Conduits. Conduits activate at the end of the AP Area and repeatedly cast incantations by consuming Energy.
+- **Conduit Activation**: The total number of times allied Conduits have activated this round. Resets at the start of the round.
 
 ## Names
 

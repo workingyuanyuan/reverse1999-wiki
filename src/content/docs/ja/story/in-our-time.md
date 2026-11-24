@@ -1,6 +1,6 @@
 ---
 title: "われらの時代"
-description: "われらの時代：リバース：1999 のメインストーリー、全16ステージ。ストーリー全文つき。"
+description: "われらの時代：リバース：1999 のメインストーリー第1章、全16ステージ。"
 appliesTo: "リバース：1999、グローバル版クライアント 111.0.1077（バージョン 3.9）、日本語テキスト"
 caveat: "テキストはグローバル版の日本語。2バージョン先行する中国本土版では一部のセリフの言い回しが異なる。"
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global、グローバル版クライアント 111.0.1077：chapter.json と episode.json（ステージ番号、ゲーム内の時刻）"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-われらの時代はリバース：1999 のメインストーリー第1ST章で、全16ステージ。物語は1929年2月14日 07:30に始まる。
-
 ## ステージ
 
 | ステージ | 名前 | ゲーム内の時刻 | 小径 |
@@ -40,7 +38,7 @@ sources:
 
 ## 登場する神秘学家
 
-[APPLe](/ja/arcanists/apple/)、[レグルス](/ja/arcanists/regulus/)、[ソネット](/ja/arcanists/sonetto/)、[サザビー](/ja/arcanists/sotheby/)、[ドルーヴィスⅢ](/ja/arcanists/druvis-iii/)、シュナイダー、[X](/ja/arcanists/x/)
+[APPLe](/ja/arcanists/apple/)、[レグルス](/ja/arcanists/regulus/)、[ソネット](/ja/arcanists/sonetto/)、[サザビー](/ja/arcanists/sotheby/)、[ドルーヴィスⅢ](/ja/arcanists/druvis-iii/)、[シュナイダー](/ja/arcanists/schneider/)、[X](/ja/arcanists/x/)
 
 ## 名前
 

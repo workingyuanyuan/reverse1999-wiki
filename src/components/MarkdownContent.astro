@@ -5,7 +5,7 @@
 // The same frontmatter fields also produce the Markdown twin (src/lib/page-md.mjs)
 // and the JSON-LD (src/routeData.ts).
 import '@astrojs/starlight/style/markdown.css';
-import { SITE, LABELS, LOCALES, pageId, localeOf, mdPath, llmsPath, withBase, isoDate } from '../lib/site.mjs';
+import { SITE, LABELS, LOCALES, pageId, localeOf, mdPath, llmsPath, withBase, isoDate, hidesAnswer } from '../lib/site.mjs';
 
 const { data } = Astro.locals.starlightRoute.entry;
 const id = pageId(Astro.locals.starlightRoute.entry.id);
@@ -19,8 +19,10 @@ const hasFacts = Boolean(data.lastVerified && data.sources);
 const cjk = ['zh-TW', 'zh-CN', 'ja'].includes(localeOf(id).lang);
 const p = cjk ? { sep: '：', stop: '。', list: '、' } : { sep: ': ', stop: '. ', list: ', ' };
 const sep = p.sep;
+// An arcanist's profile and a story stage show no answer line (hidesAnswer in site.mjs).
+const showAnswer = hasFacts && !hidesAnswer(id);
 const agentNote = hasFacts
-	? `${t.appliesTo}${p.sep}${data.appliesTo}${p.stop}${t.caveat}${p.sep}${data.caveat} Markdown${p.sep}${SITE}${mdPath(id)} ${p.stop}${t.allPages}${p.sep}${SITE}${llmsPath(localeOf(id))} ${p.list}${SITE}/index.json ${p.stop}`.trim()
+	? `${showAnswer ? '' : `${data.description}${cjk ? '' : ' '}`}${t.appliesTo}${p.sep}${data.appliesTo}${p.stop}${t.caveat}${p.sep}${data.caveat} Markdown${p.sep}${SITE}${mdPath(id)} ${p.stop}${t.allPages}${p.sep}${SITE}${llmsPath(localeOf(id))} ${p.list}${SITE}/index.json ${p.stop}`.trim()
 	: '';
 ---
 
@@ -30,7 +32,7 @@ const agentNote = hasFacts
      keeps, together with the body. */}
 {hasFacts && <>
 <p class="not-content agent-note">{agentNote}</p>
-<p class="not-content answer">{data.description}</p>
+{showAnswer && <p class="not-content answer">{data.description}</p>}
 </>}
 {!hasFacts && <div class="not-content not-found">
 <p>Page addresses use lower-case English names: <code>/operators/laevatain/</code>. 頁面網址使用小寫英文名稱。<span lang="ja">ページのアドレスは小文字の英語名です。</span> <span lang="ko">페이지 주소는 소문자 영어 이름입니다.</span></p>

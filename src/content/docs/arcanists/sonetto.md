@@ -39,30 +39,35 @@ sources:
 | Global release | 2023-10-26 |
 | Profile | [Cover, items, stories, skins and voice lines](/arcanists/sonetto/profile/) |
 
-Sonetto is one of the launch arcanists. Her kit pairs a single-target attack that disarms with a team buff that raises damage dealt and lowers damage taken; her own damage rises while she holds a buff.
-
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Commandment Ⅴ (single-target attack) | 200% Reality DMG | 200%; Disarm 1 round | 300%; Disarm 2 rounds |
-| Exhortation Ⅸ (team buff) | allies DMG Dealt +15%, DMG Taken −15%; 2 rounds | +20%, −20%; 2 rounds | +25%, −25%; 3 rounds |
+### Commandment Ⅴ
 
-Exhortation Ⅸ also gives Sonetto herself Penetration Rate +10% at every rank.
+**Rank 1**: 1-target attack. Deals 200% Reality DMG.
 
-[Disarm]: the target cannot cast attack incantations.
+**Rank 2**: 1-target attack. Deals 200% Reality DMG. Inflicts \[Disarm\] for 1 round on the target hit.
+
+**Rank 3**: 1-target attack. Deals 300% Reality DMG. Inflicts \[Disarm\] for 2 rounds on the target hit.
+
+### Exhortation Ⅸ
+
+**Rank 1**: Mass buff. DMG Dealt +15% and DMG Taken -15% for all allies and Penetration Rate +10% for the caster. Lasts 2 rounds.
+
+**Rank 2**: Mass buff. DMG Dealt +20% and DMG Taken -20% for all allies and Penetration Rate +10% for the caster. Lasts 2 rounds.
+
+**Rank 3**: Mass buff. DMG Dealt +25% and DMG Taken -25% for all allies and Penetration Rate +10% for the caster. Lasts 3 rounds.
 
 ## Ultimate: Unrestricted Chant
 
-Deals 300% Reality DMG to all enemies. If Sonetto has a Stats Up or Pos Status effect, the attack gains Penetration Rate +8% and deals 100% more Reality DMG.
+Mass attack. Deals 300% Reality DMG to all enemies. If the caster is in \[Stats Up\] or \[Pos Status\] statuses, this attack enjoys Penetration Rate +8% and deals 100% more Reality DMG.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | DMG Dealt +15% while Sonetto has a Stats Up or Pos Status effect. |
-| 2 | Reality DEF and Mental DEF +10% on entering battle. |
-| 3 | Critical Resist and Critical DEF +15% while Sonetto has a Stats Up or Pos Status effect. |
+**Insight 1 · Search the Poems**: When the caster is in \[Stats Up\] or \[Pos Status\] statuses, DMG Dealt +15%.
+
+**Insight 2 · Search the Poems Ⅱ**: Reality DEF and Mental DEF +10% when entering battle.
+
+**Insight 3 · Search the Poems Ⅲ**: When the caster is in \[Stats Up\] or \[Pos Status\] statuses, Critical Resist and Critical DEF +15%.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -72,13 +77,19 @@ Deals 300% Reality DMG to all enemies. If Sonetto has a Stats Up or Pos Status e
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate's Penetration Rate bonus becomes +16%. |
-| 2 | Commandment Ⅴ deals 220, 230 or 350% by rank. |
-| 3 | Exhortation Ⅸ gives Sonetto Penetration Rate +15%. |
-| 4 | The Ultimate's Penetration Rate bonus becomes +24%. |
-| 5 | The Ultimate's Penetration Rate bonus becomes +32%. |
+**Portrait 1**: **Unrestricted Chant**'s effect changes to: if the caster is in \[Stats Up\] or \[Pos Status\], Penetration Rate +16%.
+
+**Portrait 2**: **Commandment Ⅴ**'s effect changes to: at 1/2/3 stars, deals 220/230/350% Reality DMG.
+
+**Portrait 3**: **Exhortation Ⅸ**'s effect changes to: Penetration Rate +15%.
+
+**Portrait 4**: **Unrestricted Chant**'s effect changes to: if the caster is in \[Stats Up\] or \[Pos Status\], Penetration Rate +24%.
+
+**Portrait 5**: **Unrestricted Chant**'s effect changes to: if the caster is in \[Stats Up\] or \[Pos Status\], Penetration Rate +32%.
+
+## Statuses
+
+- **Disarm**: Cannot cast Attack-type incantations.
 
 ## Names
 

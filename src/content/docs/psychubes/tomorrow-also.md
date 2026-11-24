@@ -1,6 +1,6 @@
 ---
 title: "Tomorrow Also"
-description: "Tomorrow Also is a 5-star ATK and Critical Psychube that raises Critical Rate when casting an Ultimate."
+description: "Tomorrow Also is a 5-star ATK and Critical Psychube that raises Critical Rate."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
 caveat: "The Critical Rate bonus applies only when the carrier casts its Ultimate, not to its incantations."
 lastVerified: 2026-11-23
@@ -39,7 +39,15 @@ sources:
 
 ## Effect
 
-When the carrier casts its Ultimate, it gains Critical Rate +10/12.5/15/17.5/20% (Amplification 1 to 5).
+**Amplification 1**: When the carrier casts an Ultimate, Critical Rate +10%.
+
+**Amplification 2**: When the carrier casts an Ultimate, Critical Rate +12.5%.
+
+**Amplification 3**: When the carrier casts an Ultimate, Critical Rate +15%.
+
+**Amplification 4**: When the carrier casts an Ultimate, Critical Rate +17.5%.
+
+**Amplification 5**: When the carrier casts an Ultimate, Critical Rate +20%.
 
 ## Names
 

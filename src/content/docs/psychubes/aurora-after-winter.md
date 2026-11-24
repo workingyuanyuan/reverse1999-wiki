@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- When the carrier casts a Buff incantation, it gets ATK +0.4/0.6/0.6/0.8/0.8%, up to 10 stacks (Amplification 1 to 5).
-- With a Star carrier, all allies get Critical DMG +0.4/0.4/0.6/0.6/0.8% for each point of Eureka the team consumes, up to 30 stacks.
+**Amplification 1**: When the carrier casts a Buff incantation, gain ATK +0.4%, stacks up to 10 times.
+
+If the carrier is of the \[Star\] afflatus, for every 1 Eureka consumed by allies, grant Critical DMG +0.4% to all allies, stacks up to 30 times.
+
+**Amplification 2**: When the carrier casts a Buff incantation, gain ATK +0.6%, stacks up to 10 times.
+
+If the carrier is of the \[Star\] afflatus, for every 1 Eureka consumed by allies, grant Critical DMG +0.4% to all allies, stacks up to 30 times.
+
+**Amplification 3**: When the carrier casts a Buff incantation, gain ATK +0.6%, stacks up to 10 times.
+
+If the carrier is of the \[Star\] afflatus, for every 1 Eureka consumed by allies, grant Critical DMG +0.6% to all allies, stacks up to 30 times.
+
+**Amplification 4**: When the carrier casts a Buff incantation, gain ATK +0.8%, stacks up to 10 times.
+
+If the carrier is of the \[Star\] afflatus, for every 1 Eureka consumed by allies, grant Critical DMG +0.6% to all allies, stacks up to 30 times.
+
+**Amplification 5**: When the carrier casts a Buff incantation, gain ATK +0.8%, stacks up to 10 times.
+
+If the carrier is of the \[Star\] afflatus, for every 1 Eureka consumed by allies, grant Critical DMG +0.8% to all allies, stacks up to 30 times.
 
 ## Names
 

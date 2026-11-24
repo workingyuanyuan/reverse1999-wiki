@@ -37,33 +37,37 @@ sources:
 | Psychubes recommended in game | [Luxurious Leisure](/psychubes/luxurious-leisure/), [Family Mentor](/psychubes/family-mentor/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Sweetheart's first incantation is a plain single-target hit, and her second hits two enemies harder when they carry a debuff or a control effect. Her Ultimate lowers both kinds of DEF and dazes the target. Her Insight passives put [Enchanted] on enemies that attack her and, from Insight III, on enemies she hits, with an extra stack on those of the opposite gender.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/sweetheart/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Dud (single-target attack) | 200% Reality DMG | 300% | 500% |
-| Slight Breeze (attack on 2 enemies) | 135% Reality DMG; +30% on a weakened target | 200%; +45% | 335%; +75% |
+### Dud
 
-Slight Breeze's extra Reality DMG applies to a target under a Stats Down, Neg Status or Control effect. Control covers effects that limit actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence and Seal.
+**Rank 1**: 1-target attack. Deals 200% Reality DMG.
+
+**Rank 2**: 1-target attack. Deals 300% Reality DMG.
+
+**Rank 3**: 1-target attack. Deals 500% Reality DMG.
+
+### Slight Breeze
+
+**Rank 1**: Mass attack. Deals 135% Reality DMG to 2 enemies. If the target is in \[Stats Down\], \[Neg Status\], or \[Control\] statuses, this attack deals 30% more Reality DMG.
+
+**Rank 2**: Mass attack. Deals 200% Reality DMG to 2 enemies. If the target is in \[Stats Down\], \[Neg Status\], or \[Control\] statuses, this attack deals 45% more Reality DMG.
+
+**Rank 3**: Mass attack. Deals 335% Reality DMG to 2 enemies. If the target is in \[Stats Down\], \[Neg Status\], or \[Control\] statuses, this attack deals 75% more Reality DMG.
 
 ## Ultimate: A Good Dream Tonight
 
-Deals 400% Reality DMG to one enemy, lowers its Reality DEF and Mental DEF by 20% for 3 rounds, and puts [Daze] on it for 1 round.
-
-[Daze]: the target cannot act.
-
-[Enchanted]: the holder deals 10% less damage to Sweetheart. It stacks, and each stack runs out on its own timer.
+1-target attack. Deals 400% Reality DMG. Inflicts Reality DEF -20% and Mental DEF -20% for 3 rounds and \[Daze\] for 1 round on the target hit.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | When attacked, Sweetheart puts 1 stack of Enchanted on the attacker for 2 rounds, and 1 more stack for 2 rounds if the attacker is of the opposite gender. |
-| 2 | Critical Rate +10% on entering battle. |
-| 3 | When her attack hits, she puts 1 stack of Enchanted on the target for 2 rounds, and 1 more stack if the target is of the opposite gender. |
+**Insight 1 · A Low Whisper**: When the user is attacked, inflicts 1 stack of \[Enchanted\] on the target for 2 rounds. If the attacker is of the opposite gender, inflicts 1 additional stack of \[Enchanted\] for 2 rounds.
+
+**Insight 2 · A Low Whisper Ⅱ**: Critical Rate +10% when entering battle.
+
+**Insight 3 · A Low Whisper Ⅲ**: When attacking, inflicts 1 stack of \[Enchanted\] for 2 rounds on the target hit. If the target is of the opposite gender, inflicts 1 additional stack of \[Enchanted\] on the target.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -73,13 +77,21 @@ Deals 400% Reality DMG to one enemy, lowers its Reality DEF and Mental DEF by 20
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 450% and lowers Reality DEF and Mental DEF by 30%. |
-| 2 | Dud deals 220, 330 or 550% by rank. |
-| 3 | Slight Breeze's extra damage becomes 50, 75 or 125% by rank. |
-| 4 | The Ultimate deals 500%. |
-| 5 | The Ultimate deals 600%. |
+**Portrait 1**: **A Good Dream Tonight**'s effect changes to: deals 450% Reality DMG. Reality DEF and Mental DEF -30%.
+
+**Portrait 2**: **Dud**: At Incantation rank 1/2/3, Reality DMG increased to 220/330/550%.
+
+**Portrait 3**: **Slight Breeze**'s effect changes to: at 1/2/3 stars, additionally deals 50/75/125% Reality DMG to enemies in \[Stats Down\], \[Neg Status\] or \[Control\].
+
+**Portrait 4**: **A Good Dream Tonight**: Reality DMG increased to 500%.
+
+**Portrait 5**: **A Good Dream Tonight**'s effect changes to: deals 600% Reality DMG.
+
+## Statuses
+
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
+- **Daze**: Cannot act.
+- **Enchanted**: DMG Dealt -10% to Sweetheart (stackable, each stack timed independently).
 
 ## Names
 

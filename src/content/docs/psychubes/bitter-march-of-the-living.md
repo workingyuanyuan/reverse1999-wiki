@@ -39,8 +39,25 @@ sources:
 
 ## Effect
 
-- When the carrier attacks while in [Pulsing Field Lv.3], it gets Ultimate Might +12/15/18/21/24% (Amplification 1 to 5).
-- After the carrier uses a 1-target incantation, it gets DMG Dealt +1.4/1.8/2.2/2.6/3%, up to 6 stacks. Using a mass incantation removes the stacks.
+**Amplification 1**: When the carrier attacks, if under \[Pulsing Field Lv.3\], they gain Ultimate Might +12%.
+
+After the carrier casts a 1-target incantation, they gain DMG Dealt +1.4%, stackable up to 6 times; removes all stacks after using a mass incantation.
+
+**Amplification 2**: When the carrier attacks, if under \[Pulsing Field Lv.3\], they gain Ultimate Might +15%.
+
+After the carrier casts a 1-target incantation, they gain DMG Dealt +1.8%, stackable up to 6 times; removes all stacks after using a mass incantation.
+
+**Amplification 3**: When the carrier attacks, if under \[Pulsing Field Lv.3\], they gain Ultimate Might +18%.
+
+After the carrier casts a 1-target incantation, they gain DMG Dealt +2.2%, stackable up to 6 times; removes all stacks after using a mass incantation.
+
+**Amplification 4**: When the carrier attacks, if under \[Pulsing Field Lv.3\], they gain Ultimate Might +21%.
+
+After the carrier casts a 1-target incantation, they gain DMG Dealt +2.6%, stackable up to 6 times; removes all stacks after using a mass incantation.
+
+**Amplification 5**: When the carrier attacks, if under \[Pulsing Field Lv.3\], they gain Ultimate Might +24%.
+
+After the carrier casts a 1-target incantation, they gain DMG Dealt +3%, stackable up to 6 times; removes all stacks after using a mass incantation.
 
 ## Names
 

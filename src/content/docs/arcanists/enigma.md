@@ -37,47 +37,51 @@ sources:
 | Psychubes recommended in game | [The Riddle's Limit](/psychubes/the-riddles-limit/) |
 | Mainland release | 2026-04-09 |
 | Global release | 2026-07-02 |
-
-Enigma is a Dynamo support who builds the Pulsing Field array. At the end of each round he transfers Dynamo into the field, Ciphertext adds to each transfer, and the field rises to Lv.2 at 50 and Lv.3 at 120 Dynamo transferred. His incantations and Loop Chain keep a team-wide Bastion up, and his Ultimate gives the team Critical DMG and a DMG Bonus that grows with the Ciphertext spent.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/enigma/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Infinite Translation (single-target attack) | 200% Reality DMG; 3 Ciphertext to all allies | 300%; 4 Ciphertext | 500%; 5 Ciphertext |
-| Meshing Minds (self buff) | Bastion of 280% of his ATK | 420% | 700% |
+### Infinite Translation
 
-- Both incantations give Enigma 10 stacks of Dynamo at every rank.
-- **Meshing Minds** adds its Bastion to any Bastion he already holds, up to 1250% of his ATK. While he holds it, the first 4 Control effects inflicted on allies each round are prevented, shared by the whole team.
+**Rank 1**: 1-target attack. Deals 200% Reality DMG. Grants 3 stacks of \[Ciphertext\] to all allies and gains 10 stacks of \[Dynamo\].
+
+**Rank 2**: 1-target attack. Deals 300% Reality DMG. Grants 4 stacks of \[Ciphertext\] to all allies and gains 10 stacks of \[Dynamo\].
+
+**Rank 3**: 1-target attack. Deals 500% Reality DMG. Grants 5 stacks of \[Ciphertext\] to all allies and gains 10 stacks of \[Dynamo\].
+
+### Meshing Minds
+
+**Rank 1**: Self buff. Gains a \[Bastion\] with (own ATK x280%) HP. If this unit is already holding a \[Bastion\], the value of this \[Bastion\] is stacked on top of the existing \[Bastion\], up to a maximum \[Bastion\] value of (Enigma's ATK x1250%) HP. While holding this \[Bastion\], prevents the first 4 \[Control\] effects inflicted on all allies each round. Gains 10 stacks of \[Dynamo\].
+
+**Rank 2**: Self buff. Gains a \[Bastion\] with (own ATK x420%) HP. If this unit is already holding a \[Bastion\], the value of this \[Bastion\] is stacked on top of the existing \[Bastion\], up to a maximum \[Bastion\] value of (Enigma's ATK x1250%) HP. While holding this \[Bastion\], prevents the first 4 \[Control\] effects inflicted on all allies each round. Gains 10 stacks of \[Dynamo\].
+
+**Rank 3**: Self buff. Gains a \[Bastion\] with (own ATK x700%) HP. If this unit is already holding a \[Bastion\], the value of this \[Bastion\] is stacked on top of the existing \[Bastion\], up to a maximum \[Bastion\] value of (Enigma's ATK x1250%) HP. While holding this \[Bastion\], prevents the first 4 \[Control\] effects inflicted on all allies each round. Gains 10 stacks of \[Dynamo\].
 
 ## Ultimate: The Riddle and the Answer
 
-Gives Enigma [Cipher Machine] for 2 rounds, dispels all Stats Down, Neg Status and Control effects from every ally, and gives him 5 stacks of [Loop Chain], enough for one Closed-Loop Principle.
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Dynamo | Stacks up to 30; cannot be dispelled. |
-| Ciphertext | When Dynamo is transferred into the Pulsing Field, the field gains extra Dynamo equal to the holder's Ciphertext stacks, and the Ciphertext is removed. Up to 5 stacks before Insight 1 raises the cap. |
-| Bastion | Absorbs damage aimed at any ally. When 1, 2, 3, or 4 or more allies are hit at once, each point absorbs 1, 1.2, 1.5 or 1.8 damage. Allies lose no HP to enemy damage until it runs out. Cannot coexist with a Shield. |
-| Pulsing Field | Array. At the start of a round it levels up by the Dynamo transferred into it: Lv.2 at 50 or more, Lv.3 at 120 or more. The transferred Dynamo is lost when the field ends. |
-| Pulsing Field Lv.1 | All allies DMG Bonus +15% for 3 rounds. |
-| Pulsing Field Lv.2 | All allies Incantation Might +25% and DMG Bonus +15% for 3 rounds. |
-| Pulsing Field Lv.3 | All allies Ultimate Might +35%, Incantation Might +25% and DMG Bonus +15% for 2 rounds. |
-| Amplified Surge | On reaching Lv.3, Enigma gains 1 Moxie. Under Lv.3, all allies gain 3 Ciphertext at the start of each round, and each ally's attack gains Incantation Might +0.4% per Dynamo stack held; Reality DMG allies also deal an extra 6% Reality DMG per stack, Mental DMG allies gain a further 0.4% Incantation Might per stack. |
-| Loop Chain | At 5 stacks, casts Closed-Loop Principle and removes 5 stacks; at most 9 stacks. |
-| Closed-Loop Principle | 200% Reality DMG to all enemies; 5 Ciphertext to all allies; a Bastion of 280% of Enigma's ATK on the same terms as Meshing Minds; then Enigma gains 1 Moxie and 5 Dynamo. |
-| Cipher Machine | All allies Critical DMG +20%, and DMG Bonus +2% for each Ciphertext stack the team has removed so far, counting up to 30; the count resets once applied. |
+Self buff. Gains \[Cipher Machine\] for 2 rounds. Dispels all \[Stats Down\], \[Neg Status\], and \[Control\] effects from all allies. Gains 5 stacks of \[Loop Chain\].
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 0 (Precognition) | Gains Amplified Surge. At the start of a round with no Pulsing Field of any level, deploys Pulsing Field Lv.1. On entering battle, gives all allies 10 Ciphertext and himself 10 Dynamo and a Bastion of 280% of his ATK. At the end of each round, transfers up to 10 Dynamo into the Pulsing Field. His Ultimate does not count against the team's incantation draw limit. |
-| 1 | Gains 1 Loop Chain whenever an ally takes an action of their own, whenever an ally is attacked, and at the end of each round. With 1, 2, or 3 or more Dynamo arcanists on the team, every ally's Ciphertext cap rises by 1, 2 or 5. |
-| 2 | ATK +5% on entering battle. |
-| 3 | On entering battle, gains 3 Moxie and raises every ally's Dynamo cap by 20. At the start of each round in which he holds a Bastion, all allies gain DMG Taken Reduction +30% for 2 rounds. |
+**Insight 0 · Precognition**: Gains \[Amplified Surge\].
+
+At the start of the round, if not under a \[Pulsing Field\] of any level, deploys \[Pulsing Field Lv.1\].
+
+When entering battle, grants 10 stacks of \[Ciphertext\] to all allies, gains 10 stacks of \[Dynamo\], and gains a \[Bastion\] with (own ATK x280%) HP. If this unit is already holding a \[Bastion\], the value of this \[Bastion\] is stacked on top of the existing \[Bastion\], up to a maximum \[Bastion\] value of (Enigma's ATK x1250%) HP. While holding this \[Bastion\], prevents the first 4 \[Control\] effects inflicted on all allies each round.
+
+At the end of the round, transfers up to 10 stacks of \[Dynamo\] into the \[Pulsing Field\].
+
+Ultimate does not take up the allied Incantation Draw Limit.
+
+**Insight 1 · The 26th Input**: Whenever an ally actively takes an action, whenever an ally is attacked, and at the end of the round, gains 1 stack of \[Loop Chain\].
+
+When there are 1/2/3 or more \[Dynamo\] characters on the team, all allies' \[Ciphertext\] stack limits increase by 1/2/5.
+
+**Insight 2 · The 26th Input II**: ATK +5% when entering battle.
+
+**Insight 3 · The 26th Input III**: When entering battle, gains Moxie +3. All allies' \[Dynamo\] stack limits increase by 20.
+
+At the start of the round, if this unit is holding a \[Bastion\], grants DMG Taken Reduction +30% to all allies for 2 rounds.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -87,13 +91,32 @@ Gives Enigma [Cipher Machine] for 2 rounds, dispels all Stats Down, Neg Status a
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Bastion prevents the first 6 Control effects each round; Insight 3 raises the Dynamo cap by 40; Cipher Machine lasts 3 rounds and counts up to 40 Ciphertext. |
-| 2 | Cipher Machine gives Critical DMG +30% and DMG Bonus +2.4% per Ciphertext removed. |
-| 3 | Infinite Translation deals 240, 360 or 600% by rank; Closed-Loop Principle deals 240%; Cipher Machine gives DMG Bonus +2.8% per Ciphertext removed. |
-| 4 | The Bastion from entering battle and from Closed-Loop Principle becomes 340% of his ATK; Meshing Minds gives 340, 510 or 850% by rank. |
-| 5 | Under Lv.3, Amplified Surge gives Incantation Might +0.6% per Dynamo stack; Reality DMG allies deal an extra 8% per stack, Mental DMG allies gain a further 0.6%. |
+**Portrait 1**: \[Bastion\] now prevents the first 6 \[Control\] effects inflicted on all allies each round.**Precognition**: When entering battle, Enigma now increases all allies' \[Dynamo\] stack limits by 40.**The Riddle and the Answer**: \[Cipher Machine\] now lasts 3 rounds; \[Ciphertext\] count limit increased to 40.
+
+**Portrait 2**: **The Riddle and the Answer**: \[Cipher Machine\] now grants Critical DMG +30% to all allies; for each stack of \[Ciphertext\] removed, allies now gain DMG Bonus +2.4%.
+
+**Portrait 3**: **Infinite Translation** now deals 240%/360%/600% Reality DMG at rank 1/2/3.\[Closed-Loop Principle\] now deals 240% Reality DMG.**The Riddle and the Answer**: \[Cipher Machine\] now grants DMG Bonus +2.8% to all allies for each stack of \[Ciphertext\] removed.
+
+**Portrait 4**: **Precognition**: \[Bastion\] HP gained when entering battle increased to Enigma's ATK x340%. \[Bastion\] HP gained via **Meshing Minds** increased to Enigma's ATK x340%/510%/850%; \[Bastion\] HP gained when casting \[Closed-Loop Principle\] increased to Enigma's ATK x340%.
+
+**Portrait 5**: **Precognition**: When the team attacks under \[Pulsing Field Lv.3\], each stack of \[Dynamo\] held now grants Incantation Might +0.6% (for Reality DMG characters, Reality DMG +8% additionally; for Mental DMG characters, Incantation Might +0.6% additionally).
+
+## Statuses
+
+- **Ciphertext**: When transferring \[Dynamo\] into the \[Pulsing Field\], \[Pulsing Field\] gains additional stacks of \[Dynamo\] equal to the number of \[Ciphertext\] stacks held (stackable up to 5 times at base, removed after trigger).
+- **Dynamo**: A product of technology used for meticulous machinery (up to 30 stacks, undispellable).
+- **Bastion**: Blocks DMG for all allies. When 1/2/3/4 allies take DMG at the same time, each point of \[Bastion\] HP blocks 1/1.2/1.5/1.8 points of DMG. All allies cannot lose HP due to enemy DMG until \[Bastion\] HP is fully depleted, after which this effect is removed. \[Bastion\] is mutually exclusive with Shield.
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
+- **Cipher Machine**: Grants Critical DMG +20% to all allies. For each stack of \[Ciphertext\] removed among all allies so far, additionally grants DMG Bonus +2% to all allies (counts up to 30 stacks; \[Ciphertext\] removal counter resets after trigger).
+- **Loop Chain**: When this reaches 5 stacks, casts \[Closed-Loop Principle\] once and removes 5 stacks of \[Loop Chain\] (stackable up to 9 times).
+- **Amplified Surge**: After activating \[Pulsing Field Lv.3\], gains Moxie +1.
+
+  When under \[Pulsing Field Lv.3\], all allies gain 3 stacks of \[Ciphertext\] at the start of the round. When an ally attacks, the attack gains Incantation Might +(number of \[Dynamo\] stacks held x0.4%). When a Reality DMG ally attacks, the attack deals an additional (number of \[Dynamo\] stacks held x6%) Reality DMG. When a Mental DMG ally attacks, the attack gains an additional Incantation Might +(number of \[Dynamo\] stacks held x0.4%).
+- **Pulsing Field**: At the start of the round, Pulsing Field upgrades based on the \[Dynamo\] transferred into it. At 50+, upgrades into \[Pulsing Field Lv.2\]. At 120+, upgrades into \[Pulsing Field Lv.3\]. When Pulsing Field disappears, all \[Dynamo\] transferred into it are also cleared.
+- **Pulsing Field Lv.1**: All allies gain DMG Bonus +15% for 3 rounds.
+- **Closed-Loop Principle**: Mass attack. Deals 200% Reality DMG to all enemies. Grants 5 stacks of \[Ciphertext\] to all allies and gains a \[Bastion\] with (own ATK x280%) HP. If this unit is already holding a \[Bastion\], the value of this \[Bastion\] is stacked on top of the existing \[Bastion\], up to a maximum \[Bastion\] value of (Enigma's ATK x1250%) HP. While holding this \[Bastion\], prevents the first 6 \[Control\] effects inflicted on all allies each round. After attacking, gains Moxie +1 and 5 stacks of \[Dynamo\].
+- **Pulsing Field Lv.3**: All allies gain Ultimate Might +35%, Incantation Might +25%, and DMG Bonus +15% for 2 rounds.
+- **Pulsing Field Lv.2**: All allies gain Incantation Might +25% and DMG Bonus +15% for 3 rounds.
 
 ## Names
 

@@ -36,43 +36,41 @@ sources:
 | Resonance Patterns | [T-shaped set](/systems/resonance/): Elucidation, Genuinity, Hyper, Inspire, Delirament |
 | Mainland release | 2026-02-12 |
 | Global release | 2026-05-01 |
-
-Reed always cycles through the four stages of [Wither and Bloom], from a weak stage I to a strong stage IV and back, moving one stage at the start of each round and again with Old Notes. Her Ultimate freezes her own stage for 3 rounds and copies it to every other ally. In stages II to IV a lethal hit does not take her out: she heals and starts the cycle again.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/reed/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Turn a New Leaf (single-target attack) | 200% Mental DMG; Moxie +1 | 300%; Moxie +1 | 500%; Moxie +1 |
-| Old Notes (self buff) | next Wither and Bloom stage; dispels 1 type of debuff | next stage; 2 types | next stage; 3 types |
+### Turn a New Leaf
 
-Old Notes dispels types of Stats Down, Neg Status or [Control] effects on Reed herself.
+**Rank 1**: 1-target attack. Deals 200% Mental DMG. After attacking, gains Moxie +1.
 
-[Control]: effects that limit a character's actions, such as Daze, Petrify, Nightmare, Freeze, Disarm, Silence and Seal.
+**Rank 2**: 1-target attack. Deals 300% Mental DMG. After attacking, gains Moxie +1.
+
+**Rank 3**: 1-target attack. Deals 500% Mental DMG. After attacking, gains Moxie +1.
+
+### Old Notes
+
+**Rank 1**: Self buff. Enters the next stage of \[Wither and Bloom\]. Dispels 1 type of \[Stats Down\]/\[Neg Status\]/\[Control\] effect from self.
+
+**Rank 2**: Self buff. Enters the next stage of \[Wither and Bloom\]. Dispels 2 types of \[Stats Down\]/\[Neg Status\]/\[Control\] effects from self.
+
+**Rank 3**: Self buff. Enters the next stage of \[Wither and Bloom\]. Dispels 3 types of \[Stats Down\]/\[Neg Status\]/\[Control\] effects from self.
 
 ## Ultimate: A Reed's Longing
 
-Reed enters [Evergreen] for 3 rounds, and every other ally gains a copy of her current Wither and Bloom stage for 3 rounds.
+Self buff. Enters the \[Evergreen\] status for 3 rounds.
 
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Wither and Bloom | Four stages in the order I, II, III, IV; after IV the holder returns to I. |
-| Wither and Bloom I | Cannot cast the Ultimate; DMG Bonus −50%; [Burn] DMG taken +100%. |
-| Wither and Bloom II | Burn DMG taken +50%. |
-| Wither and Bloom III | DMG Bonus +20%; Burn DMG taken +20%. |
-| Wither and Bloom IV | Critical Rate +20%, Critical DMG +30%, DMG Bonus +20%; no single hit takes more than 80% of the holder's Max HP. |
-| Evergreen | The holder's Wither and Bloom stage does not change. |
-| Burn | Healing Taken −15%, which does not stack. At the end of the round, Genesis DMG equal to 4% of the holder's ATK. Up to 30 stacks, which count as one Neg Status; half the stacks are removed each time it deals damage. |
+Grants a copy of the current \[Wither and Bloom\] status to all other allies for 3 rounds.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 0 (Precognition) | On entering battle, Reed starts the Wither and Bloom cycle at stage I. A lethal hit in stage II, III or IV does not take her out: she recovers 30% of her Max HP, returns to stage I and gains Evergreen for 2 rounds. |
-| 1 | At the start of each round, Reed moves to the next Wither and Bloom stage. Gains 1 Moxie on entering battle. |
-| 2 | DMG Taken −8% on entering battle. |
+**Insight 0 · Precognition**: When entering battle, Reed starts her \[Wither and Bloom\] cycle by entering the \[Wither and Bloom I\] status.
+
+When taking lethal DMG under \[Wither and Bloom II\], \[Wither and Bloom III\], or \[Wither and Bloom IV\], Reed survives, recovers (Max HP x30%) HP, enters the \[Wither and Bloom I\] status, and gains \[Evergreen\] for 2 rounds.
+
+**Insight 1 · Spring Winds Breathe Life Anew**: At the start of the round, Reed enters the next stage of \[Wither and Bloom\]. When entering battle, Reed gains Moxie +1.
+
+**Insight 2 · Spring Winds Breathe Life Anew II**: DMG Taken -8% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -81,13 +79,26 @@ Reed enters [Evergreen] for 3 rounds, and every other ally gains a copy of her c
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Turn a New Leaf deals 220, 330 or 550% by rank. |
-| 2 | Wither and Bloom IV gives DMG Bonus +30%. |
-| 3 | The Ultimate's Evergreen and the copied Wither and Bloom last 4 rounds. |
-| 4 | Insight 1 gives 2 Moxie on entering battle. |
-| 5 | Wither and Bloom IV gives Critical Rate +25% and Critical DMG +40%. |
+**Portrait 1**: **Turn a New Leaf**: At Incantation rank 1/2/3, Mental DMG increased to 220/330/550%.
+
+**Portrait 2**: **Precognition**: \[Wither and Bloom IV\] now grants DMG Bonus +30%.
+
+**Portrait 3**: **A Reed's Longing**: \[Evergreen\] granted to self and \[Wither and Bloom\] granted to other allies now last 4 rounds.
+
+**Portrait 4**: **Precognition** now grants Moxie +2 when entering battle.
+
+**Portrait 5**: **Precognition**: \[Wither and Bloom IV\] now grants Critical Rate +25% and Critical DMG +40%.
+
+## Statuses
+
+- **Wither and Bloom**: The holder repeatedly cycles between \[Wither and Bloom I\], \[Wither and Bloom II\], \[Wither and Bloom III\], and \[Wither and Bloom IV\].
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
+- **Evergreen**: \[Wither and Bloom\]'s stage cannot change.
+- **Wither and Bloom I**: Cannot cast Ultimate. DMG Bonus -50%. \[Burn\] DMG Taken +100%.
+- **Wither and Bloom II**: \[Burn\] DMG Taken +50%.
+- **Wither and Bloom III**: DMG Bonus +20%. \[Burn\] DMG Taken +20%.
+- **Wither and Bloom IV**: Critical Rate +20%, Critical DMG +30%, DMG Bonus +20%. Any single instance of DMG taken will not exceed (own Max HP x80%) HP.
+- **Burn**: Healing Taken -15% (unstackable). At the end of the round, takes (the holder's ATK x4%) Genesis DMG (stackable up to 30 times, multiple stacks of Burn is regarded as 1 \[Neg Status\], removes 50% of the stacks when triggered).
 
 ## Names
 

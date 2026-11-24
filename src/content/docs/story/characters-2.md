@@ -1,6 +1,6 @@
 ---
 title: "Character stories II"
-description: "Reverse: 1999 Character stories II: every chapter, its stages and the full story text."
+description: "Reverse: 1999 Character stories II: 26 chapters, 226 stages in all."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global, global client 111.0.1077: chapter.json and episode.json (stage codes, in-game dates)"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-Character stories II of Reverse: 1999. Each chapter page lists its stages; each stage page holds its full story text and Trails.
-
 | Chapter | Stages | Trails |
 | --- | --- | --- |
 | [Shadow of the Sun](/story/shadow-of-the-sun/) | 8 | 0 |

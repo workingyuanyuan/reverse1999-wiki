@@ -37,42 +37,57 @@ sources:
 | Psychubes recommended in game | [The Wandering Improviser](/psychubes/the-wandering-improviser/) |
 | Mainland release | 2025-09-19 |
 | Global release | 2025-12-11 |
-
-Rubuska turns the team's lost HP into strength. While she is on the field every ally has Shadow Friend, which drains HP each round into Shadow Cloak, extra Max HP that also raises Critical DMG and Ultimate Might; her heals keep the team standing, and her Ultimate pools everyone's Cloak onto one ally for a burst. She belongs to the Bloodtithe group: the HP the team loses also builds Bloodtithe.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/rubuska/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Midnight Mischief (single-target attack) | 120% Reality DMG; Shadow Cloak +3% of her Max HP | 180%; +6% | 300%; +9% |
-| Shadow Sentry (mass heal) | 25% of missing HP + 20% of her Max HP; Shadow Cloak +4% of her current HP | 25% + 25%; +8% | 25% + 30%; +12% |
+### Midnight Mischief
 
-- **Midnight Mischief** first costs Rubuska 10% of her current HP. It counts as a [Retribution]: its damage uses 20% of her Max HP in place of ATK.
-- **Shadow Sentry** heals all allies and cannot crit.
-- The Shadow Cloak of both incantations goes to every ally's Shadow Friend.
+**Rank 1**: 1-target attack. Loses (Current HP x10%) HP to deal 120% Reality DMG. This attack counts as a \[Retribution\].
+
+Grants (the user's Max HP x3%) points of \[Shadow Cloak\] to all allies' \[Shadow Friend\].
+
+**Rank 2**: 1-target attack. Loses (Current HP x10%) HP to deal 180% Reality DMG. This attack counts as a \[Retribution\].
+
+Grants (the user's Max HP x6%) points of \[Shadow Cloak\] to all allies' \[Shadow Friend\].
+
+**Rank 3**: 1-target attack. Loses (Current HP x10%) HP to deal 300% Reality DMG. This attack counts as a \[Retribution\].
+
+Grants (the user's Max HP x9%) points of \[Shadow Cloak\] to all allies' \[Shadow Friend\].
+
+### Shadow Sentry
+
+**Rank 1**: Mass heal. Restores (Missing HP x25% + the user's Max HP x20%) to all allies. No critical chance for the healing.
+
+Grants (the user's Current HP x4%) points of \[Shadow Cloak\] to all allies' \[Shadow Friend\].
+
+**Rank 2**: Mass heal. Restores (Missing HP x25% + the user's Max HP x25%) to all allies. No critical chance for the healing.
+
+Grants (the user's Current HP x8%) points of \[Shadow Cloak\] to all allies' \[Shadow Friend\].
+
+**Rank 3**: Mass heal. Restores (Missing HP x25% + the user's Max HP x30%) to all allies. No critical chance for the healing.
+
+Grants (the user's Current HP x12%) points of \[Shadow Cloak\] to all allies' \[Shadow Friend\].
 
 ## Ultimate: All Hail Rubuska the First
 
-Puts [Shadow Feast] on one ally for 1 round and heals all allies by 10% of Rubuska's Max HP.
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Shadow Friend | Held by every ally while Rubuska is on the field. At the start of each round, the holder loses 10% of current HP and gains Shadow Cloak equal to 70% of the HP Rubuska loses this way, up to 15% of the Max HP she entered battle with. Gone when she leaves the field. |
-| Shadow Cloak | Each point gives Max HP +1; every 200 points give Critical DMG +1% and every 300 points Ultimate Might +1%. |
-| Shadow Feast | Empties the Shadow Cloak of every other ally; the target gains 20% of the total as extra Cloak, which can pass the cap and leaves its own Cloak gains untouched. The extra Cloak gives 80% of the usual Critical DMG and Ultimate Might and is gone when the status ends. |
-| Grace of Rubuska I | The holder survives a lethal attack and recovers 30% of Rubuska's Max HP; used up when it triggers; does not stack; cannot be dispelled. |
-| Bloodtithe | A team resource: +1 for every 3000 HP the allies lose in total; HP lost to attacks counts at 30%. In the mainland client a team cannot hold it together with Lingering Glow or the Pursuit Scope; the global text has no such clause. |
+1-target buff. Grants \[Shadow Feast\] to the target for 1 round. Restores (the user's Max HP x10%) HP to all allies.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 0 (Precognition) | HP the team loses builds Bloodtithe. |
-| 1 | While Rubuska is on the field, all allies have Shadow Friend. Whenever an ally's Shadow Cloak reaches its cap, she gains 1 Moxie. She stores up to 3 Moxie beyond her cap, which refills her Moxie at the end of a round where there is room. |
-| 2 | Max HP +5% on entering battle. |
-| 3 | On entering battle, all allies gain Grace of Rubuska I. After any ally is attacked, she heals all allies by 12% of her Max HP, at most 3 times per round; the heal cannot crit. |
+**Insight 0 · Precognition**: Whenever an ally loses HP, accumulate points of \[Bloodtithe\].
+
+**Insight 1 · The Perky Piper**: All allies have \[Shadow Friend\] when Rubuska is present.
+
+Whenever an ally reaches full capacity of \[Shadow Cloak\], Rubuska gains Moxie +1.
+
+Rubuska can reserve up to 3 excess Moxie (replenished at the end of the round if applicable).
+
+**Insight 2 · The Perky Piper II**: When entering battle, Max HP +5%.
+
+**Insight 3 · The Perky Piper III**: When entering battle, grants all allies \[Grace of Rubuska I\].
+
+After an ally is attacked, Rubuska restores (own Max HP x12%) HP to all allies, triggering up to 3 times per round. No critical chance for the healing.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -82,16 +97,37 @@ Puts [Shadow Feast] on one ally for 1 round and heals all allies by 10% of Rubus
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Shadow Feast lasts 2 rounds, passes on 35% of the emptied Cloak, and its extra Cloak gives the full bonus. |
-| 2 | The Shadow Cloak cap becomes 18% of her entry Max HP, and Shadow Friend converts 100% of the HP lost. |
-| 3 | Midnight Mischief deals 180, 270 or 450% by rank. |
-| 4 | The Insight 3 heal becomes 16% of her Max HP. |
-| 5 | Shadow Cloak gives Critical DMG +1% per 100 points and Ultimate Might +1% per 200 points. |
+**Portrait 1**: **All Hail Rubuska the First**: \[Shadow Feast\]'s duration increased to 2 rounds; transfer ratio of \[Shadow Cloak\] points increased to 35%. Critical DMG/Ultimate Might bonuses gained from the additional \[Shadow Cloak\] granted by \[Shadow Feast\] increased to 100% as normal.
+
+**Portrait 2**: **Precognition**: \[Shadow Cloak\]'s full capacity increased to 18% of Rubuska's Max HP when she enters battle. \[Shadow Friend\]'s \[Shadow Cloak\] conversion rate increased to 100%.
+
+**Portrait 3**: **Midnight Mischief**: Reality DMG dealt increased to 180%/270%/450%.
+
+**Portrait 4**: **Precognition**: After an ally is attacked, Rubuska restores (own Max HP x16%) HP to all allies.
+
+**Portrait 5**: **Precognition**: For every 100/200 points of \[Shadow Cloak\] owned, allies under \[Shadow Friend\] gain Critical DMG/Ultimate Might +1%.
+
+## Statuses
+
+- **Retribution**: Deals DMG based on 20% of the user's Max HP instead of ATK.
+- **Shadow Cloak**: For every point of \[Shadow Cloak\] owned, gains Max HP +1. For every 200/300 points of \[Shadow Cloak\] owned, gains Critical DMG/Ultimate Might +1%.
+- **Shadow Friend**: At the start of the round, loses (Current HP x10%) HP to convert (Rubuska's HP depleted by this effect x70%) HP into \[Shadow Cloak\] points, with an upper limit equal to 15% of Rubuska's Max HP when she enters battle.
+
+  \[Shadow Friend\] removes when Rubuska retreats.
+- **Shadow Feast**: Empties all allies' points of \[Shadow Cloak\] except the target's. The target then gains 20% of all the emptied points of \[Shadow Cloak\] combined. \[Shadow Cloak\] points gained this way do not affect the target's normal gains of \[Shadow Cloak\] points and can exceed the upper limit.
+
+  \[Shadow Cloak\] points gained this way grant 80% Critical DMG/Ultimate Might bonuses as normal.
+
+  \[Shadow Cloak\] points gained this way are removed when this status ends.
+- **Bloodtithe**: Whenever allies lose 3000 HP combined, accumulate 1 point of \[Bloodtithe\]; HP lost from being attacked accumulates \[Bloodtithe\] at only 30% efficiency.
+- **Grace of Rubuska I**: Survive a lethal attack and recover (Rubuska's Max HP x30%) HP. Removes upon trigger, unstackable, undispellable.
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | Rubuska | 野树莓 | 野樹莓 | ルブシカ | 루부스카 |
+
+## Edition differences
+
+- On the mainland client a team cannot hold Bloodtithe together with Lingering Glow or 洞知眼 (a status of the mainland client only); the global client's text has no such clause.

@@ -37,46 +37,73 @@ sources:
 | Psychubes recommended in game | [Embrace the Past](/psychubes/embrace-the-past/) |
 | Mainland release | 2025-05-15 |
 | Global release | 2025-09-19 |
-
-Nautika turns lost HP into power. Every 3000 HP the team loses adds a point of [Bloodtithe], and her incantations cost her own HP, or every unit's, to add damage based on her Max HP. Her Ultimate spends the stored Bloodtithe at the end of the round on a channelled flurry of hits that also heals her.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/nautika/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Haunting Pain (attack on 2 enemies) | loses 20% of current HP; 100% Reality DMG plus 100% based on 10% of Max HP; 4 stacks of [Higge] | 30%; 150% plus 15% of Max HP; 6 stacks | 50%; 250% plus 25% of Max HP; 10 stacks |
-| Gates of Horn and Ivory (choice) | casts rank 1 Weaver of Light or Martyr of the Abyss | rank 2 | rank 3 |
-| Weaver of Light (self counter) | [Mother Spirit's Guidance] and DMG Taken −10% for 3 rounds | −15% | −25% |
-| Martyr of the Abyss (single-target attack) | every unit on the field loses 20% of current HP; damage based on 10% of Max HP | 30%; 15% | 50%; 25% |
+### Ice Core Drilling
 
-- **Gates of Horn and Ivory** lets her choose, when cast, which of its two cards to play at the same rank.
-- **Martyr of the Abyss** never takes more than 20, 30 or 50% of Nautika's Max HP from any unit, by rank. It gives all allies [Adversity I] for 3 rounds, then deals Reality DMG equal to 50% for each unit on the field.
+**Rank 1**: 1-target attack. Deals 200% Reality DMG.
+
+**Rank 2**: 1-target attack. Deals 300% Reality DMG.
+
+**Rank 3**: 1-target attack. Deals 500% Reality DMG.
+
+### Whiteout Warning
+
+**Rank 1**: Mass buff. DMG Dealt +15% and DMG Taken -15% for all allies for 2 rounds.
+
+**Rank 2**: Mass buff. DMG Dealt +20% and DMG Taken -20% for all allies for 2 rounds.
+
+**Rank 3**: Mass buff. DMG Dealt +25% and DMG Taken -25% for all allies for 3 rounds.
+
+### Haunting Pain
+
+**Insight 2 · Rank 1**: Mass attack. Loses (Current HP x20%) HP to deal 100% Reality DMG to 2 enemies. This attack also deals 100% Reality DMG based on 10% of the user's Max HP instead of ATK. Gains 4 stacks of \[Higge\].
+
+**Insight 2 · Rank 2**: Mass attack. Loses (Current HP x30%) HP to deal 150% Reality DMG to 2 enemies. This attack also deals 100% Reality DMG based on 15% of the user's Max HP instead of ATK. Gains 6 stacks of \[Higge\].
+
+**Insight 2 · Rank 3**: Mass attack. Loses (Current HP x50%) HP to deal 250% Reality DMG to 2 enemies. This attack also deals 100% Reality DMG based on 25% of the user's Max HP instead of ATK. Gains 10 stacks of \[Higge\].
+
+### Gates of Horn and Ivory
+
+**Insight 2 · Rank 1**: Choose 1 out of rank 1 \[Weaver of Light\] and \[Martyr of the Abyss\].
+
+**Insight 2 · Rank 2**: Choose 1 out of rank 2 \[Weaver of Light\] and \[Martyr of the Abyss\].
+
+**Insight 2 · Rank 3**: Choose 1 out of rank 3 \[Weaver of Light\] and \[Martyr of the Abyss\].
+
+### Weaver of Light
+
+**Insight 2 · Rank 1**: Self counter. Enters \[Mother Spirit's Guidance\] status for 3 rounds. Gains DMG Taken -10% for 3 rounds.
+
+**Insight 2 · Rank 2**: Self counter. Enters \[Mother Spirit's Guidance\] status for 3 rounds. Gains DMG Taken -15% for 3 rounds.
+
+**Insight 2 · Rank 3**: Self counter. Enters \[Mother Spirit's Guidance\] status for 3 rounds. Gains DMG Taken -25% for 3 rounds.
+
+### Martyr of the Abyss
+
+**Insight 2 · Rank 1**: 1-target attack. Depletes (Current HP x20%) HP from all characters (not higher than 20% of the user's Max HP). Grants \[Adversity I\] to all allies for 3 rounds. Deals (number of characters x50%) Reality DMG based on 10% of the user's Max HP instead of ATK.
+
+**Insight 2 · Rank 2**: 1-target attack. Depletes (Current HP x30%) HP from all characters (not higher than 30% of the user's Max HP). Grants \[Adversity I\] to all allies for 3 rounds. Deals (number of characters x50%) Reality DMG based on 15% of the user's Max HP instead of ATK.
+
+**Insight 2 · Rank 3**: 1-target attack. Depletes (Current HP x50%) HP from all characters (not higher than 50% of the user's Max HP). Grants \[Adversity I\] to all allies for 3 rounds. Deals (number of characters x50%) Reality DMG based on 25% of the user's Max HP instead of ATK.
 
 ## Ultimate: Divine Yoik
 
-Nautika channels and enters [Blood Sacrifice] for 1 round; the card does not count toward the team's Incantation Draw Limit.
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Bloodtithe | A team resource: +1 for every 3000 HP the allies lose in total; HP lost to attacks counts at 30%. In the mainland client a team cannot hold it together with Lingering Glow or the Pursuit Scope; the global text has no such clause. |
-| Blood Sacrifice | At the end of the round, spends as much Bloodtithe as it can: every 8 points give 3 Blood Sacrifice points, at most 24. With 3 or more points she casts [A Thousand Scars], otherwise [A Thousand Springs]. She cannot act while channelling. |
-| A Thousand Scars | One hit on a random enemy per Blood Sacrifice point, each 100% Reality DMG based on 25% of her Max HP; then 100% based on 50% of her Max HP to all enemies. Heals her 5% of Max HP per point spent. |
-| A Thousand Springs | 500% Reality DMG to all enemies, plus 100% based on 25% of her Max HP; heals her 15% of Max HP. |
-| Mouth of the Mother | Nautika loses 20% of current HP to deal 150% Reality DMG to all enemies, plus 100% based on 15% of her Max HP. |
-| Higge | Max HP +2% per stack, up to 15 stacks, for 3 rounds; each new stack renews the duration. |
-| Mother Spirit's Guidance | Gains 1 stack of Higge whenever attacked; Healing Taken +10%, and +5% more for each 10% of HP missing, up to +40%. |
-| Adversity I | DMG Taken Reduction and DMG Bonus +10%, and +2.5% more for each 10% of Max HP missing, up to +20%. |
-| Reborn | Survives one lethal attack, removes all negative effects from her and heals 30% of Max HP; then it is gone. |
+Self channel. Enters \[Blood Sacrifice\] for 1 round. This does not take up the allied Incantation Draw Limit.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Gains 1 stack of Higge after each action. |
-| 2 | The team gathers Bloodtithe. On entering battle Nautika loses 50% of current HP to raise Bloodtithe and its cap by 8; her own HP-loss effects cannot take her below 15% HP. Faith replaces her Moxie: +1 whenever Bloodtithe rises, and the Ultimate opens at 8. |
-| 3 | During Mother Spirit's Guidance, casts Mouth of the Mother once for every 8 Bloodtithe gained. At the start of a round without Reborn, spends 4 Bloodtithe to gain it; each later time costs 4 more. |
+**Insight 1 · No Longer Poles Apart**: After taking an action, gains 1 stack of \[Higge\].
+
+**Insight 2 · No Longer Poles Apart II**: Accumulates \[Bloodtithe\] whenever an ally loses HP. When entering battle, loses (Current HP x50%) HP to gain \[Bloodtithe\]/\[Max Bloodtithe\] +8 (the user's HP won't drop below 15% due to such HP loss effects).
+
+The user's Moxie is replaced by Faith. Whenever \[Bloodtithe\] increases, Faith +1. The user's Ultimate is available when Faith reaches 8.
+
+**Insight 3 · No Longer Poles Apart III**: In \[Mother Spirit's Guidance\] status, for every 8 points of \[Bloodtithe\] gained, casts \[Mouth of the Mother\] 1 time.
+
+At the start of the round, if without \[Reborn\], consumes 4 points of \[Bloodtithe\] to gain \[Reborn\]; the \[Bloodtithe\] cost for each subsequent trigger increases by 4.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -86,27 +113,56 @@ Nautika channels and enters [Blood Sacrifice] for 1 round; the card does not cou
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Bloodtithe and its cap rise by 16 on entering battle; Higge gives Max HP +3%; Mouth of the Mother triggers every 6 Bloodtithe. |
-| 2 | Blood Sacrifice gives 3 points for every 7 Bloodtithe, at most 27; A Thousand Scars hits for 27.5% of Max HP and heals 10% per point; A Thousand Springs uses 50% of Max HP and heals 30%. |
-| 3 | Mother Spirit's Guidance gives Healing Taken +20%, and +7.5% for each 10% of HP missing, up to 60%; Mouth of the Mother costs 30% of current HP and its extra damage uses 25% of Max HP. |
-| 4 | Martyr of the Abyss uses 20, 30 or 50% of Max HP by rank; Weaver of Light gives DMG Taken Reduction +20, +25 or +40% for 4 rounds, and Mother Spirit's Guidance lasts 4 rounds. |
-| 5 | Blood Sacrifice gives 3 points for every 6 Bloodtithe, at most 30; A Thousand Scars hits for 35% of Max HP. |
+**Portrait 1**: **No Longer Poles Apart**: When entering battle, \[Bloodtithe\]/\[Max Bloodtithe\] gained is increased to 16. \[Higge\]'s Max HP bonus is increased to +3%. The increased points of \[Bloodtithe\] required to cast \[Mouth of the Mother\] is reduced to 6.
+
+**Portrait 2**: **Divine Yoik**: During \[Blood Sacrifice\], the required points of \[Bloodtithe\] consumed to gain \[Blood Sacrifice\] is reduced to 7. \[Blood Sacrifice\]'s point limit is increased to 27. The percentage of own Max HP replacing every \[A Thousand Scars\]'s DMG dealt is increased to x27.5% and for every point of \[Blood Sacrifice\], Max HP is increased to +10%. The percentage of own Max HP replacing \[A Thousand Springs\]'s DMG dealt is increased to x50% and Max HP is increased to +30%.
+
+**Portrait 3**: **No Longer Poles Apart**: \[Mother Spirit's Guidance\]'s Healing Taken is increased by +20%. For every 10% HP lost, Healing Taken is increased by +7.5%, up to 60%. \[Mouth of the Mother\]'s HP loss is increased to 30% of current HP. The percentage of own Max HP replacing additional DMG dealt is increased to x25%.
+
+**Portrait 4**: **Whiteout Warning**: At Incantation rank 1/2/3, the percentage of own Max HP replacing DMG dealt is increased to 20/30/50%.
+
+**Whiteout Warning**: At Incantation rank 1/2/3, DMG Taken Reduction is changed to +20/25/40% and the duration is increased to 4 rounds. The duration of \[Mother Spirit's Guidance\] is increased to 4 rounds.
+
+**Portrait 5**: **Divine Yoik**: During \[Blood Sacrifice\], the required number of \[Bloodtithe\] points consumed to gain \[Blood Sacrifice\] is reduced to 6. \[Blood Sacrifice\]'s point limit is increased to 30. The percentage of own Max HP replacing every \[A Thousand Scars\]'s DMG dealt is increased to x35%.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Nautika has one Epiphany of four levels.
+**Epiphany 1, level 1**: **Whiteout Warning**: After being attacked while in the \[Mother Spirit's Guidance\] status, Nautika now gains 2 stacks of \[Higge\].
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | She gains 2 stacks of Higge after each action and when attacked during Mother Spirit's Guidance; each stack of Higge also gives DMG Bonus +1%. |
-| 1 | 2 | The Max HP-based damage of Haunting Pain rises to 110%; Martyr of the Abyss deals 75% for each unit on the field. |
-| 1 | 3 | The Ultimate's attacks gain Ultimate Might +15% while she has both Adversity I and Mother Spirit's Guidance; the Max HP-based damage of A Thousand Scars and A Thousand Springs rises to 115%. |
-| 1 | 4 | HP-loss effects cannot take her below 16% HP, and on entering battle she gives the same floor to every other Bloodtithe ally; the Max HP-based damage of Mouth of the Mother rises to 115%. |
+**No Longer Poles Apart**: Nautika now gains 2 stacks of \[Higge\] after taking an action.
+
+Each stack of \[Higge\] now grants an additional DMG Bonus +1%.
+
+**Epiphany 1, level 2**: **Ice Core Drilling** now deals an additional 110% Reality DMG based on Max HP.
+
+**Whiteout Warning** now deals (number of characters present x75%) Reality DMG.
+
+**Epiphany 1, level 3**: **Divine Yoik** New Effects: When attacking, gains Ultimate Might +15% if under \[Adversity I\] and \[Mother Spirit's Guidance\] statuses at the same time.
+
+**Divine Yoik**: \[A Thousand Scars\] and \[A Thousand Springs\] now deal 115% Reality DMG based on Max HP.
+
+**Epiphany 1, level 4**: **No Longer Poles Apart** Enhancements: Cannot be reduced below 16% HP by HP loss effects; when entering battle, Nautika grants this HP loss limit to all other \[Bloodtithe\] allies.
+
+**No Longer Poles Apart**: \[Mouth of the Mother\] now deals an additional 115% Reality DMG based on Max HP.
+
+## Statuses
+
+- **Higge**: Max HP +2%. Stackable up to 15 times. Lasts 3 rounds. Each trigger refreshes duration.
+- **Mother Spirit's Guidance**: After being attacked, gains 1 stack of \[Higge\]. Healing Taken +10%. For every 10% Missing HP, Healing Taken +5% additionally, up to +40%.
+- **Adversity I**: DMG Taken Reduction and DMG Bonus +10%. For every 10% Missing HP, DMG Taken Reduction and DMG Bonus +2.5% additionally, up to +20%.
+- **Blood Sacrifice**: At the end of the round, consumes as much \[Bloodtithe\] as possible; for every 8 points of \[Bloodtithe\] consumed, gains 3 points of \[Blood Sacrifice\], up to 24 points of \[Blood Sacrifice\]. If carrying at least 3 points of \[Blood Sacrifice\], casts \[A Thousand Scars\]; otherwise, casts \[A Thousand Springs\] instead. Cannot act while channeling.
+- **Bloodtithe**: Whenever allies lose 3000 HP combined, accumulate 1 point of \[Bloodtithe\]; HP lost from being attacked accumulates \[Bloodtithe\] at only 30% efficiency.
+- **Mouth of the Mother**: Mass attack. Loses (Current HP x20%) HP to deal 150% Reality DMG to all enemies. This attack also deals 100% Reality DMG based on 15% of the user's Max HP instead of ATK.
+- **Reborn**: Survive a lethal attack, dispel all negative effects from self, and recover (Max HP x30%) HP (disappears after trigger, unstackable).
+- **A Thousand Scars**: Mass attack. Deals a number of hits equal to the points of \[Blood Sacrifice\]. Each hit deals 100% Reality DMG based on 25% of the user's Max HP instead of ATK to a random enemy; then deals 100% Reality DMG based on 50% of the user's Max HP instead of ATK to all enemies. Recovers HP equal to (\[Blood Sacrifice\] points consumed x5%) Max HP.
+- **A Thousand Springs**: Mass attack. Deals 500% Reality DMG to all enemies. This attack also deals 100% Reality DMG based on 25% of the user's Max HP instead of ATK; recovers (own Max HP x15%) HP.
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | Nautika | 诺谛卡 | 諾諦卡 | ノーティカ | 노티카 |
+
+## Edition differences
+
+- On the mainland client a team cannot hold Bloodtithe together with Lingering Glow or 洞知眼 (a status of the mainland client only); the global client's text has no such clause.

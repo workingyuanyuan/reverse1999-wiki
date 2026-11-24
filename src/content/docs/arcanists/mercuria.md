@@ -37,36 +37,41 @@ sources:
 | Psychubes recommended in game | [One with the Flow](/psychubes/one-with-the-flow/), [Starlight Wellspring](/psychubes/starlight-wellspring/) |
 | Mainland release | 2024-07-18 |
 | Global release | 2024-10-31 |
-
-Mercuria gains stacks of Cosmic Energy whenever an ally casts an incantation, more for higher ranks, and every stack raises the damage of the whole team. At 9 and 16 stacks her Insight 3 passive adds Critical DMG and Incantation Might for all allies. Her Ultimate makes every ally's incantations count one rank higher in rank-based effects.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/mercuria/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Restless Souls (single-target attack) | 160% Mental DMG | 240% | 400% |
-| Self-Focusing (team buff) | allies Critical Rate +20%; Cosmic Energy +4 stacks | +25%; +5 | +30%; +6 |
+### Restless Souls
 
-- **Restless Souls** heals the ally with the lowest HP by 50% of Mercuria's ATK. It deals 30% more Mental DMG for each rank 2 incantation in the AP area and 50% more for each rank 3 one, up to 250% more.
-- **Self-Focusing** lasts 2 rounds, for the Critical Rate and for the stacks.
+**Rank 1**: 1-target attack. Deals 160% Mental DMG to an enemy and recovers (the user's ATK x50%) HP for the ally with the lowest HP. For each rank 2/3 incantation in the AP Area, deals an additional 30%/50% Mental DMG, up to a maximum of 250%.
+
+**Rank 2**: 1-target attack. Deals 240% Mental DMG to an enemy and recovers (the user's ATK x50%) HP for the ally with the lowest HP. For each rank 2/3 incantation in the AP Area, deals an additional 30%/50% Mental DMG, up to a maximum of 250%.
+
+**Rank 3**: 1-target attack. Deals 400% Mental DMG to an enemy and recovers (the user's ATK x50%) HP for the ally with the lowest HP. For each rank 2/3 incantation in the AP Area, deals an additional 30%/50% Mental DMG, up to a maximum of 250%.
+
+### Self-Focusing
+
+**Rank 1**: Mass buff. Grants Critical Rate +20% to all allies for 2 rounds. Gain 4 additional stacks of \[Cosmic Energy\] for self for 2 rounds.
+
+**Rank 2**: Mass buff. Grants Critical Rate +25% to all allies for 2 rounds. Gain 5 additional stacks of \[Cosmic Energy\] for self for 2 rounds.
+
+**Rank 3**: Mass buff. Grants Critical Rate +30% to all allies for 2 rounds. Gain 6 additional stacks of \[Cosmic Energy\] for self for 2 rounds.
 
 ## Ultimate: Morning Star for the Night
 
-Removes 2 random Stats Up or Pos Status effects from every enemy, then deals 400% Mental DMG to all enemies. All allies gain [Rank Up] for 2 rounds.
-
-[Rank Up]: an incantation counts as 1 rank higher wherever its rank is part of a calculation; its own effects do not change.
-
-[Cosmic Energy]: a [Force Field]. Each stack gives all allies DMG Dealt +2%; up to 25 stacks, each with its own duration; cannot be dispelled.
-
-[Force Field]: an effect the holder grants to characters on the field; it ends when the holder leaves the field.
+Mass attack. Dispels 2 random \[Stats Up\] and \[Pos Status\] effects on all enemies, then deals 400% Mental DMG to the targets. Grants \[Rank Up\] to all allies for 2 rounds.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Mercuria enters battle with 8 stacks of Cosmic Energy for 2 rounds. After any ally casts a rank 1, 2 or 3 incantation, she gains 2, 3 or 4 stacks, up to 25. On entering battle she gains 1 Moxie for each ally of the Natural Afflatus, up to 3. |
-| 2 | ATK +5% on entering battle. |
-| 3 | At the start of a round with 9 or more stacks, all allies gain Critical DMG +30% for 1 round; with 16 or more, also Incantation Might +20% for 2 rounds. At the end of a round in which allies cast 2 or more rank 3 incantations, she gains 1 Moxie. |
+**Insight 1 · Lengthy Journey**: When entering battle, gain 8 stacks of \[Cosmic Energy\] for 2 rounds; after an ally casts a rank 1/2/3 incantation, gain 2/3/4 stacks of Cosmic Energy for self, to a maximum of 25 stacks.
+
+When entering battle, for each ally of the Natural Afflatus, gain Moxie +1 for self, up to a maximum of Moxie +3.
+
+**Insight 2 · Lengthy Journey II**: ATK +5% when entering battle.
+
+**Insight 3 · Lengthy Journey III**: At the start of the round, if holding 9 or more stacks of \[Cosmic Energy\], grant Critical DMG +30% to all allies for 1 round; if holding 16 or more stacks of Cosmic Energy, grant an additional Incantation Might +20% to all allies for 2 rounds.
+
+At the end of the round, if allies have casted two or more rank 3 incantations for that round, gain Moxie +1 for self.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -76,31 +81,50 @@ Removes 2 random Stats Up or Pos Status effects from every enemy, then deals 400
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Insight 3 Moxie needs 2 or more rank 2 incantations in the round instead. |
-| 2 | The Insight 3 buffs become Critical DMG +50% and Incantation Might +30%. |
-| 3 | Cosmic Energy holds up to 30 stacks, and each gives DMG Dealt +2.5%. |
-| 4 | The Ultimate deals 475%, and Rank Up lasts 1 round longer. |
-| 5 | Cosmic Energy lasts 1 round longer, and each stack gives DMG Dealt +3%. |
+**Portrait 1**: **Lengthy Journey**: At the end of the round, now if allies have casted two or more rank 2 incantations for that round, gain Moxie +1 for self.
+
+**Portrait 2**: **Lengthy Journey**: Critical DMG increase is now +50% and Incantation Might increase is now +30%.
+
+**Portrait 3**: **Lengthy Journey**: \[Cosmic Energy\]'s stack limit is increased to 30. The DMG Dealt granted by each stack is increased to +2.5%.
+
+**Portrait 4**: **Morning Star for the Night**: Mental DMG is increased to 475%, and extends \[Rank Up\] by +1 round.
+
+**Portrait 5**: **Lengthy Journey**: Extends \[Cosmic Energy\] by +1 round. The DMG Dealt granted by each stack is increased to +3%.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Mercuria has one Epiphany of four levels.
+**Epiphany 1, level 1**: **Restless Souls**: For each rank 2/3 incantation in the AP Area, deals an additional 100%/200% Mental DMG, up to a maximum of 1000%.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | Restless Souls deals 100% more per rank 2 and 200% more per rank 3 incantation in the AP area, up to 1000% more. At rank 3 it also gives Mercuria [Preparation · Mercuria] and [Simplified Ritual] after the attack. |
-| 1 | 2 | The Critical Rate of Self-Focusing lasts 3 rounds. At the start of each round, one random incantation of Mercuria's gains 1 rank. |
-| 1 | 3 | For each stack of Cosmic Energy, the Ultimate deals extra Mental DMG equal to 20% of its base and gains Ultimate Might +3%. |
-| 1 | 4 | Rank Up also acts when its holder attacks with a rank 3 incantation: DMG Dealt rises by 40% of the bonus from Mercuria's current Cosmic Energy; a holder with Incantation Might Up gains 40% of Mercuria's Incantation Might Up, and one with Critical DMG Up gains 40% of her Critical DMG Up. The global text ties both of these to her Cosmic Energy instead. |
+Rank 3 **Restless Souls** New Effects Added: After attacking, gains \[Preparation · Mercuria\] and \[Simplified Ritual\].
 
-[Preparation · Mercuria]: at the start of the next round, a rank 2 Precast Incantation of Restless Souls is created.
+**Epiphany 1, level 2**: **Self-Focusing**: The duration of all allies' Critical Rate buff increased to 3 rounds.
 
-[Simplified Ritual]: the next Ultimate costs no AP; removed once Mercuria casts an Ultimate herself.
+New Effects Added: At the start of the round, gains rank +1 for a random own incantation.
+
+**Epiphany 1, level 3**: **Morning Star for the Night** New Effects Added: When attacking, for each stack of \[Cosmic Energy\], deals an additional (base Mental DMG x20%) Mental DMG and gains Ultimate Might +3%.
+
+**Epiphany 1, level 4**: \[Rank Up\] New Effects Added: When attacking with a rank 3 incantation:
+
+DMG Dealt +(DMG bonus gained from Mercuria's current \[Cosmic Energy\] x40%).
+
+If under \[Incantation Might Up\], Incantation Might +(Incantation Might bonus gained from Mercuria's current \[Cosmic Energy\] x40%).
+
+If under \[Critical DMG Up\], Critical DMG +(Critical DMG bonus from Mercuria's \[Cosmic Energy\] x40%).
+
+## Statuses
+
+- **Cosmic Energy**: \[Force Field\]: Each stack grants DMG Dealt +2% to all allies (stackable up to 25 times, each stack is timed independently, undispellable).
+- **Rank Up**: When the incantation is subject to rank calculations, its rank is increased by an extra 1 (the incantation's inherent effects are unaffected).
+- **Preparation · Mercuria**: At the start of the next round, generate a rank 2 Precast Incantation - Restless Souls.
+- **Simplified Ritual**: When casting an Ultimate, no AP is consumed. Removed after actively casting an Ultimate.
+- **Force Field**: The holder is granting effects to the relevant characters. Disappears when defeated.
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | Mercuria | 环状水星 | 環狀水星 | マーキュリア | 머큐리아 |
+
+## Edition differences
+
+- Epiphany 1, level 4: on the mainland client the Incantation Might and Critical DMG that Rank Up adds are 40% of Mercuria's own Incantation Might Up and Critical DMG Up; the global client's text takes both from her Cosmic Energy.

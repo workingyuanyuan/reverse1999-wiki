@@ -36,32 +36,35 @@ sources:
 | Psychubes recommended in game | [Brave New World](/psychubes/brave-new-world/), [Hopscotch](/psychubes/hopscotch/), [Her Second Life](/psychubes/her-second-life/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-The Fool draws attacks with Taunt and puts [Corrode] on whoever hits him, a damage-over-time effect that scales with the attacker's current HP. His single-target attack takes Moxie from the enemy, and his Ultimate keeps Corrode running for an extra round.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/the-fool/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| The Sage (single-target attack) | 200% Mental DMG | 250%; target Moxie −1 | 400%; target Moxie −2 |
-| The Fool (self counter) | Taunt 1 round; Corrode 15% | Corrode 25% | Corrode 35% |
+### The Sage
 
-**The Fool** gives him [Taunt] for 1 round at every rank. Each enemy that attacks him in that round gains Corrode for 2 rounds, dealing the percentage in the table of the enemy's current HP as Genesis DMG at the end of each round, capped at the same percentage of The Fool's Max HP.
+**Rank 1**: 1-target attack. Deals 200% Mental DMG.
 
-[Taunt]: enemies aim certain attacks at the holder first.
+**Rank 2**: 1-target attack. Deals 250% Mental DMG. Inflicts Moxie -1 on the target hit.
 
-[Corrode]: at the end of each round, the holder takes Genesis DMG based on its own current HP.
+**Rank 3**: 1-target attack. Deals 400% Mental DMG. Inflicts Moxie -2 on the target hit.
+
+### The Fool
+
+**Rank 1**: Self counter. Enters \[Taunt\] for 1 round. When attacked, inflicts \[Corrode\] on the attacker for 2 rounds: at the end of the round, takes (the holder's Current HP ×15%) Genesis DMG, up to (the user's Max HP x15%) Genesis DMG.
+
+**Rank 2**: Self counter. Enters \[Taunt\] for 1 round. When attacked, inflicts \[Corrode\] on the attacker for 2 rounds: at the end of the round, takes (the holder's Current HP ×25%) Genesis DMG, up to (the user's Max HP x25%) Genesis DMG.
+
+**Rank 3**: Self counter. Enters \[Taunt\] for 1 round. When attacked, inflicts \[Corrode\] on the attacker for 2 rounds: at the end of the round, takes (the holder's Current HP ×35%) Genesis DMG, up to (the user's Max HP x35%) Genesis DMG.
 
 ## Ultimate: Unexpected and Improvised
 
-Deals 250% Mental DMG to all enemies. Each enemy hit that has Corrode keeps it for 1 more round.
+Mass attack. Deals 250% Mental DMG to all enemies. If the target hit is in the \[Corrode\] status, extends the status duration by 1 round.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Before Curtains Are Drawn: on entering battle, The Fool gains [Fool in the Play] for 2 rounds, once per battle: DMG Taken Reduction and Critical Resist Rate +25%. |
-| 2 | Reality DEF and Mental DEF +10% on entering battle. |
+**Insight 1 · Before Curtains Are Drawn**: When entering battle, enters \[Fool in the Play\] status for 2 rounds (only triggers 1 time).
+
+**Insight 2 · Before Curtains Are Drawn Ⅱ**: Reality DEF and Mental DEF +10% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -70,13 +73,21 @@ Deals 250% Mental DMG to all enemies. Each enemy hit that has Corrode keeps it f
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 280%. |
-| 2 | The Sage deals 220, 280 or 450% by rank. |
-| 3 | At ranks 1 and 2 of The Fool, Corrode deals 20 or 30% of current HP, with the cap raised to the same share of his Max HP. |
-| 4 | The Ultimate deals 310%. |
-| 5 | The Ultimate deals 350%. |
+**Portrait 1**: **Unexpected and Improvised**'s effect changes to: deals 280% Mental DMG.
+
+**Portrait 2**: **The Sage**'s effect changes to: at 1/2/3 stars, deals 220/280/450% Mental DMG.
+
+**Portrait 3**: **The Fool**'s effect changes to: at 1/2 stars, \[Corrode\] deals (current HP ×20/30%) Genesis DMG.
+
+**Portrait 4**: **Unexpected and Improvised**'s effect changes to: deals 310% Mental DMG.
+
+**Portrait 5**: **Unexpected and Improvised**'s effect changes to: deals 350% Mental DMG.
+
+## Statuses
+
+- **Taunt**: Draws the enemy's attention. When taking certain attacks, becomes the priority of the attacks.
+- **Corrode**: When a round ends, takes Genesis DMG based on the carrier's current HP.
+- **Fool in the Play**: DMG Taken Reduction and Critical Resist Rate +25%.
 
 ## Names
 

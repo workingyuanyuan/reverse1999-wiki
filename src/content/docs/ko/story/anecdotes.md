@@ -1,6 +1,6 @@
 ---
 title: "일화"
-description: "리버스: 1999 일화: 모든 장과 스테이지, 스토리 전문."
+description: "리버스: 1999 일화: 모두 33개 장, 240개 스테이지."
 appliesTo: "리버스: 1999, 글로벌 클라이언트 111.0.1077(3.9 버전), 한국어 텍스트"
 caveat: "텍스트는 글로벌 클라이언트의 한국어다. 두 버전 앞선 중국 본토 클라이언트는 일부 대사의 표현이 다르다."
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global, 글로벌 클라이언트 111.0.1077: chapter.json과 episode.json(스테이지 번호, 게임 내 시각)"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-리버스: 1999 일화. 장 페이지에는 스테이지 목록이, 스테이지 페이지에는 스토리 전문과 트레일이 있다.
-
 | 장 | 스테이지 수 | 트레일 |
 | --- | --- | --- |
 | [폭풍 속 새끼 독수리의 날갯짓](/ko/story/the-eaglet-takes-wing/) | 8 | 0 |
@@ -53,9 +51,7 @@ sources:
 | [알파벳 연구](/ko/story/finding-xavier/) | 8 | 0 |
 | [우하라의 바람](/ko/story/the-winds-of-juhalerat/) | 8 | 0 |
 
-## 중국 본토 한정
-
-중국 본토 서비스에만 나온 장, 간체 중국어 이름으로:
+## 중국 본토 한정 (간체 중국어 이름)
 
 - 天真的预言
 - 奇遇之夜

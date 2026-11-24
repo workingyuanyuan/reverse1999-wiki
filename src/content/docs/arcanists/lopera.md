@@ -36,43 +36,37 @@ sources:
 | Psychubes recommended in game | [The Third Commitment](/psychubes/the-third-commitment/), [Family Mentor](/psychubes/family-mentor/), [Stray Off the Path](/psychubes/stray-off-the-path/) |
 | Mainland release | 2024-10-10 |
 | Global release | 2025-01-30 |
-
-Lopera channels Winning Chips to load herself with [Flaming Bullet], each of which burns the enemy she hits. While she channels, she fires [Bull's Eye] at the end of the round, raising the whole team's Critical DMG. Double Backups turns her Flaming Bullets into Bullets for her allies, and her Ultimate sets up [Crucible Arsenal], which keeps the last Bullet of each type and turns excess Critical Rate into Critical DMG.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/lopera/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Double Backups (single-target attack) | 200% Reality DMG | 300% | 500% |
-| Winning Chips (self channel) | 5 Flaming Bullets | 8 | 12 |
+### Double Backups
 
-- **Double Backups** turns Lopera's Flaming Bullets into [Incantation Bullet] for the allies in front of her and [Ritual Bullet] for the allies behind her; each ally gets at most one this way.
-- **Winning Chips** puts Lopera in [Ready to Shoot].
+**Rank 1**: 1-target attack. Deals 200% Reality DMG to the target; Lopera converts her own \[Flaming Bullet\] into \[Incantation Bullet\]/\[Ritual Bullet\] and distributes them to allies in front/behind, respectively; each ally can gain 1 bullet at most this way.
+
+**Rank 2**: 1-target attack. Deals 300% Reality DMG to the target; Lopera converts her own \[Flaming Bullet\] into \[Incantation Bullet\]/\[Ritual Bullet\] and distributes them to allies in front/behind, respectively; each ally can gain 1 bullet at most this way.
+
+**Rank 3**: 1-target attack. Deals 500% Reality DMG to the target; Lopera converts her own \[Flaming Bullet\] into \[Incantation Bullet\]/\[Ritual Bullet\] and distributes them to allies in front/behind, respectively; each ally can gain 1 bullet at most this way.
+
+### Winning Chips
+
+**Rank 1**: Self channel. Grants 5 stacks of \[Flaming Bullet\] to self and enters the \[Ready to Shoot\] status.
+
+**Rank 2**: Self channel. Grants 8 stacks of \[Flaming Bullet\] to self and enters the \[Ready to Shoot\] status.
+
+**Rank 3**: Self channel. Grants 12 stacks of \[Flaming Bullet\] to self and enters the \[Ready to Shoot\] status.
 
 ## Ultimate: More Than Alchemy
 
-Lopera sets up the array Crucible Arsenal for 3 rounds.
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Flaming Bullet | After an attack, puts 3 stacks of [Burn] on the target; one Bullet is used each time. |
-| Incantation Bullet | Incantation Might +25% on an attack. |
-| Ritual Bullet | Ultimate Might +25% on an attack. |
-| Ready to Shoot | If Lopera is still channeling at the end of the round, she casts Bull's Eye; if she has no Flaming Bullets left after it, the status ends. |
-| Bull's Eye | Single-target attack: 150% Reality DMG, and all allies gain [Right on Target] for 2 rounds. On a target with 20 or more stacks of Burn, Right on Target is doubled. |
-| Right on Target | Critical DMG increased by 10% of Lopera's Critical DMG. |
-| Crucible Arsenal | Critical Rate +40%. When a Bullet is triggered, the last Bullet of that type is kept, and excess Critical Rate turns into Critical DMG at a 40% rate, plus 10% for each type of Bullet held, up to 5 times. Lasts 3 rounds. |
-| Burn | Healing Taken −15% (does not stack). At the end of the round, the holder takes Genesis DMG based on 4% of the holder's ATK. Stacks up to 30 times and counts as one Neg Status however many stacks it has; half of the stacks are removed each time it deals damage. |
+Self buff. Creates array \[Crucible Arsenal\] for 3 rounds.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | When an attack of hers sets off a Bullet effect, Lopera gains 1 Moxie and the ally with the lowest HP percentage recovers 50% of their missing HP. |
-| 2 | Critical DMG +15% on entering battle. |
-| 3 | On entering battle, Lopera gains 1 Moxie, plus 1 for each other Beast, Spirit or Intellect ally, up to 2 more. |
+**Insight 1 · Diverse Expertise**: When an attack triggers a Bullet effect, gain Moxie +1 and recover (Missing HP x50%) HP to the ally with the lowest HP percentage.
+
+**Insight 2 · Diverse Expertise II**: Critical DMG +15% when entering battle.
+
+**Insight 3 · Diverse Expertise III**: When entering battle, gain Moxie +1. For every other Beast, Spirit, or Intellect ally present, gain Moxie +1, up to Moxie +2.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -82,24 +76,37 @@ Lopera sets up the array Crucible Arsenal for 3 rounds.
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Crucible Arsenal gives Critical Rate +50% and converts excess Critical Rate at a base rate of 65%. |
-| 2 | Winning Chips gives 6, 10 or 15 Flaming Bullets by rank; Right on Target gives 15% of Lopera's Critical DMG. |
-| 3 | Crucible Arsenal lasts 4 rounds. |
-| 4 | Bull's Eye deals 250%. |
-| 5 | Double Backups deals 230, 345 or 575% by rank; Incantation Bullet and Ritual Bullet give +35%. |
+**Portrait 1**: **More Than Alchemy**: \[Crucible Arsenal\]'s Critical Rate is increased to 50%; when converting excess Critical Rate into Critical DMG, the base conversion rate is increased to 65%.
+
+**Portrait 2**: **Winning Chips**: The number of \[Flaming Bullet\] granted is increased to 6/10/15. \[Right on Target\]'s Critical DMG multiplier is increased to 15%.
+
+**Portrait 3**: **More Than Alchemy**: \[Crucible Arsenal\]'s duration is increased to 4 rounds.
+
+**Portrait 4**: **Winning Chips**: \[Bull's Eye\]'s Reality DMG is increased to 250%.
+
+**Portrait 5**: **Double Backups**: Reality DMG is increased to 230/345/575%, and \[Incantation Bullet\]'s and \[Ritual Bullet\]'s Incantation Might/Ultimate Might are increased to 35/35%.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Lopera has one Epiphany of four levels, which builds on her Ultimate and her Bullets.
+**Epiphany 1, level 1**: **More Than Alchemy** New Effects Added: Removes all of Lopera's basic incantations from the Spelldock; for each incantation removed, based on its rank, gains 4/6/10 stacks of \[Flaming Bullet\].
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | The Ultimate also destroys all of Lopera's basic incantations in the Spelldock; each one gives her 4, 6 or 10 Flaming Bullets by its rank. |
-| 1 | 2 | Double Backups and Bull's Eye deal extra Reality DMG equal to 20% of their base Reality DMG and always crit. |
-| 1 | 3 | Lopera gains 1 Moxie after casting her Ultimate. |
-| 1 | 4 | Crucible Arsenal counts up to 8 Bullet types; on each attack, every type of Bullet held gives DMG Dealt, Incantation Might and Ultimate Might +5%, up to 8 times. |
+**Epiphany 1, level 2**: **Double Backups** New Effects Added: Deals (base Reality DMG x20%) additional Reality DMG and is guaranteed to crit.
+
+\[Bull's Eye\] New Effects Added: Deals (base Reality DMG x20%) additional Reality DMG and is guaranteed to crit.
+
+**Epiphany 1, level 3**: **More Than Alchemy** New Effects Added: Gains Moxie +1 after acting.
+
+**Epiphany 1, level 4**: \[Crucible Arsenal\]: Bullet type count is increased to 8. New Effects Added: When attacking, for each type of Bullet, DMG Dealt +5%, Incantation Might +5%, and Ultimate Might +5%, up to 8 times.
+
+## Statuses
+
+- **Flaming Bullet**: After attacking, inflicts 3 stacks of Burn.
+- **Incantation Bullet**: When attacking, Incantation Might +25%.
+- **Ritual Bullet**: When attacking, Ultimate Might +25%.
+- **Ready to Shoot**: If this channel status is still active at the end of the round, cast 1 \[Bull's Eye\]. (After casting, if Flaming Bullet is at 0, remove this status).
+- **Crucible Arsenal**: Critical Rate +40%. When triggering a Bullet effect, retain the final Bullet of that Bullet type, and convert excess Critical Rate into Critical DMG at a 40% rate; for each type of Bullet, this conversion rate increases by 10%, up to 5 times. Lasts 3 rounds.
+- **Right on Target**: Gain (Lopera's Critical DMG x10%) Critical DMG.
+- **Bull's Eye**: 1-target attack. Deals 150% Reality DMG. Grants \[Right on Target\] to all allies for 2 rounds. If the target has at least 20 stacks of Burn, \[Right on Target\]'s effect is doubled.
 
 ## Names
 

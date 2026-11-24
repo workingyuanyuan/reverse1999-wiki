@@ -39,8 +39,15 @@ sources:
 
 ## Effect
 
-- On entering battle, the carrier gains DMG Taken −5%.
-- At the start of each round, the carrier gains DMG Bonus +3%, stacking up to 4/5/6/7/8 times (Amplification 1 to 5).
+**Amplification 1**: When entering battle, the carrier gains DMG Taken -5%. At the start of each round, the carrier gains DMG Bonus +3%, stacking up to 4 times.
+
+**Amplification 2**: When entering battle, the carrier gains DMG Taken -5%. At the start of each round, the carrier gains DMG Bonus +3%, stacking up to 5 times.
+
+**Amplification 3**: When entering battle, the carrier gains DMG Taken -5%. At the start of each round, the carrier gains DMG Bonus +3%, stacking up to 6 times.
+
+**Amplification 4**: When entering battle, the carrier gains DMG Taken -5%. At the start of each round, the carrier gains DMG Bonus +3%, stacking up to 7 times.
+
+**Amplification 5**: When entering battle, the carrier gains DMG Taken -5%. At the start of each round, the carrier gains DMG Bonus +3%, stacking up to 8 times.
 
 ## Names
 

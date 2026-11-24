@@ -37,39 +37,41 @@ sources:
 | Psychubes recommended in game | [And the Maid Says](/psychubes/and-the-maid-says/), [One with the Flow](/psychubes/one-with-the-flow/) |
 | Mainland release | 2024-08-08 |
 | Global release | 2024-12-05 |
-
-Tuesday spreads Poison and makes it hit harder. Her attack poisons one enemy and copies the Poison to others, her debuff raises the Genesis DMG enemies take and cuts their Critical Resist Rate, and her Ultimate deals Genesis DMG for every instance of Poison on a target, then sets up Horror Story Night, an array that settles enemy Poison an extra time each round without shortening it. Fear's Cradle from her first Insight lets the team's Poison crit.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/tuesday/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| The Horror's Delight (single-target attack) | 130% Mental DMG; Poison spreads 2 times | 230%; 3 times | 455%; 4 times |
-| In Mother's Arms (debuff on all enemies) | Genesis DMG Taken +15% | +25% | +35% |
+### The Horror's Delight
 
-- **The Horror's Delight** puts 2 instances of [Poison] on the target for 2 rounds, each dealing Genesis DMG equal to 20% of Tuesday's ATK at the end of the round. It then puts 1 instance of the same Poison on another random enemy, as many times as the table says, while a target is available.
-- **In Mother's Arms** lasts 2 rounds and also lowers Critical Resist Rate by 15% at every rank, or by 20% on a poisoned enemy.
+**Rank 1**: 1-target attack. Deals 130% Mental DMG. Inflicts 2 instances of \[Poison\] on the target for 2 rounds: at the end of the round, deals (the user's ATK x20%) Genesis DMG to the target; then inflicts 1 instance of the same \[Poison\] on another random, valid enemy target if able, repeating up to 2 times.
+
+**Rank 2**: 1-target attack. Deals 230% Mental DMG. Inflicts 2 instances of \[Poison\] on the target for 2 rounds: at the end of the round, deals (the user's ATK x20%) Genesis DMG to the target; then inflicts 1 instance of the same \[Poison\] on another random, valid enemy target if able, repeating up to 3 times.
+
+**Rank 3**: 1-target attack. Deals 455% Mental DMG. Inflicts 2 instances of \[Poison\] on the target for 2 rounds: at the end of the round, deals (the user's ATK x20%) Genesis DMG to the target; then inflicts 1 instance of the same \[Poison\] on another random, valid enemy target if able, repeating up to 4 times.
+
+### In Mother's Arms
+
+**Rank 1**: Mass debuff. Inflicts Genesis DMG Taken +15% on all enemies for 2 rounds; inflicts Critical Resist Rate -15% (-20% to targets in the \[Poison\] status) on all enemies for 2 rounds.
+
+**Rank 2**: Mass debuff. Inflicts Genesis DMG Taken +25% on all enemies for 2 rounds; inflicts Critical Resist Rate -15% (-20% to targets in the \[Poison\] status) on all enemies for 2 rounds.
+
+**Rank 3**: Mass debuff. Inflicts Genesis DMG Taken +35% on all enemies for 2 rounds; inflicts Critical Resist Rate -15% (-20% to targets in the \[Poison\] status) on all enemies for 2 rounds.
 
 ## Ultimate: Please, Come On In
 
-Deals 225% Mental DMG to all enemies and puts 1 instance of Poison (20% of ATK, 2 rounds) on each. Then each target takes extra Genesis DMG equal to Tuesday's ATK × the instances of Poison on it × 30%; this damage can crit. The Ultimate also sets up the array [Horror Story Night] for 3 rounds.
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Poison | At the end of the round, the holder takes Genesis DMG based on the caster's ATK; instances stack. |
-| Horror Story Night | An array. Enemy Poison does not lose rounds when it settles; at the start of the enemy round, 1 round of their Poison settles. When the array ends or is replaced, all enemy Poison settles at once. Only one array can exist on the field, allied or enemy. |
-| Fear's Cradle | A force field, gone when Tuesday leaves the field. The team's Poison can crit. Each Stats Down, Neg Status or Control effect an ally puts on an enemy has a 50% chance to add 1 instance of Poison (20% of ATK, 1 round). Cannot be dispelled. |
-| Room Service | Moxie that an ally gains beyond the cap is stored, up to 5 per character, and refills that character's Moxie at the end of the round where there is room. Cannot be dispelled. |
+Mass attack. Deals 225% Mental DMG to all enemies, inflicts 1 instance of \[Poison\] for 2 rounds on the targets hit: at the end of each round, deals (the user's ATK x20%) Genesis DMG to the target, then deals an additional (Tuesday's ATK x number of instances of \[Poison\] on the target x30%) Genesis DMG that can critically hit to the target; and at the same time, deploys array \[Horror Story Night\] for 3 rounds.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | On entering battle, Tuesday gains Fear's Cradle and Genesis DMG Dealt +15%. |
-| 2 | ATK +5% on entering battle. |
-| 3 | On entering battle, Tuesday gains Room Service and Moxie +2; the Moxie is given once. |
+**Insight 1 · At Your Service**: When entering battle, gain \[Fear's Cradle\].
+
+When entering battle, grant Genesis DMG Dealt +15% to self.
+
+**Insight 2 · At Your Service II**: ATK +5% when entering battle.
+
+**Insight 3 · At Your Service III**: When entering battle, gain \[Room Service\].
+
+When entering battle, gain Moxie +2 for self (triggers only 1 time).
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -79,24 +81,39 @@ Deals 225% Mental DMG to all enemies and puts 1 instance of Poison (20% of ATK, 
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate puts 2 instances of Poison; its extra Genesis DMG becomes 50% per instance. |
-| 2 | In Mother's Arms raises Genesis DMG Taken by 30, 40 or 50% by rank and lowers Critical Resist Rate by 25%, or 30% on a poisoned enemy. |
-| 3 | The Ultimate puts 3 instances of Poison; its extra Genesis DMG becomes 70% per instance. |
-| 4 | Insight 1 gives Genesis DMG Dealt +35%. |
-| 5 | The Horror's Delight deals 210, 310 or 535% by rank and spreads Poison 3, 4 or 5 times. |
+**Portrait 1**: **Please, Come On In**: The instances of \[Poison\] inflicted is increased to 2. The additional Genesis DMG is increased to (Tuesday's ATK x number of instances of \[Poison\] on the target x50%).
+
+**Portrait 2**: **In Mother's Arms**: At incantation rank 1/2/3, the Genesis DMG Taken is now +30%/40%/50%, and the Critical Resist Rate is now -25% (additionally -30% to targets in the \[Poison\] status).
+
+**Portrait 3**: **Please, Come On In**: The instances of \[Poison\] inflicted is increased to 3. The additional Genesis DMG is increased to (Tuesday's ATK x number of instances of \[Poison\] on the target x70%).
+
+**Portrait 4**: **At Your Service**: The Genesis DMG Dealt granted to self is now +35%.
+
+**Portrait 5**: **The Horror's Delight**: At incantation rank 1/2/3, the Mental DMG dealt is increased to 210%/310%/535%, and inflicts 1 instance of the same \[Poison\] on another random, valid enemy target if able, now repeating up to 3/4/5 times.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Tuesday has one Epiphany of four levels.
+**Epiphany 1, level 1**: **Please, Come On In** now deals an additional (original Genesis DMG based on Tuesday's ATK and the number of \[Poison\] instances on the target x100%) Genesis DMG.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | The extra Genesis DMG of the Ultimate doubles (60% per instance of Poison, or 100% and 140% with Portraits 1 and 3), and the Ultimate gives Tuesday Moxie +1. |
-| 1 | 2 | Insight 3 gives 2 more Moxie on entering battle, and her Ultimate no longer counts toward the team's incantation draw limit. |
-| 1 | 3 | On a poisoned enemy, the Critical Resist Rate cut of In Mother's Arms doubles (to 40%, or 60% with Portrait 2), and the enemy takes Poison DMG +20%. |
-| 1 | 4 | At the end of each round while Horror Story Night is active, Tuesday gains Moxie +1 and the debuffs of In Mother's Arms on all enemies last 1 round longer. |
+Tuesday now gains Moxie +1 after casting **Please, Come On In**.
+
+**Epiphany 1, level 2**: **At Your Service** New Effects: Additionally gains Moxie +2 when entering battle. Ultimate does not take up the allied Incantation Draw Limit.
+
+**Epiphany 1, level 3**: **In Mother's Arms** now additionally inflicts Critical Resist Rate -(original Critical Resist Rate reduction x100%) on targets in the \[Poison\] status.
+
+**In Mother's Arms** now inflicts \[Poison\] DMG Taken +20% on targets in the \[Poison\] status.
+
+**Epiphany 1, level 4**: **At Your Service** now grants Moxie +1 to Tuesday and extends the duration of debuffs from **In Mother's Arms** on all enemies by 1 round at the end of the round if \[Horror Story Night\] is active.
+
+## Statuses
+
+- **Poison**: At the end of the round, takes Genesis DMG based on the user's ATK (stackable).
+- **Horror Story Night**: \[Array\] effect: \[Poison\] effects on enemies do not decrease in duration on resolve. At the start of the enemy's round, resolve 1 round of their \[Poison\] effects. After the array ends or is replaced, immediately resolve \[Poison\] on all enemies.
+- **Fear's Cradle**: \[Force Field\] effect: All allies can score critical hits with their \[Poison\] effects. When an ally takes an action, every \[Stats Down\], \[Neg Status\], or \[Control\] status the ally inflicts on an enemy target through this action has a 50% chance to inflict 1 instance of \[Poison\] on that target for 1 round: at the end of the round, deals (the user's ATK x20%) Genesis DMG to the target (undispellable).
+- **Room Service**: Excess Moxie on allies is temporarily stored. At the end of the round, each character's stored Moxie is used to replenish their own Moxie if able. Each character can store up to 5 points of Moxie (undispellable).
+- **Array**: Battlefield effect. Continuously affects characters on the field (only one type of array can exist at a time, whether on the allied or enemy side).
+- **Force Field**: The holder is granting effects to the relevant characters. Disappears when defeated.
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
 
 ## Names
 

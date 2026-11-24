@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- After a Riposte, the carrier gets Ultimate Might +4/5/6/7/8%, up to 3 stacks (Amplification 1 to 5).
-- With a Beast carrier, all allies get Critical DMG +0.4/0.5/0.6/0.7/0.8% for each point of Moxie the team consumes, up to 30 stacks.
+**Amplification 1**: After launching a Riposte, the carrier gains Ultimate Might +4%, up to 3 stacks.
+
+If the carrier is a \[Beast\] character, for every 1 Moxie the team consumes, all allies gain Critical DMG +0.4%, up to 30 stacks.
+
+**Amplification 2**: After launching a Riposte, the carrier gains Ultimate Might +5%, up to 3 stacks.
+
+If the carrier is a \[Beast\] character, for every 1 Moxie the team consumes, all allies gain Critical DMG +0.5%, up to 30 stacks.
+
+**Amplification 3**: After launching a Riposte, the carrier gains Ultimate Might +6%, up to 3 stacks.
+
+If the carrier is a \[Beast\] character, for every 1 Moxie the team consumes, all allies gain Critical DMG +0.6%, up to 30 stacks.
+
+**Amplification 4**: After launching a Riposte, the carrier gains Ultimate Might +7%, up to 3 stacks.
+
+If the carrier is a \[Beast\] character, for every 1 Moxie the team consumes, all allies gain Critical DMG +0.7%, up to 30 stacks.
+
+**Amplification 5**: After launching a Riposte, the carrier gains Ultimate Might +8%, up to 3 stacks.
+
+If the carrier is a \[Beast\] character, for every 1 Moxie the team consumes, all allies gain Critical DMG +0.8%, up to 30 stacks.
 
 ## Names
 

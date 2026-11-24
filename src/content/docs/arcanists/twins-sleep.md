@@ -37,32 +37,35 @@ sources:
 | Psychubes recommended in game | [Long Night Talk](/psychubes/long-night-talk/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Twins Sleep pair a single-target attack that lowers Mental DEF with a debuff on all enemies that adds Weakness and lowers Critical DEF. Every other round they enter [Arcane Stamp], which stretches those debuffs by a round, and their Ultimate puts its target in Nightmare.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/twins-sleep/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Pincer Movement (single-target attack) | 200% Mental DMG | 200%; Mental DEF −25% for 2 rounds | 350%; Mental DEF −35% for 3 rounds |
-| Hide and Seek (debuff on all enemies) | 1 stack of [Weakness]; Critical DEF −20%; 2 rounds | 1 stack; −30%; 2 rounds | 2 stacks; −40%; 3 rounds |
+### Pincer Movement
 
-[Weakness]: when the holder attacks, its DMG Bonus is −25%; each attack uses one stack.
+**Rank 1**: 1-target attack. Deals 200% Mental DMG.
+
+**Rank 2**: 1-target attack. Deals 200% Mental DMG. Inflicts Mental DEF -25% for 2 rounds on the target hit.
+
+**Rank 3**: 1-target attack. Deals 350% Mental DMG. Inflicts Mental DEF -35% for 3 rounds on the target hit.
+
+### Hide and Seek
+
+**Rank 1**: Mass debuff. Inflicts 1 stack of \[Weakness\] on all enemies and Critical DEF -20% for them for 2 rounds.
+
+**Rank 2**: Mass debuff. Inflicts 1 stack of \[Weakness\] on all enemies and Critical DEF -30% for them for 2 rounds.
+
+**Rank 3**: Mass debuff. Inflicts 2 stacks of \[Weakness\] on all enemies and Critical DEF -40% for them for 3 rounds.
 
 ## Ultimate: Good Children Sleep Well
 
-Deals 450% Mental DMG to one enemy and puts it in [Nightmare] for 1 round.
-
-[Nightmare]: the target cannot act; any attack on it ends the effect.
-
-[Arcane Stamp]: statuses that Twins Sleep inflict last 1 round longer.
+1-target attack. Deals 450% Mental DMG. Inflicts \[Nightmare\] for 1 round on the target hit.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Every other round, Twins Sleep enter Arcane Stamp for 1 round. |
-| 2 | ATK +5% on entering battle. |
+**Insight 1 · Twins Hypnosis**: Every other round, enters \[Arcane Stamp\] status for 1 round.
+
+**Insight 2 · Twins Hypnosis Ⅱ**: ATK +5% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -71,13 +74,21 @@ Deals 450% Mental DMG to one enemy and puts it in [Nightmare] for 1 round.
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 500%. |
-| 2 | Pincer Movement deals 220, 230 or 400% by rank. |
-| 3 | The Ultimate deals 550%. |
-| 4 | Hide and Seek lowers Critical DEF by 30, 40 or 50% by rank. |
-| 5 | The Ultimate deals 600%. |
+**Portrait 1**: **Good Children Sleep Well**: Mental DMG increased to 500%.
+
+**Portrait 2**: **Pincer Movement**: at rank 1/2/3, deals 220/230/400% Mental DMG.
+
+**Portrait 3**: **Good Children Sleep Well**'s effect changes to: deals 550% Mental DMG.
+
+**Portrait 4**: **Hide and Seek**'s effect changes to: at 1/2/3 stars, Critical DEF -30/40/50%.
+
+**Portrait 5**: **Good Children Sleep Well**: Mental DMG increased to 600%.
+
+## Statuses
+
+- **Weakness**: DMG Bonus -25% when attacking (reduced by 1 stack on trigger).
+- **Nightmare**: Cannot act. Dispels the effect after taking any attack.
+- **Arcane Stamp**: Duration of inflicted statuses +1 round.
 
 ## Names
 

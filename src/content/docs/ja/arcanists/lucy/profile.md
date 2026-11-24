@@ -1,8 +1,8 @@
 ---
 title: "ルーシー プロフィール"
-description: "リバース：1999 のルーシーのプロフィール：表紙、単品、文化、コスチューム、ボイスのゲーム内テキスト。"
+description: "リバース：1999 のルーシーのプロフィール：グローバル版クライアントにコスチューム3着、ボイス68件。"
 appliesTo: "リバース：1999、グローバル版クライアント 111.0.1077（バージョン 3.9）、日本語テキスト"
-caveat: "テキストはグローバル版の日本語。2バージョン先行する中国本土版では一部のセリフの言い回しが異なる。"
+caveat: "ラベルの後の括弧にコスチューム名があるボイスは、ルーシーがそのコスチュームを着ているときだけ流れる。"
 lastVerified: 2026-11-24
 aliases:
   - "Lucy profile"
@@ -10,15 +10,13 @@ aliases:
   - "露西 档案"
   - "루시 프로필"
 sources:
-  - title: "re1999-data-global、グローバル版クライアント 111.0.1077：character_data.json、character_voice.json、skin.json（収録する項目）"
+  - title: "re1999-data-global、グローバル版クライアント 111.0.1077：character_data.json、character_voice.json、skin.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/tree/7308a19ec644c60fd539034c9815cfaa23237dda/data/json
   - title: "re1999-data-global、グローバル版クライアント 111.0.1077：英語、日本語、韓国語、繁体字中国語のテキスト。テキストの権利は Bluepoch に帰属"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/tree/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language
   - title: "re1999-data、中国本土版クライアント 113.0.1422：同じテーブルの簡体字中国語テキスト"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
 ---
-リバース：1999 の[ルーシー](/ja/arcanists/lucy/)の資料。グローバル版クライアントの日本語のまま。
-
 ## 表紙
 
 意識覚醒者の芸術作品。19世紀20年代末から今に至るまで、計181年間展示された。展示開始日は12月30日、冬。展示場所：グレートブリテン及びアイルランド連合王国のロンドンにて初公開され、後にラプラス計算科学研究センターで活躍した。

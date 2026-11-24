@@ -1,6 +1,6 @@
 ---
 title: "Release dates"
-description: "Reverse: 1999 arcanists by release date on the mainland China and global services, and the days between."
+description: "Most Reverse: 1999 arcanists reach the global service 78 to 209 days after the mainland China service."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
 caveat: "The global service has brought arcanists between 0 and 209 days after the mainland service; an arcanist out only on the mainland service has no global date until one is announced."
 lastVerified: 2026-11-23
@@ -21,6 +21,8 @@ sources:
   - title: "re1999-data, mainland client 113.0.1422: character.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/blob/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json/character.json
 ---
+## Days between the services
+
 Of the 130 arcanists out on both services, 5 came to the global service on the same day as the mainland service: [Alexios](/arcanists/alexios/), [Ezio Auditore](/arcanists/ezio-auditore/), [Kassandra](/arcanists/kassandra/), [NORA](/arcanists/nora/), [The Twins](/arcanists/the-twins/). The others came 78 to 209 days later, 140 days at the median; for those released on the mainland since 2025-06-01, the median is 84 days.
 
 ## Out only on the mainland service
@@ -33,7 +35,7 @@ Of the 130 arcanists out on both services, 5 came to the global service on the s
 | [Drake](/arcanists/drake/) (德雷克) | 6 stars | Beast | Mental | version 4.0 |
 | [Glyndŵr](/arcanists/glyndwr/) (格林杜尔) | 4 stars | Beast | Reality | version 4.0 |
 
-## All arcanists, newest first
+## Release dates of every arcanist
 
 | Arcanist | Rarity | Mainland release | Global release | Days later |
 | --- | --- | --- | --- | --- |

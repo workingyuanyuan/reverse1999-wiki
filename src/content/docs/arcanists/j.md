@@ -32,36 +32,37 @@ sources:
 | Psychubes recommended in game | [The Unbearable Lightness](/psychubes/the-unbearable-lightness/), [Family Mentor](/psychubes/family-mentor/), [Blasphemer of Night](/psychubes/blasphemer-of-night/) |
 | Mainland release | 2024-06-27 |
 | Global release | 2024-11-21 |
-
-J burns enemies and himself at once: every Burn stack his attacks inflict, he also gains, and his ATK rises with his own stacks. His mass counter shields the whole team and answers each hit on a shielded ally with [Tempering], and his Ultimate copies his Burn stacks onto every enemy.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/j/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Hardness Testing (single-target attack) | 180% Reality DMG | 270% | 450% |
-| Heat Treating (mass counter) | all allies Shield of 100% of J's ATK, 2 rounds | 150% | 250% |
+### Hardness Testing
 
-- **Hardness Testing** puts 2 stacks of [Burn] on the target at every rank and gives all allies DMG Dealt +1% for each Burn stack on J, for 2 rounds.
-- **Heat Treating** adds 3% to the Shield multiplier for each Burn stack on J. While an ally holds this Shield, each attack on that ally makes J riposte with Tempering.
+**Rank 1**: 1-target attack. Deals 180% Reality DMG. Inflicts 2 stacks of \[Burn\] on the target hit; for every stack of \[Burn\] on self, grant all allies DMG Dealt +1% for 2 rounds.
 
-[Tempering]: a riposte on all enemies for 30% Reality DMG, plus 10% for every 10% of HP J has lost; each target hit gets 2 stacks of Burn.
+**Rank 2**: 1-target attack. Deals 270% Reality DMG. Inflicts 2 stacks of \[Burn\] on the target hit; for every stack of \[Burn\] on self, grant all allies DMG Dealt +1% for 2 rounds.
+
+**Rank 3**: 1-target attack. Deals 450% Reality DMG. Inflicts 2 stacks of \[Burn\] on the target hit; for every stack of \[Burn\] on self, grant all allies DMG Dealt +1% for 2 rounds.
+
+### Heat Treating
+
+**Rank 1**: Mass counter. Grants all allies a \[Shield\] with (J's ATK x100%) HP for 2 rounds, with each stack of \[Burn\] on self granting an additional 3% Shield Multiplier. After an ally holding a Shield is attacked, J ripostes with \[Tempering\].
+
+**Rank 2**: Mass counter. Grants all allies a \[Shield\] with (J's ATK x150%) HP for 2 rounds, with each stack of \[Burn\] on self granting an additional 3% Shield Multiplier. After an ally holding a Shield is attacked, J ripostes with \[Tempering\].
+
+**Rank 3**: Mass counter. Grants all allies a \[Shield\] with (J's ATK x250%) HP for 2 rounds, with each stack of \[Burn\] on self granting an additional 3% Shield Multiplier. After an ally holding a Shield is attacked, J ripostes with \[Tempering\].
 
 ## Ultimate: Over the Haight Street!
 
-Before the hit, every enemy receives as many Burn stacks as J holds; then he deals 350% Reality DMG to all enemies. J gains no Burn from this attack. For each Burn stack beyond the main target's limit, the attack deals 10% more Reality DMG.
-
-- [Burn]: Healing Taken −15%; at the end of the round, Genesis DMG based on 4% of the holder's ATK. Stacks up to 30 and counts as one Neg Status; half the stacks are removed each time it deals damage.
-- [Shield]: absorbs damage while it lasts.
-- [Freeze]: the target cannot act; a Mental DMG attack ends it. [Cold]: at 2 stacks it becomes Freeze or extends a Freeze by 1 round.
+Mass attack. Deals 350% Reality DMG to all enemies. Right before attacking, inflict \[Burn\] on the targets equal to the number of \[Burn\] stacks on self. J does not gain \[Burn\] stacks from this attack, and for every excess \[Burn\] stack on the main target, this attack deals an additional 10% Reality DMG.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | When attacking, J gains ATK +0.5% per Burn stack on himself, and his own Burn deals its damage to him without losing stacks. Each time his attack inflicts Burn, he gains the same number of stacks. His own Burn deals 50% less damage to him and cannot take him below 15% HP. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | J's Burn limit rises to 35 stacks, and while he has Burn he is immune to Freeze and Cold. At the start of a round below 50% HP, he dispels his own Stats Down and Neg Status effects other than Burn and gains Critical Rate +20% for 1 round. |
+**Insight 1 · Bodily Furnace**: When attacking, gain an ATK percentage equal to 0.5x the number of \[Burn\] stacks on self, and resolve own \[Burn\] to deal damage to self while retaining the number of stacks. Every time after J's attack successfully inflicts \[Burn\], J grants the same number of \[Burn\] stacks to self. Take 50% less damage from resolving own \[Burn\] stacks, and never fall below 15% HP this way.
+
+**Insight 2 · Bodily Furnace II**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · Bodily Furnace III**: J's \[Burn\] stack limit is increased to 35, and becomes immune to \[Freeze\] and \[Cold\] while in the \[Burn\] status. At the start of the round, if J is below 50% HP, dispel all non-Burn \[Stats Down\] and \[Neg Status\] from self, then grant Critical Rate +20% to self for 1 round.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -71,27 +72,61 @@ Before the hit, every enemy receives as many Burn stacks as J holds; then he dea
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Tempering deals 40%, plus 15% for every 10% of HP lost. |
-| 2 | The Insight I ATK bonus becomes 1% per Burn stack. |
-| 3 | J's Burn limit rises to 45 stacks. |
-| 4 | The Ultimate deals 450%, plus 15% for each excess Burn stack. |
-| 5 | The Insight I ATK bonus becomes 1.5% per Burn stack. |
+**Portrait 1**: **Heat Treating**: \[Tempering\] now deals 40% Reality DMG. For every 10% Missing HP on self, now deals an additional 15% Reality DMG.
+
+**Portrait 2**: **Bodily Furnace**: Now gain an ATK percentage equal to 1.0x the number of \[Burn\] stacks on self.
+
+**Portrait 3**: **Bodily Furnace**: The \[Burn\] stack limit on self is increased to 45 stacks.
+
+**Portrait 4**: **Over the Haight Street!**: Reality DMG is increased 450%. For every excess \[Burn\] stack on the main target, this attack now deals an additional 15% Reality DMG.
+
+**Portrait 5**: **Bodily Furnace**: Now gain an ATK percentage equal to 1.5x the number of \[Burn\] stacks on self.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. J has one Epiphany of four levels.
+**Epiphany 1, level 1**: **Bodily Furnace** Effects Enhanced:
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | The Insight I ATK bonus is doubled. J still gains Burn equal to what he inflicts even beyond a target's limit, he is immune to Burn DMG, and his Burn no longer loses stacks when it deals damage. The Insight III passive now works by his Burn stacks at the start of each round, each step adding to the last: at 10 or more, all allies gain DMG Taken Reduction +1% per stack for 1 round; at 20 or more, J clears his Neg Status effects other than Burn and one kind of Stats Down or Control, and every other ally loses one kind of Neg Status, Stats Down or Control; at 30 or more, all allies gain Riposte DMG Bonus +1% per stack for 1 round. |
-| 1 | 2 | Hardness Testing no longer buffs the team; it deals extra Reality DMG equal to 100% of its base, inflicts 6 stacks of Burn and counts as a riposte. |
-| 1 | 3 | The Ultimate deals extra Reality DMG equal to 100% of its base, and its bonus per excess Burn stack becomes 500% of the original (50% instead of 10%). After the hit, all allies gain DMG Dealt +2.5% per Burn stack on J for 3 rounds (the global client's English text names DMG Bonus here). The Ultimate no longer counts toward the team's Incantation Limit. |
-| 1 | 4 | Heat Treating's base Shield multiplier becomes 150% of the original and +5% per Burn stack; a Shield on an ally that already has one adds to it, up to 600% of J's ATK. Tempering deals 300% Reality DMG plus 5% per Burn stack on J instead of the HP-lost bonus. After Tempering, J gains 1 Moxie, all allies gain a Shield of 90% of his ATK (+2% per Burn stack; stacks on an existing Shield up to 600% of his ATK), and every ally's Shield lasts 3 rounds; the Shield and Moxie parts work at most twice a round. |
+When attacking, now gains an additional ATK +(base ATK bonus x100%).
+
+\[Bodily Furnace\] Effects Changed:
+
+After successfully inflicting \[Burn\] when attacking, gains the same number of \[Burn\] stacks (triggers even when inflicting excess stacks). Immune to \[Burn\] DMG. J's \[Burn\] stacks do not decrease when resolved.
+
+\[Bodily Furnace III\] Effects Changed:
+
+At the start of the round, triggers the following effects based on the number of J's \[Burn\] stacks (different effects can be gained multiple times):
+
+At 10 stacks of \[Burn\] or above, grants DMG Taken Reduction +1% per stack of \[Burn\] to all allies for 1 round.
+
+At 20 stacks of \[Burn\] or above, dispels all non-\[Burn\] \[Neg Status\] effects and 1 type of \[Stats Down\] or \[Control\] effect from J, and also dispels 1 type of \[Neg Status\], \[Stats Down\], or \[Control\] effect from all other allies.
+
+At 30 stacks of \[Burn\] or above, grants Riposte DMG Bonus +1% per stack of \[Burn\] to all allies for 1 round.
+
+**Epiphany 1, level 2**: **Hardness Testing** no longer grants DMG Dealt bonus to all allies, but it now deals an additional (base Reality DMG x100%) Reality DMG, inflicts 6 stacks of \[Burn\], and counts as a riposte.
+
+**Epiphany 1, level 3**: **Over the Haight Street!** now deals an additional (base Reality DMG x100%) Reality DMG. For each excess stack of \[Burn\] on the main target, this attack now deals an additional (base additional Reality DMG x500%) Reality DMG. After attacking, for each stack of \[Burn\] on J, grants DMG Bonus +2.5% to all allies for 3 rounds.
+
+**Over the Haight Street!** does not take up the allied Incantation Limit.
+
+**Epiphany 1, level 4**: **Heat Treating** now grants a Shield with (base Shield Multiplier x150%) HP; for each stack of \[Burn\] on J, Shield Multiplier +5%. If a target is already holding a Shield, the value of this Shield is stacked on top of that target's existing Shield, up to a maximum Shield value of (J's ATK x600%) HP.
+
+\[Tempering\] now deals an additional (base Reality DMG x900%) Reality DMG and no longer deals more Reality DMG based on J's Missing HP. Instead, it now deals an additional (base additional Reality DMG from Missing HP x50%) Reality DMG for each stack of \[Burn\] on J. After attacking, gains Moxie +1 and grants a Shield with (J's ATK x90%) HP to all allies; for each stack of \[Burn\] on J, Shield Multiplier +2%. If a target is already holding a Shield, the value of this Shield is stacked on top of that target's existing Shield, up to a maximum Shield value of (J's ATK x600%) HP. Extends the duration of each ally's \[Shield\] to 3 rounds. J can gain Moxie and grant Shields this way up to 2 times per round.
+
+## Statuses
+
+- **Burn**: Healing Taken -15% (unstackable). At the end of the round, takes (the holder's ATK x4%) Genesis DMG (stackable up to 30 times, multiple stacks of Burn is regarded as 1 \[Neg Status\], removes 50% of the stacks when triggered).
+- **Shield**: Blocks certain DMG for a certain duration.
+- **Tempering**: Mass attack. Deals 30% Reality DMG to all enemies. Inflicts 2 stacks of \[Burn\] on the targets hit. For every 10% Missing HP on self, deals an additional 10% Reality DMG.
+- **Freeze**: Cannot act. Dispels the effect after taking Mental DMG attack.
+- **Cold**: When there are 2 stacks, turns into Freeze status or extends the duration of existing Freeze status for 1 round.
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | J | J | J | J | J |
+
+## Edition differences
+
+- Epiphany 1, level 3: the bonus that Over the Haight Street! gives all allies per Burn stack is DMG Dealt in the Chinese texts and DMG Bonus in the global client's English text.

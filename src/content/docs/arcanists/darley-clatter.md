@@ -37,28 +37,35 @@ sources:
 | Psychubes recommended in game | [Her Second Life](/psychubes/her-second-life/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Darley Clatter is one of the launch 3-star arcanists. His Ultimate feeds the rest of the team Moxie and DMG Bonus, his second incantation heals the ally with the lowest HP, and his first Insight passive refills his Moxie once when an attack leaves him below half HP.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/darley-clatter/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Clatter Trample (single-target attack) | 160% Mental DMG | 240% | 400% |
-| Commanding Aura (single-target attack and heal) | 150% Mental DMG; heals 40% of his ATK | 225%; 60% | 375%; 100% |
+### Clatter Trample
 
-Clatter Trample has Penetration Rate +30% at every rank. Commanding Aura heals the ally with the lowest HP.
+**Rank 1**: 1-target attack. Deals 160% Mental DMG. This attack gains Penetration Rate +30%.
+
+**Rank 2**: 1-target attack. Deals 240% Mental DMG. This attack gains Penetration Rate +30%.
+
+**Rank 3**: 1-target attack. Deals 400% Mental DMG. This attack gains Penetration Rate +30%.
+
+### Commanding Aura
+
+**Rank 1**: 1-target attack. Deals 150% Mental DMG. HP +(the caster's ATK ×40%) for the ally with the lowest HP.
+
+**Rank 2**: 1-target attack. Deals 225% Mental DMG. HP +(the caster's ATK ×60%) for the ally with the lowest HP.
+
+**Rank 3**: 1-target attack. Deals 375% Mental DMG. HP +(the caster's ATK ×100%) for the ally with the lowest HP.
 
 ## Ultimate: Great Inspirer
 
-The other allies gain 1 Moxie and DMG Bonus +30% for 3 rounds, and Darley Clatter recovers 15% of his missing HP.
+Mass buff. Grants Moxie +1 for other allies; grants DMG Bonus +30% for other allies for 3 rounds. Recovers (Missing HP x15%) HP for self.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | When an attack leaves Darley Clatter below 50% HP, he gains 3 Moxie, at most once. |
-| 2 | DMG Heal +10% on entering battle. |
+**Insight 1 · Glory Restored**: If the caster's HP goes below 50% after being attacked, Moxie +3 (only triggers 1 time).
+
+**Insight 2 · Glory Restored Ⅱ**: DMG Heal +10% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -67,13 +74,15 @@ The other allies gain 1 Moxie and DMG Bonus +30% for 3 rounds, and Darley Clatte
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate gives the other allies 2 Moxie. |
-| 2 | Clatter Trample has Penetration Rate +40%. |
-| 3 | The Ultimate's buff becomes +35%. |
-| 4 | Commanding Aura heals 56, 84 or 140% of his ATK by rank. |
-| 5 | The Ultimate heals him for 25% of his missing HP. |
+**Portrait 1**: **Great Inspirer**'s effect changes to: Moxie +2 for other allies.
+
+**Portrait 2**: **Clatter Trample**'s effect changes to: Penetration Rate +40%.
+
+**Portrait 3**: **Great Inspirer**'s effect changes to: DMG Dealt +35% for all allies.
+
+**Portrait 4**: **Commanding Aura**'s effect changes to: at 1/2/3 stars, HP +(the caster's ATK ×56/84/140%) for the ally with the lowest HP percentage.
+
+**Portrait 5**: **Great Inspirer**'s effect changes to: After casting, recovers (Missing HP x25%) HP for self.
 
 ## Names
 

@@ -37,38 +37,37 @@ sources:
 | Psychubes recommended in game | [Never-Ending Q&A](/psychubes/never-ending-q-a/), [Luxurious Leisure](/psychubes/luxurious-leisure/) |
 | Mainland release | 2025-04-10 |
 | Global release | 2025-07-03 |
-
-Hissabeth works with a fixed pool of eight snakes. Snake's Den stacks on her become Hiss! cards, Hiss! puts Serpentine Scales on an enemy, and each Scales stack returns to her as Snake's Den after it deals its end-of-round Genesis DMG. Hiss! cards count as Ultimates and cost no action point, so Ultimate Might raises most of her damage.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/hissabeth/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Ouroboros (attack on 2 enemies) | 120% Mental DMG; +60% against Serpentine Scales | 180%; +100% | 300%; +150% |
-| Infinite Recursion (self buff) | spends 2 Snake's Den for 2 Hiss! | 3 for 3 | 4 for 4 |
+### Ouroboros
 
-- **Infinite Recursion** hands out its rank 1 Hiss! cards at the end of the round. With too few Snake's Den, Hissabeth gains 1, 2 or 3 Moxie by rank.
-- **Hiss!**: a single-target attack of 50, 100 or 250% Mental DMG by its rank that inflicts 1, 2 or 4 stacks of [Serpentine Scales] and gives Hissabeth 0, 1 or 2 Moxie. Casting it counts as her own action (a Sovereign Incantation).
+**Rank 1**: Mass attack. Deals 120% Mental DMG to 2 enemies, and deals an additional 60% Mental DMG to targets holding the \[Serpentine Scales\] status.
+
+**Rank 2**: Mass attack. Deals 180% Mental DMG to 2 enemies, and deals an additional 100% Mental DMG to targets holding the \[Serpentine Scales\] status.
+
+**Rank 3**: Mass attack. Deals 300% Mental DMG to 2 enemies, and deals an additional 150% Mental DMG to targets holding the \[Serpentine Scales\] status.
+
+### Infinite Recursion
+
+**Rank 1**: Self buff. Consume 2 stacks of \[Snake's Den\]. At the end of the round, generate two copies of rank 1 \[Hiss!\] that do not take up the allied Incantation Limit; if there aren't enough stacks of \[Snake's Den\], gain 1 additional Moxie.
+
+**Rank 2**: Self buff. Consume 3 stacks of \[Snake's Den\]. At the end of the round, generate three copies of rank 1 \[Hiss!\] that do not take up the allied Incantation Limit; if there aren't enough stacks of \[Snake's Den\], gain 2 additional Moxie.
+
+**Rank 3**: Self buff. Consume 4 stacks of \[Snake's Den\]. At the end of the round, generate four copies of rank 1 \[Hiss!\] that do not take up the allied Incantation Limit; if there aren't enough stacks of \[Snake's Den\], gain 3 additional Moxie.
 
 ## Ultimate: Experimental Rocketry
 
-Deals 500% Mental DMG to all enemies. On the targets hit, each Serpentine Scales stack deals 70% instead of 20% at the end of that round; then all Serpentine Scales are taken back as the same number of rank 1 Hiss! cards.
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Serpentine Scales | At the end of the round, the holder takes Genesis DMG equal to (50% + 20% per stack) of Hissabeth's ATK; it can crit and gains from Ultimate Might. Each trigger removes 1 stack, which returns to Hissabeth as 1 Snake's Den. If the holder leaves the field, the stacks move to the holder's ally with the highest ATK. Up to 8 stacks; cannot be dispelled. |
-| Snake's Den | Up to 8 stacks; cannot be dispelled. At the start of each round, her stacks are set so that Snake's Den, Serpentine Scales and Hiss! cards on the field add up to 8. |
-| Rigidity | At 2 stacks it becomes Petrify, or adds 1 round to an existing Petrify. |
+Mass Attack. Deals 500% Mental DMG to all enemies; on hitting a target, the Genesis DMG taken by that target at the end of this round from each stack of \[Serpentine Scales\] is increased from 20% to 70%, and at the end of the round, convert all \[Serpentine Scales\] into an equivalent number of copies of rank 1 \[Hiss!\].
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Hissabeth starts the battle with 8 Snake's Den. At the start of a round, if she has any, she spends 1 for a rank 1 Hiss!, once per round. Hiss! and her Ultimate do not count toward the team's incantation limit. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | Attacking an enemy with Serpentine Scales inflicts [Rigidity] and gives her 1 more Moxie, once per round. |
+**Insight 1 · Eternally Inquisitive**: When entering battle, gain 8 stacks of \[Snake's Den\]. At the start of the round, if holding at least 1 stack of \[Snake's Den\] on self, consume 1 stack of \[Snake's Den\] and generate a copy of rank 1 \[Hiss!\]; this effect can trigger up to 1 time per round. \[Hiss!\] and this unit's ultimates do not take up the allied Incantation Limit.
+
+**Insight 2 · Eternally Inquisitive**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · Eternally Inquisitive**: When attacking an enemy that's holding \[Serpentine Scales\], Hissabeth inflicts \[Rigidity\] on the target and gains 1 additional Moxie (triggers up to 1 time per round).
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -78,27 +77,47 @@ Deals 500% Mental DMG to all enemies. On the targets hit, each Serpentine Scales
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Insight 1 Hiss! can come twice per round; Hiss! deals 75, 150 or 375% by rank. |
-| 2 | The Insight 3 effect can trigger twice per round. |
-| 3 | After the Ultimate, each Serpentine Scales stack deals 100% that round. |
-| 4 | The Ultimate deals 750%. |
-| 5 | After the Ultimate, each Serpentine Scales stack deals 130% that round. |
+**Portrait 1**: **Eternally Inquisitive**: At the start of the round, if holding at least 1 stack of \[Snake's Den\] on self, consume 1 stack of \[Snake's Den\] and generate a copy of rank 1 \[Hiss!\]; this effect can now trigger up to 2 times per round. \[Hiss!\]'s Mental DMG is increased to 75%/150%/375%.
+
+**Portrait 2**: **Eternally Inquisitive**: When attacking an enemy that's holding \[Serpentine Scales\], Hissabeth inflicts \[Rigidity\] on the enemy and gains 1 additional Moxie; this effect can now trigger up to 2 times per round.
+
+**Portrait 3**: After casting **Experimental Rocketry**, the Genesis DMG taken from each stack of \[Serpentine Scales\] resolved at the end of the same round is increased to 100%.
+
+**Portrait 4**: **Experimental Rocketry**'s effect changes to: deals 750% Mental DMG.
+
+**Portrait 5**: After casting **Experimental Rocketry**, the Genesis DMG taken from each stack of \[Serpentine Scales\] resolved at the end of the same round is increased to 130%.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Hissabeth has one Epiphany of four levels.
+**Epiphany 1, level 1**: **Eternally Inquisitive** Effects Enhanced: At the start of the round, if holding at least 1 stack of \[Snake's Den\], gains Moxie +1, consumes 1 stack of \[Snake's Den\], and generates a copy of \[Hiss!\].
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | The Insight 1 Hiss! at the start of a round also gives her 1 Moxie. |
-| 1 | 2 | Ouroboros then inflicts 1 random effect from [Collection of Debuffs] on all enemies; Infinite Recursion gives all allies [Stream of Consciousness] for 3 rounds; the Insight 3 effect also inflicts 2 random effects from Collection of Debuffs for 2 rounds. |
-| 1 | 3 | Hiss! deals 100% more of its base Mental DMG and draws on an extra 30, 60 or 100% of Ultimate Might by rank. |
-| 1 | 4 | The Ultimate deals 20% more of its base Mental DMG for each type of Neg Status on the target, counting up to 10; with 5 or more types it gains Penetration Rate +20% and draws on an extra 60% of Ultimate Might. |
+**Epiphany 1, level 2**: **Ouroboros** New Effects Added: After attacking, inflicts 1 random effect from \[Collection of Debuffs\] on all enemies.
 
-- [Collection of Debuffs]: Blind, Mis-aim, Fracture I, Confusion, Gash and Pollution; an effect the target lacks comes first.
-- [Stream of Consciousness]: Ultimate Might +30%, and +3% more for each type of Neg Status on the target, up to 30%.
+**Infinite Recursion** New Effects Added: After casting, grants \[Stream of Consciousness\] to all allies for 3 rounds.
+
+**Eternally Inquisitive** Effects Enhanced: When attacking an enemy that's holding \[Serpentine Scales\], after Hissabeth gains Moxie and inflicts \[Rigidity\] on the target, she additionally inflicts 2 random effects from \[Collection of Debuffs\] on the target for 2 rounds.
+
+**Epiphany 1, level 3**: \[Hiss!\] now deals an additional (base Mental DMG x100%) Mental DMG and benefits from Ultimate Might at a +30%/60%/100% rate at rank 1/2/3.
+
+**Epiphany 1, level 4**: **Experimental Rocketry** now deals an additional (base Mental DMG x20%) Mental DMG for each type of \[Neg Status\] on the targets (counting up to 10 types); if there are at least 5 types, this attack gains Penetration Rate +20% and benefits from Ultimate Might at a +60% rate.
+
+## Statuses
+
+- **Serpentine Scales**: At the end of the round, take ((50% + (number of stacks x 20)%) x Hissabeth's ATK) Genesis DMG. This effect can critically hit and benefits from Ultimate Might bonuses. After each trigger of this effect, 1 stack of Serpentine Scales is converted into 1 stack of \[Snake's Den\] and granted to Hissabeth. When the holder of this status dies, the remaining stacks of \[Serpentine Scales\] are transferred onto the ally with the highest ATK. This status can stack up to 8 times and is undispellable.
+- **Snake's Den**: A place where the siblings nestle. This status can stack up to 8 times and is undispellable. At the start of the round, this unit adjusts the stacks of \[Snake's Den\] on self so that the combined total of \[Snake's Den\], \[Serpentine Scales\], and \[Hiss!\] on the field equals 8.
+- **Hiss!**: 1-target attack. Deals 50%/100%/250% Mental DMG. Inflicts 1/2/4 stacks of \[Serpentine Scales\] and gains Moxie +0/1/2. This effect counts as an Ultimate and does not consume AP.
+
+  This incantation is a \[Sovereign Incantation\].
+- **Rigidity**: When there are 2 stacks, turns into Petrify status or extends the duration of existing Petrify status for 1 round.
+- **Collection of Debuffs**: There are 6 effects: \[Blind\], \[Mis-aim\], \[Fracture I\], \[Confusion\], \[Gash\], and \[Pollution\]. Prioritizes effects not yet applied.
+- **Stream of Consciousness**: Ultimate Might +30%. When attacking, for each type of \[Neg Status\] on the target, gains an additional Ultimate Might +3%, up to 30%.
+- **Sovereign Incantation**: Casting this incantation counts as the character actively taking an action.
+- **Blind**: DMG Bonus -30% when attacking 1 target.
+- **Mis-aim**: DMG Bonus -30% when attacking multiple targets.
+- **Fracture I**: When attacked, takes additional (the user's ATK x20%) Genesis DMG.
+- **Confusion**: Critical Resist -25% (stackable, each stack timed independently).
+- **Gash**: When attacked, take additional (own ATK x20%) Genesis DMG.
+- **Pollution**: After taking action, takes (the user's ATK x20%) Genesis DMG (stackable).
 
 ## Names
 

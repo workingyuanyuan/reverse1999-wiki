@@ -1,6 +1,6 @@
 ---
 title: "His Bounden Duty"
-description: "His Bounden Duty is a 6-star ATK and Heal Psychube that heals the carrier for each enemy it defeats."
+description: "His Bounden Duty is a 6-star ATK and Heal Psychube that heals its carrier."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
 caveat: "The healing comes only from enemies the carrier itself defeats, once per enemy, and goes to the carrier alone."
 lastVerified: 2026-11-23
@@ -41,7 +41,15 @@ sources:
 
 ## Effect
 
-Each time the carrier defeats an enemy, it recovers HP equal to 60/75/90/105/120% of its ATK (Amplification 1 to 5).
+**Amplification 1**: For each enemy target defeated by the carrier, HP +(the carrier's ATK x60%).
+
+**Amplification 2**: For each enemy target defeated by the carrier, HP +(the carrier's ATK x75%).
+
+**Amplification 3**: For each enemy target defeated by the carrier, HP +(the carrier's ATK x90%).
+
+**Amplification 4**: For each enemy target defeated by the carrier, HP +(the carrier's ATK x105%).
+
+**Amplification 5**: For each enemy target defeated by the carrier, HP +(the carrier's ATK x120%).
 
 ## Names
 

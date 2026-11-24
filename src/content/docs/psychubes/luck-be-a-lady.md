@@ -1,6 +1,6 @@
 ---
 title: "Luck Be a Lady"
-description: "Luck Be a Lady is a 5-star ATK Psychube that grants Ultimate Might by the rank of the attacking incantation."
+description: "Luck Be a Lady is a 5-star ATK Psychube set off by the incantations its carrier attacks with."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
 caveat: "The bonus is Ultimate Might, not Incantation Might, and its size depends on the rank of the incantation the carrier attacks with."
 lastVerified: 2026-11-23
@@ -39,11 +39,15 @@ sources:
 
 ## Effect
 
-When the carrier attacks with an incantation, it gains Ultimate Might by the incantation's rank (Amplification 1 to 5):
+**Amplification 1**: When the carrier attacks with a rank 1/2/3 incantation, Ultimate Might +8%/12%/18%.
 
-- rank 1: +8/10/12/14/16%
-- rank 2: +12/15/18/21/24%
-- rank 3: +18/22.5/27/31.5/36%
+**Amplification 2**: When the carrier attacks with a rank 1/2/3 incantation, Ultimate Might +10%/15%/22.5%.
+
+**Amplification 3**: When the carrier attacks with a rank 1/2/3 incantation, Ultimate Might +12%/18%/27%.
+
+**Amplification 4**: When the carrier attacks with a rank 1/2/3 incantation, Ultimate Might +14%/21%/31.5%.
+
+**Amplification 5**: When the carrier attacks with a rank 1/2/3 incantation, Ultimate Might +16%/24%/36%.
 
 ## Names
 

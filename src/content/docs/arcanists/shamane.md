@@ -2,7 +2,7 @@
 title: "Shamane"
 description: "Shamane is a 6-star Beast arcanist who deals Reality DMG, weakens all enemies and refills his own Moxie."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
-caveat: "Shamane's second Epiphany is out only on the mainland China service, and its English status names are translations, not official ones."
+caveat: "Shamane's second Epiphany is out only on the mainland China service."
 lastVerified: 2026-11-22
 aliases:
   - "鬃毛沙礫"
@@ -37,31 +37,37 @@ sources:
 | Psychubes recommended in game | [The Carat of a Heart](/psychubes/the-carat-of-a-heart/), [Brave New World](/psychubes/brave-new-world/), [Another Story](/psychubes/another-story/) |
 | Mainland release | 2023-09-07 |
 | Global release | in the global client |
-
-Shamane is a damage dealer who also lowers the enemy's defences. Spirit Medium raises the damage all enemies take, his attacks deal more for each kind of Stats Down on the target, and stacks of [Nature's Blessing] give Moxie back after each Ultimate. His first Epiphany passes Moxie to allies; the second replaces Moxie with Vein Points that he collects by moving along the line.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/shamane/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Apprentice's Dance (single-target attack) | 200% Reality DMG | 250%; Nature's Blessing 1 stack | 450%; Nature's Blessing 1 stack |
-| Spirit Medium (mass debuff) | DMG Taken +10%; 2 rounds | +20%; 2 rounds | +30%; 3 rounds |
+### Apprentice's Dance
 
-Spirit Medium also lowers Reality DEF and Mental DEF of all enemies by 15% at every rank, for the same number of rounds.
+**Rank 1**: 1-target attack. Deals 200% Reality DMG.
 
-[Nature's Blessing]: after Shamane casts his Ultimate, up to 5 stacks are spent (all of them if he has fewer) and he gains that much Moxie.
+**Rank 2**: 1-target attack. Deals 250% Reality DMG and gains 1 stack of \[Nature's Blessing\].
+
+**Rank 3**: 1-target attack. Deals 450% Reality DMG and gains 1 stack of \[Nature's Blessing\].
+
+### Spirit Medium
+
+**Rank 1**: Mass debuff. DMG Taken +10% and Reality DEF and Mental DEF -15% for all enemies for 2 rounds.
+
+**Rank 2**: Mass debuff. DMG Taken +20% and Reality DEF and Mental DEF -15% for all enemies for 2 rounds.
+
+**Rank 3**: Mass debuff. DMG Taken +30% and Reality DEF and Mental DEF -15% for all enemies for 3 rounds.
 
 ## Ultimate: Edict of Atman
 
-Deals 250% Reality DMG to all enemies and 250% Reality DMG more to the main target. Against the main target the attack has Critical Rate +20%, and Critical Rate above the cap turns into Critical DMG.
+Mass attack. Deals 250% Reality DMG to all enemies. This attack enjoys Critical Rate +20% (excess Critical Rate is converted to Critical DMG) and deals an additional 250% Reality DMG to the main target.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | DMG Dealt +8% for each kind of Stats Down on the target, at most +24%. Gains 2 stacks of Nature's Blessing on entering battle. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | Gains 1 stack of Nature's Blessing at the start of every second round. |
+**Insight 1 · Inheritance of Wisdom**: For each type of \[Stats Down\] status on the target, the attack enjoys DMG Dealt +8% (max: +24%). When entering battle, gains 2 stacks of \[Nature's Blessing\].
+
+**Insight 2 · Inheritance of Wisdom**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · Inheritance of Wisdom**: At the start of every 2 rounds, gains 1 stack of \[Nature's Blessing\].
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -71,36 +77,38 @@ Deals 250% Reality DMG to all enemies and 250% Reality DMG more to the main targ
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Insight 1 passive gives 5 stacks of Nature's Blessing on entering battle. |
-| 2 | The Ultimate's Critical Rate bonus on the main target becomes +60%. |
-| 3 | Apprentice's Dance deals 220, 280 or 500% by rank. |
-| 4 | The Ultimate deals 300% to all enemies. |
-| 5 | The Ultimate's Critical Rate bonus on the main target becomes +100%. |
+**Portrait 1**: **Inheritance of Wisdom**'s effect changes to: when entering battle, gains 3 additional stacks of \[Nature's Blessing\].
+
+**Portrait 2**: **Edict of Atman**'s effect changes to: Critical Rate to main target +60%.
+
+**Portrait 3**: **Apprentice's Dance**'s effect changes to: at 1/2/3 stars, deals 220/280/500% Reality DMG.
+
+**Portrait 4**: **Edict of Atman**'s effect changes to: deals 300% Reality DMG to all enemies.
+
+**Portrait 5**: **Edict of Atman**'s effect changes to: Critical Rate to main target +100%.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Shamane has two Epiphanies of four levels each; the second is out only on the mainland China service.
+**Epiphany 1, level 1**: After another ally casts an ultimate, gain 2 stacks of \[Rippling Energy\] for self.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | After another ally casts an Ultimate, Shamane gains 2 stacks of [Rippling Energy]. |
-| 1 | 2 | After his own Ultimate he spends all his stacks of Rippling Energy; every 2 stacks spent give a random ally 1 Moxie. |
-| 1 | 3 | An ally who gains Moxie from Rippling Energy also gains 5 stacks of [Ceremonious]. |
-| 1 | 4 | He gains 1 more stack of Rippling Energy after another ally's Ultimate, and 2 stacks just before casting his own. |
-| 2 | 1 | The Insight 1 passive gains: Moxie is replaced by [Vein Points]; he no longer gains the Ultimate, and casts it on his own at the end of a round in which he holds 6 or more Vein Points. At the start of each round, 1 point of [Vein: Clear Sight] appears at a random position other than his, at most 4 points per position. Nature's Blessing gives Vein Points instead of Moxie. The Ultimate spends all his Vein Points after the attack; Apprentice's Dance moves him 1 position forward after the attack, and Spirit Medium 1 position back after it is cast. |
-| 2 | 2 | Apprentice's Dance adds Reality DMG equal to 100% of its base Reality DMG, and gives 1 stack of Nature's Blessing at rank 1 as well. Spirit Medium adds DMG Taken +80% for all enemies, and its effects last 3 rounds at ranks 1 and 2 too. |
-| 2 | 3 | The Insight 3 passive gains: on entering battle, the ally in position 1 gets 2 more maximum Vein Points, all allies gain 2 Vein Points, and Shamane 3 more. The Ultimate adds Reality DMG equal to 700% of its base Reality DMG to all enemies and 1750% Reality DMG to the main target; after it, the ally in position 1 steps back one place at a time to the last position. |
-| 2 | 4 | The Ultimate deals 800% Reality DMG more to the main target for each Vein Point Shamane holds, and no longer raises its own Critical Rate or turns the excess into Critical DMG; instead, before the attack, all allies gain [Fertile Soil] for 3 rounds. After the attack, every other ally gains 1 Vein Point. |
+**Epiphany 1, level 2**: After casting an ultimate, consume all stacks of \[Rippling Energy\] if able; for every 2 stacks consumed, grant Moxie +1 to a random ally.
 
-- **Rippling Energy**: Ultimate Might +5%, up to 10 stacks; it cannot be dispelled.
-- **Ceremonious**: Ultimate Might +3%, up to 100 stacks; it cannot be dispelled and ends when its holder casts an Ultimate.
-- **Vein: Clear Sight**: Shamane's own vein. When he stands on its position and his Vein Points are not full, he picks up as much as he can, 1 point per pickup.
-- **Fertile Soil**: Critical Rate up by the bonus the Ultimate used to give the main target (+20%, +60% from Portrait 2, +100% from Portrait 5); Critical Rate above the cap turns into Critical DMG at 100% when its holder deals damage.
+**Epiphany 1, level 3**: Whenever consuming \[Rippling Energy\] to restore Moxie +1 for an ally, grant 5 additional stacks of \[Ceremonious\] to the target.
+
+**Epiphany 1, level 4**: After another ally casts an ultimate, gain an additional stack of \[Rippling Energy\] for self; right before casting an ultimate, gain 2 stacks of \[Rippling Energy\] for self.
+
+## Statuses
+
+- **Nature's Blessing**: After casting the Ultimate, spend up to 5 stacks of this status (spend all stacks if less than 5) and gain an equal number of Moxie.
+- **Rippling Energy**: Ultimate Might +5% (stacks up to 10 times, undispellable).
+- **Ceremonious**: Ultimate Might +3% (up to 100 stacks, undispellable, disappears after casting an Ultimate).
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | Shamane | 鬃毛沙砾 | 鬃毛沙礫 | シャーマィン | 갈기 모래 |
+
+## Edition differences
+
+- Shamane's Epiphany 2 is out only on the mainland China service.

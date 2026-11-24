@@ -41,7 +41,15 @@ sources:
 
 ## Effect
 
-When the carrier attacks a target that has 2 or more [Neg Status], it gets DMG Dealt +12/15/18/21/24% (Amplification 1 to 5).
+**Amplification 1**: When the carrier attacks, if the target has 2 or more \[Neg Status\], DMG Dealt +12%.
+
+**Amplification 2**: When the carrier attacks, if the target has 2 or more \[Neg Status\], DMG Dealt +15%.
+
+**Amplification 3**: When the carrier attacks, if the target has 2 or more \[Neg Status\], DMG Dealt +18%.
+
+**Amplification 4**: When the carrier attacks, if the target has 2 or more \[Neg Status\], DMG Dealt +21%.
+
+**Amplification 5**: When the carrier attacks, if the target has 2 or more \[Neg Status\], DMG Dealt +24%.
 
 ## Names
 

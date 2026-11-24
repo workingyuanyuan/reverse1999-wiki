@@ -32,34 +32,35 @@ sources:
 | Psychubes recommended in game | [Long Night Talk](/psychubes/long-night-talk/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-TTT is one of the launch 4-star arcanists. Both of her incantations hit a single enemy: Cyber Defense strips every Counter from its target, and Electricity Security always carries a Penetration Rate bonus. Her Ultimate hits all enemies and puts [Disconcert] on them, so they cannot build Moxie for 2 rounds.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/ttt/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Cyber Defense (single-target attack) | 200% Mental DMG | 250%; dispels all [Counter] | 450%; dispels all [Counter] |
-| Electricity Security (single-target attack) | 160% Mental DMG | 240% | 400% |
+### Cyber Defense
 
-Electricity Security has Penetration Rate +30% at every rank.
+**Rank 1**: 1-target attack. Deals 200% Mental DMG.
 
-[Counter]: a lasting status whose effect triggers when its holder is attacked.
+**Rank 2**: 1-target attack. Deals 250% Mental DMG and dispels all \[Counter\] from the target.
+
+**Rank 3**: 1-target attack. Deals 450% Mental DMG and dispels all \[Counter\] from the target.
+
+### Electricity Security
+
+**Rank 1**: 1-target attack. Deals 160% Mental DMG. This attack gains Penetration Rate +30%.
+
+**Rank 2**: 1-target attack. Deals 240% Mental DMG. This attack gains Penetration Rate +30%.
+
+**Rank 3**: 1-target attack. Deals 400% Mental DMG. This attack gains Penetration Rate +30%.
 
 ## Ultimate: Unplug It, Now!
 
-Deals 200% Mental DMG to all enemies and puts [Disconcert] on each target hit for 2 rounds.
-
-[Disconcert]: the holder cannot gain Moxie.
-
-[Concealment]: dodges Reality DMG from any attack that is not an Ultimate.
+Mass attack. Deals 200% Mental DMG to all enemies. Inflicts the \[Disconcert\] status for 2 rounds on the targets hit.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | At the start of a round, if TTT's HP is below 50%, she enters [Concealment] for 2 rounds; this happens at most once. |
-| 2 | ATK +5% on entering battle. |
+**Insight 1 · Privacy Policy**: At the start of the round, if the user's HP is below 50%, enters the \[Concealment\] status for 2 rounds (only triggers 1 time).
+
+**Insight 2 · Privacy Policy Ⅱ**: ATK +5% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -68,13 +69,21 @@ Deals 200% Mental DMG to all enemies and puts [Disconcert] on each target hit fo
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 225%. |
-| 2 | Cyber Defense deals 220, 280 or 500% by rank. |
-| 3 | The Ultimate deals 275%. |
-| 4 | Electricity Security has Penetration Rate +40%. |
-| 5 | The Ultimate deals 300%. |
+**Portrait 1**: **Unplug It, Now!**'s effect changes to: deals 225% Mental DMG.
+
+**Portrait 2**: **Cyber Defense**'s effect changes to: at 1/2/3 stars, deals 220/280/500% Mental DMG.
+
+**Portrait 3**: **Unplug It, Now!**'s effect changes to: deals 275% Mental DMG.
+
+**Portrait 4**: **Electricity Security**'s effect changes to: this attack enjoys Penetration Rate +40%.
+
+**Portrait 5**: **Unplug It, Now!**'s effect changes to: deals 300% Mental DMG.
+
+## Statuses
+
+- **Counter**: Grants continuous Counter. Effect is triggered When the caster is attacked.
+- **Disconcert**: Cannot gain Moxie.
+- **Concealment**: Dodges Reality DMG dealt by non-Ultimate attacks.
 
 ## Names
 

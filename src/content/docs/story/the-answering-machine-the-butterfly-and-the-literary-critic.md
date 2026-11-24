@@ -1,6 +1,6 @@
 ---
 title: "The Answering Machine, the Butterfly, and the Literary Critic"
-description: "The Answering Machine, the Butterfly, and the Literary Critic: Reverse: 1999 story text."
+description: "The Answering Machine, the Butterfly, and the Literary Critic: Reverse: 1999 Character stories I."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global, global client 111.0.1077: chapter.json and episode.json (stage codes, in-game dates)"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-The Answering Machine, the Butterfly, and the Literary Critic is part of the Character stories I of Reverse: 1999, in 13 stages.
-
 ## Stages
 
 | Stage | Name | In-game time | Trails |

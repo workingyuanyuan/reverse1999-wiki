@@ -37,44 +37,53 @@ sources:
 | Psychubes recommended in game | [Drown Out the Hustle](/psychubes/drown-out-the-hustle/) |
 | Mainland release | 2026-03-26 |
 | Global release | 2026-06-18 |
-
-Ramona gathers Exorcist-for-Hire stacks. At the start of each round she spends them to rewrite that many allied incantations with Possessed, and each rewritten card an ally casts makes her fire Marigold Method, a follow-up attack on all enemies that adds Poison and Spirit Repellent. Spirit Repellent makes Poison settle extra times, and her Ultimate turns the Poison on each enemy into Expellant, which grows every round and bursts when it ends.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/ramona/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Purifying Incense (attack on 2 enemies) | 180% Mental DMG | 270% | 450% |
-| Ghost-Be-Gone (single-target attack) | 200% Mental DMG; Poison settles once at 100% | 300%; 125% | 500%; 160% |
+### Purifying Incense
 
-- Both incantations put 1 instance of [Poison] on each target for 2 rounds, dealing Genesis DMG equal to 40% of Ramona's ATK at the end of each round.
-- **Purifying Incense** gives Ramona 1 stack of [Exorcist-for-Hire] after the attack.
-- **Ghost-Be-Gone** settles 1 round of the target's Poison at once, at the share of its normal damage in the table; this does not shorten the Poison.
+**Rank 1**: Mass attack. Deals 180% Mental DMG to 2 enemies and inflicts 1 instance of \[Poison\] on the targets for 2 rounds: at the end of the round, deals (the user's ATK x40%) Genesis DMG.
+
+After attacking, gains 1 stack of \[Exorcist-for-Hire\].
+
+**Rank 2**: Mass attack. Deals 270% Mental DMG to 2 enemies and inflicts 1 instance of \[Poison\] on the targets for 2 rounds: at the end of the round, deals (the user's ATK x40%) Genesis DMG.
+
+After attacking, gains 1 stack of \[Exorcist-for-Hire\].
+
+**Rank 3**: Mass attack. Deals 450% Mental DMG to 2 enemies and inflicts 1 instance of \[Poison\] on the targets for 2 rounds: at the end of the round, deals (the user's ATK x40%) Genesis DMG.
+
+After attacking, gains 1 stack of \[Exorcist-for-Hire\].
+
+### Ghost-Be-Gone
+
+**Rank 1**: 1-target attack. Deals 200% Mental DMG and inflicts 1 instance of \[Poison\] on the target for 2 rounds: at the end of the round, deals (the user's ATK x40%) Genesis DMG. Immediately resolves 1 round of \[Poison\] effects on the target, dealing 100% of their original DMG; the remaining rounds of Poison do not decrease when resolved this way.
+
+**Rank 2**: 1-target attack. Deals 300% Mental DMG and inflicts 1 instance of \[Poison\] on the target for 2 rounds: at the end of the round, deals (the user's ATK x40%) Genesis DMG. Immediately resolves 1 round of \[Poison\] effects on the target, dealing 125% of their original DMG; the remaining rounds of Poison do not decrease when resolved this way.
+
+**Rank 3**: 1-target attack. Deals 500% Mental DMG and inflicts 1 instance of \[Poison\] on the target for 2 rounds: at the end of the round, deals (the user's ATK x40%) Genesis DMG. Immediately resolves 1 round of \[Poison\] effects on the target, dealing 160% of their original DMG; the remaining rounds of Poison do not decrease when resolved this way.
 
 ## Ultimate: For the Peace of Both Worlds
 
-Deals 500% Mental DMG to all enemies and turns up to 6 instances of Poison on each target into 1 instance of [Expellant] for 2 rounds. Afterwards Ramona gains [Efficient Exorcist] for 2 rounds.
+Mass attack. Deals 500% Mental DMG to all enemies and transforms up to 6 instances of Poison on each target into 1 instance of \[Expellant\], which lasts 2 rounds.
 
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Poison | At the end of the round, the holder takes Genesis DMG based on the caster's ATK; instances stack. |
-| Exorcist-for-Hire | Removed at the start of the round to set off Ramona's Precognition; at most 6 stacks. |
-| Possessed | Rewrites an incantation for 1 round. When an ally actively casts it, Ramona casts [Marigold Method] once. It does not combine with other rewrites. |
-| Marigold Method | A follow-up attack: 250% Mental DMG to all enemies, 1 instance of Poison (40% of ATK, 2 rounds), then 1 stack of [Spirit Repellent] on each target hit for 2 rounds. |
-| Spirit Repellent | At the end of the round, each stack makes the holder's Poison settle once more without shortening it; at most 6 stacks, each timed on its own. |
-| Expellant | Counts as Poison. At the end of the round, deals Genesis DMG equal to the number of Poison instances it absorbed × 50% of ATK, and 25% more for each round it has lasted. When its duration ends, it adds Genesis DMG equal to the rounds it lasted × 350% of ATK, counted as Poison DMG. |
-| Efficient Exorcist | At the start of each round, Ramona gains a rank 3 Ghost-Be-Gone as a precast incantation, rewritten with Possessed. Cannot be dispelled; gaining it again adds to its duration. |
+After attacking, gains \[Efficient Exorcist\] for 2 rounds.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 0 (Precognition) | At the start of the round, Ramona removes her Exorcist-for-Hire stacks and rewrites one allied incantation with Possessed for each stack removed, her own incantations first. Each actively cast Possessed incantation makes her cast Marigold Method once. |
-| 1 | At the start of each round, Ramona gains 1 stack of Exorcist-for-Hire. On entering battle, and whenever an enemy enters, she puts 2 instances of Poison (40% of ATK, 2 rounds) on the enemies. |
-| 2 | ATK +5% on entering battle. |
-| 3 | On entering battle, Ramona gains Moxie +2, and the first Marigold Method of each round gives her Moxie +1. For each enemy that leaves the field in a round, all enemies receive 1 stack of Spirit Repellent for 2 rounds at the start of the next round. |
+**Insight 0 · Precognition**: At the start of the round, Ramona removes all of her \[Exorcist-for-Hire\] stacks and rewrites an allied basic incantation with the \[Possessed\] effect for each stack removed (prioritizing Ramona's incantations).
+
+When an incantation rewritten with \[Possessed\] is actively cast, Ramona casts \[Marigold Method\] 1 time.
+
+**Insight 1 · Clear Shadow**: At the start of the round, Ramona gains 1 stack of \[Exorcist-for-Hire\].
+
+When entering battle/when an enemy enters battle, inflicts 2 instances of \[Poison\] on all enemies/the enemy for 2 rounds: at the end of the round, deals (the user's ATK x40%) Genesis DMG.
+
+**Insight 2 · Clear Shadow II**: ATK +5% when entering battle.
+
+**Insight 3 · Clear Shadow III**: When entering battle, Ramona gains Moxie +2. After Ramona casts \[Marigold Method\] for the first time each round, she gains Moxie +1.
+
+For each enemy target defeated within a single round, at the start of the next round, Ramona inflicts 1 stack of \[Spirit Repellent\] on all enemies for 2 rounds.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -84,13 +93,35 @@ Deals 500% Mental DMG to all enemies and turns up to 6 instances of Poison on ea
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Insight 3 gives Moxie +3 on entering battle; Marigold Method deals 400% and adds 2 instances of Poison and 2 stacks of Spirit Repellent. |
-| 2 | Expellant deals the absorbed Poison count × 75% of ATK, grows 35% per round and ends with the rounds lasted × 550% of ATK; Efficient Exorcist lasts 3 rounds. |
-| 3 | Purifying Incense and Ghost-Be-Gone put 2 instances of Poison; every Poison Ramona applies deals 50% of her ATK. |
-| 4 | Ghost-Be-Gone settles Poison at 140, 165 or 200% by rank; Expellant ends with the rounds lasted × 750% of ATK. |
-| 5 | Expellant deals the absorbed Poison count × 100% of ATK and grows 45% per round; Ramona gains 2 stacks of Exorcist-for-Hire each round; Spirit Repellent from Marigold Method stacks up to 8. |
+**Portrait 1**: **Precognition**: Ramona now gains Moxie +3 when entering battle. \[Marigold Method\] now deals 400% Mental DMG and inflicts 2 instances of \[Poison\] and 2 stacks of \[Spirit Repellent\].
+
+**Portrait 2**: **For the Peace of Both Worlds**: \[Expellant\] now deals (number of transformed \[Poison\] instances x the user's ATK x75%) Genesis DMG. \[Expellant\] now gains resolve DMG +35% for each round it has lasted, and it now deals (number of rounds lasted x the user's ATK x550%) Genesis DMG at the end of its duration.
+
+\[Efficient Exorcist\] now lasts 3 rounds.
+
+**Portrait 3**: **Purifying Incense** and **Ghost-Be-Gone** now inflict 2 instances of \[Poison\].
+
+All \[Poison\] inflicted by Ramona now deals (the user's ATK x50%) Genesis DMG.
+
+**Portrait 4**: When **Ghost-Be-Gone** resolves \[Poison\] at rank 1/2/3, each instance now deals 140%/165%/200% of its original DMG.
+
+**For the Peace of Both Worlds**: \[Expellant\] now deals (number of rounds lasted x the user's ATK x750%) Genesis DMG at the end of its duration.
+
+**Portrait 5**: **For the Peace of Both Worlds**: \[Expellant\] now deals (number of transformed \[Poison\] instances x the user's ATK x100%) Genesis DMG. \[Expellant\] now gains resolve DMG +45% for each round it has lasted.
+
+**Precognition**: At the start of the round, Ramona now gains 2 stacks of \[Exorcist-for-Hire\]. \[Spirit Repellent\] stack limit increased to 8.
+
+## Statuses
+
+- **Poison**: At the end of the round, takes Genesis DMG based on the user's ATK (stackable).
+- **Exorcist-for-Hire**: Removed at the start of the round to trigger special effects (stackable up to 6 times).
+- **Expellant**: Counts as a type of Poison. At the end of the round, takes (number of transformed \[Poison\] instances x the user's ATK x50%) Genesis DMG. For each round this instance of \[Expellant\] has lasted, resolve DMG +25%. At the end of its duration, deals an additional (number of rounds lasted x the user's ATK x350%) Genesis DMG (counts as Poison DMG).
+- **Efficient Exorcist**: At the start of the round, generates 1 rank 3 Precast Incantation - Ghost-Be-Gone rewritten with \[Possessed\] (undispellable, reapplying this status extends its duration).
+- **Possessed**: Rewrites the incantation's surface. When an ally actively casts an incantation rewritten with \[Possessed\], Ramona casts \[Marigold Method\] 1 time. \[Possessed\] lasts 1 round. (Does not stack with other effects that rewrite the incantation's surface.)
+- **Marigold Method**: Mass attack. Deals 250% Mental DMG to all enemies and inflicts 1 instance of \[Poison\] on the targets for 2 rounds: at the end of the round, deals (the user's ATK x40%) Genesis DMG. After attacking, inflicts 1 stack of \[Spirit Repellent\] on the targets hit for 2 rounds.
+
+  This attack counts as 1 follow-up attack.
+- **Spirit Repellent**: At the end of the round, each stack of \[Spirit Repellent\] resolves the target's \[Poison\] effects 1 additional time (the remaining rounds do not decrease when resolved this way; stackable up to 6 times, each stack timed independently).
 
 ## Names
 

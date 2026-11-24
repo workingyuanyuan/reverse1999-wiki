@@ -40,8 +40,15 @@ sources:
 
 ## Effect
 
-- A Star carrier gets Critical DMG +10/12.5/15/17.5/20% (Amplification 1 to 5).
-- After the carrier takes an extra action, it gets Genesis DMG Dealt +6/7.5/9/10.5/12%, up to 5 stacks.
+**Amplification 1**: When the carrier is a \[Star\] character, Critical DMG +10%. After taking an extra action, Genesis DMG Dealt +6%, stacks up to 5 times.
+
+**Amplification 2**: When the carrier is a \[Star\] character, Critical DMG +12.5%. After taking an extra action, Genesis DMG Dealt +7.5%, stacks up to 5 times.
+
+**Amplification 3**: When the carrier is a \[Star\] character, Critical DMG +15%. After taking an extra action, Genesis DMG Dealt +9%, stacks up to 5 times.
+
+**Amplification 4**: When the carrier is a \[Star\] character, Critical DMG +17.5%. After taking an extra action, Genesis DMG Dealt +10.5%, stacks up to 5 times.
+
+**Amplification 5**: When the carrier is a \[Star\] character, Critical DMG +20%. After taking an extra action, Genesis DMG Dealt +12%, stacks up to 5 times.
 
 ## Names
 

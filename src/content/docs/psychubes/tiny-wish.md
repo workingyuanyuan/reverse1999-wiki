@@ -40,10 +40,22 @@ sources:
 
 ## Effect
 
-In battle, Stress that any ally gains goes to the carrier instead. The first time the carrier triggers Focus or Meltdown, it always becomes Focus Behavior (the global client's English says the carrier triggers Focus Behavior as well); all allies then gain ATK +10/12.5/15/17.5/20% and DMG Taken -6/7.5/9/10.5/12% (Amplification 1 to 5), and Stress stops moving to the carrier.
+**Amplification 1**: In battle, when an ally gets an increase in Stress, that Stress is transferred to the carrier instead. When the carrier triggers Focus or Meltdown for the first time, the carrier will trigger their Focus Behavior as well, and all allies will gain ATK +10%, DMG Taken -6%, and Stress will no longer be transferred in this way.
+
+**Amplification 2**: In battle, when an ally gets an increase in Stress, that Stress is transferred to the carrier instead. When the carrier triggers Focus or Meltdown for the first time, the carrier will trigger their Focus Behavior as well, and all allies will gain ATK +12.5%, DMG Taken -7.5%, and Stress will no longer be transferred in this way.
+
+**Amplification 3**: In battle, when an ally gets an increase in Stress, that Stress is transferred to the carrier instead. When the carrier triggers Focus or Meltdown for the first time, the carrier will trigger their Focus Behavior as well, and all allies will gain ATK +15%, DMG Taken -9%, and Stress will no longer be transferred in this way.
+
+**Amplification 4**: In battle, when an ally gets an increase in Stress, that Stress is transferred to the carrier instead. When the carrier triggers Focus or Meltdown for the first time, the carrier will trigger their Focus Behavior as well, and all allies will gain ATK +17.5%, DMG Taken -10.5%, and Stress will no longer be transferred in this way.
+
+**Amplification 5**: In battle, when an ally gets an increase in Stress, that Stress is transferred to the carrier instead. When the carrier triggers Focus or Meltdown for the first time, the carrier will trigger their Focus Behavior as well, and all allies will gain ATK +20%, DMG Taken -12%, and Stress will no longer be transferred in this way.
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | Tiny Wish | 微渺的愿景 | 微渺的願景 | ささやかな願い | 미미한 청사진 |
+
+## Edition differences
+
+- The first time the carrier triggers Focus or Meltdown, the Chinese texts turn it into Focus Behavior; the global client's English text says the carrier triggers Focus Behavior as well.

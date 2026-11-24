@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- On entering battle, a Mineral carrier gains Healing Done +12/15/18/21/24% (Amplification 1 to 5).
-- Each time an ally takes damage, that ally gains Ultimate Might +2/2.5/3/3.5/4% at the end of the round, up to 6 stacks.
+**Amplification 1**: When entering battle, if the carrier's Afflatus is \[Mineral\], gains Healing Done +12%.
+
+Whenever an ally takes DMG, they gain Ultimate Might +2% at the end of the round, up to 6 stacks.
+
+**Amplification 2**: When entering battle, if the carrier's Afflatus is \[Mineral\], gains Healing Done +15%.
+
+Whenever an ally takes DMG, they gain Ultimate Might +2.5% at the end of the round, up to 6 stacks.
+
+**Amplification 3**: When entering battle, if the carrier's Afflatus is \[Mineral\], gains Healing Done +18%.
+
+Whenever an ally takes DMG, they gain Ultimate Might +3% at the end of the round, up to 6 stacks.
+
+**Amplification 4**: When entering battle, if the carrier's Afflatus is \[Mineral\], gains Healing Done +21%.
+
+Whenever an ally takes DMG, they gain Ultimate Might +3.5% at the end of the round, up to 6 stacks.
+
+**Amplification 5**: When entering battle, if the carrier's Afflatus is \[Mineral\], gains Healing Done +24%.
+
+Whenever an ally takes DMG, they gain Ultimate Might +4% at the end of the round, up to 6 stacks.
 
 ## Names
 

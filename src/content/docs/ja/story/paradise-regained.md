@@ -1,6 +1,6 @@
 ---
 title: "復楽園"
-description: "復楽園：リバース：1999 のメインストーリー、全25ステージ。ストーリー全文つき。"
+description: "復楽園：リバース：1999 のメインストーリー第10章、全25ステージ。"
 appliesTo: "リバース：1999、グローバル版クライアント 111.0.1077（バージョン 3.9）、日本語テキスト"
 caveat: "テキストはグローバル版の日本語。2バージョン先行する中国本土版では一部のセリフの言い回しが異なる。"
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global、グローバル版クライアント 111.0.1077：chapter.json と episode.json（ステージ番号、ゲーム内の時刻）"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-復楽園はリバース：1999 のメインストーリー第10TH章で、全25ステージ。物語は1991年3月30日 12:01に始まる。
-
 ## ステージ
 
 | ステージ | 名前 | ゲーム内の時刻 | 小径 |
@@ -49,7 +47,7 @@ sources:
 
 ## 登場する神秘学家
 
-[ソネット](/ja/arcanists/sonetto/)、[ノーティカ](/ja/arcanists/nautika/)、[ミス・ラジオ](/ja/arcanists/ms-radio/)、[ウルリッヒ](/ja/arcanists/ulrich/)、[モルダー](/ja/arcanists/moldir/)、[37](/ja/arcanists/37/)、[ストレンジャー](/ja/arcanists/ms-stranger/)、シュナイダー、[6](/ja/arcanists/6/)、[もぐナッツ](/ja/arcanists/buddy-fairchild/)
+[ソネット](/ja/arcanists/sonetto/)、[ノーティカ](/ja/arcanists/nautika/)、[ミス・ラジオ](/ja/arcanists/ms-radio/)、[ウルリッヒ](/ja/arcanists/ulrich/)、[モルダー](/ja/arcanists/moldir/)、[37](/ja/arcanists/37/)、[ストレンジャー](/ja/arcanists/ms-stranger/)、[シュナイダー](/ja/arcanists/schneider/)、[6](/ja/arcanists/6/)、[もぐナッツ](/ja/arcanists/buddy-fairchild/)
 
 ## 名前
 

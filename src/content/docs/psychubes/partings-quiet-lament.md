@@ -39,8 +39,25 @@ sources:
 
 ## Effect
 
-- After a Plant carrier casts a rank 3 incantation, all allies gain Incantation Might +6/7.5/9/10.5/12% (Amplification 1 to 5) for 3 rounds.
-- After a Beast carrier casts its Ultimate, all allies gain Ultimate Might +6/7.5/9/10.5/12% for 3 rounds.
+**Amplification 1**: If the carrier is a \[Plant\] character, after they cast a rank 3 incantation, all allies gain Incantation Might +6% for 3 rounds.
+
+If the carrier is a \[Beast\] character, after they cast an Ultimate, all allies gain Ultimate Might +6% for 3 rounds.
+
+**Amplification 2**: If the carrier is a \[Plant\] character, after they cast a rank 3 incantation, all allies gain Incantation Might +7.5% for 3 rounds.
+
+If the carrier is a \[Beast\] character, after they cast an Ultimate, all allies gain Ultimate Might +7.5% for 3 rounds.
+
+**Amplification 3**: If the carrier is a \[Plant\] character, after they cast a rank 3 incantation, all allies gain Incantation Might +9% for 3 rounds.
+
+If the carrier is a \[Beast\] character, after they cast an Ultimate, all allies gain Ultimate Might +9% for 3 rounds.
+
+**Amplification 4**: If the carrier is a \[Plant\] character, after they cast a rank 3 incantation, all allies gain Incantation Might +10.5% for 3 rounds.
+
+If the carrier is a \[Beast\] character, after they cast an Ultimate, all allies gain Ultimate Might +10.5% for 3 rounds.
+
+**Amplification 5**: If the carrier is a \[Plant\] character, after they cast a rank 3 incantation, all allies gain Incantation Might +12% for 3 rounds.
+
+If the carrier is a \[Beast\] character, after they cast an Ultimate, all allies gain Ultimate Might +12% for 3 rounds.
 
 ## Names
 

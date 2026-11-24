@@ -1,6 +1,6 @@
 ---
 title: "Brave New World"
-description: "Brave New World is a 6-star ATK Psychube that raises Incantation Might of the incantation after an Ultimate."
+description: "Brave New World is a 6-star ATK Psychube that raises Incantation Might."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
 caveat: "The bonus applies only to the next incantation the carrier casts after its Ultimate, not to later ones."
 lastVerified: 2026-11-23
@@ -41,7 +41,15 @@ sources:
 
 ## Effect
 
-After the carrier casts its Ultimate, its next incantation gets Incantation Might +20/25/30/35/40% (Amplification 1 to 5).
+**Amplification 1**: After the carrier casts an Ultimate, Incantation Might of the next incantation +20%.
+
+**Amplification 2**: After the carrier casts an Ultimate, Incantation Might of the next incantation +25%.
+
+**Amplification 3**: After the carrier casts the Ultimate, +30% Incantation Might to the next basic Incantation.
+
+**Amplification 4**: After the carrier casts an Ultimate, Incantation Might of the next incantation +35%.
+
+**Amplification 5**: After the carrier casts an Ultimate, Incantation Might of the next incantation +40%.
 
 ## Names
 

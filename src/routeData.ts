@@ -1,6 +1,6 @@
 import { defineRouteMiddleware } from '@astrojs/starlight/route-data';
 import { getCollection } from 'astro:content';
-import { SITE, BASE, LOCALES, pageId, localeOf, idInLocale, htmlPath, mdPath, isoDate, isStoryText } from './lib/site.mjs';
+import { SITE, BASE, LOCALES, pageId, localeOf, idInLocale, htmlPath, mdPath, isoDate, isStoryText, isProfile, bareId } from './lib/site.mjs';
 
 /** Ids of every page that exists, in every language (`index`, `zh-tw`, `ja/arcanists/sonetto`). */
 const existing = new Set((await getCollection('docs', (doc) => !doc.data.draft)).map((doc) => doc.id));
@@ -36,10 +36,17 @@ function pruneSidebar(entries: SidebarEntry[]): SidebarEntry[] {
 export const onRequest = defineRouteMiddleware((context) => {
 	const route = context.locals.starlightRoute;
 	route.sidebar = pruneSidebar(route.sidebar as SidebarEntry[]) as typeof route.sidebar;
-	// Chapter and stage pages of the story (about 7,500) keep the Story group whole and only the
-	// first link of every other group, which the header's section links use: the whole sidebar
-	// (about 60 KB of HTML) on each of them would take the site past the size GitHub Pages serves.
-	if (isStoryText(pageId(route.entry.id))) {
+	// Chapter and stage pages of the story (about 7,500) keep the Story group whole, and profile
+	// pages (670) the Afflatus group of their arcanist; every other group keeps only its first
+	// link, which the header's section links use. The whole sidebar (about 60 KB of HTML) on each
+	// of them would take the site past the size GitHub Pages serves.
+	const pid = pageId(route.entry.id);
+	const keep = isStoryText(pid)
+		? (g: SidebarEntry) => JSON.stringify(g).includes('/story/')
+		: isProfile(pid)
+			? (g: SidebarEntry) => JSON.stringify(g).includes(`/${bareId(pid).replace(/\/profile$/, '')}/"`)
+			: null;
+	if (keep) {
 		const first = (entries: SidebarEntry[]): SidebarEntry[] => {
 			for (const e of entries) {
 				if (e.type === 'link') return [e];
@@ -48,10 +55,15 @@ export const onRequest = defineRouteMiddleware((context) => {
 			}
 			return [];
 		};
-		const story = (g: SidebarEntry) => g.type === 'group' && JSON.stringify(g).includes('/story/');
-		route.sidebar = (route.sidebar as SidebarEntry[]).map((g) =>
-			g.type === 'group' && !story(g) ? { ...g, entries: first(g.entries) } : g
-		) as typeof route.sidebar;
+		// A kept group stays whole when its entries are links, and keeps only the kept groups
+		// among its groups whole (the Arcanists group: the arcanist's Afflatus).
+		const trim = (entries: SidebarEntry[]): SidebarEntry[] =>
+			entries.map((g) => {
+				if (g.type !== 'group') return g;
+				if (!keep(g)) return { ...g, entries: first(g.entries) };
+				return g.entries.some((e) => e.type === 'group') ? { ...g, entries: trim(g.entries) } : g;
+			});
+		route.sidebar = trim(route.sidebar as SidebarEntry[]) as typeof route.sidebar;
 	}
 
 	const { data } = route.entry;

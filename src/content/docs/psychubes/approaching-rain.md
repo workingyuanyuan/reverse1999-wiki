@@ -40,8 +40,15 @@ sources:
 
 ## Effect
 
-- After the carrier uses a 1-target counter Ultimate, it gets DMG Heal +10/10/20/20/20% for 2 rounds (Amplification 1 to 5).
-- The carrier's Ripostes deal Genesis DMG +30/40/40/50/60%.
+**Amplification 1**: Right after the carrier uses a 1-target counter ultimate, they get DMG Heal +10% for 2 rounds; the carrier's Ripostes deal Genesis DMG +30%.
+
+**Amplification 2**: Right after the carrier uses a 1-target counter ultimate, they get DMG Heal +10% for 2 rounds; the carrier's Ripostes deal Genesis DMG +40%.
+
+**Amplification 3**: Right after the carrier uses a 1-target counter ultimate, they get DMG Heal +20% for 2 rounds; the carrier's Ripostes deal Genesis DMG +40%.
+
+**Amplification 4**: Right after the carrier uses a 1-target counter ultimate, they get DMG Heal +20% for 2 rounds; the carrier's Ripostes deal Genesis DMG +50%.
+
+**Amplification 5**: Right after the carrier uses a 1-target counter ultimate, they get DMG Heal +20% for 2 rounds; the carrier's Ripostes deal Genesis DMG +60%.
 
 ## Names
 

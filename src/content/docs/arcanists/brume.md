@@ -37,54 +37,73 @@ sources:
 | Psychubes recommended in game | [Her Willful Leap](/psychubes/her-willful-leap/) |
 | Mainland release | 2025-11-20 |
 | Global release | 2026-02-12 |
-
-Brume builds stacks of Thermoelectric Conversion from her cards, her Ultimate and the Burn she spreads, then spends them in a one-round channel that ends in a volley of extra-action attacks. Her first incantation lets her choose between an attack and that channel; her second buffs the whole team. She also lays a Pulsing Field that the team fills with Dynamo, and that grows stronger in two steps.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/brume/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Left-Hand Steering, Improvised Detour (single-target attack) | 200% Mental DMG | 300% | 500% |
-| Left-Hand Steering, Calculated Path (self channel) | 10 stacks of Thermoelectric Conversion | 15 | 20 |
-| Testing Flame (team buff) | 10 stacks of Thermoelectric Conversion | 15 | 20 |
+### Left-Hand Steering
 
-- **Left-Hand Steering** is one card: when it is cast, Brume picks Improvised Detour or Calculated Path at the card's rank.
-- **Improvised Detour** gives Brume [Crystalline Discharge] for 3 rounds after the hit.
-- **Calculated Path** puts Brume into the channel [Prismatic Power] for 1 round.
-- **Testing Flame** gives all allies [Truth Tempered] for 2 rounds.
+**Rank 1 · Left-Hand Steering**: Choose 1 out of rank 1 \[Improvised Detour\] and \[Calculated Path\].
+
+**Rank 1 · Improvised Detour**: 1-target attack. Deals 200% Mental DMG. After attacking, gains \[Crystalline Discharge\] for 3 rounds.
+
+**Rank 1 · Calculated Path**: Self channel. Gains 10 stacks of \[Thermoelectric Conversion\]. Enters the \[Prismatic Power\] status for 1 round.
+
+**Rank 2 · Left-Hand Steering**: Choose 1 out of rank 2 \[Improvised Detour\] and \[Calculated Path\].
+
+**Rank 2 · Improvised Detour**: 1-target attack. Deals 300% Mental DMG. After attacking, gains \[Crystalline Discharge\] for 3 rounds.
+
+**Rank 2 · Calculated Path**: Self channel. Gains 15 stacks of \[Thermoelectric Conversion\]. Enters the \[Prismatic Power\] status for 1 round.
+
+**Rank 3 · Left-Hand Steering**: Choose 1 out of rank 3 \[Improvised Detour\] and \[Calculated Path\].
+
+**Rank 3 · Improvised Detour**: 1-target attack. Deals 500% Mental DMG. After attacking, gains \[Crystalline Discharge\] for 3 rounds.
+
+**Rank 3 · Calculated Path**: Self channel. Gains 20 stacks of \[Thermoelectric Conversion\]. Enters the \[Prismatic Power\] status for 1 round.
+
+### Testing Flame
+
+**Rank 1**: Mass buff. Gains 10 stacks of \[Thermoelectric Conversion\]. Grants \[Truth Tempered\] to all allies for 2 rounds.
+
+Whenever an ally with \[Truth Tempered\] attacks, inflict 2 stacks of \[Disguise Dissolved\] for 2 rounds on the target hit; if the attack is an extra action, inflict 2 additional stacks.
+
+**Rank 2**: Mass buff. Gains 15 stacks of \[Thermoelectric Conversion\]. Grants \[Truth Tempered\] to all allies for 2 rounds.
+
+Whenever an ally with \[Truth Tempered\] attacks, inflict 2 stacks of \[Disguise Dissolved\] for 2 rounds on the target hit; if the attack is an extra action, inflict 2 additional stacks.
+
+**Rank 3**: Mass buff. Gains 20 stacks of \[Thermoelectric Conversion\]. Grants \[Truth Tempered\] to all allies for 2 rounds.
+
+Whenever an ally with \[Truth Tempered\] attacks, inflict 2 stacks of \[Disguise Dissolved\] for 2 rounds on the target hit; if the attack is an extra action, inflict 2 additional stacks.
 
 ## Ultimate: Thrown Into Heroics
 
-Deals 750% Mental DMG to one enemy and gives Brume 10 stacks of Thermoelectric Conversion. Truth Tempered on every ally lasts 1 round longer. After the hit, the target receives 10 stacks of [Burn] and [Freeloader] for 1 round.
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Thermoelectric Conversion | Spent by channelling; cannot be dispelled. |
-| Prismatic Power | A channel. If Brume still holds it at the end of the round, she casts [Cost of the Roadside View] once and consumes as much Thermoelectric Conversion as she can: every 10 stacks add 100% Mental DMG to each Cost of the Roadside View, and every 20 stacks add one more cast. One channel consumes at most 60 stacks, for 2 extra casts and +200% on each. |
-| Cost of the Roadside View | 200% Mental DMG to one enemy and 3 stacks of Burn. It counts as an extra action, and Ultimate Might applies to it at 100%. |
-| End of the Ride | 600% Mental DMG to all enemies and 5 stacks of Burn. It counts as an extra action, and Ultimate Might applies to it at 100%. |
-| Crystalline Discharge | Cost of the Roadside View deals 100% more Mental DMG and End of the Ride 200% more; cannot be dispelled. |
-| Truth Tempered | DMG Bonus +20% and Incantation Might +10%; an ally who deals Mental DMG also gains Incantation Might +10% and Ultimate Might +40%. Each hit puts 2 stacks of [Disguise Dissolved] on the target for 2 rounds, 2 more when the hit is an extra action. |
-| Disguise Dissolved | Critical Resist Rate -1% and Critical DEF -3% per stack; up to 20 stacks, each with its own duration. |
-| Freeloader | Cost of the Roadside View targets the holder first. |
-| Burn | Healing Taken -15%, which does not stack. At the end of each round, Genesis DMG equal to 4% of the holder's ATK per stack, then half the stacks are removed; up to 30 stacks, counted as one Neg Status. |
-| Dynamo | Up to 30 stacks; cannot be dispelled. |
-| Pulsing Field | At the start of a round, it rises with the Dynamo put into it: Lv.2 at 50 or more, Lv.3 at 120 or more. The Dynamo inside is lost when the field ends. |
-| Pulsing Field Lv.1 | All allies gain DMG Bonus +15% for 3 rounds. |
-| Pulsing Field Lv.2 | All allies gain Incantation Might +25% and DMG Bonus +15% for 3 rounds. |
-| Pulsing Field Lv.3 | All allies gain Ultimate Might +35%, Incantation Might +25% and DMG Bonus +15% for 2 rounds. |
-| Amplified Surge | When Pulsing Field Lv.3 starts, Brume gains 20 stacks of Thermoelectric Conversion and her Crystalline Discharge lasts 1 round longer. Under Lv.3, Cost of the Roadside View deals 400% more Mental DMG. |
+1-target attack. Deals 750% Mental DMG. Gains 10 stacks of \[Thermoelectric Conversion\]. Increases the duration of \[Truth Tempered\] on allies by 1 round. After attacking, inflicts 10 stacks of \[Burn\] and inflicts \[Freeloader\] for 1 round.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 0 (Precognition) | Brume gains Amplified Surge, and 10 stacks of Dynamo on entering battle. At the start of a round with no Pulsing Field of any level, she lays Pulsing Field Lv.1. At the end of each round she gains 5 stacks of Dynamo and puts up to 15 into the field. Her Ultimate does not count toward the team's incantation draw limit. |
-| 1 | Brume gains 5 stacks of Thermoelectric Conversion at the start of each round, 5 for every 20 stacks of Dynamo the team puts into the field, and 2 for every 3 stacks of Burn put on enemies. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | Brume enters battle with Crystalline Discharge for 3 rounds. For every 15 stacks of Thermoelectric Conversion she gains, she also gains 5 stacks of Dynamo and 1 Moxie. When one Prismatic Power channel consumes at least 40 stacks, she casts End of the Ride once at its end; every 10 stacks beyond that add 200% Mental DMG, up to 400%. |
+**Insight 0 · Precognition**: Gains \[Amplified Surge\].
+
+When entering battle, gains 10 stacks of \[Dynamo\].
+
+At the start of the round, if not under a \[Pulsing Field\] of any level, deploy \[Pulsing Field Lv.1\].
+
+At the end of the round, gains 5 stacks of \[Dynamo\] and transfers up to 15 stacks of \[Dynamo\] into the \[Pulsing Field\].
+
+Ultimate does not take up the allied Incantation Draw Limit.
+
+**Insight 1 · The Unfated Hand**: At the start of the round, Brume gains 5 stacks of \[Thermoelectric Conversion\].
+
+For every 20 stacks of \[Dynamo\] the team transfers, Brume gains 5 stacks of \[Thermoelectric Conversion\].
+
+For every 3 stacks of Burn inflicted on enemies, Brume gains 2 stacks of \[Thermoelectric Conversion\].
+
+**Insight 2 · The Unfated Hand II**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · The Unfated Hand III**: When entering battle, Brume gains \[Crystalline Discharge\] for 3 rounds.
+
+For every 15 stacks of \[Thermoelectric Conversion\] gained, Brume gains 5 stacks of \[Dynamo\] and Moxie +1.
+
+If at least 40 stacks of \[Thermoelectric Conversion\] are consumed during one channel of \[Prismatic Power\], Brume casts \[End of the Ride\] one extra time; for every 10 excess stacks of \[Thermoelectric Conversion\] consumed, \[End of the Ride\] deals an additional 200% Mental DMG, up to 400%.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -94,13 +113,43 @@ Deals 750% Mental DMG to one enemy and gives Brume 10 stacks of Thermoelectric C
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Crystalline Discharge from Improvised Detour adds 120% and 250%. Calculated Path gives 15, 20 or 25 stacks by rank. Cost of the Roadside View deals 240%; Prismatic Power adds 120% per 10 stacks, consumes up to 80 stacks and allows up to 3 extra casts. Under Pulsing Field Lv.3, Amplified Surge makes Cost of the Roadside View deal 480% more. |
-| 2 | Testing Flame gives 15, 20 or 25 stacks by rank; Truth Tempered gives DMG Bonus +30% and Ultimate Might +50% to allies who deal Mental DMG. |
-| 3 | End of the Ride deals 800%, and the extra damage from consumed stacks rises to at most 800%. |
-| 4 | End of the Ride deals 1200% and takes Ultimate Might at 125%; each further 10 stacks add 250%, up to 1000%. |
-| 5 | Truth Tempered gives DMG Bonus +40% and Ultimate Might +60% to allies who deal Mental DMG. |
+**Portrait 1**: **Left-Hand Steering**
+
+\[Improvised Detour\]: The additional Mental DMG dealt by \[Cost of the Roadside View\]/\[End of the Ride\] from \[Crystalline Discharge\] is increased to 120%/250%.
+
+\[Calculated Path\]: At rank 1/2/3, the amount of \[Thermoelectric Conversion\] gained is increased to 15/20/25 stacks. \[Cost of the Roadside View\]'s Mental DMG dealt is increased to 240%. The additional Mental DMG dealt by one \[Cost of the Roadside View\] attack for every 10 stacks of \[Thermoelectric Conversion\] consumed by \[Prismatic Power\] is increased to 120%. The maximum amount of \[Thermoelectric Conversion\] consumed per channel is increased to 80 stacks. The maximum number of extra times \[Cost of the Roadside View\] can be cast is increased to 3.
+
+**Precognition**: When \[Amplified Surge\] is under \[Pulsing Field Lv.3\], the additional Mental DMG dealt by \[Cost of the Roadside View\] increased to 480%.
+
+**Portrait 2**: **Testing Flame**: At rank 1/2/3, the amount of \[Thermoelectric Conversion\] gained increased to 15/20/25 stacks. \[Truth Tempered\]'s DMG Bonus increased to 30%, and its additional Ultimate Might bonus for Mental DMG characters increased to 50%.
+
+**Portrait 3**: **Precognition**: \[End of the Ride\]'s Mental DMG dealt increased to 800%, and the maximum additional Mental DMG dealt gained by consuming \[Thermoelectric Conversion\] increased to 800%.
+
+**Portrait 4**: **Precognition**: \[End of the Ride\]'s Mental DMG dealt increased to 1200%, and its Ultimate Might enhancement increased to 125%. \[End of the Ride\]'s additional Mental DMG for every 10 stacks of \[Thermoelectric Conversion\] consumed increased to 250%, up to 1000%.
+
+**Portrait 5**: **Testing Flame**: \[Truth Tempered\]'s DMG Bonus increased to 40%, and its additional Ultimate Might Bonus for Mental DMG characters increased to 60%.
+
+## Statuses
+
+- **Crystalline Discharge**: \[Cost of the Roadside View\]/\[End of the Ride\] deals an additional 100%/200% Mental DMG (undispellable).
+- **Thermoelectric Conversion**: Consumed under a certain channel status (undispellable).
+- **Prismatic Power**: If still under this channel status at the end of the round, casts \[Cost of the Roadside View\] 1 time while consuming as many stacks of \[Thermoelectric Conversion\] as possible. For every 10 stacks consumed, the \[Cost of the Roadside View\] attack deals 100% additional Mental DMG; for every 20 stacks consumed, casts \[Cost of the Roadside View\] 1 extra time (up to 60 stacks of \[Thermoelectric Conversion\] can be consumed per channel; \[Cost of the Roadside View\] can cast up to 2 extra times, and each attack can deal up to 200% additional Mental DMG).
+- **Truth Tempered**: DMG Bonus +20%. Incantation Might +10% (additionally Incantation Might +10% and Ultimate Might +40% for Mental DMG characters).
+
+  After attacking, inflict 2 stacks of \[Disguise Dissolved\] on the target hit for 2 rounds. If the attack is an extra action, inflict 2 additional stacks.
+- **Disguise Dissolved**: Critical Resist Rate -1%, Critical DEF -3% (stackable up to 20 times, each stack timed independently).
+- **Burn**: Healing Taken -15% (unstackable). At the end of the round, takes (the holder's ATK x4%) Genesis DMG (stackable up to 30 times, multiple stacks of Burn is regarded as 1 \[Neg Status\], removes 50% of the stacks when triggered).
+- **Freeloader**: Prioritized as the target of \[Cost of the Roadside View\].
+- **Amplified Surge**: After activating \[Pulsing Field Lv.3\], gains 20 stacks of \[Thermoelectric Conversion\]; \[Crystalline Discharge\] lasts +1 round.
+
+  Under \[Pulsing Field Lv.3\], \[Cost of the Roadside View\] deals 400% additional Mental DMG.
+- **Dynamo**: A product of technology used for meticulous machinery (up to 30 stacks, undispellable).
+- **Pulsing Field**: At the start of the round, Pulsing Field upgrades based on the \[Dynamo\] transferred into it. At 50+, upgrades into \[Pulsing Field Lv.2\]. At 120+, upgrades into \[Pulsing Field Lv.3\]. When Pulsing Field disappears, all \[Dynamo\] transferred into it are also cleared.
+- **Pulsing Field Lv.1**: All allies gain DMG Bonus +15% for 3 rounds.
+- **End of the Ride**: Mass attack. Deals 600% Mental DMG to all enemies. This attack benefits from Ultimate Might at a 100% rate and counts as an extra action. Inflicts 5 stacks of \[Burn\] on the targets hit.
+- **Cost of the Roadside View**: 1-target attack. Deals 200% Mental DMG. This attack benefits from Ultimate Might at a 100% rate and counts as an extra action. Inflicts 3 stacks of \[Burn\] on the target hit.
+- **Pulsing Field Lv.3**: All allies gain Ultimate Might +35%, Incantation Might +25%, and DMG Bonus +15% for 2 rounds.
+- **Pulsing Field Lv.2**: All allies gain Incantation Might +25% and DMG Bonus +15% for 3 rounds.
 
 ## Names
 

@@ -36,34 +36,35 @@ sources:
 | Psychubes recommended in game | [Long Night Talk](/psychubes/long-night-talk/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Ms. Moissan covers the whole team with a Shield sized by her ATK, and her single-target attack strips Counter from its target from rank 2. She heals herself after every action, and her Ultimate freezes one enemy.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/ms-moissan/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Potter (single-target attack) | 200% Reality DMG | 250%; dispels all [Counter] | 450%; dispels all [Counter] |
-| Mentor (team shield) | [Shield] of 80% of her ATK | 120% | 200% |
+### Potter
 
-The Shield from Mentor lasts 2 rounds at every rank.
+**Rank 1**: 1-target attack. Deals 200% Reality DMG.
 
-[Counter]: a lasting status that triggers when its holder is attacked.
+**Rank 2**: 1-target attack. Deals 250% Reality DMG and dispels all \[Counter\] from the target.
 
-[Shield]: absorbs damage while it lasts.
+**Rank 3**: 1-target attack. Deals 450% Reality DMG and dispels all \[Counter\] from the target.
+
+### Mentor
+
+**Rank 1**: Mass buff. Gives all allies a \[Shield\] with (the caster's ATK ×80%) HP for 2 rounds.
+
+**Rank 2**: Mass buff. Gives all allies a \[Shield\] with (the caster's ATK ×120%) HP for 2 rounds.
+
+**Rank 3**: Mass buff. Gives all allies a \[Shield\] with (the caster's ATK ×200%) HP for 2 rounds.
 
 ## Ultimate: Unique Tools
 
-Deals 400% Reality DMG to one enemy and puts it in [Freeze] for 1 round.
-
-[Freeze]: the target cannot act; the effect ends when it takes a Mental DMG attack.
+1-target attack. Deals 400% Reality DMG. Inflicts \[Freeze\] for 1 round on the target hit.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | After each action, Ms. Moissan recovers HP equal to 40% of her ATK. |
-| 2 | Penetration Rate +10% on entering battle. |
+**Insight 1 · Duty**: After the caster takes action, HP +(the caster's ATK ×40%).
+
+**Insight 2 · Duty Ⅱ**: Penetration Rate +10% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -72,13 +73,21 @@ Deals 400% Reality DMG to one enemy and puts it in [Freeze] for 1 round.
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 450%. |
-| 2 | Potter deals 220, 280 or 500% by rank. |
-| 3 | The Ultimate deals 500%. |
-| 4 | Mentor's Shield equals 90, 135 or 225% of her ATK by rank. |
-| 5 | The Ultimate deals 550%. |
+**Portrait 1**: **Unique Tools**: The Reality DMG dealt is increased to 450%.
+
+**Portrait 2**: **Potter**'s effect changes to: at 1/2/3 stars, deals 220/280/500% Reality DMG.
+
+**Portrait 3**: **Unique Tools**: Reality DMG increased to 500%.
+
+**Portrait 4**: **Mentor**'s effect changes to: at 1/2/3 stars, grants a \[Shield\] with (the caster's ATK ×90/135/225%) HP on all allies.
+
+**Portrait 5**: **Unique Tools**: Reality DMG increased to 550%.
+
+## Statuses
+
+- **Counter**: Grants continuous Counter. Effect is triggered When the caster is attacked.
+- **Shield**: Blocks certain DMG for a certain duration.
+- **Freeze**: Cannot act. Dispels the effect after taking Mental DMG attack.
 
 ## Names
 

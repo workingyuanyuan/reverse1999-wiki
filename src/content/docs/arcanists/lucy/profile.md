@@ -1,8 +1,8 @@
 ---
 title: "Lucy profile"
-description: "Lucy's profile in Reverse: 1999: cover, items, stories, skins and voice lines in the game's text."
+description: "Lucy's profile in Reverse: 1999: 3 skins and 68 voice lines in the global client."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
-caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
+caveat: "A voice line with a skin name in brackets after its label plays only while Lucy wears that skin."
 lastVerified: 2026-11-24
 aliases:
   - "露西 檔案"
@@ -10,15 +10,13 @@ aliases:
   - "ルーシー プロフィール"
   - "루시 프로필"
 sources:
-  - title: "re1999-data-global, global client 111.0.1077: character_data.json, character_voice.json and skin.json (the entries)"
+  - title: "re1999-data-global, global client 111.0.1077: character_data.json, character_voice.json and skin.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/tree/7308a19ec644c60fd539034c9815cfaa23237dda/data/json
   - title: "re1999-data-global, global client 111.0.1077: text in English, Japanese, Korean and Traditional Chinese; the text belongs to Bluepoch"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/tree/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language
   - title: "re1999-data, mainland client 113.0.1422: the same tables with the Simplified Chinese text"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
 ---
-The file of [Lucy](/arcanists/lucy/) in Reverse: 1999 as the global client shows it, in English.
-
 ## Cover
 
 An awakened's work. Exhibited at the end of the 1820s, on display to this day—181 years in total. Completed in winter, on the 30th of December. Initially exhibited in the Greater London area of the United Kingdom of Great Britain and Northern Ireland, and later moved to the Laplace Scientific Computing Center.

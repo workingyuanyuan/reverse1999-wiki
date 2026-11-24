@@ -37,33 +37,35 @@ sources:
 | Psychubes recommended in game | [Balance, Please](/psychubes/balance-please/) |
 | Mainland release | 2026-07-23 |
 | Global release | 2026-07-23 |
-
-NORA keeps the cards that Precast effects make the team lose. She copies each one, holds it and gains Moxie, then hands it back one rank higher and marked with Preservation. Her own buff incantation makes Precast copies of her attack, and her Ultimate returns every stored card early and gives the team Pink Armory.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/nora/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Lasher (single-target attack) | 200% Reality DMG | 300%; Penetration Rate +15% | 500%; Penetration Rate +30% |
-| Insatiable Appetite (self buff) | 1 stack of Preparation · NORA I | Preparation · NORA II | Preparation · NORA III |
+### Lasher
 
-Each Preparation stack creates one Precast Lasher at the start of the next round, of rank 1, 2 or 3 by the Preparation's level; stacks add up.
+**Rank 1**: 1-target attack. Deals 200% Reality DMG.
 
-- [Preparation · NORA I], [Preparation · NORA II], [Preparation · NORA III]: at the start of the next round, generate a Precast Lasher of rank 1, 2 or 3.
-- [Preservation]: a rewrite of the card's surface; the card does not count toward the team's Incantation Draw Limit. It does not stack with other surface rewrites.
+**Rank 2**: 1-target attack. Deals 300% Reality DMG. This attack gains Penetration Rate +15%.
+
+**Rank 3**: 1-target attack. Deals 500% Reality DMG. This attack gains Penetration Rate +30%.
+
+### Insatiable Appetite
+
+**Rank 1**: Self buff. Gains 1 stack of \[Preparation · NORA I\].
+
+**Rank 2**: Self buff. Gains 1 stack of \[Preparation · NORA II\].
+
+**Rank 3**: Self buff. Gains 1 stack of \[Preparation · NORA III\].
 
 ## Ultimate: Obsessive Love
 
-Deals 550% Reality DMG to all enemies, then returns every stored incantation to the Spelldock at once and gives all allies [Pink Armory] for 2 rounds.
-
-[Pink Armory]: an incantation of rank 1, 2 or 3 gains Incantation Might +15, 20 or 30% and DMG Dealt +15, 20 or 30%.
+Mass attack. Deals 550% Reality DMG to all enemies. After attacking, returns all stored incantations to the Spelldock and grants \[Pink Armory\] to all allies for 2 rounds.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | When an ally loses an unused Precast incantation, NORA copies and stores it and gains 1 Moxie, at most twice per round. At the start of the 3rd round after storing, the copy returns to the Spelldock one rank higher with Preservation. She holds at most 4 cards. |
-| 2 | DMG Dealt +8% on entering battle. |
+**Insight 1 · The Best Repair Vendor**: Whenever an ally loses an unused Precast Incantation, NORA creates a duplicate of the incantation, stores it, and gains Moxie +1 (triggers up to 2 times per round). At the start of the 3rd round after an incantation is stored, the stored incantation returns to the Spelldock, gains rank +1, and is rewritten with the \[Preservation\] effect. Up to 4 incantations can be stored at a time.
+
+**Insight 2 · The Best Repair Vendor II**: DMG Dealt +8% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -72,13 +74,23 @@ Deals 550% Reality DMG to all enemies, then returns every stored incantation to 
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Lasher deals 240, 360 or 600% by rank. |
-| 2 | Pink Armory lasts 3 rounds. |
-| 3 | The Ultimate deals 700%. |
-| 4 | NORA stores up to 6 incantations. |
-| 5 | Pink Armory gives Incantation Might +20, 30 or 40% and DMG Dealt +20, 30 or 40% by rank. |
+**Portrait 1**: At rank 1/2/3, **Lasher** now deals 240%/360%/600% Reality DMG.
+
+**Portrait 2**: The duration of \[Pink Armory\] is extended to 3 rounds.
+
+**Portrait 3**: **Obsessive Love** now deals 700% Reality DMG.
+
+**Portrait 4**: **The Best Repair Vendor** can now preserve up to 6 incantations.
+
+**Portrait 5**: \[Pink Armory\]: When casting a rank 1/2/3 incantation, Incantation Might +20%/30%/40%, DMG Dealt +20%/30%/40%.
+
+## Statuses
+
+- **Preparation · NORA I**: At the start of the next round, generates a rank 1 Precast Incantation - Lasher (stackable).
+- **Preparation · NORA II**: At the start of the next round, generates a rank 2 Precast Incantation - Lasher (stackable).
+- **Preparation · NORA III**: At the start of the next round, generates a rank 3 Precast Incantation - Lasher (stackable).
+- **Pink Armory**: When casting a rank 1/2/3 incantation, Incantation Might +15%/20%/30%, DMG Dealt +15%/20%/30%.
+- **Preservation**: Rewrites the incantation's surface. The incantation does not take up the allied Incantation Draw Limit. (Does not stack with other effects that rewrite the incantation's surface.)
 
 ## Names
 

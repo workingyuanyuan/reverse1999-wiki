@@ -1,6 +1,6 @@
 ---
 title: "深い宇宙から"
-description: "深い宇宙から：リバース：1999 のその他のストーリー、全9ステージ。ストーリー全文つき。"
+description: "深い宇宙から：リバース：1999 のその他のストーリー、全9ステージ。"
 appliesTo: "リバース：1999、グローバル版クライアント 111.0.1077（バージョン 3.9）、日本語テキスト"
 caveat: "テキストはグローバル版の日本語。2バージョン先行する中国本土版では一部のセリフの言い回しが異なる。"
 lastVerified: 2026-11-23
@@ -14,8 +14,6 @@ sources:
   - title: "re1999-data-global、グローバル版クライアント 111.0.1077：chapter.json と episode.json（ステージ番号、ゲーム内の時刻）"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-深い宇宙からはリバース：1999 のその他のストーリーで、全9ステージ。
-
 ## ステージ
 
 | ステージ | 名前 | ゲーム内の時刻 | 小径 |

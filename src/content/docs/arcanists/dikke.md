@@ -36,32 +36,37 @@ sources:
 | Psychubes recommended in game | [Take the Hard Journey](/psychubes/take-the-hard-journey/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Dikke is a launch healer who also hits hard. Power and her Ultimate add Genesis DMG based on her ATK, Justice heals every ally and heals more those below half HP, and her Ultimate first clears her own debuffs and makes her immune to new ones for a round.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/dikke/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Power (single-target attack) | 200% Mental DMG | 200%, plus Genesis DMG equal to 50% of her ATK | 300%, plus 100% of her ATK |
-| Justice (mass heal) | all allies heal 60% of her ATK; 30% more below 50% HP | 90%; 45% more | 150%; 75% more |
+### Power
 
-Justice's extra heal goes to each ally whose HP is below 50%.
+**Rank 1**: 1-target attack. Deals 200% Mental DMG.
+
+**Rank 2**: 1-target attack. Deals 200% Mental DMG plus (the caster's ATK ×50%) Genesis DMG.
+
+**Rank 3**: 1-target attack. Deals 300% Mental DMG plus (the caster's ATK ×100%) Genesis DMG.
+
+### Justice
+
+**Rank 1**: Mass healing. Recovers (the user's ATK x60%) HP for all allies; if a target's HP is below 50%, additionally recovers (the user's ATK x30%) HP for the target.
+
+**Rank 2**: Mass healing. Recovers (the user's ATK x90%) HP for all allies. If a target's HP is below 50%, additionally recovers (the user's ATK x45%) HP for the target.
+
+**Rank 3**: Mass healing. Recovers (the user's ATK x150%) HP for all allies. If a target's HP is below 50%, additionally recovers (the user's ATK x75%) HP for the target.
 
 ## Ultimate: Maverick Judge
 
-Removes all Stats Down, Neg Status and Control effects from Dikke and gives her [Immunity] for 1 round, then deals 400% Mental DMG to one enemy plus Genesis DMG equal to 100% of her ATK.
-
-- [Immunity]: Stats Down, Neg Status and Control effects do not affect the holder.
-- [Control]: effects that stop a character acting: Daze, Petrify, Nightmare, Freeze, Disarm, Silence and Seal.
+1-target attack. Dispels all \[Stats Down\], \[Neg Status\], and \[Control\] effects from self and gains \[Immunity\] for 1 round. Deals 400% Mental DMG and an additional (ATK x100%) Genesis DMG to the target.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | ATK +15% when she attacks a target whose HP percentage is lower than hers. |
-| 2 | ATK +5% on entering battle. |
-| 3 | Leech Rate +15% when she attacks a target whose HP percentage is higher than hers. |
+**Insight 1 · Fairness**: When the caster attacks, if the caster's HP percentage is higher than the target's, ATK +15%.
+
+**Insight 2 · Fairness Ⅱ**: ATK +5% when entering battle.
+
+**Insight 3 · Fairness Ⅲ**: When the caster attacks, if the caster's HP percentage is lower than the target, Leech Rate +15%.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -71,13 +76,20 @@ Removes all Stats Down, Neg Status and Control effects from Dikke and gives her 
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate's Genesis DMG rises to 130% of her ATK. |
-| 2 | Power deals 220, 230 or 350% Mental DMG by rank. |
-| 3 | The Ultimate's Genesis DMG rises to 170% of her ATK. |
-| 4 | Justice's heal for all allies rises to 70, 105 or 175% of her ATK by rank. |
-| 5 | The Ultimate's Genesis DMG rises to 210% of her ATK. |
+**Portrait 1**: **Maverick Judge**'s effect changes to: deals (the caster's ATK ×130%) Genesis DMG.
+
+**Portrait 2**: **Power**'s effect changes to: at 1/2/3 stars, deals 220/230/350% Mental DMG.
+
+**Portrait 3**: **Maverick Judge**'s effect changes to: deals (the caster's ATK ×170%) Genesis DMG.
+
+**Portrait 4**: **Justice**'s effect changes to: at 1/2/3 stars, HP +(the caster's ATK ×70/105/175%).
+
+**Portrait 5**: **Maverick Judge**'s effect changes to: deals (the caster's ATK ×210%) Genesis DMG.
+
+## Statuses
+
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
+- **Immunity**: Immune to \[Stats Down\], \[Neg Status\], and \[Control\] statuses.
 
 ## Names
 

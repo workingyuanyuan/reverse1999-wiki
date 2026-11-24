@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- After casting a Channel incantation, an Intellect carrier gets ATK +1/1.5/2/2.5/3%, up to 3 stacks (Amplification 1 to 5).
-- At the end of each round, the carrier gets Critical DMG +1.2/1.4/1.6/1.8/2% for each time the team transferred [Dynamo] that round, up to 16 stacks.
+**Amplification 1**: If the carrier is an \[Intellect\] character, after casting a Channel incantation, ATK +1%, up to 3 stacks.
+
+At the end of the round, for every time the team transfers \[Dynamo\], the carrier gains Critical DMG +1.2%, up to 16 stacks.
+
+**Amplification 2**: If the carrier is an \[Intellect\] character, after casting a Channel incantation, ATK +1.5%, up to 3 stacks.
+
+At the end of the round, for every time the team transfers \[Dynamo\], the carrier gains Critical DMG +1.4%, up to 16 stacks.
+
+**Amplification 3**: If the carrier is an \[Intellect\] character, after casting a Channel incantation, ATK +2%, up to 3 stacks.
+
+At the end of the round, for every time the team transfers \[Dynamo\], the carrier gains Critical DMG +1.6%, up to 16 stacks.
+
+**Amplification 4**: If the carrier is an \[Intellect\] character, after casting a Channel incantation, ATK +2.5%, up to 3 stacks.
+
+At the end of the round, for every time the team transfers \[Dynamo\], the carrier gains Critical DMG +1.8%, up to 16 stacks.
+
+**Amplification 5**: If the carrier is an \[Intellect\] character, after casting a Channel incantation, ATK +3%, up to 3 stacks.
+
+At the end of the round, for every time the team transfers \[Dynamo\], the carrier gains Critical DMG +2%, up to 16 stacks.
 
 ## Names
 

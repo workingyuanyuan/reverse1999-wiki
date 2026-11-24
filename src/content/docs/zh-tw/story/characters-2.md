@@ -1,6 +1,6 @@
 ---
 title: "角色劇情 II"
-description: "重返未來：1999 的角色劇情 II：每一章、各關卡與劇情全文。"
+description: "重返未來：1999 的角色劇情 II：共 26 章、226 關。"
 appliesTo: "重返未來：1999，國際版用戶端 111.0.1077（3.9 版），繁體中文文本"
 caveat: "文本是國際版的繁體中文；中國大陸版領先兩個版本，部分台詞措辭不同。"
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global，國際版用戶端 111.0.1077：chapter.json 與 episode.json（關卡編號、遊戲內時間）"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-重返未來：1999 的角色劇情 II。章節頁列出各關卡；關卡頁收錄該關的劇情全文與小徑。
-
 | 章節 | 關卡數 | 小徑 |
 | --- | --- | --- |
 | [太陽的背面](/zh-tw/story/shadow-of-the-sun/) | 8 | 0 |

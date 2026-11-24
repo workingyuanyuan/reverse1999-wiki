@@ -37,35 +37,39 @@ sources:
 | Psychubes recommended in game | [Growing Pains](/psychubes/growing-pains/) |
 | Mainland release | 2026-04-30 |
 | Global release | 2026-08-13 |
-
-Silverwing Eagle stacks Neg Status effects on enemies and hits harder for each kind the target holds. After each of her active attacks she casts the follow-up [Lorentz Tracking System], which counts as an Ultimate and feeds Moxie to her and another Plant ally. From Insight III, every Plant ally's attack gains Ultimate Might and critical stats for each kind of Neg Status on the target.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/silverwing-eagle/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Chaos Blaster (single-target attack) | 200% Reality DMG | 300% | 500% |
-| 3, 2, 1, BOOM (attack on 2 enemies) | 160% Reality DMG | 240% | 400% |
+### Chaos Blaster
 
-At every rank, Chaos Blaster puts [Weakness Exposed] on the target and 3, 2, 1, BOOM puts [Nasty Wound] on each target, both for 3 rounds.
+**Rank 1**: 1-target attack. Deals 200% Reality DMG. Inflicts \[Weakness Exposed\] on the target hit for 3 rounds.
 
-- [Weakness Exposed]: at the end of each round the holder takes Static Genesis DMG equal to 15% of its own Max HP, at most 7000% of the inflicter's ATK.
-- [Nasty Wound]: Healing Taken −50%.
-- [Static Genesis DMG]: Genesis DMG that stat bonuses do not change.
+**Rank 2**: 1-target attack. Deals 300% Reality DMG. Inflicts \[Weakness Exposed\] on the target hit for 3 rounds.
+
+**Rank 3**: 1-target attack. Deals 500% Reality DMG. Inflicts \[Weakness Exposed\] on the target hit for 3 rounds.
+
+### 3, 2, 1, BOOM
+
+**Rank 1**: Mass attack. Deals 160% Reality DMG to 2 enemies. Inflicts \[Nasty Wound\] on the targets hit for 3 rounds.
+
+**Rank 2**: Mass attack. Deals 240% Reality DMG to 2 enemies. Inflicts \[Nasty Wound\] on the targets hit for 3 rounds.
+
+**Rank 3**: Mass attack. Deals 400% Reality DMG to 2 enemies. Inflicts \[Nasty Wound\] on the targets hit for 3 rounds.
 
 ## Ultimate: Energy Transfer Theory
 
-Deals 600% Reality DMG to one enemy, plus 180% Reality DMG for each kind of Neg Status on it, counting up to 4 kinds. If the attack breaks the target's Afflatus Guard, Lorentz Tracking System follows once.
-
-[Lorentz Tracking System]: a follow-up attack on one enemy for 200% Reality DMG that counts as an Ultimate. Silverwing Eagle gains 1 Moxie, and the other Plant ally with the lowest Moxie gains 1 Moxie.
+1-target attack. Deals 600% Reality DMG. For each type of \[Neg Status\] effect on the target, deals an additional 180% Reality DMG (counting up to 4 types). If this attack breaks the enemy's Afflatus Guard, after attacking, casts \[Lorentz Tracking System\] 1 time as a follow-up attack.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | After each active attack, Silverwing Eagle casts Lorentz Tracking System once on the main target. |
-| 2 | ATK +5% on entering battle. |
-| 3 | Gains 2 Moxie on entering battle. When a Plant ally attacks, the attack gains Ultimate Might +8%, Critical Rate +8% and Critical DMG +15% for each kind of Neg Status on the target, counting up to 4 kinds. |
+**Insight 1 · Environmental Perceiver**: After Silverwing Eagle actively attacks, casts \[Lorentz Tracking System\] 1 time as a follow-up attack on the main target.
+
+**Insight 2 · Environmental Perceiver II**: ATK +5% when entering battle.
+
+**Insight 3 · Environmental Perceiver III**: When entering battle, Silverwing Eagle gains Moxie +2.
+
+Whenever a \[Plant\] Afflatus ally attacks, for each type of \[Neg Status\] effect on the target, this attack gains Ultimate Might +8%, Critical Rate +8%, and Critical DMG +15% (counting up to 4 types).
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -75,13 +79,24 @@ Deals 600% Reality DMG to one enemy, plus 180% Reality DMG for each kind of Neg 
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Chaos Blaster deals 300, 450 or 750% by rank. |
-| 2 | 3, 2, 1, BOOM deals 240, 360 or 600% by rank. |
-| 3 | Lorentz Tracking System deals 300%. |
-| 4 | The Ultimate deals 1000%, plus 250% for each kind of Neg Status. |
-| 5 | Gains 3 Moxie on entering battle; the Plant ally bonus becomes Ultimate Might +10%, Critical Rate +10% and Critical DMG +18% per kind. |
+**Portrait 1**: **Chaos Blaster** now deals 300%/450%/750% Reality DMG at rank 1/2/3.
+
+**Portrait 2**: **3, 2, 1, BOOM** now deals 240%/360%/600% Reality DMG at rank 1/2/3.
+
+**Portrait 3**: **Environmental Perceiver**: \[Lorentz Tracking System\] now deals 300% Reality DMG.
+
+**Portrait 4**: **Energy Transfer Theory** now deals 1000% Reality DMG, plus an additional 250% Reality DMG for each type of \[Neg Status\] on the enemy.
+
+**Portrait 5**: **Environmental Perceiver**: Silverwing Eagle now gains Moxie +3 when entering battle. Plant allies' attacks now gain Ultimate Might +10%, Critical Rate +10%, and Critical DMG +18% for each type of \[Neg Status\] on the enemy.
+
+## Statuses
+
+- **Weakness Exposed**: At the end of the round, takes (own Max HP x15%) \[Static Genesis DMG\], up to (the user's ATK x7000%).
+- **Nasty Wound**: Healing Taken -50%.
+- **Lorentz Tracking System**: 1-target attack. Deals 200% Reality DMG. This attack counts as an Ultimate and a follow-up attack.
+
+  Gains Moxie +1 and grants Moxie +1 to another \[Plant\] Afflatus ally with the lowest Moxie.
+- **Static Genesis DMG**: This type of Genesis DMG is not affected by relevant stat bonuses.
 
 ## Names
 

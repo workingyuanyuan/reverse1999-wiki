@@ -39,7 +39,15 @@ sources:
 
 ## Effect
 
-For each point of Eureka the team consumes, all allies gain Incantation Might +0.2/0.3/0.4/0.5/0.6% (Amplification 1 to 5), stacking up to 30 times.
+**Amplification 1**: For each Eureka consumed by the team, grant Incantation Might +0.2% to all allies, up to 30 stacks.
+
+**Amplification 2**: For each Eureka consumed by the team, grant Incantation Might +0.3% to all allies, up to 30 stacks.
+
+**Amplification 3**: For each Eureka consumed by the team, grant Incantation Might +0.4% to all allies, up to 30 stacks.
+
+**Amplification 4**: For each Eureka consumed by the team, grant Incantation Might +0.5% to all allies, up to 30 stacks.
+
+**Amplification 5**: For each Eureka consumed by the team, grant Incantation Might +0.6% to all allies, up to 30 stacks.
 
 ## Names
 

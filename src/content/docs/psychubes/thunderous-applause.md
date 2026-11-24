@@ -1,6 +1,6 @@
 ---
 title: "Thunderous Applause"
-description: "Thunderous Applause is a 6-star ATK and Critical Psychube that raises Critical DMG on 1-target critical hits."
+description: "Thunderous Applause is a 6-star ATK and Critical Psychube that raises Critical DMG."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
 caveat: "The Critical DMG bonus applies only when a 1-target attack of the carrier lands a critical hit; mass attacks do not get it."
 lastVerified: 2026-11-23
@@ -41,7 +41,15 @@ sources:
 
 ## Effect
 
-When a 1-target attack of the carrier scores a critical hit, that hit gets Critical DMG +16/20/24/28/32% (Amplification 1 to 5).
+**Amplification 1**: When the carrier's 1-target attack scores a critical hit, Critical DMG +16%.
+
+**Amplification 2**: When the carrier's 1-target attack scores a critical hit, Critical DMG +20%.
+
+**Amplification 3**: When the carrier's 1-target attack scores a critical hit, Critical DMG +24%.
+
+**Amplification 4**: When the carrier's 1-target attack scores a critical hit, Critical DMG +28%.
+
+**Amplification 5**: When the carrier's 1-target attack scores a critical hit, Critical DMG +32%.
 
 ## Names
 

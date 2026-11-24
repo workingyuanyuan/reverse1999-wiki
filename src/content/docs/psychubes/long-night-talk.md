@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- When the carrier has 2 or more [Pos Status] buffs, it gets DMG Dealt +8% when attacking.
-- After the carrier uses a buff incantation, it gains ATK +2/2/2.5/2.5/2.5% (Amplification 1 to 5), stacking up to 2/3/3/4/5 times.
+**Amplification 1**: When the Carrier has 2 or more \[Pos Status\] buffs, DMG Dealt +8% when attacking.
+
+When the Carrier uses a Buff Incantation, gain ATK +2%, stacks up to 2 times.
+
+**Amplification 2**: When the Carrier has 2 or more \[Pos Status\] buffs, DMG Dealt +8% when attacking.
+
+When the Carrier uses a Buff Incantation, gain ATK +2%, stacks up to 3 times.
+
+**Amplification 3**: When the Carrier has 2 or more \[Pos Status\] buffs, DMG Dealt +8% when attacking.
+
+When the Carrier uses a Buff Incantation, gain ATK +2.5%, stacks up to 3 times.
+
+**Amplification 4**: When the Carrier has 2 or more \[Pos Status\] buffs, DMG Dealt +8% when attacking.
+
+When the Carrier uses a Buff Incantation, gain ATK +2.5%, stacks up to 4 times.
+
+**Amplification 5**: When the Carrier has 2 or more \[Pos Status\] buffs, DMG Dealt +8% when attacking.
+
+When the Carrier uses a Buff Incantation, gain ATK +2.5%, stacks up to 5 times.
 
 ## Names
 

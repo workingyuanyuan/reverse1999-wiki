@@ -37,35 +37,49 @@ sources:
 | Psychubes recommended in game | [Addio Coda](/psychubes/addio-coda/), [Belt It Out](/psychubes/belt-it-out/) |
 | Mainland release | 2024-12-12 |
 | Global release | 2025-03-27 |
-
-Barcarola works with Eureka, a resource her team spends, and [Inspiration], points built from every Eureka spent. Inspiration lands on the team's incantations each round, and casting one that carries it adds an [Impromptu Incantation] to the end of the queue, which hits harder and more often the more points it collects. Her Ultimate puts allies in [Quartet], which raises ATK and feeds more Inspiration to every attack.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/barcarola/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Cascading Arpeggios (single-target attack) | 200% Mental DMG | 300% | 500% |
-| Music of the Heart (single-target attack) | 200% Mental DMG | 300% | 500% |
+### Cascading Arpeggios
 
-- Both spend 2 Eureka after the attack, at every rank.
-- **Cascading Arpeggios** gives this round's Impromptu Incantation 1 more attack, and 1 more again when at least 3 allies are in Quartet.
-- **Music of the Heart** gives this round's Impromptu Incantation DMG Dealt +20%, and +20% more when at least 3 allies are in Quartet.
+**Rank 1**: 1-target attack. Deals 200% Mental DMG; after the attack, consumes 2 Eureka and grants attack instance +1 to \[Impromptu Incantation\] for the round; if at least 3 allies are in the \[Quartet\] status, grants an additional attack instance +1 to \[Impromptu Incantation\].
+
+**Rank 2**: 1-target attack. Deals 300% Mental DMG; after the attack, consumes 2 Eureka and grants attack instance +1 to \[Impromptu Incantation\] for the round; if at least 3 allies are in the \[Quartet\] status, grants an additional attack instance +1 to \[Impromptu Incantation\].
+
+**Rank 3**: 1-target attack. Deals 500% Mental DMG; after the attack, consumes 2 Eureka and grants attack instance +1 to \[Impromptu Incantation\] for the round; if at least 3 allies are in the \[Quartet\] status, grants an additional attack instance +1 to \[Impromptu Incantation\].
+
+### Music of the Heart
+
+**Rank 1**: 1-target attack. Deals 200% Mental DMG; after the attack, consumes 2 Eureka and grants DMG Dealt +20% to \[Impromptu Incantation\] for the round; if at least 3 allies are in the \[Quartet\] status, grants an additional DMG Dealt +20% to \[Impromptu Incantation\].
+
+**Rank 2**: 1-target attack. Deals 300% Mental DMG; after the attack, consumes 2 Eureka and grants DMG Dealt +20% to \[Impromptu Incantation\] for the round; if at least 3 allies are in the \[Quartet\] status, grants an additional DMG Dealt +20% to \[Impromptu Incantation\].
+
+**Rank 3**: 1-target attack. Deals 500% Mental DMG; after the attack, consumes 2 Eureka and grants DMG Dealt +20% to \[Impromptu Incantation\] for the round; if at least 3 allies are in the \[Quartet\] status, grants an additional DMG Dealt +20% to \[Impromptu Incantation\].
 
 ## Ultimate: Sea Breeze Serenade
 
-Targets one ally. Quartet on every ally lasts 1 round longer; the target and Barcarola enter Quartet for 5 rounds, or have it extended to 5 rounds if they already hold it. Then every ally in Quartet recovers 3 Eureka, Barcarola gains 1 Moxie, and this round's Impromptu Incantation counts 8 extra points of Inspiration.
-
-- [Inspiration]: each Eureka spent adds 1 point. At the start of each round the points are spread at random over basic incantations, at most 5 on one card; points on cards not used by the end of the round are lost. Casting a card that carries points adds an Impromptu Incantation to the end of the incantation queue, and the card's points count toward it.
-- [Impromptu Incantation]: attacks 1 random enemy for 200% Mental DMG plus 15% Mental DMG for each point of Inspiration counted toward it. With at least 3, 6, 12 or 20 points it gains 1, 2, 3 or 5 more attacks.
-- [Quartet]: ATK +300, plus 5 ATK for each point of accumulated Inspiration, recalculated at the start of each round; each ally in Quartet makes Barcarola's ATK increase from it 15% larger. After the holder casts an attack incantation, the Impromptu Incantation counts 1 more point of Inspiration and every arcanist in Quartet spends 1 Eureka. It cannot be dispelled.
+1-target buff. Extends the \[Quartet\] status on all allies by 1 round, and grants the \[Quartet\] status to target ally and to self for 5 rounds; if either target is already in the Quartet status, the Quartet status is extended to 5 rounds; after, recovers Eureka +3 to all allies in the Quartet status, grants Moxie +1 to self, and grants 8 points of \[Inspiration\] to \[Impromptu Incantation\] for the round.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Eureka that any ally spends builds Inspiration, and Barcarola makes the points more likely to land on attack incantations. On entering battle she starts with 3 points of Inspiration and Max Eureka +1. She gains 4 Eureka at the start of each round and 1 Eureka after an ally casts an attack incantation. |
-| 2 | ATK +5% on entering battle. |
-| 3 | At the start of each round, DMG Dealt +(5% + 2.5% per point of accumulated Inspiration) for 1 round. The Impromptu Incantation becomes Star Afflatus, and each of its attacks in a round gives its next ones Critical Rate +7.5% and Critical DMG +7.5%. |
+**Insight 1 · Solo Symphony**: Whenever an ally consumes Eureka, accumulate points of \[Inspiration\].
+
+Barcarola increases the likelihood of \[Inspiration\] points being distributed onto attack-type incantations.
+
+When entering battle, accumulate 3 points of \[Inspiration\] and gain Max Eureka +1.
+
+At the start of each round, Barcarola gains Eureka +4.
+
+After an ally actively casts an attack-type incantation, Barcarola gains Eureka +1.
+
+**Insight 2 · Solo Symphony II**: ATK +5% when entering battle.
+
+**Insight 3 · Solo Symphony III**: At the start of the round, grants DMG Dealt +X% to self for 1 round, where X is equal to (5 + the accumulated points of \[Inspiration\] x 2.5).
+
+\[Impromptu Incantation\] is now of the Star afflatus.
+
+After each attack instance of \[Impromptu Incantation\] within the same round, \[Impromptu Incantation\] gains Critical Rate +7.5% and Critical DMG +7.5%.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -75,13 +89,25 @@ Targets one ally. Quartet on every ally lasts 1 round longer; the target and Bar
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Cascading Arpeggios gives the Impromptu Incantation 2 more attacks instead of 1. |
-| 2 | The Insight 3 critical bonus per Impromptu attack becomes Critical Rate +15% and Critical DMG +15%. |
-| 3 | With at least 3 allies in Quartet, Cascading Arpeggios adds 2 more attacks instead of 1. |
-| 4 | Music of the Heart gives the Impromptu Incantation DMG Dealt +35%. |
-| 5 | Quartet counts 2 points of Inspiration after each attack incantation instead of 1. |
+**Portrait 1**: **Cascading Arpeggios**: The attack instances granted to \[Impromptu Incantation\] for the round is increased to 2.
+
+**Portrait 2**: **Solo Symphony**: After each attack instance of \[Impromptu Incantation\] within the same round, the Critical Rate increase is now +15%, and the Critical DMG increase is now +15%.
+
+**Portrait 3**: **Cascading Arpeggios**: When least 3 allies are in the \[Quartet\] status, the additional attack instances granted to \[Impromptu Incantation\] is increased to 2.
+
+**Portrait 4**: **Music of the Heart**: \[Impromptu Incantation\]'s Damage Dealt increase for the round is now +35%.
+
+**Portrait 5**: **Sea Breeze Serenade**: While in the \[Quartet\] status, after casting an attack-type incantation, grants another 1 additional point of Inspiration to \[Impromptu Incantation\].
+
+## Statuses
+
+- **Impromptu Incantation**: 1-target attack. Deals 200% Mental DMG to a random enemy and an additional (the total points of Inspiration granted to Impromptu Incantation x15%) Mental DMG. If Impromptu Incantation has at least 3/6/12/20 points of Inspiration, it gains attack instances +1/2/3/5 (Impromptu Incantation's DMG calculation is based on the average stats of all allies).
+- **Quartet**: Gain ATK +300; at the start of each round, gain an additional (the accumulated points of Inspiration x 5) ATK; this effect is recalculated at the start of each round, and for each ally in the \[Quartet\] status, Barcarola gains an additional 15% bonus for this ATK increase effect. After casting an attack-type incantation, grant 1 additional point of Inspiration to \[Impromptu Incantation\], and consume 1 Eureka from each character in the Quartet status (undispellable).
+- **Inspiration**: For every 1 Eureka consumed, accumulate 1 point of \[Inspiration\].
+
+  At the start of each round, randomly distribute Inspiration points onto basic incantations (each incantation may receive up to 5 points of Inspiration, and at the end of the round, the points of Inspiration on unused incantations are cleared).
+
+  When actively casting an incantation with \[Inspiration\] points on it, add an \[Impromptu Incantation\] to the end of the spell queue, and all Inspiration points on these casted incantations will be granted to the \[Impromptu Incantation\].
 
 ## Names
 

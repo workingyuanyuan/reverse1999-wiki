@@ -37,45 +37,49 @@ sources:
 | Psychubes recommended in game | [Family Mentor](/psychubes/family-mentor/), [Never-Ending Q&A](/psychubes/never-ending-q-a/) |
 | Mainland release | 2025-06-05 |
 | Global release | 2025-10-09 |
-
-Moldir gains [Readiness] from the Moxie the whole team spends, and at the start of each round its count opens team buffs at 10, 20 and 30 stacks. Her counter card prepares a riposte: her Ultimate while she has [Assertiveness], The Past Shattered otherwise. Her Ultimate hands the team stacks of [Ceremonious: Critical DMG], which raise the Critical DMG of Ultimates.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/moldir/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| The Past Shattered (single-target attack) | 100% Reality DMG | 150% | 250% |
-| The Future Reclaimed (self counter) | 2 stacks of Readiness | 3 stacks | 5 stacks |
+### The Past Shattered
 
-- **The Past Shattered** puts 1 stack of [Passion Drain] on the target after the attack and gives Moldir [Continuous Action I] for 1 round.
-- **The Future Reclaimed** also gives Moldir, for 1 round, [Total Onslaught] if she has Assertiveness and [Lightning Trigger] if she does not.
+**Rank 1**: 1-target attack. Deals 100% Reality DMG. After attacking, inflicts 1 stack of \[Passion Drain\] on the target; gains \[Continuous Action I\] for 1 round.
+
+**Rank 2**: 1-target attack. Deals 150% Reality DMG. After attacking, inflicts 1 stack of \[Passion Drain\] on the target; gains \[Continuous Action I\] for 1 round.
+
+**Rank 3**: 1-target attack. Deals 250% Reality DMG. After attacking, inflicts 1 stack of \[Passion Drain\] on the target; gains \[Continuous Action I\] for 1 round.
+
+### The Future Reclaimed
+
+**Rank 1**: Self counter. Gains 2 stacks of \[Readiness\]. If in \[Assertiveness\] status, gains \[Total Onslaught\] for 1 round, otherwise gains \[Lightning Trigger\] instead.
+
+**Rank 2**: Self counter. Gains 3 stacks of \[Readiness\]. If in \[Assertiveness\] status, gains \[Total Onslaught\] for 1 round, otherwise gains \[Lightning Trigger\] instead.
+
+**Rank 3**: Self counter. Gains 5 stacks of \[Readiness\]. If in \[Assertiveness\] status, gains \[Total Onslaught\] for 1 round, otherwise gains \[Lightning Trigger\] instead.
 
 ## Ultimate: Astray No More
 
-Deals 400% Reality DMG to all enemies and gives all allies 6 stacks of Ceremonious: Critical DMG. Cast actively, it deals another 300% Reality DMG to all enemies. Cast as a riposte, it gives all allies 1 more stack of Ceremonious: Critical DMG for every 4 stacks of Readiness, and Moldir gains [Doctrine] for 2 rounds.
+Mass attack. Deals 400% Reality DMG to all enemies. Grants 6 stacks of \[Ceremonious: Critical DMG\] to all allies.
 
-## Statuses
+When actively cast, this attack deals 300% additional Reality DMG to all enemies.
 
-| Status | Effect |
-| --- | --- |
-| Readiness | Its count at the start of the round sets off effects. Up to 50 stacks; cannot be dispelled. |
-| Assertiveness | Immunity to [Disconcert], which stops a character from gaining Moxie. |
-| Total Onslaught | When an ally is attacked, Moldir ripostes with her Ultimate; used up when it triggers. |
-| Lightning Trigger | When an ally is attacked, Moldir ripostes with The Past Shattered at the rank of the card that gave it; used up when it triggers. |
-| Passion Drain | When its holder is attacked, the attacker gains Moxie +1 and 1 stack is removed. |
-| Continuous Action I | AP +1. |
-| Tactical Coordination | Ultimate DMG Dealt +2% for each stack of Readiness. |
-| Armament Enhancement | Critical Rate +30%; when its holder casts an Ultimate, Critical Rate beyond the cap becomes Critical DMG. |
-| Ceremonious: Critical DMG | Ultimate Critical DMG +3% per stack, up to 100 stacks. Used up when it triggers; cannot be dispelled. |
-| Doctrine | Ultimate Might +20%; its holder cannot gain Assertiveness. |
+When cast as a riposte, for every 4 stacks of \[Readiness\], grants 1 additional stacks of \[Ceremonious: Critical DMG\] to all allies; gains \[Doctrine\] to self for 2 rounds.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | For each Moxie the team spends, Moldir gains 1 stack of Readiness for 3 rounds. At the start of each round, with at least 10 stacks she gains Assertiveness, with at least 20 all allies gain Tactical Coordination, and with at least 30 all allies gain Armament Enhancement, each for 1 round. |
-| 2 | ATK +5% on entering battle. |
-| 3 | Moldir enters battle with 10 stacks of Readiness for 2 rounds, and gains Moxie +1 after each riposte. |
+**Insight 1 · To the "Family"**: For every Moxie consumed by the team, Moldir gains 1 stack of \[Readiness\] for 3 rounds.
+
+At the start of the round:
+
+If at no less than 10 stacks of \[Readiness\], Moldir gains \[Assertiveness\] for 1 round;
+
+If at no less than 20 stacks of \[Readiness\], all allies gain \[Tactical Coordination\] for 1 round, which increases Ultimate DMG +2% for every stack of \[Readiness\] carried;
+
+If at no less than 30 stacks of \[Readiness\], all allies gain \[Armament Enhancement\] for 1 round.
+
+**Insight 2 · To the "Family" II**: ATK +5% when entering battle.
+
+**Insight 3 · To the "Family" III**: When entering battle, gains 10 stacks of \[Readiness\] for 2 rounds. After launching a riposte, gains Moxie +1.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -85,24 +89,54 @@ Deals 400% Reality DMG to all enemies and gives all allies 6 stacks of Ceremonio
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Past Shattered deals 150, 225 or 375% by rank, and its Continuous Action I lasts 2 rounds. |
-| 2 | Tactical Coordination gives 2.5% per stack; Armament Enhancement gives Critical Rate +40%. |
-| 3 | Moldir gains Moxie +2 after each riposte. |
-| 4 | The Ultimate deals 500% and gives 8 stacks of Ceremonious: Critical DMG. |
-| 5 | The Ultimate cast actively deals another 600%; Doctrine gives Ultimate Might +30%. |
+**Portrait 1**: **The Past Shattered**: At incantation rank 1/2/3, Reality DMG is increased to 150%/225%/375%. The duration of \[Continuous Action I\] is increased to 2 rounds.
+
+**Portrait 2**: **To the "Family"**: \[Tactical Coordination\]'s Ultimate DMG is increased to 2.5%. \[Armament Enhancement\]'s Critical Rate is increased to 40%.
+
+**Portrait 3**: **To the "Family"**: After launching a riposte, Moxie gained is increased to +2.
+
+**Portrait 4**: **Astray No More**: Reality DMG dealt is increased to 500%. The number of the stacks of \[Ceremonious: Critical DMG\] gained by all allies is increased to 8.
+
+**Portrait 5**: **Astray No More**: When actively cast, additional Reality DMG dealt to all enemies is increased to 600%. \[Doctrine\]'s Ultimate Might is increased to 30%.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Moldir has one Epiphany of four levels; it spreads Assertiveness to the team and turns her counter into a lasting riposte.
+**Epiphany 1, level 1**: **To the "Family"** Effect Enhancement:
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | With at least 10 stacks of Readiness, all allies gain Assertiveness, not only Moldir. |
-| 1 | 2 | Tactical Coordination and Armament Enhancement rise by 20% of their base values: 2.4% per stack and Critical Rate +36% (3% and +48% with Portrait 2). |
-| 1 | 3 | The Ultimate deals extra Reality DMG equal to 100% of its base Reality DMG, and both active and riposte casts get the extra damage and the extra Ceremonious: Critical DMG stacks. The Past Shattered deals extra Reality DMG equal to 100% of its base if Moldir has Continuous Action I before the attack, and puts 2 stacks of Passion Drain. |
-| 1 | 4 | The Future Reclaimed gives Lightning Trigger for 2 rounds. Lightning Trigger then ripostes with The Past Shattered after any ally is attacked, once per round, and at the start of each round in which Moldir has no Doctrine it gives her Total Onslaught for 1 round. |
+If Moldir has at least 10 stacks of \[Readiness\], grants \[Assertiveness\] to all allies for 1 round.
+
+**Epiphany 1, level 2**: **To the "Family"** Effect Enhancement:
+
+The Ultimate DMG granted by each stack of \[Readiness\] through \[Tactical Coordination\] is increased by 20% of its base value.
+
+The Critical Rate bonus granted by \[Armament Enhancement\] is increased by 20% of its base value.
+
+**Epiphany 1, level 3**: **Astray No More** Effect Enhancement: Deals an additional (base Reality DMG x100%) Reality DMG. Both active casts and riposte casts deal additional DMG and grant additional \[Ceremonious: Critical DMG\].
+
+**The Past Shattered** Effect Enhancement: Before attacking, if in the \[Continuous Action I\] status, deals an additional (base Reality DMG x100%) Reality DMG. After attacking, inflicts 2 stacks of \[Passion Drain\] on the target.
+
+**Epiphany 1, level 4**: **The Future Reclaimed** Effect Adjustment:
+
+Gains \[Lightning Trigger\] for 2 rounds.
+
+\[Lightning Trigger\] Effect Adjustments:
+
+After any ally is attacked, Moldir ripostes with the corresponding rank of \[The Past Shattered\] (triggers once per round). At the start of the round, if not in \[Doctrine\] status, gains \[Total Onslaught\] for 1 round.
+
+## Statuses
+
+- **Passion Drain**: After the holder is attacked, the attacker gains Moxie +1 (-1 stack after trigger).
+- **Continuous Action I**: AP +1.
+- **Readiness**: Triggers effects based on the number of stacks at the start of the round, up to 50 stacks. Undispellable.
+- **Assertiveness**: Immune to \[Disconcert\].
+- **Total Onslaught**: When an ally is attacked, Moldir ripostes with her Ultimate. Removes upon trigger.
+- **Lightning Trigger**: When an ally is attacked, Moldir ripostes with rank 1 \[The Past Shattered\]. Removes upon trigger.
+- **Ceremonious: Critical DMG**: Ultimate Critical DMG +3%, up to 100 stacks. Removes upon trigger. Undispellable.
+- **Doctrine**: Ultimate Might +20%. Cannot gain \[Assertiveness\].
+- **Tactical Coordination**: When casting, for every 1 stack of \[Readiness\], DMG Dealt by Ultimate +2%.
+- **Armament Enhancement**: Critical Rate +30%. When the user casts an Ultimate, excess Critical Rate is converted to Critical DMG.
+- **The Past Shattered**: 1-target attack. Deals 100% Reality DMG. Before attacking, if in the \[Continuous Action I\] status, deals an additional 100% Reality DMG. After attacking, inflicts 2 stacks of \[Passion Drain\] on the target. Gains \[Continuous Action I\] for 1 round.
+- **Disconcert**: Cannot gain Moxie.
 
 ## Names
 

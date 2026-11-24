@@ -37,43 +37,47 @@ sources:
 | Psychubes recommended in game | [On the Hand of Time](/psychubes/on-the-hand-of-time/), [Transcendent Love](/psychubes/transcendent-love/), [Aurora After Winter](/psychubes/aurora-after-winter/) |
 | Mainland release | 2024-11-21 |
 | Global release | 2025-03-06 |
-
-Flutterpage builds [Gust] whenever any ally acts, and at the start of each round her Gust stacks choose one of three Force Fields, which add Reality DMG, dealt by her, to every ally's attacks and extra actions. Her Ultimate is a channel that turns her incantations into Regards from the Sky and casts them, with her Eureka refilled each round.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/flutterpage/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Knock, Knock (attack on 2 enemies) | 150% Reality DMG | 225% | 375% |
-| Cotton Kite (single-target attack) | 100% Reality DMG | 150% | 250% |
+### Knock, Knock
 
-At every rank, Knock, Knock gives Flutterpage 2 stacks of Gust for 3 rounds, and Cotton Kite gives her [Continuous Action I] for 1 round.
+**Rank 1**: Mass attack. Deals 150% Reality DMG to 2 enemies; grants 2 stacks of \[Gust\] to self for 3 rounds.
 
-[Continuous Action I]: AP +1.
+**Rank 2**: Mass attack. Deals 225% Reality DMG to 2 enemies; grants 2 stacks of \[Gust\] to self for 3 rounds.
+
+**Rank 3**: Mass attack. Deals 375% Reality DMG to 2 enemies; grants 2 stacks of \[Gust\] to self for 3 rounds.
+
+### Cotton Kite
+
+**Rank 1**: 1-target attack. Deals 100% Reality DMG and gains \[Continuous Action I\] for 1 round.
+
+**Rank 2**: 1-target attack. Deals 150% Reality DMG and gains \[Continuous Action I\] for 1 round.
+
+**Rank 3**: 1-target attack. Deals 250% Reality DMG and gains \[Continuous Action I\] for 1 round.
 
 ## Ultimate: A Dream That Never Grows Old
 
-Flutterpage refills all her Eureka, turns all her incantations into [Regards from the Sky] and casts as many as she can, then enters [A Dream That Never Grows Old] for 3 rounds. She cannot gain Moxie while the channel lasts.
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| A Dream That Never Grows Old | At the start of each round, refills her Eureka, turns her incantations into Regards from the Sky and casts as many as she can; at the end of each round, casts one more. When the channel ends, she gains 1, 2 or 3 Moxie by the Gust Force Field she holds then. |
-| Regards from the Sky | 40% Reality DMG to all enemies and 40% more to the main target. |
-| Gust | At most 50 stacks. At the start of a round, sets her Force Field and removes the other Gust Force Fields she gave herself. |
-| Paper Parade (5 Gust) | Works for all allies; the added damage counts as dealt by Flutterpage. When an ally attacks, adds 15% Reality DMG, and 15% more to the main target. On an ally's extra action, spends 2 of Flutterpage's Eureka to add a further 15%, and 15% more to the main target. |
-| Wave of Sheets (15 Gust) | As Paper Parade, and the attack gains DMG Dealt +2% and Genesis DMG +2% for each stack of Gust on Flutterpage. |
-| Adieu, Mother Earth (25 Gust) | As Wave of Sheets; the extra action always crits and gains DMG Dealt and Genesis DMG equal to the attacker's Critical Rate × (Critical DMG − 100%). |
-| Force Field | An effect its holder casts on chosen units on the field; it ends when the holder leaves the field. |
+Self channel. Recovers all Eureka, converts all own incantations into \[Regards from the Sky\], and casts them all if able; enters the \[A Dream That Never Grows Old\] status for 3 rounds, cannot gain Moxie during channeling.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | After any ally acts, Flutterpage gains 1 stack of Gust for 3 rounds. At the start of each round she takes the Force Field her Gust stacks reach: Paper Parade at 5, Wave of Sheets at 15, Adieu, Mother Earth at 25. |
-| 2 | ATK +5% on entering battle. |
-| 3 | Max Eureka +2, and she gains 2 Eureka after attacking. On entering battle she gains 2 Moxie and 10 stacks of Gust for 2 rounds. |
+**Insight 1 · "I Can Fly"**: After any ally takes an action, Flutterpage gains 1 stack of \[Gust\] for 3 rounds.
+
+At the start of the round, Flutterpage gains a Force Field based on the stacks of \[Gust\] she has, while removing other Gust Force Fields she applied to herself in this way:
+
+At 5 or more stacks, gain \[Paper Parade\].
+
+At 15 or more stacks, gain \[Wave of Sheets\].
+
+At 25 or more stacks, gain \[Adieu, Mother Earth\].
+
+**Insight 2 · "I Can Fly" II**: ATK +5% when entering battle.
+
+**Insight 3 · "I Can Fly" III**: Max Eureka +2. After attacking, grant Eureka +2 to self.
+
+When entering battle, grant Moxie +2 to self, and gain 10 stacks of \[Gust\] for 2 rounds.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -83,13 +87,61 @@ Flutterpage refills all her Eureka, turns all her incantations into [Regards fro
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Cotton Kite deals 150, 225 or 375% by rank, and its Continuous Action I lasts 2 rounds. |
-| 2 | Each Force Field adds 18% instead of 15%, on attacks and on extra actions. |
-| 3 | On entering battle she gains 3 Moxie and 20 stacks of Gust; Wave of Sheets and Adieu, Mother Earth give 2.5% per stack of Gust. |
-| 4 | Each Force Field adds 23%, on attacks and on extra actions. |
-| 5 | Regards from the Sky deals 60% to all enemies and 60% more to the main target; the channel's end gives 2, 3 or 4 Moxie. |
+**Portrait 1**: **Cotton Kite**: At incantation rank 1/2/3, Reality DMG is increased to 150%/225%/375%. The duration of \[Continuous Action I\] is increased to 2 rounds.
+
+**Portrait 2**: **"I Can Fly"**: \[Paper Parade\], \[Wave of Sheets\], and \[Adieu, Mother Earth\]'s added damage is increased to 18%/18% when attacking and to 18/18% when performing an extra action.
+
+**Portrait 3**: **"I Can Fly"**: When entering battle, the Moxie granted to self is increased to 3, and the stacks of \[Gust\] gained is increased to 20. For each stack of \[Gust\] Flutterpage has, the DMG Dealt and Genesis DMG granted by \[Wave of Sheets\] and \[Adieu, Mother Earth\] are increased to 2.5%.
+
+**Portrait 4**: **"I Can Fly"**: \[Paper Parade\], \[Wave of Sheets\], and \[Adieu, Mother Earth\]'s added damage is increased to 23%/23% when attacking and to 23%/23% when performing an extra action.
+
+**Portrait 5**: **A Dream That Never Grows Old**: \[Regards from the Sky\]'s Reality DMG is increased to 60%/60%. When \[A Dream That Never Grows Old\]'s channel status ends, the Moxie granted to self is increased to 2/3/4.
+
+## Statuses
+
+- **Gust**: At the start of the round, Flutterpage gains a Force Field based on her Gust stacks and removes other Gust Force Fields she applied to herself in this way; stacks up to 50 times.
+- **Continuous Action I**: AP +1.
+- **Regards from the Sky**: Mass attack. Deals 40% Reality DMG to all enemies and an additional 40% Reality DMG to the main target.
+- **A Dream That Never Grows Old**: At the start of the round, recovers all Eureka, converts all own incantations into \[Regards from the Sky\], and casts them all if able.
+
+  At the end of the round, casts 1 \[Regards from the Sky\].
+
+  When the channel status ends, grants Moxie +1/2/3 to self based on the current Gust Force Field.
+
+  Cannot gain Moxie during channeling.
+- **Paper Parade**: Force Field effect: This force field benefits all allies, and the added Reality DMG is considered dealt by Flutterpage herself.
+
+  When an ally attacks:
+
+  Add an additional 15% Reality DMG to the attack, with an additional 15% Reality DMG to the main target.
+
+  When an ally performs an extra action:
+
+  Consume 2 of Flutterpage's Eureka and add an additional 15% Reality DMG to the attack, with an additional 15% Reality DMG to the main target.
+- **Wave of Sheets**: Force Field effect: This force field benefits all allies, and the added Reality DMG is considered dealt by Flutterpage herself.
+
+  When an ally attacks:
+
+  Add an additional 15% Reality DMG to the attack, with an additional 15% Reality DMG to the main target.
+
+  When an ally performs an extra action:
+
+  Consume 2 of Flutterpage's Eureka and add an additional 15% Reality DMG to the attack, with an additional 15% Reality DMG to the main target.
+
+  For each stack of \[Gust\] Flutterpage has, grant DMG Dealt +2% and Genesis DMG +2% to the attack.
+- **Adieu, Mother Earth**: Force Field effect: This force field benefits all allies, and the added Reality DMG is considered dealt by Flutterpage herself.
+
+  When an ally attacks:
+
+  Add an additional 15% Reality DMG to the attack, with an additional 15% Reality DMG to the main target.
+
+  When an ally performs an extra action:
+
+  Consume 2 of Flutterpage's Eureka and add an additional 15% Reality DMG to the attack, with an additional 15% Reality DMG to the main target.
+
+  For each stack of \[Gust\] Flutterpage has, grant DMG Dealt +2% and Genesis DMG +2% to the attack.
+
+  The extra action is always a critical hit, and the action gains DMG Dealt and Genesis DMG equal to the character's own Critical Rate x (Critical DMG - 100%).
 
 ## Names
 

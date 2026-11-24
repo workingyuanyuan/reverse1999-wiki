@@ -1,6 +1,6 @@
 ---
 title: "星は光りぬ"
-description: "星は光りぬ：リバース：1999 のメインストーリー、全24ステージ。ストーリー全文つき。"
+description: "星は光りぬ：リバース：1999 のメインストーリー第6章、全24ステージ。"
 appliesTo: "リバース：1999、グローバル版クライアント 111.0.1077（バージョン 3.9）、日本語テキスト"
 caveat: "テキストはグローバル版の日本語。2バージョン先行する中国本土版では一部のセリフの言い回しが異なる。"
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global、グローバル版クライアント 111.0.1077：chapter.json と episode.json（ステージ番号、ゲーム内の時刻）"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-星は光りぬはリバース：1999 のメインストーリー第6TH章で、全24ステージ。物語は1914年1月6日 10:00に始まる。
-
 ## ステージ
 
 | ステージ | 名前 | ゲーム内の時刻 | 小径 |

@@ -39,8 +39,15 @@ sources:
 
 ## Effect
 
-- When the carrier's current HP is below 80%, it gets DMG Dealt +6% when attacking.
-- When the carrier is not under [Stats Down], it gets Incantation Might +8/11/14/17/20% (Amplification 1 to 5) when attacking.
+**Amplification 1**: When the carrier is below 80% current HP, gain DMG Dealt +6%. When the carrier is not afflicted with \[Stats Down\], gain Incantation Might +8%.
+
+**Amplification 2**: When the carrier is below 80% current HP, gain DMG Dealt +6%. When the carrier is not afflicted with \[Stats Down\], gain Incantation Might +11%.
+
+**Amplification 3**: When the carrier is below 80% current HP, gain DMG Dealt +6%. When the carrier is not afflicted with \[Stats Down\], gain Incantation Might +14%.
+
+**Amplification 4**: When the carrier is below 80% current HP, gain DMG Dealt +6%. When the carrier is not afflicted with \[Stats Down\], gain Incantation Might +17%.
+
+**Amplification 5**: When the carrier is below 80% current HP, gain DMG Dealt +6%. When the carrier is not afflicted with \[Stats Down\], gain Incantation Might +20%.
 
 ## Names
 

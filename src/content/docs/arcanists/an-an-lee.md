@@ -36,35 +36,37 @@ sources:
 | Psychubes recommended in game | [Your Friendly Exorcist](/psychubes/your-friendly-exorcist/), [Long Night Talk](/psychubes/long-night-talk/) |
 | Mainland release | 2023-03-31 |
 | Global release | 2023-10-26 |
-
-An-an Lee switches every round between [Break Time], which lowers the damage she takes, and [Exorcism Time], which raises her damage and ranks up her rightmost incantation. Lily Nectar raises damage dealt and lowers damage taken for the whole team, and her Ultimate ranks up her incantations at random. Her Euphoria either passes these effects on to allies with added debuffs, or adds a Eureka engine whose Inspiration feeds extra Impromptu Incantation attacks.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/an-an-lee/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Taoist Rune (single-target attack) | 200% Reality DMG | 300% | 350%; [Daze] 1 round |
-| Lily Nectar (team buff) | allies DMG Dealt +15%, DMG Taken −15% | +20%, −20% | +30%, −30% |
+### Taoist Rune
 
-Lily Nectar lasts 2 rounds at every rank.
+**Rank 1**: 1-target attack. Deals 200% Reality DMG.
 
-[Daze]: the target cannot act.
+**Rank 2**: 1-target attack. Deals 300% Reality DMG.
+
+**Rank 3**: 1-target attack. Deals 350% Reality DMG. Inflicts \[Daze\] for 1 round on the target hit.
+
+### Lily Nectar
+
+**Rank 1**: Mass buff. DMG Dealt +15% and DMG Taken -15% for all allies. Lasts 2 rounds.
+
+**Rank 2**: Mass buff. DMG Dealt +20% and DMG Taken -20% for all allies. Lasts 2 rounds.
+
+**Rank 3**: Mass buff. DMG Dealt +30% and DMG Taken -30% for all allies. Lasts 2 rounds.
 
 ## Ultimate: Scientific Ghost Buster
 
-Deals 400% Reality DMG to all enemies and gives An-an Lee [Empower Incantation I] for 2 rounds.
-
-- [Empower Incantation I]: at the start of each round, one random incantation gains rank +1.
-- [Break Time]: DMG Taken Reduction +10%; cannot be dispelled.
-- [Exorcism Time]: DMG Bonus +10% and Penetration Rate +10%; cannot be dispelled.
+Mass attack. Deals 400% Reality DMG to all enemies. The caster enters \[Empower Incantation I\] status for 2 rounds.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | At the start of each round, An-an Lee switches between Break Time and Exorcism Time. Each time she enters Exorcism Time, her rightmost incantation gains rank +1. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | Break Time gives DMG Taken Reduction +15%; Exorcism Time gives DMG Bonus +15% and Penetration Rate +15%. |
+**Insight 1 · Time to Work**: When a round starts, switches between \[Break Time\] and \[Exorcism Time\] statuses. When the caster enters \[Exorcism Time\] status, the caster's right-most Incantation +1 star.
+
+**Insight 2 · Time to Work Ⅱ**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · Time to Work Ⅲ**: Enhance \[Break Time\] effect: DMG Taken Reduction +15%. Enhances \[Exorcism Time\] effect: DMG Bonus +15%, Penetration Rate +15%.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -74,40 +76,70 @@ Deals 400% Reality DMG to all enemies and gives An-an Lee [Empower Incantation I
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 450%. |
-| 2 | Taoist Rune deals 220, 330 or 400% by rank. |
-| 3 | The Ultimate deals 500%. |
-| 4 | Taoist Rune deals 240, 360 or 450% by rank. |
-| 5 | The Ultimate deals 550%. |
+**Portrait 1**: **Scientific Ghost Buster**: The Reality DMG dealt is increased to 450%.
+
+**Portrait 2**: **Taoist Rune**'s effect changes to: at 1/2/3 stars, deals 220/330/400% Reality DMG.
+
+**Portrait 3**: **Scientific Ghost Buster**: Reality DMG increased to 500%.
+
+**Portrait 4**: **Taoist Rune**'s effect changes to: at 1/2/3 stars, deals 240/360/450% Reality DMG.
+
+**Portrait 5**: **Scientific Ghost Buster**: Reality DMG increased to 550%.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. An-an Lee has two Epiphanies of four levels each: the first strengthens Break Time and Exorcism Time and spreads them to allies, the second adds Eureka and Impromptu Incantation.
+**Epiphany 1, level 1**: **Time to Work** Insight I Enhancement: When entering \[Exorcism Time\], grants rank +1 to the rightmost incantation of an ally in front. When entering \[Break Time\], grants 1 stack of \[Sturdiness\] to an ally behind.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | Entering Exorcism Time also gives rank +1 to the rightmost incantation of the ally in front of her; entering Break Time gives the ally behind her 1 stack of [Sturdiness]. |
-| 1 | 2 | After each attack in Exorcism Time, she puts one of these on the target at random: 1 stack of [Rigidity], [Poison] for 2 rounds, or 5 stacks of [Burn]. Lily Nectar gives allies the same effect. |
-| 1 | 3 | While the enemy has a Stats Down, Neg Status or [Control] effect, Exorcism Time gives DMG Bonus +15% more and Break Time gives DMG Taken Reduction +15% more. |
-| 1 | 4 | The Ultimate gives her [Empower Incantation II] for 2 rounds instead, and for each enemy hit that has a Neg Status, a random ally gains Empower Incantation I for 2 rounds. |
-| 2 | 1 | Max Eureka +5, and +4 Eureka at the start of each round. The team gathers [Inspiration] as it spends Eureka, and 3 Inspiration on entering battle. Her incantations in the action queue spend as much Eureka as they can to rank up, 1 Eureka per rank, earlier incantations first. Each unit that enters battle brings 1 [Wandering Spirit], which she catches on entering Exorcism Time (12 at most); each caught spirit adds 1 Inspiration at the start of every round. |
-| 2 | 2 | After Taoist Rune, the first 3, 4 or 5 Impromptu Incantation attacks of the round, by rank, gain Incantation Might equal to 15% of the base damage of Taoist Rune at rank 3 (52.5% with no Portrait). Casting it again adds only to the number of attacks. |
-| 2 | 3 | Lily Nectar lasts 3 rounds and adds DMG Dealt equal to the Ultimate's base Reality DMG × 20% − 60%: with the Ultimate at 400% that is 20% more, so allies gain DMG Dealt +35, 40 or 50% in all by rank. The global English line names this bonus DMG Bonus. |
-| 2 | 4 | The Ultimate adds 2 Inspiration per Wandering Spirit to the round's Impromptu Incantation, and gives its first 5 attacks the Incantation Might bonus of Taoist Rune. |
+**Epiphany 1, level 2**: \[Exorcism Time\] Enhancement: After attacking, randomly inflicts 1 of the following effects on the target: 1 stack of \[Rigidity\], \[Poison\] for 2 rounds, or 5 stacks of \[Burn\].
 
-- [Sturdiness]: when attacked, DMG Taken Reduction +25%; one stack is used each time.
-- [Rigidity]: at 2 stacks it turns into Petrify, or adds 1 round to a Petrify already there.
-- [Poison]: Genesis DMG at the end of each round, based on the ATK of whoever inflicted it; stacks.
-- [Burn]: Healing Taken −15%; at the end of each round, Genesis DMG equal to 4% of the holder's ATK. At most 30 stacks, counted as one Neg Status; half the stacks are removed each time it deals damage.
-- [Control]: effects that stop a unit acting, such as Daze, Petrify, Nightmare, Freeze, Disarm, Silence and Seal.
-- [Empower Incantation II]: at the start of each round, two random incantations gain rank +1.
-- [Inspiration]: 1 point per Eureka spent. At the start of each round it is spread at random over normal incantations, at most 5 per card, and cleared from cards not used by the end of the round. Casting a card that carries Inspiration adds an [Impromptu Incantation] to the end of the queue, which takes the Inspiration of the cards cast.
-- [Impromptu Incantation]: 200% Mental DMG to a random enemy, plus 15% Mental DMG per point of Inspiration it holds; at 3, 6, 12 or 20 points it hits 1, 2, 3 or 5 more times. Its damage uses the average stats of the whole team.
+**Lily Nectar** additionally grants the above new effects of \[Exorcism Time\] to allies.
+
+**Epiphany 1, level 3**: \[Exorcism Time\] Enhancement: When the enemy is afflicted with \[Stats Down\], \[Neg Status\], or \[Control\], the DMG Bonus is increased by an additional 15%.
+
+\[Break Time\] Enhancement: When the enemy is afflicted with \[Stats Down\], \[Neg Status\], or \[Control\], the DMG Taken Reduction is increased by an additional 15%.
+
+**Epiphany 1, level 4**: **Scientific Ghost Buster** Enhancement: Grants \[Empower Incantation II\] to self for 2 rounds; for each enemy attacked that's with \[Neg Status\], grant \[Empower Incantation I\] to a random ally for 2 rounds.
+
+**Epiphany 2, level 1**: Gain Max Eureka +5. At the start of the round, gain Eureka +4. Whenever an ally consumes Eureka, accumulate points of \[Inspiration\]. When entering battle, accumulate 3 points of \[Inspiration\].
+
+When An-an Lee's incantations enter the AP area, consumes as much Eureka as possible to increase their incantation rank (prioritizing incantations earlier in the queue): increasing an incantation from rank 1 to 2 or from rank 2 to 3 costs 1 Eureka each.
+
+When an enemy or ally enters battle, 1 \[Wandering Spirit\] will appear beside them. When the user is under \[Exorcism Time\] status, captures \[Wandering Spirit\] on the enemy/allied side (up to 12).
+
+At the start of each round, accumulates points of \[Inspiration\] equal to the number of captured \[Wandering Spirit\].
+
+**Epiphany 2, level 2**: **Taoist Rune** New Effects Added: At rank 1/2/3, grants Incantation Might +(rank 3 **Taoist Rune**'s base Reality DMG x15%) to the first 3/4/5 \[Impromptu Incantation\] attacks this round (casting this incantation again only increases the number of attacks to enhance).
+
+**Epiphany 2, level 3**: **Lily Nectar** New Effects Added: Grants an additional DMG Bonus +(**Scientific Ghost Buster**'s base Reality DMG x20% minus 60%). Duration increased to 3 rounds.
+
+**Epiphany 2, level 4**: **Scientific Ghost Buster** New Effects Added: Grants (number of \[Wandering Spirit\] x2) points of \[Inspiration\] to \[Impromptu Incantation\] for the round. The first 5 \[Impromptu Incantation\] attacks this round gain Incantation Might +(rank 3 **Taoist Rune**'s base Reality DMG x15%) (casting this again only increases the number of attacks to enhance).
+
+## Statuses
+
+- **Daze**: Cannot act.
+- **Empower Incantation I**: At the start of the round, a random incantation gains rank +1.
+- **Break Time**: DMG Taken Reduction +10% (cannot be dispelled).
+- **Exorcism Time**: DMG Bonus +10%, Penetration Rate +10% (cannot be dispelled).
+- **Sturdiness**: When attacked, DMG Taken Reduction +25% (-1 stack after trigger).
+- **Rigidity**: When there are 2 stacks, turns into Petrify status or extends the duration of existing Petrify status for 1 round.
+- **Poison**: At the end of the round, takes Genesis DMG based on the user's ATK (stackable).
+- **Burn**: Healing Taken -15% (unstackable). At the end of the round, takes (the holder's ATK x4%) Genesis DMG (stackable up to 30 times, multiple stacks of Burn is regarded as 1 \[Neg Status\], removes 50% of the stacks when triggered).
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
+- **Empower Incantation II**: At the start of the round, 2 random incantations gain rank +1.
+- **Inspiration**: For every 1 Eureka consumed, accumulate 1 point of \[Inspiration\].
+
+  At the start of each round, randomly distribute Inspiration points onto basic incantations (each incantation may receive up to 5 points of Inspiration, and at the end of the round, the points of Inspiration on unused incantations are cleared).
+
+  When actively casting an incantation with \[Inspiration\] points on it, add an \[Impromptu Incantation\] to the end of the spell queue, and all Inspiration points on these casted incantations will be granted to the \[Impromptu Incantation\].
+- **Wandering Spirit**: Wandering Spirits captured by An-an Lee (collects up to 12).
+- **Impromptu Incantation**: 1-target attack. Deals 200% Mental DMG to a random enemy and an additional (the total points of Inspiration granted to Impromptu Incantation x15%) Mental DMG. If Impromptu Incantation has at least 3/6/12/20 points of Inspiration, it gains attack instances +1/2/3/5 (Impromptu Incantation's DMG calculation is based on the average stats of all allies).
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | An-an Lee | 泥鯭的士 | 泥鯭的士 | リー・アンアン | 안안 리 |
+
+## Edition differences
+
+- Epiphany 2, level 3: the global client's English text calls the added bonus DMG Bonus; its Chinese, Japanese and Korean texts and the mainland text call it DMG Dealt.

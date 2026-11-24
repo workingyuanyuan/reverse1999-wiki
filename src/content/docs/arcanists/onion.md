@@ -37,32 +37,35 @@ sources:
 | Psychubes recommended in game | [Long Night Talk](/psychubes/long-night-talk/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-ONiON is one of the launch arcanists. Her two single-target incantations hit harder against a debuffed enemy and against an enemy below half HP. Her Ultimate hits all enemies and gives the team [Sturdiness], after which she takes [Taunt] to draw attacks onto herself.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/onion/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Not Fake News (single-target attack) | 180% Reality DMG; +40% on a debuffed target | 270%; +60% | 450%; +100% |
-| Just A Show (single-target attack) | 160% Reality DMG; +60% below 50% HP | 240%; +90% | 400%; +150% |
+### Not Fake News
 
-A debuffed target is one with a Stats Down, Neg Status or Control effect. Just A Show reads the target's current HP.
+**Rank 1**: 1-target attack. Deals 180% Reality DMG. If the target is in \[Stats Down\], \[Neg Status\], or \[Control\] statuses, this attack deals an additional 40% Reality DMG.
+
+**Rank 2**: 1-target attack. Deals 270% Reality DMG. If the target is in \[Stats Down\], \[Neg Status\], or \[Control\] statuses, this attack deals an additional 60% Reality DMG.
+
+**Rank 3**: 1-target attack. Deals 450% Reality DMG. If the target is in \[Stats Down\], \[Neg Status\], or \[Control\] statuses, this attack deals an additional 100% Reality DMG.
+
+### Just A Show
+
+**Rank 1**: 1-target attack. Deals 160% Reality DMG. If the target's current HP is below 50%, then deals 60% more Reality DMG.
+
+**Rank 2**: 1-target attack. Deals 240% Reality DMG. If the target's current HP is below 50%, then deals 90% more Reality DMG.
+
+**Rank 3**: 1-target attack. Deals 400% Reality DMG. If the target's current HP is below 50%, then deals 150% more Reality DMG.
 
 ## Ultimate: Frequent Phenomena
 
-Deals 250% Reality DMG to all enemies and gives all allies 2 stacks of [Sturdiness].
-
-[Sturdiness]: DMG Taken Reduction +25% when the holder is attacked; one stack is used each time.
-
-[Taunt]: draws enemy attention, so that some attacks pick the holder first.
+Mass attack. Deals 250% Reality DMG to all enemies. Grants 2 stacks of \[Sturdiness\] to all allies.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | After casting her Ultimate, ONiON gains [Taunt] and DMG Taken −30% for 1 round. |
-| 2 | DMG Heal +10% on entering battle. |
+**Insight 1 · The Sane**: After the caster casts an Ultimate, enters \[Taunt\] status and DMG Taken -30% for 1 round.
+
+**Insight 2 · The Sane Ⅱ**: DMG Heal +10% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -71,13 +74,21 @@ Deals 250% Reality DMG to all enemies and gives all allies 2 stacks of [Sturdine
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 300%. |
-| 2 | Not Fake News deals +65, +95 or +160% on a debuffed target by rank. |
-| 3 | The Ultimate deals 350%. |
-| 4 | Just A Show deals its extra damage to a target below 60% HP. |
-| 5 | The Ultimate deals 400%. |
+**Portrait 1**: **Frequent Phenomena**'s effect changes to: deals 300% Reality DMG.
+
+**Portrait 2**: **Not Fake News**'s effect changes to: at 1/2/3 stars, additionally deals 65/95/160% Reality DMG to enemies in \[Stats Down\], \[Neg Status\] or \[Control\].
+
+**Portrait 3**: **Frequent Phenomena**: Reality DMG increased to 350%.
+
+**Portrait 4**: **Just A Show**'s effect changes to: additionally deals Reality DMG when the target's HP is below 60%.
+
+**Portrait 5**: **Frequent Phenomena**: Reality DMG increased to 400%.
+
+## Statuses
+
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
+- **Sturdiness**: When attacked, DMG Taken Reduction +25% (-1 stack after trigger).
+- **Taunt**: Draws the enemy's attention. When taking certain attacks, becomes the priority of the attacks.
 
 ## Names
 

@@ -37,34 +37,37 @@ sources:
 | Psychubes recommended in game | [Her Second Life](/psychubes/her-second-life/) |
 | Mainland release | 2024-11-21 |
 | Global release | 2025-03-06 |
-
-Brimley puts [Riding Double] on one ally and builds stacks of [Horsemanship] on himself. At 3 stacks, his first incantation spends them and the ally with Riding Double casts its second incantation at rank 1 as an extra action; his Ultimate makes that ally cast its first incantation at rank 1. His Insight passives cleanse the ally he buffs and turn its actions into Moxie for him.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/brimley/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Keep Up the Pace! (attack on 2 enemies) | 120% Mental DMG | 180% | 300% |
-| Hop On! (single-target buff) | Riding Double for 2 rounds | Riding Double; Brimley gains 1 Horsemanship | Riding Double; Brimley gains 2 Horsemanship |
+### Keep Up the Pace!
 
-- **Keep Up the Pace!** gives Brimley 1 stack of Horsemanship after the attack at every rank. If he then holds 3 stacks, he spends all of them and the ally with Riding Double casts a rank 1 copy of its own second incantation. This happens at most once per round.
-- **Hop On!**: only one Riding Double can be on the field at a time.
+**Rank 1**: Mass DMG. Deals 120% Mental DMG to 2 enemies; after attacking, gain 1 stack of \[Horsemanship\]; if this unit has 3 stacks of \[Horsemanship\], spend all stacks of \[Horsemanship\] to make the unit with the \[Riding Double\] status cast a rank 1 version of their skill #2, this effect can trigger up to once per round.
+
+**Rank 2**: Mass DMG. Deals 180% Mental DMG to 2 enemies; after attacking, gain 1 stack of \[Horsemanship\]; if this unit has 3 stacks of \[Horsemanship\], spend all stacks of \[Horsemanship\] to make the unit with the \[Riding Double\] status cast a rank 1 version of their skill #2, this effect can trigger up to once per round.
+
+**Rank 3**: Mass DMG. Deals 300% Mental DMG to 2 enemies; after attacking, gain 1 stack of \[Horsemanship\]; if this unit has 3 stacks of \[Horsemanship\], spend all stacks of \[Horsemanship\] to make the unit with the \[Riding Double\] status cast a rank 1 version of their skill #2, this effect can trigger up to once per round.
+
+### Hop On!
+
+**Rank 1**: 1-target buff. Grants the \[Riding Double\] status to the target for 2 rounds; only one \[Riding Double\] status can exist on the field at a time.
+
+**Rank 2**: 1-target buff. Grants the \[Riding Double\] status to the target for 2 rounds and 1 stack of \[Horsemanship\] to self; only one \[Riding Double\] status can exist on the field at a time.
+
+**Rank 3**: 1-target buff. Grants the \[Riding Double\] status to the target for 2 rounds and 2 stacks of \[Horsemanship\] to self; only one \[Riding Double\] status can exist on the field at a time.
 
 ## Ultimate: Giddy Up, Mate!
 
-Deals 300% Mental DMG to all enemies and lowers their Reality DEF by 20% for 3 rounds. Then the ally with Riding Double casts a rank 1 copy of its own first incantation.
-
-[Riding Double]: when its holder takes an extra action, it gains ATK equal to 5% of Brimley's ATK.
-
-[Horsemanship]: at 3 stacks, casting Keep Up the Pace! gives the ally with Riding Double an extra action.
+Mass DMG. Deals 300% Mental DMG to all enemies; after attacking, inflict Reality DEF -20% on the target for 3 rounds, then make the unit with the \[Riding Double\] status cast a rank 1 version of their skill #1.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Hop On! also removes 2 random kinds of Stats Down, Neg Status or Control effects from its target. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | After another ally takes an extra action, Brimley gains 1 stack of Horsemanship (once per round). Every 3 actions of the ally with Riding Double give Brimley 1 Moxie (once per round). |
+**Insight 1 · Hat-First Into Action**: When casting \[Hop On!\], dispel an additional 2 random types of \[Stats Down\], \[Neg Status\], or \[Control\] statuses from the target.
+
+**Insight 2 · Hat-First Into Action II**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · Hat-First Into Action III**: After another ally performs an extra action, grant 1 stack of \[Horsemanship\] to self (triggers up to once per round); whenever the unit with the \[Riding Double\] status takes 3 actions, Brimley gets Moxie +1 (triggers up to once per round).
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -74,13 +77,21 @@ Deals 300% Mental DMG to all enemies and lowers their Reality DEF by 20% for 3 r
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Keep Up the Pace! deals 140, 210 or 350% by rank. |
-| 2 | The Ultimate deals 350%. |
-| 3 | Hop On! removes 3 kinds of Stats Down, Neg Status or Control effects instead of 2. |
-| 4 | The Ultimate deals 400%. |
-| 5 | Riding Double gives ATK equal to 8% of Brimley's ATK. |
+**Portrait 1**: **Keep Up the Pace!**: At incantation rank 1/2/3, Mental DMG is increased to 140%/210%/350%.
+
+**Portrait 2**: **Giddy Up, Mate!**'s effect changes to: deals 350% Mental DMG.
+
+**Portrait 3**: **Hat-First Into Action**: When casting \[Hop On!\], the additional types of \[Stats Down\], \[Neg Status\], and \[Control\] statuses dispelled are increased to 3.
+
+**Portrait 4**: **Giddy Up, Mate!**: Mental DMG increased to 400%.
+
+**Portrait 5**: **Hop On!**: \[Riding Double\]'s bonus ATK multiplier is increased to 8%.
+
+## Statuses
+
+- **Horsemanship**: On reaching 3 stacks, casting \[Keep Up the Pace!\] makes the unit with the \[Riding Double\] status perform an extra action.
+- **Riding Double**: When performing an extra action, gain (Brimley's ATK x5%) ATK.
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
 
 ## Names
 

@@ -1,6 +1,6 @@
 ---
 title: "Beast arcanists"
-description: "Reverse: 1999 arcanists of the Beast Afflatus: rarity, damage type, Euphoria and release dates."
+description: "Reverse: 1999 has 30 arcanists of the Beast Afflatus."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
 caveat: "An arcanist whose global release says not yet is out only on the mainland China service; the mainland service runs about two versions ahead."
 lastVerified: 2026-11-22
@@ -41,6 +41,7 @@ sources:
 | [Desert Flannel](/arcanists/desert-flannel/) | 5 stars | Reality | no | 2023-12-21 | 2024-05-09 |
 | [Dikke](/arcanists/dikke/) | 5 stars | Mental | no | 2023-05-31 | 2023-10-26 |
 | [Mr. Duncan](/arcanists/mr-duncan/) | 5 stars | Reality | no | 2024-09-19 | 2025-01-09 |
+| [Schneider](/arcanists/schneider/) | 5 stars | Mental | no | not playable | not playable |
 | [Sweetheart](/arcanists/sweetheart/) | 5 stars | Reality | no | 2023-05-31 | 2023-10-26 |
 | [Tennant](/arcanists/tennant/) | 5 stars | Reality | yes | 2023-05-31 | 2023-10-26 |
 | [Bunny Bunny](/arcanists/bunny-bunny/) | 4 stars | Reality | no | 2023-05-31 | 2023-10-26 |

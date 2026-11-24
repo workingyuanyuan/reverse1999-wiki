@@ -1,6 +1,6 @@
 ---
 title: "Might Psychubes"
-description: "Reverse: 1999 Psychubes that add Incantation Might or Ultimate Might: extra stat and recommended arcanists."
+description: "Reverse: 1999 has 19 Psychubes that add Incantation Might or Ultimate Might."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
 caveat: "The extra stat is the value at max level; a Psychube whose name says not yet official is in the mainland China client only."
 lastVerified: 2026-11-23

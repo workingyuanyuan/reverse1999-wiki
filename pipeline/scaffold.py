@@ -59,7 +59,7 @@ L = {
 		res='[{s} set](/systems/resonance/): {p}',
 		afflatus={'Star': 'Star', 'Mineral': 'Mineral', 'Beast': 'Beast', 'Plant': 'Plant', 'Spirit': 'Spirit', 'Intellect': 'Intellect', 101: 'Mineral and Star'},
 		damage={'Reality': 'Reality', 'Mental': 'Mental'}, tagsep=', ',
-		version='version {v}', unknown='—', notyet='not yet', notreleased='{d}, not yet released', inclient='in the global client',
+		version='version {v}', unknown='—', notyet='not yet', notreleased='{d}, not yet released', unplayable='not playable', inclient='in the global client',
 		mat=('Insight', 'Max level', 'Materials'), matsep='; ', num='{:,}',
 		names=('English', 'Simplified Chinese', 'Traditional Chinese', 'Japanese', 'Korean'),
 		unofficial='{n} (not yet official)', none='not yet official',
@@ -86,7 +86,7 @@ L = {
 		res='[{s}組](/zh-tw/systems/resonance/)：{p}',
 		afflatus={'Star': '星', 'Mineral': '岩', 'Beast': '獸', 'Plant': '木', 'Spirit': '靈', 'Intellect': '智', 101: '岩與星'},
 		damage={'Reality': '現實', 'Mental': '精神'}, tagsep='、',
-		version='{v} 版', unknown='—', notyet='尚未上線', notreleased='{d}，尚未上線', inclient='已在國際版用戶端中',
+		version='{v} 版', unknown='—', notyet='尚未上線', notreleased='{d}，尚未上線', unplayable='未開放為可用角色', inclient='已在國際版用戶端中',
 		mat=('洞悉', '等級上限', '材料'), matsep='；', num='{:,}',
 		names=('英文', '簡體中文', '繁體中文', '日文', '韓文'),
 		unofficial='{n}（非官方）', none='尚無官方譯名',
@@ -113,7 +113,7 @@ L = {
 		res='[{s}グループ](/ja/systems/resonance/)：{p}',
 		afflatus={'Star': '星', 'Mineral': '岩', 'Beast': '獣', 'Plant': '木', 'Spirit': '霊', 'Intellect': '知', 101: '岩と星'},
 		damage={'Reality': 'リアル', 'Mental': 'メンタル'}, tagsep='、',
-		version='バージョン {v}', unknown='—', notyet='未実装', notreleased='{d}、未実装', inclient='グローバル版クライアントに収録',
+		version='バージョン {v}', unknown='—', notyet='未実装', notreleased='{d}、未実装', unplayable='プレイアブル未実装', inclient='グローバル版クライアントに収録',
 		mat=('洞察', '最大レベル', '素材'), matsep='、', num='{:,}',
 		names=('英語', '簡体字中国語', '繁体字中国語', '日本語', '韓国語'),
 		unofficial='{n}（非公式）', none='公式名なし',
@@ -140,7 +140,7 @@ L = {
 		res='[{s} 그룹](/ko/systems/resonance/): {p}',
 		afflatus={'Star': '천체', 'Mineral': '암석', 'Beast': '야수', 'Plant': '나무', 'Spirit': '영혼', 'Intellect': '지능', 101: '암석과 천체'},
 		damage={'Reality': '현실', 'Mental': '정신'}, tagsep=', ',
-		version='{v} 버전', unknown='—', notyet='출시 전', notreleased='{d}, 출시 전', inclient='글로벌 클라이언트에 있음',
+		version='{v} 버전', unknown='—', notyet='출시 전', notreleased='{d}, 출시 전', unplayable='플레이 불가', inclient='글로벌 클라이언트에 있음',
 		mat=('통찰', '최대 레벨', '재료'), matsep=', ', num='{:,}',
 		names=('영어', '간체 중국어', '번체 중국어', '일본어', '한국어'),
 		unofficial='{n} (비공식)', none='공식 명칭 없음',
@@ -199,6 +199,9 @@ def release(a, lang):
 	if not cn and a['slug'] in VERSION_ONLY:
 		cn = t['version'].format(v=VERSION_ONLY[a['slug']])
 	mainland = (t['notreleased'].format(d=cn) if not a['online'] and cn else cn) or t['unknown']
+	if not a['online'] and not cn:
+		# In the tables of both clients but never released (Schneider, a character of the main story).
+		return t['unplayable'], t['unplayable']
 	if not a['inGlobal']:
 		glob = t['notyet']
 	else:
@@ -287,7 +290,7 @@ def blocks(slug, lang):
 			f'  - title: "{t["art"][1].format(d=f["uploaded"])}"\n    url: {f["url"]}')
 		out['art line'] = f'![{t["alt"].format(n=title)}](/art/characters/{slug}.webp)'
 	# profile
-	tags = t['tagsep'].join(TAGS.get(z, {}).get(lang, z) for z in a['tagsZh'])
+	tags = t['tagsep'].join(TAGS.get(z, {}).get(lang, z) for z in a['tagsZh']) or None  # Schneider has none
 	mainland, glob = release(a, lang)
 	vals = (t['stars'].format(n=a['stars']), t['afflatus'][a['afflatus']], t['damage'][a['damage']], tags, resonance(slug, lang),
 		psychubes(slug, lang), mainland, glob, profile_link(slug, lang))
@@ -380,6 +383,7 @@ def check(path):
 	written = re.sub(r'^(?:sources|art):\n(?:  .*\n)+', '', written, flags=re.M)
 	written = re.sub(r'^(?:appliesTo|lastVerified|title): .*\n', '', written, flags=re.M)
 	written = re.sub(r'!\[[^\]]*\]\([^)]*\)', '', written)
+	written = re.sub(r'\[[^\]]*\]\(/[^)]*\)', '', written)  # a link to another page names it (2ND-15 Empty Wardrobe)
 	for n in sorted(numbers(written) - allowed, key=lambda x: float(x)):
 		line = next((l for l in written.split('\n') if re.search(rf'(?<![\d.]){re.escape(n)}(?![\d.])', l.replace(',', ''))), '')
 		errors.append(f'{rel}: number {n} is not in the game text of {slug}: {line.strip()[:120]}')

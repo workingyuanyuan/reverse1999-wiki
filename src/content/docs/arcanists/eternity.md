@@ -37,38 +37,37 @@ sources:
 | Psychubes recommended in game | [The Fighter's Best Wishes](/psychubes/the-fighters-best-wishes/), [A Satisfied Eater](/psychubes/a-satisfied-eater/), [Night After Night](/psychubes/night-after-night/), [Into the Gentle Current](/psychubes/into-the-gentle-current/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Eternity spends her own HP on both incantations and wins it back through the Leech Rate of her Ultimate. A stack of Blood of Longevity at the start of each round raises her damage and DMG Heal, and from Insight 3, five stacks turn into the stronger Blood of Immortality. Her Euphoria makes the whole team trade HP for damage.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/eternity/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Vigor Handbag (single-target attack) | 200% Reality DMG | 300% | 500% |
-| Vintage Handfan (attack on 2 enemies) | 160% Reality DMG | 240% | 400% |
+### Vigor Handbag
 
-- Both incantations first take 10% of Eternity's current HP.
-- **Vigor Handbag** puts [Nasty Wound] on the target for 1 round.
+**Rank 1**: 1-target attack. Loses (Current HP x10%) HP and deals 200% Reality DMG. Inflicts \[Nasty Wound\] for 1 round on the target hit.
 
-[Nasty Wound]: Healing Taken -50%.
+**Rank 2**: 1-target attack. Loses (Current HP x10%) HP and deals 300% Reality DMG. Inflicts \[Nasty Wound\] for 1 round on the target hit.
+
+**Rank 3**: 1-target attack. Loses (Current HP x10%) HP and deals 500% Reality DMG. Inflicts \[Nasty Wound\] for 1 round on the target hit.
+
+### Vintage Handfan
+
+**Rank 1**: Mass attack. HP -(current HP ×10%) and deals 160% Reality DMG to 2 enemies.
+
+**Rank 2**: Mass attack. HP -(current HP ×10%) and deals 240% Reality DMG to 2 enemies.
+
+**Rank 3**: Mass attack. HP -(current HP ×10%) and deals 400% Reality DMG to 2 enemies.
 
 ## Ultimate: Anecdotes in Exeter
 
-Deals 300% Reality DMG to all enemies, with Leech Rate +50% for this attack.
-
-[Blood of Longevity]: DMG Dealt +3% and DMG Heal +3% per stack, up to 5 stacks; cannot be dispelled.
-
-[Blood of Immortality]: DMG Bonus +25% and DMG Heal +25%; the holder is immune to Stats Down effects, and it cannot be dispelled.
-
-[Bloodtithe]: a team resource. It gains 1 point for every 3000 HP the team loses in total; HP lost to attacks counts at only 30%. On the mainland client, a team cannot hold it together with Lingering Glow or the Pursuit Scope.
+Mass attack. Deals 300% Reality DMG to all enemies. This attack enjoys Leech Rate +50%.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Immune to Bleed, Corrode and Poison. Eternity gains 1 stack of Blood of Longevity at the start of each round. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | Each stack of Blood of Longevity gives DMG Dealt +5% and DMG Heal +5%; at 5 stacks it turns into Blood of Immortality. |
+**Insight 1 · Solitude for 100 Years**: Immune to \[Bleed\], \[Corrode\], and \[Poison\]. At the start of each round, gains 1 stack of \[Blood of Longevity\]: Deals 3% increased damage and damage recovery increases by 3% (cannot be dispelled, and the effect is stackable up to 5 times).
+
+**Insight 2 · Solitude for 100 Years Ⅱ**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · Solitude for 100 Years Ⅲ**: Enhanced \[Blood of Longevity\] effect: DMG Dealt +5% and DMG Heal +5%. At 5 stacks of Blood of Longevity, this effect transforms to \[Blood of Immortality\].
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -78,31 +77,50 @@ Deals 300% Reality DMG to all enemies, with Leech Rate +50% for this attack.
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 350%. |
-| 2 | Vigor Handbag deals 220, 330 or 550% by rank. |
-| 3 | Vintage Handfan deals 180, 270 or 450% by rank. |
-| 4 | The Ultimate has Leech Rate +60%. |
-| 5 | The Ultimate deals 400%. |
+**Portrait 1**: **Anecdotes in Exeter**: Reality DMG increased to 350%.
+
+**Portrait 2**: **Vigor Handbag**: At Incantation rank 1/2/3, Reality DMG increased to 220/330/550%.
+
+**Portrait 3**: **Vintage Handfan**'s effect changes to: at 1/2/3 stars, deals 180/270/450% Reality DMG.
+
+**Portrait 4**: **Anecdotes in Exeter**'s effect changes to: Leech Rate +60%.
+
+**Portrait 5**: **Anecdotes in Exeter**: Reality DMG increased to 400%.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Eternity has two Epiphanies of four levels each: the first spends the team's HP for damage and toughness, the second builds Blood of Immortality with [Bloodtithe].
+**Epiphany 1, level 1**: After attacking, consume (their own Max HP x10%) HP from all allies to deal an additional (the team's combined Max HP x7%) Genesis DMG to the target; if an ally's HP is already below 50%, that ally does not lose HP this way.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | After Eternity attacks, every ally loses 10% of its Max HP, and the target takes extra Genesis DMG equal to 7% of the team's combined Max HP. An ally at or below 50% HP loses none; the global text says below 50%. |
-| 1 | 2 | On entering battle, every other ally gains Max HP equal to 5% of Eternity's Max HP. |
-| 1 | 3 | At the start of each round, each ally takes 5% less damage for every 10% of Max HP it is missing, up to 25%. |
-| 1 | 4 | When an ally attacks, it gains Critical Rate +4% and Critical DMG +6% for every 10% of Max HP it is missing, up to 5 times; below 50% HP, Critical Rate beyond the cap turns into Critical DMG. |
-| 2 | 1 | The team gains Bloodtithe when it loses HP. Eternity enters battle with Blood of Immortality. At the start of each round, every ally loses 20% of its current HP, and at 10, 20 or 30 Bloodtithe the points are spent to raise Blood of Immortality to rank I, II or III: Max HP +10, 30 or 60%, and ATK +50, 70 or 120 for every 1000 Max HP. |
-| 2 | 2 | With Blood of Immortality at rank II, Vigor Handbag and Vintage Handfan give Eternity 1 Moxie. |
-| 2 | 3 | With Blood of Immortality at rank III, the Ultimate always crits and deals extra Reality DMG equal to 100% of its base. |
-| 2 | 4 | At the start of a round with Blood of Immortality at rank III, Eternity spends 10 Bloodtithe to cast her Ultimate. |
+**Epiphany 1, level 2**: When entering battle, grant (Eternity's Max HP x5%) Max HP to other allies.
+
+**Epiphany 1, level 3**: At the start of the round, for every 10% missing Max HP on an ally, grant DMG Taken -5% to that ally, stacking up to 25%.
+
+**Epiphany 1, level 4**: When an ally attacks, for every 10% Missing Max HP the ally has, the ally gains Critical Rate +4% and Critical DMG +6% (stacks up to 5 times); if the ally's HP is below 50%, then the ally's excess Critical Rate is converted to Critical DMG.
+
+**Epiphany 2, level 1**: Whenever an ally loses HP, accumulate points of \[Bloodtithe\]. When entering battle, gain \[Blood of Immortality\]. \[Blood of Immortality\] Enhancement: At the start of the round, consume all allies' (Current HP x20%) HP; if there are 10/20/30 Bloodtithe points, consume them to upgrade \[Blood of Immortality\]; at rank I/II/III, \[Blood of Immortality\] grants Max HP +10/30/60%, and ATK +50/70/120 for every 1000 Max HP owned.
+
+**Epiphany 2, level 2**: When \[Blood of Immortality\] reaches rank II, **Vigor Handbag** **Vintage Handfan** grants Moxie +1.
+
+**Epiphany 2, level 3**: When \[Blood of Immortality\] reaches rank III, **Anecdotes in Exeter** is guaranteed to crit and deals an additional (base Reality DMG x100%) Reality DMG.
+
+**Epiphany 2, level 4**: At the start of the round, if \[Blood of Immortality\] is at rank III, consumes 10 \[Bloodtithe\] points to cast **Anecdotes in Exeter**.
+
+## Statuses
+
+- **Nasty Wound**: Healing Taken -50%.
+- **Bleed**: After action, takes (the caster's ATK ×100%) Genesis DMG.
+- **Corrode**: When a round ends, takes Genesis DMG based on the carrier's current HP.
+- **Poison**: At the end of the round, takes Genesis DMG based on the user's ATK (stackable).
+- **Blood of Longevity**: Minor increase to DMG Bonus and DMG Heal.
+- **Blood of Immortality**: DMG Bonus +25%, DMG Heal +25%. Immune to \[Stats Down\] (cannot be dispelled).
+- **Bloodtithe**: Whenever allies lose 3000 HP combined, accumulate 1 point of \[Bloodtithe\]; HP lost from being attacked accumulates \[Bloodtithe\] at only 30% efficiency.
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | Eternity | 温妮弗雷德 | 溫妮弗雷德 | エターニティ | 이터니티 |
+
+## Edition differences
+
+- Epiphany 1, level 1: on the mainland client an ally at or below 50% HP loses no HP; the global client's text says below 50%.

@@ -1,6 +1,6 @@
 ---
 title: "A Satisfied Eater"
-description: "A Satisfied Eater is a 5-star ATK Psychube that raises Penetration Rate while its carrier is below 80% HP."
+description: "A Satisfied Eater is a 5-star ATK Psychube that raises its carrier's Penetration Rate."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
 caveat: "The Penetration Rate bonus applies only to attacks the carrier makes while below 80% HP."
 lastVerified: 2026-11-23
@@ -40,7 +40,15 @@ sources:
 
 ## Effect
 
-When the carrier attacks while below 80% HP, it gets Penetration Rate +8/10/12/14/16% (Amplification 1 to 5).
+**Amplification 1**: Whenever the Carrier attacks at below 80% HP, Penetration Rate +8%.
+
+**Amplification 2**: Whenever the Carrier attacks at below 80% HP, Penetration Rate +10%.
+
+**Amplification 3**: Whenever the Carrier attacks at below 80% HP, Penetration Rate +12%.
+
+**Amplification 4**: Whenever the Carrier attacks at below 80% HP, Penetration Rate +14%.
+
+**Amplification 5**: Whenever the Carrier attacks at below 80% HP, Penetration Rate +16%.
 
 ## Names
 

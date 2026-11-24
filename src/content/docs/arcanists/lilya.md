@@ -37,29 +37,37 @@ sources:
 | Psychubes recommended in game | [Outside the City](/psychubes/outside-the-city/), [Thunderous Applause](/psychubes/thunderous-applause/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Lilya is one of the launch 6-star arcanists. Her single-target incantation adds a follow-up attack when it crits, and her passives raise her Critical Rate, including the share that comes from her Psychube. Both of her Euphoria Epiphanies turn excess Critical Rate into Critical DMG and give her second incantation a follow-up attack as well.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/lilya/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Crosswind Takeoff (single-target attack) | 160% Reality DMG; follow-up 80% on a crit | 240%; follow-up 120% | 400%; follow-up 200% |
-| Aerial Maneuvers (attack on 2 enemies) | 150% Reality DMG | 225% | 375% |
+### Crosswind Takeoff
 
-The follow-up attack of Crosswind Takeoff counts as an extra action.
+**Rank 1**: 1-target attack. Deals 160% Reality DMG. When scoring a critical hit, performs 1 follow-up attack that deals 80% Reality DMG. This follow-up attack is regarded as 1 extra action.
+
+**Rank 2**: 1-target attack. Deals 240% Reality DMG. When scoring a critical hit, performs 1 follow-up attack that deals 120% Reality DMG. This follow-up attack is regarded as 1 extra action.
+
+**Rank 3**: 1-target attack. Deals 400% Reality DMG. When scoring a critical hit, performs 1 follow-up attack that deals 200% Reality DMG. This follow-up attack is regarded as 1 extra action.
+
+### Aerial Maneuvers
+
+**Rank 1**: Mass attack. Deals 150% Reality DMG to 2 enemies.
+
+**Rank 2**: Mass attack. Deals 225% Reality DMG to 2 enemies.
+
+**Rank 3**: Mass attack. Deals 375% Reality DMG to 2 enemies.
 
 ## Ultimate: A Small Trick
 
-Deals 700% Reality DMG to one enemy; if the hit is critical, it gains Leech Rate +15%.
+1-target attack. Deals 700% Reality DMG. When this attack scores a critical hit, it enjoys Leech Rate +15%.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Critical Rate +20% when Lilya casts her Ultimate. |
-| 2 | Critical Rate +10% on entering battle. |
-| 3 | The Critical Rate that her Psychube's base stats give is raised by 100%. |
+**Insight 1 · Vehicle Control**: When the caster casts an Ultimate, Critical Rate +20%.
+
+**Insight 2 · Vehicle Control Ⅱ**: Critical Rate +10% when entering battle.
+
+**Insight 3 · Vehicle Control Ⅲ**: Psychube's basic Critical Rate Bonus +100%.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -69,32 +77,39 @@ Deals 700% Reality DMG to one enemy; if the hit is critical, it gains Leech Rate
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 775%. |
-| 2 | Aerial Maneuvers deals 165, 245 or 400% by rank. |
-| 3 | Crosswind Takeoff deals 180, 270 or 450% by rank. |
-| 4 | The Ultimate's Leech Rate on a crit becomes 25%. |
-| 5 | The Ultimate deals 850%. |
+**Portrait 1**: **A Small Trick**'s effect changes to: deals 775% Reality DMG.
+
+**Portrait 2**: **Aerial Maneuvers**'s effect changes to: at 1/2/3 stars, deals 165/245/400% Reality DMG.
+
+**Portrait 3**: **Crosswind Takeoff**'s effect changes to: at 1/2/3 stars, deals 180/270/450% Reality DMG.
+
+**Portrait 4**: **A Small Trick**'s effect changes to: 25% Leech Rate on a critical hit.
+
+**Portrait 5**: **A Small Trick**'s effect changes to: deals 850% Reality DMG.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Lilya has two Epiphanies of four levels each. Both turn excess Critical Rate into Critical DMG at level 1 and add a follow-up to Aerial Maneuvers at level 3; the first builds Moxie and Ultimate damage, the second lowers enemy Critical DEF.
+**Epiphany 1, level 1**: When attacking, excess Critical Rate is converted into Critical DMG; after scoring a critical hit, gain 1 stack of \[Intense Fervor\] for self; when casting an ultimate, consume all stacks of \[Intense Fervor\] to gain an equal number of Moxie.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | Critical Rate above the cap turns into Critical DMG when she attacks. Each crit gives her 1 stack of [Intense Fervor]. |
-| 1 | 2 | Each critical hit from an extra action gives her 2 stacks of [Ceremonious]. |
-| 1 | 3 | When Aerial Maneuvers crits, it adds a follow-up attack of 80, 120 or 200% Reality DMG by rank, counted as an extra action. |
-| 1 | 4 | Her Ultimate deals 30% more Reality DMG for each stack of Ceremonious she holds, counting up to 15 stacks. |
-| 2 | 1 | Incantation Might +5%; Critical Rate above the cap turns into Critical DMG when she attacks. |
-| 2 | 2 | She gains 1 [Pointed Bullet] at the start of each round, and has a 50% chance to gain 1 more on each crit. |
-| 2 | 3 | When Aerial Maneuvers crits, it adds a follow-up attack of 80, 120 or 200% Reality DMG by rank, counted as an extra action. |
-| 2 | 4 | Once Pointed Bullet has triggered twice in a round, her attacks gain Incantation Might +20% for the rest of that round. |
+**Epiphany 1, level 2**: When an extra action scores a critical hit, gain 2 stacks of \[Ceremonious\].
 
-- [Intense Fervor]: when Lilya casts her Ultimate, all stacks are spent for the same amount of Moxie; at most 2 stacks, cannot be dispelled.
-- [Ceremonious]: Ultimate Might +3% per stack, up to 100 stacks; cannot be dispelled and is removed after she casts her Ultimate.
-- [Pointed Bullet]: the target it hits has Critical DEF −5% for 2 rounds, stacking up to 2 times.
+**Epiphany 1, level 3**: When **Aerial Maneuvers** scores a critical hit at incantation rank 1/2/3, performs 1 extra attack that deals 80%/120%/200% Reality DMG. This extra attack is regarded as 1 extra action.
+
+**Epiphany 1, level 4**: When casting an ultimate, deal an additional 30% Reality DMG for each stack of \[Ceremonious\] held; up to 15 stacks can be used to count toward this bonus.
+
+**Epiphany 2, level 1**: Incantation Might +5%; when attacking, excess Critical Rate is converted to Critical DMG.
+
+**Epiphany 2, level 2**: At the start of the round, gain 1 \[Pointed Bullet\]. When scoring a critical hit, there's a 50% chance to gain 1 \[Pointed Bullet\].
+
+**Epiphany 2, level 3**: When **Aerial Maneuvers** scores a critical hit at incantation rank 1/2/3, performs 1 extra attack that deals 80%/120%/200% Reality DMG. This extra attack is regarded as 1 extra action.
+
+**Epiphany 2, level 4**: After \[Pointed Bullet\] is triggered at least twice in one round, get Incantation Might +20% when attacking for the rest of the round.
+
+## Statuses
+
+- **Intense Fervor**: When casting an ultimate, consume all stacks to gain an equal amount of Moxie, (stackable up to 2 times, undispellable).
+- **Ceremonious**: Ultimate Might +3% (up to 100 stacks, undispellable, disappears after casting an Ultimate).
+- **Pointed Bullet**: Inflicts Critical DEF -5% for 2 rounds on the target hit (stacks up to 2 times).
 
 ## Names
 

@@ -30,11 +30,6 @@ sources:
 | Extra stat at max level | DMG Heal +18% |
 | Global client | not yet, mainland China client only |
 
-## Effect
-
-- On entering battle, a Star carrier gains HP +5/7.5/10/12.5/15% (Amplification 1 to 5).
-- After the carrier casts a Pursuit incantation, all allies gain Pursuit DMG Bonus +12/14/16/18/20%. The bonus is cleared when Full Pursuit ends.
-
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |

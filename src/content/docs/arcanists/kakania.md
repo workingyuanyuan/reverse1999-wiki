@@ -37,35 +37,41 @@ sources:
 | Psychubes recommended in game | [The Fighter's Best Wishes](/psychubes/the-fighters-best-wishes/) |
 | Mainland release | 2024-06-06 |
 | Global release | 2024-10-10 |
-
-Kakania takes half the damage that attacks deal to her allies and stores a share of every hit she takes as Empathy. Her attack and her Ultimate add Genesis DMG scaled on the Empathy she holds, and the Ultimate empties it. Her second incantation either heals her or trades her HP for an ATK buff on an ally.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/kakania/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Subconscious (single-target attack) | 180% Mental DMG + Empathy ×180% Genesis DMG | 270% + Empathy ×220% | 450% + Empathy ×260% |
-| Association (single-ally buff) | on herself: heals 20% of her Max HP; on an ally: costs 10% of her Max HP | 30%; 15% | 40%; 20% |
+### Subconscious
 
-- **Association** on another ally gives it [Solace] for 2 rounds.
+**Rank 1**: 1-target attack. Deals 180% Mental DMG plus (Current \[Empathy\] x180%) Genesis DMG.
 
-[Solace]: ATK +300, plus 10% of Kakania's Empathy at the moment it is given.
+**Rank 2**: 1-target attack. Deals 270% Mental DMG plus (Current \[Empathy\] x220%) Genesis DMG.
+
+**Rank 3**: 1-target attack. Deals 450% Mental DMG plus (Current \[Empathy\] x260%) Genesis DMG.
+
+### Association
+
+**Rank 1**: 1-target buff. When cast on self, recovers (the user's Max HP x20%) HP. When cast on other allies, loses own (Max HP x10%) HP and grants \[Solace\] to the target for 2 rounds.
+
+**Rank 2**: 1-target buff. When cast on self, recovers (the user's Max HP x30%) HP. When cast on other allies, loses own (Max HP x15%) HP and grants \[Solace\] to the target for 2 rounds.
+
+**Rank 3**: 1-target buff. When cast on self, recovers (the user's Max HP x40%) HP. When cast on other allies, loses own (Max HP x20%) HP and grants \[Solace\] to the target for 2 rounds.
 
 ## Ultimate: Id, Ego, and Superego
 
-Deals 400% Mental DMG to one enemy plus Genesis DMG equal to 1000% of the current Empathy, then empties Empathy. For the rest of the round it records all the damage the target takes, and at the end of the round deals 30% of that record as [Static Genesis DMG].
-
-[Empathy]: the store of damage Kakania has taken, which powers her incantations.
-
-[Static Genesis DMG]: Genesis DMG that stat bonuses do not change.
+1-target attack. Deals 400% Mental DMG plus (Current \[Empathy\] x1000%) Genesis DMG to the target, resets \[Empathy\] to zero, and then starts recording the damage the target takes for the round. At the end of the round, deals (recorded damage taken x30%) \[Static Genesis DMG\] to the target.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Kakania takes 50% of the damage that attacks deal to other allies. 10% of all damage she takes is stored as Empathy, up to 20% of her Max HP; with Empathy full, she no longer takes damage for allies. |
-| 2 | Max HP +5% on entering battle. |
-| 3 | Each time Empathy grows by 3% of her Max HP, all allies recover HP equal to 10% of her Max HP. When she is healed, all enemies take Genesis DMG equal to 100% of the current Empathy. |
+**Insight 1 · Psychoanalysis**: When attacked, directs 50% of the damage taken by other allies to Kakania instead.
+
+Whenever Kakania takes damage, 10% of that damage is stored as \[Empathy\], which can store up to 20% of Kakania's Max HP. Once \[Empathy\] is full, Kakania can no longer take damage on behalf of other allies.
+
+**Insight 2 · Psychoanalysis II**: When entering battle, Max HP +5%.
+
+**Insight 3 · Psychoanalysis III**: Whenever \[Empathy\] stores (Kakania's Max HP x3%) damage, recovers own (Max HP x10%) HP for all allies.
+
+When being healed, deals (Current \[Empathy\] x100%) Genesis DMG to all enemies.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -75,13 +81,21 @@ Deals 400% Mental DMG to one enemy plus Genesis DMG equal to 1000% of the curren
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Solace gives ATK +400, plus 13% of the Empathy. |
-| 2 | The Insight 3 heal comes every 2% of her Max HP instead of 3%; the Genesis DMG when she is healed becomes 120% of the Empathy. |
-| 3 | Empathy holds up to 30% of her Max HP, and 15% of damage taken goes into it. |
-| 4 | Subconscious adds Empathy ×270, 310 or 350% by rank. |
-| 5 | The Ultimate adds Empathy ×1300%, and its end-of-round damage becomes 45% of the record. |
+**Portrait 1**: **Association**: \[Solace\]'s ATK bonus is increased to 400, and the additional ATK bonus based on \[Empathy\] value is increased to 13%.
+
+**Portrait 2**: **Psychoanalysis**: The threshold for \[Empathy\] to trigger healing is decreased from 3% HP to 2% HP. When healed, the Genesis DMG dealt is increased to (current Empathy value x120%).
+
+**Portrait 3**: **Psychoanalysis**: \[Empathy\]'s maximum value is increased to 30% of Max HP. The percentage of damage taken that's converted to \[Empathy\] is changed to 15%.
+
+**Portrait 4**: **Subconscious**: At rank 1/2/3, the Genesis DMG dealt is increased to (current \[Empathy\] value x270/310/350%).
+
+**Portrait 5**: **Id, Ego, and Superego**: The additional Genesis DMG dealt is increased to (current \[Empathy\] value x1300%); the \[Static Genesis DMG\] dealt at the end of the round is increased to (recorded value x45%).
+
+## Statuses
+
+- **Empathy**: Enhances Kakania's incantations. Records Kakania's damage taken.
+- **Solace**: Grants the target ally 300 ATK plus (on-cast \[Empathy\] value x10%) ATK.
+- **Static Genesis DMG**: This type of Genesis DMG is not affected by relevant stat bonuses.
 
 ## Names
 

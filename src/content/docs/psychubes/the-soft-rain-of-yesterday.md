@@ -40,9 +40,35 @@ sources:
 
 ## Effect
 
-- On entering battle, an [All-Rounder] carrier gains ATK +4/5/6/8/10% and Max HP +4/5/6/8/10% (Amplification 1 to 5).
-- After the carrier actively casts an incantation, all allies gain DMG Dealt +1.2/1.4/1.6/1.8/2% for 3 rounds, up to 6 stacks.
-- After a Beast carrier casts its Ultimate, all allies gain Critical DMG +8/10/12/14/16% for 3 rounds.
+**Amplification 1**: When entering battle, if the carrier is an \[All-Rounder\] character, gains ATK +4% and Max HP +4%.
+
+After the carrier actively casts an incantation, grants DMG Dealt +1.2% to all allies for 3 rounds, stacking up to 6 times.
+
+If the carrier is a \[Beast\] character, after casting an Ultimate, grants Critical DMG +8% to all allies for 3 rounds.
+
+**Amplification 2**: When entering battle, if the carrier is an \[All-Rounder\] character, gains ATK +5% and Max HP +5%.
+
+After the carrier actively casts an incantation, grants DMG Dealt +1.4% to all allies for 3 rounds, stacking up to 6 times.
+
+If the carrier is a \[Beast\] character, after casting an Ultimate, grants Critical DMG +10% to all allies for 3 rounds.
+
+**Amplification 3**: When entering battle, if the carrier is an \[All-Rounder\] character, gains ATK +6% and Max HP +6%.
+
+After the carrier actively casts an incantation, grants DMG Dealt +1.6% to all allies for 3 rounds, stacking up to 6 times.
+
+If the carrier is a \[Beast\] character, after casting an Ultimate, grants Critical DMG +12% to all allies for 3 rounds.
+
+**Amplification 4**: When entering battle, if the carrier is an \[All-Rounder\] character, gains ATK +8% and Max HP +8%.
+
+After the carrier actively casts an incantation, grants DMG Dealt +1.8% to all allies for 3 rounds, stacking up to 6 times.
+
+If the carrier is a \[Beast\] character, after casting an Ultimate, grants Critical DMG +14% to all allies for 3 rounds.
+
+**Amplification 5**: When entering battle, if the carrier is an \[All-Rounder\] character, gains ATK +10% and Max HP +10%.
+
+After the carrier actively casts an incantation, grants DMG Dealt +2% to all allies for 3 rounds, stacking up to 6 times.
+
+If the carrier is a \[Beast\] character, after casting an Ultimate, grants Critical DMG +16% to all allies for 3 rounds.
 
 ## Names
 

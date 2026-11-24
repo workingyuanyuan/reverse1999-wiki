@@ -37,42 +37,43 @@ sources:
 | Psychubes recommended in game | [Mental Cage](/psychubes/mental-cage/), [Long Night Talk](/psychubes/long-night-talk/) |
 | Mainland release | 2025-03-20 |
 | Global release | 2025-06-19 |
-
-Aleph runs on Eureka, which his Insight 1 passive supplies at the start of every round. Each point of Eureka the team spends becomes a point of [Inspiration] on a basic incantation, and casting a card that carries Inspiration adds an [Impromptu Incantation] to the end of the queue. His Ultimate memorizes the cards cast in its round and recasts them in the next, then turns Impromptu Incantation into a burst against every enemy holding [Interpretation].
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/aleph/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Disciplinary Power (single-target attack) | 100% Mental DMG | 200% | 400% |
-| Idealist's Declaration (mass buff) | 1 stack of [Clarification] to all allies | 2 stacks | 3 stacks |
+### Disciplinary Power
 
-- **Disciplinary Power** gives Aleph [Continuous Action I] for 1 round at every rank. After the attack it spends 2 Eureka to give Impromptu Incantation 1 more attack instance this round.
-- **Idealist's Declaration** stacks last 3 rounds. The card also spends 2 Eureka to give all allies 1 more stack.
+**Rank 1**: 1-target attack. Deals 100% Mental DMG. Gains \[Continuous Action I\] for 1 round. After the attack, consumes 2 Eureka and grants attack instance +1 to Impromptu Incantation for the round.
+
+**Rank 2**: 1-target attack. Deals 200% Mental DMG. Gains \[Continuous Action I\] for 1 round. After the attack, consumes 2 Eureka and grants attack instance +1 to Impromptu Incantation for the round.
+
+**Rank 3**: 1-target attack. Deals 400% Mental DMG. Gains \[Continuous Action I\] for 1 round. After the attack, consumes 2 Eureka and grants attack instance +1 to Impromptu Incantation for the round.
+
+### Idealist's Declaration
+
+**Rank 1**: Mass buff. Grants 1 stack of \[Clarification\] to all allies for 3 rounds; consumes 2 Eureka and grants an additional 1 stack of \[Clarification\] to all allies for 3 rounds.
+
+**Rank 2**: Mass buff. Grants 2 stacks of \[Clarification\] to all allies for 3 rounds; consumes 2 Eureka and grants an additional 1 stack of \[Clarification\] to all allies for 3 rounds.
+
+**Rank 3**: Mass buff. Grants 3 stacks of \[Clarification\] to all allies for 3 rounds; consumes 2 Eureka and grants an additional 1 stack of \[Clarification\] to all allies for 3 rounds.
 
 ## Ultimate: Reflections of Omniscience
 
-Aleph enters a self channel and [Memorize]s the first 2 basic incantations actively cast this round, then holds [Hyperthymesia] for 1 round.
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Continuous Action I | AP +1. |
-| Clarification | Incantation Might +10%. Up to 4 stacks, each with its own duration. |
-| Inspiration | Each Eureka spent adds 1 point. At the start of each round the points are spread at random over basic incantations, at most 5 on one card; points on cards not used by the end of the round are cleared. Casting a card that carries points adds an Impromptu Incantation to the end of the queue, and its points go to that Impromptu Incantation. |
-| Impromptu Incantation | Hits a random enemy for 200% Mental DMG plus 15% Mental DMG for each Inspiration point it holds. With at least 3, 6, 12 or 20 points it gains 1, 2, 3 or 5 more attack instances. Its damage uses the average stats of all allies. |
-| Interpretation | Mental DEF and DMG Taken Reduction −10%, and −2% more of each for every stack after the first. Lasts 3 rounds; up to 8 stacks, each with its own duration. |
-| Memorize | Keeps the rank, the Inspiration points and the Rewrite effects of a memorized card. |
-| Hyperthymesia | Aleph channels into the next round and cannot act. The channel ends just before the action point area resolves: the memorized cards join the spell queue and are cast with the round's other cards, count as actively cast and give no Moxie. Then Impromptu Incantation gains 2 more attack instances this round; each attack but the last puts Interpretation on its target, and the last hits every enemy holding Interpretation for extra Mental DMG equal to its stacks × 80%, after which all Interpretation is removed. |
+Self channel. Aleph \[Memorize\] the first 2 basic incantations actively casted this round and enter the \[Hyperthymesia\] status for 1 round.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Max Eureka +2, and Eureka +4 at the start of each round. Eureka spent by any ally builds Inspiration. When an ally with Clarification actively casts an attack incantation, Aleph spends 1 Eureka so that 1 attack instance of Impromptu Incantation this round puts Interpretation on the target it hits. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | Each time Aleph spends Eureka, he has a 25% chance to get 1 Eureka back. |
+**Insight 1 · Know It All, Answer It All**: Max Eureka +2.
+
+Whenever an ally consumes Eureka, accumulate points of \[Inspiration\].
+
+At the start of each round, gain Eureka +4.
+
+Whenever an ally in the \[Clarification\] status actively casts and attacks with an incantation, Aleph consumes 1 Eureka to make 1 attack instance of Impromptu Incantation this round inflict the \[Interpretation\] status on the target hit.
+
+**Insight 2 · Know It All, Answer It All II**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · Know It All, Answer It All III**: Each time after this unit consumes Eureka, there's a 25% chance to recover 1 Eureka.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -82,13 +83,29 @@ Aleph enters a self channel and [Memorize]s the first 2 basic incantations activ
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Continuous Action I from Disciplinary Power lasts 2 rounds; the Insight 3 chance to get Eureka back becomes 50%. |
-| 2 | The Ultimate memorizes 3 cards; each stack of Interpretation after the first lowers Mental DEF and DMG Taken Reduction by 3%. |
-| 3 | The final attack of Impromptu Incantation deals stacks × 160%; when Hyperthymesia ends, Impromptu Incantation gains 4 more attack instances. |
-| 4 | Clarification gives Incantation Might +15%. |
-| 5 | The final attack deals stacks × 240%; each stack of Interpretation after the first lowers Mental DEF and DMG Taken Reduction by 5%. |
+**Portrait 1**: **Disciplinary Power**: The duration of \[Continuous Action I\] is increased to 2 rounds. The chance to recover Eureka is increased to 50%.
+
+**Portrait 2**: **Reflections of Omniscience**: The number of memorized incantations is increased to 3. Each stack of \[Interpretation\] beyond the first now inflicts Mental DEF -3% and DMG Taken Reduction -3%.
+
+**Portrait 3**: **Reflections of Omniscience**: The additional Mental DMG also dealt by Impromptu Incantation's final attack instance is increased to (the target's stacks of \[Interpretation\] x 160)% Mental DMG to each enemy target holding the Interpretation status. When the channel status ends, the attack instances granted to \[Impromptu Incantation\] is increased to +4.
+
+**Portrait 4**: **Idealist's Declaration**: \[Clarification\]'s Incantation Might is increased to +15%.
+
+**Portrait 5**: **Reflections of Omniscience**: The additional Mental DMG also dealt by Impromptu Incantation's final attack instance is increased to (the target's stacks of \[Interpretation\] x 240)% Mental DMG to each enemy target holding the Interpretation status. Each stack of \[Interpretation\] beyond the first now inflicts Mental DEF -5% and DMG Taken Reduction -5%.
+
+## Statuses
+
+- **Continuous Action I**: AP +1.
+- **Clarification**: Incantation Might +10% (stacks up to 4 times, each stack is timed independently).
+- **Memorize**: Memorizes the rank, Inspiration points, and Rewrite effects of incantations.
+- **Hyperthymesia**: This status channels until the next round, ending right before the AP Area resolves. When this channel status ends, the memorized incantations are added to the spell queue and casted alongside all other incantations from the round. These memorized incantations are considered actively cast, but do not grant any Moxie. Afterward, grant attack instances +2 to \[Impromptu Incantation\] for the round, and all non-final attack instances of Impromptu Incantation this round inflict the \[Interpretation\] status on the attack target, with the final attack instance also dealing an additional (the target's stacks of \[Interpretation\] x 80)% Mental DMG to each enemy target holding the \[Interpretation\] status. Aleph cannot act while channeling, and all stacks of \[Interpretation\] are removed from enemies after the final attack instance of Impromptu Incantation.
+- **Inspiration**: For every 1 Eureka consumed, accumulate 1 point of \[Inspiration\].
+
+  At the start of each round, randomly distribute Inspiration points onto basic incantations (each incantation may receive up to 5 points of Inspiration, and at the end of the round, the points of Inspiration on unused incantations are cleared).
+
+  When actively casting an incantation with \[Inspiration\] points on it, add an \[Impromptu Incantation\] to the end of the spell queue, and all Inspiration points on these casted incantations will be granted to the \[Impromptu Incantation\].
+- **Interpretation**: Mental DEF -10%, DMG Taken Reduction -10%; each stack beyond the first inflicts Mental DEF -2% and DMG Taken Reduction -2%; lasts for 3 rounds (stacks up to 8 times, each stack is timed independently).
+- **Impromptu Incantation**: 1-target attack. Deals 200% Mental DMG to a random enemy and an additional (the total points of Inspiration granted to Impromptu Incantation x15%) Mental DMG. If Impromptu Incantation has at least 3/6/12/20 points of Inspiration, it gains attack instances +1/2/3/5 (Impromptu Incantation's DMG calculation is based on the average stats of all allies).
 
 ## Names
 

@@ -37,41 +37,43 @@ sources:
 | Psychubes recommended in game | [Long Night Talk](/psychubes/long-night-talk/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2024-06-27 |
 | Global release | 2024-10-31 |
-
-Pioneer moves along the line: his attack shifts him forward and his Taunt card shifts him backward. Each position gives him a different buff through Roving Salesman, and his Ultimate shields an ally, swaps places with it and passes it the buff of its new position.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/pioneer/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Competitive Differentiation (single-target attack) | 200% Mental DMG; shifts forward 1 position | 300%; forward 2 | 500%; forward 3 |
-| To Future Business (self counter) | Taunt, Reality DEF and Mental DEF +25%, 2 rounds; shifts back 1 position | +30%, 2 rounds; back 2 | +35%, 3 rounds; back 3 |
+### Competitive Differentiation
 
-Each incantation shifts Pioneer after its effect: the attack after the damage, To Future Business after the buff.
+**Rank 1**: 1-target attack. Deals 200% Mental DMG, then shifts 1 position forward.
 
-[Taunt]: enemies aim certain attacks at the holder first.
+**Rank 2**: 1-target attack. Deals 300% Mental DMG, then shifts 2 positions forward.
+
+**Rank 3**: 1-target attack. Deals 500% Mental DMG, then shifts 3 positions forward.
+
+### To Future Business
+
+**Rank 1**: Self counter. Gains \[Taunt\], Reality DEF +25%, and Mental DEF +25% for 2 rounds, then shifts 1 position backward.
+
+**Rank 2**: Self counter. Gains \[Taunt\], Reality DEF +30%, and Mental DEF +30% for 2 rounds, then shifts 2 positions backward.
+
+**Rank 3**: Self counter. Gains \[Taunt\], Reality DEF +35%, and Mental DEF +35% for 3 rounds, then shifts 3 positions backward.
 
 ## Ultimate: Bridge the Gap
 
-Gives one ally a Shield equal to 50% of Pioneer's Max HP for 2 rounds. Pioneer then swaps positions with that ally, and the ally gains the Roving Salesman buff of its new position, lasting 1 round longer than usual.
-
-## Statuses
-
-Roving Salesman gives one of these buffs by position.
-
-| Position | Status | Effect |
-| --- | --- | --- |
-| 1 | Hot Deal | Critical Rate +20%, Critical DMG +20%. |
-| 2 | Promotional Package | DMG Bonus +20%, DMG Taken Reduction +20%. |
-| 3 | Risk Management | DMG Taken Reduction +20%, DMG Heal +20%. |
-| 4 | After-Sales Service | Reflects 30% of the damage of each attack taken, at most 200% of the holder's Max HP. |
+1-target buff. Grants an ally a Shield with (Pioneer's Max HP x50%) HP for 2 rounds. Pioneer swaps positions with the target and grants the target a \[Roving Salesman\] buff that matches their new position, with the duration of the buff extended by 1 round.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Roving Salesman: at the start of each round and after being shifted, Pioneer gains the buff of the position he stands in (see Statuses). |
-| 2 | DMG Taken −8% on entering battle. |
+**Insight 1 · Roving Salesman**: At the start of the round and after being shifted, gain a buff that matches the position:
+
+Position #1: \[Hot Deal\];
+
+Position #2: \[Promotional Package\];
+
+Position #3: \[Risk Management\];
+
+Position #4: \[After-Sales Service\].
+
+**Insight 2 · Roving Salesman II**: DMG Taken -8% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -80,13 +82,23 @@ Roving Salesman gives one of these buffs by position.
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Competitive Differentiation deals 230, 350 or 570% by rank. |
-| 2 | To Future Business gives Reality DEF and Mental DEF +30, 35 or 40% by rank. |
-| 3 | The Ultimate's Shield equals 70% of Pioneer's Max HP. |
-| 4 | Promotional Package gives DMG Bonus +25% and DMG Taken Reduction +25%. |
-| 5 | Hot Deal gives Critical Rate +30% and Critical DMG +30%. |
+**Portrait 1**: **Competitive Differentiation**: Mental DMG is increased to 230/350/570%.
+
+**Portrait 2**: **To Future Business**: The Reality DEF and Mental DEF are increased to 30%/35%/40%.
+
+**Portrait 3**: **Bridge the Gap**: The Shield granted is increased to (Max HP x70%) HP.
+
+**Portrait 4**: **Roving Salesman**: \[Promotional Package\]'s DMG Bonus and DMG Reduction are increased to 25%.
+
+**Portrait 5**: **Roving Salesman**: \[Hot Deal\]'s Critical Rate and Critical DMG are increased to 30%.
+
+## Statuses
+
+- **Taunt**: Draws the enemy's attention. When taking certain attacks, becomes the priority of the attacks.
+- **Hot Deal**: Critical Rate +20%, Critical DMG +20%.
+- **Promotional Package**: DMG Bonus +20%, DMG Taken Reduction +20%.
+- **Risk Management**: DMG Taken Reduction +20%, DMG Heal +20%.
+- **After-Sales Service**: After being attacked, reflect 30% of the damage of that attack. The damage cannot exceed 200% of own Max HP.
 
 ## Names
 

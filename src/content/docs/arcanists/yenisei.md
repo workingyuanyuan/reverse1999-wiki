@@ -37,36 +37,37 @@ sources:
 | Psychubes recommended in game | [Long Night Talk](/psychubes/long-night-talk/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2024-01-11 |
 | Global release | 2024-05-30 |
-
-Yenisei is a healer who also protects. Her heal restores one ally and then the ally with the lowest HP share, adding Sturdiness to both, and her Ultimate shields the whole team and makes it immune to debuffs and Control for a round. Her Insight passives spend stacks of [Flow] to give her Moxie or a rank up.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/yenisei/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Action Taker (single-target attack) | 200% Mental DMG | 200%; target DMG Dealt −20%, 2 rounds | 350%; −25%, 2 rounds |
-| Words of Water (single-target heal) | heals 15% of Yenisei's Max HP, 1 Sturdiness; then 10% | 25%, 1 Sturdiness; then 15%, 1 Sturdiness | 40%, 1 Sturdiness; then 25%, 1 Sturdiness |
+### Action Taker
 
-Words of Water first heals the chosen ally and gives it 1 stack of Sturdiness, then heals the ally with the lowest HP percentage by the second share in the table. From rank 2 that second ally also gains 1 stack of Sturdiness.
+**Rank 1**: 1-target attack. Deals 200% Mental DMG.
 
-- [Sturdiness]: DMG Taken Reduction +25% when attacked; one stack is used each time.
+**Rank 2**: 1-target attack. Deals 200% Mental DMG. Inflicts DMG Dealt -20% for 2 rounds on the target hit.
+
+**Rank 3**: 1-target attack. Deals 350% Mental DMG. Inflicts DMG Dealt -25% for 2 rounds on the target hit.
+
+### Words of Water
+
+**Rank 1**: 1-target heal. Recovers (the user's Max HP x15%) HP to an ally and grants 1 stack of \[Sturdiness\] to the target. Then, recovers (the user's Max HP x10%) HP to the ally with the lowest HP percentage.
+
+**Rank 2**: 1-target heal. Recovers (the user's Max HP x25%) HP to an ally and grants 1 stack of \[Sturdiness\] to the target. Then, recovers (the user's Max HP x15%) HP to the ally with the lowest HP percentage and grants 1 stack of \[Sturdiness\] to the target.
+
+**Rank 3**: 1-target heal. Recovers (the user's Max HP x40%) HP to an ally and grants 1 stack of \[Sturdiness\] to the target. Then, recovers (the user's Max HP x25%) HP to the ally with the lowest HP percentage and grants 1 stack of \[Sturdiness\] to the target.
 
 ## Ultimate: The Rapids Know All
 
-Gives every ally a [Shield] equal to 25% of Yenisei's Max HP for 2 rounds and [Immunity] for 1 round. Yenisei herself gains 2 stacks of [Flow].
-
-- [Shield]: absorbs damage while it lasts.
-- [Immunity]: the holder is not affected by Stats Down, Neg Status or Control effects.
-- [Flow]: spent by her Insight passives for Moxie or Empower Incantation; at most 3 stacks.
-- [Empower Incantation I]: at the start of the round, one random incantation goes up one rank.
+Mass buff. Grants a Shield with (the user's Max HP x25%) HP to all allies for 2 rounds. Grants \[Immunity\] to the targets for 1 round. Grants 2 additional stacks of \[Flow\] to self.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Gains 2 stacks of Flow on entering battle. Casting a debuff-type incantation at rank 2 or 3 spends 1 stack of Flow for 1 Moxie. |
-| 2 | Healing Done +10% on entering battle. |
-| 3 | Casting a heal-type incantation spends 1 stack of Flow to give Yenisei Empower Incantation I for 1 round, if she does not already have it. |
+**Insight 1 · Overprotective**: When casting a rank 2 or rank 3 Debuff-type basic incantation, consume 1 stack of \[Flow\] and grant Moxie +1 to self. When entering battle, instantly gain 2 stacks of \[Flow\].
+
+**Insight 2 · Overprotective II**: Healing Done +10% when entering battle.
+
+**Insight 3 · Overprotective III**: When casting a Heal-type basic incantation, consume 1 stack of \[Flow\] and enter the \[Empower Incantation I\] status for 1 round (only effective when not in the \[Empower Incantation I\] status).
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -76,13 +77,24 @@ Gives every ally a [Shield] equal to 25% of Yenisei's Max HP for 2 rounds and [I
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Action Taker deals 220, 230 or 400% by rank. |
-| 2 | Gains 1 more stack of Flow on entering battle. |
-| 3 | The Ultimate's Shield equals 30% of Yenisei's Max HP. |
-| 4 | Healing Done +8% more on entering battle. |
-| 5 | The Ultimate's Shield equals 35% of Yenisei's Max HP. |
+**Portrait 1**: **Action Taker**: at rank 1/2/3, deals 220/230/400% Mental DMG.
+
+**Portrait 2**: **Overprotective**: When entering battle, gain 1 extra stack of \[Flow\].
+
+**Portrait 3**: **The Rapids Know All**: The \[Shield\] granted to all allies is increased to (Yenisei's Max HP x30%) HP.
+
+**Portrait 4**: **Overprotective**: When entering battle, additional Healing Done +8%.
+
+**Portrait 5**: **The Rapids Know All**: The \[Shield\] granted to all allies is increased to (Yenisei's Max HP x35%) HP.
+
+## Statuses
+
+- **Sturdiness**: When attacked, DMG Taken Reduction +25% (-1 stack after trigger).
+- **Immunity**: Immune to \[Stats Down\], \[Neg Status\], and \[Control\] statuses.
+- **Flow**: After consumption, gain Moxie or Empower Incantation (up to 3 stacks).
+- **Empower Incantation I**: At the start of the round, a random incantation gains rank +1.
+- **Shield**: Blocks certain DMG for a certain duration.
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
 
 ## Names
 

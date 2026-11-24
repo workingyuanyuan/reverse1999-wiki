@@ -36,44 +36,43 @@ sources:
 | Psychubes recommended in game | [Outside the City](/psychubes/outside-the-city/), [Another Story](/psychubes/another-story/), [On the Hand of Time](/psychubes/on-the-hand-of-time/) |
 | Mainland release | 2023-09-28 |
 | Global release | 2024-01-18 |
-
-Kaalaa Baunaa collects planets: her first incantation gives [Saturn], her second [Mars], and her Ultimate removes every planet she holds and gives [Full Moon]. Each planet removed turns into a Divination buff, and after the Ultimate the kind of planet she removed most decides a follow-up attack or an incantation upgrade. She has Euphoria, which makes her own incantations count as follow-up attacks.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/kaalaa-baunaa/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Enchanted Strike (single-target attack) | 180% Mental DMG; 1 Saturn | 270%; 2 Saturn | 450%; 3 Saturn |
-| Mythical Meteors (attack on 2 enemies) | 135% Mental DMG; 1 Mars | 200%; 2 Mars | 335%; 3 Mars |
+### Enchanted Strike
 
-- The planets come only when she casts the incantation herself.
-- Each Saturn she carries gives Penetration Rate +6%; each Mars gives Leech Rate +6%.
+**Rank 1**: 1-target attack. Deals 180% Mental DMG. After active casting, gains \[Saturn\] x1 that grants Penetration Rate +6% each. Up to \[Planet\] x3 can be carried at a time.
+
+**Rank 2**: 1-target attack. Deals 270% Mental DMG. After active casting, gains \[Saturn\] x2 that grants Penetration Rate +6% each. Up to \[Planet\] x3 can be carried at a time.
+
+**Rank 3**: 1-target attack. Deals 450% Mental DMG. After active casting, gains \[Saturn\] x3 that grants Penetration Rate +6% each. Up to \[Planet\] x3 can be carried at a time.
+
+### Mythical Meteors
+
+**Rank 1**: Mass attack. Deals 135% Mental DMG to 2 enemies. After active casting, gains \[Mars\] x1 that grants Leech Rate +6% each. Up to \[Planet\] x3 can be carried at a time.
+
+**Rank 2**: Mass attack. Deals 200% Mental DMG to 2 enemies. After active casting, gains \[Mars\] x2 that grants Leech Rate +6% each. Up to \[Planet\] x3 can be carried at a time.
+
+**Rank 3**: Mass attack. Deals 335% Mental DMG to 2 enemies. After active casting, gains \[Mars\] x3 that grants Leech Rate +6% each. Up to \[Planet\] x3 can be carried at a time.
 
 ## Ultimate: Ultimate Perfection
 
-Removes all of her planets, then deals 600% Mental DMG to one enemy and gives her 2 Full Moon. Each Full Moon she carries gives Incantation Might +6%.
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Planet | Saturn, Mars and Full Moon are all planets and share one cap. Each kind stacks; planets cannot be dispelled. |
-| Saturn | Penetration Rate up. |
-| Mars | Leech Rate up. |
-| Full Moon | Incantation Might up. |
-| Saturn Divination | Penetration Rate +12%. Stacks; all stacks are spent after an attack. |
-| Mars Divination | Leech Rate +12%. Stacks; all stacks are spent after an attack. |
-| Full Moon Divination | Incantation Might +12%. Stacks; spent after she casts an incantation. |
-| Empower Incantation II | At the start of the round, 2 random incantations go up 1 rank. |
-| Luminescence | Ultimate Might and Follow-up DMG +4% per stack, up to 10 stacks; cannot be dispelled. Comes from her Euphoria. |
+1-target attack. After removing all \[Planet\], deals 600% Mental DMG and gains \[Full Moon\] x2 that grant Incantation Might +6% each. Up to \[Planet\] x3 can be carried at a time.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | When a planet is removed, she gains the matching Divination: Saturn Divination, Mars Divination or Full Moon Divination. |
-| 2 | Critical Rate +10% on entering battle. |
-| 3 | After her Ultimate, the kind of planet she removed most gives one effect. Saturn 1, 2 or 3 and more: she casts Enchanted Strike at rank 1, 2 or 3 as a follow-up on the target. Mars 1, 2 or 3 and more: Mythical Meteors at rank 1, 2 or 3 as a follow-up. Full Moon 1 or 2: Empower Incantation II for 1 or 2 rounds. |
+**Insight 1 · Starbending**: When a \[Planet\] is removed, gains 1 of the following effects based on the type of Planet removed: \[Saturn Divination\], \[Mars Divination\], or \[Full Moon Divination\].
+
+**Insight 2 · Starbending Ⅱ**: Critical Rate +10% when entering battle.
+
+**Insight 3 · Starbending Ⅲ**: After casting Ultimate, gains 1 effect based on the \[Planet\] with the largest number removed.
+
+When removing \[Saturn\] x1/2/3: Immediately casts a rank 1/2/3 \[Enchanted Strike\] as a follow-up attack on the target.
+
+When removing \[Mars\] x1/2/3: Immediately casts a rank 1/2/3 \[Mythical Meteors\] as a follow-up attack on the target.
+
+When removing \[Full Moon\] x1/2: Gains \[Empower Incantation II\] for 1/2 rounds.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -83,24 +82,61 @@ Removes all of her planets, then deals 600% Mental DMG to one enemy and gives he
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | She can carry 4 planets. |
-| 2 | The Ultimate gives 3 Full Moon; removing 3 or more Full Moon with the Ultimate gives Empower Incantation II for 3 rounds. |
-| 3 | Each Saturn gives Penetration Rate +9%; Enchanted Strike deals 195, 295 or 490% by rank. |
-| 4 | Each Mars gives Leech Rate +9%; Mythical Meteors deals 145, 215 or 360% by rank. |
-| 5 | The Ultimate gives 4 Full Moon, each with Incantation Might +9%. |
+**Portrait 1**: **Starbending**'s effect changes to: Up to \[Planet\] x4 can be carried at a time.
+
+**Portrait 2**: **Ultimate Perfection**'s effect changes to: Gains \[Full Moon\] x3. After casting Ultimate, if at least \[Full Moon\] x3 are removed, gains \[Empower Incantation II\] for 3 rounds.
+
+**Portrait 3**: **Enchanted Strike**'s effect changes to: Each \[Saturn\] grants Penetration Rate +9%. At rank 1/2/3, deals 195/295/490% Mental DMG.
+
+**Portrait 4**: **Mythical Meteors**'s effect changes to: Each \[Mars\] grants Leech Rate +9%. At rank 1/2/3, deals 145/215/360% Mental DMG.
+
+**Portrait 5**: **Ultimate Perfection**'s effect changes to: Gains \[Full Moon\] x4 that grants Incantation Might +9%.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Kaalaa Baunaa has one Epiphany of four levels.
+**Epiphany 1, level 1**: **Enchanted Strike** and **Mythical Meteors** deal an additional (base Mental DMG x40%) Mental DMG.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | Both incantations and the Ultimate deal extra Mental DMG equal to 40% of their base Mental DMG. An incantation she casts herself counts as a follow-up attack. |
-| 1 | 2 | She enters battle with as many Saturn as she can carry. Saturn and Saturn Divination also give Critical Rate equal to their Penetration Rate bonus; Mars and Mars Divination also give DMG Bonus equal to their Leech Rate bonus. |
-| 1 | 3 | Whenever one of her incantations or her Ultimate removes planets: for 1, 2, 3 or 4 Saturn she casts Enchanted Strike at rank 1, 2, 3 or 3 as a follow-up with 80, 120, 160 or 200% extra Mental DMG; for 1, 2, 3 or 4 Mars, Mythical Meteors at rank 1, 2, 3 or 3 with 50, 80, 120 or 150% extra; for 1, 2, 3 or 4 Full Moon, 1, 2, 3 or 4 stacks of [Luminescence]. |
-| 1 | 4 | Her Insight passives gain an effect: after her Ultimate, the kind of planet she removed most gives, for 1, 2 or 3 and more removed, a rank 1, 2 or 3 Precast Incantation of Enchanted Strike (Saturn) or Mythical Meteors (Mars) at the start of the next round, or 1, 2 or 3 stacks of Full Moon Divination (Full Moon). |
+**Ultimate Perfection** deals an additional (base Mental DMG x40%) Mental DMG.
+
+When actively cast, **Enchanted Strike** and **Mythical Meteors** are counted as follow-up attacks.
+
+**Epiphany 1, level 2**: When entering battle, gains the maximum number of \[Saturn\].
+
+\[Saturn\]/\[Saturn Divination\] additionally grant Critical Rate +(original Penetration Rate x100%).
+
+\[Mars\]/\[Mars Divination\] additionally grant DMG Bonus +(original Leech Rate x100%).
+
+**Epiphany 1, level 3**: Every time Kaalaa Baunaa removes \[Planet\] via her incantation or Ultimate, the following effects are triggered.
+
+\[Saturn\] x1/2/3/4 removed: Casts rank 1/2/3/3 **Enchanted Strike** as a follow-up attack that deals an additional 80%/120%/160%/200% Mental DMG.
+
+\[Mars\] x1/2/3/4 removed: Casts rank 1/2/3/3 **Mythical Meteors** as a follow-up attack that deals an additional 50%/80%/120%/150% Mental DMG.
+
+\[Full Moon\] x1/2/3/4 removed: Gains 1/2/3/4 stacks of \[Luminescence\].
+
+**Epiphany 1, level 4**: **Starbending** New Effects Added:
+
+After casting Ultimate, gains 1 effect based on the largest number of \[Planet\] removed.
+
+\[Saturn\] x1/2/3+ removed: At the start of the next round, generates 1 rank 1/2/3 Precast Incantation: Enchanted Strike.
+
+\[Mars\] x1/2/3+ removed: At the start of the next round, generates 1 rank 1/2/3 Precast Incantation: Mythical Meteors.
+
+\[Full Moon\] x1/2/3+ removed: Gains 1/2/3 stacks of \[Full Moon Divination\].
+
+## Statuses
+
+- **Saturn**: Penetration Rate Up
+- **Planet**: Saturn, Mars, and Full Moon are planets and share the same limit. Planet effects are stackable and cannot be dispelled.
+- **Mars**: Leech Rate Up
+- **Full Moon**: Incantation Might Up
+- **Saturn Divination**: Penetration Rate +12% (stackable; removed after attack).
+- **Mars Divination**: Leech Rate +12% (stackable; removed after attack).
+- **Full Moon Divination**: Incantation Might +12% (stackable; removed after casting a basic incantation).
+- **Enchanted Strike**: 1-target attack.
+- **Mythical Meteors**: Mass Attack
+- **Empower Incantation II**: At the start of the round, 2 random incantations gain rank +1.
+- **Luminescence**: Ultimate Might and Follow-up DMG +4% (stackable up to 10 times, undispellable).
 
 ## Names
 

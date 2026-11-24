@@ -38,47 +38,37 @@ sources:
 | Global release | 2024-09-19 |
 | Profile | [Cover, items, stories, skins and voice lines](/arcanists/lucy/profile/) |
 
-Lucy gathers [Dynamo] whenever she or an ally gains Moxie, and her attacks spend 10 stacks at a time for extra damage. Every 20 Dynamo the team gains gives her [Advancement], which reinforces one of her cards. Her Ultimate makes all her attacks count as the stronger Afflatus, and after it, and after each enemy falls, she casts [Conservation of Energy] at all enemies.
-
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Power of Speed (single-target attack) | 200% Reality DMG; +60% with Dynamo | 300%; +90% | 500%; +150% |
-| Electric Surge (attack on 2 enemies) | 150% Reality DMG; 1 more target, or +40% with Dynamo | 225%; +60% | 375%; +100% |
+### Power of Speed
 
-- Both spend 10 stacks of Dynamo for their extra effect.
-- **Electric Surge** with Dynamo attacks 1 more enemy; if fewer than 3 enemies are present, it deals the extra Reality DMG in the table instead.
-- [Conservation of Energy], cast by her Insight 3 passive and counted as a rank 2 incantation: 100% Reality DMG to all enemies; with 10 Dynamo spent, Penetration Rate +50%.
+**Rank 1**: 1-target attack. Deals 200% Reality DMG. Consume 10 stacks of \[Dynamo\] to deal Reality DMG +60% for this attack.
 
-### Reinforced cards
+**Rank 2**: 1-target attack. Deals 300% Reality DMG. Consume 10 stacks of \[Dynamo\] to deal Reality DMG +90% for this attack.
 
-| Card | Reinforced effect |
-| --- | --- |
-| Power of Speed | Hits 2 enemies: 220, 330 or 550% to the main target and 110, 165 or 275% to the second, by rank; the Dynamo bonus costs 5 stacks. |
-| Electric Surge | Adds Genesis DMG equal to 80, 120 or 200% of Lucy's ATK, by rank; the Dynamo bonus costs 5 stacks. |
-| Conservation of Energy | Adds 50% Reality DMG to targets below 50% HP, ignores Dodge and triggers no Reflect or Riposte. |
-| A Step Forward | Loads 2 [Overcharged Ammunition] instead of Charged Ammunition and gives Lucy 1 Moxie. |
+**Rank 3**: 1-target attack. Deals 500% Reality DMG. Consume 10 stacks of \[Dynamo\] to deal Reality DMG +150% for this attack.
+
+### Electric Surge
+
+**Rank 1**: Mass attack. Deals 150% Reality DMG to 2 enemies. Consume 10 stacks of \[Dynamo\] to either attack 1 additional target, or deal Reality DMG +40% if less than 3 enemies are present.
+
+**Rank 2**: Mass attack. Deals 225% Reality DMG to 2 enemies. Consume 10 stacks of \[Dynamo\] to either attack 1 additional target, or deal Reality DMG +60% if less than 3 enemies are present.
+
+**Rank 3**: Mass attack. Deals 375% Reality DMG to 2 enemies. Consume 10 stacks of \[Dynamo\] to either attack 1 additional target, or deal Reality DMG +100% if less than 3 enemies are present.
 
 ## Ultimate: A Step Forward
 
-Lucy enters [Pragmatist] for 2 rounds, gains 1 stack of [Data Iteration] and loads 2 [Charged Ammunition].
-
-- [Dynamo]: a resource for her machines; up to 30 stacks, cannot be dispelled.
-- [Advancement]: at the start of the next round, Lucy picks one of her three incantations to reinforce; once all three are reinforced, the Ultimate is. It cannot be dispelled.
-- [Pragmatist]: all her attacks count as the stronger Afflatus, with Stronger Afflatus Damage Multiplier +10%. It cannot be dispelled.
-- [Data Iteration]: ATK +4%, up to 5 stacks; cannot be dispelled.
-- [Charged Ammunition]: just before each attack, Lucy gains 5 stacks of Dynamo; one round of ammunition is used each time.
-- [Overcharged Ammunition]: as Charged Ammunition, but 10 stacks of Dynamo.
-- [Leadership]: a Force Field that gives the other allies Stronger Afflatus Damage Multiplier +10%; it cannot be dispelled and ends when Lucy leaves the field.
+Self buff. Enters \[Pragmatist\] for 2 rounds. Gains 1 stack of \[Data Iteration\]. Loads 2 \[Charged Ammunition\].
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Lucy gains 2 stacks of Dynamo for each Moxie she gains, and 1 stack for each Moxie or Eureka another ally gains. Every 20 stacks of Dynamo the team gains in total give her Advancement. |
-| 2 | Critical Rate +10% on entering battle. |
-| 3 | After her Ultimate, Lucy gains Leadership for 2 rounds and casts Conservation of Energy. Whenever an enemy leaves the field, she gains 10 stacks of Dynamo and 1 stack of Data Iteration and casts Conservation of Energy, at most 2 times a round. |
+**Insight 1 · The First Push**: For every Moxie gained by self, gain 2 stacks of \[Dynamo\] for self. For every Moxie or Eureka gained by another ally, gain 1 stack of \[Dynamo\] for self. Whenever a total of 20 stacks of \[Dynamo\] is gained among all allies, gain \[Advancement\] for self.
+
+**Insight 2 · The First Push II**: Critical Rate +10% when entering battle.
+
+**Insight 3 · The First Push III**: Right after casting an Ultimate, gain \[Leadership\] for 2 rounds and cast \[Conservation of Energy\], which is considered a rank 2 incantation.
+
+Whenever an enemy is defeated, gain 10 stacks of \[Dynamo\], 1 stack of \[Data Iteration\], and cast \[Conservation of Energy\], which is considered a rank 2 incantation (triggers up to 2 times per round).
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -88,30 +78,44 @@ Lucy enters [Pragmatist] for 2 rounds, gains 1 stack of [Data Iteration] and loa
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Conservation of Energy deals 150%; reinforced, it adds 100% Reality DMG to targets below 75% HP. |
-| 2 | Pragmatist and Leadership last 3 rounds and raise the Stronger Afflatus Damage Multiplier by 20%. |
-| 3 | Data Iteration gives ATK +6%; an enemy leaving the field gives 2 stacks of it. |
-| 4 | Conservation of Energy deals 200%; enemies leaving the field can trigger it up to 4 times a round. |
-| 5 | Data Iteration gives ATK +8% and stacks up to 6; each Moxie or Eureka an ally gains gives Lucy 2 stacks of Dynamo. |
+**Portrait 1**: **The First Push**: \[Conservation of Energy\]'s Reality DMG is increased to 150%; now deals additional damage when the target's current HP is below 75%, and the additional DMG is increased to 100%.
+
+**Portrait 2**: **A Step Forward**: \[Pragmatist\] and \[Leadership\]'s durations are increased to 3 rounds, and the Stronger Afflatus Damage Multiplier increase is now 20%.
+
+**Portrait 3**: **The First Push**: \[Data Iteration\]'s ATK bonus is increased to 6%; and whenever an enemy is defeated, the stacks of \[Data Iteration\] gained is increased to 2.
+
+**Portrait 4**: **The First Push**: \[Conservation of Energy\]'s Reality DMG is increased to 200%; the maximum number of times \[Conservation of Energy\] can trigger when an enemy is defeated is increased to 4 times per round.
+
+**Portrait 5**: **The First Push**: \[Data Iteration\]'s ATK bonus is increased to 8%, and maximum stacks is increased to 6; and whenever an ally gains 1 Moxie or Eureka, the stacks of \[Dynamo\] gained is increased to 2.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Lucy has one Epiphany of four levels, built around a field of Dynamo.
+**Epiphany 1, level 1**: At the start of the round, if not under a \[Pulsing Field\] of any level, deploy \[Pulsing Field Lv.1\]. After casting a reinforced incantation, transfer up to 10 stacks of \[Dynamo\] into the \[Pulsing Field\].
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | At the start of a round with no [Pulsing Field] of any level, Lucy deploys Pulsing Field Lv.1. After she casts a reinforced card, up to 10 stacks of her Dynamo go into the field. |
-| 1 | 2 | Lucy enters battle with 20 stacks of Dynamo and gains 1 stack of Data Iteration after each reinforcement. |
-| 1 | 3 | Lucy gains [Amplified Surge]. |
-| 1 | 4 | Reinforced cards no longer spend Dynamo, and enemies leaving the field no longer give Dynamo. In a Pulsing Field of level 1, 2 or 3, reinforced cards add Reality DMG equal to 50, 70 or 120% of the base Reality DMG of Conservation of Energy; at level 3 they also add 8% Reality DMG for each stack of Dynamo she holds. Reinforced cards benefit from Ultimate Might at a 100% rate, 10% more for each stack of Data Iteration. |
+**Epiphany 1, level 2**: When entering battle, gain 20 stacks of \[Dynamo\]. After reinforcing an incantation, gain 1 stack of \[Data Iteration\].
 
-- **Pulsing Field**: at the start of each round it levels up by the Dynamo put into it: level 2 at 50 or more, level 3 at 120 or more. The Dynamo in it is lost when the field ends.
-- **Pulsing Field Lv.1**: all allies DMG Bonus +15% for 3 rounds.
-- **Pulsing Field Lv.2**: all allies Incantation Might +25% and DMG Bonus +15% for 3 rounds.
-- **Pulsing Field Lv.3**: all allies Ultimate Might +35%, Incantation Might +25% and DMG Bonus +15% for 2 rounds.
-- **Amplified Surge**: when the field reaches level 3, Lucy gains 2 stacks of Overcharged Ammunition; while it stays at level 3, she gains 1 more after each critical hit.
+**Epiphany 1, level 3**: Gain \[Amplified Surge\].
+
+**Epiphany 1, level 4**: Reinforced incantations no longer consume \[Dynamo\]. No longer gains \[Dynamo\] when an enemy is defeated. When under a \[Pulsing Field\], reinforced incantations additionally deal (\[Conservation of Energy\]'s Reality DMG x50/70/120%) Reality DMG based on the array's level. When under \[Pulsing Field Lv.3\], for every stack of \[Dynamo\] owned, reinforced incantations additionally deal 8% Reality DMG. Reinforced incantations benefit from Ultimate Might at a 100% rate, and for every stack of \[Data Iteration\] owned, this rate increases by 10%.
+
+## Statuses
+
+- **Dynamo**: A product of technology used for meticulous machinery (up to 30 stacks, undispellable).
+- **Pragmatist**: All attacks are considered to be of a stronger Afflatus. Stronger Afflatus Damage Multiplier +10% (undispellable).
+- **Data Iteration**: ATK +4% (stackable up to 5 times, undispellable).
+- **Charged Ammunition**: Right before attacking, gain 5 stacks of \[Dynamo\] (-1 stack after trigger).
+- **Advancement**: At the start of the next round, choose to reinforce one of three incantations. If all three incantations are reinforced, then reinforce the Ultimate instead (undispellable).
+- **Leadership**: \[Force Field\] effect: Grants Stronger Afflatus Damage Multiplier +10% to other allies (undispellable).
+- **Conservation of Energy**: Mass attack. Deals 100% Reality DMG to all enemies. Consume 10 stacks of \[Dynamo\] to grant Penetration Rate +50% to this attack. If reinforced, this attack deals an 50% additional Reality DMG to targets below 50% HP, ignores Dodge and does not trigger Reflect or Riposte.
+- **Pulsing Field**: At the start of the round, Pulsing Field upgrades based on the \[Dynamo\] transferred into it. At 50+, upgrades into \[Pulsing Field Lv.2\]. At 120+, upgrades into \[Pulsing Field Lv.3\]. When Pulsing Field disappears, all \[Dynamo\] transferred into it are also cleared.
+- **Pulsing Field Lv.1**: All allies gain DMG Bonus +15% for 3 rounds.
+- **Amplified Surge**: Reaching \[Pulsing Field Lv.3\]: Lucy gains 2 stacks of \[Overcharged Ammunition\].
+
+  Under \[Pulsing Field Lv.3\]: Lucy gains 1 stack of \[Overcharged Ammunition\] after landing a critical hit.
+- **Pulsing Field Lv.3**: All allies gain Ultimate Might +35%, Incantation Might +25%, and DMG Bonus +15% for 2 rounds.
+- **Force Field**: The holder is granting effects to the relevant characters. Disappears when defeated.
+- **Pulsing Field Lv.2**: All allies gain Incantation Might +25% and DMG Bonus +15% for 3 rounds.
+- **Overcharged Ammunition**: Right before attacking, gain 10 stacks of \[Dynamo\] (-1 stack after trigger).
 
 ## Names
 

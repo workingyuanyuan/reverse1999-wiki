@@ -37,34 +37,37 @@ sources:
 | Psychubes recommended in game | [Your Friendly Exorcist](/psychubes/your-friendly-exorcist/), [Her Second Life](/psychubes/her-second-life/) |
 | Mainland release | 2024-04-11 |
 | Global release | 2024-08-15 |
-
-Avgust splits the team by position: each part of his kit gives the allies in front of him more damage and the allies behind him healing or protection. Greetings! hits two enemies and, from rank 2, strips their buffs; Wish You Good Health puts a heal over time on the whole team.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/avgust/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Greetings! (attack on 2 enemies) | 120% Mental DMG | 200%; dispels all Stats Up and Pos Status effects | 300%; dispels as at rank 2 |
-| Wish You Good Health (team buff) | all allies [Cure] for 1 round | Cure for 2 rounds | Cure for 3 rounds |
+### Greetings!
 
-At every rank, Greetings! then gives Avgust and the allies in front of him DMG Dealt +10% for 2 rounds, and Wish You Good Health gives Avgust and the allies behind him DMG Heal +10% for 2 rounds.
+**Rank 1**: Mass attack. Deals 120% Mental DMG to 2 enemies; then grants DMG Dealt +10% to self and allies in front for 2 rounds.
 
-[Cure]: at the start of each round, the holder recovers HP equal to 50% of Avgust's ATK.
+**Rank 2**: Mass attack. Deals 200% Mental DMG to 2 enemies. Dispels all \[Stats Up\] and \[Pos Status\] from the targets hit, then grants DMG Dealt +10% to self and allies in front for 2 rounds.
+
+**Rank 3**: Mass attack. Deals 300% Mental DMG to 2 enemies. Dispels all \[Stats Up\] and \[Pos Status\] from the targets hit, then grants DMG Dealt +10% to self and allies in front for 2 rounds.
+
+### Wish You Good Health
+
+**Rank 1**: Mass buff. Grants the \[Cure\] status to all allies for 1 round: at the start of each round, recovers (the user's ATK x50%) HP; then grants DMG Heal +10% to self and allies behind for 2 rounds.
+
+**Rank 2**: Mass buff. Grants the \[Cure\] status to all allies for 2 rounds: at the start of each round, recovers (the user's ATK x50%) HP; then grants DMG Heal +10% to self and allies behind for 2 rounds.
+
+**Rank 3**: Mass buff. Grants the \[Cure\] status to all allies for 3 rounds: at the start of each round, recovers (the user's ATK x50%) HP; then grants DMG Heal +10% to self and allies behind for 2 rounds.
 
 ## Ultimate: One Stroke After Another
 
-Deals 300% Mental DMG to all enemies, then gives Avgust and the allies in front of him 1 stack of [Rousing Morale], and Avgust and the allies behind him 1 stack of [Sturdiness].
-
-- [Rousing Morale]: DMG Bonus +50% when attacking; one stack is used each time it applies.
-- [Sturdiness]: DMG Taken Reduction +25% when attacked; one stack is used each time it applies.
+Mass attack. Deals 300% Mental DMG to all enemies; then grants 1 stack of \[Rousing Morale\] to self and allies in front, and 1 stack of \[Sturdiness\] to self and allies behind.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | On entering battle, the allies in front of Avgust gain DMG Dealt +10% and the allies behind him DMG Taken −10%. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | On entering battle, Avgust gains ATK +5% for each ally in front of him and DMG Taken −8% for each ally behind him. |
+**Insight 1 · Sunflower Bodyguards**: When entering battle, grant DMG Dealt +10% to allies in front, and grant DMG Taken -10% to allies behind.
+
+**Insight 2 · Sunflower Bodyguards II**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · Sunflower Bodyguards III**: When entering battle, gain ATK +5% for every ally in front, and gain DMG Taken -8% for every ally behind.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -74,13 +77,21 @@ Deals 300% Mental DMG to all enemies, then gives Avgust and the allies in front 
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Greetings! deals 140, 230 or 350% by rank. |
-| 2 | Wish You Good Health gives Cure for 2, 3 or 4 rounds by rank. |
-| 3 | The Ultimate deals 350%. |
-| 4 | The DMG Heal buff of Wish You Good Health becomes +15%. |
-| 5 | The DMG Dealt buff of Greetings! becomes +15%. |
+**Portrait 1**: **Greetings!**: At Incantation rank 1/2/3, Mental DMG is increased to 140/230/350%.
+
+**Portrait 2**: **Wish You Good Health**: At Incantation rank 1/2/3, \[Cure\] duration is increased to 2/3/4 rounds.
+
+**Portrait 3**: **One Stroke After Another**'s effect changes to: deals 350% Mental DMG.
+
+**Portrait 4**: **Wish You Good Health**: The DMG Heal increase is now 15% to self and allies behind.
+
+**Portrait 5**: **Greetings!**: The DMG Dealt increase is now 15% to self and allies in front.
+
+## Statuses
+
+- **Cure**: At the start of the round, recovers HP based on the user's ATK.
+- **Rousing Morale**: DMG Bonus +50% when attacking (reduced by 1 stack on trigger).
+- **Sturdiness**: When attacked, DMG Taken Reduction +25% (-1 stack after trigger).
 
 ## Names
 

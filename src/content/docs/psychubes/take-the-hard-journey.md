@@ -39,7 +39,15 @@ sources:
 
 ## Effect
 
-While the carrier's current HP is below 40/50/60/70/80% (Amplification 1 to 5), the carrier has Healing Done +12%.
+**Amplification 1**: When the Carrier is below 40% HP, Healing Done +12%
+
+**Amplification 2**: When the Carrier is below 50% HP, Healing Done +12%
+
+**Amplification 3**: When the Carrier is below 60% HP, Healing Done +12%
+
+**Amplification 4**: When the Carrier is below 70% HP, Healing Done +12%
+
+**Amplification 5**: When the Carrier is below 80% HP, Healing Done +12%
 
 ## Names
 

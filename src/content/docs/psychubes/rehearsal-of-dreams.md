@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- A Plant carrier gains Ultimate Might +1/1.5/1.5/2/2% (Amplification 1 to 5) for each [Neg Status] it inflicts when actively casting an incantation, stacking up to 12 times.
-- When the carrier casts its Ultimate, it gets DMG Dealt +3/3/4.5/4.5/6% for each kind of [Stats Down], [Neg Status] or [Control] effect on the target, counting at most 4 kinds.
+**Amplification 1**: When the carrier is a \[Plant\] character, for each \[Neg Status\] effect inflicted when actively casting an incantation, gain Ultimate Might +1%, stacks up to 12 times.
+
+When the carrier casts an ultimate, for each type of \[Stats Down\], \[Neg Status\], or \[Control\] effect on the target, gain DMG Dealt +3%, up to 4 types can count toward this effect.
+
+**Amplification 2**: When the carrier is a \[Plant\] character, for each \[Neg Status\] effect inflicted when actively casting an incantation, gain Ultimate Might +1.5%, stacks up to 12 times.
+
+When the carrier casts an ultimate, for each type of \[Stats Down\], \[Neg Status\], or \[Control\] effect on the target, gain DMG Dealt +3%, up to 4 types can count toward this effect.
+
+**Amplification 3**: When the carrier is a \[Plant\] character, for each \[Neg Status\] effect inflicted when actively casting an incantation, gain Ultimate Might +1.5%, stacks up to 12 times.
+
+When the carrier casts an ultimate, for each type of \[Stats Down\], \[Neg Status\], or \[Control\] effect on the target, gain DMG Dealt +4.5%, up to 4 types can count toward this effect.
+
+**Amplification 4**: When the carrier is a \[Plant\] character, for each \[Neg Status\] effect inflicted when actively casting an incantation, gain Ultimate Might +2%, stacks up to 12 times.
+
+When the carrier casts an ultimate, for each type of \[Stats Down\], \[Neg Status\], or \[Control\] effect on the target, gain DMG Dealt +4.5%, up to 4 types can count toward this effect.
+
+**Amplification 5**: When the carrier is a \[Plant\] character, for each \[Neg Status\] effect inflicted when actively casting an incantation, gain Ultimate Might +2%, stacks up to 12 times.
+
+When the carrier casts an ultimate, for each type of \[Stats Down\], \[Neg Status\], or \[Control\] effect on the target, gain DMG Dealt +6%, up to 4 types can count toward this effect.
 
 ## Names
 

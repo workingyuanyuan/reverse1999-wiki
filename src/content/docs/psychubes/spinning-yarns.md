@@ -40,8 +40,15 @@ sources:
 
 ## Effect
 
-- A Star carrier gains Ultimate Might +5%.
-- When the carrier's Ultimate is a mass attack that lands a critical hit on every target, the carrier gains DMG Dealt +4/6/8/10/12% (Amplification 1 to 5), stacking up to 3 times.
+**Amplification 1**: When the carrier is a \[Star\] character, Ultimate Might +5%. When the carrier's ultimate is a mass attack and scores a critical hit on all targets, DMG Dealt +4%, stacks up to 3 times.
+
+**Amplification 2**: When the carrier is a \[Star\] character, Ultimate Might +5%. When the carrier's ultimate is a mass attack and scores a critical hit on all targets, DMG Dealt +6%, stacks up to 3 times.
+
+**Amplification 3**: When the carrier is a \[Star\] character, Ultimate Might +5%. When the carrier's ultimate is a mass attack and scores a critical hit on all targets, DMG Dealt +8%, stacks up to 3 times.
+
+**Amplification 4**: When the carrier is a \[Star\] character, Ultimate Might +5%. When the carrier's ultimate is a mass attack and scores a critical hit on all targets, DMG Dealt +10%, stacks up to 3 times.
+
+**Amplification 5**: When the carrier is a \[Star\] character, Ultimate Might +5%. When the carrier's ultimate is a mass attack and scores a critical hit on all targets, DMG Dealt +12%, stacks up to 3 times.
 
 ## Names
 

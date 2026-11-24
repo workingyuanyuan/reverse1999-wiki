@@ -30,11 +30,6 @@ sources:
 | Extra stat at max level | ATK +10% |
 | Global client | not yet, mainland China client only |
 
-## Effect
-
-- On entering battle, a Star carrier gets Critical DMG +12/15/18/21/24% (Amplification 1 to 5).
-- When the carrier attacks in an extra action, all allies get Pursuit DMG Bonus +4/5/6/7/8% for 3 rounds, up to 4 stacks.
-
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |

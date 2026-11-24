@@ -40,8 +40,15 @@ sources:
 
 ## Effect
 
-- On entering battle, a [Conduit] carrier gets DMG Dealt +8/10/12/14/16% (Amplification 1 to 5).
-- When an ally attacks, if the carrier holds [Force Field], all allies get Critical DMG +1.5/1.8/2.2/2.6/3%, up to 8 stacks.
+**Amplification 1**: When entering battle, if the carrier is a \[Conduit\] character, gains DMG Dealt +8%. When an ally attacks, if the carrier is holding a \[Force Field\], all allies gain Critical DMG +1.5%, stackable up to 8 times.
+
+**Amplification 2**: When entering battle, if the carrier is a \[Conduit\] character, gains DMG Dealt +10%. When an ally attacks, if the carrier is holding a \[Force Field\], all allies gain Critical DMG +1.8%, stackable up to 8 times.
+
+**Amplification 3**: When entering battle, if the carrier is a \[Conduit\] character, gains DMG Dealt +12%. When an ally attacks, if the carrier is holding a \[Force Field\], all allies gain Critical DMG +2.2%, stackable up to 8 times.
+
+**Amplification 4**: When entering battle, if the carrier is a \[Conduit\] character, gains DMG Dealt +14%. When an ally attacks, if the carrier is holding a \[Force Field\], all allies gain Critical DMG +2.6%, stackable up to 8 times.
+
+**Amplification 5**: When entering battle, if the carrier is a \[Conduit\] character, gains DMG Dealt +16%. When an ally attacks, if the carrier is holding a \[Force Field\], all allies gain Critical DMG +3%, stackable up to 8 times.
 
 ## Names
 

@@ -36,48 +36,51 @@ sources:
 | Psychubes recommended in game | [Buds Yet to Bloom](/psychubes/buds-yet-to-bloom/), [Transcendent Love](/psychubes/transcendent-love/), [On the Hand of Time](/psychubes/on-the-hand-of-time/) |
 | Mainland release | 2025-07-17 |
 | Global release | 2025-11-20 |
-
-Charon gathers [Shock Wave] from both incantations, from the team's surplus Moxie and from units leaving the field, and every 40 stacks he gains add a stack of [Consternation]. His Ultimate turns his incantations waiting in the Spelldock into more Shock Wave and starts a channel that fires Day of Remorse at the end of each round, while his Insight 1 passive keeps a [Pulsing Field] up for the team. [Fear of Death] on enemies and [Peaceful Soul] on allies grow stronger with each stack of Consternation he holds.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/charon/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| From the Void (attack on all enemies) | 200% Mental DMG; 20 Shock Wave | 300%; 30 | 500%; 50 |
-| Advice from the Dead (team buff) | 20 Shock Wave | 30 | 50 |
+### From the Void
 
-At every rank, From the Void puts Fear of Death on the enemies it hits and Advice from the Dead gives all allies Peaceful Soul, each for 2 rounds.
+**Rank 1**: Mass attack. Deals 200% Mental DMG to all enemies. Gains 20 stacks of \[Shock Wave\]. Inflicts \[Fear of Death\] on the targets hit for 2 rounds.
+
+**Rank 2**: Mass attack. Deals 300% Mental DMG to all enemies. Gains 30 stacks of \[Shock Wave\]. Inflicts \[Fear of Death\] on the targets hit for 2 rounds.
+
+**Rank 3**: Mass attack. Deals 500% Mental DMG to all enemies. Gains 50 stacks of \[Shock Wave\]. Inflicts \[Fear of Death\] on the targets hit for 2 rounds.
+
+### Advice from the Dead
+
+**Rank 1**: Mass buff. Gains 20 stacks of \[Shock Wave\]. All allies gain \[Peaceful Soul\] for 2 rounds.
+
+**Rank 2**: Mass buff. Gains 30 stacks of \[Shock Wave\]. All allies gain \[Peaceful Soul\] for 2 rounds.
+
+**Rank 3**: Mass buff. Gains 50 stacks of \[Shock Wave\]. All allies gain \[Peaceful Soul\] for 2 rounds.
 
 ## Ultimate: New Blooms of Life
 
-Charon gains 1 Moxie, removes every From the Void and Advice from the Dead of his from the Spelldock, and gains 20, 30 or 50 stacks of Shock Wave for each card removed, by its rank. He then enters [Shadow of the Past]. Casting the Ultimate again while in Shadow of the Past resets the rising Shock Wave cost.
+Self channel. Gains Moxie +1. Removes all \[From the Void\] and \[Advice from the Dead\] incantations from the Spelldock; for each incantation removed, based on its rank, gains 20/30/50 stacks of \[Shock Wave\].
 
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Shadow of the Past | At the end of each round, triggers Day of Remorse. The first trigger costs no Shock Wave; each trigger raises the cost of the next by 50 stacks. The channel ends when Charon lacks the Shock Wave. |
-| Day of Remorse | 150% Mental DMG to all enemies, scaled by Ultimate Might at a 60% rate; each stack of Consternation adds 50% Mental DMG and 10% to that rate. Charon gains 1 Dynamo for every 5 stacks of Shock Wave he holds and 1 Moxie, and Fear of Death and Peaceful Soul last 1 round longer. |
-| Shock Wave | Stacks spent by Charon's channel. |
-| Consternation | Penetration Rate +5% per stack, at most 10 stacks, each with its own duration. |
-| Fear of Death | Critical DEF −20%, and −5% more for each stack of Consternation on Charon (at most −20% more); at 4 or more stacks, DMG Taken +30%. When the holder is hit and its HP falls below 20% of the Max HP it had when the status was applied (a threshold capped at 4000% of Charon's ATK), Charon deals heavy [Static Genesis DMG]. |
-| Static Genesis DMG | Genesis DMG that stat bonuses do not change. |
-| Peaceful Soul | Critical Rate +30%, and +5% more for each stack of Consternation on Charon (at most +20% more); at 4 or more stacks, 80% of the holder's Critical Rate above the cap turns into Critical DMG. |
-| Pulsing Field | Rises at the start of a round with the Dynamo put into it: Lv.2 at 50, Lv.3 at 120. The Dynamo inside is lost when the field ends. |
-| Pulsing Field Lv.1 | All allies DMG Bonus +15% for 3 rounds. |
-| Pulsing Field Lv.2 | All allies Incantation Might +25% and DMG Bonus +15% for 3 rounds. |
-| Pulsing Field Lv.3 | All allies Ultimate Might +35%, Incantation Might +25% and DMG Bonus +15% for 2 rounds. |
-| Amplified Surge | Pulsing Field Lv.1 rises straight to Lv.3, which needs 40 Dynamo. On reaching Lv.3, Charon and the adjacent ally in front gain [Simplified Ritual]; while Lv.3 stands, Charon has Penetration Rate +50%. |
-| Simplified Ritual | The next Ultimate costs no AP; removed after an Ultimate is actively cast. |
-| Dynamo | At most 30 stacks; cannot be dispelled. |
+Enters \[Shadow of the Past\] status. When cast under \[Shadow of the Past\] status, resets \[Shock Wave\] consumption count.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Charon gains Amplified Surge, and at the start of a round with no Pulsing Field he sets up Pulsing Field Lv.1. At the end of each round he puts up to 20 Dynamo into the field. He gains 1 Shock Wave for each Dynamo beyond Lv.3, 20 for each point of Moxie the team gains beyond the cap (not while that Moxie is stored), and 20 or 40 whenever an enemy or an ally leaves the field. Every 40 stacks of Shock Wave he gains give him 1 stack of Consternation for 4 rounds. |
-| 2 | ATK +5% on entering battle. |
-| 3 | On entering battle and whenever an enemy enters, enemies gain Fear of Death for 2 rounds. On entering battle, Charon gains 20 Dynamo, 50 Shock Wave and 2 Moxie, plus 1 Moxie for each other Spirit or Intellect ally (at most 2). |
+**Insight 1 · Spasming Brainwave**: At the start of the round, if not under a \[Pulsing Field\] of any level, deploys \[Pulsing Field Lv.1\].
+
+Gains \[Amplified Surge\].
+
+At the end of the round, transfers up to 20 stacks of \[Dynamo\] into the \[Pulsing Field\].
+
+For every excess stack of \[Dynamo\] over \[Pulsing Field Lv.3\], gains 1 stack of \[Shock Wave\]. For every excess Moxie owned by the team, gains 20 stacks of \[Shock Wave\] (mutually exclusive with stored Moxie). Whenever an enemy/ally retreats, gains 20/40 stacks of \[Shock Wave\].
+
+For every 40 stacks of \[Shock Wave\] gained, gains 1 stack of \[Consternation\] for 4 rounds.
+
+**Insight 2 · Spasming Brainwave II**: ATK +5% when entering battle.
+
+**Insight 3 · Spasming Brainwave III**: Inflicts \[Fear of Death\] for 2 rounds on enemies whenever they enter battle.
+
+When entering battle, gains 20 stacks of \[Dynamo\] and 50 stacks of \[Shock Wave\].
+
+Gains Moxie +2. For every other Spirit or Intellect ally present, gains an extra Moxie +1 (triggers up to 2 times).
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -87,13 +90,44 @@ Charon gains 1 Moxie, removes every From the Void and Advice from the Dead of hi
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Peaceful Soul gains Critical Rate +7.5% per stack of Consternation (at most +30%), and converts 100% of the excess Critical Rate at 4 stacks. |
-| 2 | On entering battle he gains 30 Dynamo, 90 Shock Wave and 3 Moxie. |
-| 3 | Day of Remorse deals 400% and scales by Ultimate Might at a 70% rate. |
-| 4 | Fear of Death lowers Critical DEF by 7.5% more per stack of Consternation (at most 30%), and raises DMG Taken by 40% at 4 stacks. |
-| 5 | Each stack of Consternation adds 100% Mental DMG and 12% to the Ultimate Might rate of Day of Remorse. |
+**Portrait 1**: **Advice from the Dead**: \[Peaceful Soul\]'s extra Critical Rate bonus gained from every stack of \[Consternation\] is increased to 7.5% (up to 30%); the "excess Critical Rate to Critical DMG" conversion rate is increased to 100% when Charon has 4 or more stacks of \[Consternation\].
+
+**Portrait 2**: **Spasming Brainwave**: When entering battle, the stacks of \[Dynamo\] gained are increased to 30, the stacks of \[Shock Wave\] gained are increased to 90, and Moxie gained is increased to 3.
+
+**Portrait 3**: **New Blooms of Life**: \[Day of Remorse\] now deals 400% Mental DMG and benefits from Ultimate Might at a 70% rate.
+
+**Portrait 4**: **From the Void**: When an enemy has \[Fear of Death\], for every stack of \[Consternation\] on Charon, that enemy's Critical DEF reduction is increased to 7.5% (up to 30%); when Charon has 4 or more stacks of \[Consternation\], that enemy's DMG Taken bonus is increased to 40%.
+
+**Portrait 5**: **New Blooms of Life**: For every stack of \[Consternation\] owned, \[Day of Remorse\] now deals an extra 100% Mental DMG and benefits from Ultimate Might at a +12% rate.
+
+## Statuses
+
+- **Shock Wave**: Consumed to trigger some of Charon's incantations. Stackable.
+- **Fear of Death**: After being attacked, if the current HP is below 20% of Max HP (current HP ≤ Charon's ATK x4000%) when Fear of Death is inflicted, takes significant \[Static Genesis DMG\].
+
+  Critical DEF -20%. When being attacked, for every stack of \[Consternation\] Charon has, gets an extra Critical DEF -5% (up to -20%). Gets DMG Taken +30% if Charon has 4 or more stacks of \[Consternation\].
+- **Peaceful Soul**: Critical Rate +30%. When attacking, for every 1 stack of \[Consternation\] Charon has, gains an extra Critical Rate +5% (up to +20%). 80% excess Critical Rate is converted into Critical DMG if Charon has 4 or more stacks of \[Consternation\].
+- **From the Void**: Mass attack. Deals 200% Mental DMG to all enemies. Gains 20 stacks of \[Shock Wave\]. Inflicts \[Fear of Death\] on the targets hit for 2 rounds.
+- **Advice from the Dead**: Mass buff. Gains 20 stacks of \[Shock Wave\]. All allies gain \[Peaceful Soul\] for 2 rounds.
+- **Shadow of the Past**: At the end of the round, triggers \[Day of Remorse\] at no cost of \[Shock Wave\] stacks. Each trigger increases the next trigger's consumption of \[Shock Wave\] by 50 stacks. When running short of \[Shock Wave\], the channel status ends.
+- **Pulsing Field**: At the start of the round, Pulsing Field upgrades based on the \[Dynamo\] transferred into it. At 50+, upgrades into \[Pulsing Field Lv.2\]. At 120+, upgrades into \[Pulsing Field Lv.3\]. When Pulsing Field disappears, all \[Dynamo\] transferred into it are also cleared.
+- **Pulsing Field Lv.1**: All allies gain DMG Bonus +15% for 3 rounds.
+- **Amplified Surge**: \[Pulsing Field Lv.1\] is directly upgraded to \[Pulsing Field Lv.3\]. Gain 40 Dynamo to upgrade \[Pulsing Field Lv.1\].
+
+  After activating \[Pulsing Field Lv.3\], grant \[Simplified Ritual\] to self and the adjacent character in front.
+
+  After activating \[Pulsing Field Lv.3\], Penetration Rate +50%.
+- **Dynamo**: A product of technology used for meticulous machinery (up to 30 stacks, undispellable).
+- **Pulsing Field Lv.3**: All allies gain Ultimate Might +35%, Incantation Might +25%, and DMG Bonus +15% for 2 rounds.
+- **Consternation**: Penetration Rate +5% (stackable up to 10 times, each stack timed independently).
+- **Day of Remorse**: Mass attack. Deals 150% Mental DMG to all enemies. This attack benefits from Ultimate Might at a 60% rate. For every stack of \[Consternation\] owned, deals an extra 50% Mental DMG and benefits from Ultimate Might at a +10% rate.
+
+  For every 5 stacks of \[Shock Wave\] owned, gains 1 stack of \[Dynamo\].
+
+  Increases the duration of \[Fear of Death\] on enemies and \[Peaceful Soul\] on allies by 1 round. Gains Moxie +1.
+- **Static Genesis DMG**: This type of Genesis DMG is not affected by relevant stat bonuses.
+- **Pulsing Field Lv.2**: All allies gain Incantation Might +25% and DMG Bonus +15% for 3 rounds.
+- **Simplified Ritual**: When casting an Ultimate, no AP is consumed. Removed after actively casting an Ultimate.
 
 ## Names
 

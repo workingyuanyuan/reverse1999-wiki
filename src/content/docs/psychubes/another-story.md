@@ -40,8 +40,15 @@ sources:
 
 ## Effect
 
-- Each rank 2 incantation the carrier casts adds DMG Dealt +1/1.5/2/2.5/3%, and each rank 3 incantation adds DMG Dealt +2/3/4/5/6%, up to a total of +8/12/16/20/24% (Amplification 1 to 5).
-- Once the carrier has consumed 2 or more Eureka during the team's round, it gets Incantation Might +10/12/14/16/18% until the end of that round.
+**Amplification 1**: After the carrier casts a rank 2/3 incantation, DMG Dealt +1%/2%, stacking up to +8%. When the carrier consumes 2 or more Eureka within a round, gain Incantation Might +10% until the end of the round.
+
+**Amplification 2**: After the carrier casts a rank 2/3 incantation, DMG Dealt +1.5%/3%, stacking up to +12%. When the carrier consumes 2 or more Eureka within a round, gain Incantation Might +12% until the end of the round.
+
+**Amplification 3**: After the carrier casts a rank 2/3 incantation, DMG Dealt +2%/4%, stacking up to +16%. When the carrier consumes 2 or more Eureka within a round, gain Incantation Might +14% until the end of the round.
+
+**Amplification 4**: After the carrier casts a rank 2/3 incantation, DMG Dealt +2.5%/5%, stacking up to +20%. When the carrier consumes 2 or more Eureka within a round, gain Incantation Might +16% until the end of the round.
+
+**Amplification 5**: After the carrier casts a rank 2/3 incantation, DMG Dealt +3%/6%, stacking up to +24%. When the carrier consumes 2 or more Eureka within a round, gain Incantation Might +18% until the end of the round.
 
 ## Names
 

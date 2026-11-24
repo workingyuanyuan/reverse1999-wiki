@@ -36,31 +36,37 @@ sources:
 | Psychubes recommended in game | [Long Night Talk](/psychubes/long-night-talk/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Click attacks one target with both incantations: from rank 2 the first blinds the target and the second takes away its Moxie. His Ultimate shields the rest of the team against Reality DMG with Lens Cap, and he gains Lens Cap himself every 2 rounds, which also raises his Penetration Rate from Insight 3.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/click/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| The Onlooker (single-target attack) | 200% Mental DMG | 250%; Blind 1 round | 400%; Blind 2 rounds |
-| The Witness (single-target attack) | 200% Mental DMG | 250%; target Moxie −1 | 400%; target Moxie −2 |
+### The Onlooker
+
+**Rank 1**: 1-target attack. Deals 200% Mental DMG.
+
+**Rank 2**: 1-target attack. Deals 250% Mental DMG. Inflicts the \[Blind\] status for 1 round on the target hit.
+
+**Rank 3**: 1-target attack. Deals 400% Mental DMG. Inflicts the \[Blind\] status for 2 rounds on the target hit.
+
+### The Witness
+
+**Rank 1**: 1-target attack. Deals 200% Mental DMG.
+
+**Rank 2**: 1-target attack. Deals 250% Mental DMG. Inflicts Moxie -1 on the target hit.
+
+**Rank 3**: 1-target attack. Deals 400% Mental DMG. Inflicts Moxie -2 on the target hit.
 
 ## Ultimate: A Picture at a Price
 
-Deals 300% Mental DMG to all enemies and gives every other ally [Lens Cap] for 1 round; Click himself does not get it from the Ultimate.
-
-[Lens Cap]: DMG Taken Reduction +50% against Reality DMG attacks.
-
-[Blind]: the holder's single-target attacks have DMG Bonus −30%.
+Mass attack. Deals 300% Mental DMG to all enemies. Other allies enter \[Lens Cap\] status for 1 round.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Every 2 rounds, at the start of the round, Click gains Lens Cap for 1 round. |
-| 2 | DMG Taken −8% on entering battle. |
-| 3 | Penetration Rate +30% while Click has Lens Cap. |
+**Insight 1 · New Photography Theory**: At the beginning of every 2 rounds, enters \[Lens Cap\] status for 1 round.
+
+**Insight 2 · New Photography Theory Ⅱ**: DMG Taken -8% when entering battle.
+
+**Insight 3 · New Photography Theory Ⅲ**: When the caster is in \[Lens Cap\] status, Penetration Rate +30%.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -70,13 +76,20 @@ Deals 300% Mental DMG to all enemies and gives every other ally [Lens Cap] for 1
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 350%. |
-| 2 | The Onlooker deals 220, 280 or 450% by rank. |
-| 3 | The Ultimate deals 400%. |
-| 4 | The Witness deals 220, 280 or 450% by rank. |
-| 5 | The Ultimate deals 450%. |
+**Portrait 1**: **A Picture at a Price**'s effect changes to: deals 350% Mental DMG.
+
+**Portrait 2**: **The Onlooker**'s effect changes to: at 1/2/3 stars, deals 220/280/450% Mental DMG.
+
+**Portrait 3**: **A Picture at a Price**: Mental DMG increased to 400%.
+
+**Portrait 4**: **The Witness**'s effect changes to: at 1/2/3 stars, deals 220/280/450% Mental DMG.
+
+**Portrait 5**: **A Picture at a Price**: Mental DMG increased to 450%.
+
+## Statuses
+
+- **Blind**: DMG Bonus -30% when attacking 1 target.
+- **Lens Cap**: When attacked by Reality DMG, DMG Taken Reduction +50%.
 
 ## Names
 

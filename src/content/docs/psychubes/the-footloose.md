@@ -40,7 +40,15 @@ sources:
 
 ## Effect
 
-When the carrier attacks a target with more than 50% HP, the carrier has DMG Dealt +8/10/12/14/16% against it (Amplification 1 to 5).
+**Amplification 1**: When the carrier attacks, if the target's HP is above 50%, DMG Dealt +8%.
+
+**Amplification 2**: When the carrier attacks, if the target's HP is above 50%, DMG Dealt +10%.
+
+**Amplification 3**: When the carrier attacks, if the target's HP is above 50%, DMG Dealt +12%.
+
+**Amplification 4**: When the carrier attacks, if the target's HP is above 50%, DMG Dealt +14%.
+
+**Amplification 5**: When the carrier attacks, if the target's HP is above 50%, DMG Dealt +16%.
 
 ## Names
 

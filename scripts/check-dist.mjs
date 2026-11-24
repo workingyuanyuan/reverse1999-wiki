@@ -30,11 +30,12 @@ import { fileURLToPath } from 'node:url';
 import { JSDOM } from 'jsdom';
 import { Readability } from '@mozilla/readability';
 import TurndownService from 'turndown';
-import { SITE, LOCALES, LLMS_NOTES, localeOf, bareId, idInLocale, htmlPath, mdPath, llmsPath, withBase, isStage, isStoryText, isProfile, isGameText } from '../src/lib/site.mjs';
+import { SITE, LOCALES, LLMS_NOTES, localeOf, bareId, idInLocale, htmlPath, mdPath, llmsPath, withBase, isStage, isStoryText, isProfile, isGameText, hidesAnswer } from '../src/lib/site.mjs';
 import { bundlePath } from '../src/lib/llms.mjs';
 import { readPages, readPending } from '../src/lib/content-index.mjs';
 import { checkFound } from './check-found.mjs';
-import { checkHeaderAndOutputs, checkSelfReference } from './check-page-text.mjs';
+import { checkHeaderAndOutputs, checkSelfReference, checkOpening } from './check-page-text.mjs';
+import { checkProse } from './prose-review.mjs';
 
 const DIST = fileURLToPath(new URL('../dist/', import.meta.url));
 const LIMIT = 5000;
@@ -44,6 +45,33 @@ const failures = [];
 const fail = (page, message) => failures.push(`${page}: ${message}`);
 
 const read = (path) => readFileSync(join(DIST, path), 'utf8');
+// Arcanists out on the mainland service only: their kit is game text in Simplified Chinese alone, so
+// the zh-cn page has kit headings the other languages lack. The same for Psychubes, below.
+const MAINLAND_ONLY = new Set(JSON.parse(readFileSync(new URL('../records/arcanists.json', import.meta.url), 'utf8'))
+	.arcanists.filter((a) => !a.inGlobal).map((a) => `arcanists/${a.slug}`));
+// Psychubes out on the mainland service only: their effect is game text in Simplified Chinese alone.
+for (const p of JSON.parse(readFileSync(new URL('../records/psychubes.json', import.meta.url), 'utf8')).psychubes) {
+	if (!p.inGlobal) MAINLAND_ONLY.add(`psychubes/${p.slug}`);
+}
+// Pages whose sections between the profile table and the names table are the game's text: the kit
+// of an arcanist (pipeline/kit_text.py) and the effect of a Psychube (pipeline/psychube.py).
+const KIT_PAGES = new Set([
+	...JSON.parse(readFileSync(new URL('../records/arcanists.json', import.meta.url), 'utf8')).arcanists.map((a) => `arcanists/${a.slug}`),
+	...JSON.parse(readFileSync(new URL('../records/psychubes.json', import.meta.url), 'utf8')).psychubes.map((p) => `psychubes/${p.slug}`),
+]);
+/** The page with the game's text of a kit or Psychube page taken out: every section but the last (names). */
+function withoutGameText(doc, id) {
+	if (!KIT_PAGES.has(bareId(id))) return doc;
+	const copy = doc.cloneNode(true);
+	const heads = [...copy.querySelectorAll('.sl-markdown-content > .sl-heading-wrapper.level-h2')];
+	if (heads.length < 2) return copy;
+	for (let el = heads[0]; el && el !== heads.at(-1); ) {
+		const next = el.nextElementSibling;
+		el.remove();
+		el = next;
+	}
+	return copy;
+}
 const normalize = (text) => text.replace(/\s+/g, ' ').trim();
 
 /** Fenced code blocks of a Markdown string, as trimmed strings. */
@@ -224,6 +252,10 @@ for (const [k, { id, data }] of pages.entries()) {
 			}
 	const note = doc.querySelector('main .agent-note');
 	if (!note?.textContent.includes(SITE + mdPath(id)) || !note.textContent.includes(SITE + llmsPath(localeOf(id)))) fail(id, 'missing hidden pointer to the Markdown twin and the page list');
+	// A profile or stage page shows no answer line; its hidden note carries the description.
+	if (hidesAnswer(id) ? doc.querySelector('main .answer') || !note?.textContent.includes(String(data.description)) : !doc.querySelector('main .answer')) {
+		fail(id, hidesAnswer(id) ? 'the page shows the answer line, or its hidden note lacks the description' : 'no answer line under the title');
+	}
 	if (note && (note.hasAttribute('hidden') || note.getAttribute('aria-hidden') === 'true' || note.getAttribute('style'))) {
 		fail(id, 'the pointer for agents must be hidden by CSS class only, or extractors drop it');
 	}
@@ -266,10 +298,13 @@ for (const [k, { id, data }] of pages.entries()) {
 	// Starlight curls apostrophes in the HTML (Echoes' Embrace); compare them straight.
 	// The HTML renderer curls quotes and joins three dots.
 	const straight = (h) => h.replace(/[\u2018\u2019]/g, "'").replace(/[\u201c\u201d]/g, '"').replace(/\u2026/g, '...');
-	const wantHeadings = headings(mdBody).map((h) => straight(normalize(h.replace(/`/g, '').replace(/\\([<>*_[\]])/g, '$1'))));
+	// Emphasis marks are dropped on both sides: the twin writes *x* where the extractor writes _x_.
+	// (A bare _ inside a word of the twin is a letter; the extractor escapes it.)
+	const noMarks = (h) => h.replace(/(?<!\\)(\*+|~~)/g, '');
+	const wantHeadings = headings(mdBody).map((h) => straight(normalize(noMarks(h.replace(/`/g, '')).replace(/\\([<>*_[\]~])/g, '$1'))));
 	const gotHeadings = headings(extracted)
 		.filter((h) => !h.startsWith('1 '))
-		.map((h) => straight(normalize(h.replace(/\\/g, '').replace(/`/g, ''))));
+		.map((h) => straight(normalize(noMarks(h).replace(/(?<!\\)_+/g, '').replace(/\\/g, '').replace(/`/g, ''))));
 	if (JSON.stringify(wantHeadings) !== JSON.stringify(gotHeadings)) {
 		fail(id, `headings differ between HTML and Markdown twin\n    md:   ${wantHeadings.join(' | ')}\n    html: ${gotHeadings.join(' | ')}`);
 	}
@@ -329,16 +364,21 @@ for (const [k, { id, data }] of pages.entries()) {
 		sections: SECTIONS.map((s) => withBase(htmlPath(idInLocale(s, localeOf(id))))),
 		outputs: [withBase(mdPath(id)), withBase(llmsPath(localeOf(id))), withBase('/index.json')],
 	});
+	checkOpening(doc, id, fail);
 	// Chapter and stage pages of the story quote the game's text, in which characters speak of pages.
-	if (!isGameText(id)) checkSelfReference(doc, id, fail);
+	// So do the kit of an arcanist page and the effect of a Psychube page (a passive named 翻閱此頁).
+	if (!isGameText(id)) checkSelfReference(withoutGameText(doc, id), id, fail);
 	// Profile pages turn the client's <i>, <b> and <s> into *, ** and ~~ (pipeline/profile.py). A
 	// mark that CommonMark does not read shows as a literal character: the page shows exactly as
 	// many asterisks and tildes as the twin escapes.
-	if (isProfile(id)) {
+	// Story stages show the Compendium's bold marks, which pipeline/story.py (fix_marks) makes parse.
+	if (isProfile(id) || isStage(id)) {
 		const content = doc.querySelector('.sl-markdown-content')?.cloneNode(true);
-		content?.querySelectorAll('script, style').forEach((e) => e.remove());
+		// The anchor link of each heading repeats the heading's text for screen readers.
+		content?.querySelectorAll('script, style, .sl-anchor-link').forEach((e) => e.remove());
 		const shown = content?.textContent ?? '';
-		for (const c of ['*', '~']) {
+		// A story's ~ is the Compendium's own character (꿔~), never written as a mark.
+		for (const c of isStage(id) ? ['*'] : ['*', '~']) {
 			const want = md.split('\\' + c).length - 1;
 			const got = shown.split(c).length - 1;
 			if (got !== want) fail(id, `${got - want} ${c} mark(s) of the game's rich text were not read as Markdown`);
@@ -346,7 +386,7 @@ for (const [k, { id, data }] of pages.entries()) {
 	}
 
 	// 5. No decoration leak into extracted text.
-	const visible = normalize(doc.body.textContent);
+	const visible = normalize(withoutGameText(doc, id).body.textContent);
 	for (const [name, pattern] of [
 		// Add a pattern here for every piece of text the skin draws with CSS `content`. The skin
 		// draws its rhombus marks as shapes, with no text; a typed rhombus would copy them.
@@ -387,7 +427,8 @@ for (const [k, { id, data }] of pages.entries()) {
 		const otherMd = read(mdPath(otherId).slice(1));
 		if (!same(codeBlocks(md), codeBlocks(otherMd))) fail(id, `code blocks differ from ${otherId}`);
 		// A stage's Trails can differ between the mainland text (zh-cn) and the global text.
-		if (!isStoryText(id) && headings(md).length !== headings(otherMd).length) fail(id, `number of headings differs from ${otherId}`);
+		const kitOnlyInZhCn = MAINLAND_ONLY.has(bareId(id)) && (mine.dir === 'zh-cn' || other.dir === 'zh-cn');
+		if (!isStoryText(id) && !kitOnlyInZhCn && headings(md).length !== headings(otherMd).length) fail(id, `number of headings differs from ${otherId}`);
 		// The same link targets, except links to pages that either language lacks.
 		const lacking = (bare) => isPending(bare, mine) || isPending(bare, other);
 		const targets = (pageId) => [...linkTargets(byId.get(pageId).body)].filter((t) => !lacking(t)).sort();
@@ -436,6 +477,8 @@ if (!/^Content-Signal: /m.test(robots)) fail('robots.txt', 'no Content-Signal li
 
 
 await checkFound(DIST, pages, fail);
+// 11. Every unit of the site's own prose is in the prose ledger (scripts/prose-review.mjs).
+await checkProse(fail, DIST);
 }
 
 if (failures.length) {

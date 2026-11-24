@@ -35,36 +35,37 @@ sources:
 | Psychubes recommended in game | [Outside the City](/psychubes/outside-the-city/), [Stray Off the Path](/psychubes/stray-off-the-path/) |
 | Mainland release | 2024-01-11 |
 | Global release | 2024-05-30 |
-
-Jiu Niangzi builds [Liquor], which powers her next damage incantation. Bottoms Up spends Liquor on a follow-up hit; Baijiu Ladle stocks Liquor and puts her in the [Tipsy] channel, which casts Bottoms Up by itself at the start of the next round. Her Insight passives refill Liquor from the buffs, counters, shields and channels on the team.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/jiu-niangzi/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Bottoms Up (single-target attack) | 160% Reality DMG | 240% | 400% |
-| Baijiu Ladle (self channel) | 3 [Liquor], 1 [Cheers]; [Tipsy] for 1 round | 6 Liquor, 1 Cheers | 9 Liquor, 2 Cheers |
+### Bottoms Up
 
-- **Bottoms Up**: while she holds Liquor, it spends 1 to 3 stacks at random (chances 20%, 40% and 40% for 1, 2 and 3) on a follow-up hit, which gains Reality DMG +60% for each stack spent.
-- **Tipsy**: if she is still channeling at the start of the next round, she casts Bottoms Up of the same rank as the Baijiu Ladle on the enemy with the lowest HP percentage. She cannot act while channeling, and an Ultimate attack on her ends it.
+**Rank 1**: 1-target attack. Deals 160% Reality DMG. While in \[Liquor\] status, randomly consumes 1-3 stacks of \[Liquor\] for a follow-up attack. Deals Reality DMG +60% for each stack of \[Liquor\] consumed (Chance to consume 1/2/3 \[Liquor\]: 20%/40%/40%).
 
-[Liquor]: powers up her next damage incantation; stacks, and cannot be dispelled.
+**Rank 2**: 1-target attack. Deals 240% Reality DMG. While in \[Liquor\] status, randomly consumes 1-3 stacks of \[Liquor\] for a follow-up attack. Deals Reality DMG +60% for each stack of \[Liquor\] consumed (Chance to consume 1/2/3 \[Liquor\]: 20%/40%/40%).
 
-[Cheers]: raises both the least and the most Liquor that Bottoms Up spends by 1, spending all she has if there is not enough; one stack is used each time.
+**Rank 3**: 1-target attack. Deals 400% Reality DMG. While in \[Liquor\] status, randomly consumes 1-3 stacks of \[Liquor\] for a follow-up attack. Deals Reality DMG +60% for each stack of \[Liquor\] consumed (Chance to consume 1/2/3 \[Liquor\]: 20%/40%/40%).
+
+### Baijiu Ladle
+
+**Rank 1**: Self channel. Gains 3 stacks of \[Liquor\] and 1 stack of \[Cheers\]. Enters \[Tipsy\] for 1 round.
+
+**Rank 2**: Self channel. Gains 6 stacks of \[Liquor\] and 1 stack of \[Cheers\]. Enters \[Tipsy\] for 1 round.
+
+**Rank 3**: Self channel. Gains 9 stacks of \[Liquor\] and 2 stacks of \[Cheers\]. Enters \[Tipsy\] for 1 round.
 
 ## Ultimate: Baijiu and Mayhem
 
-A mass attack for 350% Reality DMG, with Reality DMG +100% for each enemy fewer than 3, up to +200%. If she holds 6 or more Liquor before casting, she spends 6 to give the attack Penetration Rate +100%; with fewer, she gains 6 Liquor and 2 Cheers.
+Mass attack. Deals 350% Reality DMG. If less than 3 enemies are present, adds Reality DMG +100% for each missing enemy (up to +200%). If holding 6 or more \[Liquor\] before casting, spend 6 stacks of \[Liquor\] to grant Penetration Rate +100% to this attack. If holding less than 6 stacks of \[Liquor\] before casting, gain 6 stacks of \[Liquor\] and 2 stacks of \[Cheers\].
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Gains 3 Liquor on entering battle. At the end of each round, gains 1 Liquor for every 4 different statuses of the kinds Stats Up, Pos Status, Counter, Shield and Channel on all allies, at most 3, rounded down. |
-| 2 | ATK +5% on entering battle. |
-| 3 | At the start of each round, while she holds Liquor, gains 1 random effect of the [Collection of Buffs] for 2 rounds. |
+**Insight 1 · Contemplation**: When entering battle, gain 3 stacks of \[Liquor\]. At the end of the round, gain \[Liquor\] based on the number of \[Stats Up\], \[Pos Status\], \[Counter\], \[Shield\], and \[Channel\] statuses on all allies (gain 1 stack of \[Liquor\] for every 4 different types of these statuses, up to a maximum of 3 stacks; round down if there are not enough statuses present).
 
-[Collection of Buffs]: one of four effects: DMG Taken Reduction +20%, DMG Heal +20%, Incantation Might +20% or Ultimate Might +20%; effects she does not have come first.
+**Insight 2 · Contemplation II**: ATK +5% when entering battle.
+
+**Insight 3 · Contemplation III**: At the start of the round, if in \[Liquor\] status, grant 1 effect from \[Collection of Buffs\] to self for 2 rounds.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -74,26 +75,41 @@ A mass attack for 350% Reality DMG, with Reality DMG +100% for each enemy fewer 
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 400%, with +150% for each enemy fewer than 3, up to +300%. |
-| 2 | Bottoms Up's follow-up gains Reality DMG +90% for each Liquor spent. |
-| 3 | Insight III gives 2 effects of the Collection of Buffs. |
-| 4 | Bottoms Up can spend up to 4 Liquor, with chances of 5%, 15%, 40% and 40% for 1, 2, 3 and 4. |
-| 5 | The Collection of Buffs effects become +25% each; at the end of the round she gains 1 Liquor for every 3 different statuses, at most 5. |
+**Portrait 1**: **Baijiu and Mayhem**: Reality DMG dealt is increased to 400%. Extra Reality DMG dealt is increased to +150% for each missing enemy (up to +300%).
+
+**Portrait 2**: **Bottoms Up**: For each stack of \[Liquor\] consumed, Reality DMG dealt is increased to +90%.
+
+**Portrait 3**: **Contemplation**: Random \[Collection of Buffs\] effects granted to self is increased to 2 types.
+
+**Portrait 4**: **Bottoms Up**: Maximum stacks of \[Liquor\] consumed is increased to 4, and chance to consume 1/2/3/4 stacks of \[Liquor\] is increased to 5%/15%/40%/40%.
+
+**Portrait 5**: **Contemplation**: \[Collection of Buffs\]'s effects are increased to +25% each. At the end of the round, now for every 3 different types of statuses possessed, grant 1 stack of \[Liquor\] to self (can now gain up to 5 stacks).
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Jiu Niangzi has one Epiphany of four levels, built on [Sublime Flow].
+**Epiphany 1, level 1**: The \[Tipsy\] status is no longer removed after being attacked by an ultimate. After another ally performs an extra action, grant 1 stack of \[Liquor\] and 1 stack of \[Sublime Flow\] to self.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | An Ultimate attack no longer ends Tipsy. Each time another ally takes an extra action, she gains 1 Liquor and 1 Sublime Flow. With Sublime Flow at its cap, Baijiu Ladle first casts a Bottoms Up of the same rank, then enters Tipsy. |
-| 1 | 2 | Her Ultimate gains Ultimate Might +4% for each Sublime Flow stack, up to +48%, and afterwards she gains 1 Liquor for each Sublime Flow stack. |
-| 1 | 3 | When she gains Liquor at the end of the round, she gains as many stacks of Sublime Flow. |
-| 1 | 4 | Baijiu Ladle at rank 1, 2 or 3 gives 2, 3 or 5 Sublime Flow. After another ally acts of its own accord, she spends a random amount of Liquor on a follow-up Bottoms Up, at most 3 times a round. |
+When \[Sublime Flow\] is at maximum stacks, casting **Baijiu Ladle** will also cast a **Bottoms Up** of the same rank first before entering the \[Tipsy\] status.
 
-[Sublime Flow]: Incantation Might +3% per stack, up to 12 stacks; lasts 3 rounds and cannot be dispelled.
+**Epiphany 1, level 2**: When casting **Baijiu and Mayhem**, for each stack of \[Sublime Flow\] held, gain Ultimate Might +4%, up to a maximum of +48%.
+
+After casting **Baijiu and Mayhem**, for each stack of \[Sublime Flow\] held, gain 1 stack of \[Liquor\].
+
+**Epiphany 1, level 3**: When gaining \[Liquor\] at the end of the round, also gain an equal number of stacks of \[Sublime Flow\].
+
+**Epiphany 1, level 4**: After casting a rank 1/2/3 **Baijiu Ladle**, gain 2/3/5 stacks of \[Sublime Flow\].
+
+After another ally actively takes an action, Jiu Niangzi consumes a random number of \[Liquor\] stacks to cast a **Bottoms Up**, this effect can trigger up to 3 times per round.
+
+## Statuses
+
+- **Liquor**: Jiu Niangzi's next damage incantation is enhanced (stackable, undispellable).
+- **Cheers**: When casting \[Bottoms Up\], increase both the minimum and maximum number of \[Liquor\] consumed by 1 stack. Consume all \[Liquor\] if there are not enough stacks (-1 stack after trigger).
+- **Tipsy**: When this Channel status is active at the start of the round, cast rank 1 \[Bottoms Up\] on the enemy with the lowest HP percentage (when channeling, cannot act. Removed after being attacked by an Ultimate).
+- **Counter**: Grants continuous Counter. Effect is triggered When the caster is attacked.
+- **Shield**: Blocks certain DMG for a certain duration.
+- **Collection of Buffs**: There are 4 effects: DMG Taken Reduction +20%, DMG Heal +20%, Incantation Might +20%, and Ultimate Might +20%. Prioritizes effects not yet applied.
+- **Sublime Flow**: Incantation Might +3% (stacks up to 12 times, lasts 3 rounds, undispellable)
 
 ## Names
 

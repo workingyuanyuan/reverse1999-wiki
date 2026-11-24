@@ -1,6 +1,6 @@
 ---
 title: "Her Bright Future"
-description: "Her Bright Future is a 5-star ATK Psychube that raises Ultimate Might when the carrier has a Stats Up status."
+description: "Her Bright Future is a 5-star ATK Psychube that raises Ultimate Might."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
 caveat: "The carrier must hold a Stats Up status at the moment it casts its Ultimate; incantations get nothing."
 lastVerified: 2026-11-23
@@ -41,7 +41,15 @@ sources:
 
 ## Effect
 
-When the carrier casts its Ultimate while under a [Stats Up] status, it gets Ultimate Might +10/12.5/15/17.5/20% (Amplification 1 to 5).
+**Amplification 1**: When the carrier casts an ultimate, if the carrier is in a \[Stats Up\] status, Ultimate Might +10%.
+
+**Amplification 2**: When the carrier casts an ultimate, if the carrier is in a \[Stats Up\] status, Ultimate Might +12.5%.
+
+**Amplification 3**: When the carrier casts an ultimate, if the carrier is in a \[Stats Up\] status, Ultimate Might +15%.
+
+**Amplification 4**: When the carrier casts an ultimate, if the carrier is in a \[Stats Up\] status, Ultimate Might +17.5%.
+
+**Amplification 5**: When the carrier casts an ultimate, if the carrier is in a \[Stats Up\] status, Ultimate Might +20%.
 
 ## Names
 

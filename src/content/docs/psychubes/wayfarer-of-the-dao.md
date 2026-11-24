@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- For each point of Eureka the team spends, all allies gain DMG Dealt +0.2/0.2/0.3/0.3/0.4%, up to 30 stacks (Amplification 1 to 5).
-- When a Plant carrier deploys an [Array], the Array also gives all allies Incantation Might +6/9/9/12/12%. The bonus is removed when the Array ends or is replaced.
+**Amplification 1**: For each Eureka consumed by the team, all allies gain DMG Dealt +0.2%, up to 30 stacks.
+
+If the carrier is a \[Plant\] character, their deployed \[Array\] additionally grants Incantation Might +6% to all allies. This effect is removed after the Array ends or is replaced.
+
+**Amplification 2**: For each Eureka consumed by the team, all allies gain DMG Dealt +0.2%, up to 30 stacks.
+
+If the carrier is a \[Plant\] character, their deployed \[Array\] additionally grants Incantation Might +9% to all allies. This effect is removed after the Array ends or is replaced.
+
+**Amplification 3**: For each Eureka consumed by the team, all allies gain DMG Dealt +0.3%, up to 30 stacks.
+
+If the carrier is a \[Plant\] character, their deployed \[Array\] additionally grants Incantation Might +9% to all allies. This effect is removed after the Array ends or is replaced.
+
+**Amplification 4**: For each Eureka consumed by the team, all allies gain DMG Dealt +0.3%, up to 30 stacks.
+
+If the carrier is a \[Plant\] character, their deployed \[Array\] additionally grants Incantation Might +12% to all allies. This effect is removed after the Array ends or is replaced.
+
+**Amplification 5**: For each Eureka consumed by the team, all allies gain DMG Dealt +0.4%, up to 30 stacks.
+
+If the carrier is a \[Plant\] character, their deployed \[Array\] additionally grants Incantation Might +12% to all allies. This effect is removed after the Array ends or is replaced.
 
 ## Names
 

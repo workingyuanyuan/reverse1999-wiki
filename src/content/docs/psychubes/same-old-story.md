@@ -40,8 +40,15 @@ sources:
 
 ## Effect
 
-- A Beast carrier gains Penetration Rate +5%.
-- While the carrier is in [Channel], its mass attacks get DMG Dealt +12/16/20/24/28% (Amplification 1 to 5).
+**Amplification 1**: When the carrier is a \[Beast\] character, Penetration Rate +5%. When the carrier is in \[Channel\] status, DMG Dealt +12% for their Mass Attacks.
+
+**Amplification 2**: When the carrier is a \[Beast\] character, Penetration Rate +5%. When the carrier is in \[Channel\] status, DMG Dealt +16% for their Mass Attacks.
+
+**Amplification 3**: When the carrier is a \[Beast\] character, Penetration Rate +5%. When the carrier is in \[Channel\] status, DMG Dealt +20% for their Mass Attacks.
+
+**Amplification 4**: When the carrier is a \[Beast\] character, Penetration Rate +5%. When the carrier is in \[Channel\] status, DMG Dealt +24% for their Mass Attacks.
+
+**Amplification 5**: When the carrier is a \[Beast\] character, Penetration Rate +5%. When the carrier is in \[Channel\] status, DMG Dealt +28% for their Mass Attacks.
 
 ## Names
 

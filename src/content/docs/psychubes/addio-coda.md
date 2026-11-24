@@ -40,8 +40,15 @@ sources:
 
 ## Effect
 
-- When the team consumes Eureka, it accumulates [Inspiration]. For each point of Eureka consumed, all allies get DMG Dealt +0.3/0.4/0.5/0.6/0.6%, up to 20 stacks (Amplification 1 to 5).
-- After a Star carrier acts, [Impromptu Incantation] gets attack count +1 for that round, at most 1/1/1/1/2 times per round.
+**Amplification 1**: When an ally consumes Eureka, accumulate points of \[Inspiration\]. Whenever an ally consumes 1 Eureka, all allies gain DMG Dealt +0.3%, stacking up to 20 times; if the carrier is of the \[Star\] afflatus, after taking an action, \[Impromptu Incantation\] gains attack instance +1 for the round, this effect can trigger up to 1 times per round.
+
+**Amplification 2**: When an ally consumes Eureka, accumulate points of \[Inspiration\]. Whenever an ally consumes 1 Eureka, all allies gain DMG Dealt +0.4%, stacking up to 20 times; if the carrier is of the \[Star\] afflatus, after taking an action, \[Impromptu Incantation\] gains attack instance +1 for the round, this effect can trigger up to 1 times per round.
+
+**Amplification 3**: When an ally consumes Eureka, accumulate points of \[Inspiration\]. Whenever an ally consumes 1 Eureka, all allies gain DMG Dealt +0.5%, stacking up to 20 times; if the carrier is of the \[Star\] afflatus, after taking an action, \[Impromptu Incantation\] gains attack instance +1 for the round, this effect can trigger up to 1 times per round.
+
+**Amplification 4**: When an ally consumes Eureka, accumulate points of \[Inspiration\]. Whenever an ally consumes 1 Eureka, all allies gain DMG Dealt +0.6%, stacking up to 20 times; if the carrier is of the \[Star\] afflatus, after taking an action, \[Impromptu Incantation\] gains attack instance +1 for the round, this effect can trigger up to 1 times per round.
+
+**Amplification 5**: When an ally consumes Eureka, accumulate points of \[Inspiration\]. Whenever an ally consumes 1 Eureka, all allies gain DMG Dealt +0.6%, stacking up to 20 times; if the carrier is of the \[Star\] afflatus, after taking an action, \[Impromptu Incantation\] gains attack instance +1 for the round, this effect can trigger up to 2 times per round.
 
 ## Names
 

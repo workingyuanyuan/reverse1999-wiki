@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- After the carrier uses a buff incantation, all allies gain DMG Dealt +1/1.5/1.5/2/2% (Amplification 1 to 5), stacking up to 5 times.
-- A Mineral carrier gains Reality DEF +18/18/27/27/36%.
+**Amplification 1**: After the carrier casts a buff-type incantation, all allies gain DMG Dealt +1%, stacks up to 5 times.
+
+If the carrier is of the \[Mineral\] afflatus, gain Reality DEF +18%.
+
+**Amplification 2**: After the carrier casts a buff-type incantation, all allies gain DMG Dealt +1.5%, stacks up to 5 times.
+
+If the carrier is of the \[Mineral\] afflatus, gain Reality DEF +18%.
+
+**Amplification 3**: After the carrier casts a buff-type incantation, all allies gain DMG Dealt +1.5%, stacks up to 5 times.
+
+If the carrier is of the \[Mineral\] afflatus, gain Reality DEF +27%.
+
+**Amplification 4**: After the carrier casts a buff-type incantation, all allies gain DMG Dealt +2%, stacks up to 5 times.
+
+If the carrier is of the \[Mineral\] afflatus, gain Reality DEF +27%.
+
+**Amplification 5**: After the carrier casts a buff-type incantation, all allies gain DMG Dealt +2%, stacks up to 5 times.
+
+If the carrier is of the \[Mineral\] afflatus, gain Reality DEF +36%.
 
 ## Names
 

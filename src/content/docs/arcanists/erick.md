@@ -36,32 +36,35 @@ sources:
 | Psychubes recommended in game | [Long Night Talk](/psychubes/long-night-talk/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Erick hits one enemy with Heavy Axe, which from rank 2 also weakens the target against critical hits, and two enemies with Wooden Warship, which always carries extra Penetration Rate. Her Ultimate first removes the target's buffs and counters, then disarms it. As a 4-star arcanist she has two Insight levels.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/erick/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Heavy Axe (single-target attack) | 200% Reality DMG | 200%; Critical Resist Rate and Critical DEF −25%, 1 round | 300%; −30%, 1 round |
-| Wooden Warship (attack on 2 enemies) | 120% Reality DMG | 180% | 300% |
+### Heavy Axe
 
-Wooden Warship has Penetration Rate +30% at every rank.
+**Rank 1**: 1-target attack. Deals 200% Reality DMG.
+
+**Rank 2**: 1-target attack. Deals 200% Reality DMG. Inflicts Critical Resist Rate and Critical DEF -25% for 1 round on the target hit.
+
+**Rank 3**: 1-target attack. Deals 300% Reality DMG. Inflicts Critical Resist Rate and Critical DEF -30% for 1 round on the target hit.
+
+### Wooden Warship
+
+**Rank 1**: Mass attack. Deals 120% Reality DMG to 2 enemies. This attack gains Penetration Rate +30%.
+
+**Rank 2**: Mass attack. Deals 180% Reality DMG to 2 enemies. This attack gains Penetration Rate +30%.
+
+**Rank 3**: Mass attack. Deals 300% Reality DMG to 2 enemies. This attack gains Penetration Rate +30%.
 
 ## Ultimate: Glory to the Jarl
 
-Removes Stats Up, Pos Status and Counter effects from one enemy, then deals 450% Reality DMG to it and puts [Disarm] on it for 1 round.
-
-[Disarm]: the target cannot cast attack incantations.
-
-[Counter]: a lasting status that sets off an effect when its holder is attacked.
+1-target attack. Dispels \[Stats Up\], \[Pos Status\], and \[Counter\] statuses from the target and deals 450% Reality DMG. Also inflicts \[Disarm\] status on the target for 1 round.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | When an enemy is defeated, all allies gain DMG Dealt +10% for 2 rounds. |
-| 2 | DMG Dealt +8% on entering battle. |
+**Insight 1 · Rhyme of Victory**: When an enemy is defeated, DMG Dealt +10% for all allies for 2 rounds.
+
+**Insight 2 · Rhyme of Victory Ⅱ**: DMG Dealt +8% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -70,13 +73,20 @@ Removes Stats Up, Pos Status and Counter effects from one enemy, then deals 450%
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 500%. |
-| 2 | Heavy Axe deals 220, 230 or 350% by rank. |
-| 3 | The Ultimate deals 550%. |
-| 4 | Wooden Warship has Penetration Rate +40%. |
-| 5 | The Ultimate deals 600%. |
+**Portrait 1**: **Glory to the Jarl**: Reality DMG increased to 500%.
+
+**Portrait 2**: **Heavy Axe**'s effect changes to: at 1/2/3 stars, deals 220/230/350% Reality DMG.
+
+**Portrait 3**: **Glory to the Jarl**: Reality DMG increased to 550%.
+
+**Portrait 4**: **Wooden Warship**'s effect changes to: Penetration Rate +40%.
+
+**Portrait 5**: **Glory to the Jarl**'s effect changes to: deals 600% Reality DMG.
+
+## Statuses
+
+- **Counter**: Grants continuous Counter. Effect is triggered When the caster is attacked.
+- **Disarm**: Cannot cast Attack-type incantations.
 
 ## Names
 

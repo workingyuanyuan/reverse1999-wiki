@@ -37,33 +37,37 @@ sources:
 | Psychubes recommended in game | [Brave New World](/psychubes/brave-new-world/), [Hopscotch](/psychubes/hopscotch/), [Her Second Life](/psychubes/her-second-life/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Baby Blue is one of the launch arcanists. Her incantations weaken enemies: one lowers a target's Mental DEF, the other cuts the damage all enemies deal and raises the damage they take. Her Ultimate then puts debuffed enemies to sleep with [Nightmare], and her passives make her harder to hurt with Mental DMG.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/baby-blue/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Tea Party (single-target attack) | 200% Mental DMG | 200%; Mental DEF −25% for 2 rounds | 350%; Mental DEF −35% for 3 rounds |
-| Cough Syrup (mass debuff) | all enemies DMG Dealt −15%, DMG Taken +15%; 2 rounds | −20%, +20%; 2 rounds | −25%, +25%; 3 rounds |
+### Tea Party
 
-The Mental DEF cut of Tea Party falls on the target it hits.
+**Rank 1**: 1-target attack. Deals 200% Mental DMG.
+
+**Rank 2**: 1-target attack. Deals 200% Mental DMG. Inflicts Mental DEF -25% for 2 rounds on the target hit.
+
+**Rank 3**: 1-target attack. Deals 350% Mental DMG. Inflicts Mental DEF -35% for 3 rounds on the target hit.
+
+### Cough Syrup
+
+**Rank 1**: Mass debuff. DMG -15% and DMG Taken +15% for all enemies for 2 rounds.
+
+**Rank 2**: Mass debuff. DMG -20% and DMG Taken +20% for all enemies for 2 rounds.
+
+**Rank 3**: Mass debuff. All enemies suffer DMG Dealt -25% and DMG Taken +25%. Lasts 3 rounds.
 
 ## Ultimate: Tea with Friends
 
-Deals 250% Mental DMG to all enemies. Each target that has a Stats Down, Neg Status or Control effect is put into [Nightmare] for 1 round.
-
-- [Nightmare]: the target cannot act; the effect ends when it takes any attack.
-- [Control]: effects that stop a character from acting normally, such as Daze, Petrify, Nightmare, Freeze, Disarm, Silence and Seal.
-- [Wonderland Visitor]: DMG Bonus −10%; it stacks, and each stack keeps its own duration.
+Mass attack. Deals 250% Mental DMG to all enemies. If the target is in \[Stats Down\], \[Neg Status\], or \[Control\] statuses, inflicts \[Nightmare\] status for 1 round on the target.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | When Baby Blue is hit by Mental DMG, she takes 20% less damage and gains Critical DEF +20%. |
-| 2 | Critical Resist Rate +10% on entering battle. |
-| 3 | When Baby Blue takes Mental DMG, the attacker gains 1 stack of [Wonderland Visitor] for 2 rounds. |
+**Insight 1 · Don't Touch Her**: When the caster takes Mental DMG, DMG Taken -20% and Critical DEF +20%.
+
+**Insight 2 · Don't Touch Her Ⅱ**: Critical Resist Rate +10% when entering battle.
+
+**Insight 3 · Don't Touch Her Ⅲ**: When the caster takes Mental DMG, gives the attacker 1 stack of \[Wonderland Visitor\] for 2 rounds.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -73,13 +77,21 @@ Deals 250% Mental DMG to all enemies. Each target that has a Stats Down, Neg Sta
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 350%. |
-| 2 | Tea Party deals 220, 230 or 400% by rank. |
-| 3 | The Ultimate deals 400%. |
-| 4 | The Ultimate deals 450%. |
-| 5 | Cough Syrup raises DMG Taken by 25% at rank 2 and 30% at rank 3. |
+**Portrait 1**: **Tea with Friends**'s effect changes to: deals 350% Mental DMG.
+
+**Portrait 2**: **Tea Party**: at rank 1/2/3, deals 220/230/400% Mental DMG.
+
+**Portrait 3**: **Tea with Friends**: Mental DMG increased to 400%.
+
+**Portrait 4**: **Tea with Friends**: Mental DMG increased to 450%.
+
+**Portrait 5**: **Cough Syrup**'s effect changes to: at 2/3 stars, DMG Taken +25/30%.
+
+## Statuses
+
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
+- **Nightmare**: Cannot act. Dispels the effect after taking any attack.
+- **Wonderland Visitor**: DMG Bonus -10% (stackable, each stack timed independently).
 
 ## Names
 

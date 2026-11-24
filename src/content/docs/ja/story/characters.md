@@ -1,6 +1,6 @@
 ---
 title: "キャラクターストーリー I"
-description: "リバース：1999 のキャラクターストーリー I：すべての章、ステージ、ストーリー全文。"
+description: "リバース：1999 のキャラクターストーリー I：全27章、242ステージ。"
 appliesTo: "リバース：1999、グローバル版クライアント 111.0.1077（バージョン 3.9）、日本語テキスト"
 caveat: "テキストはグローバル版の日本語。2バージョン先行する中国本土版では一部のセリフの言い回しが異なる。"
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global、グローバル版クライアント 111.0.1077：chapter.json と episode.json（ステージ番号、ゲーム内の時刻）"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-リバース：1999 のキャラクターストーリー I。章のページにはステージの一覧、ステージのページにはストーリー全文と小径がある。
-
 | 章 | ステージ数 | 小径 |
 | --- | --- | --- |
 | [この世における 最小のさざ波](/ja/story/of-all-ripples-the-quietest/) | 8 | 0 |
@@ -47,9 +45,7 @@ sources:
 | [海と港の間](/ja/story/beyond-the-coastline/) | 9 | 0 |
 | [十字通りで夜の冒険を](/ja/story/night-escapades-on-cross-street/) | 8 | 0 |
 
-## 中国本土版のみ
-
-中国本土版にだけ実装されている章。簡体字中国語の名前で挙げる：
+## 中国本土版のみ（簡体字中国語の名前）
 
 - 雪红与玫瑰白
 - 未誓者

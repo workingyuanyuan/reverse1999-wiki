@@ -40,11 +40,32 @@ sources:
 
 ## Effect
 
-- On entering battle, if the carrier also has [The Art of Atoms](/psychubes/the-art-of-atoms/) equipped, the carrier gains Critical Rate +12/15/18/21/24% (Amplification 1 to 5); the global client's English gives this bonus when the carrier attacks.
-- A Mineral carrier gains DMG Dealt +12/15/18/21/24% when attacking.
+**Amplification 1**: When the carrier attacks, if the carrier is also equipped with \[The Art of Atoms\], Critical Rate +12%.
+
+If the carrier is a Mineral character, DMG Dealt +12%.
+
+**Amplification 2**: When the carrier attacks, if the carrier is also equipped with \[The Art of Atoms\], Critical Rate +15%.
+
+If the carrier is a Mineral character, DMG Dealt +15%.
+
+**Amplification 3**: When the carrier attacks, if the carrier is also equipped with \[The Art of Atoms\], Critical Rate +18%.
+
+If the carrier is a Mineral character, DMG Dealt +18%.
+
+**Amplification 4**: When the carrier attacks, if the carrier is also equipped with \[The Art of Atoms\], Critical Rate +21%.
+
+If the carrier is a Mineral character, DMG Dealt +21%.
+
+**Amplification 5**: When the carrier attacks, if the carrier is also equipped with \[The Art of Atoms\], Critical Rate +24%.
+
+If the carrier is a Mineral character, DMG Dealt +24%.
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | The Dance of Science | 科学编舞法 | 科學編舞法 | 科学の振付 | 과학 안무법 |
+
+## Edition differences
+
+- The Chinese texts give the Critical Rate bonus on entering battle when the carrier also has The Art of Atoms equipped; the global client's English text gives it when the carrier attacks.

@@ -15,32 +15,32 @@ import scaffold as s  # noqa: E402
 
 AFFLATUS = ['Star', 'Mineral', 'Beast', 'Plant', 'Spirit', 'Intellect']
 TWO = {101: ('Mineral', 'Star')}  # career code of The Twins -> both Afflatus
-SKIP = {'schneider'}  # in the tables, never released as a playable arcanist
+SKIP = {'schneider'}  # in the tables, never released as a playable arcanist: not in release counts
 
 T = {
 	'en': dict(
-		title='{a} arcanists', desc='Reverse: 1999 arcanists of the {a} Afflatus: rarity, damage type, Euphoria and release dates.',
+		title='{a} arcanists', desc='Reverse: 1999 has {n} arcanists of the {a} Afflatus.',
 		caveat='An arcanist whose global release says not yet is out only on the mainland China service; the mainland service runs about two versions ahead.',
 		cols=('Arcanist', 'Rarity', 'Damage', 'Euphoria', 'Mainland release', 'Global release'), yes='yes', no='no', cnonly='mainland only',
 		src=[('re1999-data, mainland client {cn}: character.json', s.CN_CHAR), ('re1999-data-global, global client {gl}: character.json', s.GL_CHAR),
 			('Reverse: 1999 Wiki (Fandom): release dates', 'https://reverse1999.fandom.com/')],
 	),
 	'zh-tw': dict(
-		title='{a}靈感神秘學家', desc='重返未來：1999 {a}靈感的神秘學家：稀有度、創傷類型、狂想與上線日期。',
+		title='{a}靈感神秘學家', desc='重返未來：1999 {a}靈感的神秘學家共 {n} 位。',
 		caveat='國際版上線欄寫尚未上線的神秘學家只在中國大陸版推出；中國大陸版的進度約領先兩個版本。',
 		cols=('神秘學家', '稀有度', '創傷類型', '狂想', '中國大陸版上線', '國際版上線'), yes='有', no='無', cnonly='僅中國大陸版',
 		src=[('re1999-data，中國大陸版用戶端 {cn}：character.json', s.CN_CHAR), ('re1999-data-global，國際版用戶端 {gl}：character.json', s.GL_CHAR),
 			('Reverse: 1999 Wiki (Fandom)：上線日期', 'https://reverse1999.fandom.com/')],
 	),
 	'ja': dict(
-		title='{a}本源の神秘学家', desc='リバース：1999 の{a}本源の神秘学家：レア度、ダメージタイプ、狂想、実装日。',
+		title='{a}本源の神秘学家', desc='リバース：1999 の{a}本源の神秘学家は{n}人。',
 		caveat='グローバル版の実装が未実装の神秘学家は中国本土版にのみ実装されている。中国本土版はおよそ2バージョン先行している。',
 		cols=('神秘学家', 'レア度', 'ダメージタイプ', '狂想', '中国本土版の実装', 'グローバル版の実装'), yes='あり', no='なし', cnonly='中国本土版のみ',
 		src=[('re1999-data、中国本土版クライアント {cn}：character.json', s.CN_CHAR), ('re1999-data-global、グローバル版クライアント {gl}：character.json', s.GL_CHAR),
 			('Reverse: 1999 Wiki (Fandom)：実装日', 'https://reverse1999.fandom.com/')],
 	),
 	'ko': dict(
-		title='{a} 영감 마도학자', desc='리버스: 1999의 {a} 영감 마도학자: 희귀도, 피해 유형, 광상, 출시일.',
+		title='{a} 영감 마도학자', desc='리버스: 1999의 {a} 영감 마도학자는 {n}명이다.',
 		caveat='글로벌 출시가 출시 전인 마도학자는 중국 본토 서비스에만 나와 있다. 중국 본토 서비스는 약 두 버전 앞서 있다.',
 		cols=('마도학자', '희귀도', '피해 유형', '광상', '중국 본토 출시', '글로벌 출시'), yes='있음', no='없음', cnonly='중국 본토만',
 		src=[('re1999-data, 중국 본토 클라이언트 {cn}: character.json', s.CN_CHAR), ('re1999-data-global, 글로벌 클라이언트 {gl}: character.json', s.GL_CHAR),
@@ -59,7 +59,8 @@ def title(lang, aff):
 
 def page(lang, aff):
 	t, l = T[lang], s.L[lang]
-	members = [a for a in s.REC.values() if aff in afflatus_of(a) and a['slug'] not in SKIP]
+	# Schneider (SKIP) is listed too: she has a page, and her release cells say she is not playable.
+	members = [a for a in s.REC.values() if aff in afflatus_of(a)]
 	members.sort(key=lambda a: (-a['stars'], a['names']['en'].lower()))
 	zh_cn = {'Star': '星', 'Mineral': '岩', 'Beast': '兽', 'Plant': '木', 'Spirit': '灵', 'Intellect': '智'}[aff] + '灵感神秘学家'
 	aliases = [title(o, aff) for o in T if o != lang] + [zh_cn]
@@ -74,7 +75,7 @@ def page(lang, aff):
 		rows.append(f'| {n} | {l["stars"].format(n=a["stars"])} | {l["damage"][a["damage"]]} | {eup} | {mainland} | {glob} |')
 	src = '\n'.join(f'  - title: "{x.format(cn=s.CN["build"], gl=s.GL["build"])}"\n    url: {u}' for x, u in t['src'])
 	fm = [
-		'---', f'title: "{title(lang, aff)}"', f'description: "{t["desc"].format(a=l["afflatus"][aff])}"',
+		'---', f'title: "{title(lang, aff)}"', f'description: "{t["desc"].format(a=l["afflatus"][aff], n=len(members))}"',
 		f'appliesTo: "{l["applies_gl"]}"', f'caveat: "{t["caveat"]}"', f'lastVerified: {s.LAST_VERIFIED}',
 		'aliases:\n' + '\n'.join(f'  - "{x}"' for x in aliases), 'sources:\n' + src, '---', '']
 	table = [f'| {" | ".join(t["cols"])} |', '| --- | --- | --- | --- | --- | --- |'] + rows

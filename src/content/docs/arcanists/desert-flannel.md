@@ -37,33 +37,37 @@ sources:
 | Psychubes recommended in game | [Family Mentor](/psychubes/family-mentor/), [Her Second Life](/psychubes/her-second-life/) |
 | Mainland release | 2023-12-21 |
 | Global release | 2024-05-09 |
-
-Desert Flannel sets up counters: her second incantation gives her stacks of [Plappy], each of which strikes back once when she is attacked, and her single-target attack hits harder while she holds a Pos Status or Counter effect. Her Ultimate heals the team and hands out [Power Burst], with [Aura of Might] on top for Beast allies.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/desert-flannel/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Mixed Doubles! (single-target attack) | 180% Reality DMG | 270% | 450% |
-| The Only Family! (self counter) | Plappy 1 stack; Power Burst 1 stack | Plappy 2; Power Burst 1 | Plappy 3; Power Burst 2 |
+### Mixed Doubles!
 
-- **Mixed Doubles!** gains Critical Rate +25% and Critical DMG +25% at every rank while Desert Flannel has a Pos Status or Counter effect.
-- [Plappy]: when its holder is attacked, it strikes back with a Riposte for 150% Reality DMG with Critical Rate +25% and Critical DMG +25%. The Riposte counts as 1 extra action and uses up 1 stack.
-- [Power Burst]: DMG Bonus +25% on an attack; 1 stack is used each time.
+**Rank 1**: 1-target attack. Deals 180% Reality DMG. When in \[Pos Status\] or \[Counter\] status, this attack gains Critical Rate +25% and Critical DMG +25%.
+
+**Rank 2**: 1-target attack. Deals 270% Reality DMG. When in \[Pos Status\] or \[Counter\] status, this attack gains Critical Rate +25% and Critical DMG +25%.
+
+**Rank 3**: 1-target attack. Deals 450% Reality DMG. When in \[Pos Status\] or \[Counter\] status, this attack gains Critical Rate +25% and Critical DMG +25%.
+
+### The Only Family!
+
+**Rank 1**: Self counter. Grants 1 stack of \[Plappy\] and 1 stack of \[Power Burst\]
+
+**Rank 2**: Self counter. Grants 2 stacks of \[Plappy\] and 1 stack of \[Power Burst\]
+
+**Rank 3**: Self counter. Grants 3 stacks of \[Plappy\] and 2 stacks of \[Power Burst\]
 
 ## Ultimate: Beep Beep Bop Bop, Plappy!
 
-Heals all allies by 100% of Desert Flannel's ATK, gives all allies 2 stacks of Power Burst, and gives Beast allies 2 stacks of [Aura of Might] as well.
-
-[Aura of Might]: Incantation Might +20% on an attack; 1 stack is used each time.
+Mass healing. HP +(the user's ATK x100%) for all allies. Grants 2 stacks of \[Power Burst\] to all allies, and 2 stacks of \[Aura of Might\] to allied Beast Afflatus characters.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Critical Rate +15% while Desert Flannel has a Pos Status or Counter effect. |
-| 2 | Critical DMG +15% on entering battle. |
-| 3 | On entering battle, Desert Flannel gains 1 Moxie for each Beast arcanist on her side of the field; this happens once. |
+**Insight 1 · Digital Pet Owner**: When in \[Pos Status\] or \[Counter\] status, gain Critical Rate +15%.
+
+**Insight 2 · Digital Pet Owner II**: Critical DMG +15% when entering battle.
+
+**Insight 3 · Digital Pet Owner III**: When entering battle, for each \[Beast\] afflatus character present on the allied field, grant Moxie +1 to self (triggers only once).
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -73,13 +77,23 @@ Heals all allies by 100% of Desert Flannel's ATK, gives all allies 2 stacks of P
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate heals 120% of her ATK. |
-| 2 | The Ultimate heals 140% of her ATK. |
-| 3 | The critical bonus of Mixed Doubles! becomes Critical Rate +35% and Critical DMG +35% at every rank. |
-| 4 | The critical bonus of a Plappy Riposte becomes Critical Rate +35% and Critical DMG +35%. |
-| 5 | The Ultimate heals 160% of her ATK and gives 3 stacks of Power Burst. |
+**Portrait 1**: **Beep Beep Bop Bop, Plappy!**: Increased to HP +(the user's ATK x120%) for all allies.
+
+**Portrait 2**: **Beep Beep Bop Bop, Plappy!**: Increased to HP +(the user's ATK x140%) for all allies.
+
+**Portrait 3**: **Mixed Doubles!**: At Incantation rank 1/2/3, when in \[Pos Status\] or \[Counter\] status, this attack's Critical Rate and Critical DMG is increased to 35%.
+
+**Portrait 4**: **The Only Family!**: \[Plappy\]'s Critical Rate and Critical DMG when Riposting is increased to 35%.
+
+**Portrait 5**: **Beep Beep Bop Bop, Plappy!**: Increased to HP +(the user's ATK x160%) for all allies. \[Power Burst\] is increased to 3 stacks.
+
+## Statuses
+
+- **Counter**: Grants continuous Counter. Effect is triggered When the caster is attacked.
+- **Plappy**: When attacked, performs \[Riposte\], deals 150% Reality DMG with Critical Rate +25% and Critical DMG +25%. The \[Riposte\] is regarded as 1 extra action (-1 stack when triggered).
+- **Power Burst**: DMG Bonus +25% when attacking (-1 stack after trigger).
+- **Aura of Might**: Incantation Might +20% when attacking (-1 stack after trigger).
+- **Riposte**: Ripostes after being attacked by enemies.
 
 ## Names
 

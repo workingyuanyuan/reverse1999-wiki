@@ -36,36 +36,39 @@ sources:
 | Psychubes recommended in game | [Her Mournful Face](/psychubes/her-mournful-face/) |
 | Mainland release | 2023-09-07 |
 | Global release | 2024-01-18 |
-
-Kanjira draws one fortune at the start of every round, in a fixed order, and each fortune strengthens one of her three skills. Her first incantation poisons for Genesis DMG, her second lowers the target's Critical Resist, and her Ultimate gains Ultimate Might, more so against an enemy with a Neg Status.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/kanjira/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Hey, Punji! (single-target attack) | 150% Mental DMG; Poison 2 rounds | 250%; Poison 2 rounds | 450%; Poison 2 rounds |
-| Oh, Divination! (single-target attack) | 200% Mental DMG | 300% | 500% |
+### Hey, Punji!
 
-- **Hey, Punji!** puts [Poison] on the target at every rank. In [Emerald Fortune], it puts a second Poison of the same kind on it.
-- **Oh, Divination!** puts 1 stack of [Confusion] on the target in [Pearl Fortune].
+**Rank 1**: 1-target attack. Deals 150% Mental DMG. Inflicts \[Poison\] for 2 rounds on the target hit: at the end of the round, deals (the user's ATK x30%) Genesis DMG to the target. If the user is in the \[Emerald Fortune\] status, inflicts 1 additional instance of the same \[Poison\] on the target.
 
-[Poison]: at the end of each round, the holder takes Genesis DMG equal to 30% of Kanjira's ATK; Poison stacks.
+**Rank 2**: 1-target attack. Deals 250% Mental DMG. Inflicts \[Poison\] for 2 rounds on the target hit: at the end of the round, deals (the user's ATK x30%) Genesis DMG to the target. If the user is in the \[Emerald Fortune\] status, inflicts 1 additional instance of the same \[Poison\] on the target.
 
-[Confusion]: Critical Resist −25% per stack; each stack keeps its own duration.
+**Rank 3**: 1-target attack. Deals 450% Mental DMG. Inflicts \[Poison\] for 2 rounds on the target hit: at the end of the round, deals (the user's ATK x30%) Genesis DMG to the target. If the user is in the \[Emerald Fortune\] status, inflicts 1 additional instance of the same \[Poison\] on the target.
+
+### Oh, Divination!
+
+**Rank 1**: 1-target attack. Deals 200% Mental DMG. If the caster is in \[Pearl Fortune\] status, inflicts 1 additional stack of \[Confusion\] on the target.
+
+**Rank 2**: 1-target attack. Deals 300% Mental DMG. If the caster is in \[Pearl Fortune\] status, inflicts 1 additional stack of \[Confusion\] on the target.
+
+**Rank 3**: 1-target attack. Deals 500% Mental DMG. If the caster is in \[Pearl Fortune\] status, inflicts 1 additional stack of \[Confusion\] on the target.
 
 ## Ultimate: Song of Wandering
 
-Deals 300% Mental DMG to all enemies with Ultimate Might +10%. In [Agate Fortune], the attack gains a further Ultimate Might +15%.
-
-[Emerald Fortune], [Pearl Fortune] and [Agate Fortune]: each strengthens one skill (Hey, Punji!, Oh, Divination! and the Ultimate in turn) and cannot be dispelled.
+Mass attack. Deals 300% Mental DMG to all enemies. This attack enjoys Ultimate Might +10%. If the caster is in \[Agate Fortune\] status, gains additional Ultimate Might +15%.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Seasoned Wanderer: at the start of each round, Kanjira performs a Divination and gains one fortune, in the order Emerald Fortune, Pearl Fortune, Agate Fortune. |
-| 2 | DMG Taken −8% on entering battle. |
-| 3 | Ultimate Might +10% when she attacks a target with a Neg Status. |
+**Insight 1 · Seasoned Wanderer**: When a round starts, performs 1 Divination and acquires each of these every round in the sequence provided.
+
+\[Emerald Fortune\], \[Pearl Fortune\], and \[Agate Fortune\].
+
+**Insight 2 · Seasoned Wanderer Ⅱ**: DMG Taken -8% when entering battle.
+
+**Insight 3 · Seasoned Wanderer Ⅲ**: When attacking a target in \[Neg Status\] Ultimate Might +10% for the caster.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -75,13 +78,23 @@ Deals 300% Mental DMG to all enemies with Ultimate Might +10%. In [Agate Fortune
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | In Emerald Fortune, the Poison from Hey, Punji! lasts 1 round longer. |
-| 2 | Oh, Divination! deals 220, 330 or 550% by rank. |
-| 3 | In Agate Fortune, the Ultimate's extra Ultimate Might becomes +30%. |
-| 4 | Hey, Punji! deals 170, 280 or 500% by rank. |
-| 5 | The Ultimate deals 350%. |
+**Portrait 1**: **Seasoned Wanderer**'s effect changes to: If the caster is in \[Emerald Fortune\] status, when casting \[Hey, Punji!\], inflicts \[Poison\] status with +1 round of duration.
+
+**Portrait 2**: **Oh, Divination!**'s effect changes to: at 1/2/3 stars, deals 220/330/550% Mental DMG.
+
+**Portrait 3**: **Seasoned Wanderer**'s effect changes to: if the caster is in \[Agate Fortune\] status, when casting \[Song of Wandering\], Ultimate Might +15%.
+
+**Portrait 4**: **Hey, Punji!**: At Incantation rank 1/2/3, Mental DMG increased to 170/280/500%.
+
+**Portrait 5**: **Song of Wandering**'s effect changes to: deals 350% Mental DMG.
+
+## Statuses
+
+- **Poison**: At the end of the round, takes Genesis DMG based on the user's ATK (stackable).
+- **Emerald Fortune**: Enhances \[Hey, Punji!\] (cannot be dispelled).
+- **Pearl Fortune**: Enhances \[Oh, Divination!\] (cannot be dispelled).
+- **Confusion**: Critical Resist -25% (stackable, each stack timed independently).
+- **Agate Fortune**: Enhances \[Song of Wandering\] (cannot be dispelled).
 
 ## Names
 

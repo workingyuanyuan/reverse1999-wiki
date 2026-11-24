@@ -36,32 +36,37 @@ sources:
 | Psychubes recommended in game | [Long Night Talk](/psychubes/long-night-talk/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2023-08-17 |
 | Global release | 2023-12-28 |
-
-Horropedia strips an enemy's buffs with his first incantation and then hits harder with his second, which deals extra damage to a target left without buffs. His Ultimate marks all enemies with [Scared], which raises the next Mental DMG they take.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/horropedia/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Logic Dictates (single-target attack) | 200% Mental DMG | 250%; dispels all Stats Up and Pos Status effects | 450%; dispels all Stats Up and Pos Status effects |
-| Sideshow (single-target attack) | 160% Mental DMG; +60% if the target has no buff | 240%; +90% | 400%; +150% |
+### Logic Dictates
 
-A buff here is a Stats Up or Pos Status effect.
+**Rank 1**: 1-target attack. Deals 200% Mental DMG.
+
+**Rank 2**: 1-target attack. Deals 250% Mental DMG and dispels all \[Stats Up\] and \[Pos Status\] statuses from the target.
+
+**Rank 3**: 1-target attack. Deals 450% Mental DMG and dispels all \[Stats Up\] and \[Pos Status\] statuses from the target.
+
+### Sideshow
+
+**Rank 1**: 1-target attack. Deals 160% Mental DMG, and if the target is not affected by \[Stats Up\] or a \[Pos Status\], deals an additional 60% Mental DMG.
+
+**Rank 2**: 1-target attack. Deals 240% Mental DMG, and if the target is not affected by \[Stats Up\] or a \[Pos Status\], deals an additional 90% Mental DMG.
+
+**Rank 3**: 1-target attack. Deals 400% Mental DMG, and if the target is not affected by \[Stats Up\] or a \[Pos Status\], deals an additional 150% Mental DMG.
 
 ## Ultimate: Twins' Play
 
-Deals 300% Mental DMG to all enemies, then gives each target 1 stack of [Scared].
-
-- [Scared]: the holder takes 25% more Mental DMG; one stack is used each time it applies.
-- [Counter]: a lasting status that triggers its effect when the holder is attacked.
+Mass attack. Deals 300% Mental DMG to all enemies. After attacking, inflicts 1 stack of \[Scared\] on the targets.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Logic Dictates at rank 2 or higher also dispels all [Counter] effects from the target. |
-| 2 | DMG Taken −8% on entering battle. |
-| 3 | Incantations of rank 2 or higher deal 20% more damage. |
+**Insight 1 · Jump Scare**: When casting Rank 2 \[Logic Dictates\] or above, additionally dispels \[Counter\] from all targets.
+
+**Insight 2 · Jump Scare II**: DMG Taken -8% when entering battle.
+
+**Insight 3 · Jump Scare III**: When casting a Rank 2 incantation or above, increases damage dealt by 20%.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -71,13 +76,20 @@ Deals 300% Mental DMG to all enemies, then gives each target 1 stack of [Scared]
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 350%. |
-| 2 | Logic Dictates deals 220, 280 or 500% by rank. |
-| 3 | The Ultimate deals 400%. |
-| 4 | Sideshow deals 180, 270 or 450% by rank before its extra damage. |
-| 5 | The Ultimate gives 1 more stack of Scared. |
+**Portrait 1**: **Twins' Play**'s effect changes to: deals 350% Mental DMG.
+
+**Portrait 2**: **Logic Dictates**'s effect changes to: at 1/2/3 stars, deals 220/280/500% Mental DMG.
+
+**Portrait 3**: **Twins' Play**: Mental DMG increased to 400%.
+
+**Portrait 4**: **Sideshow** When at Incantation Rank 1/2/3, Mental DMG dealt increases to 180/270/450%.
+
+**Portrait 5**: **Twins' Play** Additionally inflicts 1 stack of \[Scared\] on the target.
+
+## Statuses
+
+- **Scared**: Increases Mental DMG taken by 25% (-1 stack after triggering).
+- **Counter**: Grants continuous Counter. Effect is triggered When the caster is attacked.
 
 ## Names
 

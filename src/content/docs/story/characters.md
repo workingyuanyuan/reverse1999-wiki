@@ -1,6 +1,6 @@
 ---
 title: "Character stories I"
-description: "Reverse: 1999 Character stories I: every chapter, its stages and the full story text."
+description: "Reverse: 1999 Character stories I: 27 chapters, 242 stages in all."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global, global client 111.0.1077: chapter.json and episode.json (stage codes, in-game dates)"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-Character stories I of Reverse: 1999. Each chapter page lists its stages; each stage page holds its full story text and Trails.
-
 | Chapter | Stages | Trails |
 | --- | --- | --- |
 | [Of All Ripples, the Quietest](/story/of-all-ripples-the-quietest/) | 8 | 0 |
@@ -47,9 +45,7 @@ Character stories I of Reverse: 1999. Each chapter page lists its stages; each s
 | [Beyond the Coastline](/story/beyond-the-coastline/) | 9 | 0 |
 | [Night Escapades on Cross Street](/story/night-escapades-on-cross-street/) | 8 | 0 |
 
-## Mainland service only
-
-Out on the mainland service only, by their Simplified Chinese name:
+## Mainland service only (Simplified Chinese names)
 
 - 雪红与玫瑰白
 - 未誓者

@@ -40,8 +40,15 @@ sources:
 
 ## Effect
 
-- At the start of a round, if the carrier's current HP is below 60/65/70/75/80% (Amplification 1 to 5), the carrier has DMG Taken -10%.
-- The carrier's attacks get Genesis DMG Dealt +7/9/11/13/15%.
+**Amplification 1**: At the start of the round, if the carrier's current HP is below 60%, they get DMG Taken -10%; when the carrier attacks, they get Genesis DMG Dealt +7%.
+
+**Amplification 2**: At the start of the round, if the carrier's current HP is below 65%, they get DMG Taken -10%; when the carrier attacks, they get Genesis DMG Dealt +9%.
+
+**Amplification 3**: At the start of the round, if the carrier's current HP is below 70%, they get DMG Taken -10%; when the carrier attacks, they get Genesis DMG Dealt +11%.
+
+**Amplification 4**: At the start of the round, if the carrier's current HP is below 75%, they get DMG Taken -10%; when the carrier attacks, they get Genesis DMG Dealt +13%.
+
+**Amplification 5**: At the start of the round, if the carrier's current HP is below 80%, they get DMG Taken -10%; when the carrier attacks, they get Genesis DMG Dealt +15%.
 
 ## Names
 

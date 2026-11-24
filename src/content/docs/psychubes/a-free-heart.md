@@ -1,6 +1,6 @@
 ---
 title: "A Free Heart"
-description: "A Free Heart is a 5-star Survival Psychube that cuts the damage its carrier takes while below half HP."
+description: "A Free Heart is a 5-star Survival Psychube that cuts the damage its carrier takes."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
 caveat: "The damage reduction applies only to attacks that hit the carrier while it is below 50% HP."
 lastVerified: 2026-11-23
@@ -39,7 +39,15 @@ sources:
 
 ## Effect
 
-When the carrier is attacked while below 50% HP, it gets DMG Taken -10/12.5/15/17.5/20% (Amplification 1 to 5).
+**Amplification 1**: When the carrier is attacked and is below 50% HP, DMG Taken -10%.
+
+**Amplification 2**: When the carrier is attacked and is below 50% HP, DMG Taken -12.5%.
+
+**Amplification 3**: When the carrier is attacked and is below 50% HP, DMG Taken -15%.
+
+**Amplification 4**: When the carrier is attacked and is below 50% HP, DMG Taken -17.5%.
+
+**Amplification 5**: When the carrier is attacked and is below 50% HP, DMG Taken -20%.
 
 ## Names
 

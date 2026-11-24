@@ -40,8 +40,15 @@ sources:
 
 ## Effect
 
-- A Plant carrier gets Critical Rate +6%.
-- When the carrier attacks with a 1-target Ultimate, it gets Critical DMG +14/18/22/26/30% (Amplification 1 to 5).
+**Amplification 1**: If the carrier's afflatus is \[Plant\], Critical Rate +6%. When the carrier uses a 1-target ultimate to attack, Critical DMG +14%.
+
+**Amplification 2**: If the carrier's afflatus is \[Plant\], Critical Rate +6%. When the carrier uses a 1-target ultimate to attack, Critical DMG +18%.
+
+**Amplification 3**: If the carrier's afflatus is \[Plant\], Critical Rate +6%. When the carrier uses a 1-target ultimate to attack, Critical DMG +22%.
+
+**Amplification 4**: If the carrier's afflatus is \[Plant\], Critical Rate +6%. When the carrier uses a 1-target ultimate to attack, Critical DMG +26%.
+
+**Amplification 5**: If the carrier's afflatus is \[Plant\], Critical Rate +6%. When the carrier uses a 1-target ultimate to attack, Critical DMG +30%.
 
 ## Names
 

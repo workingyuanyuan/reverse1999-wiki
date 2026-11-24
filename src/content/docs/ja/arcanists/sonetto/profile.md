@@ -1,8 +1,8 @@
 ---
 title: "ソネット プロフィール"
-description: "リバース：1999 のソネットのプロフィール：表紙、単品、文化、コスチューム、ボイスのゲーム内テキスト。"
+description: "リバース：1999 のソネットのプロフィール：グローバル版クライアントにコスチューム3着、ボイス34件。"
 appliesTo: "リバース：1999、グローバル版クライアント 111.0.1077（バージョン 3.9）、日本語テキスト"
-caveat: "テキストはグローバル版の日本語。2バージョン先行する中国本土版では一部のセリフの言い回しが異なる。"
+caveat: "テキストはグローバル版クライアント 3.9 のもの。中国本土版は 2 バージョン先行している。"
 lastVerified: 2026-11-24
 aliases:
   - "Sonetto profile"
@@ -10,15 +10,13 @@ aliases:
   - "十四行诗 档案"
   - "소네트 프로필"
 sources:
-  - title: "re1999-data-global、グローバル版クライアント 111.0.1077：character_data.json、character_voice.json、skin.json（収録する項目）"
+  - title: "re1999-data-global、グローバル版クライアント 111.0.1077：character_data.json、character_voice.json、skin.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/tree/7308a19ec644c60fd539034c9815cfaa23237dda/data/json
   - title: "re1999-data-global、グローバル版クライアント 111.0.1077：英語、日本語、韓国語、繁体字中国語のテキスト。テキストの権利は Bluepoch に帰属"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/tree/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language
   - title: "re1999-data、中国本土版クライアント 113.0.1422：同じテーブルの簡体字中国語テキスト"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
 ---
-リバース：1999 の[ソネット](/ja/arcanists/sonetto/)の資料。グローバル版クライアントの日本語のまま。
-
 ## 表紙
 
 神秘学家の芸術作品。20世紀に、計16年間展示された。展示開始日は1月10日、冬。展示場所：聖パブロフ財団の外部視察団にて展示された。

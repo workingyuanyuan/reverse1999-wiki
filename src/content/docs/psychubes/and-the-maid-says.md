@@ -40,7 +40,15 @@ sources:
 
 ## Effect
 
-When the carrier deploys an [Array], the Array also raises [Poison] DMG Dealt of all allies by 4/5/6/7/8%, and the carrier's own [Poison] DMG Dealt by another 4/5/6/7/8% (Amplification 1 to 5). Both bonuses are removed when the Array ends or is replaced.
+**Amplification 1**: The \[Array\] deployed by the carrier grants \[Poison\] DMG Dealt +4% to all allies and an additional \[Poison\] DMG Dealt +4% to the carrier. These effects are removed after the Array ends or is replaced.
+
+**Amplification 2**: The \[Array\] deployed by the carrier grants \[Poison\] DMG Dealt +5% to all allies and an additional \[Poison\] DMG Dealt +5% to the carrier. These effects are removed after the Array ends or is replaced.
+
+**Amplification 3**: The \[Array\] deployed by the carrier grants \[Poison\] DMG Dealt +6% to all allies and an additional \[Poison\] DMG Dealt +6% to the carrier. These effects are removed after the Array ends or is replaced.
+
+**Amplification 4**: The \[Array\] deployed by the carrier grants \[Poison\] DMG Dealt +7% to all allies and an additional \[Poison\] DMG Dealt +7% to the carrier. These effects are removed after the Array ends or is replaced.
+
+**Amplification 5**: The \[Array\] deployed by the carrier grants \[Poison\] DMG Dealt +8% to all allies and an additional \[Poison\] DMG Dealt +8% to the carrier. These effects are removed after the Array ends or is replaced.
 
 ## Names
 

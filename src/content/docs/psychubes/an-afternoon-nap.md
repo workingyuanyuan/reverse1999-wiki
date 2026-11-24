@@ -40,7 +40,15 @@ sources:
 
 ## Effect
 
-After a 1-target attack of the carrier scores a critical hit, the carrier gets Critical DMG +3%, up to 4/5/6/7/8 stacks (Amplification 1 to 5).
+**Amplification 1**: When the carrier's 1-target attack scores a critical hit, the carrier gains Critical DMG +3% (stacks up to 4 times).
+
+**Amplification 2**: When the carrier's 1-target attack scores a critical hit, the carrier gains Critical DMG +3% (stacks up to 5 times).
+
+**Amplification 3**: When the carrier's 1-target attack scores a critical hit, the carrier gains Critical DMG +3% (stacks up to 6 times).
+
+**Amplification 4**: When the carrier's 1-target attack scores a critical hit, the carrier gains Critical DMG +3% (stacks up to 7 times).
+
+**Amplification 5**: When the carrier's 1-target attack scores a critical hit, the carrier gains Critical DMG +3% (stacks up to 8 times).
 
 ## Names
 

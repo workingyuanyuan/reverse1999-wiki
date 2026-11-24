@@ -1,6 +1,6 @@
 ---
 title: "エピソード"
-description: "リバース：1999 のエピソード：すべての章、ステージ、ストーリー全文。"
+description: "リバース：1999 のエピソード：全33章、240ステージ。"
 appliesTo: "リバース：1999、グローバル版クライアント 111.0.1077（バージョン 3.9）、日本語テキスト"
 caveat: "テキストはグローバル版の日本語。2バージョン先行する中国本土版では一部のセリフの言い回しが異なる。"
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global、グローバル版クライアント 111.0.1077：chapter.json と episode.json（ステージ番号、ゲーム内の時刻）"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-リバース：1999 のエピソード。章のページにはステージの一覧、ステージのページにはストーリー全文と小径がある。
-
 | 章 | ステージ数 | 小径 |
 | --- | --- | --- |
 | [嵐の中、幼き鷹は羽ばたく](/ja/story/the-eaglet-takes-wing/) | 8 | 0 |
@@ -53,9 +51,7 @@ sources:
 | [エグゼビア探し](/ja/story/finding-xavier/) | 8 | 0 |
 | [風中のウハーラ](/ja/story/the-winds-of-juhalerat/) | 8 | 0 |
 
-## 中国本土版のみ
-
-中国本土版にだけ実装されている章。簡体字中国語の名前で挙げる：
+## 中国本土版のみ（簡体字中国語の名前）
 
 - 天真的预言
 - 奇遇之夜

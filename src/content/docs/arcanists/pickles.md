@@ -36,31 +36,37 @@ sources:
 | Psychubes recommended in game | [Offbeat Strides](/psychubes/offbeat-strides/), [Knock on the Door](/psychubes/knock-on-the-door/), [Another Story](/psychubes/another-story/) |
 | Mainland release | 2023-07-05 |
 | Global release | 2023-11-23 |
-
-Pickles stores stacks of Clarified Topic, from Insight 3 on entering battle and from rounds in which he casts no incantation himself. Each stack strengthens his next incantation or Ultimate and gives him 1 Moxie when it triggers. His Ultimate gives every ally DMG Dealt +30%, for a round longer when Clarified Topic backs it.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/pickles/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Nihilism Abuse (single-target attack) | 200% Mental DMG; +50% with Clarified Topic | 300%; +75% | 500%; +125% |
-| Hedonism Implement (attack on 2 enemies) | 150% Mental DMG | 150%; removes all Stats Up, Pos Status and Counter effects from the targets | 300%; removes them |
+### Nihilism Abuse
 
-- **Hedonism Implement** has Penetration Rate +25% at every rank when Pickles holds [Clarified Topic].
+**Rank 1**: 1-target attack. Deals 200% Mental DMG. If the caster is in \[Clarified Topic\] status, deals 50% more Mental DMG.
 
-[Clarified Topic]: strengthens Pickles's next incantation or Ultimate; one stack is used each time.
+**Rank 2**: 1-target attack. Deals 300% Mental DMG. If the caster is in \[Clarified Topic\] status, deals 75% more Mental DMG.
+
+**Rank 3**: 1-target attack. Deals 500% Mental DMG. If the caster is in \[Clarified Topic\] status, deals 125% more Mental DMG.
+
+### Hedonism Implement
+
+**Rank 1**: Mass attack. Deals 150% Mental DMG to 2 enemies. If the caster is in \[Clarified Topic\] state, this attack has +25% Penetration Rate.
+
+**Rank 2**: Mass attack. Deals 150% Mental DMG to 2 enemies. Dispels all \[Stats Up\], \[Pos Status\], and \[Counter\]. If the caster is in \[Clarified Topic\] state, this attack has +25% Penetration Rate.
+
+**Rank 3**: Mass attack. Deals 300% Mental DMG to 2 enemies. Dispels all \[Stats Up\], \[Pos Status\], and \[Counter\]. If the caster is in \[Clarified Topic\] state, this attack has +25% Penetration Rate.
 
 ## Ultimate: Thus Spoke Pickles
 
-Deals 500% Mental DMG to one enemy, then gives all allies DMG Dealt +30% for 2 rounds. With Clarified Topic, the buff lasts 1 round longer.
+1-target attack. Deals 500% Mental DMG. After that, DMG Dealt +30% for all allies for 2 rounds. If the caster is in \[Clarified Topic\] status, the duration of this DMG Dealt buff +1 round.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | At the end of a round in which Pickles actively cast no incantation, he gains 1 stack of Clarified Topic. Each time Clarified Topic triggers, he gains 1 Moxie. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | Pickles gains 2 stacks of Clarified Topic on entering battle. |
+**Insight 1 · Proposition**: At the end of the round, if having not actively casted an incantation for the round, gain 1 stack of \[Clarified Topic\]. For every \[Clarified Topic\] triggered, gain Moxie +1.
+
+**Insight 2 · Proposition II**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · Proposition III**: Gains 2 stacks of \[Clarified Topic\] immediately upon entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -70,28 +76,34 @@ Deals 500% Mental DMG to one enemy, then gives all allies DMG Dealt +30% for 2 r
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 575%. |
-| 2 | The Ultimate's team buff becomes DMG Dealt +40%. |
-| 3 | With Clarified Topic, Nihilism Abuse deals 80, 120 or 200% more by rank. |
-| 4 | Hedonism Implement deals 165, 170 or 325% by rank. |
-| 5 | The Ultimate deals 650%. |
+**Portrait 1**: **Thus Spoke Pickles**: Mental DMG is raised to 575%
+
+**Portrait 2**: **Thus Spoke Pickles**'s effect changes to: DMG Dealt +40% for all allies.
+
+**Portrait 3**: **Nihilism Abuse**'s effect changes to: at 1/2/3 stars, if the caster is in \[Clarified Topic\] status, additional Mental DMG dealt is increased to 80/120/200%.
+
+**Portrait 4**: **Hedonism Implement**'s effect changes to: at 1/2/3 stars, Mental DMG dealt is increased to 165/170/325%.
+
+**Portrait 5**: **Thus Spoke Pickles**'s effect changes to: deals 650% Mental DMG.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Pickles has one Epiphany of four levels; most of it works on the ally next to him in front.
+**Epiphany 1, level 1**: At the start of the round, grants a random effect from \[Collection of Buffs\] to the adjacent ally in front for 2 rounds; if the target is of the Mineral afflatus, grants 2 random effects instead.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | At the start of each round, the adjacent ally in front gains 1 random effect of [Collection of Buffs] for 2 rounds, or 2 effects if it is of the Mineral Afflatus. With a Mineral ally in front, Pickles also casts a rank 2 Hedonism Implement at the enemy with the highest HP percentage after any ally acts, at most once per round. |
-| 1 | 2 | After Hedonism Implement, the adjacent ally in front gains 1 stack of [Rousing Morale]. |
-| 1 | 3 | Pickles gains 1 stack of Clarified Topic at the start of each round. |
-| 1 | 4 | After the Ultimate's attack, the adjacent ally in front gains extra-action DMG Dealt +15% for 2 rounds, or +30% if it shares Pickles's Afflatus. |
+If the adjacent ally in front is of the Mineral afflatus, after any ally takes an action, Pickles casts an additional rank 2 **Hedonism Implement** to attack the enemy with the highest HP percentage (triggers up to 1 time per round).
 
-[Collection of Buffs]: four effects: Penetration Rate +20%, Critical Rate +15%, Critical DMG +30%, Leech Rate +15%.
+**Epiphany 1, level 2**: After casting **Hedonism Implement**, grant an additional 1 stack of \[Rousing Morale\] to the adjacent ally in front.
 
-[Rousing Morale]: DMG Bonus +50% on an attack; one stack is used each time.
+**Epiphany 1, level 3**: At the start of the round, gain 1 stack of \[Clarified Topic\].
+
+**Epiphany 1, level 4**: After casting **Thus Spoke Pickles**, grants extra action DMG Dealt +15% to the adjacent ally in front for 2 rounds; if the ally has the same afflatus as Pickles, the DMG Dealt is increased to +30%.
+
+## Statuses
+
+- **Clarified Topic**: Enhances Pickles' next Incantation or Ultimate (stack -1 after trigger).
+- **Counter**: Grants continuous Counter. Effect is triggered When the caster is attacked.
+- **Collection of Buffs**: There are 4 effects: Penetration Rate +20%, Critical Rate +15%, Critical DMG +30%, Leech Rate +15%.
+- **Rousing Morale**: DMG Bonus +50% when attacking (reduced by 1 stack on trigger).
 
 ## Names
 

@@ -2,7 +2,7 @@
 title: "Centurion"
 description: "Centurion is a 6-star Beast arcanist whose Reality DMG grows with the Moxie she holds; she has Euphoria."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
-caveat: "Centurion's second Epiphany is out only on the mainland China service, and its English status names are translations, not official ones."
+caveat: "Centurion's second Epiphany is out only on the mainland China service."
 lastVerified: 2026-11-22
 aliases:
   - "百夫長"
@@ -37,31 +37,37 @@ sources:
 | Psychubes recommended in game | [Another Story](/psychubes/another-story/), [The Final Roll](/psychubes/the-final-roll/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Centurion is one of the launch 6-star arcanists. Her damage rides on her Moxie: Victorious General adds a hit that scales with it, and her Insight I passive raises DMG Dealt for each point she holds. Her Ultimate weakens all enemies, and from Insight III spending Moxie heals her. Her first Epiphany raises her Moxie cap and turns both incantations into Moxie spenders; the second replaces Moxie with Vein Points that she collects by moving along the line.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/centurion/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Victorious General (single-target attack) | 180% Reality DMG plus Moxie × 8% | 270%; Moxie × 12% | 450%; Moxie × 20% |
-| Outdoor Superstar (attack on 2 enemies) | 150% Reality DMG | 150%; Moxie +1 | 225%; Moxie +2 |
+### Victorious General
 
-The second part of Victorious General deals Reality DMG at a multiplier of 8, 12 or 20% by rank for each Moxie Centurion holds.
+**Rank 1**: 1-target attack. Deals 180% Reality DMG plus (the caster's Moxie ×8%) Reality DMG.
+
+**Rank 2**: 1-target attack. Deals 270% Reality DMG plus (the caster's Moxie ×12%) Reality DMG.
+
+**Rank 3**: 1-target attack. Deals 450% Reality DMG plus (the caster's Moxie ×20%) Reality DMG.
+
+### Outdoor Superstar
+
+**Rank 1**: Mass attack. Deals 150% Reality DMG to 2 enemies.
+
+**Rank 2**: Mass attack. Deals 150% Reality DMG to 2 enemies. Gains Moxie +1.
+
+**Rank 3**: Mass attack. Deals 225% Reality DMG to 2 enemies. Gains Moxie +2.
 
 ## Ultimate: Reality Show Premiere
 
-Deals 300% Reality DMG to all enemies and puts 1 stack of [Weakness] on each enemy hit.
-
-[Weakness]: DMG Bonus −25% when the holder attacks; one stack is used each time.
+Mass attack. Deals 300% Reality DMG. On hit, inflicts 1 stack of \[Weakness\] on all enemies.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | DMG Dealt +6% for each Moxie Centurion holds. |
-| 2 | Critical Rate +10% on entering battle. |
-| 3 | Whenever she loses Moxie, she recovers HP equal to 20% of her Max HP. |
+**Insight 1 · Hot Sauce Expert**: For every 1 Moxie owned, DMG Dealt +6%.
+
+**Insight 2 · Hot Sauce Expert Ⅱ**: Critical Rate +10% when entering battle.
+
+**Insight 3 · Hot Sauce Expert Ⅲ**: When the caster loses Moxie, HP +(Max HP ×20%).
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -71,36 +77,43 @@ Deals 300% Reality DMG to all enemies and puts 1 stack of [Weakness] on each ene
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Victorious General's Moxie multiplier is 14, 21 or 35% by rank. |
-| 2 | The Ultimate deals 350%. |
-| 3 | Outdoor Superstar deals 165, 170 or 250% by rank. |
-| 4 | The Ultimate deals 400%. |
-| 5 | Victorious General's Moxie multiplier is 18, 27 or 45% by rank. |
+**Portrait 1**: **Victorious General**: Additional Reality DMG increased to the caster's Moxie x14/21/35%.
+
+**Portrait 2**: **Reality Show Premiere**: Reality DMG increased to 350%.
+
+**Portrait 3**: **Outdoor Superstar**: At Incantation rank 1/2/3, Reality DMG increased to 165/170/250%.
+
+**Portrait 4**: **Reality Show Premiere**: Reality DMG increased to 400%.
+
+**Portrait 5**: **Victorious General**: Additional Reality DMG increased to the caster's Moxie x18/27/45%.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Centurion has two Epiphanies of four levels each; the second is out only on the mainland China service.
+**Epiphany 1, level 1**: When entering battle, Max Moxie +5.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | Max Moxie +5 on entering battle. Victorious General adds Reality DMG equal to 300% of its original Moxie-based damage, and Outdoor Superstar adds Reality DMG equal to 225% of Victorious General's original Moxie-based damage. Both incantations benefit from Ultimate Might at a 100% rate. |
-| 1 | 2 | Victorious General: below 7 Moxie, it gives Moxie +1; at 7 or more, it spends 2 Moxie to add 240, 360 or 600% Reality DMG by rank. |
-| 1 | 3 | Outdoor Superstar: below 7 Moxie, it gives Moxie +1; at 7 or more, it spends 2 Moxie to add 180, 270 or 450% Reality DMG by rank. |
-| 1 | 4 | The Ultimate no longer spends Moxie and puts Centurion in [Heaven's Bounty] for 3 rounds. |
-| 2 | 1 | The Insight I passive gains: Moxie is replaced by [Vein Points], and her skills that scaled with Moxie scale with Vein Points instead; her Ultimate does not count against the team's incantation card limit; at the start of each round, 1 point of [Vein: Heaven-Sent Fortune] appears at a random position other than hers, at most 4 points per position. After it is cast, Victorious General moves her 1 position forward and Outdoor Superstar 1 position back. |
-| 2 | 2 | Victorious General and Outdoor Superstar each add Reality DMG equal to 100% of their base Reality DMG. |
-| 2 | 3 | The Ultimate adds Reality DMG equal to her Vein Points × 400% of its base Reality DMG. |
-| 2 | 4 | The Insight III passive gains Vein Points +3 on entering battle. If she holds 4, 5 or 6 Vein Points when she casts the Ultimate, all allies gain 1, 2 or 3 stacks of [Good Fortune]. |
+**Victorious General** deals an additional Reality DMG equal to 300% of **Victorious General**'s original Moxie-based additional Reality DMG.
 
-- **Heaven's Bounty**: Centurion cannot gain the Ultimate; the Moxie cost of her extra Reality DMG falls to 0; Critical Rate +30% and Critical DMG +60%. All her Moxie is cleared when it ends.
-- **Vein: Heaven-Sent Fortune**: Centurion's own vein. When she stands on its position and her Vein Points are not full, she picks up as much as she can, 1 point per pickup. At the start of a round with at least 2 Vein Points she gains the Ultimate. Casting the Ultimate spends all her Vein Points, and each point spent gives all allies one effect of [Collection of Buffs] for 3 rounds.
-- **Collection of Buffs**: six effects, those not yet held given first: DMG Bonus +20%, Critical Rate +20%, Critical DMG +20%, Incantation Might +30%, Ultimate Might +30%, Penetration Rate +10%.
-- **Good Fortune**: after its holder gains Vein Points, a vein of the holder's own appears at a random position other than the holder's; one stack is used each time.
+**Outdoor Superstar** deals an additional Reality DMG equal to 225% of **Victorious General**'s original Moxie-based additional Reality DMG.
+
+**Victorious General** and **Outdoor Superstar** benefit from Ultimate Might at a 100% rate.
+
+**Epiphany 1, level 2**: When casting **Victorious General**, if below 7 Moxie, gains Moxie +1; if at 7 Moxie or above, consumes 2 Moxie to deal an additional 240%/360%/600% Reality DMG based on incantation rank.
+
+**Epiphany 1, level 3**: When casting **Outdoor Superstar**, if below 7 Moxie, gains Moxie +1; if at 7 Moxie or above, consumes 2 Moxie to deal an additional 180%/270%/450% Reality DMG based on incantation rank.
+
+**Epiphany 1, level 4**: **Reality Show Premiere** no longer consumes Moxie. It grants \[Heaven's Bounty\] status to self for 3 rounds.
+
+## Statuses
+
+- **Weakness**: DMG Bonus -25% when attacking (reduced by 1 stack on trigger).
+- **Heaven's Bounty**: Cannot gain Ultimate. Moxie consumed to deal additional Reality DMG is reduced to 0. Critical Rate +30%. Critical DMG +60%. When this status ends, removes all Moxie.
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | Centurion | 百夫长 | 百夫長 | ケントゥリオン | 센츄리온 |
+
+## Edition differences
+
+- Centurion's Epiphany 2 is out only on the mainland China service.

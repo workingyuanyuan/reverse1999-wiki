@@ -37,33 +37,37 @@ sources:
 | Psychubes recommended in game | [The Fighter's Best Wishes](/psychubes/the-fighters-best-wishes/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Balloon Party heals by a share of each ally's missing HP, so her heals grow as the team takes damage. Her balloons do the rest: a [Party Balloon] hits back at whoever attacks its holder, a [Balloon of Innocence] cuts the damage of the next hit and heals after it, and her single-target attack pierces harder while she holds either one.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/balloon-party/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Pinata (single-target attack) | 160% Reality DMG | 240% | 400% |
-| Coughing Weirdo (mass heal) | all allies heal 25% of missing HP | 30%; 1 Party Balloon for her | 40%; 2 Party Balloons |
+### Pinata
 
-- **Pinata** gains Penetration Rate +50% at every rank while Balloon Party holds a Party Balloon or a Balloon of Innocence.
-- **Coughing Weirdo** is a counter incantation at ranks 2 and 3.
+**Rank 1**: 1-target attack. Deals 160% Reality DMG. If the caster has \[Party Balloon\] or \[Balloon of Innocence\], this attack enjoys Penetration Rate +50%.
+
+**Rank 2**: 1-target attack. Deals 240% Reality DMG. If the caster has \[Party Balloon\] or \[Balloon of Innocence\], this attack enjoys Penetration Rate +50%.
+
+**Rank 3**: 1-target attack. Deals 400% Reality DMG. If the caster has \[Party Balloon\] or \[Balloon of Innocence\], this attack enjoys Penetration Rate +50%.
+
+### Coughing Weirdo
+
+**Rank 1**: Mass healing. Recovers (Missing HP x25%) HP for all allies.
+
+**Rank 2**: Mass counter. Recovers (Missing HP x30%) HP for all allies. Gains 1 \[Party Balloon\].
+
+**Rank 3**: Mass counter. Recovers (Missing HP x40%) HP for all allies. Gains 2 \[Party Balloon\]s.
 
 ## Ultimate: Good Kids, Bad Adults
 
-Deals 250% Reality DMG to all enemies, gives every ally 1 Balloon of Innocence and 1 Party Balloon, and heals the ally with the lowest HP percentage by 10% of their missing HP.
-
-- [Party Balloon]: when its holder is attacked, the attacker takes Genesis DMG equal to 100% of Balloon Party's Reality DEF; one stack is used each time.
-- [Balloon of Innocence]: DMG Taken Reduction +25%; after its holder is attacked, they heal 20% of their missing HP; one stack is used each time.
+Mass attack. Deals 250% Reality DMG to all enemies. Grants 1 \[Balloon of Innocence\] and 1 \[Party Balloon\] to all allies. Recovers (Missing HP x10%) HP for the ally with the lowest HP percentage.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | At the start of a round, Balloon Party gains 1 Party Balloon, up to 3 times. |
-| 2 | Healing Done +10% on entering battle. |
-| 3 | The Party Balloons she gains at the start of a round last until the end of the battle. |
+**Insight 1 · Bang Bang Balloons**: When a round starts, gets 1 \[Party Balloon\] (triggers up to 3 times).
+
+**Insight 2 · Bang Bang Balloons Ⅱ**: Healing Done +10% when entering battle.
+
+**Insight 3 · Bang Bang Balloons Ⅲ**: The \[Party Balloon\] acquired when a round begins becomes permanent.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -73,13 +77,20 @@ Deals 250% Reality DMG to all enemies, gives every ally 1 Balloon of Innocence a
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate heals the lowest ally by 20% of missing HP. |
-| 2 | Pinata's Penetration Rate bonus becomes +70%. |
-| 3 | Coughing Weirdo heals 30, 35 or 45% of missing HP by rank. |
-| 4 | The Ultimate deals 300%. |
-| 5 | The Ultimate heals the lowest ally by 30% of missing HP. |
+**Portrait 1**: **Good Kids, Bad Adults**'s effect changes to: After casting, recovers (the target's Missing HP x20%) HP for the ally with the lowest HP percentage.
+
+**Portrait 2**: **Pinata**'s effect changes to: when the caster has \[Party Balloon\] or \[Balloon of Innocence\], Penetration Rate +70%.
+
+**Portrait 3**: **Coughing Weirdo**'s effect changes to: at rank 1/2/3, recovers (the target's Missing HP x30/35/45%) HP for all allies.
+
+**Portrait 4**: **Good Kids, Bad Adults**'s effect changes to: deals 300% Reality DMG.
+
+**Portrait 5**: **Good Kids, Bad Adults**'s effect changes to: After casting, recovers (the target's Missing HP x30%) HP for the ally with the lowest HP percentage.
+
+## Statuses
+
+- **Party Balloon**: Inflicts Genesis DMG on the attacker equal to 100% of Balloon Party’s Reality DEF (reduced by 1 stack on trigger).
+- **Balloon of Innocence**: DMG Taken Reduction +25%. After being attacked, recover (Missing HP x20%) HP (-1 stack after trigger).
 
 ## Names
 

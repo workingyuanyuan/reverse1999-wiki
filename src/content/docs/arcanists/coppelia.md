@@ -37,40 +37,39 @@ sources:
 | Psychubes recommended in game | [The Silent Anthem](/psychubes/the-silent-anthem/) |
 | Mainland release | 2026-04-30 |
 | Global release | 2026-08-13 |
-
-Coppélia is a Conduit arcanist. Instead of incantation cards, she brings a Conduit and Energy cards to the deck: Energy played during the turn charges the Conduits, which run at the end of the AP Area and cast their incantation while there is Energy to pay for it. Her single-target attack grows with the Energy all Conduits spent that round, and every point of Energy spent by any ally's Conduit gives her stacks that feed her Ultimate.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/coppelia/profile/) |
 
 ## Incantations
 
-Coppélia's Conduit holds one of two incantations at a time; they have no ranks.
+### Tuning Technique
 
-| Incantation | Effect |
-| --- | --- |
-| Tuning Technique (single-target attack) | 480% Reality DMG, plus 120% Reality DMG for each level of [Energy Accumulation], counting up to 20 levels |
-| Clarity in Clefs (mass buff) | all allies gain [Symphonic Unity] for 3 rounds; Interval |
+**Rank 1**: 1-target attack. Deals 480% Reality DMG. For each level of \[Energy Accumulation\], deals an additional 120% Reality DMG (counting up to 20 levels).
 
-Her Energy cards: Mineral Energy I gives Mineral Energy +1, Mineral Energy II gives +2, and Skip Motion gives +2 and 10 stacks of [Chromatic Progression] to Coppélia.
+### Clarity in Clefs
 
-- [Conduit]: charged with Energy; at the end of the AP Area it runs and casts its incantation, spending Energy each time.
-- [Energy Accumulation]: the total Energy that allied Conduits have spent this round; it clears at the start of the round.
-- [Interval]: after the Conduit casts this incantation, it cannot cast it again that round.
-- [Symphonic Unity]: Critical Rate +40% and Critical DMG equal to 20% of Coppélia's Critical DMG, at most 48%.
+**Rank 1**: \[Interval\]
+
+Mass buff. Grants \[Symphonic Unity\] to all allies for 3 rounds.
 
 ## Ultimate: Song Etched Into Her Form
 
-When Harmonization is full, the Conduit switches to the Ultimate. It deals 960% Reality DMG to all enemies and 64% more Reality DMG to the main target for each stack of [Chromatic Progression]. Afterwards it removes every stack of Chromatic Progression, raises Energy Accumulation by 4 levels for the round, and gives Coppélia and the ally right behind her 3 stacks of [Conduit Calibration I]. The Conduit then switches back to Tuning Technique.
+\[Switch: Tuning Technique\]
 
-- [Chromatic Progression]: Ultimate Might +1% per stack, up to 30 stacks.
-- [Conduit Calibration I]: the holder's Conduit needs 1 Energy less to activate; one stack is used each time.
+Mass attack. Deals 960% Reality DMG to all enemies. For each stack of \[Chromatic Progression\], deals an additional 64% Reality DMG to the main target.
+
+After attacking, removes all \[Chromatic Progression\], increases \[Energy Accumulation\] by 4 levels for the round, and grants 3 stacks of \[Conduit Calibration I\] to self and the adjacent ally behind.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 0 (Precognition) | Coppélia gets no basic incantations or Ultimate cards and casts through her Conduit instead. Harmonization replaces Moxie; she gains Harmonization +15 at the start of each round. |
-| 1 | Each time an ally's Conduit activates, Coppélia gains 1 stack of Chromatic Progression for every Energy it spends. |
-| 2 | Critical DMG +15% on entering battle. |
-| 3 | On entering battle, all allies gain Conduit Might +40% and Coppélia gains Harmonization +30. |
+**Insight 0 · Precognition**: Does not gain basic incantations or Ultimates. Casts incantations by activating a \[Conduit\] with Energy instead.
+
+Replaces Moxie with Harmonization. At the start of the round, Coppélia gains Harmonization +15.
+
+**Insight 1 · Auditory Memory**: Whenever an ally activates a Conduit, for each Energy the Conduit consumes, Coppélia gains 1 stack of \[Chromatic Progression\].
+
+**Insight 2 · Auditory Memory II**: Critical DMG +15% when entering battle.
+
+**Insight 3 · Auditory Memory III**: When entering battle, Coppélia grants Conduit Might +40% to all allies and gains Harmonization +30.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -80,13 +79,28 @@ When Harmonization is full, the Conduit switches to the Ultimate. It deals 960% 
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Symphonic Unity lasts 4 rounds and gives Critical Rate +50%, with 30% of her Critical DMG converted, at most 72%; one Mineral Energy I in the deck gives 2 Energy. |
-| 2 | She gains Harmonization +20 at the start of each round; the Insight III bonus becomes Conduit Might +60% and Harmonization +45; two Mineral Energy I in the deck give 2 Energy. |
-| 3 | The Ultimate deals 1440%, plus 96% per stack of Chromatic Progression, and raises Energy Accumulation by 6 levels. |
-| 4 | Tuning Technique deals 720%, plus 180% per level of Energy Accumulation. |
-| 5 | One Mineral Energy II in the deck gives 3 Energy; Skip Motion gives 3 Energy and 20 stacks of Chromatic Progression; Chromatic Progression stacks up to 50. |
+**Portrait 1**: **Clarity in Clefs**: \[Symphonic Unity\] now lasts 4 rounds and grants Critical Rate +50%, with Critical DMG Conversion Rate increased to 30%, and upper limit increased to 72%; one \[Mineral Energy I\] grants 2 Mineral Energy.
+
+**Portrait 2**: **Precognition**: Coppélia now gains 20 Harmonization at the start of the round; Conduit Might +60% and Harmonization +45 when entering battle; two \[Mineral Energy I\] grant 2 Mineral Energy.
+
+**Portrait 3**: **Song Etched Into Her Form** now deals 1440% Reality DMG, deals an additional 96% Reality DMG for each stack of \[Chromatic Progression\], and increases \[Energy Accumulation\] by 6 levels.
+
+**Portrait 4**: **Tuning Technique** now deals 720% Reality DMG plus 180% additional Reality DMG for each level of \[Energy Accumulation\].
+
+**Portrait 5**: **Precognition**: 1 copy of \[Mineral Energy II\] now grants Mineral Energy +3. \[Skip Motion\] now grants Mineral Energy +3 and 20 stacks of \[Chromatic Progression\]. \[Chromatic Progression\] stack limit is increased to 50.
+
+## Statuses
+
+- **Energy Accumulation**: The total amount of Energy consumed by allied Conduits this round. Resets at the start of the round.
+- **Interval**: After a Conduit casts this incantation, it cannot cast this incantation again this round.
+- **Symphonic Unity**: Critical Rate +40%. Critical DMG +(Coppélia's Critical DMG x20%), up to 48%.
+- **Switch: Tuning Technique**: After a Conduit casts this incantation, it switches to the corresponding incantation.
+- **Chromatic Progression**: Ultimate Might +1% (stackable up to 30 times).
+- **Conduit Calibration I**: When activating a Conduit, consumes 1 fewer Energy (-1 stack after trigger).
+- **Conduit**: Use Energy to power Conduits. Conduits activate at the end of the AP Area and repeatedly cast incantations by consuming Energy.
+- **Mineral Energy I**: Mineral Energy +1.
+- **Mineral Energy II**: Mineral Energy +2.
+- **Skip Motion**: Mineral Energy +2. Grants 10 stacks of \[Chromatic Progression\] to Coppélia.
 
 ## Names
 

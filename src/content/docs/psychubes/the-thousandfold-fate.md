@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- When an Intellect carrier attacks while [Lingering Glow] is at 120 or more, the carrier gains Critical DMG +4/5/6/7/8%, up to 6 stacks (Amplification 1 to 5).
-- When the carrier takes an extra action while holding a [Force Field], that attack gains Incantation Might +6/7.5/9/10.5/12%.
+**Amplification 1**: When the carrier attacks, if the carrier is an \[Intellect\] character and if there are at least 120 points of \[Lingering Glow\], gains Critical DMG +4%, stacking up to 6 times.
+
+When the carrier performs an extra action attack and has a \[Force Field\], the attack gains Incantation Might +6%.
+
+**Amplification 2**: When the carrier attacks, if the carrier is an \[Intellect\] character and if there are at least 120 points of \[Lingering Glow\], gains Critical DMG +5%, stacking up to 6 times.
+
+When the carrier performs an extra action attack and has a \[Force Field\], the attack gains Incantation Might +7.5%.
+
+**Amplification 3**: When the carrier attacks, if the carrier is an \[Intellect\] character and if there are at least 120 points of \[Lingering Glow\], gains Critical DMG +6%, stacking up to 6 times.
+
+When the carrier performs an extra action attack and has a \[Force Field\], the attack gains Incantation Might +9%.
+
+**Amplification 4**: When the carrier attacks, if the carrier is an \[Intellect\] character and if there are at least 120 points of \[Lingering Glow\], gains Critical DMG +7%, stacking up to 6 times.
+
+When the carrier performs an extra action attack and has a \[Force Field\], the attack gains Incantation Might +10.5%.
+
+**Amplification 5**: When the carrier attacks, if the carrier is an \[Intellect\] character and if there are at least 120 points of \[Lingering Glow\], gains Critical DMG +8%, stacking up to 6 times.
+
+When the carrier performs an extra action attack and has a \[Force Field\], the attack gains Incantation Might +12%.
 
 ## Names
 

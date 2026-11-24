@@ -1,0 +1,343 @@
+{
+	"_note": "Where the editions of the game's text disagree on something a player acts on: one note per difference, in each language (zh-cn is converted from zh-tw). Written in our own words from a comparison of the pinned clients' text; pipeline/edition_notes.py puts them at the end of the page, with notes it writes itself for Epiphanies out on the mainland service only.",
+	"arcanists/an-an-lee": {
+		"en": [
+			"Epiphany 2, level 3: the global client's English text calls the added bonus DMG Bonus; its Chinese, Japanese and Korean texts and the mainland text call it DMG Dealt."
+		],
+		"zh-tw": [
+			"閃念 2・等級 3：國際版英文文字把這項額外加成寫成 DMG Bonus（創傷加成），國際版的中文、日文、韓文與中國大陸版文字都寫成造成傷害提升。"
+		],
+		"ja": [
+			"瞬想 2・レベル 3：グローバル版の英語テキストはこの追加の上昇を DMG Bonus と書き、中国語・日本語・韓国語と中国本土版のテキストは与ダメージアップと書く。"
+		],
+		"ko": [
+			"발상 2 · 레벨 3: 글로벌 클라이언트의 영어 텍스트는 이 추가 증가를 DMG Bonus라고 쓰고, 중국어·일본어·한국어 텍스트와 중국 본토 텍스트는 주는 피해 증가라고 쓴다."
+		]
+	},
+	"arcanists/door": {
+		"en": [
+			"To the Universe in the Alley: on the mainland client the Shield is worth 100% of Door's ATK and goes to every other ally; on the global client it is worth 100% of each target's ATK and goes to every ally. The Portrait levels use Door's ATK on both clients."
+		],
+		"zh-tw": [
+			"致巷中宇宙：中國大陸版的護盾為門攻擊的 100%，給予門以外的每位友方；國際版為各目標攻擊的 100%，給予全體友方。塑造各級在兩版都依門的攻擊計算。"
+		],
+		"ja": [
+			"巷間の宇宙へ：中国本土版ではシールド量がドアの攻撃力の 100% で、ドア以外の味方全員に付与される。グローバル版では各対象の攻撃力の 100% で、味方全員に付与される。塑造の各レベルはどちらの版でもドアの攻撃力を基準にする。"
+		],
+		"ko": [
+			"파편 속 우주: 중국 본토 클라이언트에서는 보호막이 문의 공격의 100%이며 문을 제외한 모든 아군에게 주어진다. 글로벌 클라이언트에서는 각 대상의 공격의 100%이며 모든 아군에게 주어진다. 형상 각 단계는 두 클라이언트 모두 문의 공격을 기준으로 한다."
+		]
+	},
+	"arcanists/eternity": {
+		"en": [
+			"Epiphany 1, level 1: on the mainland client an ally at or below 50% HP loses no HP; the global client's text says below 50%."
+		],
+		"zh-tw": [
+			"閃念 1・等級 1：中國大陸版寫生命在 50% 以下（含）的友方不會失去生命；國際版寫的是低於 50%。"
+		],
+		"ja": [
+			"瞬想 1・レベル 1：中国本土版では HP が 50% 以下の味方は HP を失わない。グローバル版のテキストでは 50% 未満である。"
+		],
+		"ko": [
+			"발상 1 · 레벨 1: 중국 본토 클라이언트에서는 HP가 50% 이하인 아군은 HP를 잃지 않는다. 글로벌 클라이언트의 텍스트는 50% 미만이라고 쓴다."
+		]
+	},
+	"arcanists/ezio-auditore": {
+		"en": [
+			"On the mainland client Enhanced Venetian Falchion makes Fighting Experience and Eyes Caught last 2 rounds longer; on the global client they last 2 rounds."
+		],
+		"zh-tw": [
+			"中國大陸版的威尼斯彎刀強化讓格鬥記憶與白袍焦點的持續回合增加 2 回合；國際版寫的是持續 2 回合。"
+		],
+		"ja": [
+			"中国本土版ではヴェネツィア海賊の剣強化でカウンター準備とロックオンの持続ターンが 2 ターン延びる。グローバル版では持続が 2 ターンになる。"
+		],
+		"ko": [
+			"중국 본토 클라이언트에서는 베네치아 파르치온 강화로 전투 경험과 포착된 시선의 지속 턴이 2턴 늘어난다. 글로벌 클라이언트에서는 2턴 지속된다."
+		]
+	},
+	"arcanists/ezra": {
+		"en": [
+			"On the mainland client a team cannot hold Bloodtithe together with Lingering Glow or 洞知眼 (a status of the mainland client only); the global client's text has no such clause."
+		],
+		"zh-tw": [
+			"中國大陸版中，隊伍無法同時持有薪血與餘輝或洞知眼；國際版文字沒有這項條款。"
+		],
+		"ja": [
+			"中国本土版では、チームは血の薪を残光や洞知眼（中国本土版だけの状態）と同時に持てない。グローバル版のテキストにはこの条項がない。"
+		],
+		"ko": [
+			"중국 본토 클라이언트에서는 팀이 신혈을 여광이나 洞知眼(중국 본토 클라이언트에만 있는 상태)과 동시에 가질 수 없다. 글로벌 클라이언트의 텍스트에는 이 조항이 없다."
+		]
+	},
+	"arcanists/igor": {
+		"en": [
+			"Piercing Bullet: the Chinese and Korean texts give the main target Reality DEF −25% for 2 rounds after the attack; the global client's English and Japanese texts give Penetration Rate +30% on the attack instead."
+		],
+		"zh-tw": [
+			"破甲子彈：中文與韓文文字是攻擊後使主目標現實防禦 −25%，持續 2 回合；國際版的英文與日文文字改為攻擊時穿透率 +30%。"
+		],
+		"ja": [
+			"徹甲バレット：中国語と韓国語のテキストでは、攻撃後にメインターゲットの現実防御が 2 ターン −25% になる。グローバル版の英語と日本語のテキストでは代わりに攻撃時の貫通率が 30% アップする。"
+		],
+		"ko": [
+			"파갑 탄환: 중국어와 한국어 텍스트는 공격 후 2턴 동안 주 목표의 현실 방어 -25%를 준다. 글로벌 클라이언트의 영어와 일본어 텍스트는 대신 공격 시 관통률 +30%를 준다."
+		]
+	},
+	"arcanists/isolde": {
+		"en": [
+			"On the mainland client Lingering Glow cannot be held together with Bloodtithe or 洞知眼 (a status of the mainland client only); the global client's text names Bloodtithe only."
+		],
+		"zh-tw": [
+			"中國大陸版中，餘輝無法與薪血或洞知眼同時存在；國際版文字只寫薪血。"
+		],
+		"ja": [
+			"中国本土版では、残光は血の薪とも洞知眼（中国本土版だけの状態）とも同時に存在できない。グローバル版のテキストは血の薪だけを挙げる。"
+		],
+		"ko": [
+			"중국 본토 클라이언트에서는 여광이 신혈이나 洞知眼(중국 본토 클라이언트에만 있는 상태)과 동시에 존재할 수 없다. 글로벌 클라이언트의 텍스트는 신혈만 적는다."
+		]
+	},
+	"arcanists/j": {
+		"en": [
+			"Epiphany 1, level 3: the bonus that Over the Haight Street! gives all allies per Burn stack is DMG Dealt in the Chinese texts and DMG Bonus in the global client's English text."
+		],
+		"zh-tw": [
+			"閃念 1・等級 3：飛躍海特街！依燃燒層數給予全體友方的加成，中文文字寫成造成傷害提升，國際版英文文字寫成 DMG Bonus（創傷加成）。"
+		],
+		"ja": [
+			"瞬想 1・レベル 3：「ハイトストリートを越えて！」が燃焼の層数に応じて味方全員に与える上昇は、中国語テキストでは与ダメージアップ、グローバル版の英語テキストでは DMG Bonus である。"
+		],
+		"ko": [
+			"발상 1 · 레벨 3: 헤이트 스트리트 너머로가 연소 중첩 수에 따라 모든 아군에게 주는 증가는 중국어 텍스트에서 주는 피해 증가, 글로벌 클라이언트의 영어 텍스트에서 DMG Bonus이다."
+		]
+	},
+	"arcanists/mercuria": {
+		"en": [
+			"Epiphany 1, level 4: on the mainland client the Incantation Might and Critical DMG that Rank Up adds are 40% of Mercuria's own Incantation Might Up and Critical DMG Up; the global client's text takes both from her Cosmic Energy."
+		],
+		"zh-tw": [
+			"閃念 1・等級 4：中國大陸版中，調階附加的術法威力與暴擊創傷是環狀水星自身術法威力提升與暴擊創傷提升的 40%；國際版文字兩者都依她的宇宙能量計算。"
+		],
+		"ja": [
+			"瞬想 1・レベル 4：中国本土版では、ランクアップが加えるスペル威力とクリティカルダメージはマーキュリア自身のスペル威力アップとクリティカルダメージアップの 40% である。グローバル版のテキストではどちらも彼女のコスモスエネルギーから計算する。"
+		],
+		"ko": [
+			"발상 1 · 레벨 4: 중국 본토 클라이언트에서는 진급이 더하는 마법 위력과 치명타 피해가 머큐리아 자신의 마법 위력 증가와 치명타 피해 증가의 40%이다. 글로벌 클라이언트의 텍스트는 둘 다 그녀의 우주 에너지로 계산한다."
+		]
+	},
+	"arcanists/nautika": {
+		"en": [
+			"On the mainland client a team cannot hold Bloodtithe together with Lingering Glow or 洞知眼 (a status of the mainland client only); the global client's text has no such clause."
+		],
+		"zh-tw": [
+			"中國大陸版中，隊伍無法同時持有薪血與餘輝或洞知眼；國際版文字沒有這項條款。"
+		],
+		"ja": [
+			"中国本土版では、チームは血の薪を残光や洞知眼（中国本土版だけの状態）と同時に持てない。グローバル版のテキストにはこの条項がない。"
+		],
+		"ko": [
+			"중국 본토 클라이언트에서는 팀이 신혈을 여광이나 洞知眼(중국 본토 클라이언트에만 있는 상태)과 동시에 가질 수 없다. 글로벌 클라이언트의 텍스트에는 이 조항이 없다."
+		]
+	},
+	"arcanists/necrologist": {
+		"en": [
+			"Insight 3: the global client's English text heals when a Prayer is dispelled; its Chinese, Japanese and Korean texts heal when a Prayer disappears."
+		],
+		"zh-tw": [
+			"洞悉 3：國際版英文文字寫的是禱言被驅散（dispelled）時回復；國際版的中文、日文、韓文寫的是禱言消失時回復。"
+		],
+		"ja": [
+			"洞察 3：グローバル版の英語テキストでは祈りが解除（dispelled）されたときに回復する。中国語・日本語・韓国語のテキストでは祈りが消えたときに回復する。"
+		],
+		"ko": [
+			"통찰 3: 글로벌 클라이언트의 영어 텍스트는 기도의 말이 해제(dispelled)될 때 회복한다고 쓰고, 중국어·일본어·한국어 텍스트는 기도의 말이 사라질 때 회복한다고 쓴다."
+		]
+	},
+	"arcanists/nick-bottom": {
+		"en": [
+			"Insight 1: when Nick Bottom leaves the battle, the Chinese texts heal the ally with 50% of Nick Bottom's Max HP; the global client's English text uses 50% of that ally's Max HP."
+		],
+		"zh-tw": [
+			"洞悉 1：尼克·波頓離場時，中文文字依尼克·波頓最大生命的 50% 為友方回復；國際版英文文字改依該友方最大生命的 50%。"
+		],
+		"ja": [
+			"洞察 1：ニック・ボトムが退場するとき、中国語テキストではニック・ボトムの最大 HP の 50% で味方を回復する。グローバル版の英語テキストではその味方の最大 HP の 50% である。"
+		],
+		"ko": [
+			"통찰 1: 닉 보텀이 퇴장할 때 중국어 텍스트는 닉 보텀의 최대 HP의 50%로 아군을 회복한다. 글로벌 클라이언트의 영어 텍스트는 그 아군의 최대 HP의 50%를 쓴다."
+		]
+	},
+	"arcanists/recoleta": {
+		"en": [
+			"Maze of Visceral Realism: with at least 5 extra Moxie spent, the Chinese texts double the whole Ultimate Might of the attack; the global client's English text doubles only the bonus from the extra Moxie."
+		],
+		"zh-tw": [
+			"下現實主義迷宮：額外消耗至少 5 點激情時，中文文字是本次攻擊的儀式威力效果整體翻倍；國際版英文文字只把額外激情帶來的加成翻倍。"
+		],
+		"ja": [
+			"インフラリアリズム迷宮：追加で MP を 5 以上消費したとき、中国語テキストではこの攻撃のアルティメット威力の効果全体が 2 倍になる。グローバル版の英語テキストでは追加の MP による上昇分だけが 2 倍になる。"
+		],
+		"ko": [
+			"내장사실주의의 미로: 추가로 열정을 5 이상 소모하면 중국어 텍스트는 이번 공격의 최종 술식 위력 효과 전체를 2배로 한다. 글로벌 클라이언트의 영어 텍스트는 추가 열정으로 얻은 증가분만 2배로 한다."
+		]
+	},
+	"arcanists/rubuska": {
+		"en": [
+			"On the mainland client a team cannot hold Bloodtithe together with Lingering Glow or 洞知眼 (a status of the mainland client only); the global client's text has no such clause."
+		],
+		"zh-tw": [
+			"中國大陸版中，隊伍無法同時持有薪血與餘輝或洞知眼；國際版文字沒有這項條款。"
+		],
+		"ja": [
+			"中国本土版では、チームは血の薪を残光や洞知眼（中国本土版だけの状態）と同時に持てない。グローバル版のテキストにはこの条項がない。"
+		],
+		"ko": [
+			"중국 본토 클라이언트에서는 팀이 신혈을 여광이나 洞知眼(중국 본토 클라이언트에만 있는 상태)과 동시에 가질 수 없다. 글로벌 클라이언트의 텍스트에는 이 조항이 없다."
+		]
+	},
+	"psychubes/an-epics-end": {
+		"en": [
+			"The Chinese texts count every 100 points of Critical Technique between the carrier and the target; the global client's English text counts only the points by which the carrier exceeds the target."
+		],
+		"zh-tw": [
+			"中文文字計算記憶者與目標之間每 100 點暴擊技巧的差距；國際版英文文字只計算記憶者高出目標的點數。"
+		],
+		"ja": [
+			"中国語テキストは記憶者と対象のクリティカルテクニックの差を 100 ごとに数える。グローバル版の英語テキストは記憶者が対象を上回る分だけを数える。"
+		],
+		"ko": [
+			"중국어 텍스트는 기억자와 대상 사이의 치명타 기술 차이를 100마다 센다. 글로벌 클라이언트의 영어 텍스트는 기억자가 대상보다 높은 만큼만 센다."
+		]
+	},
+	"psychubes/as-the-bell-tolls": {
+		"en": [
+			"The Chinese texts count every 100 points of Critical Technique between the carrier and the target; the global client's English text counts only the points by which the carrier exceeds the target."
+		],
+		"zh-tw": [
+			"中文文字計算記憶者與目標之間每 100 點暴擊技巧的差距；國際版英文文字只計算記憶者高出目標的點數。"
+		],
+		"ja": [
+			"中国語テキストは記憶者と対象のクリティカルテクニックの差を 100 ごとに数える。グローバル版の英語テキストは記憶者が対象を上回る分だけを数える。"
+		],
+		"ko": [
+			"중국어 텍스트는 기억자와 대상 사이의 치명타 기술 차이를 100마다 센다. 글로벌 클라이언트의 영어 텍스트는 기억자가 대상보다 높은 만큼만 센다."
+		]
+	},
+	"psychubes/balance-please": {
+		"en": [
+			"The Chinese and Korean texts ask for a target with which the carrier has neither an Afflatus advantage nor a disadvantage; the global client's English and Japanese texts name only the lack of an advantage."
+		],
+		"zh-tw": [
+			"中文與韓文文字要求記憶者對目標既無靈感克制也無被克制；國際版的英文與日文文字只寫無克制。"
+		],
+		"ja": [
+			"中国語と韓国語のテキストは、記憶者が対象に対して有利でも不利でもないことを条件にする。グローバル版の英語と日本語のテキストは有利でないことだけを挙げる。"
+		],
+		"ko": [
+			"중국어와 한국어 텍스트는 기억자가 대상에게 영감 상성 우위도 열위도 없을 것을 조건으로 한다. 글로벌 클라이언트의 영어와 일본어 텍스트는 우위가 없는 것만 적는다."
+		]
+	},
+	"psychubes/dust-on-the-roadside": {
+		"en": [
+			"The Chinese texts give the Critical DMG bonus when the attack scores a critical hit; the global client's English text gives it without that condition."
+		],
+		"zh-tw": [
+			"中文文字在攻擊暴擊時才給予暴擊創傷加成；國際版英文文字沒有暴擊這個條件。"
+		],
+		"ja": [
+			"中国語テキストでは攻撃がクリティカルになったときにクリティカルダメージが上がる。グローバル版の英語テキストにはその条件がない。"
+		],
+		"ko": [
+			"중국어 텍스트는 공격이 치명타일 때 치명타 피해를 올린다. 글로벌 클라이언트의 영어 텍스트에는 그 조건이 없다."
+		]
+	},
+	"psychubes/from-the-depths": {
+		"en": [
+			"At Amplification 5 the global client's English text asks for more than 3 HP losses in one action; the Chinese texts ask for 3 or more.",
+			"At Amplification 1 to 4 the global client's English text asks for a Mineral carrier for the Incantation Might bonus; the Chinese texts do not."
+		],
+		"zh-tw": [
+			"增幅 5：國際版英文文字要求一次行動中失去生命超過 3 次；中文文字是 3 次以上（含）。",
+			"增幅 1 至 4：國際版英文文字的術法威力加成要求記憶者為岩靈感；中文文字沒有這個條件。"
+		],
+		"ja": [
+			"増幅5：グローバル版の英語テキストは 1 回の行動中に HP を失う回数が 3 回を超えることを条件にする。中国語テキストでは 3 回以上である。",
+			"増幅1〜4：グローバル版の英語テキストはスペル威力の上昇に記憶者が岩本源であることを求める。中国語テキストにはその条件がない。"
+		],
+		"ko": [
+			"증폭 5: 글로벌 클라이언트의 영어 텍스트는 한 번의 행동 중 HP를 잃는 횟수가 3회를 넘을 것을 요구한다. 중국어 텍스트는 3회 이상이다.",
+			"증폭 1~4: 글로벌 클라이언트의 영어 텍스트는 마법 위력 증가에 기억자의 영감이 암석일 것을 요구한다. 중국어 텍스트에는 그 조건이 없다."
+		]
+	},
+	"psychubes/her-willful-leap": {
+		"en": [
+			"The bonus that all allies gain is DMG Dealt in the Chinese texts and DMG Bonus in the global client's English text."
+		],
+		"zh-tw": [
+			"全體友方獲得的加成，中文文字寫成造成傷害提升，國際版英文文字寫成 DMG Bonus（創傷加成）。"
+		],
+		"ja": [
+			"味方全員が得る上昇は、中国語テキストでは与ダメージアップ、グローバル版の英語テキストでは DMG Bonus である。"
+		],
+		"ko": [
+			"모든 아군이 얻는 증가는 중국어 텍스트에서 주는 피해 증가, 글로벌 클라이언트의 영어 텍스트에서 DMG Bonus이다."
+		]
+	},
+	"psychubes/singleness-of-heart": {
+		"en": [
+			"The Chinese texts ask for Lingering Glow above 120 points; the global client's English text asks for 120 points or more."
+		],
+		"zh-tw": [
+			"中文文字要求餘輝高於 120 點；國際版英文文字是 120 點以上（含）。"
+		],
+		"ja": [
+			"中国語テキストは残光が 120 を超えることを条件にする。グローバル版の英語テキストは 120 以上である。"
+		],
+		"ko": [
+			"중국어 텍스트는 여광이 120을 넘을 것을 조건으로 한다. 글로벌 클라이언트의 영어 텍스트는 120 이상이다."
+		]
+	},
+	"psychubes/the-art-of-atoms": {
+		"en": [
+			"The Chinese texts give the Critical DMG bonus on entering battle when the carrier also has The Dance of Science equipped; the global client's English text gives it when the carrier attacks."
+		],
+		"zh-tw": [
+			"中文文字在進入戰鬥時，若記憶者同時記憶科學編舞法，給予暴擊創傷加成；國際版英文文字改為在記憶者攻擊時給予。"
+		],
+		"ja": [
+			"中国語テキストでは、記憶者が心相「科学の振付」も記憶していればバトル開始時にクリティカルダメージが上がる。グローバル版の英語テキストでは記憶者の攻撃時に上がる。"
+		],
+		"ko": [
+			"중국어 텍스트는 기억자가 의지 과학 안무법도 기억할 때 전투 진입 시 치명타 피해를 올린다. 글로벌 클라이언트의 영어 텍스트는 기억자가 공격할 때 올린다."
+		]
+	},
+	"psychubes/the-dance-of-science": {
+		"en": [
+			"The Chinese texts give the Critical Rate bonus on entering battle when the carrier also has The Art of Atoms equipped; the global client's English text gives it when the carrier attacks."
+		],
+		"zh-tw": [
+			"中文文字在進入戰鬥時，若記憶者同時記憶藝術原子能，給予暴擊率加成；國際版英文文字改為在記憶者攻擊時給予。"
+		],
+		"ja": [
+			"中国語テキストでは、記憶者が心相「原子の芸術」も記憶していればバトル開始時にクリティカル率が上がる。グローバル版の英語テキストでは記憶者の攻撃時に上がる。"
+		],
+		"ko": [
+			"중국어 텍스트는 기억자가 의지 예술 원자력도 기억할 때 전투 진입 시 치명타율을 올린다. 글로벌 클라이언트의 영어 텍스트는 기억자가 공격할 때 올린다."
+		]
+	},
+	"psychubes/tiny-wish": {
+		"en": [
+			"The first time the carrier triggers Focus or Meltdown, the Chinese texts turn it into Focus Behavior; the global client's English text says the carrier triggers Focus Behavior as well."
+		],
+		"zh-tw": [
+			"記憶者首次觸發專注或失控時，中文文字是必然觸發專注行為；國際版英文文字寫的是記憶者也會觸發專注行為。"
+		],
+		"ja": [
+			"記憶者が初めて集中か暴走を発生させたとき、中国語テキストでは確定で集中行為が発生する。グローバル版の英語テキストでは記憶者も集中行為を発生させると書かれている。"
+		],
+		"ko": [
+			"기억자가 처음 집중이나 폭주를 발동할 때 중국어 텍스트는 반드시 집중 행위를 발동한다고 쓴다. 글로벌 클라이언트의 영어 텍스트는 기억자도 집중 행위를 발동한다고 쓴다."
+		]
+	}
+}

@@ -37,75 +37,49 @@ sources:
 | Psychubes recommended in game | [As the Bell Tolls](/psychubes/as-the-bell-tolls/) |
 | Mainland release | 2025-08-07 |
 | Global release | 2025-08-07 |
-
-Ezio's attacks count as [Assassination]: they gain Final DMG Dealt for every 100 points by which his Critical Technique exceeds the target's. He fills Synchronization by assassinating, by countering marked enemies and by defeating enemies, and his Ultimate then strikes one chosen enemy several times. He fights with one weapon and one small weapon, whose effects Portrait 2 and 5 strengthen.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/ezio-auditore/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Work in the Dark (single-target attack) | 400% Reality DMG | 600% | 1000% |
-| Serve the Light (self counter) | [Eyes Caught] on one enemy and [Fighting Experience] on Ezio, 1 round | 2 rounds | 3 rounds |
+### Work in the Dark
 
-- **Work in the Dark** counts as an Assassination at every rank.
-- **Serve the Light** marks the enemy with the most attack incantations queued.
+**Rank 1**: 1-target attack. Deals 400% Reality DMG. This attack counts as an \[Assassination\].
+
+**Rank 2**: 1-target attack. Deals 600% Reality DMG. This attack counts as an \[Assassination\].
+
+**Rank 3**: 1-target attack. Deals 1000% Reality DMG. This attack counts as an \[Assassination\].
+
+### Serve the Light
+
+**Rank 1**: Self counter. Ezio Auditore inflicts \[Eyes Caught\] on the enemy with most queued attack incantations for 1 round and enters the \[Fighting Experience\] for 1 round.
+
+**Rank 2**: Self counter. Ezio Auditore inflicts \[Eyes Caught\] on the enemy with most queued attack incantations for 2 rounds and enters the \[Fighting Experience\] for 2 rounds.
+
+**Rank 3**: Self counter. Ezio Auditore inflicts \[Eyes Caught\] on the enemy with most queued attack incantations for 3 rounds and enters the \[Fighting Experience\] for 3 rounds.
 
 ## Ultimate: Branding of Faith
 
-Ezio picks one enemy and hits it 3 times, each time with [Arrow of Faith] or [Edge of Faith], then finishes with [Death Be Not Unkind]. Enemy effects cannot redirect these attacks.
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Assassination | The attack gains Final DMG Dealt +5% for every 100 points of Critical Technique the attacker has above the target. |
-| Eyes Caught | The enemy turns its attention to Ezio: some attacks on the team go to him first. |
-| Fighting Experience | Whenever an ally is attacked, Ezio answers with [Counter Kill]. Gaining it again adds to its duration; it cannot be dispelled. |
-| Counter Kill | 500% Reality DMG, with Critical DMG +50% when Ezio himself was attacked; 500% when only other allies were. Counts as an Assassination. |
-| Arrow of Faith | Single-target attack: 100% Reality DMG, and 50% more if the target is below 50% HP. |
-| Edge of Faith | Single-target attack: 100% Reality DMG, and 50% more if the target is at 50% HP or above. |
-| Death Be Not Unkind | Single-target attack: 700% Reality DMG. |
-| Shadowstalk | Critical DMG +30%, DMG Taken Reduction +40%. |
-| Apprentice Assassin | At 8 stacks it turns into [Master Assassin]. Other allies also gain Master Assassin: Assassination arcanists at 70% of Ezio's effect, the rest at 50%. |
-| Master Assassin | Assassinations gain a further Final DMG Dealt +6% for every 100 points of Critical Technique above the target. |
-| Assassin Mark | When another ally actively casts an incantation on the holder, Ezio spends 1 stack to cast rank 1 Work in the Dark on it as a follow-up attack, which adds no mark. Up to 5 stacks. |
-| Eagle's Guidance | Spent during the Ultimate: every 2 stacks add one more Arrow of Faith or Edge of Faith. Up to 6 stacks. |
-| Poison | Genesis DMG at the end of each round, based on the inflicter's ATK; stacks. |
-
-Arrow of Faith, Edge of Faith and Death Be Not Unkind all count as Assassinations, ignore Dodge and trigger neither DMG sharing nor additional DMG.
-
-## Weapons
-
-Ezio carries one weapon (Venetian Falchion, Condottiero War Hammer or Captain's Sword) and one small weapon (Channeled Cinquedea, Butcher Knife or Sultan's Knife). Portrait 2 strengthens each weapon:
-
-| Weapon | Portrait 2 |
-| --- | --- |
-| Venetian Falchion | Puts 2 stacks of [Assassin Mark] on the target. |
-| Condottiero War Hammer | Ezio gains 2 stacks of [Eagle's Guidance] after another ally's Ultimate; in his Ultimate, each Arrow of Faith, Edge of Faith or Death Be Not Unkind adds Final DMG Dealt +2.5%. |
-| Captain's Sword | Incantation and Ultimate attacks add Genesis DMG of 80% of the base Reality DMG of rank 1 Work in the Dark or of Death Be Not Unkind, plus 1.5% of it for each Poison on the target, or 2.5% when the target has 10 or more. |
-
-Portrait 5 strengthens each pairing:
-
-| Weapon | Small weapon | Portrait 5 |
-| --- | --- | --- |
-| Venetian Falchion | Channeled Cinquedea | Extra actions gain DMG Bonus +100%; excess Critical Rate becomes Critical DMG at 150%. |
-| Venetian Falchion | Butcher Knife | Extra actions gain DMG Bonus +100%; enemies leaving the field trigger Work in the Dark up to 4 times a round. |
-| Venetian Falchion | Sultan's Knife | Extra actions gain DMG Bonus +100%; the duration bonus of Fighting Experience and Eyes Caught becomes 2 rounds (in the global client: they last 2 rounds). |
-| Condottiero War Hammer | Channeled Cinquedea | Ultimate Might +40%; Synchronization +20% at the start of each round. |
-| Condottiero War Hammer | Butcher Knife | Ultimate Might +40%; Synchronization +20% after the Ultimate. |
-| Condottiero War Hammer | Sultan's Knife | Ultimate Might +40%; Synchronization +20% when an enemy leaves the field after an ally's action. |
-| Captain's Sword | Channeled Cinquedea | Genesis DMG +20%; 2 more Poison. |
-| Captain's Sword | Butcher Knife | Genesis DMG +20%; 3 more Poison. |
-| Captain's Sword | Sultan's Knife | Genesis DMG +20%; when an enemy leaves the field, its allies take over up to 20 of its Poison. |
+Select 1 enemy target and cast \[Arrow of Faith\] or \[Edge of Faith\] 3 times, then cast \[Death Be Not Unkind\] (target selection is not subject to enemy's relevant effects).
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 0 (Precognition) | Synchronization replaces Moxie; at 100% the Ultimate fires at the start of the round, and there is no other way to cast it. Synchronization +5% when an incantation triggers an Assassination, +5% when Counter Kill hits an enemy with Eyes Caught, +10% when he defeats the target of his attack. |
-| 1 | DMG Taken −15% when attacked during Fighting Experience, and −30% more if the attacker has Eyes Caught. |
-| 2 | Critical DMG +15% on entering battle. |
-| 3 | When an attack leaves Ezio below 30% HP, Eyes Caught is removed from all enemies and he enters [Shadowstalk] for 1 round, at most once a round. Each Assassination by any ally gives him 1 stack of [Apprentice Assassin]. |
+**Insight 0 · Precognition**: Replace Moxie with Synchronization. At the start of the round, if Synchronization reaches 100%, cast Ultimate immediately (cannot cast Ultimate in any other ways).
+
+How to increase Synchronization:
+
+When a basic incantation triggers \[Assassination\], Synchronization +5%.
+
+When casting \[Counter Kill\] to riposte an enemy with \[Eyes Caught\], Synchronization +5%.
+
+After defeating an enemy, Synchronization +10%.
+
+**Insight 1 · The Three Tenets**: When being attacked in the \[Fighting Experience\] status, gain DMG Taken -15%; if the attacker is in the \[Eyes Caught\] status, gain an additional DMG Taken -30%.
+
+**Insight 2 · The Three Tenets II**: Critical DMG +15% when entering battle.
+
+**Insight 3 · The Three Tenets II**: After being attacked, if own HP is below 30%, dispel all enemies' \[Eyes Caught\] and enter the \[Shadowstalk\] status for 1 round, up to 1 time per round.
+
+When any ally triggers \[Assassination\], gain 1 stack of \[Apprentice Assassin\].
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -115,16 +89,46 @@ Portrait 5 strengthens each pairing:
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Master Assassin gives +10% per 100 Critical Technique; the Ultimate casts Arrow of Faith or Edge of Faith up to 4 times. |
-| 2 | Each weapon's effect is strengthened (see Weapons). |
-| 3 | Master Assassin gives +11%; Work in the Dark deals 460, 675 or 1125% by rank; Arrow of Faith and Edge of Faith deal 140%. |
-| 4 | Master Assassin gives +12%; Counter Kill deals 600% in both cases; Death Be Not Unkind deals 900%. |
-| 5 | Each pairing of weapon and small weapon is strengthened (see Weapons). |
+**Portrait 1**: **Precognition**: When triggering an \[Assassination\] in the \[Master Assassin\] status, for every 100 points of Critical Technique the attacker has more than the target, gain Final DMG Dealt +10%. When casting **Branding of Faith**, \[Arrow of Faith\] and \[Edge of Faith\] can be cast up to 4 times.
+
+**Portrait 2**: Enhance Weapon Effects: \[Enhanced Venetian Falchion\], \[Enhanced Condottiero War Hammer\], \[Enhanced Captain's Sword\].
+
+**Portrait 3**: **Precognition**: When triggering an \[Assassination\] in the \[Master Assassin\] status, for every 100 points of Critical Technique the attacker has more than the target, gain Final DMG Dealt +11%. When casting rank 1/2/3 **Work in the Dark**, deal 460/675/1125% Reality DMG. When casting **Branding of Faith**, \[Arrow of Faith\]/\[Edge of Faith\] deal 140%/140% Reality DMG.
+
+**Portrait 4**: **Precognition**: When triggering an \[Assassination\] in the \[Master Assassin\] status, for every 100 points of Critical Technique the attacker has more than the target, gain Final DMG Dealt +12%. **Serve the Light**: When being attacked in the \[Counter Kill\] status, riposte to deal 600% Reality DMG; when other allies are being attacked, riposte to deal 600% Reality DMG. When casting **Branding of Faith**, \[Death Be Not Unkind\] deals 900% Reality DMG.
+
+**Portrait 5**: Enhance Weapon Combination Effects: \[Enhanced Venetian Falchion\], \[Enhanced Condottiero War Hammer\], \[Enhanced Captain's Sword\].
+
+## Statuses
+
+- **Assassination**: For every 100 points of Critical Technique the attacker has more than the target, the attack gains an additional Final DMG Dealt +5%.
+- **Eyes Caught**: Ezio draws the enemy's attention. When the team takes certain attacks, Ezio becomes the priority of the attacks.
+- **Fighting Experience**: After an ally is attacked, Ezio ripostes with \[Counter Kill\]. Can be stacked to prolong the duration, undispellable.
+- **Arrow of Faith**: 1-target attack. Deal 100% Reality DMG; if the target's HP is below 50%, deal an additional 50% Reality DMG. This attack counts as an \[Assassination\], ignores Dodge, and cannot trigger DMG sharing or other allies' additional DMG.
+- **Edge of Faith**: 1-target attack. Deal 100% Reality DMG; if the target's HP is equal to or above 50%, deal an additional 50% Reality DMG. This attack counts as an \[Assassination\], ignores Dodge, and cannot trigger DMG sharing or other allies' additional DMG.
+- **Death Be Not Unkind**: 1-target attack. Deal 700% Reality DMG. This attack counts as an \[Assassination\], ignores Dodge, and cannot trigger DMG sharing or other allies' additional DMG.
+- **Counter Kill**: When being attacked, riposte to deal 500% Reality DMG; this attack gains Critical DMG +50%. When other allies are being attacked, riposte to deal 500% Reality DMG. This attack counts as an \[Assassination\].
+- **Shadowstalk**: Critical DMG +30%, DMG Taken Reduction +40%.
+- **Apprentice Assassin**: After getting to 8 stacks, gains \[Master Assassin\]. If there are other \[Assassination\] characters on the team, grants \[Master Assassin\] to other allies (70% of effect for \[Assassination\] characters and 50% for others).
+- **Master Assassin**: When performing an \[Assassination\], for every 100 points of Critical Technique the attacker has more than the target, the attack gains an additional Final DMG Dealt +6%.
+- **Enhanced Venetian Falchion**: \[Venetian Falchion\]: Inflicts 2 stacks of \[Assassin Mark\] on the target.
+- **Enhanced Condottiero War Hammer**: \[Condottiero War Hammer\]: After other allies cast Ultimate, Ezio gains 2 stacks of \[Eagle's Guidance\]. When casting Ultimate, every time \[Arrow of Faith\], \[Edge of Faith\], or \[Death Be Not Unkind\] is cast, this attack gains Final DMG Dealt +2.5%.
+- **Enhanced Captain's Sword**: \[Captain's Sword\]: When attacking with basic incantation/Ultimate, deal an additional (rank 1 \[Work in the Dark\]/\[Death Be Not Unkind\]'s Reality DMG x80%/80%) Genesis DMG.
+
+  For every 1 instance of \[Poison\] on the target, deal an additional (rank 1 \[Work in the Dark\]/\[Death Be Not Unkind\]'s Reality DMG x1.5%/1.5%) Genesis DMG.
+
+  When there are 10 or more instances of \[Poison\] on the target: increase the Genesis DMG ratio to 2.5%/2.5%.
+- **Assassin Mark**: When other allies cast an incantation actively, Ezio consumes 1 stack of \[Assassin Mark\] on the main target to cast rank 1 \[Work in the Dark\] to them. This attack counts as a follow-up attack and cannot inflict \[Assassin Mark\] on the target. Stack up to 5 times.
+- **Eagle's Guidance**: When casting Ultimate, consumes 2 stacks to cast \[Arrow of Faith\] or \[Edge of Faith\] 1 time. Stacks up to 6 times.
+- **Work in the Dark**: 1-target attack. Deals 400% Reality DMG. This attack counts as an \[Assassination\].
+- **Poison**: At the end of the round, takes Genesis DMG based on the user's ATK (stackable).
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | Ezio Auditore | 艾吉奥·奥迪托雷 | 埃齊歐·奧迪托雷 | エツィオ | 에지오 아디토레 |
+
+## Edition differences
+
+- On the mainland client Enhanced Venetian Falchion makes Fighting Experience and Eyes Caught last 2 rounds longer; on the global client they last 2 rounds.

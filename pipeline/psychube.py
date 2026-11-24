@@ -65,11 +65,11 @@ L = {
 		unofficial='{n} (not yet official)', nonename='not yet official',
 		index=dict(
 			titles={'critical': 'Critical Psychubes', 'damage-6': '6-star damage Psychubes', 'damage-5': '5-star damage Psychubes', 'might': 'Might Psychubes', 'survival': 'Survival and healing Psychubes'},
-			desc={'critical': 'Reverse: 1999 Psychubes that add Critical Rate or Critical DMG: extra stat and recommended arcanists.',
-				'might': 'Reverse: 1999 Psychubes that add Incantation Might or Ultimate Might: extra stat and recommended arcanists.',
-				'damage-6': 'Reverse: 1999 6-star Psychubes that add ATK or DMG Bonus: extra stat and recommended arcanists.',
-				'damage-5': 'Reverse: 1999 5-star Psychubes that add ATK or DMG Bonus: extra stat and recommended arcanists.',
-				'survival': 'Reverse: 1999 Psychubes that add HP, healing or defense: extra stat and recommended arcanists.'},
+			desc={'critical': 'Reverse: 1999 has {n} Psychubes that add Critical Rate or Critical DMG.',
+				'might': 'Reverse: 1999 has {n} Psychubes that add Incantation Might or Ultimate Might.',
+				'damage-6': 'Reverse: 1999 has {n} 6-star Psychubes that add ATK or DMG Bonus.',
+				'damage-5': 'Reverse: 1999 has {n} 5-star Psychubes that add ATK or DMG Bonus.',
+				'survival': 'Reverse: 1999 has {n} Psychubes that add HP, healing or defense.'},
 			caveat='The extra stat is the value at max level; a Psychube whose name says not yet official is in the mainland China client only.',
 			cols=('Psychube', 'Rarity', 'Extra stat', 'Recommended in game for')),
 		src=lambda: [(f're1999-data, mainland client {s.CN["build"]}: equip.json, equip_skill.json, equip_strengthen.json, equip_break_attr.json, character_recommend.json', s.CN_TREE),
@@ -86,11 +86,11 @@ L = {
 		unofficial='{n}（非官方）', nonename='尚無官方譯名',
 		index=dict(
 			titles={'critical': '暴擊心相', 'damage-6': '6 星輸出心相', 'damage-5': '5 星輸出心相', 'might': '威力心相', 'survival': '生存與治療心相'},
-			desc={'critical': '重返未來：1999 附加暴擊率或暴擊創傷的心相：附加屬性與遊戲推薦的神秘學家。',
-				'might': '重返未來：1999 附加術法威力或儀式威力的心相：附加屬性與遊戲推薦的神秘學家。',
-				'damage-6': '重返未來：1999 附加攻擊或創傷加成的 6 星心相：附加屬性與遊戲推薦的神秘學家。',
-				'damage-5': '重返未來：1999 附加攻擊或創傷加成的 5 星心相：附加屬性與遊戲推薦的神秘學家。',
-				'survival': '重返未來：1999 附加生命、治療或防禦的心相：附加屬性與遊戲推薦的神秘學家。'},
+			desc={'critical': '重返未來：1999 附加暴擊率或暴擊創傷的心相共 {n} 個。',
+				'might': '重返未來：1999 附加術法威力或儀式威力的心相共 {n} 個。',
+				'damage-6': '重返未來：1999 附加攻擊或創傷加成的 6 星心相共 {n} 個。',
+				'damage-5': '重返未來：1999 附加攻擊或創傷加成的 5 星心相共 {n} 個。',
+				'survival': '重返未來：1999 附加生命、治療或防禦的心相共 {n} 個。'},
 			caveat='附加屬性為滿級數值；名稱標示非官方的心相只收錄在中國大陸版用戶端。',
 			cols=('心相', '稀有度', '附加屬性', '遊戲內推薦')),
 		src=lambda: [(f're1999-data，中國大陸版用戶端 {s.CN["build"]}：equip.json、equip_skill.json、equip_strengthen.json、equip_break_attr.json、character_recommend.json', s.CN_TREE),
@@ -107,11 +107,11 @@ L = {
 		unofficial='{n}（非公式）', nonename='公式名なし',
 		index=dict(
 			titles={'critical': 'クリティカルの心相', 'damage-6': '★6の攻撃心相', 'damage-5': '★5の攻撃心相', 'might': '威力の心相', 'survival': '生存と回復の心相'},
-			desc={'critical': 'リバース：1999 のクリティカル率かクリティカルダメージを上げる心相：追加ステータスとゲームのおすすめ。',
-				'might': 'リバース：1999 のスペル威力かアルティメット威力を上げる心相：追加ステータスとゲームのおすすめ。',
-				'damage-6': 'リバース：1999 の攻撃力かダメージボーナスを上げる★6の心相：追加ステータスとゲームのおすすめ。',
-				'damage-5': 'リバース：1999 の攻撃力かダメージボーナスを上げる★5の心相：追加ステータスとゲームのおすすめ。',
-				'survival': 'リバース：1999 のHP、回復、防御を上げる心相：追加ステータスとゲームのおすすめ。'},
+			desc={'critical': 'リバース：1999 のクリティカル率かクリティカルダメージを上げる心相は{n}個。',
+				'might': 'リバース：1999 のスペル威力かアルティメット威力を上げる心相は{n}個。',
+				'damage-6': 'リバース：1999 の攻撃力かダメージボーナスを上げる★6の心相は{n}個。',
+				'damage-5': 'リバース：1999 の攻撃力かダメージボーナスを上げる★5の心相は{n}個。',
+				'survival': 'リバース：1999 のHP、回復、防御を上げる心相は{n}個。'},
 			caveat='追加ステータスは最大レベルの値。名前に非公式とある心相は中国本土版クライアントにのみ収録されている。',
 			cols=('心相', 'レア度', '追加ステータス', 'ゲーム内のおすすめ')),
 		src=lambda: [(f're1999-data、中国本土版クライアント {s.CN["build"]}：equip.json、equip_skill.json、equip_strengthen.json、equip_break_attr.json、character_recommend.json', s.CN_TREE),
@@ -128,11 +128,11 @@ L = {
 		unofficial='{n} (비공식)', nonename='공식 명칭 없음',
 		index=dict(
 			titles={'critical': '치명타 의지', 'damage-6': '6성 공격 의지', 'damage-5': '5성 공격 의지', 'might': '위력 의지', 'survival': '생존과 치료 의지'},
-			desc={'critical': '리버스: 1999 치명타율이나 치명타 피해를 올리는 의지: 추가 스탯과 게임 추천 마도학자.',
-				'might': '리버스: 1999 마법 위력이나 최종 술식 위력을 올리는 의지: 추가 스탯과 게임 추천 마도학자.',
-				'damage-6': '리버스: 1999 공격이나 피해 보너스를 올리는 6성 의지: 추가 스탯과 게임 추천 마도학자.',
-				'damage-5': '리버스: 1999 공격이나 피해 보너스를 올리는 5성 의지: 추가 스탯과 게임 추천 마도학자.',
-				'survival': '리버스: 1999 HP, 치료, 방어를 올리는 의지: 추가 스탯과 게임 추천 마도학자.'},
+			desc={'critical': '리버스: 1999 치명타율이나 치명타 피해를 올리는 의지는 {n}개다.',
+				'might': '리버스: 1999 마법 위력이나 최종 술식 위력을 올리는 의지는 {n}개다.',
+				'damage-6': '리버스: 1999 공격이나 피해 보너스를 올리는 6성 의지는 {n}개다.',
+				'damage-5': '리버스: 1999 공격이나 피해 보너스를 올리는 5성 의지는 {n}개다.',
+				'survival': '리버스: 1999 HP, 치료, 방어를 올리는 의지는 {n}개다.'},
 			caveat='추가 스탯은 최대 레벨의 값이다. 이름에 비공식이라고 적힌 의지는 중국 본토 클라이언트에만 있다.',
 			cols=('의지', '희귀도', '추가 스탯', '게임 내 추천')),
 		src=lambda: [(f're1999-data, 중국 본토 클라이언트 {s.CN["build"]}: equip.json, equip_skill.json, equip_strengthen.json, equip_break_attr.json, character_recommend.json', s.CN_TREE),
@@ -281,6 +281,60 @@ def skeleton(slug, lang):
 
 GENERATED = ('profile', 'names')
 
+# Our label of each Amplification level; the effect after it is the game's text.
+AMP = {'en': 'Amplification {n}', 'zh-tw': '增幅 {n}', 'zh-cn': '增幅 {n}', 'ja': '増幅{n}', 'ko': '증폭 {n}'}
+EFFECT_HEAD = {**{k: L[k]['sec']['effect'] for k in LANGS}, 'zh-cn': '效果'}
+NAMES_HEAD = {**{k: L[k]['sec']['names'] for k in LANGS}, 'zh-cn': '名称'}
+
+
+def raw_effect(p, lang):
+	"""The game's effect text of each Amplification level in the client's own markup: the mainland
+	client's for zh-cn, the global client's for the other languages (None for a Psychube it lacks).
+	Only baseDesc is shown: five Psychubes also fill baseDesc2, which the game does not show (the
+	Reverse: 1999 Wiki on Fandom lists baseDesc alone for Her Second Life) and whose skill2 is 0."""
+	rows = {r['skillLv']: r for r in (g.cn if lang == 'zh-cn' else g.gl)('equip_skill') if r['id'] == p['id']}
+	if lang == 'zh-cn':
+		return [rows[lv]['baseDesc'] for lv in range(1, 6)]
+	if not p['inGlobal']:
+		return None
+	return [g._lang(g.LANG_FILE[GLK[lang]]).get(rows[lv]['baseDesc'], '') for lv in range(1, 6)]
+
+
+def effect(slug, lang):
+	"""The effect section: each Amplification level, a label of ours and the game's text. A line
+	break of the client starts a new paragraph; the client's highlight marks ({...}) are not shown."""
+	import profile as pf
+	texts = raw_effect(REC[slug], lang)
+	if texts is None:
+		return ''
+	colon = '：' if lang in ('zh-tw', 'zh-cn', 'ja') else ': '
+	out = [f'## {EFFECT_HEAD[lang]}']
+	for n, x in enumerate(texts, 1):
+		x = re.sub(r'\{([^{}]*)\}', r'\1', x.replace('\r', ''))
+		if re.search(r'▩|%s|[{}]', x):
+			raise SystemExit(f'{slug} {lang}: unresolved mark in {x[:80]!r}')
+		lines = [pf.inline(y) for y in x.split('\n') if y.strip()]
+		out += ['', f'**{AMP[lang].format(n=n)}**{colon}{lines[0]}'] + [z for y in lines[1:] for z in ('', y)]
+	return '\n'.join(out)
+
+
+def rewrite_effect(slug, lang):
+	"""Put the effect section in a page, between the profile table and the names heading."""
+	d = {'en': '', 'zh-cn': 'zh-cn/'}.get(lang, f'{lang}/')
+	path = s.DOCS / d / 'psychubes' / f'{slug}.md'
+	text = path.read_text()
+	head, sep, body = text.partition('\n---\n')
+	m = re.search(r'^\|.*\|\n(?!\|)', body, re.M)
+	end = body.find(f'\n## {NAMES_HEAD[lang]}\n')
+	if not m or end < 0:
+		raise SystemExit(f'{path.relative_to(s.ROOT)}: no profile table or names heading')
+	sec = effect(slug, lang)
+	new = body[:m.end()] + ('\n' + sec + '\n' if sec else '') + body[end:]
+	if new != body:
+		path.write_text(head + sep + new)
+		return True
+	return False
+
 
 def source_numbers(p):
 	return s.numbers(json.dumps(p['text'], ensure_ascii=False))
@@ -348,7 +402,7 @@ def index_page(lang, key):
 	others = [L[o]['index']['titles'][key] for o in LANGS if o != lang]
 	others.append({'critical': '暴击心相', 'damage-6': '6 星输出心相', 'damage-5': '5 星输出心相', 'might': '威力心相', 'survival': '生存与治疗心相'}[key])
 	others = [x for i, x in enumerate(others) if x != l['titles'][key] and x not in others[:i]]
-	fm = ['---', f'title: "{l["titles"][key]}"', f'description: "{l["desc"][key]}"',
+	fm = ['---', f'title: "{l["titles"][key]}"', f'description: "{l["desc"][key].format(n=len(rows))}"',
 		f'appliesTo: "{s.L[lang]["applies_gl"]}"', f'caveat: "{l["caveat"]}"', f'lastVerified: {LAST_VERIFIED}',
 		'aliases:\n' + '\n'.join(f'  - "{x}"' for x in others),
 		'sources:\n' + '\n'.join(f'  - title: "{x}"\n    url: {u}' for x, u in t['src']()), '---', '']
@@ -381,6 +435,11 @@ def main(argv):
 				continue
 			p.write_text(skeleton(slug, lang))
 		print(f'{len(slugs)} skeleton(s) considered')
+		return 0
+	if argv[:1] == ['effects']:
+		# The effect section of every page in en, zh-tw, ja and ko (zh-cn: scripts/to-zh-cn.py).
+		n = sum(rewrite_effect(slug, lang) for lang in LANGS for slug in REC)
+		print(f'{n} page(s) given the game\'s effect text')
 		return 0
 	if argv[:1] == ['check'] and len(argv) >= 2:
 		errors = [e for x in argv[1:] for e in check(x)]

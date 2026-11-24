@@ -37,36 +37,45 @@ sources:
 | Psychubes recommended in game | [Another Story](/psychubes/another-story/), [Blasphemer of Night](/psychubes/blasphemer-of-night/) |
 | Mainland release | 2024-03-21 |
 | Global release | 2024-08-01 |
-
-Marcus marks one enemy with [Annotate] and gathers Eureka from it each time it acts. At the start of each round she spends Eureka to raise her own incantations by a rank, and her attacks deal more damage to the marked enemy. Her Ultimate also gives her a Precast copy of her single-target attack for the next round.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/marcus/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Reading Class (single-target attack) | 200% Mental DMG | 330% | 450%; Penetration Rate +30% |
-| From the Lantern (attack on 2 enemies) | 130% Mental DMG; +30% on an Annotated target | 200%; +40%; 1 stack of Weakness | 300%; +75%; 1 stack of Weakness |
+### Reading Class
 
-From the Lantern deals the extra damage in the table only to a target that has Annotate. From rank 2 it also puts 1 stack of [Weakness] on each target hit.
+**Rank 1**: 1-target attack. Deals 200% Mental DMG.
 
-[Weakness]: the holder's next attack has DMG Bonus −25%; each attack that it affects removes one stack.
+**Rank 2**: 1-target attack. Deals 330% Mental DMG.
+
+**Rank 3**: 1-target attack. Deals 450% Mental DMG; Penetration Rate +30% for this attack.
+
+### From the Lantern
+
+**Rank 1**: Mass attack. Deals 130% Mental DMG to 2 enemies. Deals Mental DMG +30% to the target in the \[Annotate\] status.
+
+**Rank 2**: Mass attack. Deals 200% Mental DMG to 2 enemies. Inflicts 1 stack of \[Weakness\] on the targets hit. Deals Mental DMG +40% to the target in the \[Annotate\] status.
+
+**Rank 3**: Mass attack. Deals 300% Mental DMG to 2 enemies. Inflicts 1 stack of \[Weakness\] on the targets hit. Deals Mental DMG +75% to the target in the \[Annotate\] status.
 
 ## Ultimate: Next Chapter
 
-Deals 250% Mental DMG to all enemies, plus 200% Mental DMG to a target that has Annotate. Marcus then gains 1 stack of [Preparation · Marcus] and 2 Eureka.
-
-- [Annotate]: each time the holder acts, Marcus gains 1 Eureka, at most 3 times a round; it cannot be dispelled.
-- [Preparation · Marcus]: at the start of the next round, creates one rank 1 Precast Reading Class. Marcus gets at most one Precast card a round this way.
-- [Precast Incantation]: counts as the incantation of the same name; unused Precast cards are removed at the end of the round.
-- [Perusal]: Marcus gains 1 Moxie when she casts a rank 2 or rank 3 incantation; it cannot be dispelled.
+Mass attack. Deals 250% Mental DMG to all enemies and Mental DMG +200% to the target in the \[Annotate\] status. Gain 1 stack of \[Preparation · Marcus\], and grant Eureka +2 to self.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Max Eureka +1. At the start of each round, if no enemy has Annotate, one enemy gets it, bosses first. Then, with 2 or more Eureka, Marcus spends as much as she can to raise random incantations of hers, lowest rank first: 2 Eureka from rank 1 to 2, 3 Eureka from rank 2 to 3. |
-| 2 | ATK +5% on entering battle. |
-| 3 | Gains 1 Eureka on entering battle and 1 more at the start of each round. With 3 or more Plant, Spirit or Intellect allies on entering battle, she gains Perusal, which is removed when the team no longer meets that. |
+**Insight 1 · Read the Page**: Max Eureka +1.
+
+At the start of the round, if no enemy has the \[Annotate\] status, inflict \[Annotate\] on an enemy, prioritizing bosses.
+
+At the start of the round, if holding 2 or more Eureka, spend as many Eureka as possible to randomly upgrade own incantations, using 2 Eureka to upgrade from rank 1 to 2, and 3 Eureka to upgrade from rank 2 to 3, prioritizing lower ranked incantations.
+
+**Insight 2 · Read the Page II**: ATK +5% when entering battle.
+
+**Insight 3 · Read the Page III**: When entering battle, gain Eureka +1.
+
+At the start of the round, gain Eureka +1.
+
+When entering battle, if there are 3 or more Plant, Spirit, and/or Intellect allies, gain the \[Perusal\] status. Whenever the requirements are not met, the \[Perusal\] status is removed.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -76,24 +85,43 @@ Deals 250% Mental DMG to all enemies, plus 200% Mental DMG to a target that has 
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Gains 3 Eureka on entering battle. |
-| 2 | Raising an incantation from rank 2 to 3 costs 2 Eureka. |
-| 3 | From the Lantern deals 160, 270 or 420% by rank. |
-| 4 | Gains 2 Eureka at the start of each round. |
-| 5 | Reading Class deals 230, 380 or 520% by rank. |
+**Portrait 1**: **Read the Page**: When entering battle, the Eureka gained is increased to 3.
+
+**Portrait 2**: **Read the Page**: Now only costs 2 Eureka to upgrade incantations from rank 2 to rank 3.
+
+**Portrait 3**: **From the Lantern**: At incantation rank 1/2/3, the Mental DMG is increased to 160/270/420%.
+
+**Portrait 4**: **Read the Page**: At the start of the round, the Eureka gained is increased to 2.
+
+**Portrait 5**: **Reading Class**: At incantation rank 1/2/3, the Mental DMG is increased to 230/380/520%.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Marcus has one Epiphany of four levels, built on Perusal and a new status, [Life Experience], which feeds Precast cards and stronger attacks.
+**Epiphany 1, level 1**: \[Perusal\] New Effect Added: After an allied rank 2/3 incantation is cast, Marcus gains 1/2 stacks of \[Life Experience\]. At the start of the round, consumes 1/2 stacks of \[Life Experience\] to generate 1 rank 1/2 Precast Incantation - Reading Class, then consumes 1/2 stacks of \[Life Experience\] to generate 1 rank 1/2 Precast Incantation - From the Lantern if there is \[Life Experience\] left.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | Perusal also gives Marcus 1 stack of Life Experience after any ally casts a rank 2 incantation and 2 stacks after a rank 3 one. At the start of the round she spends 1 or 2 stacks to create a rank 1 or rank 2 Precast Reading Class, then 1 or 2 more for a Precast From the Lantern of that rank. |
-| 1 | 2 | Preparation · Marcus from the Ultimate creates a rank 2 Reading Class. Each attack of hers spends 2 stacks of Life Experience to deal extra Mental DMG equal to 100% of its base damage; Reading Class at rank 3 also gains Penetration Rate +30% more, From the Lantern deals 90, 120 or 225% more by rank to an Annotated target, and the Ultimate deals 600% more to an Annotated target. |
-| 1 | 3 | Annotate no longer gives Eureka when its holder acts. Instead, when Marcus attacks the Annotated enemy, her excess Critical Rate turns into Critical DMG and she regains 1 Eureka. |
-| 1 | 4 | Each time she has gained 8 stacks of Life Experience, she gains [Continuous Action I] (AP +1) for 1 round at the end of the round. |
+**Epiphany 1, level 2**: **Next Chapter**: All the \[Preparation · Marcus\] gained become rank 2 Precast Incantation - Reading Class.
+
+When attacking, consumes 2 stacks of \[Life Experience\] to enhance incantation effect:
+
+**Reading Class**: Deal an additional (base Mental DMG x100%) Mental DMG. At rank 3 incantation, Penetration Rate +30%.
+
+**From the Lantern**: Deal an additional (base Mental DMG x100%) Mental DMG. If the target is in the \[Annotate\] status, deal an additional 90/120/225% Mental DMG.
+
+**Next Chapter**: Deal an additional (base Mental DMG x100%) Mental DMG. If the target is in the \[Annotate\] status, deal an additional 600% Mental DMG.
+
+**Epiphany 1, level 3**: Enemies in the \[Annotate\] status no longer recover Eureka for Marcus when they take action. Instead, when Marcus attacks an enemy in the \[Annotate\] status, excess Critical Rate is converted to Critical DMG, and recovers 1 Eureka for Marcus.
+
+**Epiphany 1, level 4**: At the end of the round, upon gaining 8 stacks of \[Life Experience\], gains \[Continuous Action I\] for 1 round.
+
+## Statuses
+
+- **Annotate**: When taking an action, grants Eureka +1 to the user, triggers up to 3 times per round (undispellable).
+- **Weakness**: DMG Bonus -25% when attacking (reduced by 1 stack on trigger).
+- **Preparation · Marcus**: At the start of the next round, generate one rank 1 Precast Incantation: Reading Class. Each round, Marcus can only gain 1 \[Precast Incantation\] through Preparation.
+- **Perusal**: When casting a rank 2/3 incantation, grants Moxie +1 to self (undispellable).
+- **Life Experience**: Generates Precast Incantations or enhances incantations.
+- **Continuous Action I**: AP +1.
+- **Precast Incantation**: A \[Precast Incantation\] is regarded as an incantation of the same name. At the end of the round, all unused \[Precast Incantation\] are removed.
 
 ## Names
 

@@ -37,43 +37,57 @@ sources:
 | Psychubes recommended in game | [Tides Held Within](/psychubes/tides-held-within/) |
 | Mainland release | 2026-09-03 |
 | Global release | in the global client |
-
-Narcissus heals the team and turns part of every heal into [Ripple], a shield that also raises the Critical Rate and Critical DMG of the holder's Ultimate. Her Ultimate puts her in [Zero-Proof Revelry], a field that raises every ally's Ultimate Might and grows with the Moxie the team spends on Ultimates. While it lasts she gains [Oracle's Riddle] each round, which casts extra heals when allies are hit and an extra attack at the end of the enemy round, and her passives keep the team's Moxie flowing.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/narcissus/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Fists and Fins (single-target attack) | 200% Mental DMG; 2 stacks of Tidal Tempo | 300%; 3 stacks | 500%; 5 stacks |
-| Go Go Daffodil (mass heal) | heals all allies by 160% of Narcissus's ATK | 200% | 360% |
+### Fists and Fins
 
-- **Fists and Fins** puts its stacks of [Tidal Tempo] on the target for 2 rounds. When Narcissus casts it herself, it also gives the target 1 stack of [Passion Drain].
-- **Go Go Daffodil** grants an extra 20% Ripple value with its heal. In Zero-Proof Revelry it also removes one kind of Neg Status or Stats Down effect from every ally.
+**Rank 1**: 1-target attack. Deals 200% Mental DMG. Inflicts 2 stacks of \[Tidal Tempo\] on the target for 2 rounds.
+
+When actively cast, inflicts 1 stack of \[Passion Drain\] on the target.
+
+**Rank 2**: 1-target attack. Deals 300% Mental DMG. Inflicts 3 stacks of \[Tidal Tempo\] on the target for 2 rounds.
+
+When actively cast, inflicts 1 stack of \[Passion Drain\] on the target.
+
+**Rank 3**: 1-target attack. Deals 500% Mental DMG. Inflicts 5 stacks of \[Tidal Tempo\] on the target for 2 rounds.
+
+When actively cast, inflicts 1 stack of \[Passion Drain\] on the target.
+
+### Go Go Daffodil
+
+**Rank 1**: Mass heal. Recovers (the user's ATK x160%) HP for all allies. This instance of healing grants an additional 20% \[Ripple\] value.
+
+If in the \[Zero-Proof Revelry\] status, dispels 1 type of \[Neg Status\] or \[Stats Down\] effect from all allies.
+
+**Rank 2**: Mass heal. Recovers (the user's ATK x200%) HP for all allies. This instance of healing grants an additional 20% \[Ripple\] value.
+
+If in the \[Zero-Proof Revelry\] status, dispels 1 type of \[Neg Status\] or \[Stats Down\] effect from all allies.
+
+**Rank 3**: Mass heal. Recovers (the user's ATK x360%) HP for all allies. This instance of healing grants an additional 20% \[Ripple\] value.
+
+If in the \[Zero-Proof Revelry\] status, dispels 1 type of \[Neg Status\] or \[Stats Down\] effect from all allies.
 
 ## Ultimate: Her Odyssean Quest
 
-Narcissus enters Zero-Proof Revelry for 3 rounds.
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Zero-Proof Revelry | A Force Field: all allies Ultimate Might +30%, plus 1.5% for each Moxie the team spends on Ultimates, counting up to 20 Moxie. Gaining it again extends its duration; the Moxie count resets when it ends. |
-| Force Field | An effect the holder grants to other characters on the field; it ends when the holder leaves the field. |
-| Ripple | A hit smaller than the Ripple value is negated. A hit equal to or larger than it deals 30% less damage and clears the Ripple value. |
-| Tidal Tempo | Counted again each round: at the end of the round, for each Moxie that Narcissus and her allies spent on Ultimates that round, the holder takes Genesis DMG equal to 15% of Narcissus's ATK per stack. The damage uses her Ultimate Might and can crit. Up to 5 stacks, each with its own duration; removed when Narcissus leaves the field. |
-| Passion Drain | When the holder is attacked, the attacker gains 1 Moxie; one stack is used each time. |
-| Oracle's Riddle | When any ally is attacked, Narcissus spends 1 stack to cast a rank 1 Go Go Daffodil. If stacks remain at the end of the enemy round, she spends 1 stack to cast a rank 1 Fists and Fins and gives all enemies 2 more stacks of Tidal Tempo. Incantations cast this way count as Ultimates and as extra actions. |
-| Control | Effects that stop a character from acting normally, such as Daze, Petrify, Nightmare, Freeze, Disarm, Silence and Seal. |
+Self buff. Enters the \[Zero-Proof Revelry\] status for 3 rounds.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 0 (Precognition) | Each heal by Narcissus also gives the target Ripple equal to 20% of the HP healed, up to 150% of her ATK on entering battle. An ally holding Ripple gains Critical Rate +20% and Critical DMG +60% on an Ultimate attack. |
-| 1 | After any ally casts an Ultimate, Narcissus heals all allies by 20% of her ATK for each Moxie it spent (an Ultimate that spends none counts as 1; this heal cannot crit). In Zero-Proof Revelry, all allies ignore up to 4 Control effects each round, and at the end of the allied round she gains 2 stacks of Oracle's Riddle and 1 Moxie. |
-| 2 | Healing Done +10% on entering battle. |
-| 3 | Narcissus gains 4 Moxie on entering battle. While she is on the field, allied Ultimates do not count against the incantation draw limit, all allies gain DMG Taken Reduction +30%, and Moxie any ally gains beyond the cap is stored, up to 5 per ally, and refills Moxie at the end of the round where there is room. |
+**Insight 0 · Precognition**: After Narcissus heals any target, she additionally grants (HP healed x20%) \[Ripple\] value to the target. The maximum value of \[Ripple\] is equal to Narcissus's ATK when entering battle x150%.
+
+Whenever an ally with \[Ripple\] attacks with an Ultimate, their attack gains Critical Rate +20% and Critical DMG +60%.
+
+**Insight 1 · Trumpet of Victory**: After any ally casts an Ultimate, Narcissus recovers (Narcissus's ATK x20%) HP for all allies per Moxie consumed by the Ultimate (Ultimates that do not consume Moxie count as having consumed 1 Moxie; this healing cannot crit).
+
+While Narcissus is in the \[Zero-Proof Revelry\] status, she can prevent up to 4 \[Control\] effects inflicted on all allies each round, and at the end of the allied round, she gains 2 stacks of \[Oracle's Riddle\] and Moxie +1.
+
+**Insight 2 · Trumpet of Victory II**: Healing Done +10% when entering battle.
+
+**Insight 3 · Trumpet of Victory III**: When entering battle, Narcissus gains Moxie +4.
+
+While Narcissus is present, all allied Ultimates do not take up the allied Incantation Limit, all allies gain DMG Taken Reduction +30%, and all allies can reserve up to 5 excess Moxie (replenished at the end of the round if applicable).
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -83,13 +97,35 @@ Narcissus enters Zero-Proof Revelry for 3 rounds.
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Zero-Proof Revelry lasts 4 rounds and gives Ultimate Might +40%, plus 2% per Moxie; Narcissus gains 5 Moxie on entering battle. |
-| 2 | Ripple gives Critical Rate +30% and Critical DMG +80% on Ultimates; the heal after an ally's Ultimate becomes 30% of her ATK per Moxie. |
-| 3 | Ripple from her heals becomes 30% of the HP healed, up to 200% of her ATK; a hit that breaks Ripple deals 40% less damage. |
-| 4 | Tidal Tempo deals 22.5% of her ATK per stack for each Moxie; Go Go Daffodil heals 200, 250 or 450% by rank. |
-| 5 | Zero-Proof Revelry gives Ultimate Might +50%, plus 2.5% per Moxie; Ripple gives Critical Rate +40% and Critical DMG +100% on Ultimates. |
+**Portrait 1**: **Her Odyssean Quest**: \[Zero-Proof Revelry\] now lasts 4 rounds and grants Ultimate Might +40% at base, plus an additional Ultimate Might +2% for each Moxie consumed.
+
+**Precognition**: When entering battle, now gains Moxie +5.
+
+**Portrait 2**: **Precognition**: Whenever an ally with \[Ripple\] attacks with an Ultimate, their attack now gains Critical Rate +30% and Critical DMG +80%.
+
+After any ally casts an Ultimate, Narcissus now recovers (Narcissus's ATK x30%) HP for all allies per Moxie consumed by the Ultimate.
+
+**Portrait 3**: **Precognition**: After Narcissus heals any target, she now grants (HP healed x30%) \[Ripple\] value to the target. The maximum value of \[Ripple\] is now equal to Narcissus's ATK when entering battle x200%.
+
+\[Ripple\] now grants DMG Taken -40% when the holder is about to take DMG greater than or equal to the \[Ripple\] value.
+
+**Portrait 4**: **Fists and Fins**: \[Tidal Tempo\] now deals (Narcissus's ATK x22.5%) Genesis DMG per stack for each Moxie consumed by Narcissus's and her allies' Ultimates.
+
+**Go Go Daffodil** now recovers (Narcissus's ATK x200%/250%/450%) HP at rank 1/2/3.
+
+**Portrait 5**: **Her Odyssean Quest**: \[Zero-Proof Revelry\] now grants Ultimate Might +50% at base, plus an additional Ultimate Might +2.5% for each Moxie consumed.
+
+**Precognition**: Whenever an ally with \[Ripple\] attacks with an Ultimate, their attack now gains Critical Rate +40% and Critical DMG +100%.
+
+## Statuses
+
+- **Tidal Tempo**: Recalculated each round. For each Moxie consumed by Narcissus's and her allies' Ultimates within the round, the holder takes (Narcissus's ATK x15%) Genesis DMG per stack at the end of the round; this DMG benefits from Narcissus's Ultimate Might and can crit (stackable up to 5 times, each stack timed independently, removed after Narcissus is defeated).
+- **Passion Drain**: After the holder is attacked, the attacker gains Moxie +1 (-1 stack after trigger).
+- **Ripple**: When the holder is about to take DMG less than the Ripple value, negates that instance of DMG. If the DMG is greater than or equal to the Ripple value, DMG Taken -30% from that instance of DMG and clears the Ripple value.
+- **Zero-Proof Revelry**: \[Force Field\] effect: Grants Ultimate Might +30% to all allies. For each Moxie consumed by allied Ultimates (counting up to 20), grants an additional Ultimate Might +1.5%. (Reapplying this status extends its duration. Moxie counter resets at the end of the duration.)
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
+- **Oracle's Riddle**: After any ally is attacked, Narcissus consumes 1 stack of \[Oracle's Riddle\] to cast a rank 1 \[Go Go Daffodil\]. If any stacks remain at the end of the enemy round, Narcissus consumes 1 stack of \[Oracle's Riddle\] to cast a rank 1 \[Fists and Fins\] and additionally inflicts 2 stacks of \[Tidal Tempo\] on all enemies. Incantations cast this way count as Ultimates and extra actions.
+- **Force Field**: The holder is granting effects to the relevant characters. Disappears when defeated.
 
 ## Names
 

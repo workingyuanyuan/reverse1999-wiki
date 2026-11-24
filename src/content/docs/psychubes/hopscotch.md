@@ -41,7 +41,15 @@ sources:
 
 ## Effect
 
-Each enemy the carrier defeats gives it Ultimate Might +4/5/6/7/8% (Amplification 1 to 5), stacking up to 4 times.
+**Amplification 1**: For each enemy target defeated by the carrier, Ultimate Might +4% for the carrier. Stacks up to 4 times.
+
+**Amplification 2**: For each enemy target defeated by the carrier, Ultimate Might +5% for the carrier. Stacks up to 4 times.
+
+**Amplification 3**: For each enemy target defeated by the carrier, Ultimate Might +6% for the carrier. Stacks up to 4 times.
+
+**Amplification 4**: For each enemy target defeated by the carrier, Ultimate Might +7% for the carrier. Stacks up to 4 times.
+
+**Amplification 5**: For each enemy target defeated by the carrier, Ultimate Might +8% for the carrier. Stacks up to 4 times.
 
 ## Names
 

@@ -36,31 +36,37 @@ sources:
 | Psychubes recommended in game | [Never-Ending Q&A](/psychubes/never-ending-q-a/), [Your Friendly Exorcist](/psychubes/your-friendly-exorcist/) |
 | Mainland release | 2025-05-15 |
 | Global release | 2025-09-19 |
-
-Buddy Fairchild gathers stacks of [Buddy Badge], each a small ATK buff, from both incantations and whenever another ally casts an Ultimate. His Ultimate spends them all at once for extra damage per stack, and afterwards raises the whole team's DMG Dealt for 3 rounds.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/buddy-fairchild/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| I Thank You, Nature! (single-target attack) | 200% Reality DMG; 2 Buddy Badge | 300%; 3 stacks | 500%; 4 stacks |
-| I Salute You, Pals! (self buff) | 5 Buddy Badge | 7 stacks | 10 stacks |
+### I Thank You, Nature!
 
-At every rank, if I Salute You, Pals! would take Buddy Badge past its cap, Buddy Fairchild gains 1 Moxie as well.
+**Rank 1**: 1-target attack. Deals 200% Reality DMG. Gains 2 stacks of \[Buddy Badge\].
+
+**Rank 2**: 1-target attack. Deals 300% Reality DMG. Gains 3 stacks of \[Buddy Badge\].
+
+**Rank 3**: 1-target attack. Deals 500% Reality DMG. Gains 4 stacks of \[Buddy Badge\].
+
+### I Salute You, Pals!
+
+**Rank 1**: Self buff. Gains 5 stacks of \[Buddy Badge\]; additionally, if this creates a surplus of \[Buddy Badge\] gains Moxie +1.
+
+**Rank 2**: Self buff. Gains 7 stacks of \[Buddy Badge\]; additionally, if this creates a surplus of \[Buddy Badge\] gains Moxie +1.
+
+**Rank 3**: Self buff. Gains 10 stacks of \[Buddy Badge\]; additionally, if this creates a surplus of \[Buddy Badge\] gains Moxie +1.
 
 ## Ultimate: The Nutcracker Super Squad
 
-Spends all of Buddy Fairchild's Buddy Badge stacks and deals 300% Reality DMG to all enemies, plus 50% Reality DMG for each stack spent. If it spends 10 or more stacks, the attack is a guaranteed crit. After the attack, all allies gain DMG Dealt +30% for 3 rounds.
-
-[Buddy Badge]: ATK +3% per stack, up to 10 stacks.
+Mass attack. Consume all stacks of \[Buddy Badge\] to deal 300% Reality DMG to all enemies. For every 1 stack consumed, deals 50% additional Reality DMG. When at least 10 stacks are consumed, this attack is guaranteed to crit. After attacking, all allies gain DMG Dealt +30% for 3 rounds.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Fluffy Sergeant: whenever another ally casts an Ultimate, Buddy Fairchild gains 2 Buddy Badge. |
-| 2 | ATK +5% on entering battle. |
-| 3 | At the start of a round, if he holds at least 10 Buddy Badge, he gains 1 Moxie and his Ultimate costs no action point that round. |
+**Insight 1 · Fluffy Sergeant**: When another ally casts Ultimate, gains 2 stacks of \[Buddy Badge\].
+
+**Insight 2 · Fluffy Sergeant II**: ATK +5% when entering battle.
+
+**Insight 3 · Fluffy Sergeant III**: At the start of the round, if at no less than 10 stacks of \[Buddy Badge\], gains Moxie +1, and casting Ultimate within the round costs no AP.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -70,13 +76,19 @@ Spends all of Buddy Fairchild's Buddy Badge stacks and deals 300% Reality DMG to
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 75% per Buddy Badge spent. |
-| 2 | The Ultimate deals 400%. |
-| 3 | The Ultimate's team buff becomes DMG Dealt +45%. |
-| 4 | The Ultimate deals 500%. |
-| 5 | The Ultimate deals 100% per Buddy Badge spent. |
+**Portrait 1**: **The Nutcracker Super Squad**: For every 1 stack of \[Buddy Badge\] consumed, additional Reality DMG dealt is increased to 75%.
+
+**Portrait 2**: **The Nutcracker Super Squad**: Reality DMG increased to 400%.
+
+**Portrait 3**: **The Nutcracker Super Squad**: DMG Dealt increased to +45% for all allies.
+
+**Portrait 4**: **The Nutcracker Super Squad**: Reality DMG increased to 500%.
+
+**Portrait 5**: **The Nutcracker Super Squad**: For every 1 stack of \[Buddy Badge\] consumed, additional Reality DMG dealt is increased to 100%.
+
+## Statuses
+
+- **Buddy Badge**: ATK +3%, up to 10 stacks.
 
 ## Names
 

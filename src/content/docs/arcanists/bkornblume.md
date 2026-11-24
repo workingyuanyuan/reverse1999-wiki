@@ -37,33 +37,37 @@ sources:
 | Psychubes recommended in game | [Blasphemer of Night](/psychubes/blasphemer-of-night/), [Luxurious Leisure](/psychubes/luxurious-leisure/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Bkornblume is one of the launch arcanists. Prying Ear lowers the Reality DEF of all enemies and raises the damage they take, while her attack incantation and her Insight passives gain against any enemy with a Stats Down, Neg Status or Control effect. Her Ultimate shuts off one enemy's Ultimate.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/bkornblume/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Watch Her Sleeves (attack on 2 enemies) | 135% Reality DMG; +30% on a debuffed target | 200%; +45% | 335%; +75% |
-| Prying Ear (debuff on all enemies) | Reality DEF −15%, DMG Taken +15%; 2 rounds | −20%, +20%; 2 rounds | −25%, +25%; 3 rounds |
+### Watch Her Sleeves
 
-A debuffed target is one with a Stats Down, Neg Status or Control effect; Watch Her Sleeves deals the extra Reality DMG to it.
+**Rank 1**: Mass attack. Deals 135% Reality DMG to 2 enemies. If the target is in \[Stats Down\], \[Neg Status\], or \[Control\] statuses, this attack deals 30% more Reality DMG.
+
+**Rank 2**: Mass attack. Deals 200% Reality DMG to 2 enemies. If the target is in \[Stats Down\], \[Neg Status\], or \[Control\] statuses, this attack deals 45% more Reality DMG.
+
+**Rank 3**: Mass attack. Deals 335% Reality DMG to 2 enemies. If the target is in \[Stats Down\], \[Neg Status\], or \[Control\] statuses, this attack deals 75% more Reality DMG.
+
+### Prying Ear
+
+**Rank 1**: Mass debuff. All enemies suffer Reality DEF -15% and DMG Taken +15%. Lasts 2 rounds.
+
+**Rank 2**: Mass debuff. All enemies suffer Reality DEF -20% and DMG Taken +20%. Lasts 2 rounds.
+
+**Rank 3**: Mass debuff. All enemies suffer Reality DEF -25% and DMG Taken +25%. Lasts 3 rounds.
 
 ## Ultimate: Uninvited Reviewer
 
-Deals 550% Reality DMG to one enemy and puts [Seal] on it for 3 rounds. A target that cannot be sealed loses 2 Moxie instead.
-
-[Seal]: the target cannot use its Ultimate.
-
-[Control]: effects that limit what a unit can do: Daze, Petrify, Nightmare, Freeze, Disarm, Silence and Seal.
+1-target attack. Deals 550% Reality DMG. Inflicts \[Seal\] for 3 rounds on the target hit. If the target is immune to \[Seal\], inflicts Moxie -2 on the target instead.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | DMG Dealt +20% against an enemy with a Stats Down, Neg Status or Control effect. |
-| 2 | ATK +5% on entering battle. |
-| 3 | DMG Taken −20% when attacked by an enemy with a Stats Down, Neg Status or Control effect. |
+**Insight 1 · Reverse Flow**: When the enemy is in \[Stats Down\], \[Neg Status\], or \[Control\] statuses, DMG Dealt +20% to the enemy.
+
+**Insight 2 · Reverse Flow Ⅱ**: ATK +5% when entering battle.
+
+**Insight 3 · Reverse Flow Ⅲ**: When the caster is attacked by an enemy in \[Stats Down\], \[Neg Status\], or \[Control\] statuses, DMG Taken -20%.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -73,26 +77,31 @@ Deals 550% Reality DMG to one enemy and puts [Seal] on it for 3 rounds. A target
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 625%. |
-| 2 | Watch Her Sleeves deals +45, +65 or +100% on a debuffed target by rank. |
-| 3 | The Ultimate deals 675%. |
-| 4 | The Ultimate deals 750%. |
-| 5 | The Ultimate deals 800%. |
+**Portrait 1**: **Uninvited Reviewer**'s effect changes to: deals 625% Reality DMG.
+
+**Portrait 2**: **Watch Her Sleeves**'s effect changes to: at 1/2/3 stars, additionally deals 45/65/100% Reality DMG to enemies in \[Stats Down\], \[Neg Status\] or \[Control\] statuses.
+
+**Portrait 3**: **Uninvited Reviewer**'s effect changes to: deals 675% Reality DMG.
+
+**Portrait 4**: **Uninvited Reviewer**'s effect changes to: deals 750% Reality DMG.
+
+**Portrait 5**: **Uninvited Reviewer**'s effect changes to: deals 800% Reality DMG.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 1. Bkornblume has one Epiphany of four levels.
+**Epiphany 1, level 1**: At the end of the round, if this unit was not attacked for the round, gain Moxie +1.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | At the end of a round in which no enemy attacked her, she gains 1 Moxie. |
-| 1 | 2 | At the end of the round, each enemy that did not attack her that round gets 1 stack of [Weakness]. |
-| 1 | 3 | DMG Dealt against an enemy with a Stats Down, Neg Status or Control effect rises by a further 10%. |
-| 1 | 4 | Her Ultimate gains Penetration Rate +30%, and just before it hits, the target suffers Critical DEF −20% for 2 rounds. |
+**Epiphany 1, level 2**: At the end of the round, inflict 1 stack of \[Weakness\] on enemy units that did not attack this unit during the round.
 
-[Weakness]: DMG Bonus −25% when the holder attacks; one stack is used each time.
+**Epiphany 1, level 3**: Gain an additional DMG Dealt +10% against enemies holding a \[Stats Down\], \[Neg Status\], or \[Control\] status.
+
+**Epiphany 1, level 4**: When casting **Uninvited Reviewer**, Penetration Rate +30% for self. Right before casting **Uninvited Reviewer**, inflict Critical DEF -20% on the target for 2 rounds.
+
+## Statuses
+
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
+- **Seal**: Cannot use Ultimate.
+- **Weakness**: DMG Bonus -25% when attacking (reduced by 1 stack on trigger).
 
 ## Names
 

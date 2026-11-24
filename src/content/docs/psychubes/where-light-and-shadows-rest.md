@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- A Mineral carrier has Riposte DMG +8/12/12/16/16% (Amplification 1 to 5).
-- After any ally ripostes, the carrier gains Critical DMG +3/3/4.5/4.5/6% for 3 rounds, up to 6 stacks.
+**Amplification 1**: If the carrier is a \[Mineral\] character, gains Riposte DMG +8%.
+
+After any ally ripostes, the carrier gains Critical DMG +3% for 3 rounds, up to 6 stacks.
+
+**Amplification 2**: If the carrier is a \[Mineral\] character, gains Riposte DMG +12%.
+
+After any ally ripostes, the carrier gains Critical DMG +3% for 3 rounds, up to 6 stacks.
+
+**Amplification 3**: If the carrier is a \[Mineral\] character, gains Riposte DMG +12%.
+
+After any ally ripostes, the carrier gains Critical DMG +4.5% for 3 rounds, up to 6 stacks.
+
+**Amplification 4**: If the carrier is a \[Mineral\] character, gains Riposte DMG +16%.
+
+After any ally ripostes, the carrier gains Critical DMG +4.5% for 3 rounds, up to 6 stacks.
+
+**Amplification 5**: If the carrier is a \[Mineral\] character, gains Riposte DMG +16%.
+
+After any ally ripostes, the carrier gains Critical DMG +6% for 3 rounds, up to 6 stacks.
 
 ## Names
 

@@ -1,6 +1,6 @@
 ---
 title: "복낙원"
-description: "복낙원: 리버스: 1999 메인 스토리, 모두 25개 스테이지. 스토리 전문 포함."
+description: "복낙원: 리버스: 1999 메인 스토리 10장, 모두 25개 스테이지."
 appliesTo: "리버스: 1999, 글로벌 클라이언트 111.0.1077(3.9 버전), 한국어 텍스트"
 caveat: "텍스트는 글로벌 클라이언트의 한국어다. 두 버전 앞선 중국 본토 클라이언트는 일부 대사의 표현이 다르다."
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global, 글로벌 클라이언트 111.0.1077: chapter.json과 episode.json(스테이지 번호, 게임 내 시각)"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-복낙원은 리버스: 1999 메인 스토리 10TH장이며 모두 25개 스테이지다. 이야기는 1991년 3월 30일 12:01에 시작된다.
-
 ## 스테이지
 
 | 스테이지 | 이름 | 게임 내 시각 | 트레일 |
@@ -49,7 +47,7 @@ sources:
 
 ## 등장하는 마도학자
 
-[소네트](/ko/arcanists/sonetto/), [노티카](/ko/arcanists/nautika/), [미스 라디오](/ko/arcanists/ms-radio/), [울리히](/ko/arcanists/ulrich/), [몰디르](/ko/arcanists/moldir/), [37](/ko/arcanists/37/), [미스 스트레인저](/ko/arcanists/ms-stranger/), 슈나이더, [6](/ko/arcanists/6/), [버디 페어차일드](/ko/arcanists/buddy-fairchild/)
+[소네트](/ko/arcanists/sonetto/), [노티카](/ko/arcanists/nautika/), [미스 라디오](/ko/arcanists/ms-radio/), [울리히](/ko/arcanists/ulrich/), [몰디르](/ko/arcanists/moldir/), [37](/ko/arcanists/37/), [미스 스트레인저](/ko/arcanists/ms-stranger/), [슈나이더](/ko/arcanists/schneider/), [6](/ko/arcanists/6/), [버디 페어차일드](/ko/arcanists/buddy-fairchild/)
 
 ## 이름
 

@@ -39,7 +39,15 @@ sources:
 
 ## Effect
 
-When the carrier attacks a target that has no [Pos Status] and no [Stats Up] status, it gets Critical Rate +6/9/12/15/18% and Critical DMG +6/9/12/15/18% (Amplification 1 to 5).
+**Amplification 1**: When the carrier attacks a target that's NOT in a \[Pos Status\] or \[Stats Up\] status, Critical Rate +6%, Critical DMG +6%.
+
+**Amplification 2**: When the carrier attacks a target that's NOT in a \[Pos Status\] or \[Stats Up\] status, Critical Rate +9%, Critical DMG +9%.
+
+**Amplification 3**: When the carrier attacks a target that's NOT in a \[Pos Status\] or \[Stats Up\] status, Critical Rate +12%, Critical DMG +12%.
+
+**Amplification 4**: When the carrier attacks a target that's NOT in a \[Pos Status\] or \[Stats Up\] status, Critical Rate +15%, Critical DMG +15%.
+
+**Amplification 5**: When the carrier attacks a target that's NOT in a \[Pos Status\] or \[Stats Up\] status, Critical Rate +18%, Critical DMG +18%.
 
 ## Names
 

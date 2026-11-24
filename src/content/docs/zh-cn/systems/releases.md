@@ -1,6 +1,6 @@
 ---
 title: "上线日期"
-description: "重返未来：1999 神秘学家在中国大陆版与国际版的上线日期，以及两者相隔的天数。"
+description: "重返未来：1999 多数神秘学家在国际版上线的时间比中国大陆版晚 78 到 209 天。"
 appliesTo: "重返未来：1999，国际版客户端 111.0.1077（3.9 版）与中国大陆版客户端 113.0.1422（4.1 版）"
 caveat: "国际版的神秘学家比中国大陆版晚 0 到 209 天上线；只在中国大陆版推出的神秘学家，在公布之前没有国际版日期。"
 lastVerified: 2026-11-23
@@ -21,6 +21,8 @@ sources:
   - title: "re1999-data，中国大陆版客户端 113.0.1422：character.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/blob/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json/character.json
 ---
+## 两版上线相隔天数
+
 两个版本都已上线的 130 位神秘学家中，有 5 位在国际版与中国大陆版同一天上线：[阿利克西欧斯](/zh-cn/arcanists/alexios/)、[艾吉奥·奥迪托雷](/zh-cn/arcanists/ezio-auditore/)、[卡珊德拉](/zh-cn/arcanists/kassandra/)、[诺拉](/zh-cn/arcanists/nora/)、[双生舞伶](/zh-cn/arcanists/the-twins/)。其余晚 78 到 209 天，中位数 140 天；2025-06-01 以后在中国大陆版上线的，中位数 84 天。
 
 ## 仅中国大陆版
@@ -33,7 +35,7 @@ sources:
 | [德雷克](/zh-cn/arcanists/drake/) (Drake) | 6 星 | 兽 | 精神 | 4.0 版 |
 | [格林杜尔](/zh-cn/arcanists/glyndwr/) (Glyndŵr) | 4 星 | 兽 | 现实 | 4.0 版 |
 
-## 全部神秘学家，由新到旧
+## 全部神秘学家的上线日期
 
 | 神秘学家 | 稀有度 | 中国大陆版上线 | 国际版上线 | 相隔天数 |
 | --- | --- | --- | --- | --- |

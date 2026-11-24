@@ -1,6 +1,6 @@
 ---
 title: "Remaining Absurdity"
-description: "Remaining Absurdity is a 5-star ATK Psychube that raises Incantation Might on 1-target attacks while shielded."
+description: "Remaining Absurdity is a 5-star ATK Psychube that raises Incantation Might."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
 caveat: "The carrier must have a shield and the attack must be 1-target; mass attacks do not get the bonus."
 lastVerified: 2026-11-23
@@ -40,7 +40,15 @@ sources:
 
 ## Effect
 
-When the carrier makes a 1-target attack while it has a shield, it gets Incantation Might +10/12.5/15/17.5/20% (Amplification 1 to 5).
+**Amplification 1**: Whenever the Carrier makes a 1-target attack with a Shield active, Incantation Might +10%.
+
+**Amplification 2**: Whenever the Carrier makes a 1-target attack with a Shield active, Incantation Might +12.5%.
+
+**Amplification 3**: Whenever the Carrier makes a 1-target attack with a Shield active, Incantation Might +15%.
+
+**Amplification 4**: Whenever the Carrier makes a 1-target attack with a Shield active, Incantation Might +17.5%.
+
+**Amplification 5**: Whenever the Carrier makes a 1-target attack with a Shield active, Incantation Might +20%.
 
 ## Names
 

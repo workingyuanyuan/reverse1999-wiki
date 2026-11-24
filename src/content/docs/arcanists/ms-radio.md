@@ -37,28 +37,35 @@ sources:
 | Psychubes recommended in game | [Long Night Talk](/psychubes/long-night-talk/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Ms. Radio has two plain attacks, one on a single target and one on two enemies. Her Ultimate trades all of her HP for a hit on every enemy that removes 4 Moxie and stops them gaining Moxie for 2 rounds, and her Insight 1 passive takes 1 more Moxie from every enemy when she leaves the field.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/ms-radio/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| BupDese (single-target attack) | 200% Mental DMG | 300% | 500% |
-| LeEe Frequency (attack on 2 enemies) | 150% Mental DMG | 225% | 375% |
+### BupDese
+
+**Rank 1**: 1-target attack. Deals 200% Mental DMG.
+
+**Rank 2**: 1-target attack. Deals 300% Mental DMG.
+
+**Rank 3**: 1-target attack. Deals 500% Mental DMG.
+
+### LeEe Frequency
+
+**Rank 1**: Mass attack. Deals 150% Mental DMG to 2 enemies.
+
+**Rank 2**: Mass attack. Deals 225% Mental DMG to 2 enemies.
+
+**Rank 3**: Mass attack. Deals 375% Mental DMG to 2 enemies.
 
 ## Ultimate: A Bit of Truth Unveiled
 
-Ms. Radio loses all her HP and deals 100% Mental DMG to all enemies. Each enemy hit loses 4 Moxie and gets [Disconcert] for 2 rounds.
-
-[Disconcert]: the holder cannot gain Moxie.
+Mass attack. Loses all HP and deals 100% Mental DMG to all enemies. Inflicts \[Disconcert\] for 2 rounds and Moxie -4 on the targets hit.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | When Ms. Radio leaves the field, every enemy loses 1 Moxie. |
-| 2 | Reality DEF and Mental DEF +10% on entering battle. |
+**Insight 1 · Darkest Hour**: Moxie -1 for all enemies when the caster dies.
+
+**Insight 2 · Darkest Hour Ⅱ**: Reality DEF and Mental DEF +10% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -67,13 +74,19 @@ Ms. Radio loses all her HP and deals 100% Mental DMG to all enemies. Each enemy 
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 120%. |
-| 2 | BupDese deals 220, 330 or 550% by rank. |
-| 3 | The Ultimate deals 140%. |
-| 4 | LeEe Frequency deals 165, 245 or 400% by rank. |
-| 5 | The Ultimate deals 160%. |
+**Portrait 1**: **A Bit of Truth Unveiled**'s effect changes to: deals 120% Mental DMG.
+
+**Portrait 2**: **BupDese**: At Incantation rank 1/2/3, Mental DMG increased to 220/330/550%.
+
+**Portrait 3**: **A Bit of Truth Unveiled**'s effect changes to: deals 140% Mental DMG.
+
+**Portrait 4**: **LeEe Frequency**'s effect changes to: at 1/2/3 stars, deals 165/245/400% Mental DMG.
+
+**Portrait 5**: **A Bit of Truth Unveiled**'s effect changes to: deals 160% Mental DMG.
+
+## Statuses
+
+- **Disconcert**: Cannot gain Moxie.
 
 ## Names
 

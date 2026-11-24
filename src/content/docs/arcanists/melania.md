@@ -37,36 +37,37 @@ sources:
 | Psychubes recommended in game | [Luxurious Leisure](/psychubes/luxurious-leisure/), [The Carat of a Heart](/psychubes/the-carat-of-a-heart/), [Family Mentor](/psychubes/family-mentor/) |
 | Mainland release | 2023-06-15 |
 | Global release | 2023-11-09 |
-
-Melania's Ultimate gives her [Thief Master], which enhances her next incantation: Silent Takedown then steals Moxie, and Clockwork Rats gives her Moxie and more Leech Rate. Her Insight passives give her [Fixed Plan] after every Ultimate, so each Ultimate raises the Ultimate Might of the next. Her Euphoria spreads Fixed Plan to the whole team and stores Moxie beyond the cap.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/melania/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Silent Takedown (single-target attack) | 200% Mental DMG | 250%; target Moxie −1 | 400%; target Moxie −1, Melania Moxie +1 |
-| Clockwork Rats (attack on 2 enemies) | 120% Mental DMG | 180% | 300% |
+### Silent Takedown
 
-- **Silent Takedown** with Thief Master also steals 1 Moxie from the target, at every rank.
-- **Clockwork Rats** always has Leech Rate +20%. With Thief Master, Melania also gains 1 Moxie and the attack gains another Leech Rate +30%.
+**Rank 1**: 1-target attack. Deals 200% Mental DMG. If the caster is in \[Thief Master\] status, this attack steals 1 Moxie from the target.
+
+**Rank 2**: 1-target attack. Deals 250% Mental DMG. Inflicts Moxie -1 on the target hit, and if this unit is holding the \[Thief Master\] status, this attack steals 1 additional Moxie from the target hit.
+
+**Rank 3**: 1-target attack. Deals 400% Mental DMG. Gains Moxie +1 for self and inflicts Moxie -1 on the target hit, and if this unit is holding the \[Thief Master\] status, this attack steals 1 additional Moxie from the target hit.
+
+### Clockwork Rats
+
+**Rank 1**: Mass attack. Deals 120% Mental DMG to 2 enemies. This attack enjoys Leech Rate +20%. If the caster is in \[Thief Master\], Moxie +1 and extra Leech Rate +30% for the caster.
+
+**Rank 2**: Mass attack. Deals 180% Mental DMG to 2 enemies. This attack enjoys Leech Rate +20%. If the caster is in \[Thief Master\], Moxie +1 and extra Leech Rate +30% for the caster.
+
+**Rank 3**: Mass attack. Deals 300% Mental DMG to 2 enemies. This attack enjoys Leech Rate +20%. If the caster is in \[Thief Master\], Moxie +1 and extra Leech Rate +30% for the caster.
 
 ## Ultimate: Ridiculous Eyewitness Testimony
 
-Deals 650% Mental DMG to one enemy and gives Melania 1 stack of [Thief Master].
-
-[Thief Master]: her next incantation is enhanced; one stack is spent each time.
-
-[Fixed Plan]: Ultimate Might +12%; stacks up to 6 times; cannot be dispelled.
-
-[Passion Drain]: after the holder is attacked, the attacker gains 1 Moxie; one stack is spent each time. Comes from her Euphoria.
+1-target attack. Deals 650% Mental DMG. Inflicts 1 stack of \[Thief Master\] on the caster.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | After each Ultimate, Melania gains 1 stack of Fixed Plan. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | After each Ultimate, she gains 1 more stack of Fixed Plan. |
+**Insight 1 · Top Student**: After the caster casts an Ultimate, gains 1 stack of \[Fixed Plan\].
+
+**Insight 2 · Top Student II**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · Top Student III**: After the caster casts an Ultimate, gains an additional stack of \[Fixed Plan\].
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -76,24 +77,31 @@ Deals 650% Mental DMG to one enemy and gives Melania 1 stack of [Thief Master].
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 725%. |
-| 2 | The Ultimate gives 1 more stack of Thief Master. |
-| 3 | Silent Takedown deals 220, 280 or 450% by rank. |
-| 4 | Clockwork Rats deals 135, 200 or 325% by rank. |
-| 5 | The Ultimate deals 800%. |
+**Portrait 1**: **Ridiculous Eyewitness Testimony** deals 725% Mental DMG.
+
+**Portrait 2**: **Ridiculous Eyewitness Testimony** additionally gains 1 stack of \[Thief Master\].
+
+**Portrait 3**: **Silent Takedown**'s effect changes to: at 1/2/3 stars, deals 220/280/450% Mental DMG.
+
+**Portrait 4**: **Clockwork Rats**'s effect changes to: at 1/2/3 stars, deals 135/200/325% Mental DMG.
+
+**Portrait 5**: **Ridiculous Eyewitness Testimony** deals 800% Mental DMG.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Melania has one Epiphany of four levels.
+**Epiphany 1, level 1**: After actively attacking, inflicts 1 stack of \[Passion Drain\] on the target.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | After an attack she casts herself, the target gains 1 stack of Passion Drain. |
-| 1 | 2 | Fixed Plan from her Insight passives goes to all allies, and each stack also gives Ultimate Critical Rate +6% and Ultimate Critical DMG +6%. |
-| 1 | 3 | The Ultimate deals 50% more Mental DMG for each stack of Fixed Plan. |
-| 1 | 4 | Melania gains 5 Moxie on entering battle. Moxie that any ally gains beyond the cap is stored, up to 5 per ally, and refills that ally's Moxie at the end of the round where there is room. |
+**Epiphany 1, level 2**: **Top Student** Enhancement: \[Fixed Plan\] is now granted to all allies and grants new additional effects: Ultimate Critical Rate +6% and Ultimate Critical DMG +6%.
+
+**Epiphany 1, level 3**: **Ridiculous Eyewitness Testimony** Enhancement: For each stack of \[Fixed Plan\], deals an additional 50% Mental DMG.
+
+**Epiphany 1, level 4**: When entering battle, gain Moxie +5 for self. Excess Moxie on allies is temporarily stored. At the end of the round, each character's stored Moxie is used to replenish their own Moxie if able. Each character can store up to 5 points of Moxie this way.
+
+## Statuses
+
+- **Thief Master**: Melania's next Incantation is enhanced (-1 stack after trigger).
+- **Fixed Plan**: Ultimate Might increases by 12% (stackable up to 6 times and cannot be dispelled).
+- **Passion Drain**: After the holder is attacked, the attacker gains Moxie +1 (-1 stack after trigger).
 
 ## Names
 

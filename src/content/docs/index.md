@@ -1,6 +1,6 @@
 ---
 title: "Reverse: 1999 wiki"
-description: "Reverse: 1999 arcanists: skills, Insight, Portrait, Euphoria, and who reaches the global service next."
+description: "Reverse: 1999 has 134 arcanists on the global service."
 appliesTo: "Reverse: 1999, mainland China client 113.0.1422 (version 4.1) and global client 111.0.1077 (version 3.9)"
 caveat: "The mainland China service runs about two versions ahead of the global service: arcanists out on the mainland are not yet in the global game."
 lastVerified: 2026-11-22

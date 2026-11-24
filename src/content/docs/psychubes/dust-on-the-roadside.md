@@ -39,11 +39,32 @@ sources:
 
 ## Effect
 
-- When the carrier attacks, it gets Penetration Rate +2/2.5/3/3.5/4% for each instance of [Poison] on the target (Amplification 1 to 5).
-- When a Plant carrier's attack scores a critical hit, it gets Critical DMG +12/15/18/21/24%. The global client's English text gives this bonus without the critical-hit condition.
+**Amplification 1**: When the carrier attacks, for every 1 instance of \[Poison\] the target has, Penetration Rate +2%.
+
+If the carrier is a \[Plant\] character, Critical DMG +12%.
+
+**Amplification 2**: When the carrier attacks, for every 1 instance of \[Poison\] the target has, Penetration Rate +2.5%.
+
+If the carrier is a \[Plant\] character, Critical DMG +15%.
+
+**Amplification 3**: When the carrier attacks, for every 1 instance of \[Poison\] the target has, Penetration Rate +3%.
+
+If the carrier is a \[Plant\] character, Critical DMG +18%.
+
+**Amplification 4**: When the carrier attacks, for every 1 instance of \[Poison\] the target has, Penetration Rate +3.5%.
+
+If the carrier is a \[Plant\] character, Critical DMG +21%.
+
+**Amplification 5**: When the carrier attacks, for every 1 instance of \[Poison\] the target has, Penetration Rate +4%.
+
+If the carrier is a \[Plant\] character, Critical DMG +24%.
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | Dust on the Roadside | 路边尘埃 | 路邊塵埃 | 道端のほこり | 길가의 먼지 |
+
+## Edition differences
+
+- The Chinese texts give the Critical DMG bonus when the attack scores a critical hit; the global client's English text gives it without that condition.

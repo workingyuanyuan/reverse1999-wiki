@@ -37,39 +37,41 @@ sources:
 | Psychubes recommended in game | [Dawn Is Coming](/psychubes/dawn-is-coming/), [Melodies Old and New](/psychubes/melodies-old-and-new/), [Off the Scene](/psychubes/off-the-scene/) |
 | Mainland release | 2024-04-11 |
 | Global release | 2024-08-15 |
-
-Vila buffs one ally with a Song that raises Critical Rate and Critical DMG, more for Mental DMG arcanists, and heals one ally at a time. Her Ultimate cleanses the whole team and puts her in Rusalka for 3 rounds, which turns the Song into Song of Passion, adds extra heals to her healing incantation and gives her a free card each round that grants Moxie and Eureka. She also has Euphoria.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/vila/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Beating Heart (single-target buff) | Song of Generosity 2 rounds | Song; 1 stack of Power Burst | Song; 2 stacks of Power Burst |
-| Wordless Song (single-target heal) | heals 100% of ATK; in Rusalka, 2 more heals of 60% | 150%; 100% twice | 250%; 180% twice |
+### Beating Heart
 
-**Beating Heart** gives [Song of Passion] instead of [Song of Generosity] while Vila is in [Rusalka]. Only one ally can hold either Song at a time.
+**Rank 1**: 1-target buff. Grants \[Song of Generosity\] to the target for 2 rounds. The \[Rusalka\] status changes the \[Song of Generosity\] to \[Song of Passion\], and only 1 Song of Generosity or Song of Passion can exist on the allied side at a time.
 
-**Wordless Song** heals one ally by the share of Vila's ATK in the table and gives that ally 1 stack of [Sturdiness]. In Rusalka, the ally with the lowest HP percentage is then healed twice more by the second share.
+**Rank 2**: 1-target buff. Grants \[Song of Generosity\] to the target for 2 rounds and 1 stack of \[Power Burst\]. The \[Rusalka\] status changes the \[Song of Generosity\] to \[Song of Passion\], and only 1 Song of Generosity or Song of Passion can exist on the allied side at a time.
 
-- [Song of Generosity]: Critical Rate +20% and Critical DMG +20%; a Mental DMG arcanist gains Critical Rate +10% and Critical DMG +20% more.
-- [Song of Passion]: the same bonuses, and each attack with a rank 1, 2 or 3 incantation deals extra damage of the holder's damage type to the main target, 50%, 120% or 200%. It cannot be dispelled.
-- [Power Burst]: DMG Bonus +25% on an attack; one stack is used each time.
-- [Sturdiness]: DMG Taken Reduction +25% when attacked; one stack is used each time.
+**Rank 3**: 1-target buff. Grants \[Song of Generosity\] to the target for 2 rounds and 2 stacks of \[Power Burst\]. The \[Rusalka\] status changes the \[Song of Generosity\] to \[Song of Passion\], and only 1 Song of Generosity or Song of Passion can exist on the allied side at a time.
+
+### Wordless Song
+
+**Rank 1**: 1-target heal. Recovers (the user's ATK x100%) HP to an ally and grants 1 stack of \[Sturdiness\] to that target; and if in the \[Rusalka\] status, then additionally recovers (the user's ATK x60%) HP to the ally with the lowest HP percentage, twice.
+
+**Rank 2**: 1-target heal. Recovers (the user's ATK x150%) HP to an ally and grants 1 stack of \[Sturdiness\] to that target; and if in the \[Rusalka\] status, then additionally recovers (the user's ATK x100%) HP to the ally with the lowest HP percentage, twice.
+
+**Rank 3**: 1-target heal. Recovers (the user's ATK x250%) HP to an ally and grants 1 stack of \[Sturdiness\] to that target; and if in the \[Rusalka\] status, then additionally recovers (the user's ATK x180%) HP to the ally with the lowest HP percentage, twice.
 
 ## Ultimate: Bright Prospect
 
-A team buff. Vila dispels every Stats Down, Neg Status and [Control] effect from all allies, then enters [Rusalka] for 3 rounds. A Song of Generosity already on an ally becomes Song of Passion with its duration renewed. While in Rusalka, she gains no Ultimate cards.
-
-- [Rusalka]: enhances Vila's incantations: Beating Heart gives Song of Passion, and Wordless Song adds two heals.
-- [Control]: effects that stop a character from acting, such as Daze, Petrify, Nightmare, Freeze, Disarm, Silence and Seal.
+Mass buff. Dispels all \[Stats Down\], \[Neg Status\], and \[Control\] statuses from all allies, then grants the \[Rusalka\] status to self for 3 rounds, changes the ally's existing \[Song of Generosity\] to \[Song of Passion\], and resets its duration. Cannot gain Ultimate while in the \[Rusalka\] status.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Moxie +1 on entering battle, and +1 more for each other Mental DMG ally, counting up to 2. At the start of a round in Rusalka, she gains 1 precast incantation, [Song of Inspiration]: Moxie +1 and Eureka +1 for one ally, at no AP cost. |
-| 2 | DMG Taken −8% on entering battle. |
-| 3 | At the end of a round in which she cast no incantation herself, all allies recover HP equal to 50% of her ATK. In Rusalka, all allies recover 60% of her ATK at the end of the round. |
+**Insight 1 · "Us"**: When entering battle, gain Moxie +1. For every other Mental DMG ally on the team, gain additional Moxie +1, up to a maximum of Moxie +2.
+
+If in the \[Rusalka\] status at the start of the round, gain 1 Precast Incantation \[Song of Inspiration\]: grants Moxie +1 and Eureka +1 to a target ally at no AP cost.
+
+**Insight 2 · "Us" II**: DMG Taken -8% when entering battle.
+
+**Insight 3 · "Us" III**: At the end of the round, if having not actively casted an incantation for the round, recover (own ATK x50%) HP for all allies.
+
+If in the \[Rusalka\] status at the end of the round, recover (own ATK x60%) HP for all allies .
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -79,24 +81,34 @@ A team buff. Vila dispels every Stats Down, Neg Status and [Control] effect from
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Song of Generosity and Song of Passion give Critical Rate +30% and Critical DMG +30%. |
-| 2 | Song of Passion's extra damage becomes 80, 150 or 230% by rank. |
-| 3 | Both Songs give Critical Rate +40% and Critical DMG +40%. |
-| 4 | Song of Passion's extra damage becomes 110, 180 or 260% by rank. |
-| 5 | Rusalka lasts 4 rounds. |
+**Portrait 1**: **Beating Heart**: The Critical Rate and Critical DMG bonuses from \[Song of Generosity\]/\[Song of Passion\] are increased to 30/30%.
+
+**Portrait 2**: **Beating Heart**: \[Song of Passion\]'s additional DMG Dealt is increased to 80/150/230%.
+
+**Portrait 3**: **Beating Heart**: The Critical Rate and Critical DMG bonuses from \[Song of Generosity\]/\[Song of Passion\] are increased to 40/40%.
+
+**Portrait 4**: **Beating Heart**: \[Song of Passion\]'s additional DMG Dealt is increased to 110/180/260%.
+
+**Portrait 5**: **Bright Prospect**: \[Rusalka\]'s duration is increased to 4 rounds.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Vila has one Epiphany of four levels.
+**Epiphany 1, level 1**: After an allied character is attacked, if their HP is below 70%, Vila casts a rank 1 **Wordless Song** to them, up to 2 times per round.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | When an ally is attacked and left below 70% HP, Vila casts a rank 1 Wordless Song on them, at most twice a round. |
-| 1 | 2 | On entering battle, she gains Healing Done +7% for every 1000 Max HP she has, and Moxie +1. |
-| 1 | 3 | Rusalka also makes rankless Ultimates of Plant, Spirit and Intellect arcanists count as rank 3 incantations, lets Vila gain Ultimate cards, and raises a random incantation by 1 rank at the start of each round. |
-| 1 | 4 | Song of Inspiration also gives its target Song of Passion and gives Vila Moxie +1; more than one ally can hold a Song. |
+**Epiphany 1, level 2**: When entering battle, Vila gains Healing Done +7% for every 1000 Max HP she has, and Moxie +1.
+
+**Epiphany 1, level 3**: \[Rusalka\] New Effect Added: the non-ranked Ultimates cast by Plant, Spirit, and Intellect characters count as rank 3 incantations. When in the \[Rusalka\] status, Vila can obtain Ultimate. At the start of the round, if in the \[Rusalka\] status, gains rank +1 for a random incantation.
+
+**Epiphany 1, level 4**: \[Song of Inspiration\] New Effect Added: Grants \[Song of Passion\] to the target and gains Moxie +1. \[Song of Generosity\] and \[Song of Passion\] can be granted to multiple targets.
+
+## Statuses
+
+- **Song of Generosity**: Critical Rate +20% and Critical DMG +20%. Mental DMG characters gain an additional Critical Rate +10% and Critical DMG +20%.
+- **Rusalka**: Vila's incantations are enhanced.
+- **Song of Passion**: Critical Rate +20% and Critical DMG +20%. Mental DMG characters gain an additional Critical Rate +10% and Critical DMG +20%; when attacking with a rank 1/2/3 incantation, deal an additional 50%/120%/200% DMG of the holder's damage type to the main target (undispellable).
+- **Power Burst**: DMG Bonus +25% when attacking (-1 stack after trigger).
+- **Sturdiness**: When attacked, DMG Taken Reduction +25% (-1 stack after trigger).
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
 
 ## Names
 

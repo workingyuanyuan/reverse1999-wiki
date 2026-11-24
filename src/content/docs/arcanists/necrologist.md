@@ -37,31 +37,37 @@ sources:
 | Psychubes recommended in game | [Her Second Life](/psychubes/her-second-life/), [Faded Epitaphs](/psychubes/faded-epitaphs/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Necrologist deals single-target Mental DMG with built-in Penetration Rate, and from rank 2 her second attack dispels every Stats Up and Pos Status on its target. Her Ultimate gives the rest of the team [Prayer], which saves its holder from one lethal hit, together with a damage buff for 3 rounds.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/necrologist/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Timely Farewell (single-target attack) | 160% Mental DMG | 240% | 400% |
-| By the Coffin (single-target attack) | 200% Mental DMG | 250%; dispels all Stats Up and Pos Status on the target | 450%; dispels |
+### Timely Farewell
 
-**Timely Farewell** has Penetration Rate +30% at every rank.
+**Rank 1**: 1-target attack. Deals 160% Mental DMG. This attack gains Penetration Rate +30%.
+
+**Rank 2**: 1-target attack. Deals 240% Mental DMG. This attack gains Penetration Rate +30%.
+
+**Rank 3**: 1-target attack. Deals 400% Mental DMG. This attack gains Penetration Rate +30%.
+
+### By the Coffin
+
+**Rank 1**: 1-target attack. Deals 200% Mental DMG.
+
+**Rank 2**: 1-target attack. Deals 250% Mental DMG and dispels all \[Stats Up\] and \[Pos Status\] statuses from the target.
+
+**Rank 3**: 1-target attack. Deals 450% Mental DMG and dispels all \[Stats Up\] and \[Pos Status\] statuses from the target.
 
 ## Ultimate: Whispers of the Deceased
 
-Gives every other ally 1 stack of [Prayer] and DMG Dealt +30% for 3 rounds. An ally who already has Prayer heals HP equal to 100% of Necrologist's ATK at once.
-
-[Prayer]: when its holder takes a lethal hit, they stay on the field and heal HP equal to 100% of the caster's ATK; it is used up when it triggers and does not stack.
+Mass buff. Inflicts 1 stack of \[Prayer\] on other allies and DMG Dealt +30% for them for 3 rounds. If a target already has \[Prayer\], HP +(the caster's ATK ×100%) for the target.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Necrologist gains Prayer on entering battle, once. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | Each time a Prayer on her team disappears, she heals HP equal to 50% of her ATK (the global client's English text says dispelled; its Chinese, Japanese and Korean texts say disappears). |
+**Insight 1 · Black Iris**: When entering battle, enters \[Prayer\] status (only triggers 1 time).
+
+**Insight 2 · Black Iris Ⅱ**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · Black Iris Ⅲ**: When a \[Prayer\] status on your side is dispelled, HP +(the caster's ATK ×50%).
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -71,16 +77,26 @@ Gives every other ally 1 stack of [Prayer] and DMG Dealt +30% for 3 rounds. An a
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate gives other allies DMG Dealt +40%. |
-| 2 | Timely Farewell has Penetration Rate +40%. |
-| 3 | The Ultimate heals an ally who already has Prayer by 150% of her ATK. |
-| 4 | By the Coffin deals 220, 280 or 500% by rank. |
-| 5 | The Ultimate gives other allies DMG Dealt +50%. |
+**Portrait 1**: **Whispers of the Deceased**'s effect changes to: DMG Dealt +40% for other allies.
+
+**Portrait 2**: **Timely Farewell**'s effect changes to: Penetration Rate +40%.
+
+**Portrait 3**: **Whispers of the Deceased**'s effect changes to: if target already has active \[Prayer\], HP +(the caster's ATK ×150%).
+
+**Portrait 4**: **By the Coffin**'s effect changes to: at 1/2/3 stars, deals 220/280/500% Mental DMG.
+
+**Portrait 5**: **Whispers of the Deceased**'s effect changes to: DMG Dealt +50% for other allies.
+
+## Statuses
+
+- **Prayer**: Does not die after taking lethal DMG and instead HP +(the caster's ATK ×100%) (disappears after trigger; cannot stack).
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | Necrologist | 讣告人 | 訃告人 | ネクロ・ロギスト | 네크롤로지스트 |
+
+## Edition differences
+
+- Insight 3: the global client's English text heals when a Prayer is dispelled; its Chinese, Japanese and Korean texts heal when a Prayer disappears.

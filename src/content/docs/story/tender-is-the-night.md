@@ -1,6 +1,6 @@
 ---
 title: "Tender Is the Night"
-description: "Tender Is the Night: Main story of Reverse: 1999 in 15 stages, with the full story text."
+description: "Tender Is the Night: chapter 2 of the Reverse: 1999 main story, in 15 stages."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global, global client 111.0.1077: chapter.json and episode.json (stage codes, in-game dates)"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-Tender Is the Night is chapter 2ND of the main story of Reverse: 1999, in 15 stages. Its story begins on February 14, 1929, 20:30.
-
 ## Stages
 
 | Stage | Name | In-game time | Trails |
@@ -39,7 +37,7 @@ Tender Is the Night is chapter 2ND of the main story of Reverse: 1999, in 15 sta
 
 ## Arcanists who speak
 
-[Sonetto](/arcanists/sonetto/), [APPLe](/arcanists/apple/), [Sotheby](/arcanists/sotheby/), [Druvis III](/arcanists/druvis-iii/), Schneider, [X](/arcanists/x/), [Regulus](/arcanists/regulus/)
+[Sonetto](/arcanists/sonetto/), [APPLe](/arcanists/apple/), [Sotheby](/arcanists/sotheby/), [Druvis III](/arcanists/druvis-iii/), [Schneider](/arcanists/schneider/), [X](/arcanists/x/), [Regulus](/arcanists/regulus/)
 
 ## Names
 

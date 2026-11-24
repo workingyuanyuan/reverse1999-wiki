@@ -40,11 +40,32 @@ sources:
 
 ## Effect
 
-- When an [Assassination] carrier triggers [Assassination], that attack gets Final DMG Dealt +1/1.5/1.5/2/2% for every 100 points of Critical Technique between the carrier and the target (Amplification 1 to 5); the global client's English text counts only the points by which the carrier exceeds the target.
-- After any ally's attack triggers [Assassination], if the carrier holds [Force Field], all allies get DMG Dealt +1/1/1.5/1.5/2%, up to 6 stacks.
+**Amplification 1**: When attacking, if the carrier is an \[Assassination\] character, for every 100 points of Critical Technique the carrier has more than the target, gains Final DMG Dealt +1% for this attack.
+
+When any ally triggers an \[Assassination\], if the carrier owns \[Force Field\], all allies gain DMG Dealt +1%, up to 6 stacks.
+
+**Amplification 2**: When attacking, if the carrier is an \[Assassination\] character, for every 100 points of Critical Technique the carrier has more than the target, gains Final DMG Dealt +1.5% for this attack.
+
+When any ally triggers an \[Assassination\], if the carrier owns \[Force Field\], all allies gain DMG Dealt +1%, up to 6 stacks.
+
+**Amplification 3**: When attacking, if the carrier is an \[Assassination\] character, for every 100 points of Critical Technique the carrier has more than the target, gains Final DMG Dealt +1.5% for this attack.
+
+When any ally triggers an \[Assassination\], if the carrier owns \[Force Field\], all allies gain DMG Dealt +1.5%, up to 6 stacks.
+
+**Amplification 4**: When attacking, if the carrier is an \[Assassination\] character, for every 100 points of Critical Technique the carrier has more than the target, gains Final DMG Dealt +2% for this attack.
+
+When any ally triggers an \[Assassination\], if the carrier owns \[Force Field\], all allies gain DMG Dealt +1.5%, up to 6 stacks.
+
+**Amplification 5**: When attacking, if the carrier is an \[Assassination\] character, for every 100 points of Critical Technique the carrier has more than the target, gains Final DMG Dealt +2% for this attack.
+
+When any ally triggers an \[Assassination\], if the carrier owns \[Force Field\], all allies gain DMG Dealt +2%, up to 6 stacks.
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | An Epic's End | 史诗的终点 | 史詩的終點 | 叙事詩の終焉 | 서사시의 끝 |
+
+## Edition differences
+
+- The Chinese texts count every 100 points of Critical Technique between the carrier and the target; the global client's English text counts only the points by which the carrier exceeds the target.

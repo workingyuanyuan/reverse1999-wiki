@@ -43,7 +43,6 @@ Every banner uses these rates except Covenant of the Water, and on every banner 
 
 - After 60 summons in a row without a 6-star, the 61st summon has a 4% chance of a 6-star.
 - Each further summon without a 6-star adds 2.5% to that chance.
-- The 70th summon without a 6-star always gives a 6-star.
 - A 6-star resets the chance to 1.5% on banners of the same type, and the count of summons without a 6-star starts again.
 
 ## Rate-up and the 50/50

@@ -37,31 +37,35 @@ sources:
 | Psychubes recommended in game | [Remaining Absurdity](/psychubes/remaining-absurdity/), [Hopscotch](/psychubes/hopscotch/), [Her Second Life](/psychubes/her-second-life/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-At the end of every round Oliver Fog gives up part of his HP for a larger shield and takes less damage while it holds. Working Hours heals him through Leech Rate, Ten Minutes Later gives the whole team Sturdiness and higher DEF, and his Ultimate is a single-target hit with extra Penetration Rate.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/oliver-fog/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Working Hours (single-target attack) | 160% Reality DMG | 240% | 400% |
-| Ten Minutes Later (mass buff) | all allies 1 stack of [Sturdiness], Reality DEF and Mental DEF +10% | +15% | +20% |
+### Working Hours
 
-Working Hours has Leech Rate +30% at every rank. The DEF bonus of Ten Minutes Later lasts 2 rounds at every rank.
+**Rank 1**: 1-target attack. Deals 160% Reality DMG. This attack gains Leech Rate +30%.
+
+**Rank 2**: 1-target attack. Deals 240% Reality DMG. This attack gains Leech Rate +30%.
+
+**Rank 3**: 1-target attack. Deals 400% Reality DMG. This attack gains Leech Rate +30%.
+
+### Ten Minutes Later
+
+**Rank 1**: Mass buff. Inflicts 1 stack of \[Sturdiness\] on all allies. Reality DEF and Mental DEF +10% for them for 2 rounds.
+
+**Rank 2**: Mass buff. Grants 1 stack of \[Sturdiness\] to all allies. Grants Reality DEF and Mental DEF +15% to all allies for 2 rounds.
+
+**Rank 3**: Mass buff. Grants 1 stack of \[Sturdiness\] to all allies. Grants Reality DEF and Mental DEF +20% to all allies for 2 rounds.
 
 ## Ultimate: Meaningless as Expected
 
-Deals 450% Reality DMG to one enemy, with Penetration Rate +30%.
-
-- [Sturdiness]: when the holder is attacked, DMG Taken Reduction +25%; one stack is used each time.
-- [Shield]: absorbs damage while it lasts.
+1-target attack. Deals 450% Reality DMG. This attack gains Penetration Rate +30%.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | At the end of each round, he loses 15% of his current HP and gains a [Shield] worth 150% of the HP lost, lasting until the start of the next round. DMG Taken −20% while he holds a shield. |
-| 2 | Reality DEF and Mental DEF +10% on entering battle. |
+**Insight 1 · Home of the Fog**: When a round ends, loses (Current HP ×15%) HP and gains a Shield with (HP Lost this time ×150%) HP which lasts until the start of the next round. While the Shield is active, DMG Taken -20%.
+
+**Insight 2 · Home of the Fog Ⅱ**: Reality DEF and Mental DEF +10% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -70,13 +74,20 @@ Deals 450% Reality DMG to one enemy, with Penetration Rate +30%.
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 500%. |
-| 2 | Working Hours has Leech Rate +50%. |
-| 3 | The Ultimate has Penetration Rate +40%. |
-| 4 | The Insight 1 shield is worth 200% of the HP lost. |
-| 5 | The Ultimate has Penetration Rate +50%. |
+**Portrait 1**: **Meaningless as Expected**: Reality DMG increased to 500%.
+
+**Portrait 2**: **Working Hours**'s effect changes to: this attack enjoys Leech Rate +50%.
+
+**Portrait 3**: **Meaningless as Expected**'s effect changes to: Penetration Rate +40%.
+
+**Portrait 4**: **Home of the Fog**\[Shield\] Effect changes to: shield DMG of lost HP×200%
+
+**Portrait 5**: **Meaningless as Expected**'s effect changes to: Penetration Rate +50%.
+
+## Statuses
+
+- **Sturdiness**: When attacked, DMG Taken Reduction +25% (-1 stack after trigger).
+- **Shield**: Blocks certain DMG for a certain duration.
 
 ## Names
 

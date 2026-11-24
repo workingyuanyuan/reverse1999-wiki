@@ -40,9 +40,15 @@ sources:
 
 ## Effect
 
-- On entering battle, the carrier gains 1 Moxie.
-- For each point of Moxie the carrier consumes, it gains Genesis DMG Dealt +0.4/0.5/0.6/0.7/0.8% (Amplification 1 to 5) and DMG Taken −0.4/0.5/0.6/0.7/0.8%, stacking up to 25 times.
-- At the end of a round in which the carrier is channeling, the [Poison] it inflicts gets DMG Dealt +2/2.5/3/3.5/4% for 3 rounds, stacking up to 5 times.
+**Amplification 1**: When entering battle, gain 1 Moxie. For each point of Moxie the carrier consumes, gain Genesis DMG Dealt +0.4% and DMG Taken -0.4%, stacking up to 25 times. At the end of the round, if the carrier is in a channel status, the carrier gains Poison DMG Dealt +2%, stacking up to 5 times, this effect lasts 3 rounds.
+
+**Amplification 2**: When entering battle, gain 1 Moxie. For each point of Moxie the carrier consumes, gain Genesis DMG Dealt +0.5% and DMG Taken -0.5%, stacking up to 25 times. At the end of the round, if the carrier is in a channel status, the carrier gains Poison DMG Dealt +2.5%, stacking up to 5 times, this effect lasts 3 rounds.
+
+**Amplification 3**: When entering battle, gain 1 Moxie. For each point of Moxie the carrier consumes, gain Genesis DMG Dealt +0.6% and DMG Taken -0.6%, stacking up to 25 times. At the end of the round, if the carrier is in a channel status, the carrier gains Poison DMG Dealt +3%, stacking up to 5 times, this effect lasts 3 rounds.
+
+**Amplification 4**: When entering battle, gain 1 Moxie. For each point of Moxie the carrier consumes, gain Genesis DMG Dealt +0.7% and DMG Taken -0.7%, stacking up to 25 times. At the end of the round, if the carrier is in a channel status, the carrier gains Poison DMG Dealt +3.5%, stacking up to 5 times, this effect lasts 3 rounds.
+
+**Amplification 5**: When entering battle, gain 1 Moxie. For each point of Moxie the carrier consumes, gain Genesis DMG Dealt +0.8% and DMG Taken -0.8%, stacking up to 25 times. At the end of the round, if the carrier is in a channel status, the carrier gains Poison DMG Dealt +4%, stacking up to 5 times, this effect lasts 3 rounds.
 
 ## Names
 

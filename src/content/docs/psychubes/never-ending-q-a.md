@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- After the carrier casts a 1-target Ultimate, it gains Ultimate Might +3/4.5/4.5/6/6% (Amplification 1 to 5), stacking up to 4 times.
-- After the carrier casts a mass Ultimate, it gains Critical DMG +6/6/9/9/12%, stacking up to 3 times.
+**Amplification 1**: After the carrier casts a 1-target ultimate, gain Ultimate Might +3%, stacks up to 4 times.
+
+After the carrier casts a mass ultimate, gain Critical DMG +6%, stacks up to 3 times.
+
+**Amplification 2**: After the carrier casts a 1-target ultimate, gain Ultimate Might +4.5%, stacks up to 4 times.
+
+After the carrier casts a mass ultimate, gain Critical DMG +6%, stacks up to 3 times.
+
+**Amplification 3**: After the carrier casts a 1-target ultimate, gain Ultimate Might +4.5%, stacks up to 4 times.
+
+After the carrier casts a mass ultimate, gain Critical DMG +9%, stacks up to 3 times.
+
+**Amplification 4**: After the carrier casts a 1-target ultimate, gain Ultimate Might +6%, stacks up to 4 times.
+
+After the carrier casts a mass ultimate, gain Critical DMG +9%, stacks up to 3 times.
+
+**Amplification 5**: After the carrier casts a 1-target ultimate, gain Ultimate Might +6%, stacks up to 4 times.
+
+After the carrier casts a mass ultimate, gain Critical DMG +12%, stacks up to 3 times.
 
 ## Names
 

@@ -39,8 +39,25 @@ sources:
 
 ## Effect
 
-- The carrier has Critical Rate +8/10/12/14/16% (Amplification 1 to 5).
-- After an attack of the carrier sets off a Bullet effect, the carrier gains Critical DMG +16/20/24/28/32% for 2 rounds.
+**Amplification 1**: The carrier gains Critical Rate +8%.
+
+After the carrier's attack triggers a Bullet effect, gains Critical DMG +16% for 2 rounds.
+
+**Amplification 2**: The carrier gains Critical Rate +10%.
+
+After the carrier's attack triggers a Bullet effect, gains Critical DMG +20% for 2 rounds.
+
+**Amplification 3**: The carrier gains Critical Rate +12%.
+
+After the carrier's attack triggers a Bullet effect, gains Critical DMG +24% for 2 rounds.
+
+**Amplification 4**: The carrier gains Critical Rate +14%.
+
+After the carrier's attack triggers a Bullet effect, gains Critical DMG +28% for 2 rounds.
+
+**Amplification 5**: The carrier gains Critical Rate +16%.
+
+After the carrier's attack triggers a Bullet effect, gains Critical DMG +32% for 2 rounds.
 
 ## Names
 

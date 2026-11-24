@@ -37,43 +37,43 @@ sources:
 | Psychubes recommended in game | [The Fluttering Moment](/psychubes/the-fluttering-moment/) |
 | Mainland release | 2026-03-05 |
 | Global release | 2026-05-28 |
-
-Lorentz Butterfly belongs to the Lingering Glow group: Burn and Halo on enemies build up Lingering Glow, and her Insight 3 passive turns it into DMG Bonus and Incantation Might for the whole team each round, more with more Lingering Glow allies. She spreads [Burn], her first incantation adds damage based on what the team's incantations already dealt to the target that round, and her Ultimate prints copies of a chosen incantation that cost no AP the next round.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/lorentz-butterfly/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| The Primer's Flutter (single-target attack) | 200% Mental DMG; 2 Burn | 400%; 2 Burn; Static Genesis DMG 3% | 800%; 3 Burn; 6% |
-| Chaos Criteria (buff) | The Igniting Wingbeat on herself, 2 rounds | on herself and the other Lingering Glow allies, 2 rounds | on herself and the other Lingering Glow allies, 3 rounds |
+### The Primer's Flutter
 
-- **The Primer's Flutter** puts its Burn on the target before the hit. From rank 2, the hit adds [Static Genesis DMG] equal to 3% (rank 2) or 6% (rank 3) of the damage that allied incantations dealt to the target this round, raised by 0.5% (rank 2) or 1% (rank 3) for every 100 Lingering Glow, counting at most 600. This triggers at most 10 times a round.
-- **Chaos Criteria** gives [The Igniting Wingbeat]: each attack of the holder adds 1 stack of Burn.
+**Rank 1**: 1-target attack. Deals 200% Mental DMG. Before attacking, inflicts 2 stacks of \[Burn\] on the target.
+
+**Rank 2**: 1-target attack. Deals 400% Mental DMG. Before attacking, inflicts 2 stacks of \[Burn\] on the target. After hitting the target, deals an additional (DMG dealt by allied incantations to the target this round x3%) \[Static Genesis DMG\], increased by 0.5% for every 100 points of Lingering Glow, counting up to 600 points (triggers up to 10 times per round).
+
+**Rank 3**: 1-target attack. Deals 800% Mental DMG. Before attacking, inflicts 3 stacks of \[Burn\] on the target. After hitting the target, deals an additional (DMG dealt by allied incantations to the target this round x6%) \[Static Genesis DMG\], increased by 1% for every 100 points of Lingering Glow, counting up to 600 points (triggers up to 10 times per round).
+
+### Chaos Criteria
+
+**Rank 1**: Self buff. Gains \[The Igniting Wingbeat\] for 2 rounds.
+
+**Rank 2**: Mass buff. Gains \[The Igniting Wingbeat\] for 2 rounds and grants the same effect to all other \[Lingering Glow\] allies.
+
+**Rank 3**: Mass buff. Gains \[The Igniting Wingbeat\] for 3 rounds and grants the same effect to all other \[Lingering Glow\] allies.
 
 ## Ultimate: The Unstable Dynamical System
 
-Before casting, Lorentz Butterfly chooses 1 basic incantation in the Spelldock. She gains [Continuous Action I] for 1 round, and 3 [Precast Incantation] copies of the chosen card are printed; they come out at the start of the next round, rewritten with [Fractal Dimension].
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Burn | Healing Taken −15% (does not stack). At the end of each round, the holder takes Genesis DMG equal to 4% of its own ATK. Stacks up to 30 times; all stacks count as one Neg Status; half the stacks are removed after it takes effect. |
-| Halo | Healing Taken −25% (does not stack). At the end of each round, the holder takes Genesis DMG equal to 4% of the ATK of the one who applied it. Same stacking rules as Burn. |
-| Lingering Glow | Builds up whenever an enemy gains Burn or Halo, more when fewer enemies are on the field. Cannot exist alongside Bloodtithe or the Pursuit Scope. |
-| Static Genesis DMG | Genesis DMG that stat bonuses do not affect. |
-| Continuous Action I | AP +1. |
-| Precast Incantation | Counts as the incantation of the same name. Unused ones are removed at the end of the round. |
-| Fractal Dimension | A rewrite of the card: it costs no AP when played, gives no Moxie and cannot be merged. It does not stack with other rewrites. |
+Self buff. Gains \[Continuous Action I\] for 1 round. Before casting, selects 1 basic incantation in the Spelldock to print. After casting, prints 3 \[Precast Incantation\] duplicates, which are generated and rewritten with \[Fractal Dimension\] at the start of the next round.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 0 (Precognition) | Burn or Halo on any enemy builds up Lingering Glow. |
-| 1 | Before the AP Area resolves, each of Lorentz Butterfly's basic incantations gains one rank for every other basic incantation of the same kind in the AP Area. |
-| 2 | Critical Rate +10% on entering battle. |
-| 3 | On entering battle, she gains 2 Moxie. At the end of each round, every Lingering Glow ally who did not cast an Ultimate that round gains 1 Moxie, and Lorentz Butterfly 1 more. Ultimates of Lingering Glow allies do not count toward the Incantation Draw Limit. The Burn stack limit of all enemies rises by 5, and by 15 more with 3 Lingering Glow allies. At the start of each round, for every 100 Lingering Glow (counting at most 600), all allies gain DMG Bonus +2.5%, 5% or 15% and Incantation Might +1%, 2% or 6% for 1 round, with 1, 2 or 3 Lingering Glow allies. |
+**Insight 0 · Nonperiodic Flow**: Accumulates \[Lingering Glow\] (mutually exclusive with \[Bloodtithe\]) whenever an enemy is inflicted with \[Burn\] or \[Halo\].
+
+**Insight 1 · Nonperiodic Flow**: Right before the AP Area resolves, each of Lorentz Butterfly's basic incantations gains rank +1 for every other basic incantation of the same type in the AP Area.
+
+**Insight 2 · Nonperiodic Flow II**: Critical Rate +10% when entering battle.
+
+**Insight 3 · Nonperiodic Flow III**: When entering battle, gains Moxie +2. At the end of the round, \[Lingering Glow\] allies who did not cast an Ultimate this round gain Moxie +1 (Lorentz Butterfly gains an additional Moxie +1). \[Lingering Glow\] allies' Ultimates do not take up the allied Incantation Draw Limit.
+
+All enemies' \[Burn\] stack limits increase by 5. When at least 3 \[Lingering Glow\] allies are present, the Burn stack limits additionally increase by 15.
+
+When 1/2/3 \[Lingering Glow\] allies are present: at the start of the round, for every 100 points of \[Lingering Glow\] (counting up to 600 points), grants DMG Bonus +2.5%/5%/15% and Incantation Might +1%/2%/6% to all allies for 1 round.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -83,13 +83,39 @@ Before casting, Lorentz Butterfly chooses 1 basic incantation in the Spelldock. 
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Continuous Action I lasts 2 rounds; she gains 2 extra Moxie at round end if she cast no Ultimate; the Incantation Might bonus becomes 3%, 4% or 8%; the Lingering Glow raise of The Primer's Flutter becomes 0.6% (rank 2) or 1.2% (rank 3). |
-| 2 | The Ultimate prints 4 copies; the DMG Bonus becomes 5.5%, 8% or 18%. |
-| 3 | The Igniting Wingbeat from Chaos Criteria lasts 3, 3 or 4 rounds by rank; the Incantation Might bonus becomes 5%, 6% or 10%. |
-| 4 | The DMG Bonus becomes 8.5%, 11% or 21%. |
-| 5 | The Ultimate prints 5 copies; the Lingering Glow raise of The Primer's Flutter becomes 0.7% (rank 2) or 1.4% (rank 3). |
+**Portrait 1**: **The Unstable Dynamical System**: \[Continuous Action I\] now lasts 2 rounds.
+
+**Nonperiodic Flow**: Lorentz Butterfly now gains an additional Moxie +2 at the end of the round if she did not cast an Ultimate this round.
+
+**Nonperiodic Flow**: When 1/2/3 \[Lingering Glow\] allies are present, Lorentz Butterfly now grants Incantation Might +3%/4%/8% to all allies for every 100 points of \[Lingering Glow\] at the start of the round.
+
+**The Primer's Flutter** now deals an additional 0.6%/1.2% \[Static Genesis DMG\] at rank 2/3 for every 100 points of Lingering Glow.
+
+**Portrait 2**: **The Unstable Dynamical System** now prints 4 \[Precast Incantation\] duplicates.
+
+**Nonperiodic Flow**: When 1/2/3 \[Lingering Glow\] allies are present, Lorentz Butterfly now grants DMG Bonus +5.5%/8%/18% to all allies for every 100 points of \[Lingering Glow\] at the start of the round.
+
+**Portrait 3**: **Chaos Criteria**: At rank 1/2/3, \[The Igniting Wingbeat\] now lasts 3/3/4 rounds.
+
+**Nonperiodic Flow**: When 1/2/3 \[Lingering Glow\] allies are present, Lorentz Butterfly now grants Incantation Might +5%/6%/10% to all allies for every 100 points of \[Lingering Glow\] at the start of the round.
+
+**Portrait 4**: **Nonperiodic Flow**: When 1/2/3 \[Lingering Glow\] allies are present, Lorentz Butterfly now grants DMG Bonus +8.5%/11%/21% to all allies for every 100 points of \[Lingering Glow\] at the start of the round.
+
+**Portrait 5**: **The Unstable Dynamical System** now prints 5 \[Precast Incantation\] duplicates.
+
+**The Primer's Flutter** now deals an additional 0.7%/1.4% \[Static Genesis DMG\] at rank 2/3 for every 100 points of Lingering Glow.
+
+## Statuses
+
+- **Burn**: Healing Taken -15% (unstackable). At the end of the round, takes (the holder's ATK x4%) Genesis DMG (stackable up to 30 times, multiple stacks of Burn is regarded as 1 \[Neg Status\], removes 50% of the stacks when triggered).
+- **Static Genesis DMG**: This type of Genesis DMG is not affected by relevant stat bonuses.
+- **The Igniting Wingbeat**: When attacking, additionally inflicts 1 stack of \[Burn\].
+- **Lingering Glow**: Accumulates \[Lingering Glow\] whenever an enemy is inflicted with \[Burn\] or \[Halo\]. The fewer enemies there are, the more \[Lingering Glow\] is accumulated.
+- **Continuous Action I**: AP +1.
+- **Precast Incantation**: A \[Precast Incantation\] is regarded as an incantation of the same name. At the end of the round, all unused \[Precast Incantation\] are removed.
+- **Fractal Dimension**: Rewrites the incantation's surface. When the incantation is played, it does not cost AP and does not grant Moxie. The incantation cannot be merged. (Does not stack with other effects that rewrite the incantation's surface.)
+- **Bloodtithe**: Whenever allies lose 3000 HP combined, accumulate 1 point of \[Bloodtithe\]; HP lost from being attacked accumulates \[Bloodtithe\] at only 30% efficiency.
+- **Halo**: Healing Taken -25% (unstackable). At the end of the round, takes (the inflicter's ATK x4%) Genesis DMG (stackable up to 30 times, multiple stacks of Halo are regarded as 1 \[Neg Status\], removes 50% of the stacks when triggered).
 
 ## Names
 

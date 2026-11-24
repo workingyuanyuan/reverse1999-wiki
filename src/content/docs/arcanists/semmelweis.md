@@ -37,40 +37,39 @@ sources:
 | Psychubes recommended in game | [The Third Commitment](/psychubes/the-third-commitment/), [In the Shadow](/psychubes/in-the-shadow/), [From the Depths](/psychubes/from-the-depths/) |
 | Mainland release | 2024-05-16 |
 | Global release | 2024-09-19 |
-
-Semmelweis spends HP to fight, her own and the team's. Her Ultimate costs every ally a fifth of their current HP, lays the [Blood Domain] array, which gives DMG Bonus for missing HP, and puts her in [Feral Instinct], which casts a mass attack at the end of each round; every HP loss during the team's actions makes that attack hit harder. Her team buff raises the whole team's damage and gives one ally [Fresh Blood].
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/semmelweis/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Signature Floppy (single-target attack) | 220% Reality DMG | 330% | 550% |
-| Effective Means (single-target buff) | all allies DMG Dealt +15% | +20% | +30% |
+### Signature Floppy
 
-- **Signature Floppy** costs Semmelweis 10% of her current HP at every rank.
-- **Effective Means** first gives one ally Fresh Blood for 2 rounds, then the team buff for 2 rounds; the ally with Fresh Blood gets DMG Dealt +10% more.
+**Rank 1**: 1-target attack. Loses (Current HP x10%) HP and deals 220% Reality DMG.
+
+**Rank 2**: 1-target attack. Loses (Current HP x10%) HP and deals 330% Reality DMG.
+
+**Rank 3**: 1-target attack. Loses (Current HP x10%) HP and deals 550% Reality DMG.
+
+### Effective Means
+
+**Rank 1**: 1-target buff. Grants the \[Fresh Blood\] status to an ally for 2 rounds, then grants DMG Dealt +15% to all allies and an additional DMG Dealt +10% to the ally in the \[Fresh Blood\] status for 2 rounds.
+
+**Rank 2**: 1-target buff. Grants the \[Fresh Blood\] status to an ally for 2 rounds, then grants DMG Dealt +20% to all allies and an additional DMG Dealt +10% to the ally in the \[Fresh Blood\] status for 2 rounds.
+
+**Rank 3**: 1-target buff. Grants the \[Fresh Blood\] status to an ally for 2 rounds, then grants DMG Dealt +30% to all allies and an additional DMG Dealt +10% to the ally in the \[Fresh Blood\] status for 2 rounds.
 
 ## Ultimate: And So It Rises Again
 
-All allies lose 20% of their current HP. Semmelweis lays the array Blood Domain for 3 rounds and enters Feral Instinct for 3 rounds.
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Blood Domain | An [Array]: allies have DMG Taken Reduction +20%, and when they attack, DMG Bonus +5% for every 10% of Max HP they are missing, at most +40%. |
-| Feral Instinct | If Semmelweis is still in it at the end of a round, she casts [Truth Revealed]. |
-| Truth Revealed | 80% Reality DMG to all enemies. |
-| Fresh Blood | Before its holder casts an incantation, they lose 5% of current HP, and that action has Critical Rate +15%. Only one ally can have it at a time. |
-| Array | A battlefield effect that lasts on the field; only one array can be on the field at a time, on either side. |
+Mass buff. All allies lose (Current HP x20%) HP. Creates a special array \[Blood Domain\] for 3 rounds. Enters the \[Feral Instinct\] status for 3 rounds.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | On entering battle, Semmelweis loses 20% of her current HP and gains 3 Moxie. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | After her Ultimate she loses another 10% of current HP and gains 1 Moxie. In Feral Instinct, each HP loss of any character during an ally's action makes that round's Truth Revealed deal 30% more Reality DMG, up to 20 times per cast. |
+**Insight 1 · Blood Thirst**: When entering battle, lose own (Current HP x20%) HP and grant Moxie +3 to self.
+
+**Insight 2 · Blood Thirst II**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · Blood Thirst III**: Right after casting an Ultimate, lose an additional own (Current HP x10%) HP and gain Moxie +1.
+
+When in the \[Feral Instinct\] status, for each HP loss effect suffered by any ally when an ally takes an action, this \[Truth Revealed\] deals an additional Reality DMG +30%, stacking up to 20 times.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -80,26 +79,42 @@ All allies lose 20% of their current HP. Semmelweis lays the array Blood Domain 
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Blood Domain gives DMG Bonus +7.5% for every 10% of missing Max HP, at most +60%. |
-| 2 | Each HP loss in Feral Instinct adds 45% to Truth Revealed. |
-| 3 | Truth Revealed deals 120%. |
-| 4 | Signature Floppy deals 260, 390 or 630% by rank. |
-| 5 | Each HP loss in Feral Instinct adds 60% to Truth Revealed. |
+**Portrait 1**: **And So It Rises Again**: \[Blood Domain\]'s deployed effect is now: Whenever an ally attacks, for every 10% of their Missing HP, gain an additional DMG Bonus +7.5% (up to 60%).
+
+**Portrait 2**: **Blood Thirst**: When in the \[Feral Instinct\] status, for each HP loss effect suffered by any ally when an ally takes an action, this \[Truth Revealed\] now deals an additional Reality DMG +45%.
+
+**Portrait 3**: **And So It Rises Again**: When in the \[Feral Instinct\] status, \[Truth Revealed\]'s Reality DMG dealt to all enemies is increased to 120%.
+
+**Portrait 4**: **Signature Floppy**: Reality DMG is increased to 260/390/630%.
+
+**Portrait 5**: **Blood Thirst**: When in the \[Feral Instinct\] status, for each HP loss effect suffered by any ally when an ally takes an action, this \[Truth Revealed\] now deals an additional Reality DMG +60%.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Semmelweis has one Epiphany of four levels; it brings the team resource [Bloodtithe] into her kit.
+**Epiphany 1, level 1**: Whenever an ally loses HP, accumulates points of \[Bloodtithe\].
 
-[Bloodtithe]: the team gains 1 point for every 3000 HP it loses in total; HP lost to attacks counts only 30%. On the mainland service, a team cannot hold it together with Lingering Glow or the Pursuit Scope.
+When entering battle, gain Max HP +50% and grant (Semmelweis's Max HP x10%) Max HP to other allies.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | The team builds Bloodtithe when it loses HP. On entering battle, Semmelweis gains Max HP +50%, and every other ally gains Max HP equal to 10% of hers. |
-| 1 | 2 | Effective Means gives the Fresh Blood ally DMG Dealt +10% more, and its statuses last 3 rounds. Fresh Blood changes: its holder loses 10% of current HP when acting and gains Critical Rate +20% and Critical DMG +20%. |
-| 1 | 3 | Semmelweis gains 1 Moxie for every 8 Bloodtithe the team gains. Truth Revealed also deals 100% Reality DMG based on 30% of her Max HP instead of ATK, and adds 2 Bloodtithe. |
-| 1 | 4 | Blood Domain also gives allies Healing Taken +10%, and +4% more for every 10% of Max HP they are missing, at most +32%. In Blood Domain, once the team's Bloodtithe cap reaches 50 (or 70), allies lose 5% of current HP when they act and gain Extra Action DMG Dealt +15% (or +30%); the Fresh Blood ally gains +10% (or +20%) more. |
+**Epiphany 1, level 2**: **Effective Means** Enhancement: DMG dealt by allies under the \[Fresh Blood\] status is additionally increased by 10% and the duration of the granted statuses is increased to 3 rounds.
+
+\[Fresh Blood\]'s effect changed to: When taking an action, lose 10% of current HP. Critical Rate +20%. Critical DMG +20%.
+
+**Epiphany 1, level 3**: For every 8 \[Bloodtithe\] points gained by the team, gain Moxie +1 for self.
+
+\[Truth Revealed\] deals (30% of own Max HP instead of ATK) Reality DMG plus 100% Reality DMG and grants \[Bloodtithe\] points +2.
+
+**Epiphany 1, level 4**: \[Blood Domain\] Additional Effects: All allies' Healing Taken +10%. For every 10% missing Max HP on allies, they gain an additional Healing Taken +4% (up to 32%).
+
+When under \[Blood Domain\], if max \[Bloodtithe\] reaches 50/70, after an ally takes an action, they lose 5% of current HP and gain Extra Action DMG Dealt +15%/30%. If the ally has \[Fresh Blood\], they gain an additional Extra Action DMG Dealt +10%/20%.
+
+## Statuses
+
+- **Fresh Blood**: Right before actively casting an incantation, lose (Current HP x5%) HP to grant Critical Rate +15% to this action. Only 1 \[Fresh Blood\] can exist on the allied side at a time.
+- **Blood Domain**: \[Array\] effect: Allied characters gain DMG Taken Reduction +20%. Whenever an ally attacks, for every 10% of their Missing HP, gain an additional DMG Bonus +5% (up to 40%).
+- **Feral Instinct**: At the end of the round, casts \[Truth Revealed\] if still under the Feral Instinct status.
+- **Truth Revealed**: Mass attack. Deals 80% Reality DMG to all enemies.
+- **Bloodtithe**: Whenever allies lose 3000 HP combined, accumulate 1 point of \[Bloodtithe\]; HP lost from being attacked accumulates \[Bloodtithe\] at only 30% efficiency.
+- **Array**: Battlefield effect. Continuously affects characters on the field (only one type of array can exist at a time, whether on the allied or enemy side).
 
 ## Names
 

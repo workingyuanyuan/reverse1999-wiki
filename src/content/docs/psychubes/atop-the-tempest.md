@@ -31,11 +31,6 @@ sources:
 | Recommended in game for | [Huntsworn Lilya](/arcanists/huntsworn-lilya/) |
 | Global client | not yet, mainland China client only |
 
-## Effect
-
-- On entering battle, a Star carrier deals 8/12/12/16/16% more damage (Amplification 1 to 5).
-- After any ally attacks with a Pursuit incantation, the carrier gains Pursuit DMG Bonus +3/3/4.5/4.5/6%. The bonus stacks and is cleared when Full Pursuit ends.
-
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |

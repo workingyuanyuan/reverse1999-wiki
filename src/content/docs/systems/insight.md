@@ -1,6 +1,6 @@
 ---
 title: "Insight and levels"
-description: "Reverse: 1999 Insight: level caps, Sharpodonty cost and what each Insight unlocks, by rarity."
+description: "Reverse: 1999 Insight: 5- and 6-star arcanists reach level 60 at Insight III, 2- to 4-star ones level 50."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
 caveat: "Insight resets the arcanist to level 1 with a higher cap; 2-, 3- and 4-star arcanists stop at Insight II, level 50."
 lastVerified: 2026-11-23
@@ -24,7 +24,9 @@ sources:
   - title: "Reverse: 1999 Wiki (Fandom), Insight, revision 20796"
     url: https://reverse1999.fandom.com/wiki/Insight?oldid=20796
 ---
-Insight raises an arcanist's level cap once the arcanist reaches it. Each Insight costs Sharpodonty and materials that depend on the arcanist (listed on each arcanist's page), and returns the arcanist to level 1 of the new cap.
+## How Insight works
+
+Insight raises an arcanist's level cap once the arcanist reaches it. Each Insight costs Sharpodonty and materials that depend on the arcanist, and returns the arcanist to level 1 of the new cap.
 
 ## Level caps
 
@@ -44,7 +46,7 @@ Insight raises an arcanist's level cap once the arcanist reaches it. Each Insigh
 | 4 stars | 8,000 Sharpodonty | 25,000 Sharpodonty | — |
 | 2 and 3 stars | 5,000 Sharpodonty | 20,000 Sharpodonty | — |
 
-Insight III also takes a Tome of the arcanist's Afflatus and higher-rarity materials; each arcanist's page gives the full list.
+Insight III also takes a Tome of the arcanist's Afflatus and higher-rarity materials.
 
 ## What each Insight unlocks
 
@@ -58,4 +60,4 @@ Euphoria opens at Insight III level 30 for a 6-star arcanist and at Insight III 
 
 ## Portrait
 
-A duplicate of an arcanist raises its Portrait by one level, up to Portrait 5; each level changes one skill, given on the arcanist's page. What later duplicates turn into is on [Summoning and pity](/systems/summoning/).
+A duplicate of an arcanist raises its Portrait by one level, up to Portrait 5; each level changes one skill.

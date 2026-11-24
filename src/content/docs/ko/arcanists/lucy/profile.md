@@ -1,8 +1,8 @@
 ---
 title: "루시 프로필"
-description: "리버스: 1999 루시의 프로필: 표지, 물품, 문화, 스킨, 음성의 게임 내 텍스트."
+description: "리버스: 1999 루시의 프로필: 글로벌 클라이언트에 스킨 3개, 음성 68개."
 appliesTo: "리버스: 1999, 글로벌 클라이언트 111.0.1077(3.9 버전), 한국어 텍스트"
-caveat: "텍스트는 글로벌 클라이언트의 한국어다. 두 버전 앞선 중국 본토 클라이언트는 일부 대사의 표현이 다르다."
+caveat: "라벨 뒤 괄호에 스킨 이름이 있는 음성은 루시에게 그 스킨을 입혔을 때만 나온다."
 lastVerified: 2026-11-24
 aliases:
   - "Lucy profile"
@@ -10,15 +10,13 @@ aliases:
   - "露西 档案"
   - "ルーシー プロフィール"
 sources:
-  - title: "re1999-data-global, 글로벌 클라이언트 111.0.1077: character_data.json, character_voice.json, skin.json(수록 항목)"
+  - title: "re1999-data-global, 글로벌 클라이언트 111.0.1077: character_data.json, character_voice.json, skin.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/tree/7308a19ec644c60fd539034c9815cfaa23237dda/data/json
   - title: "re1999-data-global, 글로벌 클라이언트 111.0.1077: 영어, 일본어, 한국어, 번체 중국어 텍스트. 텍스트의 권리는 Bluepoch에 있다"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/tree/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language
   - title: "re1999-data, 중국 본토 클라이언트 113.0.1422: 같은 테이블의 간체 중국어 텍스트"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
 ---
-리버스: 1999 [루시](/ko/arcanists/lucy/)의 파일. 글로벌 클라이언트의 한국어 원문 그대로다.
-
 ## 표지
 
 의식 각성자 예술품으로 1820년대 말 전시, 현재까지 활동 중이며, 누적 출품 기간 181년, 12월 30일 겨울 탄생. 그레이트 브리튼 및 북아일랜드 연합 왕국 런던에서 전시되었고, 이후 라플라스 연구 센터에서 활약했다.

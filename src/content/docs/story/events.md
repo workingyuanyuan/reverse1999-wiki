@@ -1,6 +1,6 @@
 ---
 title: "Event stories"
-description: "Reverse: 1999 Event stories: every chapter, its stages and the full story text."
+description: "Reverse: 1999 Event stories: 23 chapters, 423 stages in all."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global, global client 111.0.1077: chapter.json and episode.json (stage codes, in-game dates)"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-Event stories of Reverse: 1999. Each chapter page lists its stages; each stage page holds its full story text and Trails.
-
 | Chapter | Stages | Trails |
 | --- | --- | --- |
 | [The Theft of the Rimet Cup](/story/the-theft-of-the-rimet-cup/) | 16 | 14 |
@@ -43,8 +41,6 @@ Event stories of Reverse: 1999. Each chapter page lists its stages; each stage p
 | [Polymerized Dreams](/story/polymerized-dreams/) | 16 | 8 |
 | [Against the Flood](/story/against-the-flood/) | 5 | 0 |
 
-## Mainland service only
-
-Out on the mainland service only, by their Simplified Chinese name:
+## Mainland service only (Simplified Chinese names)
 
 - 亚特兰蒂斯谋杀案

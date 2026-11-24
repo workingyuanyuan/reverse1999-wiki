@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- On entering battle, a Mineral carrier gets Healing Done +12/15/18/21/24% (Amplification 1 to 5).
-- For each point of Conduit Energy the team consumes, all allies get Critical DMG +0.8/0.9/1/1.2/1.5% for 3 rounds, up to 16 stacks.
+**Amplification 1**: When entering battle, if the carrier is a \[Mineral\] character, gains Healing Done +12%.
+
+For each Conduit Energy consumed by allies, all allies gain Critical DMG +0.8% for 3 rounds, up to 16 stacks.
+
+**Amplification 2**: When entering battle, if the carrier is a \[Mineral\] character, gains Healing Done +15%.
+
+For each Conduit Energy consumed by allies, all allies gain Critical DMG +0.9% for 3 rounds, up to 16 stacks.
+
+**Amplification 3**: When entering battle, if the carrier is a \[Mineral\] character, gains Healing Done +18%.
+
+For each Conduit Energy consumed by allies, all allies gain Critical DMG +1% for 3 rounds, up to 16 stacks.
+
+**Amplification 4**: When entering battle, if the carrier is a \[Mineral\] character, gains Healing Done +21%.
+
+For each Conduit Energy consumed by allies, all allies gain Critical DMG +1.2% for 3 rounds, up to 16 stacks.
+
+**Amplification 5**: When entering battle, if the carrier is a \[Mineral\] character, gains Healing Done +24%.
+
+For each Conduit Energy consumed by allies, all allies gain Critical DMG +1.5% for 3 rounds, up to 16 stacks.
 
 ## Names
 

@@ -36,32 +36,37 @@ sources:
 | Psychubes recommended in game | [Her Second Life](/psychubes/her-second-life/) |
 | Mainland release | 2025-04-10 |
 | Global release | 2025-07-03 |
-
-Name Day backs the ally directly in front of him. After each of his actions that ally gains Ceremonious, stacks of Ultimate Might, and his Ultimate lets it cast its next Ultimate without an action point while raising every ally's Ultimate DMG. When that ally casts an Ultimate, Name Day regains Moxie.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/name-day/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Circular Maneuvers (attack on 2 enemies) | 120% Mental DMG | 160%; dispels all Counter statuses | 300%; dispels all Counter statuses |
-| As You Wish (team buff) | all allies DMG Dealt +20%, DMG Heal +20%; 2 rounds | +25%, +25%; 2 rounds | +35%, +35%; 3 rounds |
+### Circular Maneuvers
 
-[Counter]: a lasting status that takes effect when its holder is attacked.
+**Rank 1**: Mass attack. Deals 120% Mental DMG to 2 enemies.
+
+**Rank 2**: Mass attack. Deals 160% Mental DMG to 2 enemies, dispels all \[Counter\] statuses from the targets.
+
+**Rank 3**: Mass attack. Deals 300% Mental DMG to 2 enemies, dispels all \[Counter\] statuses from the targets.
+
+### As You Wish
+
+**Rank 1**: Mass buff. DMG Dealt +20% and DMG Heal +20% for all allies for 2 rounds.
+
+**Rank 2**: Mass buff. Grants DMG Dealt +25% and DMG Heal +25% to all allies for 2 rounds.
+
+**Rank 3**: Mass buff. Grants DMG Dealt +35% and DMG Heal +35% to all allies for 3 rounds.
 
 ## Ultimate: Etched in Snow
 
-Gives all allies Ultimate DMG +50% for 3 rounds and puts [Enname] on the ally directly in front of Name Day for 2 rounds.
-
-- [Enname]: casting an Ultimate costs no action point.
-- [Ceremonious]: Ultimate Might +3% per stack, up to 100 stacks; cannot be dispelled; gone once the holder casts an Ultimate.
+Mass buff. Grants Ultimate DMG +50% to all allies for 3 rounds. Grants \[Enname\] to the adjacent ally in front for 2 rounds.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | After each action, Name Day gives the ally directly in front of him 2 stacks of Ceremonious. |
-| 2 | DMG Taken −8% on entering battle. |
-| 3 | When the ally directly in front of him casts an Ultimate, Name Day gains 1 Moxie. |
+**Insight 1 · Unforgettable Bonds**: After taking an action, grant 2 stacks of \[Ceremonious\] to the adjacent ally in front.
+
+**Insight 2 · Unforgettable Bonds II**: DMG Taken -8% when entering battle.
+
+**Insight 3 · Unforgettable Bonds III**: When the adjacent ally in front casts an ultimate, Name Day gains Moxie +1.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -71,13 +76,21 @@ Gives all allies Ultimate DMG +50% for 3 rounds and puts [Enname] on the ally di
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Circular Maneuvers deals 160, 240 or 360% by rank. |
-| 2 | As You Wish gives DMG Dealt and DMG Heal +25, 30 or 40% by rank. |
-| 3 | Insight 1 gives 3 stacks of Ceremonious. |
-| 4 | Enname lasts 3 rounds. |
-| 5 | The Ultimate's team buff becomes Ultimate DMG +65%. |
+**Portrait 1**: **Circular Maneuvers**: At incantation rank 1/2/3, deals 160%/240%/360% Mental DMG.
+
+**Portrait 2**: **As You Wish**: At incantation rank 1/2/3, the DMG Dealt and DMG Heal bonuses are increased to 25%/30%/40%.
+
+**Portrait 3**: **Unforgettable Bonds**: The amount of \[Ceremonious\] granted to the adjacent ally in front is increased to 3 stacks.
+
+**Portrait 4**: **Etched in Snow**: The duration of \[Enname\] granted is extended to 3 rounds.
+
+**Portrait 5**: **Etched in Snow**: The Ultimate DMG bonus granted to all allies is increased to +65%.
+
+## Statuses
+
+- **Counter**: Grants continuous Counter. Effect is triggered When the caster is attacked.
+- **Enname**: When casting an ultimate, no AP is consumed.
+- **Ceremonious**: Ultimate Might +3% (up to 100 stacks, undispellable, disappears after casting an Ultimate).
 
 ## Names
 

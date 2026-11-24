@@ -40,9 +40,35 @@ sources:
 
 ## Effect
 
-- On entering battle, a Spirit carrier gets Max HP +5/7.5/10/12.5/15% (Amplification 1 to 5).
-- After the carrier takes damage, it gets Critical Rate +1/1.5/1.5/2/2% at the end of the round, up to 16 stacks.
-- When the carrier attacks while below 80% HP with a [Bloodtithe] cap of at least 50 points, it gets Critical DMG +24/24/36/36/48%.
+**Amplification 1**: When entering battle, if the carrier is a \[Spirit\] character, Max HP +5%.
+
+When the carrier takes DMG, Critical Rate +1% at the end of the round, up to 16 stacks.
+
+When the carrier attacks, if below 80% HP and at no less than 50 Max Bloodtithe points, Critical DMG +24%.
+
+**Amplification 2**: When entering battle, if the carrier is a \[Spirit\] character, Max HP +7.5%.
+
+When the carrier takes DMG, Critical Rate +1.5% at the end of the round, up to 16 stacks.
+
+When the carrier attacks, if below 80% HP and at no less than 50 Max Bloodtithe points, Critical DMG +24%.
+
+**Amplification 3**: When entering battle, if the carrier is a \[Spirit\] character, Max HP +10%.
+
+When the carrier takes DMG, Critical Rate +1.5% at the end of the round, up to 16 stacks.
+
+When the carrier attacks, if below 80% HP and at no less than 50 Max Bloodtithe points, Critical DMG +36%.
+
+**Amplification 4**: When entering battle, if the carrier is a \[Spirit\] character, Max HP +12.5%.
+
+When the carrier takes DMG, Critical Rate +2% at the end of the round, up to 16 stacks.
+
+When the carrier attacks, if below 80% HP and at no less than 50 Max Bloodtithe points, Critical DMG +36%.
+
+**Amplification 5**: When entering battle, if the carrier is a \[Spirit\] character, Max HP +15%.
+
+When the carrier takes DMG, Critical Rate +2% at the end of the round, up to 16 stacks.
+
+When the carrier attacks, if below 80% HP and at no less than 50 Max Bloodtithe points, Critical DMG +48%.
 
 ## Names
 

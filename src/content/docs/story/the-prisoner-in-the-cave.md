@@ -1,6 +1,6 @@
 ---
 title: "The Prisoner in the Cave"
-description: "The Prisoner in the Cave: Main story of Reverse: 1999 in 21 stages, with the full story text."
+description: "The Prisoner in the Cave: chapter 5 of the Reverse: 1999 main story, in 21 stages."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
 lastVerified: 2026-11-23
@@ -14,8 +14,6 @@ sources:
   - title: "re1999-data-global, global client 111.0.1077: chapter.json and episode.json (stage codes, in-game dates)"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-The Prisoner in the Cave is chapter 5TH of the main story of Reverse: 1999, in 21 stages. Its story begins on January 3, 1914, 08:13.
-
 ## Stages
 
 | Stage | Name | In-game time | Trails |

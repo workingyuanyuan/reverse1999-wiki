@@ -113,3 +113,28 @@ files = [f for f in files if not os.path.relpath(f, base).startswith('story' + o
 for f in files:
     page(f, os.path.relpath(f, base))
 print(len(files), 'pages written to', os.path.join(root, 'zh-cn'))
+
+# The kit of an arcanist page is the game's own text: the zh-cn page takes the mainland
+# client's, not a conversion of the global client's Traditional Chinese (pipeline/kit_text.py).
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'pipeline'))
+import kit_text  # noqa: E402
+done = [m.group(1) for m in (re.match(r'arcanists/([^/]+)\.md$', os.path.relpath(f, base).replace(os.sep, '/')) for f in files) if m]
+done = [s for s in done if kit_text.has_game_kit(s)]
+for s in done:
+    kit_text.rewrite(s, 'zh-cn')
+print(len(done), 'arcanist kits written from the mainland client')
+
+# The effect of a Psychube page likewise (pipeline/psychube.py).
+import psychube  # noqa: E402
+cubes = [m.group(1) for m in (re.match(r'psychubes/([^/]+)\.md$', os.path.relpath(f, base).replace(os.sep, '/')) for f in files) if m]
+cubes = [s for s in cubes if s in psychube.REC]
+for s in cubes:
+    psychube.rewrite_effect(s, 'zh-cn')
+print(len(cubes), 'Psychube effects written from the mainland client')
+
+# And the effect column of the Statuses page (pipeline/write_systems.py).
+import write_systems  # noqa: E402
+st = os.path.join(root, 'zh-cn', 'systems', 'statuses.md')
+page_text = write_systems.zh_cn_statuses(open(st, encoding='utf-8').read())
+open(st, 'w', encoding='utf-8').write(page_text)
+print('statuses: effects written from the mainland client')

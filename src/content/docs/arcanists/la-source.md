@@ -36,28 +36,35 @@ sources:
 | Psychubes recommended in game | [You Deserve It](/psychubes/you-deserve-it/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-La Source is one of the launch arcanists. She pairs an attack on two enemies with a heal for the whole team that scales with her ATK; her Ultimate takes Moxie away from one enemy, and her first Insight weakens the enemy with the highest ATK at the start of a battle.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/la-source/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| "Spring Elfin" (attack on 2 enemies) | 150% Mental DMG | 225% | 375% |
-| Spring Elfin (mass heal) | all allies heal 80% of La Source's ATK | 120% | 200% |
+### "Spring Elfin"
+
+**Rank 1**: Mass attack. Deals 150% Mental DMG to 2 enemies.
+
+**Rank 2**: Mass attack. Deals 225% Mental DMG to 2 enemies.
+
+**Rank 3**: Mass attack. Deals 375% Mental DMG to 2 enemies.
+
+### Spring Elfin
+
+**Rank 1**: Mass healing. Recovers (the user's ATK x80%) HP for all allies.
+
+**Rank 2**: Mass healing. Recovers (the user's ATK x120%) HP for all allies.
+
+**Rank 3**: Mass healing. Recovers (the user's ATK x200%) HP for all allies.
 
 ## Ultimate: Another Version of the Legend
 
-Deals 400% Mental DMG to one enemy and lowers its Moxie by 2.
-
-[You Wish!]: DMG Bonus −20% and DMG Taken Reduction −20%.
+1-target attack. Deals 400% Mental DMG. Inflicts Moxie -2 on the target hit.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | After entering battle, La Source puts You Wish! on the enemy with the highest ATK for 3 rounds; this happens once. |
-| 2 | DMG Heal +10% on entering battle. |
+**Insight 1 · Potion of Regret**: After the caster enters battle, inflicts \[You Wish!\] status on the enemy with the highest ATK for 3 rounds (only triggers 1 time).
+
+**Insight 2 · Potion of Regret Ⅱ**: DMG Heal +10% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -66,13 +73,19 @@ Deals 400% Mental DMG to one enemy and lowers its Moxie by 2.
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate removes 1 more Moxie (3 in all). |
-| 2 | The attack Spring Elfin deals 165, 245 or 400% by rank. |
-| 3 | The Ultimate removes 1 more Moxie (4 in all). |
-| 4 | The heal Spring Elfin restores 90, 135 or 220% of her ATK by rank. |
-| 5 | The Ultimate removes 1 more Moxie (5 in all). |
+**Portrait 1**: **Another Version of the Legend**'s effect changes to: additionally Moxie -1.
+
+**Portrait 2**: **"Spring Elfin"**'s effect changes to: at 1/2/3 stars, deals 165/245/400% Mental DMG.
+
+**Portrait 3**: **Another Version of the Legend**'s effect changes to: additionally Moxie -1.
+
+**Portrait 4**: **Spring Elfin**'s effect changes to: at 1/2/3 stars, HP +(the caster's ATK ×90/135/220%) for all allies.
+
+**Portrait 5**: **Another Version of the Legend**'s effect changes to: additionally Moxie -1.
+
+## Statuses
+
+- **You Wish!**: DMG Bonus -20%, DMG Taken Reduction -20%.
 
 ## Names
 

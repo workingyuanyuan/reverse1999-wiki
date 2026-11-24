@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- When a Spirit carrier attacks while in [Channel] status, it gets DMG Dealt +8/10/12/14/16% (Amplification 1 to 5).
-- At the end of a round in which the carrier transferred [Dynamo] into the [Pulsing Field] at least once, all allies get Critical DMG +4/5/6/7/8%, up to 3 stacks.
+**Amplification 1**: If the carrier is a \[Spirit\] character and in \[Channel\] status when attacking, DMG Dealt +8%.
+
+At the end of the round, if the carrier transfers \[Dynamo\] into the \[Pulsing Field\] at least 1 time for the round, all allies gain Critical DMG +4%, up to 3 stacks.
+
+**Amplification 2**: If the carrier is a \[Spirit\] character and in \[Channel\] status when attacking, DMG Dealt +10%.
+
+At the end of the round, if the carrier transfers \[Dynamo\] into the \[Pulsing Field\] at least 1 time for the round, all allies gain Critical DMG +5%, up to 3 stacks.
+
+**Amplification 3**: If the carrier is a \[Spirit\] character and in \[Channel\] status when attacking, DMG Dealt +12%.
+
+At the end of the round, if the carrier transfers \[Dynamo\] into the \[Pulsing Field\] at least 1 time for the round, all allies gain Critical DMG +6%, up to 3 stacks.
+
+**Amplification 4**: If the carrier is a \[Spirit\] character and in \[Channel\] status when attacking, DMG Dealt +14%.
+
+At the end of the round, if the carrier transfers \[Dynamo\] into the \[Pulsing Field\] at least 1 time for the round, all allies gain Critical DMG +7%, up to 3 stacks.
+
+**Amplification 5**: If the carrier is a \[Spirit\] character and in \[Channel\] status when attacking, DMG Dealt +16%.
+
+At the end of the round, if the carrier transfers \[Dynamo\] into the \[Pulsing Field\] at least 1 time for the round, all allies gain Critical DMG +8%, up to 3 stacks.
 
 ## Names
 

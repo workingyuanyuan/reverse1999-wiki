@@ -1,6 +1,6 @@
 ---
 title: "Main story"
-description: "Reverse: 1999 Main story: every chapter, its stages and the full story text."
+description: "Reverse: 1999 Main story: 16 chapters, 315 stages in all."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global, global client 111.0.1077: chapter.json and episode.json (stage codes, in-game dates)"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-Main story of Reverse: 1999. Each chapter page lists its stages; each stage page holds its full story text and Trails.
-
 | Chapter | Stages | Trails |
 | --- | --- | --- |
 | [This Is Tomorrow](/story/this-is-tomorrow/) | 6 | 0 |
@@ -36,9 +34,7 @@ Main story of Reverse: 1999. Each chapter page lists its stages; each stage page
 | [The Campaign's Tale](/story/the-campaign-s-tale/) (12TH) | 25 | 20 |
 | [On Another's Sorrow](/story/on-another-s-sorrow/) (13TH) | 25 | 24 |
 
-## Mainland service only
-
-Out on the mainland service only, by their Simplified Chinese name:
+## Mainland service only (Simplified Chinese names)
 
 - 应门者
 - 船喻

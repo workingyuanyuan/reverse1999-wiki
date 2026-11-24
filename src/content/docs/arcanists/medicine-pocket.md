@@ -36,34 +36,37 @@ sources:
 | Psychubes recommended in game | [Cracks in the Shell](/psychubes/cracks-in-the-shell/), [Melodies Old and New](/psychubes/melodies-old-and-new/), [You Deserve It](/psychubes/you-deserve-it/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Medicine Pocket heals the whole team and makes one enemy more vulnerable. Inherent Habit raises the damage its target takes, Alchemy Ware heals every ally and gives each a stack of Sturdiness, and the Ultimate dazes its target and returns 1 Moxie; every Ultimate also heals the team through their Insight 1 passive. Their Euphoria turns Alchemy Ware into a heal or a shield and spends HP for more damage.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/medicine-pocket/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Inherent Habit (single-target attack) | 150% Mental DMG | 250% | 450% |
-| Alchemy Ware (mass heal) | heals 80% of their ATK | 120% | 200% |
+### Inherent Habit
 
-- **Inherent Habit** gives its target DMG Taken +20% for 1 round at every rank.
-- **Alchemy Ware** gives every ally 1 stack of [Sturdiness] at every rank.
+**Rank 1**: 1-target attack. Deals 150% Mental DMG. Inflicts DMG Taken +20% for 1 round on the target hit.
 
-[Sturdiness]: DMG Taken Reduction +25% when the holder is attacked; one stack is used each time.
+**Rank 2**: 1-target attack. Deals 250% Mental DMG. Inflicts DMG Taken +20% for 1 round on the target hit.
+
+**Rank 3**: 1-target attack. Deals 450% Mental DMG. Inflicts DMG Taken +20% for 1 round on the target hit.
+
+### Alchemy Ware
+
+**Rank 1**: Mass healing. Grants HP +(the caster's ATK x80%) and 1 stack of \[Sturdiness\] to all allies.
+
+**Rank 2**: Mass healing. Grants HP +(the caster's ATK x120%) and 1 stack of \[Sturdiness\] to all allies.
+
+**Rank 3**: Mass healing. Grants HP +(the caster's ATK x200%) and 1 stack of \[Sturdiness\] to all allies.
 
 ## Ultimate: 26 Secondary Reactions
 
-Deals 450% Mental DMG to one enemy and dazes it for 1 round; afterwards Medicine Pocket gains 1 Moxie.
-
-[Daze]: the target cannot act.
+1-target attack. Deals 450% Mental DMG. Inflicts \[Daze\] for 1 round on the target hit. After attacking, grant Moxie +1 to self.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | After casting an Ultimate, heals all allies by 80% of Medicine Pocket's ATK. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | Healing Done +10% while their HP is below 50%. |
+**Insight 1 · Bell of the Forest**: Right after casting an Ultimate, recovers (Medicine Pocket's ATK x80%) HP for all allies.
+
+**Insight 2 · Bell of the Forest Ⅱ**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · Bell of the Forest Ⅲ**: If the caster's HP percentage is below 50%, Healing Done +10%.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -73,24 +76,32 @@ Deals 450% Mental DMG to one enemy and dazes it for 1 round; afterwards Medicine
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Insight 1 heal becomes 120% of their ATK. |
-| 2 | Alchemy Ware heals 90, 135 or 220% by rank. |
-| 3 | Inherent Habit deals 170, 280 or 500% by rank. |
-| 4 | The Ultimate deals 500%. |
-| 5 | Inherent Habit's DMG Taken increase becomes +30%. |
+**Portrait 1**: **Bell of the Forest**: HP +(Medicine Pocket's ATK x120%) for all allies.
+
+**Portrait 2**: **Alchemy Ware**: At Incantation rank 1/2/3, HP +(the caster's ATK x90/135/220%) for all allies.
+
+**Portrait 3**: **Inherent Habit**: At Incantation rank 1/2/3, Mental DMG increased to 170/280/500%.
+
+**Portrait 4**: **26 Secondary Reactions**: Mental DMG increased to 500%.
+
+**Portrait 5**: **Inherent Habit**: DMG Taken increased to 30% for the target.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Medicine Pocket has one Epiphany of four levels.
+**Epiphany 1, level 1**: **Alchemy Ware**: If a target is at 50% HP or below, recover (the user's ATK x Healing Multiplier) HP to that target; if a target is above 50% HP, that target gains a Shield with (the user's ATK x Healing Multiplier x 120%) HP for 2 rounds.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | Alchemy Ware still heals an ally at 50% HP or below; an ally above 50% HP gets a Shield worth 120% of that heal instead, for 2 rounds. |
-| 1 | 2 | Casting Inherent Habit costs Medicine Pocket 10% of current HP and lowers the target's Critical Resist Rate by 30% and Critical DEF by 40% for 2 rounds. |
-| 1 | 3 | After an ally is attacked, Medicine Pocket casts a rank 1 Alchemy Ware, at most 2 times a round. Each Alchemy Ware costs all allies 10% of current HP, and an ally at 50% HP or below also recovers 25% of Medicine Pocket's missing HP. |
-| 1 | 4 | Casting the Ultimate costs Medicine Pocket 20% of current HP and adds Genesis DMG equal to 150% of their missing HP. |
+**Epiphany 1, level 2**: **Inherent Habit**: When cast, lose (own Current HP x10%) HP and inflict Critical Resist Rate -30% and Critical DEF -40% on the target for 2 rounds.
+
+**Epiphany 1, level 3**: After an ally is attacked, this unit casts a rank 1 **Alchemy Ware** as a follow-up attack (can trigger up to 2 times per round);
+
+When casting **Alchemy Ware**, cause all allies to lose (Current HP x10%) HP; and if a target is at 50% HP or below, recover an additional (the user's Missing HP x25%) HP for that target.
+
+**Epiphany 1, level 4**: **26 Secondary Reactions**: When cast, lose (own current HP x20%) HP and deal an additional (own Missing HP x150%) Genesis DMG.
+
+## Statuses
+
+- **Sturdiness**: When attacked, DMG Taken Reduction +25% (-1 stack after trigger).
+- **Daze**: Cannot act.
 
 ## Names
 

@@ -36,32 +36,35 @@ sources:
 | Psychubes recommended in game | [Long Night Talk](/psychubes/long-night-talk/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-aliEn T is one of the launch arcanists. He opens a battle with Taunt and a shield, then holds enemy attacks on himself with a self-counter that cuts the damage he takes; his attack hits hardest on a healthy target, and his Ultimate disarms and silences every enemy for a round.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/alien-t/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| The Spotted (single-target attack) | 160% Reality DMG; +60% on a target above 50% HP | 240%; +90% | 400%; +150% |
-| No Ill Intent (self-counter) | [Taunt], DMG Taken −40%; 1 round | −40%; 2 rounds | −60%; 3 rounds |
+### The Spotted
 
-The extra damage of The Spotted depends on the target's current HP at the moment of the hit.
+**Rank 1**: 1-target attack. Deals 160% Reality DMG. If the target's current HP is above 50%, then deals 60% more Reality DMG.
+
+**Rank 2**: 1-target attack. Deals 240% Reality DMG. If the target's current HP is above 50%, then deals 90% more Reality DMG.
+
+**Rank 3**: 1-target attack. Deals 400% Reality DMG. If the target's current HP is above 50%, then deals 150% more Reality DMG.
+
+### No Ill Intent
+
+**Rank 1**: Self counter. Enters \[Taunt\] and DMG Taken -40% for 1 round.
+
+**Rank 2**: Self counter. Enters \[Taunt\] and DMG Taken -40% for 2 rounds.
+
+**Rank 3**: Self counter. Enters \[Taunt\] and DMG Taken -60% for 3 rounds.
 
 ## Ultimate: Future Interstellar War: Prelude
 
-Deals 200% Reality DMG to all enemies and puts [Disarm] and [Silence] on each enemy hit for 1 round.
-
-- [Taunt]: draws the enemy's attention; certain attacks pick the holder as their target first.
-- [Disarm]: the holder cannot cast attack incantations.
-- [Silence]: the holder cannot cast buff, debuff, heal or counter incantations.
+Mass attack. Deals 200% Reality DMG to all enemies. Inflicts \[Disarm\] and \[Silence\] for 1 round on the targets hit.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | On entering battle, aliEn T gains Taunt and a shield worth 300% of his Reality DEF for 2 rounds; this happens once. |
-| 2 | DMG Taken −8% on entering battle. |
+**Insight 1 · Do Not Respond!**: When entering battle, enters the \[Taunt\] status and gains a Shield with (aliEn T's Reality DEF x300%) HP for 2 rounds (triggers only 1 time).
+
+**Insight 2 · Do Not Respond! Ⅱ**: DMG Taken -8% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -70,13 +73,21 @@ Deals 200% Reality DMG to all enemies and puts [Disarm] and [Silence] on each en
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 230%. |
-| 2 | The Spotted adds its extra damage to a target above 40% HP. |
-| 3 | The Ultimate deals 270%. |
-| 4 | The Spotted adds its extra damage to a target above 30% HP. |
-| 5 | The Ultimate deals 300%. |
+**Portrait 1**: **Future Interstellar War: Prelude**'s effect changes to: deals 230% Reality DMG.
+
+**Portrait 2**: **The Spotted**'s effect changes to: additionally deals Reality DMG when the target's HP is above 40%.
+
+**Portrait 3**: **Future Interstellar War: Prelude**'s effect changes to: deals 270% Reality DMG.
+
+**Portrait 4**: **The Spotted**'s effect changes to: additionally deals Reality DMG when the target's HP is above 30%.
+
+**Portrait 5**: **Future Interstellar War: Prelude**'s effect changes to: deals 300% Reality DMG.
+
+## Statuses
+
+- **Taunt**: Draws the enemy's attention. When taking certain attacks, becomes the priority of the attacks.
+- **Disarm**: Cannot cast Attack-type incantations.
+- **Silence**: Cannot cast Buff, Debuff, Heal, or Counter-type incantations.
 
 ## Names
 

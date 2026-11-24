@@ -40,8 +40,15 @@ sources:
 
 ## Effect
 
-- The carrier gets DMG Dealt +6% when attacking an enemy that has [Burn].
-- When an extra action of the carrier is a mass attack, it gets Incantation Might +4/10/16/22/28% (Amplification 1 to 5).
+**Amplification 1**: When the carrier attacks a target enemy that's in the \[Burn\] status, DMG Dealt +6%. When the carrier's extra action is a mass attack, Incantation Might +4%.
+
+**Amplification 2**: When the carrier attacks a target enemy that's in the \[Burn\] status, DMG Dealt +6%. When the carrier's extra action is a mass attack, Incantation Might +10%.
+
+**Amplification 3**: When the carrier attacks a target enemy that's in the \[Burn\] status, DMG Dealt +6%. When the carrier's extra action is a mass attack, Incantation Might +16%.
+
+**Amplification 4**: When the carrier attacks a target enemy that's in the \[Burn\] status, DMG Dealt +6%. When the carrier's extra action is a mass attack, Incantation Might +22%.
+
+**Amplification 5**: When the carrier attacks a target enemy that's in the \[Burn\] status, DMG Dealt +6%. When the carrier's extra action is a mass attack, Incantation Might +28%.
 
 ## Names
 

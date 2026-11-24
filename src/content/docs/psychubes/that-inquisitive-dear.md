@@ -40,7 +40,15 @@ sources:
 
 ## Effect
 
-After the carrier casts a basic incantation that debuffs, the ally with the lowest HP percentage recovers HP equal to 24/30/36/42/48% of the carrier's ATK (Amplification 1 to 5). This triggers at most 1 time per round.
+**Amplification 1**: When the carrier casts a basic Incantation debuff, HP +(the carrier's ATK x24%) for the ally with the lowest HP percentage (only triggers 1 time per round).
+
+**Amplification 2**: When the carrier casts a basic Incantation debuff, HP +(the carrier's ATK x30%) for the ally with the lowest HP percentage (only triggers 1 time per round).
+
+**Amplification 3**: When the carrier casts a basic Incantation debuff, HP +(the carrier's ATK x36%) for the ally with the lowest HP percentage (only triggers 1 time per round).
+
+**Amplification 4**: When the carrier casts a basic Incantation debuff, HP +(the carrier's ATK x42%) for the ally with the lowest HP percentage (only triggers 1 time per round).
+
+**Amplification 5**: When the carrier casts a basic Incantation debuff, HP +(the carrier's ATK x48%) for the ally with the lowest HP percentage (only triggers 1 time per round).
 
 ## Names
 

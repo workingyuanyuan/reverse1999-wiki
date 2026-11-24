@@ -36,44 +36,51 @@ sources:
 | Psychubes recommended in game | [Where Light and Shadows Rest](/psychubes/where-light-and-shadows-rest/) |
 | Mainland release | 2026-07-02 |
 | Global release | 2026-10-15 |
-
-Cornerstone banks the damage her team avoids and spends it on ripostes. While she is on the field every ally carries Eligibility Assessment, which cuts each hit taken and stores the amount as Trial and Error points; other allies' ripostes draw extra Reality DMG from that bank, and her own Feedback attacks at the end of the enemy round empty it for bonus damage. Extra actions by the team build Progressive Iteration, which turns into the Design Revision stacks that strengthen her Ultimate.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/cornerstone/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Concrete Functionality (single-target attack) | 200% Reality DMG; in Inspection Process +200% and Critical DMG +40% | 300%; +300%, +60% | 500%; +500%, +100% |
-| Figure-Ground Relationship (self counter) | [Inspection Process] for 2 rounds; 2 stacks of [Progressive Iteration] | 2 rounds; 3 stacks | 2 rounds; 5 stacks |
+### Concrete Functionality
 
-Concrete Functionality counts as a riposte at every rank. The Progressive Iteration stacks from Figure-Ground Relationship last 2 rounds.
+**Rank 1**: 1-target attack. Deals 200% Reality DMG. If in the \[Inspection Process\] status, this attack deals an additional 200% Reality DMG and gains Critical DMG +40%.
+
+This attack counts as 1 riposte.
+
+**Rank 2**: 1-target attack. Deals 300% Reality DMG. If in the \[Inspection Process\] status, this attack deals an additional 300% Reality DMG and gains Critical DMG +60%.
+
+This attack counts as 1 riposte.
+
+**Rank 3**: 1-target attack. Deals 500% Reality DMG. If in the \[Inspection Process\] status, this attack deals an additional 500% Reality DMG and gains Critical DMG +100%.
+
+This attack counts as 1 riposte.
+
+### Figure-Ground Relationship
+
+**Rank 1**: Self counter. Enters the \[Inspection Process\] status for 2 rounds. Gains 2 stacks of \[Progressive Iteration\] for 2 rounds.
+
+**Rank 2**: Self counter. Enters the \[Inspection Process\] status for 2 rounds. Gains 3 stacks of \[Progressive Iteration\] for 2 rounds.
+
+**Rank 3**: Self counter. Enters the \[Inspection Process\] status for 2 rounds. Gains 5 stacks of \[Progressive Iteration\] for 2 rounds.
 
 ## Ultimate: Today Builds Tomorrow
 
-A self counter: Cornerstone enters [Delivery Process] for 1 round, and Delivery Feedback strikes at the end of the enemy round.
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Eligibility Assessment | Held by every ally while Cornerstone is on the field. Each hit of non-Genesis damage from an enemy attack is cut by up to 80% of the ATK she entered battle with; the amount cut is stored as Trial and Error. |
-| Trial and Error | Cornerstone's bank, up to 500% of the ATK she entered battle with. Whenever another ally ripostes, she adds Reality DMG equal to 100% of her ATK, raised by 100% times the share of the bank that is full. A full bank stores nothing more, while Eligibility Assessment keeps cutting damage. |
-| Inspection Process | At the end of each enemy round, Cornerstone casts Inspection Feedback, even under Control. Gaining it again adds to its duration; it cannot be dispelled. |
-| Inspection Feedback | 1000% Reality DMG to all enemies; Cornerstone gains 1 stack of Design Revision and 1 Moxie. It empties Trial and Error and deals 100% more Reality DMG for every 1000 points emptied. Counts as a riposte. |
-| Delivery Process | Eligibility Assessment cuts up to 160% of her entry ATK per hit. At the end of the enemy round she casts Delivery Feedback, even under Control, and Inspection Process does not fire that round. Gaining it again adds to its duration; it cannot be dispelled. |
-| Delivery Feedback | 2000% Reality DMG to all enemies; she gains 1 Moxie. It empties Trial and Error for 100% more Reality DMG per 1000 points. With at least 5 stacks of Design Revision, it spends 5 for 1000% more Reality DMG, Ultimate Might +75% and Penetration Rate +20%; with fewer, she gains 3 stacks. Counts as a riposte and extends Inspection Process by 1 round. |
-| Progressive Iteration | Riposte DMG Bonus +4% and Incantation Might +4% per stack; up to 20 stacks, each timed on its own; cannot be dispelled. |
-| Design Revision | Spent by Delivery Feedback; up to 10 stacks; cannot be dispelled. |
-| Control | Effects that stop a unit acting: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal. |
+Self counter. Enters the \[Delivery Process\] status for 1 round.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 0 (Precognition) | While Cornerstone is on the field, all allies hold Eligibility Assessment and she holds Trial and Error. Her Moxie cap is 1 lower and her Ultimate costs 1 Moxie less. |
-| 1 | Each extra action by an ally gives her 1 stack of Progressive Iteration for 2 rounds, and 1 more if the action is a riposte. Every 10 stacks gained give her 1 stack of Design Revision. |
-| 2 | ATK +5% on entering battle. |
-| 3 | Her Ultimate does not count toward the team's incantation limit. She gains 2 Moxie on entering battle and stores up to 4 Moxie beyond her cap, which refills her Moxie at the end of a round where there is room. |
+**Insight 0 · Precognition**: While Cornerstone is present, all allies gain \[Eligibility Assessment\] and Cornerstone gains \[Trial and Error\].
+
+Cornerstone's Max Moxie -1 and Ultimate Moxie consumption -1.
+
+**Insight 1 · As Found**: Whenever an ally performs an extra action, Cornerstone gains 1 stack of \[Progressive Iteration\] for 2 rounds, plus an additional stack if the extra action is a riposte.
+
+For every 10 stacks of \[Progressive Iteration\] gained, Cornerstone gains 1 stack of \[Design Revision\].
+
+**Insight 2 · As Found II**: ATK +5% when entering battle.
+
+**Insight 3 · As Found III**: Ultimate does not take up the allied Incantation Limit. When entering battle, Cornerstone gains Moxie +2.
+
+Reserves up to 4 excess Moxie (replenished at the end of the round if applicable).
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -83,13 +90,54 @@ A self counter: Cornerstone enters [Delivery Process] for 1 round, and Delivery 
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | A stack of Design Revision takes 8 stacks of Progressive Iteration; Delivery Feedback deals 4000% and needs 4 stacks of Design Revision; Inspection Feedback deals 2500%. |
-| 2 | Spending Design Revision gives Delivery Feedback 2500% more Reality DMG, Ultimate Might +100% and Penetration Rate +30%; Inspection Feedback deals 250% more per 1000 Trial and Error points and gives 2 stacks of Design Revision; Progressive Iteration gives +5% per stack. |
-| 3 | The damage added to allies' ripostes becomes 200% of her ATK, raised by 250% times the share of the bank that is full. |
-| 4 | Eligibility Assessment cuts up to 120% of her entry ATK per hit, 240% during Delivery Process; Trial and Error holds up to 600%. |
-| 5 | Delivery Feedback deals 5000% and 250% more per 1000 Trial and Error points; Progressive Iteration gives +6% per stack, up to 25 stacks. |
+**Portrait 1**: **Precognition**: The number of \[Progressive Iteration\] stacks required to gain 1 stack of \[Design Revision\] is now 8.
+
+**Today Builds Tomorrow**: \[Delivery Feedback\] now deals 4000% Reality DMG and consumes only 4 stacks of \[Design Revision\] to gain effects.
+
+**Figure-Ground Relationship**: \[Inspection Feedback\] now deals 2500% Reality DMG.
+
+**Portrait 2**: **Today Builds Tomorrow**: By consuming \[Design Revision\] stacks, \[Delivery Feedback\] now deals 2500% additional Reality DMG and gains Ultimate Might +100% and Penetration Rate +30%.
+
+**Figure-Ground Relationship**: For every 1000 points of \[Trial and Error\] consumed, \[Inspection Feedback\] now deals 250% additional Reality DMG and grants 2 stacks of \[Design Revision\] to self.
+
+**Precognition**: \[Progressive Iteration\] now grants Riposte DMG and Incantation Might +5%.
+
+**Portrait 3**: **Precognition**: Whenever another ally ripostes, Cornerstone now adds (Cornerstone's ATK x200%) Reality DMG to the attack, and this additional Reality DMG now increases by (Current percentage of \[Trial and Error\] filled x250)%.
+
+**Portrait 4**: **Precognition**: \[Eligibility Assessment\] now mitigates up to (Cornerstone's ATK when entering battle x120%) DMG taken. \[Trial and Error\] now stores up to (Cornerstone's ATK when entering battle x600%) points.
+
+**Today Builds Tomorrow**: \[Eligibility Assessment\] now mitigates up to (Cornerstone's ATK when entering battle x240%) DMG taken when \[Delivery Process\] is active.
+
+**Portrait 5**: **Today Builds Tomorrow**: \[Delivery Feedback\] now deals 5000% Reality DMG; for every 1000 points of \[Trial and Error\] consumed, this attack now deals 250% additional Reality DMG.
+
+**Precognition**: \[Progressive Iteration\] now grants Riposte DMG and Incantation Might +6%, up to 25 stacks.
+
+## Statuses
+
+- **Inspection Process**: At the end of the enemy round, Cornerstone casts \[Inspection Feedback\], ignoring \[Control\] effects (reapplying this status extends its duration, undispellable).
+- **Progressive Iteration**: Riposte DMG Bonus +4%, Incantation Might +4% (stackable up to 20 times, each stack timed independently, undispellable).
+- **Delivery Process**: While active, \[Eligibility Assessment\]'s DMG mitigation effect increases to (Cornerstone's ATK when entering battle x160%) per instance of DMG.
+
+  At the end of the enemy round, Cornerstone casts \[Delivery Feedback\], ignoring \[Control\] effects (\[Inspection Process\] will not trigger this round, reapplying this status extends its duration, undispellable).
+- **Eligibility Assessment**: When attacked, mitigates each instance of \[DMG\] taken by up to (Cornerstone's ATK when entering battle x80%) DMG. Cornerstone stores the mitigated DMG as \[Trial and Error\].
+- **Trial and Error**: Stores up to (Cornerstone's ATK when entering battle x500%) points. Whenever another ally ripostes, adds (Cornerstone's ATK x100%) Reality DMG to the attack. This additional Reality DMG increases by (Current percentage of \[Trial and Error\] filled x100)%.
+
+  (This additional DMG is dealt by Cornerstone. When \[Trial and Error\] is full, it stops storing points, but \[Eligibility Assessment\] continues mitigating DMG.)
+- **Design Revision**: Consumed by \[Delivery Feedback\] from Cornerstone's Ultimate to enhance its effects (stackable up to 10 times, undispellable).
+- **Delivery Feedback**: Mass attack. Deals 2000% Reality DMG to all enemies. Gains Moxie +1.
+
+  Clears all \[Trial and Error\] points; for every 1000 points cleared, this attack deals an additional 100% Reality DMG.
+
+  If Cornerstone has at least 5 stacks of \[Design Revision\], consumes 5 stacks of \[Design Revision\] to deal an additional 1000% Reality DMG and grant Ultimate Might +75% and Penetration Rate +20% to this attack; otherwise, gains 3 stacks of \[Design Revision\].
+
+  This attack counts as 1 riposte and extends the duration of \[Inspection Process\] by 1 round.
+- **Inspection Feedback**: Mass attack. Deals 1000% Reality DMG to all enemies. Gains 1 stack of \[Design Revision\] and Moxie +1.
+
+  Clears all \[Trial and Error\] points; for every 1000 points cleared, this attack deals an additional 100% Reality DMG.
+
+  This attack counts as 1 riposte.
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
+- **DMG**: Non-Genesis DMG taken from enemy attacks.
 
 ## Names
 

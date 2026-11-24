@@ -40,9 +40,35 @@ sources:
 
 ## Effect
 
-- On an extra action, if the carrier has actively used a 1-target attack incantation this round, it gains Critical Rate +1/1.5/1.5/2/2% (Amplification 1 to 5), stacking up to 6 times.
-- On an extra action, if the carrier has actively used a 1-target buff incantation this round, it gains Critical DMG +2/2/3/3/4%, stacking up to 6 times.
-- When both bonuses are at 6 stacks, their stat bonuses double.
+**Amplification 1**: When performing an extra action, if the carrier has actively casted a 1-target attack incantation this round, gain Critical Rate +1%, stacks up to 6 times.
+
+When performing an extra action, if the carrier has actively casted a 1-target buff incantation this round, gain Critical DMG +2%, stacks up to 6 times.
+
+When both of these effects have reached their maximum stacks, their stat bonuses are doubled.
+
+**Amplification 2**: When performing an extra action, if the carrier has actively casted a 1-target attack incantation this round, gain Critical Rate +1.5%, stacks up to 6 times.
+
+When performing an extra action, if the carrier has actively casted a 1-target buff incantation this round, gain Critical DMG +2%, stacks up to 6 times.
+
+When both of these effects have reached their maximum stacks, their stat bonuses are doubled.
+
+**Amplification 3**: When performing an extra action, if the carrier has actively casted a 1-target attack incantation this round, gain Critical Rate +1.5%, stacks up to 6 times.
+
+When performing an extra action, if the carrier has actively casted a 1-target buff incantation this round, gain Critical DMG +3%, stacks up to 6 times.
+
+When both of these effects have reached their maximum stacks, their stat bonuses are doubled.
+
+**Amplification 4**: When performing an extra action, if the carrier has actively casted a 1-target attack incantation this round, gain Critical Rate +2%, stacks up to 6 times.
+
+When performing an extra action, if the carrier has actively casted a 1-target buff incantation this round, gain Critical DMG +3%, stacks up to 6 times.
+
+When both of these effects have reached their maximum stacks, their stat bonuses are doubled.
+
+**Amplification 5**: When performing an extra action, if the carrier has actively casted a 1-target attack incantation this round, gain Critical Rate +2%, stacks up to 6 times.
+
+When performing an extra action, if the carrier has actively casted a 1-target buff incantation this round, gain Critical DMG +4%, stacks up to 6 times.
+
+When both of these effects have reached their maximum stacks, their stat bonuses are doubled.
 
 ## Names
 

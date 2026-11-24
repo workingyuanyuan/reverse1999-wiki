@@ -35,32 +35,37 @@ sources:
 | Psychubes recommended in game | [Blasphemer of Night](/psychubes/blasphemer-of-night/), [Luxurious Leisure](/psychubes/luxurious-leisure/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Satsuki is one of the launch arcanists. Her single-target incantation and her Ultimate put stacks of [Rigidity] on enemies, and 2 stacks turn into [Petrify]. Her passives start every enemy at 1 stack and make her attacks pierce deeper against stiffened or petrified targets.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/satsuki/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Handcuffed Thief (single-target attack) | 200% Mental DMG | 220%; 1 stack of Rigidity | 330%; 2 stacks of Rigidity |
-| Dancer of Izu (attack on 2 enemies) | 120% Mental DMG | 180% | 300% |
+### Handcuffed Thief
 
-Dancer of Izu always has Penetration Rate +30%.
+**Rank 1**: 1-target attack. Deals 200% Mental DMG.
+
+**Rank 2**: 1-target attack. Deals 220% Mental DMG. Inflicts 1 stack of \[Rigidity\] on the target hit.
+
+**Rank 3**: 1-target attack. Deals 330% Mental DMG. Inflicts 2 stacks of \[Rigidity\] on the target hit.
+
+### Dancer of Izu
+
+**Rank 1**: Mass attack. Deals 120% Mental DMG to 2 enemies. This attack enjoys Penetration Rate +30%.
+
+**Rank 2**: Mass attack. Deals 180% Mental DMG to 2 enemies. This attack enjoys Penetration Rate +30%.
+
+**Rank 3**: Mass attack. Deals 300% Mental DMG to 2 enemies. This attack enjoys Penetration Rate +30%.
 
 ## Ultimate: Walk Down the Sakura
 
-Deals 550% Mental DMG to one enemy and gives it 2 stacks of [Rigidity].
-
-- [Rigidity]: at 2 stacks it becomes Petrify, or adds 1 round to a Petrify the target already has.
-- [Petrify]: the target cannot act; the effect ends when it takes a Reality DMG attack.
+1-target attack. Deals 550% Mental DMG. Inflicts 2 stacks of \[Rigidity\] on the target hit.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | On entering battle, all enemies gain 1 stack of Rigidity (once only). When Satsuki leaves the field, the enemy with the highest ATK is petrified for 2 rounds. |
-| 2 | Penetration Rate +10% on entering battle. |
-| 3 | Attacks on an enemy with Rigidity or Petrify gain Penetration Rate +15%; when an enemy with Rigidity attacks Satsuki, she takes 15% less damage. |
+**Insight 1 · Taisho Maid**: When entering battle, inflicts 1 stack of \[Rigidity\] on all enemies (only triggers 1 time). When defeated, inflicts \[Petrify\] on the enemy with the highest ATK for 2 rounds.
+
+**Insight 2 · Taisho Maid Ⅱ**: Penetration Rate +10% when entering battle.
+
+**Insight 3 · Taisho Maid Ⅲ**: Attacks against enemies with \[Rigidity\] or \[Petrify\] statuses enjoy Penetration Rate +15%. When the caster is attacked by enemies with \[Rigidity\] status, DMG Taken -15%.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -70,13 +75,20 @@ Deals 550% Mental DMG to one enemy and gives it 2 stacks of [Rigidity].
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 600%. |
-| 2 | Handcuffed Thief deals 220, 250 or 380% by rank. |
-| 3 | The Ultimate deals 650%. |
-| 4 | Dancer of Izu has Penetration Rate +40%. |
-| 5 | The Ultimate deals 750%. |
+**Portrait 1**: **Walk Down the Sakura**: Mental DMG increased to 600%.
+
+**Portrait 2**: **Handcuffed Thief**'s effect changes to: at 1/2/3 stars, deals 220/250/380% Mental DMG.
+
+**Portrait 3**: **Walk Down the Sakura**'s effect changes to: deals 650% Mental DMG.
+
+**Portrait 4**: **Dancer of Izu**'s effect changes to: Penetration Rate +40%.
+
+**Portrait 5**: **Walk Down the Sakura**'s effect changes to: deals 750% Mental DMG.
+
+## Statuses
+
+- **Rigidity**: When there are 2 stacks, turns into Petrify status or extends the duration of existing Petrify status for 1 round.
+- **Petrify**: Cannot act. Dispels the effect after taking Reality DMG attack.
 
 ## Names
 

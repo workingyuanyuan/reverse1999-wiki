@@ -36,30 +36,35 @@ sources:
 | Psychubes recommended in game | [A Satisfied Eater](/psychubes/a-satisfied-eater/), [Luxurious Leisure](/psychubes/luxurious-leisure/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Both of Pavia's incantations hit two enemies, and each adds extra Mental DMG at a different HP: Dirty Thing while his current HP is above 50%, Poor Sod while it is below. His Ultimate puts him in [Self-healing], which restores part of his missing HP each round. As a 4-star arcanist he has two Insight levels.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/pavia/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Dirty Thing (attack on 2 enemies) | 120% Mental DMG; +50% above 50% HP | 180%; +75% | 300%; +125% |
-| Poor Sod (attack on 2 enemies) | 135% Mental DMG; +40% below 50% HP | 200%; +60% | 330%; +100% |
+### Dirty Thing
 
-The HP condition is Pavia's own current HP.
+**Rank 1**: Mass attack. Deals 120% Mental DMG to 2 enemies. If the user's HP is above 50%, this attack deals an additional 50% Mental DMG.
+
+**Rank 2**: Mass attack. Deals 180% Mental DMG to 2 enemies. If the user's HP is above 50%, this attack deals an additional 75% Mental DMG.
+
+**Rank 3**: Mass attack. Deals 300% Mental DMG to 2 enemies. If the user's HP is above 50%, this attack deals an additional 125% Mental DMG.
+
+### Poor Sod
+
+**Rank 1**: Mass attack. Deals 135% Mental DMG to 2 enemies. If the user's HP is below 50%, deals an additional 40% Mental DMG.
+
+**Rank 2**: Mass attack. Deals 200% Mental DMG to 2 enemies. If the user's HP is below 50%, deals an additional 60% Mental DMG.
+
+**Rank 3**: Mass attack. Deals 330% Mental DMG to 2 enemies. If the user's HP is below 50%, deals an additional 100% Mental DMG.
 
 ## Ultimate: Nosier Than Me
 
-Deals 400% Mental DMG to one enemy and puts Pavia in [Self-healing] for 3 rounds.
-
-[Self-healing]: at the start of each round, the holder recovers HP equal to 25% of its missing HP.
+1-target attack. Deals 400% Mental DMG. Enters the \[Self-healing\] status for 3 rounds: At the start of the round, recovers (Missing HP x25%) HP.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Each time another ally is defeated, Pavia gains DMG Dealt, Critical Rate and Critical Resist Rate +10% and DMG Taken −10%. |
-| 2 | DMG Taken −8% on entering battle. |
+**Insight 1 · A Great Thing**: Every time an ally dies, DMG Dealt, Critical Rate and Critical Resist Rate +10%, and DMG Taken -10%.
+
+**Insight 2 · A Great Thing Ⅱ**: DMG Taken -8% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -68,13 +73,19 @@ Deals 400% Mental DMG to one enemy and puts Pavia in [Self-healing] for 3 rounds
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 475%. |
-| 2 | Dirty Thing's extra damage becomes 65, 95 or 155% by rank. |
-| 3 | Poor Sod's extra damage becomes 55, 80 or 130% by rank. |
-| 4 | The Ultimate deals 550%. |
-| 5 | The Ultimate deals 600%, and Self-healing restores 35% of missing HP. |
+**Portrait 1**: **Nosier Than Me**'s effect changes to: deals 475% Mental DMG.
+
+**Portrait 2**: **Dirty Thing**'s effect changes to: at 1/2/3 stars, additionally deals 65/95/155% Mental DMG.
+
+**Portrait 3**: **Poor Sod**'s effect changes to: at 1/2/3 stars, additionally deals 55/80/130% Mental DMG.
+
+**Portrait 4**: **Nosier Than Me**'s effect changes to: deals 550% Mental DMG.
+
+**Portrait 5**: **Nosier Than Me**'s effect changes to: Deals 600% Mental DMG. The \[Self-healing\] status now recovers (the user's Missing HP x35%) HP.
+
+## Statuses
+
+- **Self-healing**: At the start of the round, recover the holder's Missing HP.
 
 ## Names
 

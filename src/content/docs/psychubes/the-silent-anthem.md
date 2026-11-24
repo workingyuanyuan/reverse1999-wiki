@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- On entering battle, a Mineral carrier gains DMG Dealt +8/10/12/14/16% (Amplification 1 to 5).
-- For each point of Conduit Energy any ally spends, all allies gain Conduit Might +0.6/0.7/0.8/0.9/1% for 3 rounds, up to 16 stacks.
+**Amplification 1**: When entering battle, if the carrier is a \[Mineral\] character, gains DMG Dealt +8%.
+
+For each Conduit Energy consumed among all allies, grants Conduit Might +0.6% to all allies for 3 rounds, stacking up to 16 times.
+
+**Amplification 2**: When entering battle, if the carrier is a \[Mineral\] character, gains DMG Dealt +10%.
+
+For each Conduit Energy consumed among all allies, grants Conduit Might +0.7% to all allies for 3 rounds, stacking up to 16 times.
+
+**Amplification 3**: When entering battle, if the carrier is a \[Mineral\] character, gains DMG Dealt +12%.
+
+For each Conduit Energy consumed among all allies, grants Conduit Might +0.8% to all allies for 3 rounds, stacking up to 16 times.
+
+**Amplification 4**: When entering battle, if the carrier is a \[Mineral\] character, gains DMG Dealt +14%.
+
+For each Conduit Energy consumed among all allies, grants Conduit Might +0.9% to all allies for 3 rounds, stacking up to 16 times.
+
+**Amplification 5**: When entering battle, if the carrier is a \[Mineral\] character, gains DMG Dealt +16%.
+
+For each Conduit Energy consumed among all allies, grants Conduit Might +1% to all allies for 3 rounds, stacking up to 16 times.
 
 ## Names
 

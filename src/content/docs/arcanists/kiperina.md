@@ -37,40 +37,37 @@ sources:
 | Psychubes recommended in game | [Aurora After Winter](/psychubes/aurora-after-winter/), [Long Night Talk](/psychubes/long-night-talk/) |
 | Mainland release | 2025-04-24 |
 | Global release | 2025-07-24 |
-
-Kiperina turns the Eureka her team spends into [Inspiration], which lands on incantation cards at the start of each round; casting a card that carries Inspiration adds an [Impromptu Incantation] to the end of the spell queue. Her shield incantation stacks onto shields already in place and converts shield HP into Critical Rate and DMG Bonus, and her stacks of [Auroral Corona] raise the whole team's DMG Bonus.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/kiperina/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Colors From Space (attack on 2 enemies) | 150% Mental DMG | 225% | 375% |
-| For Everyone (team shield) | shield of 150% of Kiperina's ATK; Shield Multiplier +30% when cast actively | 225%; +45% | 375%; +75% |
+### Colors From Space
 
-- **Colors From Space**: after the attack, spends 2 Eureka to give this round's Impromptu Incantation 1 more hit.
-- **For Everyone**: the shield lasts 2 rounds. On an ally that already has a shield, it is added to that shield, up to a total of 650% of Kiperina's ATK. An ally holding it gains Critical Rate +1.5% and DMG Bonus +1.2% for every 600 shield HP.
+**Rank 1**: Mass attack. Deals 150% Mental DMG to 2 enemies; after the attack, consumes 2 Eureka to grant attack instance +1 to \[Impromptu Incantation\] for the round.
+
+**Rank 2**: Mass attack. Deals 225% Mental DMG to 2 enemies; after the attack, consumes 2 Eureka to grant attack instance +1 to \[Impromptu Incantation\] for the round.
+
+**Rank 3**: Mass attack. Deals 375% Mental DMG to 2 enemies; after the attack, consumes 2 Eureka to grant attack instance +1 to \[Impromptu Incantation\] for the round.
+
+### For Everyone
+
+**Rank 1**: Mass buff. Grants a Shield with (Kiperina's ATK x150%) HP to all allies for 2 rounds; when actively cast, the Shield gains an additional 30% Shield Multiplier; and if a target is already holding a Shield, the value of this Shield is stacked on top of that target's existing Shield, up to a maximum Shield value of (Kiperina's ATK x650%) HP; for an ally holding this Shield, every 600 Shield HP value held grants Critical Rate +1.5% and DMG Bonus +1.2% to that ally.
+
+**Rank 2**: Mass buff. Grants a Shield with (Kiperina's ATK x225%) HP to all allies for 2 rounds; when actively cast, the Shield gains an additional 45% Shield Multiplier; and if a target is already holding a Shield, the value of this Shield is stacked on top of that target's existing Shield, up to a maximum Shield value of (Kiperina's ATK x650%) HP; for an ally holding this Shield, every 600 Shield HP value held grants Critical Rate +1.5% and DMG Bonus +1.2% to that ally.
+
+**Rank 3**: Mass buff. Grants a Shield with (Kiperina's ATK x375%) HP to all allies for 2 rounds; when actively cast, the Shield gains an additional 75% Shield Multiplier; and if a target is already holding a Shield, the value of this Shield is stacked on top of that target's existing Shield, up to a maximum Shield value of (Kiperina's ATK x650%) HP; for an ally holding this Shield, every 600 Shield HP value held grants Critical Rate +1.5% and DMG Bonus +1.2% to that ally.
 
 ## Ultimate: Reach for the Stars
 
-Puts [Cosmic Radiation] on all enemies for 3 rounds, removes Stats Down, Neg Status and Control effects from all allies, and adds 6 more Inspiration to this round's Impromptu Incantation.
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Impromptu Incantation | A single-target attack on a random enemy: 200% Mental DMG plus 15% Mental DMG for each Inspiration point it carries. With at least 3, 6, 12 or 20 points it gains 1, 2, 3 or 5 more hits. Its damage uses the average stats of all allies. |
-| Inspiration | Each Eureka spent adds 1 point. At the start of each round the points are spread at random over the basic incantation cards, at most 5 per card; points on cards not cast that round are cleared at its end. Casting a card that carries points adds an Impromptu Incantation to the end of the spell queue and hands those points to it. |
-| Auroral Corona | Up to 20 stacks, read at the start of each round. From 1 stack, all allies gain DMG Bonus +10%; from 8, every basic incantation card gains 1 Inspiration; at 20, that round's Impromptu Incantation turns excess Critical Rate into Critical DMG at a 50% rate. |
-| Cosmic Radiation | DMG Taken Reduction −30% and Critical Resist Rate −30%. |
-| Control | Effects that limit what a character can do: Daze, Petrify, Nightmare, Freeze, Disarm, Silence and Seal. |
+Mass Debuff. Inflicts \[Cosmic Radiation\] on all enemies for 3 rounds. Dispels \[Stats Down\], \[Neg Status\], and \[Control\] statuses from all allies. Grants an additional 6 points of \[Inspiration\] to \[Impromptu Incantation\] for the round.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Eureka spent by the team builds Inspiration. Every 2 critical hits by allies' incantations and Impromptu Incantations give Kiperina Eureka +1. At the end of a round, she gains 1 stack of Auroral Corona for each Eureka she spent or had in excess of her cap that round. |
-| 2 | ATK +5% on entering battle. |
-| 3 | Eureka +4 on entering battle. At the start of each round, removes one kind of Control from all allies, then spends as much Eureka as she can, casting a rank 1 For Everyone for every 2 Eureka spent. |
+**Insight 1 · Child of Dawn**: Whenever an ally consumes Eureka, accumulate points of \[Inspiration\]. Whenever allies score 2 combined critical hits with their incantations and or \[Impromptu Incantation\], Kiperina gains Eureka +1. At the end of the round, for each point of Eureka consumed by Kiperina and for each point of her excess Eureka, she gains 1 stack of \[Auroral Corona\].
+
+**Insight 2 · Child of Dawn II**: ATK +5% when entering battle.
+
+**Insight 3 · Child of Dawn III**: When entering battle, gain Eureka +4 for self. At the start of the round, dispel 1 type of \[Control\] status from all allies and consume as many points of Eureka as possible, and for every 2 points of Eureka consumed, cast a rank 1 \[For Everyone\].
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -80,13 +77,35 @@ Puts [Cosmic Radiation] on all enemies for 3 rounds, removes Stats Down, Neg Sta
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Auroral Corona gives DMG Bonus +15% from 1 stack and converts at a 75% rate at 20 stacks. |
-| 2 | For Everyone gives Critical Rate +2% and DMG Bonus +1.5% for every 600 shield HP. |
-| 3 | For Everyone's shield is 180, 270 or 450% of Kiperina's ATK by rank. |
-| 4 | For Everyone's extra Shield Multiplier when cast actively is 70, 105 or 175% by rank. |
-| 5 | Auroral Corona gives DMG Bonus +20% from 1 stack and converts at a 100% rate at 20 stacks. |
+**Portrait 1**: **Child of Dawn**: When \[Auroral Corona\] is at 1+ stacks, the DMG Bonus granted to all allies is increased to +15%. When \[Auroral Corona\] is at 20 stacks, \[Impromptu Incantation\]'s excess Critical Rate is now converted into Critical DMG at a 75% rate.
+
+**Portrait 2**: **For Everyone**: For every 600 Shield HP from this effect held on an ally, the Critical Rate gained is increased to +2%, and the DMG Bonus gained is increased to +1.5%.
+
+**Portrait 3**: **For Everyone**: At incantation rank 1/2/3, the \[Shield\] granted to all allies is increased to (Kiperina's ATK x180%/270%/450%) HP.
+
+**Portrait 4**: **For Everyone**: When actively cast, the additional Shield Multiplier is increased to 70%/105%/175%.
+
+**Portrait 5**: **Child of Dawn**: When \[Auroral Corona\] is at 1+ stacks, the DMG Bonus granted to all allies is increased to +20%. When \[Auroral Corona\] is at 20 stacks, \[Impromptu Incantation\]'s excess Critical Rate is now converted into Critical DMG at a 100% rate.
+
+## Statuses
+
+- **Impromptu Incantation**: 1-target attack. Deals 200% Mental DMG to a random enemy and an additional (the total points of Inspiration granted to Impromptu Incantation x15%) Mental DMG. If Impromptu Incantation has at least 3/6/12/20 points of Inspiration, it gains attack instances +1/2/3/5 (Impromptu Incantation's DMG calculation is based on the average stats of all allies).
+- **Cosmic Radiation**: DMG Taken Reduction -30% and Critical Resist Rate -30% for 3 rounds.
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
+- **Inspiration**: For every 1 Eureka consumed, accumulate 1 point of \[Inspiration\].
+
+  At the start of each round, randomly distribute Inspiration points onto basic incantations (each incantation may receive up to 5 points of Inspiration, and at the end of the round, the points of Inspiration on unused incantations are cleared).
+
+  When actively casting an incantation with \[Inspiration\] points on it, add an \[Impromptu Incantation\] to the end of the spell queue, and all Inspiration points on these casted incantations will be granted to the \[Impromptu Incantation\].
+- **Auroral Corona**: At the start of the round, Kiperina grants all of the following buffs based on the stacks of Auroral Corona she has; Auroral Corona can stack up to 20 times.
+
+  At 1+ stacks: Grants DMG Bonus +10% to all allies;
+
+  At 8+ stacks: Grants 1 additional point of Inspiration onto each basic incantation in the Spelldock;
+
+  At 20 stacks: Converts \[Impromptu Incantation\]'s excess Critical Rate into Critical DMG at a 50% rate for this round.
+- **For Everyone**: Mass buff. Grants a Shield with (Kiperina's ATK x150%) HP to all allies for 2 rounds; when actively cast, the Shield gains an additional 30% Shield Multiplier; and if a target is already holding a Shield, the value of this Shield is stacked on top of that target's existing Shield, up to a maximum Shield value of (Kiperina's ATK x650%) HP; for an ally holding this Shield, every 600 Shield HP value held grants Critical Rate +1.5% and DMG Bonus +1.2% to that ally.
+- **Shield**: Blocks certain DMG for a certain duration.
 
 ## Names
 

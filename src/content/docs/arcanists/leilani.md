@@ -36,30 +36,35 @@ sources:
 | Psychubes recommended in game | [Her Second Life](/psychubes/her-second-life/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Leilani has two single-target attacks, each with extra damage on a condition, and an Ultimate that hits all enemies and gives Moxie to the rest of the team. Her first Insight passive gives the whole team Moxie on entering battle.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/leilani/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| A Greeting (single-target attack) | 180% Reality DMG; +40% on a debuffed target | 270%; +60% | 450%; +100% |
-| Check Carefully (single-target attack) | 160% Reality DMG; +60% below 50% HP | 240%; +90% | 400%; +150% |
+### A Greeting
 
-A Greeting deals its extra damage when the target has a Stats Down, Neg Status or [Control] effect; Check Carefully when the target's current HP is below 50%.
+**Rank 1**: 1-target attack. Deals 180% Reality DMG. If the target is in \[Stats Down\], \[Neg Status\], or \[Control\] statuses, this attack deals an additional 40% Reality DMG.
 
-[Control]: effects that limit a character's actions, such as Daze, Petrify, Nightmare, Freeze, Disarm, Silence and Seal.
+**Rank 2**: 1-target attack. Deals 270% Reality DMG. If the target is in \[Stats Down\], \[Neg Status\], or \[Control\] statuses, this attack deals an additional 60% Reality DMG.
+
+**Rank 3**: 1-target attack. Deals 450% Reality DMG. If the target is in \[Stats Down\], \[Neg Status\], or \[Control\] statuses, this attack deals an additional 100% Reality DMG.
+
+### Check Carefully
+
+**Rank 1**: 1-target attack. Deals 160% Reality DMG. If the target's current HP is below 50%, then deals 60% more Reality DMG.
+
+**Rank 2**: 1-target attack. Deals 240% Reality DMG. If the target's current HP is below 50%, then deals 90% more Reality DMG.
+
+**Rank 3**: 1-target attack. Deals 400% Reality DMG. If the target's current HP is below 50%, then deals 150% more Reality DMG.
 
 ## Ultimate: Hawaiian Archery
 
-Deals 300% Reality DMG to all enemies and gives every other ally 1 Moxie.
+Mass attack. Deals 300% Reality DMG to all enemies. Moxie +1 for other allies.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | On entering battle, all allies gain 1 Moxie and Leilani 1 more, once. |
-| 2 | DMG Dealt +8% on entering battle. |
+**Insight 1 · Born Socializer**: When entering battle, Moxie +1 for all allies and additionally Moxie +1 for self (only triggers 1 time).
+
+**Insight 2 · Born Socializer Ⅱ**: DMG Dealt +8% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -68,13 +73,19 @@ Deals 300% Reality DMG to all enemies and gives every other ally 1 Moxie.
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate gives the other allies 1 more Moxie. |
-| 2 | A Greeting's extra damage becomes 65, 95 or 160% by rank. |
-| 3 | The Ultimate deals 350%. |
-| 4 | Check Carefully's extra damage becomes 85, 125 or 210% by rank. |
-| 5 | The Ultimate deals 400%. |
+**Portrait 1**: **Hawaiian Archery**'s effect changes to: additionally Moxie +1.
+
+**Portrait 2**: **A Greeting**'s effect changes to: additionally deals 65/95/160% Reality DMG to enemies in \[Stats Down\], \[Neg Status\] or \[Control\].
+
+**Portrait 3**: **Hawaiian Archery**: Reality DMG increased to 350%.
+
+**Portrait 4**: **Check Carefully**'s effect changes to: additionally deals 85/125/210% Reality DMG to enemies with HP below 50%.
+
+**Portrait 5**: **Hawaiian Archery**: Reality DMG increased to 400%.
+
+## Statuses
+
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
 
 ## Names
 

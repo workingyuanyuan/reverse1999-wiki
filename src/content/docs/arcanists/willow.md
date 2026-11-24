@@ -37,39 +37,37 @@ sources:
 | Psychubes recommended in game | [Offbeat Strides](/psychubes/offbeat-strides/), [Transcendent Love](/psychubes/transcendent-love/) |
 | Mainland release | 2024-10-31 |
 | Global release | 2025-02-20 |
-
-Willow spreads [Poison] every round through her Insight 1 passive and each time an ally attacks, then turns it into [Hag's Bane], a poison whose damage grows each time it resolves in the same round. Her second attack spends Poison to make Hag's Bane resolve again at once. Her Ultimate is a channel, [Ancient Ritual], that adds Hag's Bane to every enemy each round for Moxie and ends with the mass attack [Ending Pose].
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/willow/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Hag's Advice (single-target attack) | 100% Mental DMG; turns up to 3 Poison into Hag's Bane | 125%; up to 4 | 175%; up to 5 |
-| Hag's Gratitude (single-target attack) | 100% Mental DMG; spends up to 2 Poison | 125%; up to 3 | 175%; up to 4 |
+### Hag's Advice
 
-- **Hag's Advice** works on a target that already has Poison: each Poison it turns becomes 1 stack of Hag's Bane lasting 2 rounds.
-- **Hag's Gratitude** works on a target that has both Poison and Hag's Bane: each Poison it spends makes the target's Hag's Bane resolve once, without using up a round of it.
+**Rank 1**: 1-target attack. Deals 100% Mental DMG; if the target hit already has an instance of \[Poison\], convert 1 instance of \[Poison\] into 1 stack of \[Hag's Bane\] that lasts 2 rounds; up to 3 instances of Poison can be converted by this effect.
+
+**Rank 2**: 1-target attack. Deals 125% Mental DMG; if the target hit already has an instance of \[Poison\], convert 1 instance of \[Poison\] into 1 stack of \[Hag's Bane\] that lasts 2 rounds; up to 4 instances of Poison can be converted by this effect.
+
+**Rank 3**: 1-target attack. Deals 175% Mental DMG; if the target hit already has an instance of \[Poison\], convert 1 instance of \[Poison\] into 1 stack of \[Hag's Bane\] that lasts 2 rounds; up to 5 instances of Poison can be converted by this effect.
+
+### Hag's Gratitude
+
+**Rank 1**: 1-target attack. Deals 100% Mental DMG; if the target hit already has both an instance of \[Poison\] and the \[Hag's Bane\] status, consume up to 2 instances of \[Poison\], each instance of \[Poison\] resolves the \[Hag's Bane\] status on the target once, and the remaining rounds of Hag's Bane do not decrease when resolved this way.
+
+**Rank 2**: 1-target attack. Deals 125% Mental DMG; if the target hit already has both an instance of \[Poison\] and the \[Hag's Bane\] status, consume up to 3 instances of \[Poison\], each instance of \[Poison\] resolves the \[Hag's Bane\] status on the target once, and the remaining rounds of Hag's Bane do not decrease when resolved this way.
+
+**Rank 3**: 1-target attack. Deals 175% Mental DMG; if the target hit already has both an instance of \[Poison\] and the \[Hag's Bane\] status, consume up to 4 instances of \[Poison\], each instance of \[Poison\] resolves the \[Hag's Bane\] status on the target once, and the remaining rounds of Hag's Bane do not decrease when resolved this way.
 
 ## Ultimate: In the Fire, In the Shadow
 
-Willow channels and enters Ancient Ritual.
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Poison | Genesis DMG at the end of the round based on the caster's ATK; stacks. The Poison of her Insight 1 deals 20% of her ATK. |
-| Hag's Bane | Counts as Poison. Genesis DMG equal to 20% of the caster's ATK at the end of the round, for 2 rounds. Each time it resolves, the target takes 40% more from further Hag's Bane resolves that round, up to 4 times. Up to 10 stacks. |
-| Ancient Ritual | While it lasts, enemies count as having had Hag's Bane resolve 1 + (rounds elapsed) extra times that round. In the first round it costs no Moxie and puts 1 stack of Hag's Bane on all enemies. In each later round it costs 2 + 2 × (rounds elapsed) Moxie at the round's end and puts half that many stacks of Hag's Bane on all enemies. If her Moxie falls short, she spends what is left, casts Ending Pose and the channel ends. |
-| Ending Pose | 200% Mental DMG to all enemies, then Genesis DMG equal to 50% of Willow's ATK for each stack of Hag's Bane on each target. |
+Self channel. Enters the \[Ancient Ritual\] status.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | At the start of a round, 2 enemies receive 2 Poison for 2 rounds, those with the most Poison first. When another ally casts an attack incantation on an enemy, Willow adds 2 Poison for 2 rounds to its main target, up to 2 times a round. |
-| 2 | ATK +5% on entering battle. |
-| 3 | Ancient Ritual also raises her Max Moxie by 5 and gives 1 more Moxie for each incantation she casts or moves. |
+**Insight 1 · Hag's Steps**: At the start of the round, inflict 2 instances of \[Poison\] on 2 enemy targets for 2 rounds, prioritizing targets with the most instances of \[Poison\]. When another ally actively casts and attacks an enemy with an incantation, Willow inflicts 2 additional instances of \[Poison\] on the main target for 2 rounds, this effect can trigger up to 2 times per round.
+
+**Insight 2 · Hag's Steps II**: ATK +5% when entering battle.
+
+**Insight 3 · Hag's Steps III**: Enhances \[Ancient Ritual\]: Grants an additional Max Moxie +5; gains an additional Moxie +1 from casting or moving incantations.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -79,24 +77,36 @@ Willow channels and enters Ancient Ritual.
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Hag's Bane deals 24% of her ATK. |
-| 2 | Insight 1 Poison deals 40% of her ATK; each Hag's Bane resolve raises further resolves by 45%. |
-| 3 | Hag's Advice turns up to 4, 5 or 6 Poison by rank. |
-| 4 | Insight 1 adds 3 Poison when another ally attacks. |
-| 5 | Each Hag's Bane resolve raises further resolves by 50%. |
+**Portrait 1**: **Hag's Advice**: All \[Hag's Bane\] inflicted by Willow is increased to (the user's ATK x24%) Genesis DMG.
+
+**Portrait 2**: **Hag's Steps**: The damage of all \[Poison\] effects inflicted by this passive is increased to (the user's ATK x40%) Genesis DMG. In addition, each time Willow's \[Hag's Bane\] resolves, the compounding damage the target takes from each subsequent resolve of Hag's Bane is increased to 45%.
+
+**Portrait 3**: **Hag's Advice**: At incantation rank 1/2/3, the instances of Poisons that can be converted is increased to 4/5/6.
+
+**Portrait 4**: **Hag's Steps**: When another ally actively casts and attacks an enemy with an incantation, the instances of \[Poison\] Willow inflicts on the main target is increased to 3.
+
+**Portrait 5**: **Hag's Advice**: Each time Willow's \[Hag's Bane\] resolves, the compounding damage the target takes from each subsequent resolve of Hag's Bane is increased to 50%.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Willow has one Epiphany of four levels; it strengthens Hag's Bane and feeds Moxie to Ancient Ritual.
+**Epiphany 1, level 1**: \[Hag's Bane\] New Effects: \[Poison\] DMG Taken +5% (stackable); when exceeding stack limit, stacks with fewer rounds left are removed first.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | Each stack of Hag's Bane also gives its holder Poison DMG Taken +5%. When the stack cap is passed, the stacks with the fewest rounds left are removed first. |
-| 1 | 2 | At the end of each round in Ancient Ritual, Willow gains 1 Moxie for every 2 stacks of Hag's Bane on the enemy that has the most. |
-| 1 | 3 | Hag's Bane deals extra Genesis DMG equal to 100% of its base Genesis DMG. |
-| 1 | 4 | Ending Pose gives her 3 Moxie. At the end of a round in which she is not in Ancient Ritual, she gains 2 Moxie. |
+**Epiphany 1, level 2**: \[Ancient Ritual\] New Effects: At the end of the round, for every 2 stacks of \[Hag's Bane\] on the enemy with the most \[Hag's Bane\] stacks, Willow gains Moxie +1.
+
+**Epiphany 1, level 3**: \[Hag's Bane\] deals an additional (original Genesis DMG x100%) Genesis DMG.
+
+**Epiphany 1, level 4**: \[Ending Pose\] New Effects: Gains Moxie +3.
+
+**Hag's Steps** New Effects: At the end of the round, gains Moxie +2 if not channeling \[Ancient Ritual\].
+
+## Statuses
+
+- **Poison**: At the end of the round, takes Genesis DMG based on the user's ATK (stackable).
+- **Hag's Bane**: Counts as a type of Poison: at the end of the round, takes (the user's ATK x20%) Genesis DMG, lasts 2 rounds. After each resolve of \[Hag's Bane\], the target takes a compounding 40% more damage from each subsequent resolve of Hag's Bane for the rest of the round, this compounding effect can stack up to 4 times, and this status effect stacks up to 10 times.
+- **Ancient Ritual**: While this channel status is active, enemies are treated as if \[Hag's Bane\]'s already triggered an extra (1 + the number of rounds elapsed in this channel status) times for the round.
+
+  At the end of the round, deduct (2 + the number of rounds elapsed in this channel status\*2) Moxie, and inflict (the number of Moxie deducted / 2) stacks of \[Hag's Bane\] on all enemies; if there isn't enough Moxie, then deduct all remaining Moxie, cast \[Ending Pose\], and end this channel status; no Moxie is deducted on the first round of this channel status, and instead, 1 stack of \[Hag's Bane\] is inflicted.
+- **Ending Pose**: Mass attack. Deals 200% Mental DMG to all enemies; after attacking, for every stack of \[Hag's Bane\] on a target, deals an additional (own ATK x50%) Genesis DMG to that target.
 
 ## Names
 

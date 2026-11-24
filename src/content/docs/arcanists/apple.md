@@ -34,28 +34,35 @@ sources:
 | Psychubes recommended in game | [Long Night Talk](/psychubes/long-night-talk/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-APPLe is one of the launch arcanists. He attacks with both incantations, and his second incantation and his Ultimate each add a heal on one ally, sized by his ATK. His Insight 1 passive heals the whole team a little at the start of every round.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/apple/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Iridescent White (single-target attack) | 200% Mental DMG | 300% | 500% |
-| Equal Amount of Light (single-target attack and heal) | 150% Mental DMG; heals 40% of ATK | 225%; 60% | 375%; 100% |
+### Iridescent White
 
-The heal of Equal Amount of Light goes to the ally with the lowest current HP and equals the stated share of APPLe's ATK.
+**Rank 1**: 1-target attack. Deals 200% Mental DMG.
+
+**Rank 2**: 1-target attack. Deals 300% Mental DMG.
+
+**Rank 3**: 1-target attack. Deals 500% Mental DMG.
+
+### Equal Amount of Light
+
+**Rank 1**: 1-target attack. Deals 150% Mental DMG. HP +(the caster's ATK ×40%) for the ally with the lowest HP.
+
+**Rank 2**: 1-target attack. Deals 225% Mental DMG. HP +(the caster's ATK ×60%) for the ally with the lowest HP.
+
+**Rank 3**: 1-target attack. Deals 375% Mental DMG. HP +(the caster's ATK ×100%) for the ally with the lowest HP.
 
 ## Ultimate: Insignificant Achievements
 
-Deals 300% Mental DMG to all enemies, then heals the ally with the lowest HP percentage by 100% of APPLe's ATK.
+Mass attack. Deals 300% Mental DMG to all enemies. HP +(the caster's ATK ×100%) for the ally with the lowest HP percentage.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | At the start of each round, every ally recovers 8% of their own missing HP. |
-| 2 | Healing Done +10% on entering battle. |
+**Insight 1 · Wine**: At the start of the round, recover (each ally's own Missing HP x8%) HP for all allies.
+
+**Insight 2 · Wine Ⅱ**: Healing Done +10% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -64,13 +71,15 @@ Deals 300% Mental DMG to all enemies, then heals the ally with the lowest HP per
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate heals 150% of APPLe's ATK. |
-| 2 | Iridescent White deals 220, 330 or 550% by rank. |
-| 3 | Equal Amount of Light heals 56, 84 or 140% of APPLe's ATK by rank. |
-| 4 | The Ultimate heals 200% of APPLe's ATK. |
-| 5 | The Ultimate heals 250% of APPLe's ATK. |
+**Portrait 1**: **Insignificant Achievements**'s effect changes to: HP +(the caster's ATK ×150%) for the ally with the lowest HP percentage.
+
+**Portrait 2**: **Iridescent White**: At Incantation rank 1/2/3, Mental DMG increased to 220/330/550%.
+
+**Portrait 3**: **Equal Amount of Light**'s effect changes to: at 1/2/3 stars, HP +(the caster's ATK ×56/84/140%).
+
+**Portrait 4**: **Insignificant Achievements**'s effect changes to: HP +(the caster's ATK ×200%) for the ally with the lowest HP percentage.
+
+**Portrait 5**: **Insignificant Achievements**'s effect changes to: HP +(the caster's ATK ×250%) for the ally with the lowest HP percentage.
 
 ## Names
 

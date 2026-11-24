@@ -36,36 +36,37 @@ sources:
 | Psychubes recommended in game | [Rehearsal of Dreams](/psychubes/rehearsal-of-dreams/), [Blasphemer of Night](/psychubes/blasphemer-of-night/) |
 | Mainland release | 2025-02-06 |
 | Global release | 2025-05-08 |
-
-Noire marks one enemy with [Spotlight] each round; her attacks on it leave a random Neg Status, and each new Spotlight gives her Moxie and stacks of [Genius Idea]. Her Ultimate hits all enemies, gains damage and Penetration Rate from the Neg Status they carry, and may cast itself again for each stack of Genius Idea she holds.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/noire/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Experimental Montage (single-target attack) | 200% Mental DMG | 300% | 500% |
-| Stunt Take (attack on 2 enemies) | 120% Mental DMG; Genius Idea 4 stacks; Spotlight effect 1 extra time | 180%; 5 stacks; 2 extra times | 300%; 6 stacks; 3 extra times |
+### Experimental Montage
 
-- **Experimental Montage** first moves every Neg Status effect of the other enemies onto its target, then attacks.
-- **Stunt Take** gives Noire its Genius Idea stacks after the attack.
-- [Spotlight]: after Noire attacks its holder, the holder gets one of these at random: 1 stack of [Rigidity], [Poison] for 2 rounds, or 5 stacks of [Burn].
+**Rank 1**: 1-target attack. Deals 200% Mental DMG. Right before attacking, transfers all \[Neg Status\] effects from other enemies onto the attack target.
+
+**Rank 2**: 1-target attack. Deals 300% Mental DMG. Right before attacking, transfers all \[Neg Status\] effects from other enemies onto the attack target.
+
+**Rank 3**: 1-target attack. Deals 500% Mental DMG. Right before attacking, transfers all \[Neg Status\] effects from other enemies onto the attack target.
+
+### Stunt Take
+
+**Rank 1**: Mass attack. Deals 120% Mental DMG to 2 enemies; after attacking, gains 4 stacks of \[Genius Idea\] for self; this attack triggers the added status effects from \[Spotlight\] an additional 1 time.
+
+**Rank 2**: Mass attack. Deals 180% Mental DMG to 2 enemies; after attacking, gains 5 stacks of \[Genius Idea\] for self; this attack triggers the added status effects from \[Spotlight\] an additional 2 times.
+
+**Rank 3**: Mass attack. Deals 300% Mental DMG to 2 enemies; after attacking, gains 6 stacks of \[Genius Idea\] for self; this attack triggers the added status effects from \[Spotlight\] an additional 3 times.
 
 ## Ultimate: Climactic Moment
 
-Deals 450% Mental DMG to all enemies. Against each target, every kind of Neg Status adds 100% Mental DMG and every stack adds Penetration Rate +3%, up to +500% and +30%. Each stack of Genius Idea gives a 6% chance that the Ultimate casts itself once more, and 8 stacks add 40% to the chance; each recast spends 5 stacks.
-
-- [Genius Idea]: gives the Ultimate its chance to be cast again; the chance rises with the stacks.
-- [Rigidity]: at 2 stacks it turns into Petrify, or adds 1 round to a Petrify already there.
-- [Poison]: at the end of the round, Genesis DMG based on the ATK of the arcanist who applied it; it stacks.
-- [Burn]: Healing Taken −15%, which does not stack. At the end of the round, Genesis DMG of 4% of the holder's ATK per stack, up to 30 stacks; any number of stacks counts as one Neg Status, and half the stacks are removed each time it deals damage.
+Mass attack. Deals 450% Mental DMG to all enemies. For every 1 type/stack of \[Neg Status\] effect on a target, this attack gains Mental DMG +100%/Penetration Rate +3% against that target, up to a maximum of Mental DMG +500%/Penetration Rate +30%. For every 1 stack of \[Genius Idea\] on Noire, she has a 6% chance to automatically recast this skill, with an additional +40% chance at 8 stacks of \[Genius Idea\]; whenever this skill is recasted in this way, 5 stacks of \[Genius Idea\] are consumed.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | At the start of each round, puts Spotlight on the enemy with the highest share of its HP left, for 1 round. |
-| 2 | ATK +5% on entering battle. |
-| 3 | Whenever another unit gets Spotlight, Noire gains 1 Moxie and 2 stacks of Genius Idea, up to 10 stacks. |
+**Insight 1 · Miniature Set**: At the start of the round, inflicts \[Spotlight\] on the enemy with the highest current HP percentage for 1 round.
+
+**Insight 2 · Miniature Set II**: ATK +5% when entering battle.
+
+**Insight 3 · Miniature Set III**: Whenever another unit is inflicted with \[Spotlight\], gain Moxie +1 for self, and gain 2 stacks of \[Genius Idea\] (stacks up to 10 times).
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -75,27 +76,41 @@ Deals 450% Mental DMG to all enemies. Against each target, every kind of Neg Sta
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Each stack of Genius Idea gives a 10% recast chance. |
-| 2 | A recast spends 4 stacks of Genius Idea. |
-| 3 | Genius Idea stacks up to 12. |
-| 4 | Each kind of Neg Status adds 120% Mental DMG and each stack Penetration Rate +4%, up to +600% and +40%. |
-| 5 | The Ultimate deals 550% Mental DMG. |
+**Portrait 1**: **Climactic Moment**: For each stack of \[Genius Idea\] held, the chance to recast the ultimate is increased to 10%.
+
+**Portrait 2**: **Climactic Moment**: When recasting the ultimate, the number of stacks of \[Genius Idea\] consumed is decreased to 4.
+
+**Portrait 3**: **Miniature Set**: \[Genius Idea\]'s stack limit is increased to 12.
+
+**Portrait 4**: **Climactic Moment**: For each type/stack of \[Neg Status\] effect on the target, the Mental DMG/Penetration Rate are increased to 120%/4%, up to a maximum of 600%/40%.
+
+**Portrait 5**: **Climactic Moment**'s effect changes to: deals 550% Mental DMG.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Noire has one Epiphany of four levels, which reworks her Ultimate.
+**Epiphany 1, level 1**: \[Genius Idea\] no longer grants the Ultimate a chance to recast. Instead, at the start of each round, if Moxie is at 5 and the number of \[Genius Idea\] stacks has reached the amount originally consumed by the Ultimate, consumes that many stacks and gains 1 stack of \[Endless Inspiration\] (triggers up to 1 time per round). For each stack of \[Genius Idea\] held, there is the original base chance to gain 1 additional stack of \[Endless Inspiration\] (stackable up to 4 times). If \[Endless Inspiration\] is already at its stack limit, no stacks are consumed.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | Genius Idea no longer gives a recast chance. At the start of a round, if Noire has 5 Moxie and at least as many Genius Idea stacks as a recast used to spend, she spends them and gains 1 stack of [Endless Inspiration], once a round; each Genius Idea stack she holds also gives the old base chance (6%, or 10% from Portrait 1) of 1 more stack. Endless Inspiration stacks up to 4; at the cap, no Genius Idea is spent. |
-| 1 | 2 | Her passives gain: Moxie +3 on entering battle, and 1 stack of [Scene Direction] whenever another ally casts an Ultimate, up to the stack limit Genius Idea had before (10, or 12 from Portrait 3). |
-| 1 | 3 | The Ultimate costs no action point and adds Mental DMG equal to 100% of its base Mental DMG. Its Penetration Rate bonus counts kinds of Neg Status instead of stacks, and the cap of its extra Mental DMG from Neg Status doubles. At base this is 900% Mental DMG, with +100% and Penetration Rate +3% per kind, up to +1000% and +30%. |
-| 1 | 4 | If the Ultimate is recast once in a round, it adds 450% Mental DMG to all enemies; if twice, 450% plus 50% Mental DMG and Penetration Rate +1.5% per kind of Neg Status, up to +500% and +15%; if three or more times, 900% plus 100% and Penetration Rate +3% per kind, up to +1000% and +30%. |
+**Epiphany 1, level 2**: **Miniature Set** New Effect: When entering battle, Moxie +3. When another ally casts an Ultimate, Noire gains 1 stack of \[Scene Direction\], with a stack limit equal to the original stack limit of \[Genius Idea\].
 
-- **Endless Inspiration**: each stack casts the Ultimate one more time when Noire casts it; up to 4 stacks, all removed after the Ultimate.
-- **Scene Direction**: when Noire casts Climactic Moment, the attack gains Critical Rate +6% and benefits from Ultimate Might at a +12% rate. It cannot be dispelled and is removed at the end of the round in which she casts it.
+**Epiphany 1, level 3**: **Climactic Moment** no longer costs AP and deals an additional (base Mental DMG x100%) Mental DMG.
+
+**Climactic Moment**'s Penetration Rate increased for each stack of \[Neg Status\] on a target is changed to: For each type of \[Neg Status\] effect on a target, this attack gains a Penetration Rate bonus against the target, and the maximum value of additional Mental DMG dealt based on the number of \[Neg Status\] types on the target is doubled.
+
+**Epiphany 1, level 4**: **Climactic Moment** New Effect: When recast 1 time in a single round, deals an additional (original base Mental DMG x50%) Mental DMG to all enemies.
+
+When recast 2 times in a single round, deals an additional (original base Mental DMG x50%) Mental DMG to all enemies. For each type of \[Neg Status\] on a target, additionally increases the original base Mental DMG and Penetration Rate by 50% against the target.
+
+When recast 3 or more times in a single round, deals an additional (original base Mental DMG x100%) Mental DMG to all enemies. For each type of \[Neg Status\] on a target, additionally increases the original base Mental DMG and Penetration Rate by 100% against the target.
+
+## Statuses
+
+- **Genius Idea**: After casting an ultimate, there's a chance to cast it again based on the number of stacks held.
+- **Spotlight**: After being attacked by Noire, randomly receive 1 type of the following statuses: 1 stack of \[Rigidity\], \[Poison\] for 2 rounds, or 5 stacks of \[Burn\].
+- **Endless Inspiration**: When casting an Ultimate, for each stack, recasts the Ultimate 1 time (stackable up to 4 times, removes all stacks after casting an Ultimate).
+- **Scene Direction**: When Noire casts \[Climactic Moment\], the attack gains Critical Rate +6% and benefits from Ultimate Might at a +12% rate (undispellable, removed at the end of the round after casting).
+- **Rigidity**: When there are 2 stacks, turns into Petrify status or extends the duration of existing Petrify status for 1 round.
+- **Poison**: At the end of the round, takes Genesis DMG based on the user's ATK (stackable).
+- **Burn**: Healing Taken -15% (unstackable). At the end of the round, takes (the holder's ATK x4%) Genesis DMG (stackable up to 30 times, multiple stacks of Burn is regarded as 1 \[Neg Status\], removes 50% of the stacks when triggered).
 
 ## Names
 

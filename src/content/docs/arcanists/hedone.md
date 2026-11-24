@@ -36,40 +36,59 @@ sources:
 | Psychubes recommended in game | [Arrow of Verdict](/psychubes/arrow-of-verdict/) |
 | Mainland release | 2026-08-13 |
 | Global release | 2026-11-05 |
-
-Hedone is a Conduit arcanist: instead of incantation cards she brings a Conduit and Energy cards, and Harmonization takes the place of Moxie. Her Flame Undying card turns Energy cards left unused at the end of a round into stored Energy, and each time it smelts, she gains Blazing Glory, which raises the Conduit Might and DMG Bonus of the whole team. Her Ultimate adds Genesis DMG based on the damage the team's incantations dealt over the last 4 rounds.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/hedone/profile/) |
 
 ## Incantations
 
-Hedone's Conduit holds one of two incantations at a time; they have no ranks, and both carry Interval.
+### Forged in Glory
 
-| Incantation | Effect |
-| --- | --- |
-| Forged in Glory (single-target attack) | 500% Reality DMG; while Hedone has [Blazing Glory], 500% more Reality DMG and Mineral Energy +2 |
-| At Full Draw (mass attack) | 350% Reality DMG to all enemies, then [Seared] for 4 rounds |
+**Rank 1**: \[Interval\]
 
-- [Conduit]: charged with Energy; at the end of the AP Area it runs and casts its incantation, spending Energy each time.
-- [Interval]: after the Conduit casts this incantation, it cannot cast it again that round.
-- [Seared]: an attack from a Conduit on the holder gains DMG Dealt +8%.
-- [Blazing Glory]: a [Force Field] effect that gives all allies Conduit Might +10% and DMG Bonus equal to 100% of Hedone's Conduit Might, at most 65%. A Force Field ends when its holder leaves the field.
+1-target attack. Deals 500% Reality DMG. While in \[Blazing Glory\], this attack deals an additional 500% Reality DMG and grants Mineral Energy +2.
+
+**Rank 2**: \[Interval\]
+
+1-target attack. Deals 500% Reality DMG. While in \[Blazing Glory\], this attack deals an additional 500% Reality DMG and grants Mineral Energy +2.
+
+**Rank 3**: \[Interval\]
+
+1-target attack. Deals 500% Reality DMG. While in \[Blazing Glory\], this attack deals an additional 500% Reality DMG and grants Mineral Energy +2.
+
+### At Full Draw
+
+**Rank 1**: \[Interval\]
+
+Mass attack. Deals 350% Reality DMG to all enemies. After attacking, inflicts \[Seared\] on the targets for 4 rounds.
+
+**Rank 2**: \[Interval\]
+
+Mass attack. Deals 350% Reality DMG to all enemies. After attacking, inflicts \[Seared\] on the targets for 4 rounds.
+
+**Rank 3**: \[Interval\]
+
+Mass attack. Deals 350% Reality DMG to all enemies. After attacking, inflicts \[Seared\] on the targets for 4 rounds.
 
 ## Ultimate: The Thirteenth Labor
 
-When Harmonization is full, the Conduit switches to the Ultimate. It deals 800% Reality DMG to all enemies, plus [Static Genesis DMG] equal to 100% of the [Absolute Prowess] record to the main target and 50% of it to every other target. If the Spelldock holds no [Flame Undying], the attack creates one there; if it holds one, the attack deals 800% more Reality DMG. Afterwards Hedone gains 1 stack of [Conduit Calibration II], the Absolute Prowess record is cleared, and the Conduit switches to At Full Draw.
+\[Switch: At Full Draw\]
 
-- [Absolute Prowess]: records 10% of the damage that allied incantations dealt to enemies over the last 4 rounds, and 10% more for damage to a target with Seared.
-- [Static Genesis DMG]: Genesis DMG that stat bonuses do not change.
-- [Flame Undying]: at the end of each round, smelts up to 2 unused basic Energy cards in the Spelldock, those with the least Energy first, and stores 1 Energy for each Energy they held. It stops smelting after 4 Energy and stores at most 7. Played, it gives Mineral Energy equal to what it stores. It is locked until it has stored at least 1 Energy, does not count toward the Incantation Limit and costs no AP.
-- [Conduit Calibration II]: the holder's Conduit needs 2 Energy less to activate; one stack is used each time.
+Mass attack. Deals 800% Reality DMG to all enemies, plus (\[Absolute Prowess\] x100%) \[Static Genesis DMG\] to the main target and (\[Absolute Prowess\] x50%) \[Static Genesis DMG\] to all other targets. When attacking, if \[Flame Undying\] is not in the Spelldock, generates 1 \[Flame Undying\]; otherwise, this attack deals an additional 800% Reality DMG. After attacking, gains 1 stack of \[Conduit Calibration II\] and clears all \[Absolute Prowess\] points.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 0 (Precognition) | Hedone gets no basic incantations or Ultimate cards and casts through her Conduit; Harmonization replaces Moxie. On entering battle, she puts a Flame Undying in the Spelldock and gains Absolute Prowess. |
-| 1 | Each time Flame Undying smelts Energy, Hedone gains Blazing Glory for 3 rounds. The Flame Undying from the start of battle begins with 2 stored Energy. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | Harmonization +75 on entering battle. Each time an ally's Conduit activates, Hedone gains Harmonization +1 for every Energy it spends. |
+**Insight 0 · Precognition**: Does not gain basic incantations or Ultimates. Casts incantations by activating a \[Conduit\] with Energy instead. Replaces Moxie with Harmonization.
+
+When entering battle, generates 1 \[Flame Undying\] in the Spelldock and gains \[Absolute Prowess\].
+
+**Insight 1 · Victory Incarnate**: Whenever \[Flame Undying\] smelts Energy, gains \[Blazing Glory\] for 3 rounds.
+
+The \[Flame Undying\] generated when entering battle starts with 2 stored Energy.
+
+**Insight 2 · Victory Incarnate II**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · Victory Incarnate III**: When entering battle, Hedone gains Harmonization +75.
+
+Whenever an ally activates a Conduit, for each Energy consumed by the Conduit, Hedone gains Harmonization +1.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -79,13 +98,32 @@ When Harmonization is full, the Conduit switches to the Ultimate. It deals 800% 
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Flame Undying smelts up to 3 cards, stops after 6 Energy and stores at most 10; the one from the start of battle begins with 4. Forged in Glory and At Full Draw give Harmonization +30. One Mineral Energy I in the deck gives 2 Energy. |
-| 2 | Harmonization +100 on entering battle; Blazing Glory gives Conduit Might +20% and DMG Bonus up to 75%. Two Mineral Energy I in the deck give 2 Energy. |
-| 3 | Forged in Glory deals 800%, and gives Mineral Energy +3 while Hedone has Blazing Glory. |
-| 4 | The Ultimate deals 1200%; Seared gives a Conduit attack DMG Dealt +16%. |
-| 5 | Flame Undying stores 2 Energy for each Energy smelted, stops after 8 and stores at most 12; the one from the start of battle begins with 6. Absolute Prowess records 18%, and 18% more against Seared targets. Two Mineral Energy II in the deck give 3 Energy. |
+**Portrait 1**: \[Flame Undying\] now smelts up to 3 unused basic Energy cards in the Spelldock at the end of the round, stops smelting after storing 6 Energy, and can store up to 10 Energy. **Precognition**: The \[Flame Undying\] generated when entering battle now starts with 4 stored Energy. **Forged in Glory** and **At Full Draw** now grant Harmonization +30. 1 copy of \[Mineral Energy I\] now grants Mineral Energy +2.
+
+**Portrait 2**: **Precognition**: When entering battle, Hedone now gains Harmonization +100. \[Blazing Glory\] now grants Conduit Might +20% and up to DMG Bonus +75%. 2 copies of \[Mineral Energy I\] now grant Mineral Energy +2.
+
+**Portrait 3**: **Forged in Glory** now deals 800% Reality DMG and grants Mineral Energy +3 while in \[Blazing Glory\].
+
+**Portrait 4**: **The Thirteenth Labor** now deals 1200% Reality DMG. **At Full Draw**: When an enemy afflicted with \[Seared\] is attacked by a Conduit, the attack now gains DMG Dealt +16%.
+
+**Portrait 5**: \[Flame Undying\] now stores 2 Energy for each Energy on the smelted Energy cards. \[Flame Undying\] now stops smelting after storing 8 Energy and can store up to 12 Energy. **Precognition**: The \[Flame Undying\] generated when entering battle now starts with 6 stored Energy. \[Absolute Prowess\] now records 18% of DMG dealt to enemies by allied incantations, and if a target is afflicted with \[Seared\], \[Absolute Prowess\] now records an additional 18%. 2 copies of \[Mineral Energy II\] now grant Mineral Energy +3.
+
+## Statuses
+
+- **Interval**: After a Conduit casts this incantation, it cannot cast this incantation again this round.
+- **Blazing Glory**: \[Force Field\] effect: Grants Conduit Might +10% and DMG Bonus +(Hedone's Conduit Might x100%) to all allies (up to DMG Bonus +65%).
+- **Seared**: When attacked by a Conduit, the attack gains DMG Dealt +8%.
+- **Switch: At Full Draw**: After a Conduit casts this incantation, it switches to the corresponding incantation.
+- **Absolute Prowess**: Records 10% of DMG dealt to enemies by allied incantations within the last 4 rounds. If a target is afflicted with \[Seared\], \[Absolute Prowess\] records an additional 10%.
+- **Static Genesis DMG**: This type of Genesis DMG is not affected by relevant stat bonuses.
+- **Flame Undying**: At the end of the round, smelts up to 2 unused basic Energy cards in the Spelldock, prioritizing basic Energy cards providing the fewest Energy. For each Energy on the smelted Energy cards, \[Flame Undying\] stores 1 Energy; Flame Undying stops smelting after storing 4 Energy and can store up to 7 Energy. When used, Flame Undying grants Mineral Energy equal to the amount of stored Energy.
+
+  Flame Undying starts locked and cannot be used until it stores at least 1 Energy. Flame Undying does not take up the allied Incantation Limit and does not consume AP.
+- **Conduit Calibration II**: When activating a Conduit, consumes 2 fewer Energy (-1 stack after trigger).
+- **Conduit**: Use Energy to power Conduits. Conduits activate at the end of the AP Area and repeatedly cast incantations by consuming Energy.
+- **Mineral Energy I**: Mineral Energy +1.
+- **Mineral Energy II**: Mineral Energy +2.
+- **Force Field**: The holder is granting effects to the relevant characters. Disappears when defeated.
 
 ## Names
 

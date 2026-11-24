@@ -40,8 +40,15 @@ sources:
 
 ## Effect
 
-- While the carrier is in [Burn] status, its attacks gain Incantation Might +4/8/8/12/12% (Amplification 1 to 5).
-- After a mass riposte, the carrier gains ATK +1/1/1.5/1.5/2%, up to 6 stacks.
+**Amplification 1**: If the carrier is in the \[Burn\] status, when attacking, gain Incantation Might +4%; and after a mass riposte, gain ATK +1% for self, stackable up to 6 times.
+
+**Amplification 2**: If the carrier is in the \[Burn\] status, when attacking, gain Incantation Might +8%; and after a mass riposte, gain ATK +1% for self, stackable up to 6 times.
+
+**Amplification 3**: If the carrier is in the \[Burn\] status, when attacking, gain Incantation Might +8%; and after a mass riposte, gain ATK +1.5% for self, stackable up to 6 times.
+
+**Amplification 4**: If the carrier is in the \[Burn\] status, when attacking, gain Incantation Might +12%; and after a mass riposte, gain ATK +1.5% for self, stackable up to 6 times.
+
+**Amplification 5**: If the carrier is in the \[Burn\] status, when attacking, gain Incantation Might +12%; and after a mass riposte, gain ATK +2% for self, stackable up to 6 times.
 
 ## Names
 

@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- At the end of a round, if the carrier has [Bastion], the carrier gains DMG Taken -4/5/6/7/8% for 1 round (Amplification 1 to 5).
-- At the end of a round in which the carrier put [Dynamo] into the Pulsing Field at least once, all allies gain DMG Dealt +2/2.5/3/3.5/4%, up to 3 stacks.
+**Amplification 1**: At the end of the round, if the carrier has \[Bastion\], DMG Taken -4% for 1 round.
+
+At the end of the round, if the carrier has transferred any \[Dynamo\] during the round, all allies gain DMG Dealt +2%, up to 3 stacks.
+
+**Amplification 2**: At the end of the round, if the carrier has \[Bastion\], DMG Taken -5% for 1 round.
+
+At the end of the round, if the carrier has transferred any \[Dynamo\] during the round, all allies gain DMG Dealt +2.5%, up to 3 stacks.
+
+**Amplification 3**: At the end of the round, if the carrier has \[Bastion\], DMG Taken -6% for 1 round.
+
+At the end of the round, if the carrier has transferred any \[Dynamo\] during the round, all allies gain DMG Dealt +3%, up to 3 stacks.
+
+**Amplification 4**: At the end of the round, if the carrier has \[Bastion\], DMG Taken -7% for 1 round.
+
+At the end of the round, if the carrier has transferred any \[Dynamo\] during the round, all allies gain DMG Dealt +3.5%, up to 3 stacks.
+
+**Amplification 5**: At the end of the round, if the carrier has \[Bastion\], DMG Taken -8% for 1 round.
+
+At the end of the round, if the carrier has transferred any \[Dynamo\] during the round, all allies gain DMG Dealt +4%, up to 3 stacks.
 
 ## Names
 

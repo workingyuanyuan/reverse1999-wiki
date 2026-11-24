@@ -39,7 +39,15 @@ sources:
 
 ## Effect
 
-After the carrier casts a mass heal incantation, it gains Incantation Might +1/1.5/2/2.5/3% and Ultimate Might +1/1.5/2/2.5/3%, up to 5 stacks (Amplification 1 to 5).
+**Amplification 1**: After the carrier casts a mass heal incantation, gain Incantation Might +1% and Ultimate Might +1%, stackable up to 5 times.
+
+**Amplification 2**: After the carrier casts a mass heal incantation, gain Incantation Might +1.5% and Ultimate Might +1.5%, stackable up to 5 times.
+
+**Amplification 3**: After the carrier casts a mass heal incantation, gain Incantation Might +2% and Ultimate Might +2%, stackable up to 5 times.
+
+**Amplification 4**: After the carrier casts a mass heal incantation, gain Incantation Might +2.5% and Ultimate Might +2.5%, stackable up to 5 times.
+
+**Amplification 5**: After the carrier casts a mass heal incantation, gain Incantation Might +3% and Ultimate Might +3%, stackable up to 5 times.
 
 ## Names
 

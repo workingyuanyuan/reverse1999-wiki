@@ -40,10 +40,22 @@ sources:
 
 ## Effect
 
-When the carrier attacks a target with which it has no Afflatus advantage or disadvantage, it gets DMG Dealt +6/7.5/9/10.5/12%; a carrier of a Primal Afflatus gets +12/15/18/21/24% instead (Amplification 1 to 5). The global client's English and Japanese texts name only the lack of an Afflatus advantage.
+**Amplification 1**: When the carrier attacks, if they do not have an Afflatus advantage over the enemy, DMG Dealt +6%. If the carrier's Afflatus is of the Primal Afflatus, this effect is increased to 12%.
+
+**Amplification 2**: When the carrier attacks, if they do not have an Afflatus advantage over the enemy, DMG Dealt +7.5%. If the carrier's Afflatus is of the Primal Afflatus, this effect is increased to 15%.
+
+**Amplification 3**: When the carrier attacks, if they do not have an Afflatus advantage over the enemy, DMG Dealt +9%. If the carrier's Afflatus is of the Primal Afflatus, this effect is increased to 18%.
+
+**Amplification 4**: When the carrier attacks, if they do not have an Afflatus advantage over the enemy, DMG Dealt +10.5%. If the carrier's Afflatus is of the Primal Afflatus, this effect is increased to 21%.
+
+**Amplification 5**: When the carrier attacks, if they do not have an Afflatus advantage over the enemy, DMG Dealt +12%. If the carrier's Afflatus is of the Primal Afflatus, this effect is increased to 24%.
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | Balance, Please | 请保持平衡 | 請保持平衡 | バランスに注意 | 균형 유지 |
+
+## Edition differences
+
+- The Chinese and Korean texts ask for a target with which the carrier has neither an Afflatus advantage nor a disadvantage; the global client's English and Japanese texts name only the lack of an advantage.

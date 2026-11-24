@@ -36,32 +36,35 @@ sources:
 | Psychubes recommended in game | [Brave New World](/psychubes/brave-new-world/), [Hopscotch](/psychubes/hopscotch/), [Her Second Life](/psychubes/her-second-life/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Bunny Bunny is one of the launch arcanists. Her two attacks are both single-target, one with higher Critical Rate and Critical DMG, one that cuts the target's healing, and her Ultimate heals the team by a share of her ATK while removing debuffs and Control effects.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/bunny-bunny/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Custom Bottle (single-target attack) | 160% Reality DMG | 240% | 400% |
-| Sweet Gloves (single-target attack) | 200% Reality DMG | 250%; Nasty Wound 2 rounds | 400%; Nasty Wound 3 rounds |
+### Custom Bottle
 
-Custom Bottle has Critical Rate and Critical DMG +25% at every rank.
+**Rank 1**: 1-target attack. Deals 160% Reality DMG. This attack enjoys Critical Rate and Critical DMG +25%.
 
-[Nasty Wound]: Healing Taken −50%.
+**Rank 2**: 1-target attack. Deals 240% Reality DMG. This attack enjoys Critical Rate and Critical DMG +25%.
+
+**Rank 3**: 1-target attack. Deals 400% Reality DMG. This attack enjoys Critical Rate and Critical DMG +25%.
+
+### Sweet Gloves
+
+**Rank 1**: 1-target attack. Deals 200% Reality DMG.
+
+**Rank 2**: 1-target attack. Deals 250% Reality DMG. Inflicts \[Nasty Wound\] for 2 rounds on the target hit.
+
+**Rank 3**: 1-target attack. Deals 400% Reality DMG. Inflicts \[Nasty Wound\] for 3 rounds on the target hit.
 
 ## Ultimate: Bunny Medal Cert
 
-Removes Stats Down, Neg Status and [Control] effects from all allies and heals each of them by 200% of Bunny Bunny's ATK.
-
-[Control]: effects that stop a character from acting, such as Daze, Petrify, Nightmare, Freeze, Disarm, Silence and Seal.
+Mass heal. Dispels \[Stats Down\], \[Neg Status\], and \[Control\] effects from all allies and recovers (the user's ATK x200%) HP for all allies.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | On entering battle, puts [Gracious Host] on all enemies for 2 rounds, once per battle: Critical Resist Rate and Critical DEF −25%. |
-| 2 | Critical DMG +15% on entering battle. |
+**Insight 1 · Best Employee**: Inflicts \[Gracious Host\] on all enemies for 2 rounds when entering battle (only triggers 1 time).
+
+**Insight 2 · Best Employee Ⅱ**: Critical DMG +15% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -70,13 +73,21 @@ Removes Stats Down, Neg Status and [Control] effects from all allies and heals e
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate heals 220% of her ATK. |
-| 2 | Custom Bottle has Critical Rate and Critical DMG +30%. |
-| 3 | Sweet Gloves deals 220, 280 or 450% by rank. |
-| 4 | The Ultimate heals 240% of her ATK. |
-| 5 | The Ultimate heals 260% of her ATK. |
+**Portrait 1**: **Bunny Medal Cert**'s effect changes to: HP +(the caster's ATK ×220%) for all allies.
+
+**Portrait 2**: **Custom Bottle**'s effect changes to: this attack enjoys Critical Rate +30%, Critical DMG +30%.
+
+**Portrait 3**: **Sweet Gloves**'s effect changes to: deals 220/280/450% Reality DMG.
+
+**Portrait 4**: **Bunny Medal Cert**'s effect changes to: HP +(the caster's ATK ×240%) for all allies.
+
+**Portrait 5**: **Bunny Medal Cert**'s effect changes to: HP +(the caster's ATK ×260%) for all allies.
+
+## Statuses
+
+- **Nasty Wound**: Healing Taken -50%.
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
+- **Gracious Host**: Critical Resist Rate and Critical DEF -25%.
 
 ## Names
 

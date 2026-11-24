@@ -40,8 +40,15 @@ sources:
 
 ## Effect
 
-- A Plant carrier has DMG Dealt +6% when attacking.
-- When the carrier attacks an enemy in [Nightmare] status, the carrier gains Penetration Rate +4/6.5/9/11.5/14%, up to 3 stacks (Amplification 1 to 5).
+**Amplification 1**: When the carrier is a \[Plant\] character, DMG Dealt +6%. When the carrier attacks an enemy that's in the \[Nightmare\] status, gain Penetration Rate +4% for self, stacks up to 3 times.
+
+**Amplification 2**: When the carrier is a \[Plant\] character, DMG Dealt +6%. When the carrier attacks an enemy that's in the \[Nightmare\] status, gain Penetration Rate +6.5% for self, stacks up to 3 times.
+
+**Amplification 3**: When the carrier is a \[Plant\] character, DMG Dealt +6%. When the carrier attacks an enemy that's in the \[Nightmare\] status, gain Penetration Rate +9% for self, stacks up to 3 times.
+
+**Amplification 4**: When the carrier is a \[Plant\] character, DMG Dealt +6%. When the carrier attacks an enemy that's in the \[Nightmare\] status, gain Penetration Rate +11.5% for self, stacks up to 3 times.
+
+**Amplification 5**: When the carrier is a \[Plant\] character, DMG Dealt +6%. When the carrier attacks an enemy that's in the \[Nightmare\] status, gain Penetration Rate +14% for self, stacks up to 3 times.
 
 ## Names
 

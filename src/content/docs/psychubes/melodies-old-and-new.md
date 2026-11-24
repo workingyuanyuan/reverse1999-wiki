@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- On entering battle, the carrier gains Healing Done +12/14/14/16/16% (Amplification 1 to 5).
-- At the start of each round, all allies gain DMG Dealt +1/1/2/2/3%, stacking up to 3 times.
+**Amplification 1**: When entering battle, gain Healing Done +12%.
+
+At the start of the round, all allies gain DMG Dealt +1%, stacks up to 3 times.
+
+**Amplification 2**: When entering battle, gain Healing Done +14%.
+
+At the start of the round, all allies gain DMG Dealt +1%, stacks up to 3 times.
+
+**Amplification 3**: When entering battle, gain Healing Done +14%.
+
+At the start of the round, all allies gain DMG Dealt +2%, stacks up to 3 times.
+
+**Amplification 4**: When entering battle, gain Healing Done +16%.
+
+At the start of the round, all allies gain DMG Dealt +2%, stacks up to 3 times.
+
+**Amplification 5**: When entering battle, gain Healing Done +16%.
+
+At the start of the round, all allies gain DMG Dealt +3%, stacks up to 3 times.
 
 ## Names
 

@@ -37,44 +37,41 @@ sources:
 | Psychubes recommended in game | [Knock on the Door](/psychubes/knock-on-the-door/), [Blasphemer of Night](/psychubes/blasphemer-of-night/), [Shadows in the Subconscious](/psychubes/shadows-in-the-subconscious/) |
 | Mainland release | 2024-02-22 |
 | Global release | in the global client |
-
-Isolde spreads [Burn] across the enemy team and turns it into [Heat]: Burn that runs out on the most-burned enemy each round becomes Heat, and Heat moves her through three stages, [Prelude], [Interlude] and [Finale]. From Interlude on, she casts [Intermezzo] at all enemies whenever one of them carries 6 or more stacks of Burn, and it deals more for every stack.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/isolde/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Twirling Melody (attack on 2 enemies) | 150% Reality DMG; Burn 2 stacks | 225%; Burn 2 stacks | 300%; Burn 2 stacks |
-| Desired Freedom (mass debuff) | Critical DEF −25%, Reality DEF −15%; 2 rounds | −35%, −15%; 2 rounds | −50%, −15%; 2 rounds |
+### Twirling Melody
 
-- **Twirling Melody** gains Penetration Rate +30% in Interlude and +50% in Finale.
-- **Desired Freedom** lowers Reality DEF by 20% instead of 15% on a target that has Burn.
-- [Burn]: Healing Taken −15%, which does not stack. At the end of the round, Genesis DMG of 4% of the holder's ATK per stack, up to 30 stacks; any number of stacks counts as one Neg Status, and half the stacks are removed each time it deals damage.
+**Rank 1**: Mass attack. Deals 150% Reality DMG to 2 enemies. Inflicts 2 stacks of \[Burn\] on the targets hit. When in the \[Interlude\] status, gain Penetration Rate +30% for this attack. When in the \[Finale\] status, gain Penetration Rate +50% for this attack.
+
+**Rank 2**: Mass attack. Deals 225% Reality DMG to 2 enemies. Inflicts 2 stacks of \[Burn\] on the targets hit. When in the \[Interlude\] status, gain Penetration Rate +30% for this attack. When in the \[Finale\] status, gain Penetration Rate +50% for this attack.
+
+**Rank 3**: Mass attack. Deals 300% Reality DMG to 2 enemies. Inflicts 2 stacks of \[Burn\] on the targets hit. When in the \[Interlude\] status, gain Penetration Rate +30% for this attack. When in the \[Finale\] status, gain Penetration Rate +50% for this attack.
+
+### Desired Freedom
+
+**Rank 1**: Mass debuff. Inflicts Critical DEF -25% and Reality DEF -15% (-20% to targets in the \[Burn\] status) on all enemies for 2 rounds.
+
+**Rank 2**: Mass debuff. Inflicts Critical DEF -35% and Reality DEF -15% (-20% to targets in the \[Burn\] status) on all enemies for 2 rounds.
+
+**Rank 3**: Mass debuff. Inflicts Critical DEF -50% and Reality DEF -15% (-20% to targets in the \[Burn\] status) on all enemies for 2 rounds.
 
 ## Ultimate: Choking on Blood
 
-Puts 5 stacks of Burn on all enemies and 5 more on the main target, and gives all allies 1 stack of [Rousing Morale]. Then she casts Intermezzo at the targets as a follow-up; each stack of Burn the Ultimate puts on the main target beyond its limit gives this Intermezzo Incantation Might +15%.
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Heat | Gained from Burn stacks that resolve. 15 Heat move Isolde from Prelude to Interlude, 40 from Interlude to Finale. |
-| Prelude | At the start of each round, all allies gain 3 stacks of [Preignition]. Cannot be dispelled. |
-| Interlude | As Prelude; also, when the enemy with the most Burn has 6 or more stacks, Isolde casts Intermezzo. Cannot be dispelled. |
-| Finale | As Interlude, and all allies also gain 1 stack of [Power Burst] each round; its Intermezzo has Incantation Might +15%. Cannot be dispelled. |
-| Intermezzo | 50% Reality DMG to all enemies, plus 10% Reality DMG for each stack of Burn on the target. |
-| Preignition | Before its holder attacks, puts 1 stack of Burn on the target for each stack; then all stacks are removed. |
-| Rousing Morale | DMG Bonus +50% on an attack; 1 stack is used each time. |
-| Power Burst | DMG Bonus +25% on an attack; 1 stack is used each time. |
+Mass debuff. Inflicts 5 stacks of \[Burn\] on all enemies and an additional 5 stacks of \[Burn\] on the main target, grants 1 stack of \[Rousing Morale\] to all allies, and then casts \[Intermezzo\] as a follow-up attack on the targets. For every excess stack of \[Burn\] on the main target, this \[Intermezzo\] gains Incantation Might +15%.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | On entering battle, Isolde enters Prelude and puts 3 stacks of Burn on all enemies. At the end of each round, she gains as much Heat as the Burn stacks the most-burned enemy loses. At 15 Heat, Prelude becomes Interlude. |
-| 2 | ATK +5% on entering battle. |
-| 3 | At 40 Heat, Interlude becomes Finale. |
+**Insight 1 · Seven Veils**: When entering battle, enter the \[Prelude\] status and inflict 3 stacks of \[Burn\] on all enemies.
+
+At the end of the round, when the highest enemy \[Burn\] stack resolves and loses stacks, gain an equal number of \[Heat\] stacks in turn.
+
+When holding 15 stacks of \[Heat\], the \[Prelude\] status changes to the \[Interlude\] status.
+
+**Insight 2 · Seven Veils II**: ATK +5% when entering battle.
+
+**Insight 3 · Seven Veils III**: When holding 40 \[Heat\] stacks, the \[Interlude\] status changes to the \[Finale\] status.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -84,32 +81,59 @@ Puts 5 stacks of Burn on all enemies and 5 more on the main target, and gives al
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Intermezzo deals 13% more Reality DMG for each stack of Burn. |
-| 2 | Interlude needs 10 Heat and Finale 30. |
-| 3 | Intermezzo deals 16% more for each stack of Burn. |
-| 4 | Twirling Melody deals 200, 300 or 400% by rank. |
-| 5 | Intermezzo deals 20% more for each stack of Burn. |
+**Portrait 1**: **Seven Veils**: For every stack of \[Burn\] a target has, \[Intermezzo\] now deals Reality DMG +13% to that target.
+
+**Portrait 2**: **Seven Veils**: \[Prelude\] now advances to \[Interlude\] at 10 stacks of \[Heat\].
+
+\[Interlude\] now advances to \[Finale\] at 30 stacks of Heat.
+
+**Portrait 3**: **Seven Veils**: For every stack of \[Burn\] a target has, \[Intermezzo\] now deals Reality DMG +16% to that target.
+
+**Portrait 4**: **Twirling Melody**: At incantation rank 1/2/3, the Reality DMG is increased to 200/300/400%.
+
+**Portrait 5**: **Seven Veils**: For every stack of \[Burn\] a target has, \[Intermezzo\] now deals Reality DMG +20% to that target.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Isolde has one Epiphany of four levels, built on a gauge of [Lingering Glow].
+**Epiphany 1, level 1**: New Effects Added: Accumulates \[Lingering Glow\] (mutually exclusive with \[Bloodtithe\]) whenever an enemy is inflicted with \[Burn\] or \[Halo\].
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | Lingering Glow builds whenever any enemy receives Burn or [Halo]. Desired Freedom lowers both Reality DEF and Mental DEF. |
-| 1 | 2 | The Ultimate no longer gives Rousing Morale, and Finale no longer gives Power Burst. Instead, at the start of each round, Interlude gives all allies [Acciaccatura] for 1 round, and Finale gives them [Appoggiatura] for 1 round. |
-| 1 | 3 | Intermezzo gains Incantation Might +1.5% for each stack of Burn on the target, counting up to 30 stacks. With at least 100, 200 or 300 Lingering Glow it gains Incantation Might +10, 20 or 30% more, and at 300 or more also Penetration Rate +30%. |
-| 1 | 4 | Intermezzo deals 2% more Reality DMG for each point of Lingering Glow, and with at least 150 points it gives Isolde 1 Moxie. In Prelude, Interlude and Finale, 5, 10 and 15% of the Lingering Glow lost at the start of a round comes back after the next Intermezzo. |
+**Desired Freedom** now reduces both Reality DEF and Mental DEF.
 
-- **Lingering Glow**: builds when any enemy receives Burn or Halo; the fewer enemies there are, the more it builds. It cannot be held together with Bloodtithe or the Pursuit Scope; the global client's text names Bloodtithe only.
-- **Halo**: Healing Taken −25%, which does not stack. At the end of the round, Genesis DMG of 4% of the ATK of the arcanist who applied it per stack, up to 30 stacks; any number of stacks counts as one Neg Status, and half the stacks are removed each time it deals damage.
+**Epiphany 1, level 2**: **Choking on Blood** no longer grants \[Rousing Morale\] to all allies. \[Finale\] no longer grants \[Power Burst\] to all allies.
+
+\[Interlude\] New Effects Added: At the start of the round, grants \[Acciaccatura\] to all allies for 1 round.
+
+\[Finale\] New Effects Added: At the start of the round, grants \[Appoggiatura\] to all allies for 1 round.
+
+**Epiphany 1, level 3**: \[Intermezzo\] New Effects Added: For every stack of \[Burn\] on the target, this attack gains Incantation Might +1.5%, counting up to 30 stacks of \[Burn\]. At 100/200/300 points of \[Lingering Glow\] or above, this attack gains an additional Incantation Might +10%/20%/30%; at 300 points of \[Lingering Glow\] or above, this attack gains Penetration Rate +30%.
+
+**Epiphany 1, level 4**: \[Intermezzo\] New Effects Added: Deals an additional 2% Reality DMG for every point of \[Lingering Glow\]; at 150 points of \[Lingering Glow\] or above, grants Moxie +1.
+
+\[Prelude\], \[Interlude\], and \[Finale\] New Effects Added: 5%/10%/15% of the \[Lingering Glow\] points depleted at the start of the round will be reaccumulated after the next cast of \[Intermezzo\].
+
+## Statuses
+
+- **Burn**: Healing Taken -15% (unstackable). At the end of the round, takes (the holder's ATK x4%) Genesis DMG (stackable up to 30 times, multiple stacks of Burn is regarded as 1 \[Neg Status\], removes 50% of the stacks when triggered).
+- **Interlude**: At the start of the round, grants 3 stacks of \[Preignition\] to all allies. When the highest enemy \[Burn\] stack reaches 6 or higher, casts \[Intermezzo\] (undispellable).
+- **Finale**: At the start of the round, grants 3 stacks of \[Preignition\] and 1 stack of \[Power Burst\] to all allies. When the highest enemy \[Burn\] stack reaches 6 or higher, casts \[Intermezzo\] and gain Incantation Might +15% for this attack (undispellable).
+- **Rousing Morale**: DMG Bonus +50% when attacking (reduced by 1 stack on trigger).
+- **Intermezzo**: Deals 50% Reality DMG to all enemies. For each stack of \[Burn\] on the target, this attack deals 10% additional Reality DMG.
+- **Prelude**: At the start of the round, grants 3 stacks of \[Preignition\] to all allies (undispellable).
+- **Heat**: Converted from resolved \[Burn\] stacks
+- **Lingering Glow**: Accumulates \[Lingering Glow\] whenever an enemy is inflicted with \[Burn\] or \[Halo\]. The fewer enemies there are, the more \[Lingering Glow\] is accumulated.
+- **Bloodtithe**: Whenever allies lose 3000 HP combined, accumulate 1 point of \[Bloodtithe\]; HP lost from being attacked accumulates \[Bloodtithe\] at only 30% efficiency.
+- **Halo**: Healing Taken -25% (unstackable). At the end of the round, takes (the inflicter's ATK x4%) Genesis DMG (stackable up to 30 times, multiple stacks of Halo are regarded as 1 \[Neg Status\], removes 50% of the stacks when triggered).
+- **Power Burst**: DMG Bonus +25% when attacking (-1 stack after trigger).
 - **Acciaccatura**: DMG Dealt +18%.
-- **Appoggiatura**: DMG Dealt +18%, plus 0.3% for each point of Lingering Glow, counting up to 300 points.
+- **Appoggiatura**: DMG Dealt +18% (additionally +0.3% for every point of \[Lingering Glow\], up to 300 points).
+- **Preignition**: Before attacking, for each stack, inflicts 1 stack of \[Burn\] on the target (remove all after trigger).
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | Isolde | 伊索尔德 | 伊索爾德 | イゾルデ | 이졸데 |
+
+## Edition differences
+
+- On the mainland client Lingering Glow cannot be held together with Bloodtithe or 洞知眼 (a status of the mainland client only); the global client's text names Bloodtithe only.

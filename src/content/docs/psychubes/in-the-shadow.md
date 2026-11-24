@@ -40,9 +40,15 @@ sources:
 
 ## Effect
 
-- A Mineral carrier gets DMG Taken −5%.
-- After the carrier uses a buff incantation, it gains ATK +0.5/0.5/1/2/2% (Amplification 1 to 5); a 1-target buff incantation doubles the gain. The ATK bonus stacks to at most 10%.
-- Once the ATK bonus reaches 10%, the carrier also gains DMG Taken Reduction +3/4/4/5/7%.
+**Amplification 1**: If the carrier's afflatus is \[Mineral\], they get DMG Taken -5%. After the carrier uses a buff incantation, they get ATK +0.5%. If it was a 1-target buff incantation, the ATK boost is doubled. This effect can stack up to 10%. Upon reaching the limit, the carrier gains an additional DMG Taken Reduction +3%.
+
+**Amplification 2**: If the carrier's afflatus is \[Mineral\], they get DMG Taken -5%. After the carrier uses a buff incantation, they get ATK +0.5%. If it was a 1-target buff incantation, the ATK boost is doubled. This effect can stack up to 10%. Upon reaching the limit, the carrier gains an additional DMG Taken Reduction +4%.
+
+**Amplification 3**: If the carrier's afflatus is \[Mineral\], they get DMG Taken -5%. After the carrier uses a buff incantation, they get ATK +1%. If it was a 1-target buff incantation, the ATK boost is doubled. This effect can stack up to 10%. Upon reaching the limit, the carrier gains an additional DMG Taken Reduction +4%.
+
+**Amplification 4**: If the carrier's afflatus is \[Mineral\], they get DMG Taken -5%. After the carrier uses a buff incantation, they get ATK +2%. If it was a 1-target buff incantation, the ATK boost is doubled. This effect can stack up to 10%. Upon reaching the limit, the carrier gains an additional DMG Taken Reduction +5%.
+
+**Amplification 5**: If the carrier's afflatus is \[Mineral\], they get DMG Taken -5%. After the carrier uses a buff incantation, they get ATK +2%. If it was a 1-target buff incantation, the ATK boost is doubled. This effect can stack up to 10%. Upon reaching the limit, the carrier gains an additional DMG Taken Reduction +7%.
 
 ## Names
 

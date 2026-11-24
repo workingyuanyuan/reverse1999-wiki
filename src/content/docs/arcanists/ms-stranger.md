@@ -37,55 +37,63 @@ sources:
 | Psychubes recommended in game | [Until I Am Me](/psychubes/until-i-am-me/) |
 | Mainland release | 2026-05-21 |
 | Global release | 2026-09-03 |
-
-Ms. Stranger's damage comes from A Moth to a Flame, a card that appears locked at the left of the Spelldock and grows stronger with every kind of incantation the team casts while it waits. It unlocks once it reaches the rightmost place, and her own incantations and Insight III move it there faster. Her Ultimate is a self buff that lets her follow each attack with an extra Moth to a Flame.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/ms-stranger/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Cocoon Breaker (single-target attack) | 200% Mental DMG | 300% | 500% |
-| Phototactic Instinct (mass attack) | 180% Mental DMG; Self-Deception 3 rounds | 270% | 450% |
+### Cocoon Breaker
 
-- **Cocoon Breaker** checks where it sat in the Spelldock before it was cast. Right of A Moth to a Flame, it gives Ms. Stranger 2 stacks of [Last Piece of Herself] after the hit; left of it, the hit deals the same percentage again as extra Mental DMG.
-- **Phototactic Instinct** hits all enemies and puts [Self-Deception] on every target hit at each rank.
+**Rank 1**: 1-target attack. Deals 200% Mental DMG to 1 enemy.
 
-[Self-Deception]: DMG Taken Reduction −20%; when A Moth to a Flame hits the holder, that attack gains Critical Rate +15% and Critical DMG +30%. Gaining it again renews its duration.
+If this incantation was to the right of \[A Moth to a Flame\] in the Spelldock before casting, gains 2 stacks of \[Last Piece of Herself\] after attacking.
+
+If this incantation was to the left of \[A Moth to a Flame\] in the Spelldock before casting, this attack deals an additional 200% Mental DMG.
+
+**Rank 2**: 1-target attack. Deals 300% Mental DMG to 1 enemy.
+
+If this incantation was to the right of \[A Moth to a Flame\] in the Spelldock before casting, gains 2 stacks of \[Last Piece of Herself\] after attacking.
+
+If this incantation was to the left of \[A Moth to a Flame\] in the Spelldock before casting, this attack deals an additional 300% Mental DMG.
+
+**Rank 3**: 1-target attack. Deals 500% Mental DMG to 1 enemy.
+
+If this incantation was to the right of \[A Moth to a Flame\] in the Spelldock before casting, gains 2 stacks of \[Last Piece of Herself\] after attacking.
+
+If this incantation was to the left of \[A Moth to a Flame\] in the Spelldock before casting, this attack deals an additional 500% Mental DMG.
+
+### Phototactic Instinct
+
+**Rank 1**: Mass attack. Deals 180% Mental DMG to all enemies.
+
+Inflicts \[Self-Deception\] on the targets hit for 3 rounds.
+
+**Rank 2**: Mass attack. Deals 270% Mental DMG to all enemies.
+
+Inflicts \[Self-Deception\] on the targets hit for 3 rounds.
+
+**Rank 3**: Mass attack. Deals 450% Mental DMG to all enemies.
+
+Inflicts \[Self-Deception\] on the targets hit for 3 rounds.
 
 ## Ultimate: Implanted Memories
 
-A self buff. Ms. Stranger dispels her own Stats Down and Neg Status effects, gains [New Life] for 2 rounds and gains 1 stack of [Silent Flutter].
-
-- [New Life]: DMG Taken Reduction +20%, DMG Bonus +40%, and Penetration Rate +20% for A Moth to a Flame. Gaining it again adds to its duration; it cannot be dispelled.
-- [Silent Flutter]: after Ms. Stranger attacks with any incantation of her own, one stack is spent to cast A Moth to a Flame once more, with 2 stacks of each of the four enhancements. That cast does not count as an extra action. Up to 10 stacks; it cannot be dispelled.
-
-## A Moth to a Flame
-
-On entering battle, and at the start of the round after she loses the card, Ms. Stranger puts A Moth to a Flame in the leftmost place of the Spelldock, never further left than the 9th place from the right. It starts locked and cannot be used or moved. At the start of a round in which it is the rightmost card, it unlocks and dispels every [Control] effect on her.
-
-Cast, it deals 440% Mental DMG to one enemy. It costs no AP, counts as an Ultimate and is a [Sovereign Incantation], so casting it counts as an action she takes herself.
-
-While it waits, it gains enhancements of four types from the kinds of incantations and Ultimates that allies cast in the AP Area, at most 4 stacks of each type. Each stack adds to the cast:
-
-| Type | Comes from | Each stack adds |
-| --- | --- | --- |
-| 1 | single-target attack or debuff | 110% Mental DMG, and 440% more to the main target |
-| 2 | mass attack or debuff | 330% Mental DMG and 1 more target |
-| 3 | buff or counter | Critical Rate +8%, Ultimate Might +12% |
-| 4 | heal or channel | Critical DMG +12%, Incantation Might +12% |
-
-- [Last Piece of Herself]: when she gains A Moth to a Flame, up to 4 stacks are spent; the card moves right by as many places as stacks spent and gains twice that number of enhancements, filling the types with the fewest stacks first. Up to 10 stacks; it cannot be dispelled.
-- [Control]: effects that stop a character from acting, such as Daze, Petrify, Nightmare, Freeze, Disarm, Silence and Seal.
-- [Sovereign Incantation]: casting it counts as the character taking an action herself.
+Self buff. Dispels all \[Stats Down\] and \[Neg Status\] effects from self, gains \[New Life\] for 2 rounds, and gains 1 stack of \[Silent Flutter\].
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 0 (Precognition) | Puts a locked A Moth to a Flame in the Spelldock on entering battle and in the round after each use, and unlocks it when it is the rightmost card at the start of a round. |
-| 1 | Her Ultimate does not count toward the team's Incantation Draw Limit. She gains Moxie +3 when A Moth to a Flame unlocks. Her incantations draw on both Incantation Might and Ultimate Might at 100%. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | On entering battle, her first A Moth to a Flame moves 8 places right at once and gains 16 enhancements, filling the types with the fewest stacks first. Each time an enemy's Afflatus Guard falls to 0, she gains 1 stack of Last Piece of Herself. |
+**Insight 0 · Precognition**: When entering battle or at the start of the next round after losing \[A Moth to a Flame\], generates 1 \[A Moth to a Flame\] in the leftmost position of the Spelldock (but no further than the 9th position from the right).
+
+\[A Moth to a Flame\] starts locked and cannot be used or moved. At the start of the round, if \[A Moth to a Flame\] is in the rightmost position of the Spelldock, dispels all \[Control\] effects from Ms. Stranger and unlocks \[A Moth to a Flame\], which becomes usable.
+
+**Insight 1 · A Lady's Mask**: Ultimate does not take up the allied Incantation Draw Limit. When \[A Moth to a Flame\] unlocks, Ms. Stranger gains Moxie +3.
+
+Ms. Stranger's incantations simultaneously benefit from Incantation Might at a 100% rate and Ultimate Might at a 100% rate.
+
+**Insight 2 · A Lady's Mask II**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · A Lady's Mask III**: When entering battle, the first generated \[A Moth to a Flame\] immediately moves 8 positions to the right and gains enhancements 16 times (prioritizing enhancements with the fewest stacks).
+
+Whenever an enemy's Afflatus Guard is reduced to 0, Ms. Stranger gains 1 stack of \[Last Piece of Herself\].
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -95,13 +103,49 @@ While it waits, it gains enhancements of four types from the kinds of incantatio
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | She gains 2 stacks of Last Piece of Herself when an enemy's Afflatus Guard falls to 0; a cast from Silent Flutter has 3 stacks of each enhancement. |
-| 2 | New Life gives DMG Bonus +60% and A Moth to a Flame Penetration Rate +30%; a cast from Silent Flutter has 4 stacks of each enhancement. |
-| 3 | Self-Deception gives DMG Taken Reduction −30%, and A Moth to a Flame gains Critical Rate +20% and Critical DMG +40% against its holder. |
-| 4 | Her incantations draw on Incantation Might and Ultimate Might at 120%. |
-| 5 | A Moth to a Flame deals 560%; each stack adds 140% and 560% to the main target (type 1), 420% (type 2), Critical Rate +10% and Ultimate Might +15% (type 3), Critical DMG +15% and Incantation Might +15% (type 4). |
+**Portrait 1**: **Precognition**: Ms. Stranger now gains 2 stacks of \[Last Piece of Herself\] whenever an enemy's Afflatus Guard is broken.
+
+**Implanted Memories**: \[A Moth to a Flame\] cast via \[Silent Flutter\] now gains 3 stacks of each of the 4 enhancements.
+
+**Portrait 2**: **Implanted Memories**: \[New Life\] now grants Penetration Rate +30% to \[A Moth to a Flame\] and grants DMG Bonus +60%.
+
+\[A Moth to a Flame\] cast via \[Silent Flutter\] now gains 4 stacks of each of the 4 enhancements.
+
+**Portrait 3**: **Phototactic Instinct**: \[Self-Deception\] now inflicts DMG Taken Reduction -30% and grants Critical Rate +20% and Critical DMG +40% to \[A Moth to a Flame\].
+
+**Portrait 4**: **Precognition**: Ms. Stranger's incantations now benefit from Incantation Might at a 120% rate and Ultimate Might at a 120% rate.
+
+**Portrait 5**: **Precognition**: \[A Moth to a Flame\] now deals 560% Mental DMG, and its enhancements become stronger:
+
+\[Type 1\]: This attack now deals an additional 140% Mental DMG, plus an additional 560% Mental DMG to the main target.
+
+\[Type 2\]: This attack now deals an additional 420% Mental DMG.
+
+\[Type 3\]: This attack gains Critical Rate +10% and Ultimate Might +15%.
+
+\[Type 4\]: This attack gains Critical DMG +15% and Incantation Might +15%.
+
+## Statuses
+
+- **Last Piece of Herself**: When gaining \[A Moth to a Flame\], consumes up to 4 stacks to move \[A Moth to a Flame\] an equal number of positions right on the Spelldock and grant (number of consumed stacks x2) enhancements to \[A Moth to a Flame\] (prioritizes types of enhancements with the fewest stacks, stackable up to 10 times, undispellable).
+- **Self-Deception**: DMG Taken Reduction -20%. When attacked by \[A Moth to a Flame\], grants an additional Critical Rate +15% and Critical DMG +30% to \[A Moth to a Flame\] (gaining this status again refreshes its duration).
+- **New Life**: DMG Taken Reduction +20%, DMG Bonus +40%, \[A Moth to a Flame\]'s Penetration Rate +20% (gaining this status again extends its duration, undispellable).
+- **Silent Flutter**: After Ms. Stranger actively attacks with any incantation, consumes 1 stack of \[Silent Flutter\] to cast \[A Moth to a Flame\] 1 additional time; this attack has 2 stacks of each of the 4 enhancements and does not count as an extra action (stackable up to 10 times, undispellable).
+- **A Moth to a Flame**: 1-target attack. Deals 440% Mental DMG to 1 enemy (does not consume AP; this incantation is a \[Sovereign Incantation\] and counts as an Ultimate).
+
+  Based on the types of incantations/Ultimates actively cast by allies in the AP Area, \[A Moth to a Flame\] will gain 4 types of enhancements, with each type stacking up to 4 times.
+
+  When actively casting \[A Moth to a Flame\], for each stack of each enhancement type, this attack gains the following effects:
+
+  \[Type 1: 1-Target Attack/Debuff\]: This attack deals an additional 110% Mental DMG, plus an additional 440% Mental DMG to the main target.
+
+  \[Type 2: Mass Attack/Debuff\]: This attack deals an additional 330% Mental DMG and attacks 1 additional target.
+
+  \[Type 3: Buff/Counter\]: This attack gains Critical Rate +8% and Ultimate Might +12%.
+
+  \[Type 4: Heal/Channel\]: This attack gains Critical DMG +12% and Incantation Might +12%.
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
+- **Sovereign Incantation**: Casting this incantation counts as the character actively taking an action.
 
 ## Names
 

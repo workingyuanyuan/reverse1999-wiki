@@ -37,33 +37,35 @@ sources:
 | Psychubes recommended in game | [Long Night Talk](/psychubes/long-night-talk/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-John Titor is a support whose value sits in her Ultimate: one cast strips buffs and Counter effects from every enemy, cleanses every ally and shields the whole team. Her incantations are a single-target attack and a self-buff that heals her each round, and her Insight 1 passive heals her after every action.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/john-titor/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Not a Decoration! (single-target attack) | 200% Reality DMG | 300% | 500% |
-| A True Genius! (self-buff and heal) | DMG Dealt +20%; heals 20% of missing HP each round; 2 rounds | +25%; 25%; 2 rounds | +35%; 35%; 3 rounds |
+### Not a Decoration!
 
-A True Genius! puts John Titor in [Self-healing]: at the start of each round she recovers the share of her missing HP shown in the table, and both effects last the rounds shown.
+**Rank 1**: 1-target attack. Deals 200% Reality DMG.
+
+**Rank 2**: 1-target attack. Deals 300% Reality DMG.
+
+**Rank 3**: 1-target attack. Deals 500% Reality DMG.
+
+### A True Genius!
+
+**Rank 1**: Self heal. Gains DMG Dealt +20% and enters the \[Self-healing\] status: at the start of the round, recovers (Missing HP x20%) HP, lasts 2 rounds.
+
+**Rank 2**: Self heal. Gains DMG Dealt +25% and enters the \[Self-healing\] status: at the start of the round, recovers (Missing HP x25%) HP, lasts 2 rounds.
+
+**Rank 3**: Self heal. Gains DMG Dealt +35% and enters the \[Self-healing\] status: at the start of the round, recovers (Missing HP x35%) HP, lasts 3 rounds.
 
 ## Ultimate: 65,536 Bytes
 
-Dispels Stats Up, Pos Status and Counter effects from all enemies and Stats Down, Neg Status and Control effects from all allies, then gives every ally a [Shield] worth 100% of John Titor's ATK for 3 rounds.
-
-- [Shield]: absorbs damage while it lasts.
-- [Self-healing]: at the start of the round, heals the holder by a share of its missing HP.
-- [Counter]: an ongoing state whose effect triggers when the holder is attacked.
-- [Control]: effects that stop a character from acting: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
+Mass buff. Dispels \[Stats Up\], \[Pos Status\], and \[Counter\] effects from all enemies. Dispels \[Stats Down\], \[Neg Status\], and \[Control\] effects from all allies. Grants a \[Shield\] with (ATK x100%) HP to all allies for 3 rounds.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | After each action, she recovers 15% of her missing HP. |
-| 2 | DMG Heal +10% on entering battle. |
+**Insight 1 · Garbled Coding Log**: After taking an action, recover (Missing HP x15%) HP.
+
+**Insight 2 · Garbled Coding Log Ⅱ**: DMG Heal +10% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -72,13 +74,22 @@ Dispels Stats Up, Pos Status and Counter effects from all enemies and Stats Down
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate's Shield becomes 130% of her ATK. |
-| 2 | Not a Decoration! deals 220, 330 or 550% by rank. |
-| 3 | The Ultimate's Shield becomes 160% of her ATK. |
-| 4 | A True Genius! gives DMG Dealt +25, 30 or 40% by rank. |
-| 5 | The Ultimate's Shield becomes 200% of her ATK. |
+**Portrait 1**: **65,536 Bytes**'s effect changes to: inflicts a \[Shield\] with (the caster's ATK ×130%) HP on all allies.
+
+**Portrait 2**: **Not a Decoration!**: At Incantation rank 1/2/3, Reality DMG increased to 220/330/550%.
+
+**Portrait 3**: **65,536 Bytes**'s effect changes to: inflicts a \[Shield\] with (the caster's ATK ×160%) HP on all allies.
+
+**Portrait 4**: **A True Genius!**'s effect changes to: at 1/2/3 stars, DMG Dealt +25/30/40% for the caster.
+
+**Portrait 5**: **65,536 Bytes**'s effect changes to: inflicts a \[Shield\] with (the caster's ATK ×200%) HP on all allies.
+
+## Statuses
+
+- **Self-healing**: At the start of the round, recover the holder's Missing HP.
+- **Counter**: Grants continuous Counter. Effect is triggered When the caster is attacked.
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
+- **Shield**: Blocks certain DMG for a certain duration.
 
 ## Names
 

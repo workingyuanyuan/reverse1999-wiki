@@ -36,35 +36,39 @@ sources:
 | Psychubes recommended in game | [For Rehabilitation](/psychubes/for-rehabilitation/), [Outside the City](/psychubes/outside-the-city/), [Blasphemer of Night](/psychubes/blasphemer-of-night/) |
 | Mainland release | 2024-04-25 |
 | Global release | 2024-08-29 |
-
-Windsong gains Eureka with each incantation and spends 2 of it on Rehabilitation for extra damage, which also turns excess Critical Rate into Critical DMG. Her Ultimate turns all her incantations into Rehabilitation of the same rank and casts as many as it can that round, while stacks of [Measure] raise her Critical Rate and Critical DMG. Her Euphoria lets Measure stack to 55 without a time limit and adds damage for each stack.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/windsong/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Rehabilitation (single-target attack) | 180% Mental DMG; +60% for 2 Eureka | 270%; +90% | 450%; +150% |
-| Practicability (attack on 2 enemies) | 110% Mental DMG; 1 Preparation - Windsong | 165%; 2 | 285%; 3 |
+### Rehabilitation
 
-- Both incantations give Windsong 1 Eureka. Rehabilitation spends 2 Eureka for its extra damage, and that attack turns excess Critical Rate into Critical DMG.
-- [Preparation - Windsong]: at the start of the next round, each stack makes a rank-1 [Precast Incantation] of Rehabilitation; if Windsong holds no Practicability, a rank-1 Precast Practicability is made as well.
+**Rank 1**: 1-target attack. Gains Eureka +1 and deals 180% Mental DMG. Spend 2 Eureka to deal Mental DMG +60% and convert excess Critical Rate to Critical DMG for this attack.
+
+**Rank 2**: 1-target attack. Gains Eureka +1 and deals 270% Mental DMG. Spend 2 Eureka to deal Mental DMG +90% and convert excess Critical Rate to Critical DMG for this attack.
+
+**Rank 3**: 1-target attack. Gains Eureka +1 and deals 450% Mental DMG. Spend 2 Eureka to deal Mental DMG +150% and convert excess Critical Rate to Critical DMG for this attack.
+
+### Practicability
+
+**Rank 1**: Mass attack. Gains Eureka +1 and deals 110% Mental DMG to 2 enemies; gains 1 stack of \[Preparation - Windsong\].
+
+**Rank 2**: Mass attack. Gains Eureka +1 and deals 165% Mental DMG to 2 enemies; gains 2 stacks of \[Preparation - Windsong\].
+
+**Rank 3**: Mass attack. Gains Eureka +1 and deals 285% Mental DMG to 2 enemies; gains 3 stacks of \[Preparation - Windsong\].
 
 ## Ultimate: Long Long Journey
 
-Puts 1 stack of [Confusion] on one enemy for 1 round. Windsong enters [Mapping] for the round, gains 2 Eureka, turns all her incantations into Rehabilitation of the same rank and casts them as far as possible.
-
-- [Confusion]: Critical Resist −25%; stacks, each stack timed on its own.
-- [Mapping]: Windsong does not lose Eureka, and each point of Eureka beyond the cap gives 1 stack of Measure; cannot be dispelled.
-- [Measure]: Critical Rate and Critical DMG +3% for 2 rounds; up to 15 stacks, each timed on its own; cannot be dispelled.
-- [Precast Incantation]: counts as the incantation of the same name; unused ones are removed at the end of the round.
+1-target debuff. Inflicts 1 stack of \[Confusion\] on the target for 1 round; then enters the \[Mapping\] status for the round, gains Eureka +2, converts all own incantations to \[Rehabilitation\] of their matching rank, and casts them all if able.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Each critical hit of an ally's incantation, and each stack of Confusion an enemy gains, gives Windsong 1 stack of Measure. |
-| 2 | Critical Rate +10% on entering battle. |
-| 3 | Critical Rate and Critical DMG +10% on entering battle; after casting her Ultimate, she gains 1 stack of Preparation - Windsong. |
+**Insight 1 · Interdisciplinary Research**: Whenever an ally scores a critical hit with an incantation or an enemy gets a stack of \[Confusion\], grant 1 stack of \[Measure\] to self.
+
+**Insight 2 · Interdisciplinary Research II**: Critical Rate +10% when entering battle.
+
+**Insight 3 · Interdisciplinary Research III**: When entering battle, gain Critical Rate +10% and Critical DMG +10%.
+
+After casting an Ultimate, gain 1 stack of \[Preparation - Windsong\].
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -74,24 +78,37 @@ Puts 1 stack of [Confusion] on one enemy for 1 round. Windsong enters [Mapping] 
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Rehabilitation deals 200, 290 or 480% by rank, and 90, 130 or 200% more for Eureka. |
-| 2 | The Insight 3 bonus on entering battle becomes Critical Rate and Critical DMG +25%. |
-| 3 | The Ultimate gives 5 Eureka. |
-| 4 | Practicability deals 180% at rank 1 and 230% at rank 2. |
-| 5 | Rehabilitation deals 220, 320 or 520% by rank, and 110, 160 or 240% more for Eureka. |
+**Portrait 1**: **Rehabilitation**: at rank 1/2/3 incantation, Mental DMG dealt is increased to 200/290/480%, and the additional Mental DMG dealt by spending Eureka is increased to 90/130/200%.
+
+**Portrait 2**: **Interdisciplinary Research**: When entering battle, the Critical Rate and Critical DMG increase is now +25%.
+
+**Portrait 3**: **Long Long Journey**: The Eureka gained is increased to 5.
+
+**Portrait 4**: **Practicability**: At rank 1/2 incantation, the Mental DMG is increased to 180/230%.
+
+**Portrait 5**: **Rehabilitation**: At rank 1/2/3 incantation, the Mental DMG dealt is increased to 220/320/520%, and the additional Mental DMG dealt by spending Eureka is increased to 110/160/240%.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Windsong has one Epiphany of four levels.
+**Epiphany 1, level 1**: **Interdisciplinary Research** New Effects Added: For each excess Eureka gained, gains 2 stacks of \[Measure\]. Ultimate does not take up the allied Incantation Draw Limit.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | Each point of excess Eureka gives Windsong 2 stacks of Measure, and her Ultimate does not count toward the Incantation Draw Limit. The Ultimate removes all Measure after she acts, and Mapping no longer gives Measure for excess Eureka. |
-| 1 | 2 | Practicability deals extra Mental DMG equal to 100% of its base damage. |
-| 1 | 3 | The Eureka bonus of Rehabilitation rises by 20% of its base, and each attack deals extra Mental DMG equal to 4% of its base for each stack of Measure. |
-| 1 | 4 | Measure stacks up to 55 and no longer runs out. |
+**Long Long Journey** New Effects Added: Removes all \[Measure\] stacks after acting.
+
+\[Mapping\] no longer grants \[Measure\] based on excess Eureka.
+
+**Epiphany 1, level 2**: \[**Practicability**\] now deals (base Mental DMG x100%) additional Mental DMG.
+
+**Epiphany 1, level 3**: **Rehabilitation** now deals (base Mental DMG from consuming Eureka x20%) additional Mental DMG; when attacking, for each stack of \[Measure\], deals (base Mental DMG x4%) additional Mental DMG.
+
+**Epiphany 1, level 4**: \[Measure\]'s stack limit is increased to 55 and its duration limit is removed.
+
+## Statuses
+
+- **Preparation - Windsong**: At the start of the next round, generate a \[Precast Incantation\] - \[Rehabilitation\] (effect stackable). If there is no \[Practicability\] on hand, generate an additional \[Precast Incantation\] - \[Practicability\].
+- **Confusion**: Critical Resist -25% (stackable, each stack timed independently).
+- **Mapping**: Cannot lose Eureka. For every excess Eureka, gain 1 stack of \[Measure\] (undispellable).
+- **Measure**: Critical Rate +3% and Critical DMG +3% for 2 rounds, up to 15 stacks (each stack is timed independently, undispellable).
+- **Precast Incantation**: A \[Precast Incantation\] is regarded as an incantation of the same name. At the end of the round, all unused \[Precast Incantation\] are removed.
 
 ## Names
 

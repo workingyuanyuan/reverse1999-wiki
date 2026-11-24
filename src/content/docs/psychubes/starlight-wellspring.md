@@ -39,8 +39,15 @@ sources:
 
 ## Effect
 
-- When the carrier has both [Stats Up] and [Force Field], it gets Critical Rate +12% when attacking.
-- Each time a carrier of the Primal Afflatus uses a mass buff incantation, it gains Incantation Might and Ultimate Might +2.5/3/3.5/4/4.5% (Amplification 1 to 5), stacking up to 4 times.
+**Amplification 1**: If the carrier has both \[Stats Up\] and \[Force Field\] at the same time, gain Critical Rate +12% when attacking. If the carrier is of the Primal Afflatus, each time after a mass buff incantation is cast, gain Incantation Might +2.5% and Ultimate Might +2.5%, stackable up to 4 times.
+
+**Amplification 2**: If the carrier has both \[Stats Up\] and \[Force Field\] at the same time, gain Critical Rate +12% when attacking. If the carrier is of the Primal Afflatus, each time after a mass buff incantation is cast, gain Incantation Might +3% and Ultimate Might +3%, stackable up to 4 times.
+
+**Amplification 3**: If the carrier has both \[Stats Up\] and \[Force Field\] at the same time, gain Critical Rate +12% when attacking. If the carrier is of the Primal Afflatus, each time after a mass buff incantation is cast, gain Incantation Might +3.5% and Ultimate Might +3.5%, stackable up to 4 times.
+
+**Amplification 4**: If the carrier has both \[Stats Up\] and \[Force Field\] at the same time, gain Critical Rate +12% when attacking. If the carrier is of the Primal Afflatus, each time after a mass buff incantation is cast, gain Incantation Might +4% and Ultimate Might +4%, stackable up to 4 times.
+
+**Amplification 5**: If the carrier has both \[Stats Up\] and \[Force Field\] at the same time, gain Critical Rate +12% when attacking. If the carrier is of the Primal Afflatus, each time after a mass buff incantation is cast, gain Incantation Might +4.5% and Ultimate Might +4.5%, stackable up to 4 times.
 
 ## Names
 

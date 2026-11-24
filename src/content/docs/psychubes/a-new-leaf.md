@@ -39,8 +39,15 @@ sources:
 
 ## Effect
 
-- A Plant carrier gets Critical DEF +8%.
-- When the carrier is attacked while below 40/50/50/60/60% HP, it gets Critical Resist Rate +15/15/20/20/25% (Amplification 1 to 5).
+**Amplification 1**: When the carrier is a \[Plant\] character, Critical DEF +8%. When the carrier is attacked while below 40% HP, Critical Resist Rate +15%.
+
+**Amplification 2**: When the carrier is a \[Plant\] character, Critical DEF +8%. When the carrier is attacked while below 50% HP, Critical Resist Rate +15%.
+
+**Amplification 3**: When the carrier is a \[Plant\] character, Critical DEF +8%. When the carrier is attacked while below 50% HP, Critical Resist Rate +20%.
+
+**Amplification 4**: When the carrier is a \[Plant\] character, Critical DEF +8%. When the carrier is attacked while below 60% HP, Critical Resist Rate +20%.
+
+**Amplification 5**: When the carrier is a \[Plant\] character, Critical DEF +8%. When the carrier is attacked while below 60% HP, Critical Resist Rate +25%.
 
 ## Names
 

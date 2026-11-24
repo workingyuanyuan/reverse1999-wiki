@@ -39,8 +39,15 @@ sources:
 
 ## Effect
 
-- After an attack of the carrier sets off a Bullet effect, the carrier gains Critical DMG +16/20/24/28/32% for 2 rounds (Amplification 1 to 5).
-- An [Array] the carrier deploys also gives all allies Incantation Might +6/7.5/9/10.5/12% and Ultimate Might +6/7.5/9/10.5/12%. Both are removed when the Array ends or is replaced.
+**Amplification 1**: When the carrier attacks and triggers a Bullet effect, the carrier gains Critical DMG +16% for 2 rounds. The \[Array\] deployed by the carrier grants an additional Incantation Might +6% and Ultimate Might +6% to all allies; these effects are removed after the Array ends or is replaced.
+
+**Amplification 2**: When the carrier attacks and triggers a Bullet effect, the carrier gains Critical DMG +20% for 2 rounds. The \[Array\] deployed by the carrier grants an additional Incantation Might +7.5% and Ultimate Might +7.5% to all allies; these effects are removed after the Array ends or is replaced.
+
+**Amplification 3**: When the carrier attacks and triggers a Bullet effect, the carrier gains Critical DMG +24% for 2 rounds. The \[Array\] deployed by the carrier grants an additional Incantation Might +9% and Ultimate Might +9% to all allies; these effects are removed after the Array ends or is replaced.
+
+**Amplification 4**: When the carrier attacks and triggers a Bullet effect, the carrier gains Critical DMG +28% for 2 rounds. The \[Array\] deployed by the carrier grants an additional Incantation Might +10.5% and Ultimate Might +10.5% to all allies; these effects are removed after the Array ends or is replaced.
+
+**Amplification 5**: When the carrier attacks and triggers a Bullet effect, the carrier gains Critical DMG +32% for 2 rounds. The \[Array\] deployed by the carrier grants an additional Incantation Might +12% and Ultimate Might +12% to all allies; these effects are removed after the Array ends or is replaced.
 
 ## Names
 

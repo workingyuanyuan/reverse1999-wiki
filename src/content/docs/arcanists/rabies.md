@@ -37,32 +37,35 @@ sources:
 | Psychubes recommended in game | [Long Night Talk](/psychubes/long-night-talk/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Rabies is one of the launch 4-star arcanists. Every attack he makes leaves [Poison] on its target, his single-target incantation hits harder on an enemy that already carries a debuff or Control effect, and his Ultimate pierces with a Penetration Rate bonus.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/rabies/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Rabies (single-target attack) | 180% Reality DMG; +40% on an afflicted target | 270%; +60% | 450%; +100% |
-| Noise in the Field (attack on 2 enemies) | 120% Reality DMG; +50% on a target above 50% HP | 180%; +75% | 300%; +125% |
+### Rabies
 
-An afflicted target is one under a [Stats Down], [Neg Status] or [Control] effect.
+**Rank 1**: 1-target attack. Deals 180% Reality DMG. If the target is in \[Stats Down\], \[Neg Status\], or \[Control\] statuses, this attack deals an additional 40% Reality DMG.
 
-[Control]: effects that limit what a character can do, such as Daze, Petrify, Nightmare, Freeze, Disarm, Silence and Seal.
+**Rank 2**: 1-target attack. Deals 270% Reality DMG. If the target is in \[Stats Down\], \[Neg Status\], or \[Control\] statuses, this attack deals an additional 60% Reality DMG.
+
+**Rank 3**: 1-target attack. Deals 450% Reality DMG. If the target is in \[Stats Down\], \[Neg Status\], or \[Control\] statuses, this attack deals an additional 100% Reality DMG.
+
+### Noise in the Field
+
+**Rank 1**: Mass attack. Deals 120% Reality DMG to 2 enemies. If the target's HP is above 50%, this attack also deals 50% more Reality DMG.
+
+**Rank 2**: Mass attack. Deals 180% Reality DMG to 2 enemies. If the target's HP is above 50%, this attack also deals 75% more Reality DMG.
+
+**Rank 3**: Mass attack. Deals 300% Reality DMG to 2 enemies. If the target's HP is above 50%, this attack also deals 125% more Reality DMG.
 
 ## Ultimate: Dedicated Straw Doctor
 
-Deals 250% Reality DMG to all enemies, with Penetration Rate +30% for this attack.
-
-[Poison]: at the end of the round, the holder takes Genesis DMG based on the ATK of the one who applied it; it stacks.
+Mass attack. Deals 250% Reality DMG to all enemies. This attack enjoys Penetration Rate +30%.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | After each attack, puts [Poison] on the target for 1 round, dealing Genesis DMG equal to 30% of Rabies' ATK at the end of the round. |
-| 2 | ATK +5% on entering battle. |
+**Insight 1 · Sequela**: After attacking, inflicts the \[Poison\] status on the target for 1 round: at the end of the round, deals (Rabies's ATK x30%) Genesis DMG.
+
+**Insight 2 · Sequela Ⅱ**: ATK +5% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -71,13 +74,20 @@ Deals 250% Reality DMG to all enemies, with Penetration Rate +30% for this attac
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 300%. |
-| 2 | The incantation Rabies adds 65, 95 or 160% by rank on an afflicted target. |
-| 3 | The Ultimate has Penetration Rate +40%. |
-| 4 | Noise in the Field adds its damage to targets above 40% HP. |
-| 5 | The Ultimate has Penetration Rate +50%. |
+**Portrait 1**: **Dedicated Straw Doctor**'s effect changes to: deals 300% Reality DMG.
+
+**Portrait 2**: **Rabies**'s effect changes to: at 1/2/3 stars, additionally deals 65/95/160% Reality DMG to enemies in \[Stats Down\], \[Neg Status\] or \[Control\].
+
+**Portrait 3**: **Dedicated Straw Doctor**'s effect changes to: this attack enjoys Penetration Rate +40%.
+
+**Portrait 4**: **Noise in the Field**'s effect changes to: additionally deals Reality DMG when the target's HP is above 40%.
+
+**Portrait 5**: **Dedicated Straw Doctor**'s effect changes to: this attack enjoys Penetration Rate +50%.
+
+## Statuses
+
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
+- **Poison**: At the end of the round, takes Genesis DMG based on the user's ATK (stackable).
 
 ## Names
 

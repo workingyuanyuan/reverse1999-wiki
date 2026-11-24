@@ -40,8 +40,15 @@ sources:
 
 ## Effect
 
-- When the carrier casts an incantation while in Channel, it gains Critical Rate +2/2.5/3/3.5/4% and Critical DMG +2/2.5/3/3.5/4%, up to 4 stacks (Amplification 1 to 5).
-- While the carrier is bound to another ally, each incantation cast by either of the two gives both DMG Bonus +0.8/1/1.2/1.4/1.6%, up to 10 stacks.
+**Amplification 1**: When the carrier casts an incantation in the Channel status, the carrier gains Critical Rate +2% and Critical DMG +2%, stacks up to 4 times. When the carrier is bound to another ally, each time the carrier or the bound ally casts an incantation, both bound characters gain DMG Bonus +0.8%, stacks up to 10 times.
+
+**Amplification 2**: When the carrier casts an incantation in the Channel status, the carrier gains Critical Rate +2.5% and Critical DMG +2.5%, stacks up to 4 times. When the carrier is bound to another ally, each time the carrier or the bound ally casts an incantation, both bound characters gain DMG Bonus +1%, stacks up to 10 times.
+
+**Amplification 3**: When the carrier casts an incantation in the Channel status, the carrier gains Critical Rate +3% and Critical DMG +3%, stacks up to 4 times. When the carrier is bound to another ally, each time the carrier or the bound ally casts an incantation, both bound characters gain DMG Bonus +1.2%, stacks up to 10 times.
+
+**Amplification 4**: When the carrier casts an incantation in the Channel status, the carrier gains Critical Rate +3.5% and Critical DMG +3.5%, stacks up to 4 times. When the carrier is bound to another ally, each time the carrier or the bound ally casts an incantation, both bound characters gain DMG Bonus +1.4%, stacks up to 10 times.
+
+**Amplification 5**: When the carrier casts an incantation in the Channel status, the carrier gains Critical Rate +4% and Critical DMG +4%, stacks up to 4 times. When the carrier is bound to another ally, each time the carrier or the bound ally casts an incantation, both bound characters gain DMG Bonus +1.6%, stacks up to 10 times.
 
 ## Names
 

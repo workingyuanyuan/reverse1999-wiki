@@ -39,8 +39,25 @@ sources:
 
 ## Effect
 
-- On entering battle, the carrier gets Ultimate Might +4/5/6/7/8% for each Beast character present, the carrier included, up to 4 stacks (Amplification 1 to 5).
-- At the start of each round, the carrier gets DMG Dealt +2/2.5/3/3.5/4% for each type of Bullet it holds, up to 6 stacks, for that round.
+**Amplification 1**: When entering battle, for each \[Beast\] ally present (including the carrier), the carrier gains Ultimate Might +4%, stacking up to 4 times.
+
+At the start of the round, for each type of Bullet carried, the carrier gains DMG Dealt +2% for the round, stacking up to 6 times.
+
+**Amplification 2**: When entering battle, for each \[Beast\] ally present (including the carrier), the carrier gains Ultimate Might +5%, stacking up to 4 times.
+
+At the start of the round, for each type of Bullet carried, the carrier gains DMG Dealt +2.5% for the round, stacking up to 6 times.
+
+**Amplification 3**: When entering battle, for each \[Beast\] ally present (including the carrier), the carrier gains Ultimate Might +6%, stacking up to 4 times.
+
+At the start of the round, for each type of Bullet carried, the carrier gains DMG Dealt +3% for the round, stacking up to 6 times.
+
+**Amplification 4**: When entering battle, for each \[Beast\] ally present (including the carrier), the carrier gains Ultimate Might +7%, stacking up to 4 times.
+
+At the start of the round, for each type of Bullet carried, the carrier gains DMG Dealt +3.5% for the round, stacking up to 6 times.
+
+**Amplification 5**: When entering battle, for each \[Beast\] ally present (including the carrier), the carrier gains Ultimate Might +8%, stacking up to 4 times.
+
+At the start of the round, for each type of Bullet carried, the carrier gains DMG Dealt +4% for the round, stacking up to 6 times.
 
 ## Names
 

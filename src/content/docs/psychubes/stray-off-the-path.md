@@ -40,8 +40,15 @@ sources:
 
 ## Effect
 
-- After the carrier actively casts a 1-target incantation, its next extra action in the same round gets Incantation Might +12/15/18/21/24% (Amplification 1 to 5).
-- After the carrier casts a 1-target incantation, it gains Critical DMG +6/7.5/9/10.5/12%, stacking up to 3 times; the stacks are removed when it casts a mass incantation.
+**Amplification 1**: After the carrier actively casts a 1-target incantation, their next extra action within the round gains Incantation Might +12%. After the carrier casts a 1-target incantation, the carrier gains Critical DMG +6% (stacks up to 3 times, removed after casting a mass incantation).
+
+**Amplification 2**: After the carrier actively casts a 1-target incantation, their next extra action within the round gains Incantation Might +15%. After the carrier casts a 1-target incantation, the carrier gains Critical DMG +7.5% (stacks up to 3 times, removed after casting a mass incantation).
+
+**Amplification 3**: After the carrier actively casts a 1-target incantation, their next extra action within the round gains Incantation Might +18%. After the carrier casts a 1-target incantation, the carrier gains Critical DMG +9% (stacks up to 3 times, removed after casting a mass incantation).
+
+**Amplification 4**: After the carrier actively casts a 1-target incantation, their next extra action within the round gains Incantation Might +21%. After the carrier casts a 1-target incantation, the carrier gains Critical DMG +10.5% (stacks up to 3 times, removed after casting a mass incantation).
+
+**Amplification 5**: After the carrier actively casts a 1-target incantation, their next extra action within the round gains Incantation Might +24%. After the carrier casts a 1-target incantation, the carrier gains Critical DMG +12% (stacks up to 3 times, removed after casting a mass incantation).
 
 ## Names
 

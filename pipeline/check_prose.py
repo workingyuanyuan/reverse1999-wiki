@@ -64,6 +64,8 @@ ALLOW = {
 
 
 ALL_PAGES = False
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from kit_text import GAME_KIT  # noqa: E402
 
 
 def body_of(text):
@@ -84,7 +86,21 @@ def check(path):
     allowed = ALLOW.get(rel, set())
     jako = re.search(r'src/content/docs/(ja|ko)/', norm) is not None
     hits = []
-    for n, line in enumerate(body_of(open(path, encoding='utf8').read()).split('\n'), 1):
+    lines = body_of(open(path, encoding='utf8').read()).split('\n')
+    # The kit of an arcanist page written by pipeline/kit_text.py is the game's text: from the
+    # first section heading to the names table.
+    # So is the effect section of a Psychube page (pipeline/psychube.py), the only section between
+    # its profile table and its names table.
+    m = re.match(r'arcanists/([^/]+)\.md$', rel) or re.match(r'psychubes/((?!(?:index|critical|damage-\d|might|survival)\.md$)[^/]+)\.md$', rel)
+    if m and (m.group(1) in GAME_KIT or rel.startswith('psychubes/')):
+        heads = [k for k, l in enumerate(lines) if l.startswith('## ')]
+        if len(heads) > 1:
+            lines = lines[:heads[0]] + [''] * (heads[-1] - heads[0]) + lines[heads[-1]:]
+    # The effect column of the Statuses page is the game's text (pipeline/write_systems.py): its rows
+    # hold the game's names, the game's text and links.
+    if rel == 'systems/statuses.md':
+        lines = ['' if l.startswith('| ') else l for l in lines]
+    for n, line in enumerate(lines, 1):
         for kind, pats in PATTERNS.items():
             if kind in allowed:
                 continue

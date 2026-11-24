@@ -1,8 +1,8 @@
 ---
 title: "十四行詩 檔案"
-description: "重返未來：1999 十四行詩的檔案：封面、單品、文化、皮膚與語音的遊戲原文。"
+description: "重返未來：1999 十四行詩的檔案：國際版用戶端有 3 套皮膚、34 句語音。"
 appliesTo: "重返未來：1999，國際版用戶端 111.0.1077（3.9 版），繁體中文文本"
-caveat: "文本是國際版的繁體中文；中國大陸版領先兩個版本，部分台詞措辭不同。"
+caveat: "文本是國際版用戶端 3.9 版的；中國大陸版領先兩個版本。"
 lastVerified: 2026-11-24
 aliases:
   - "Sonetto profile"
@@ -10,15 +10,13 @@ aliases:
   - "ソネット プロフィール"
   - "소네트 프로필"
 sources:
-  - title: "re1999-data-global，國際版用戶端 111.0.1077：character_data.json、character_voice.json 與 skin.json（收錄的條目）"
+  - title: "re1999-data-global，國際版用戶端 111.0.1077：character_data.json、character_voice.json 與 skin.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/tree/7308a19ec644c60fd539034c9815cfaa23237dda/data/json
   - title: "re1999-data-global，國際版用戶端 111.0.1077：英文、日文、韓文與繁體中文文本；文本的權利屬於深藍互動（Bluepoch）"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/tree/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language
   - title: "re1999-data，中國大陸版用戶端 113.0.1422：同一批資料表的簡體中文文本"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
 ---
-[十四行詩](/zh-tw/arcanists/sonetto/)在重返未來：1999 的檔案，為國際版用戶端的繁體中文原文。
-
 ## 封面
 
 神秘學家藝術品，展出於20世紀，參展時長16年。誕生自1月10日冬。參展於聖洛夫基金會對外巡查組。

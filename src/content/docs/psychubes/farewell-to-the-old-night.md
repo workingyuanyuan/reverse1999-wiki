@@ -39,7 +39,15 @@ sources:
 
 ## Effect
 
-On entering battle, if the carrier is Plant, all allies get DMG Dealt +6/7.5/9/10.5/12% and Genesis DMG Dealt +6/7.5/9/10.5/12% (Amplification 1 to 5).
+**Amplification 1**: When entering battle, if the carrier is a \[Plant\] character, all allies gain DMG Dealt +6% and Genesis DMG +6%.
+
+**Amplification 2**: When entering battle, if the carrier is a \[Plant\] character, all allies gain DMG Dealt +7.5% and Genesis DMG +7.5%.
+
+**Amplification 3**: When entering battle, if the carrier is a \[Plant\] character, all allies gain DMG Dealt +9% and Genesis DMG +9%.
+
+**Amplification 4**: When entering battle, if the carrier is a \[Plant\] character, all allies gain DMG Dealt +10.5% and Genesis DMG +10.5%.
+
+**Amplification 5**: When entering battle, if the carrier is a \[Plant\] character, all allies gain DMG Dealt +12% and Genesis DMG +12%.
 
 ## Names
 

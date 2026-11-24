@@ -40,11 +40,32 @@ sources:
 
 ## Effect
 
-- On entering battle, if the carrier also has [The Dance of Science](/psychubes/the-dance-of-science/) equipped, the carrier gains Critical DMG +18/22.5/27/31.5/36% (Amplification 1 to 5); the global client's English gives this bonus when the carrier attacks.
-- A Star carrier gains Conduit Might +8/10/12/14/16% when attacking.
+**Amplification 1**: When the carrier attacks, if the carrier is also equipped with \[The Dance of Science\], Critical DMG +18%.
+
+If the carrier is a Star character, Conduit Might +8%.
+
+**Amplification 2**: When the carrier attacks, if the carrier is also equipped with \[The Dance of Science\], Critical DMG +22.5%.
+
+If the carrier is a Star character, Conduit Might +10%.
+
+**Amplification 3**: When the carrier attacks, if the carrier is also equipped with \[The Dance of Science\], Critical DMG +27%.
+
+If the carrier is a Star character, Conduit Might +12%.
+
+**Amplification 4**: When the carrier attacks, if the carrier is also equipped with \[The Dance of Science\], Critical DMG +31.5%.
+
+If the carrier is a Star character, Conduit Might +14%.
+
+**Amplification 5**: When the carrier attacks, if the carrier is also equipped with \[The Dance of Science\], Critical DMG +36%.
+
+If the carrier is a Star character, Conduit Might +16%.
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | The Art of Atoms | 艺术原子能 | 藝術原子能 | 原子の芸術 | 예술 원자력 |
+
+## Edition differences
+
+- The Chinese texts give the Critical DMG bonus on entering battle when the carrier also has The Dance of Science equipped; the global client's English text gives it when the carrier attacks.

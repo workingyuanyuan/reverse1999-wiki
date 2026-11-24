@@ -30,10 +30,6 @@ sources:
 | Extra stat at max level | DMG Bonus +10% |
 | Global client | not yet, mainland China client only |
 
-## Effect
-
-Whenever any ally attacks, that ally gains Incantation Might +2.2/2.4/2.6/2.8/3% for each point of Eureka, counting at most 6 points (Amplification 1 to 5).
-
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |

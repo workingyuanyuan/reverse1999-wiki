@@ -1,6 +1,6 @@
 ---
 title: "Paradise Regained"
-description: "Paradise Regained: Main story of Reverse: 1999 in 25 stages, with the full story text."
+description: "Paradise Regained: chapter 10 of the Reverse: 1999 main story, in 25 stages."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global, global client 111.0.1077: chapter.json and episode.json (stage codes, in-game dates)"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-Paradise Regained is chapter 10TH of the main story of Reverse: 1999, in 25 stages. Its story begins on March 30, 1991, 12:01.
-
 ## Stages
 
 | Stage | Name | In-game time | Trails |
@@ -49,7 +47,7 @@ Paradise Regained is chapter 10TH of the main story of Reverse: 1999, in 25 stag
 
 ## Arcanists who speak
 
-[Sonetto](/arcanists/sonetto/), [Nautika](/arcanists/nautika/), [Ms. Radio](/arcanists/ms-radio/), [Ulrich](/arcanists/ulrich/), [Moldir](/arcanists/moldir/), [37](/arcanists/37/), [Ms. Stranger](/arcanists/ms-stranger/), Schneider, [6](/arcanists/6/), [Buddy Fairchild](/arcanists/buddy-fairchild/)
+[Sonetto](/arcanists/sonetto/), [Nautika](/arcanists/nautika/), [Ms. Radio](/arcanists/ms-radio/), [Ulrich](/arcanists/ulrich/), [Moldir](/arcanists/moldir/), [37](/arcanists/37/), [Ms. Stranger](/arcanists/ms-stranger/), [Schneider](/arcanists/schneider/), [6](/arcanists/6/), [Buddy Fairchild](/arcanists/buddy-fairchild/)
 
 ## Names
 

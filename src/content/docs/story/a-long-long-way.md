@@ -1,6 +1,6 @@
 ---
 title: "A Long Long Way"
-description: "A Long Long Way: Main story of Reverse: 1999 in 24 stages, with the full story text."
+description: "A Long Long Way: chapter 11 of the Reverse: 1999 main story, in 24 stages."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global, global client 111.0.1077: chapter.json and episode.json (stage codes, in-game dates)"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-A Long Long Way is chapter 11TH of the main story of Reverse: 1999, in 24 stages. Its story begins on October 11, 1920, 13:10.
-
 ## Stages
 
 | Stage | Name | In-game time | Trails |

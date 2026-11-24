@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- At the start of each round, a Mineral carrier gains Ultimate Might +4/5/6/7/8% (Amplification 1 to 5), stacking up to 3 times.
-- When the carrier casts its Ultimate while the current maximum [Bloodtithe] is at least 50, it gains Critical DMG +16/20/24/28/32%.
+**Amplification 1**: At the start of the round, if the carrier is a \[Mineral\] character, gains Ultimate Might +4%, up to 3 stacks.
+
+When casting Ultimate, if the current \[Bloodtithe\] limit is at least 50, gains Critical DMG +16%.
+
+**Amplification 2**: At the start of the round, if the carrier is a \[Mineral\] character, gains Ultimate Might +5%, up to 3 stacks.
+
+When casting Ultimate, if the current \[Bloodtithe\] limit is at least 50, gains Critical DMG +20%.
+
+**Amplification 3**: At the start of the round, if the carrier is a \[Mineral\] character, gains Ultimate Might +6%, up to 3 stacks.
+
+When casting Ultimate, if the current \[Bloodtithe\] limit is at least 50, gains Critical DMG +24%.
+
+**Amplification 4**: At the start of the round, if the carrier is a \[Mineral\] character, gains Ultimate Might +7%, up to 3 stacks.
+
+When casting Ultimate, if the current \[Bloodtithe\] limit is at least 50, gains Critical DMG +28%.
+
+**Amplification 5**: At the start of the round, if the carrier is a \[Mineral\] character, gains Ultimate Might +8%, up to 3 stacks.
+
+When casting Ultimate, if the current \[Bloodtithe\] limit is at least 50, gains Critical DMG +32%.
 
 ## Names
 

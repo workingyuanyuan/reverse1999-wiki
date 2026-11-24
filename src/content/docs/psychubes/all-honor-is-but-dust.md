@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- The carrier's follow-up attacks get DMG Dealt +8/10/12/14/16% (Amplification 1 to 5).
-- When the carrier casts its Ultimate as a follow-up attack, all allies get Incantation Might +6/7.5/9/10.5/12% for 3 rounds.
+**Amplification 1**: When the carrier attacks, if it is a follow-up attack, DMG Dealt +8%.
+
+When the carrier casts an Ultimate, if it is a follow-up attack, all allies gain Incantation Might +6% for 3 rounds.
+
+**Amplification 2**: When the carrier attacks, if it is a follow-up attack, DMG Dealt +10%.
+
+When the carrier casts Ultimate, if it is a follow-up attack, all allies gain Incantation Might +7.5% for 3 rounds.
+
+**Amplification 3**: When the carrier attacks, if it is a follow-up attack, DMG Dealt +12%.
+
+When the carrier casts Ultimate, if it is a follow-up attack, all allies gain Incantation Might +9% for 3 rounds.
+
+**Amplification 4**: When the carrier attacks, if it is a follow-up attack, DMG Dealt +14%.
+
+When the carrier casts Ultimate, if it is a follow-up attack, all allies gain Incantation Might +10.5% for 3 rounds.
+
+**Amplification 5**: When the carrier attacks, if it is a follow-up attack, DMG Dealt +16%.
+
+When the carrier casts Ultimate, if it is a follow-up attack, all allies gain Incantation Might +12% for 3 rounds.
 
 ## Names
 

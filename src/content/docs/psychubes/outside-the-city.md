@@ -39,8 +39,15 @@ sources:
 
 ## Effect
 
-- After the carrier makes a 1-target attack as an extra action, it gains Critical DMG +2/3/3/4/5% (Amplification 1 to 5), stacking up to 10 times.
-- At 10 stacks, it also gains Critical Rate +8/8/12/12/12%.
+**Amplification 1**: After the carrier launches a 1-target attack through an extra action, Critical DMG +2%, up to 10 stacks. At 10 stacks, gain extra Critical Rate +8%.
+
+**Amplification 2**: After the carrier launches a 1-target attack through an extra action, Critical DMG +3%, up to 10 stacks. At 10 stacks, gain extra Critical Rate +8%.
+
+**Amplification 3**: After the carrier launches a 1-target attack through an extra action, Critical DMG +3%, up to 10 stacks. At 10 stacks, gain extra Critical Rate +12%.
+
+**Amplification 4**: After the carrier launches a 1-target attack through an extra action, Critical DMG +4%, up to 10 stacks. At 10 stacks, gain extra Critical Rate +12%.
+
+**Amplification 5**: After the carrier launches a 1-target attack through an extra action, Critical DMG +5%, up to 10 stacks. At 10 stacks, gain extra Critical Rate +12%.
 
 ## Names
 

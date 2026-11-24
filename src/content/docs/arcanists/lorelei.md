@@ -37,38 +37,49 @@ sources:
 | Psychubes recommended in game | [Tiny Wish](/psychubes/tiny-wish/) |
 | Mainland release | 2024-05-30 |
 | Global release | 2024-09-19 |
-
-Lorelei pairs an attack on two enemies that applies [Weakness] with a team buff of Critical DMG and DMG Taken Reduction. Her Ultimate and her Insight 1 passive read the team's Spelldock: the more attack, buff or debuff incantations it holds, the more damage, Critical Rate or Penetration Rate her Ultimate gains, and the most common kind decides her team effect each round.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/lorelei/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| On the Shore (attack on 2 enemies) | 120% Mental DMG | 200% | 300% |
-| The Call of the Sea (team buff) | allies Critical DMG +25%, DMG Taken Reduction +15% | +35%, +20% | +45%, +25% |
+### On the Shore
 
-- **On the Shore** puts 1 stack of Weakness on each target hit at every rank.
-- **The Call of the Sea** lasts 2 rounds at every rank.
+**Rank 1**: Mass attack. Deals 120% Mental DMG to 2 enemies. Inflicts 1 stack of \[Weakness\] on the targets hit.
 
-[Weakness]: DMG Bonus −25% on the holder's next attack; one stack is used each time.
+**Rank 2**: Mass attack. Deals 200% Mental DMG to 2 enemies. Inflicts 1 stack of \[Weakness\] on the targets hit.
+
+**Rank 3**: Mass attack. Deals 300% Mental DMG to 2 enemies. Inflicts 1 stack of \[Weakness\] on the targets hit.
+
+### The Call of the Sea
+
+**Rank 1**: Mass buff. Grants Critical DMG +25% and DMG Taken Reduction +15% to all allies for 2 rounds.
+
+**Rank 2**: Mass buff. Grants Critical DMG +35% and DMG Taken Reduction +20% to all allies for 2 rounds.
+
+**Rank 3**: Mass buff. Grants Critical DMG +45% and DMG Taken Reduction +25% to all allies for 2 rounds.
 
 ## Ultimate: A Drifting Song
 
-Deals 300% Mental DMG to all enemies. For each incantation of a kind in the team's Spelldock when she casts it, the attack gains:
+Mass attack. Deals 300% Mental DMG to all enemies; this attack gains bonuses based on the incantations present in the Spelldock:
 
-| Incantation in the Spelldock | Bonus for each one |
-| --- | --- |
-| Attack | 20% more Mental DMG |
-| Buff | Critical Rate +10% |
-| Debuff | Penetration Rate +20% |
+Each attack incantation grants additional Mental DMG +20%
+
+Each buff incantation grants Critical Rate +10%
+
+Each debuff incantation grants Penetration Rate +20%.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | At the start of a round, the most common kind of incantation in the Spelldock sets one effect for 1 round: attack, all allies DMG Dealt +15%; buff, all allies Critical Rate +15%; debuff, all enemies DMG Dealt −15%. |
-| 2 | Critical Rate +10% on entering battle. |
-| 3 | If her Ultimate lands a critical hit, Lorelei gains 1 Moxie after it. |
+**Insight 1 · Melody of Hearts**: At the start of the round, triggers one effect for 1 round based on the most common type of incantation in the Spelldock:
+
+Attack incantation: all allies gain DMG Dealt +15%
+
+Buff incantation: all allies gain Critical Rate +15%
+
+Debuff incantation: all enemies suffer DMG Dealt -15%
+
+**Insight 2 · Melody of Hearts II**: Critical Rate +10% when entering battle.
+
+**Insight 3 · Melody of Hearts III**: Right after casting an Ultimate, gain Moxie +1 if the attack scored a critical hit.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -78,13 +89,19 @@ Deals 300% Mental DMG to all enemies. For each incantation of a kind in the team
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Each attack incantation adds 40% Mental DMG to the Ultimate. |
-| 2 | Each buff incantation adds Critical Rate +20% to the Ultimate. |
-| 3 | The attack effect of Insight 1 becomes DMG Dealt +20%. |
-| 4 | Each debuff incantation adds Penetration Rate +30% to the Ultimate. |
-| 5 | The buff effect of Insight 1 becomes Critical Rate +20%. |
+**Portrait 1**: **A Drifting Song**: The additional Mental DMG dealt from each attack-type incantation is increased to 40%.
+
+**Portrait 2**: **A Drifting Song**: The Critical Rate gained from each buff-type incantation is increased to 20%.
+
+**Portrait 3**: **Melody of Hearts**: The damage increase effect is increased to 20%.
+
+**Portrait 4**: **A Drifting Song**: The Penetration Rate gained from each debuff-type incantation is increased to 30%.
+
+**Portrait 5**: **Melody of Hearts**: The Critical Rate increase effect is increased to 20%.
+
+## Statuses
+
+- **Weakness**: DMG Bonus -25% when attacking (reduced by 1 stack on trigger).
 
 ## Names
 

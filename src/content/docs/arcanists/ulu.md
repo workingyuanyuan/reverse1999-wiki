@@ -37,31 +37,37 @@ sources:
 | Psychubes recommended in game | [Her Second Life](/psychubes/her-second-life/) |
 | Mainland release | 2023-11-30 |
 | Global release | 2024-04-18 |
-
-Ulu builds up Burn on the enemy side: her second incantation burns two targets, and from Insight 3 every enemy gains 3 stacks at the start of each round. Her first incantation pierces harder against a burning target, her Insight 1 passive heals the team after she hits one, and her Ultimate is a team buff that grows stronger once enough Burn is on the field.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/ulu/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Opening Ceremony (single-target attack) | 160% Mental DMG; Penetration Rate +25% on a burning target | 240%; +30% | 400%; +35% |
-| Beating Heart (attack on 2 enemies) | 120% Mental DMG; 1 stack of Burn | 180%; 2 stacks | 300%; 3 stacks |
+### Opening Ceremony
 
-Beating Heart puts its Burn on both targets after the hit.
+**Rank 1**: 1-target attack. Deals 160% Mental DMG. This attack gains Penetration Rate +25% against targets afflicted with \[Burn\].
+
+**Rank 2**: 1-target attack. Deals 240% Mental DMG. This attack gains Penetration Rate +30% against targets afflicted with \[Burn\].
+
+**Rank 3**: 1-target attack. Deals 400% Mental DMG. This attack gains Penetration Rate +35% against targets afflicted with \[Burn\].
+
+### Beating Heart
+
+**Rank 1**: Mass attack. Deals 120% Mental DMG to 2 enemies. After attacking, inflicts 1 stack of \[Burn\] on the targets.
+
+**Rank 2**: Mass attack. Deals 180% Mental DMG to 2 enemies. After attacking, inflicts 2 stacks of \[Burn\] on the targets.
+
+**Rank 3**: Mass attack. Deals 300% Mental DMG to 2 enemies. After attacking, inflicts 3 stacks of \[Burn\] on the targets.
 
 ## Ultimate: Indomitable Fire, Scorching Heart
 
-A team buff: all allies gain DMG Dealt +15% and DMG Taken −15% for 3 rounds. If all enemies together carry 15 or more stacks of [Burn], the DMG Dealt bonus is doubled.
-
-[Burn]: Healing Taken −15%, which does not stack. At the end of each round the holder takes Genesis DMG equal to 4% of the holder's ATK for each stack; up to 30 stacks, counted together as one Neg Status, and half the stacks are removed each time it deals damage.
+Mass buff. All allies gain DMG Dealt +15% and DMG Taken -15% for 3 rounds. If enemies have 15 or more stacks of \[Burn\] in total, the DMG Dealt effect is doubled.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | After Ulu attacks a burning enemy, all allies recover 8% of their missing HP; at most once per round. |
-| 2 | DMG Taken −8% on entering battle. |
-| 3 | At the start of each round, every enemy gains 3 stacks of Burn. |
+**Insight 1 · Fire Worship**: After attacking an enemy that's in the \[Burn\] status, recover (Missing HP x8%) HP for all allies. Triggers only 1 time per round.
+
+**Insight 2 · Fire Worship II**: DMG Taken -8% when entering battle.
+
+**Insight 3 · Fire Worship III**: At the start of the round, inflicts 3 stacks of \[Burn\] on all enemies.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -71,13 +77,19 @@ A team buff: all allies gain DMG Dealt +15% and DMG Taken −15% for 3 rounds. I
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Opening Ceremony deals 180, 270 or 450% by rank. |
-| 2 | Opening Ceremony's Penetration Rate bonus becomes 30, 35 or 40% by rank. |
-| 3 | Beating Heart deals 140, 210 or 350% by rank. |
-| 4 | The Insight 1 heal becomes 10% of missing HP. |
-| 5 | The Ultimate gives DMG Dealt +20%. |
+**Portrait 1**: **Opening Ceremony**: At Incantation rank 1/2/3, Mental DMG increased to 180/270/450%.
+
+**Portrait 2**: **Opening Ceremony**: At Incantation rank 1/2/3, Penetration Rate increased to 30/35/40%.
+
+**Portrait 3**: **Beating Heart**: At Incantation rank 1/2/3, Mental DMG increased to 140/210/350%.
+
+**Portrait 4**: **Fire Worship**: Recovery increased to (Missing HP x10%) HP for all allies.
+
+**Portrait 5**: **Indomitable Fire, Scorching Heart**: DMG Dealt increased to +20% for all allies.
+
+## Statuses
+
+- **Burn**: Healing Taken -15% (unstackable). At the end of the round, takes (the holder's ATK x4%) Genesis DMG (stackable up to 30 times, multiple stacks of Burn is regarded as 1 \[Neg Status\], removes 50% of the stacks when triggered).
 
 ## Names
 

@@ -40,7 +40,15 @@ sources:
 
 ## Effect
 
-After the carrier uses a 1-target buff incantation, the ally with the lowest HP percentage recovers HP equal to 24/30/36/42/48% of the carrier's ATK (Amplification 1 to 5). This happens at most once per round.
+**Amplification 1**: After the carrier casts a 1-target buff-type incantation, recover (own ATK x24%) HP for the ally with the lowest HP percentage (triggers only 1 time per round).
+
+**Amplification 2**: After the carrier casts a 1-target buff-type incantation, recover (own ATK x30%) HP for the ally with the lowest HP percentage (triggers only 1 time per round).
+
+**Amplification 3**: After the carrier casts a 1-target buff-type incantation, recover (own ATK x36%) HP for the ally with the lowest HP percentage (triggers only 1 time per round).
+
+**Amplification 4**: After the carrier casts a 1-target buff-type incantation, recover (own ATK x42%) HP for the ally with the lowest HP percentage (triggers only 1 time per round).
+
+**Amplification 5**: After the carrier casts a 1-target buff-type incantation, recover (own ATK x48%) HP for the ally with the lowest HP percentage (triggers only 1 time per round).
 
 ## Names
 

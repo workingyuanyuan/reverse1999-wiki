@@ -36,32 +36,37 @@ sources:
 | Psychubes recommended in game | [A Satisfied Eater](/psychubes/a-satisfied-eater/), [Thunderous Applause](/psychubes/thunderous-applause/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Charlie is one of the launch arcanists. Both of her incantations are single-target attacks with a bonus hit that depends on her own state, and her Ultimate clears enemy buffs and counters before it strikes. Her Insight passives reward her for staying above half HP and protect her below it.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/charlie/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Thunder to Thee! (single-target attack) | 180% Mental DMG; +40% with a buff | 270%; +60% | 450%; +100% |
-| Tempest to Thee! (single-target attack) | 180% Mental DMG; +60% below 50% HP | 270%; +90% | 450%; +150% |
+### Thunder to Thee!
 
-- **Thunder to Thee!** deals its extra damage when Charlie has a Stats Up or Pos Status effect.
-- **Tempest to Thee!** deals its extra damage when Charlie's current HP is below 50%.
+**Rank 1**: 1-target attack. Deals 180% Mental DMG. If the user has a \[Stats Up\] or \[Pos Status\] effect, this attack deals an additional 40% Mental DMG.
+
+**Rank 2**: 1-target attack. Deals 270% Mental DMG. If the user has a \[Stats Up\] or \[Pos Status\] effect, this attack deals an additional 60% Mental DMG.
+
+**Rank 3**: 1-target attack. Deals 450% Mental DMG. If the user has a \[Stats Up\] or \[Pos Status\] effect, this attack deals an additional 100% Mental DMG.
+
+### Tempest to Thee!
+
+**Rank 1**: 1-target attack. Deals 180% Mental DMG. If the user's HP is below 50%, deals an additional 60% Mental DMG.
+
+**Rank 2**: 1-target attack. Deals 270% Mental DMG. If the user's HP is below 50%, deals an additional 90% Mental DMG.
+
+**Rank 3**: 1-target attack. Deals 450% Mental DMG. If the user's HP is below 50%, deals an additional 150% Mental DMG.
 
 ## Ultimate: I Stand Alone on the Stage
 
-Dispels every Stats Up, Pos Status and [Counter] effect from all enemies, then deals 300% Mental DMG to all of them.
-
-[Counter]: a lasting status whose effect goes off when its holder is attacked.
+Mass attack. Dispels all \[Stats Up\], \[Pos Status\], and \[Counter\] statuses from all enemies and then deals 300% Mental DMG to them.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | At the start of a round, if Charlie's HP is below 50%, she gains DMG Taken −20% and Critical DEF +20% for 1 round. |
-| 2 | ATK +5% on entering battle. |
-| 3 | At the start of a round, if Charlie's HP is above 50%, she gains DMG Dealt +20% for 1 round. |
+**Insight 1 · Troupe Owner**: At the start of the round, if own HP is below 50%, gain DMG Taken -20% and Critical DEF +20% for 1 round.
+
+**Insight 2 · Troupe Owner Ⅱ**: ATK +5% when entering battle.
+
+**Insight 3 · Troupe Owner Ⅲ**: At the start of the round, if own HP is above 50%, gain DMG Dealt +20% for 1 round.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -71,13 +76,19 @@ Dispels every Stats Up, Pos Status and [Counter] effect from all enemies, then d
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 350%. |
-| 2 | The extra damage of Thunder to Thee! becomes 60, 90 or 150% by rank. |
-| 3 | Tempest to Thee! deals its extra damage while Charlie's HP is below 80%. |
-| 4 | The Ultimate deals 425%. |
-| 5 | The Ultimate deals 500%. |
+**Portrait 1**: **I Stand Alone on the Stage**'s effect changes to: deals 350% Mental DMG.
+
+**Portrait 2**: **Thunder to Thee!**'s effect changes to: at 1/2/3 stars, additionally deals 60/90/150% Mental DMG.
+
+**Portrait 3**: **Tempest to Thee!**'s effect changes to: additionally deals Mental DMG when the caster's HP is below 80%.
+
+**Portrait 4**: **I Stand Alone on the Stage**'s effect changes to: deals 425% Mental DMG.
+
+**Portrait 5**: **I Stand Alone on the Stage**: Mental DMG increased to 500%.
+
+## Statuses
+
+- **Counter**: Grants continuous Counter. Effect is triggered When the caster is attacked.
 
 ## Names
 

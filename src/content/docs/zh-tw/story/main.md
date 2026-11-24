@@ -1,6 +1,6 @@
 ---
 title: "主線"
-description: "重返未來：1999 的主線：每一章、各關卡與劇情全文。"
+description: "重返未來：1999 的主線：共 16 章、315 關。"
 appliesTo: "重返未來：1999，國際版用戶端 111.0.1077（3.9 版），繁體中文文本"
 caveat: "文本是國際版的繁體中文；中國大陸版領先兩個版本，部分台詞措辭不同。"
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global，國際版用戶端 111.0.1077：chapter.json 與 episode.json（關卡編號、遊戲內時間）"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-重返未來：1999 的主線。章節頁列出各關卡；關卡頁收錄該關的劇情全文與小徑。
-
 | 章節 | 關卡數 | 小徑 |
 | --- | --- | --- |
 | [此即明日](/zh-tw/story/this-is-tomorrow/) | 6 | 0 |
@@ -36,9 +34,7 @@ sources:
 | [遠征記](/zh-tw/story/the-campaign-s-tale/) (12TH) | 25 | 20 |
 | [他者的悲哀](/zh-tw/story/on-another-s-sorrow/) (13TH) | 25 | 24 |
 
-## 僅中國大陸版
-
-只在中國大陸版上線的章節，以簡體中文名稱列出：
+## 僅中國大陸版（簡體中文名稱）
 
 - 应门者
 - 船喻

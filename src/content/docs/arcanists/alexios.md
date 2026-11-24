@@ -37,31 +37,41 @@ sources:
 | Psychubes recommended in game | [Blasphemer of Night](/psychubes/blasphemer-of-night/) |
 | Mainland release | 2025-08-28 |
 | Global release | 2025-08-28 |
-
-Alexios replaces Moxie with Adrenaline. His incantations add Adrenaline (the two-target one only when it crits), and once he holds 8 at the start of a round he casts his Ultimate by himself. The Ultimate counts as an [Assassination] and gives him a stack of [Blood of Isu], so each later Ultimate hits harder.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/alexios/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| "Stronger than Ares." (single-target attack) | 200% Reality DMG; Adrenaline +1 | 300%; +2 | 500%; +4 |
-| "Better than Apollo!" (attack on 2 enemies) | 120% Reality DMG; Adrenaline +1 on a crit | 180%; +2 on a crit | 300%; +4 on a crit |
+### "Stronger than Ares."
+
+**Rank 1**: 1-target attack. Deals 200% Reality DMG. Gains Adrenaline +1.
+
+**Rank 2**: 1-target attack. Deals 300% Reality DMG. Gains Adrenaline +2.
+
+**Rank 3**: 1-target attack. Deals 500% Reality DMG. Gains Adrenaline +4.
+
+### "Better than Apollo!"
+
+**Rank 1**: Mass attack. Deals 120% Reality DMG to 2 enemies. If this attack scores a critical hit, gains Adrenaline +1.
+
+**Rank 2**: Mass attack. Deals 180% Reality DMG to 2 enemies. If this attack scores a critical hit, gains Adrenaline +2.
+
+**Rank 3**: Mass attack. Deals 300% Reality DMG to 2 enemies. If this attack scores a critical hit, gains Adrenaline +4.
 
 ## Ultimate: Sun of Fear
 
-Deals 400% Reality DMG to all enemies and gives Alexios 1 stack of [Blood of Isu]. The attack counts as an [Assassination].
-
-- [Blood of Isu]: each stack adds 80% Reality DMG to Sun of Fear; up to 5 stacks.
-- [Assassination]: for every 100 points of Critical Technique the attacker has above the target, the attack gains Final DMG Dealt +5%.
+Mass attack. Deals 400% Reality DMG to all enemies. Gains 1 stack of \[Blood of Isu\]. This attack counts as an \[Assassination\].
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 0 (Precognition) | Moxie is replaced by Adrenaline. At the start of a round, if Adrenaline has reached 8, Alexios casts his Ultimate and Adrenaline resets to 0. |
-| 1 | Adrenaline +1 at the start of each round. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | Adrenaline +1 whenever an ally's attack triggers an Assassination. Each such trigger also has a 5% chance to make him cast his Ultimate, at most once a round, if another Assassination arcanist is on the team; the chance is 10% with Kassandra on the team. |
+**Insight 0 · Precognition**: Replaces Moxie with Adrenaline. At the start of the round, if Adrenaline reaches 8, casts Ultimate and resets Adrenaline to 0.
+
+**Insight 1 · Blood or Wail**: At the start of the round, gains Adrenaline +1.
+
+**Insight 2 · Blood or Wail II**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · Blood or Wail III**: After an allied attack triggers \[Assassination\], gains Adrenaline +1.
+
+After an allied attack triggers \[Assassination\], if there are other \[Assassination\] characters on the team, 5% chance to cast Ultimate, up to 1 time per round; if Kassandra is on the team, the chance is increased to 10%.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -71,13 +81,21 @@ Deals 400% Reality DMG to all enemies and gives Alexios 1 stack of [Blood of Isu
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | "Stronger than Ares." deals 240, 360 or 600% by rank. |
-| 2 | The Insight 1 passive gives Adrenaline +2 a round. |
-| 3 | "Better than Apollo!" deals 150, 225 or 375% by rank. |
-| 4 | Blood of Isu adds 100% per stack. |
-| 5 | The Ultimate deals 500%. |
+**Portrait 1**: At rank 1/2/3, **"Stronger than Ares."** now deals 240%/360%/600% Reality DMG.
+
+**Portrait 2**: **Precognition**: At the start of the round, the number of Adrenaline gained is increased to 2.
+
+**Portrait 3**: At rank 1/2/3, **"Better than Apollo!"** now deals 150%/225%/375% Reality DMG.
+
+**Portrait 4**: **Sun of Fear**: \[Blood of Isu\]'s additional Reality DMG is increased to 100%.
+
+**Portrait 5**: **Sun of Fear**: Reality DMG increased to 500%.
+
+## Statuses
+
+- **Blood of Isu**: \[Sun of Fear\] deals an additional 80% Reality DMG, stackable up to 5 times.
+- **Assassination**: For every 100 points of Critical Technique the attacker has more than the target, the attack gains an additional Final DMG Dealt +5%.
+- **Sun of Fear**: Mass attack. Deals 400% Reality DMG to all enemies. Gains 1 stack of \[Blood of Isu\]. This attack counts as an \[Assassination\].
 
 ## Names
 

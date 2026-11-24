@@ -1,6 +1,6 @@
 ---
 title: "Tea Break"
-description: "Tea Break is a 5-star ATK Psychube that raises the carrier's damage against enemies in Disarm or Silence."
+description: "Tea Break is a 5-star ATK Psychube that raises the carrier's damage."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
 caveat: "The damage bonus applies only to the carrier's attacks on an enemy in Disarm or Silence status."
 lastVerified: 2026-11-23
@@ -39,7 +39,15 @@ sources:
 
 ## Effect
 
-When the carrier attacks an enemy in [Disarm] or [Silence] status, the carrier has DMG Dealt +14/17.5/21/24.5/28% (Amplification 1 to 5).
+**Amplification 1**: When the carrier attacks an enemy in \[Disarm\] or \[Silence\] status, DMG Dealt +14%.
+
+**Amplification 2**: When the carrier attacks an enemy in \[Disarm\] or \[Silence\] status, DMG Dealt +17.5%.
+
+**Amplification 3**: When the carrier attacks an enemy in \[Disarm\] or \[Silence\] status, DMG Dealt +21%.
+
+**Amplification 4**: When the carrier attacks an enemy in \[Disarm\] or \[Silence\] status, DMG Dealt +24.5%.
+
+**Amplification 5**: When the carrier attacks an enemy in \[Disarm\] or \[Silence\] status, DMG Dealt +28%.
 
 ## Names
 

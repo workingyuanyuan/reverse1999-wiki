@@ -37,39 +37,45 @@ sources:
 | Psychubes recommended in game | [Cracks in the Shell](/psychubes/cracks-in-the-shell/), [Melodies Old and New](/psychubes/melodies-old-and-new/) |
 | Mainland release | 2024-12-26 |
 | Global release | 2025-04-10 |
-
-Fatutu keeps a pool of Spirit Shell stacks. She deploys them on enemies, by her attack, her Ultimate and every hit she takes, and retrieves them when those enemies are attacked or when she casts Ocean in the Shell; each retrieval heals the whole team. Ocean in the Shell also evens out the HP of all allies and lets them share the damage of the next hits.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/fatutu/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Unmendable Cracks (single-target attack) | 120% Mental DMG; cleanses 1 kind of debuff | 180%; 2 kinds | 300%; 3 kinds |
-| Ocean in the Shell (team buff) | 3 stacks of [Shared Shells, Shared Fate] | 5 stacks | 8 stacks |
+### Unmendable Cracks
 
-- **Unmendable Cracks** deploys 3 stacks of [Spirit Shell] on the target after the hit, and removes from every ally the given number of kinds of Stats Down, Neg Status or Control effects.
-- **Ocean in the Shell** first evens out the HP of all allies, then gives each of them the stacks in the table, then retrieves every Spirit Shell that is deployed.
+**Rank 1**: 1-target attack. Deals 120% Mental DMG; after attacking, deploys 3 stacks of \[Spirit Shell\]; dispels 1 type of \[Stats Down\], \[Neg Status\], or \[Control\] effect from all allies.
+
+**Rank 2**: 1-target attack. Deals 180% Mental DMG; after attacking, deploys 3 stacks of \[Spirit Shell\]; dispels 2 types of \[Stats Down\], \[Neg Status\], or \[Control\] effects from all allies.
+
+**Rank 3**: 1-target attack. Deals 300% Mental DMG; after attacking, deploys 3 stacks of \[Spirit Shell\]; dispels 3 types of \[Stats Down\], \[Neg Status\], or \[Control\] effects from all allies.
+
+### Ocean in the Shell
+
+**Rank 1**: Mass buff. Equally redistributes the HP of all allies; grants 3 stacks of \[Shared Shells, Shared Fate\] to all allies, and retrieves all stacks of \[Spirit Shell\].
+
+**Rank 2**: Mass buff. Equally redistributes the HP of all allies; grants 5 stacks of \[Shared Shells, Shared Fate\] to all allies, and retrieves all stacks of \[Spirit Shell\].
+
+**Rank 3**: Mass buff. Equally redistributes the HP of all allies; grants 8 stacks of \[Shared Shells, Shared Fate\] to all allies, and retrieves all stacks of \[Spirit Shell\].
 
 ## Ultimate: Proverb of the Sea
 
-Deals 700% Mental DMG to one enemy, deploys every Spirit Shell stack Fatutu holds on it, and puts [Shell Beacon] on it for 2 rounds.
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Spirit Shell, on Fatutu | Her pool. After she is attacked or shares damage, she deploys 1 stack on the attacker. |
-| Spirit Shell, on an enemy | An extra-action attack on the holder gains DMG Dealt +5% and Critical DMG +5% for each stack. After the holder is attacked, Fatutu retrieves 1 stack. |
-| Shared Shells, Shared Fate | When the holder is attacked, all allies share the damage and 1 stack is used. At most 30 stacks. |
-| Shell Beacon | Each time Spirit Shell is retrieved from the holder, the same number of stacks is deployed on it again. |
+1-target attack. Deals 700% Mental DMG; deploys all \[Spirit Shell\] and inflicts \[Shell Beacon\] on the target for 2 rounds.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | On entering battle, Fatutu gains 8 stacks of Spirit Shell. Each deployment gives her a 20% chance of Moxie +1. Each retrieval heals all allies by the number of stacks retrieved × 30% of her ATK. When an enemy carrying Spirit Shell leaves the field, all of its stacks are retrieved. |
-| 2 | ATK +5% on entering battle. |
-| 3 | On entering battle, Fatutu gains 4 more stacks of Spirit Shell. After she has deployed or retrieved Spirit Shell 7 times in total, a rank 1 Unmendable Cracks strikes the enemy carrying the most stacks. |
+**Insight 1 · Shell Necklace**: When entering battle, gains 8 stacks of \[Spirit Shell\] for self.
+
+When deploying \[Spirit Shell\], Fatutu has a 20% chance to gain Moxie +1.
+
+When retrieving \[Spirit Shell\], recovers (stacks of Spirit Shell retrieved x Fatutu's ATK x 30%) HP for all allies.
+
+When an enemy carrying \[Spirit Shell\] dies, retrieves all stacks of \[Spirit Shell\] from that enemy.
+
+**Insight 2 · Shell Necklace II**: ATK +5% when entering battle.
+
+**Insight 3 · Shell Necklace III**: When entering battle, gains 4 additional stacks of \[Spirit Shell\] for self.
+
+After Fatutu accumulates a total of 7 deployments and or retrievals of \[Spirit Shell\], triggers a rank 1 \[Unmendable Cracks\] on the enemy with the most stacks of \[Spirit Shell\].
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -79,13 +85,25 @@ Deals 700% Mental DMG to one enemy, deploys every Spirit Shell stack Fatutu hold
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Insight 3 gives 8 more stacks on entering battle instead of 4. |
-| 2 | The Insight 3 attack needs 5 deployments or retrievals. |
-| 3 | Unmendable Cracks deals 180, 270 or 450% by rank and deploys 4 stacks; the Moxie chance on deployment becomes 25%. |
-| 4 | Ocean in the Shell gives 4, 6 or 10 stacks by rank; each retrieved stack heals 40% of her ATK. |
-| 5 | Each Spirit Shell stack on an enemy gives extra-action attacks DMG Dealt +6% and Critical DMG +6%. |
+**Portrait 1**: **Shell Necklace**: When entering battle, the additional stacks of \[Spirit Shell\] gained for self is increased to 8.
+
+**Portrait 2**: **Shell Necklace**: The number of times required to trigger \[Unmendable Cracks\] from deploying or retrieving \[Spirit Shell\] is decreased to 5.
+
+**Portrait 3**: **Unmendable Cracks**: At incantation rank 1/2/3, the Mental DMG dealt is increased to 180/270/450%; the deployed stacks of \[Spirit Shell\] is increased to 4; and when deploying \[Spirit Shell\], the chance to gain Moxie is increased to 25%.
+
+**Portrait 4**: **Ocean in the Shell**: The stacks of \[Shared Shells, Shared Fate\] granted to all allies is increased to 4/6/10; and when retrieving \[Spirit Shell\], the healing multiplier is increased to 40%.
+
+**Portrait 5**: **Shell Necklace**: When being attacked with an extra action, for each stack of \[Spirit Shell\] held, that attack's DMG Dealt increase is now 6%, and the Critical DMG increase is now 6%.
+
+## Statuses
+
+- **Spirit Shell**: When being attacked with an extra action, DMG Dealt +5% and Critical DMG +5% for that attack (stackable).
+
+  After being attacked, Fatutu retrieves 1 stack of \[Spirit Shell\].
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
+- **Shared Shells, Shared Fate**: When being attacked, the damage taken is shared among all allies; -1 stack after each damage share, stacks up to 30 times.
+- **Shell Beacon**: After each retrieval of \[Spirit Shell\] from this target, deploy an equal number of \[Spirit Shell\].
+- **Unmendable Cracks**: 1-target attack. Deals 120% Mental DMG; after attacking, deploys 3 stacks of \[Spirit Shell\]; dispels 1 type of \[Stats Down\], \[Neg Status\], or \[Control\] effect from all allies.
 
 ## Names
 

@@ -1,6 +1,6 @@
 ---
 title: "Yearning Desire"
-description: "Yearning Desire is a 5-star ATK Psychube that raises damage against targets with Stats Down or Neg Status."
+description: "Yearning Desire is a 5-star ATK Psychube that raises damage dealt."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
 caveat: "The bonus applies only against a target that has Stats Down or Neg Status."
 lastVerified: 2026-11-23
@@ -40,7 +40,15 @@ sources:
 
 ## Effect
 
-When the carrier attacks a target with [Stats Down] or [Neg Status], the carrier has DMG Dealt +8/10/12/14/16% against it (Amplification 1 to 5).
+**Amplification 1**: When the carrier attacks, if the target has \[Stats Down\] or \[Neg Status\], DMG Dealt +8%.
+
+**Amplification 2**: When the carrier attacks, if the target has \[Stats Down\] or \[Neg Status\], DMG Dealt +10%.
+
+**Amplification 3**: When the carrier attacks, if the target has \[Stats Down\] or \[Neg Status\], DMG Dealt +12%.
+
+**Amplification 4**: When the carrier attacks, if the target has \[Stats Down\] or \[Neg Status\], DMG Dealt +14%.
+
+**Amplification 5**: When the carrier attacks, if the target has \[Stats Down\] or \[Neg Status\], DMG Dealt +16%.
 
 ## Names
 

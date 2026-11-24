@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- When the carrier attacks, the attack gains Ultimate Might +1.2/1.8/1.8/2.4/2.4% for each point of Moxie the carrier holds (Amplification 1 to 5).
-- A Mineral carrier gains Critical DMG +1/1/1.5/1.5/2% for each point of Moxie spent, up to 16 stacks.
+**Amplification 1**: When the carrier attacks, for each point of Moxie held, the attack gains Ultimate Might +1.2%.
+
+If the carrier is of the \[Mineral\] afflatus, for each point of Moxie consumed, gain Critical DMG +1%, stacks up to 16 times.
+
+**Amplification 2**: When the carrier attacks, for each point of Moxie held, the attack gains Ultimate Might +1.8%.
+
+If the carrier is of the \[Mineral\] afflatus, for each point of Moxie consumed, gain Critical DMG +1%, stacks up to 16 times.
+
+**Amplification 3**: When the carrier attacks, for each point of Moxie held, the attack gains Ultimate Might +1.8%.
+
+If the carrier is of the \[Mineral\] afflatus, for each point of Moxie consumed, gain Critical DMG +1.5%, stacks up to 16 times.
+
+**Amplification 4**: When the carrier attacks, for each point of Moxie held, the attack gains Ultimate Might +2.4%.
+
+If the carrier is of the \[Mineral\] afflatus, for each point of Moxie consumed, gain Critical DMG +1.5%, stacks up to 16 times.
+
+**Amplification 5**: When the carrier attacks, for each point of Moxie held, the attack gains Ultimate Might +2.4%.
+
+If the carrier is of the \[Mineral\] afflatus, for each point of Moxie consumed, gain Critical DMG +2%, stacks up to 16 times.
 
 ## Names
 

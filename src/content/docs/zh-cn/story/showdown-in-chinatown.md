@@ -1,6 +1,6 @@
 ---
 title: "唐人街影话"
-description: "唐人街影话：重返未来：1999 活动剧情，共 22 关，附剧情全文。"
+description: "唐人街影话：重返未来：1999 活动剧情，共 22 关。"
 appliesTo: "重返未来：1999，中国大陆版客户端 113.0.1422（4.1 版），简体中文文本"
 caveat: "文本是中国大陆版的简体中文；国际版落后两个版本，繁体中文等语言的部分台词措辞不同。"
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global，国际版客户端 111.0.1077：chapter.json 与 episode.json（关卡编号、游戏内时间）"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-唐人街影话属于重返未来：1999 的活动剧情，共 22 关。
-
 ## 关卡
 
 | 关卡 | 名称 | 游戏内时间 | 小径 |

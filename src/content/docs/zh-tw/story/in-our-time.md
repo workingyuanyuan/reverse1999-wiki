@@ -1,6 +1,6 @@
 ---
 title: "在我們的時代裡"
-description: "在我們的時代裡：重返未來：1999 主線，共 16 關，附劇情全文。"
+description: "在我們的時代裡：重返未來：1999 主線第 1 章，共 16 關。"
 appliesTo: "重返未來：1999，國際版用戶端 111.0.1077（3.9 版），繁體中文文本"
 caveat: "文本是國際版的繁體中文；中國大陸版領先兩個版本，部分台詞措辭不同。"
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global，國際版用戶端 111.0.1077：chapter.json 與 episode.json（關卡編號、遊戲內時間）"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-在我們的時代裡是重返未來：1999 主線第 1ST 章，共 16 關。故事從 1929 年 2 月 14 日 07:30 開始。
-
 ## 關卡
 
 | 關卡 | 名稱 | 遊戲內時間 | 小徑 |
@@ -40,7 +38,7 @@ sources:
 
 ## 登場的神秘學家
 
-[Apple](/zh-tw/arcanists/apple/)、[星銻](/zh-tw/arcanists/regulus/)、[十四行詩](/zh-tw/arcanists/sonetto/)、[蘇芙比](/zh-tw/arcanists/sotheby/)、[槲寄生](/zh-tw/arcanists/druvis-iii/)、斯奈德、[X](/zh-tw/arcanists/x/)
+[Apple](/zh-tw/arcanists/apple/)、[星銻](/zh-tw/arcanists/regulus/)、[十四行詩](/zh-tw/arcanists/sonetto/)、[蘇芙比](/zh-tw/arcanists/sotheby/)、[槲寄生](/zh-tw/arcanists/druvis-iii/)、[斯奈德](/zh-tw/arcanists/schneider/)、[X](/zh-tw/arcanists/x/)
 
 ## 名稱
 

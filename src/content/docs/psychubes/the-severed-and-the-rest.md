@@ -39,8 +39,15 @@ sources:
 
 ## Effect
 
-- An Intellect carrier has Penetration Rate +8/10/12/14/16% (Amplification 1 to 5).
-- When the carrier attacks an enemy in [Paralyze] or [Daze] status, the carrier gains DMG Bonus +4/5/6/7/8%, up to 3 stacks.
+**Amplification 1**: When the carrier is an \[Intellect\] character, Penetration Rate +8%. When the carrier attacks an enemy that's in the \[Paralyze\] or \[Daze\] status, DMG Bonus +4%, stacks up to 3 times.
+
+**Amplification 2**: When the carrier is an \[Intellect\] character, Penetration Rate +10%. When the carrier attacks an enemy that's in the \[Paralyze\] or \[Daze\] status, DMG Bonus +5%, stacks up to 3 times.
+
+**Amplification 3**: When the carrier is an \[Intellect\] character, Penetration Rate +12%. When the carrier attacks an enemy that's in the \[Paralyze\] or \[Daze\] status, DMG Bonus +6%, stacks up to 3 times.
+
+**Amplification 4**: When the carrier is an \[Intellect\] character, Penetration Rate +14%. When the carrier attacks an enemy that's in the \[Paralyze\] or \[Daze\] status, DMG Bonus +7%, stacks up to 3 times.
+
+**Amplification 5**: When the carrier is an \[Intellect\] character, Penetration Rate +16%. When the carrier attacks an enemy that's in the \[Paralyze\] or \[Daze\] status, DMG Bonus +8%, stacks up to 3 times.
 
 ## Names
 

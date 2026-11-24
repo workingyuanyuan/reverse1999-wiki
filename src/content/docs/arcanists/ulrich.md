@@ -2,7 +2,7 @@
 title: "Ulrich"
 description: "Ulrich is a 6-star Intellect arcanist who deals Reality DMG and powers the team through a Dynamo array."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
-caveat: "Ulrich's Euphoria is out only on the mainland China service; on the global service he plays with the kit in the first sections alone."
+caveat: "Ulrich's Euphoria is out only on the mainland China service."
 lastVerified: 2026-11-22
 aliases:
   - "烏爾里希"
@@ -37,47 +37,47 @@ sources:
 | Psychubes recommended in game | [A Tingle of a Thought](/psychubes/a-tingle-of-a-thought/), [On the Hand of Time](/psychubes/on-the-hand-of-time/) |
 | Mainland release | 2025-05-15 |
 | Global release | 2025-09-19 |
-
-Ulrich gathers [Dynamo] and transfers it into his array, [Pulsing Field], which rises to level 2 and level 3 as more Dynamo goes in and raises the whole team's damage and Ultimate Might. His two incantations open channels: Structure Analysis lowers enemies' DMG Taken Reduction and Frequency Analysis raises allies' Ultimate Might; cast again while they run, they feed the field instead. His Ultimate opens Hyper Analysis, a large attack on all enemies at the end of the round, and [Decryption Key] stacks strengthen all three Analyses.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/ulrich/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Scanning Mode (self channel) | enters Structure Analysis for 3 rounds; cast during it, 6 stacks of Ceremonious: Ultimate Might | 8 stacks | 10 stacks |
-| Brown Noise (self channel) | enters Frequency Analysis for 3 rounds; cast during it, 6 stacks of Ceremonious: Ultimate Might | 8 stacks | 10 stacks |
+### Scanning Mode
 
-Cast while its Analysis is already running, either incantation also transfers up to 5 Dynamo into Pulsing Field at every rank.
+**Rank 1**: Self channel. Enters \[Structure Analysis\] status for 3 rounds. If already in this status, gains 6 stacks of \[Ceremonious: Ultimate Might\] and transfers up to 5 stacks of \[Dynamo\] into \[Pulsing Field\].
 
-[Ceremonious: Ultimate Might]: Ultimate Might +3% per stack, up to 100 stacks; cannot be dispelled; used up when an Ultimate attacks.
+**Rank 2**: Self channel. Enters \[Structure Analysis\] status for 3 rounds. If already in this status, gains 8 stacks of \[Ceremonious: Ultimate Might\] and transfers up to 5 stacks of \[Dynamo\] into \[Pulsing Field\].
+
+**Rank 3**: Self channel. Enters \[Structure Analysis\] status for 3 rounds. If already in this status, gains 10 stacks of \[Ceremonious: Ultimate Might\] and transfers up to 5 stacks of \[Dynamo\] into \[Pulsing Field\].
+
+### Brown Noise
+
+**Rank 1**: Self channel. Enters \[Frequency Analysis\] status for 3 rounds. If already in this status, gains 6 stacks of \[Ceremonious: Ultimate Might\] and transfers up to 5 stacks of \[Dynamo\] into \[Pulsing Field\].
+
+**Rank 2**: Self channel. Enters \[Frequency Analysis\] status for 3 rounds. If already in this status, gains 8 stacks of \[Ceremonious: Ultimate Might\] and transfers up to 5 stacks of \[Dynamo\] into \[Pulsing Field\].
+
+**Rank 3**: Self channel. Enters \[Frequency Analysis\] status for 3 rounds. If already in this status, gains 10 stacks of \[Ceremonious: Ultimate Might\] and transfers up to 5 stacks of \[Dynamo\] into \[Pulsing Field\].
 
 ## Ultimate: The Sum of Infinity
 
-Ulrich enters [Hyper Analysis] for 1 round, extends Structure Analysis and Frequency Analysis by 1 round, gains 30 Dynamo and transfers up to 30 Dynamo into Pulsing Field.
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Dynamo | Up to 30 stacks; cannot be dispelled. |
-| Pulsing Field | An array that levels up at the start of the round by the Dynamo transferred into it: level 2 at 50 or more, level 3 at 120 or more. When it ends, the transferred Dynamo is cleared. |
-| Pulsing Field Lv.1 | All allies gain DMG Bonus +15% for 3 rounds. |
-| Pulsing Field Lv.2 | All allies gain Incantation Might +25% and DMG Bonus +15% for 3 rounds. |
-| Pulsing Field Lv.3 | All allies gain Ultimate Might +35%, Incantation Might +25% and DMG Bonus +15% for 2 rounds. |
-| Structure Analysis | A channel: if Ulrich is still in it at the start of the round, all enemies get DMG Taken Reduction −30% for 1 round, and −4% more for each Decryption Key in it. |
-| Frequency Analysis | A channel: if Ulrich is still in it at the start of the round, all allies gain Ultimate Might +30% for 1 round, and +4% more for each Decryption Key in it. |
-| Hyper Analysis | A channel: if Ulrich is still in it at the end of the round, he deals 600% Reality DMG to all enemies, plus 100% for each Decryption Key in it. The attack counts as an extra action; he cannot act while channeling. |
-| Decryption Key | A counter that each Analysis keeps separately, at most 10 in each; it strengthens that Analysis. |
-| Surge Spike | Attack on all enemies: 150% Reality DMG, plus 15% for each Decryption Key in Structure Analysis and Frequency Analysis; Ultimate Might applies to it. |
-| Amplified Surge | When Pulsing Field reaches level 3, Ulrich gains 3 Moxie and each Analysis gains 5 Decryption Keys. While the field is at level 3, each Analysis he enters gains 5 Decryption Keys at once, and each Decryption Key in Hyper Analysis adds Reality DMG +100%. |
+Self channel. Enters \[Hyper Analysis\] status for 1 round. Extends the duration of \[Structure Analysis\]/\[Frequency Analysis\] by 1 round. Gains 30 stacks of \[Dynamo\] and transfers up to 30 stacks of \[Dynamo\] into \[Pulsing Field\].
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Ulrich has Amplified Surge and enters battle with 20 Dynamo. At the start of a round with no Pulsing Field of any level, he lays Pulsing Field Lv.1. At the end of each round he gains 5 Dynamo, transfers up to 15 Dynamo into the field and casts Surge Spike once. His Ultimate does not count toward the Incantation Draw Limit. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | At the end of each round, for each time the team transferred Dynamo that round, each of his three Analyses gains 1 Decryption Key and he gains 5 Dynamo. |
+**Insight 1 · The First Rhythm**: Gains \[Amplified Surge\].
+
+When entering battle, gains 20 stacks of \[Dynamo\].
+
+At the start of the round, if not under a \[Pulsing Field\] of any level, deploy \[Pulsing Field Lv.1\].
+
+At the end of the round, gains 5 stacks of \[Dynamo\] and transfers up to 15 stacks of \[Dynamo\] into the \[Pulsing Field\].
+
+At the end of the round, casts \[Surge Spike\] 1 time.
+
+Ultimate does not take up the allied Incantation Draw Limit.
+
+**Insight 2 · The First Rhythm II**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · The First Rhythm III**: At the end of the round, for every time \[Dynamo\] is transferred by the team during the round, Ulrich gains 1 stack of \[Decryption Key\] for his \[Structure Analysis\], \[Frequency Analysis\], and \[Hyper Analysis\] and 5 stacks of \[Dynamo\].
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -87,27 +87,39 @@ Ulrich enters [Hyper Analysis] for 1 round, extends Structure Analysis and Frequ
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Each Decryption Key adds Ultimate Might +5.5% in Frequency Analysis and DMG Taken Reduction −5.5% in Structure Analysis. |
-| 2 | Hyper Analysis deals 900% at the end of a completed channel. |
-| 3 | In Pulsing Field Lv.3, Hyper Analysis deals 175% more for each Decryption Key. |
-| 4 | Surge Spike deals 25% more for each Decryption Key in Structure Analysis and Frequency Analysis. |
-| 5 | Hyper Analysis deals 1050%, plus 175% for each Decryption Key. |
+**Portrait 1**: **The First Rhythm**: For every stack of \[Decryption Key\] in \[Frequency Analysis\], Ultimate Might is changed to +5.5%. For every stack of \[Decryption Key\] in \[Structure Analysis\], DMG Taken Reduction is changed to -5.5%.
 
-## Euphoria
+**Portrait 2**: **The Sum of Infinity**: When \[Hyper Analysis\] is cast from a completed channel, the Reality DMG dealt to all enemies is increased to 900%.
 
-Ulrich's Euphoria is out only on the mainland China service. It opens at Insight III level 30, and he has one Epiphany of four levels.
+**Portrait 3**: **The First Rhythm**: If under \[Pulsing Field Lv.3\], when \[Hyper Analysis\] is cast from a completed channel, the additional Reality DMG dealt based on the number of stacks of \[Decryption Key\] is increased to 175%.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | Amplified Surge gives 4 Moxie when the field reaches level 3. Scanning Mode cast during Structure Analysis extends it by 3 rounds. Structure Analysis holds up to 5 more Decryption Keys, and its debuff lands at the end of the round instead of the start and lasts 1 round longer. |
-| 1 | 2 | Brown Noise cast during Frequency Analysis extends it by 3 rounds. Frequency Analysis holds up to 5 more Decryption Keys, and its buff lands at the end of the round instead of the start and lasts 1 round longer. |
-| 1 | 3 | When Surge Spike is cast and Structure Analysis or Frequency Analysis holds more than 10 Decryption Keys, the keys above 10 are spent; each spent key makes allies with the Dynamo tag who deal Reality DMG deal 90% more Reality DMG when they attack, for 2 rounds. |
-| 1 | 4 | Hyper Analysis from the Ultimate lasts 2 rounds longer. While channeling it, Ulrich can act, and at the end of each round he casts as many of his own regular incantations from the incantation area as he can before the attack. |
+**Portrait 4**: **The First Rhythm**: When \[Surge Spike\] is cast, the additional Reality DMG dealt based on the number of stacks of \[Decryption Key\] in \[Structure Analysis\]/\[Frequency Analysis\] is increased to 25%.
+
+**Portrait 5**: **The Sum of Infinity**: When \[Hyper Analysis\] is cast from a completed channel, the Reality DMG dealt to all enemies is increased to 1050% and the additional Reality DMG dealt based on the number of stacks of Decryption Key is increased to 175%.
+
+## Statuses
+
+- **Structure Analysis**: If still under this Channel status at the start of the round, inflicts DMG Taken Reduction -30% on all enemies for 1 round; for every 1 stack of \[Decryption Key\] to this Analysis, inflicts an extra DMG Taken Reduction -4%. Max \[Decryption Key\] stacks: 10 (counted independently between different Analysis types).
+- **Ceremonious: Ultimate Might**: Ultimate Might +3% (up to 100 stacks, undispellable, disappears after casting an Ultimate).
+- **Dynamo**: A product of technology used for meticulous machinery (up to 30 stacks, undispellable).
+- **Pulsing Field**: At the start of the round, Pulsing Field upgrades based on the \[Dynamo\] transferred into it. At 50+, upgrades into \[Pulsing Field Lv.2\]. At 120+, upgrades into \[Pulsing Field Lv.3\]. When Pulsing Field disappears, all \[Dynamo\] transferred into it are also cleared.
+- **Frequency Analysis**: If still under this Channel status at the start of the round, grants Ultimate Might +30% to all allies for 1 round; for every 1 stack of \[Decryption Key\] to this Analysis, grants an extra Ultimate Might +4%. Max \[Decryption Key\] stacks: 10 (counted independently between different Analysis types).
+- **Hyper Analysis**: If still under this Channel status at the end of the round, deals 600% Reality DMG to all enemies. This extra-action attack also deals (number of \[Decryption Key\] stacks to this Analysis x100%) Reality DMG. Max \[Decryption Key\] stacks: 10 (counted independently between different Analysis types). Cannot act while channeling.
+- **Amplified Surge**: Reaching \[Pulsing Field Lv.3\] immediately grants Moxie +3 and 5 stacks of \[Decryption Key\] to \[Structure Analysis\], \[Frequency Analysis\], and \[Hyper Analysis\].
+
+  Under \[Pulsing Field Lv.3\], after entering \[Structure Analysis\]/\[Frequency Analysis\]/\[Hyper Analysis\] status, the corresponding Analysis immediately gains 5 stacks of \[Decryption Key\], and for every stack of \[Decryption Key\] to \[Hyper Analysis\], Reality DMG +100%.
+- **Pulsing Field Lv.1**: All allies gain DMG Bonus +15% for 3 rounds.
+- **Surge Spike**: Mass attack. Deals 150% Reality DMG to all enemies. For every stack of \[Decryption Key\] in \[Structure Analysis\]/\[Frequency Analysis\], this attack deals 15% additional Reality DMG. This attack benefits from Ultimate Might.
+- **Decryption Key**: A special counter for Structure Analysis, Frequency Analysis, and Hyper Analysis. Accumulate to enhance effects of the corresponding Analysis.
+- **Pulsing Field Lv.3**: All allies gain Ultimate Might +35%, Incantation Might +25%, and DMG Bonus +15% for 2 rounds.
+- **Pulsing Field Lv.2**: All allies gain Incantation Might +25% and DMG Bonus +15% for 3 rounds.
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | Ulrich | 乌尔里希 | 烏爾里希 | ウルリッヒ | 울리히 |
+
+## Edition differences
+
+- Ulrich's Euphoria is out only on the mainland China service.

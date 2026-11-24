@@ -38,8 +38,15 @@ sources:
 
 ## Effect
 
-- A carrier of the Primal Afflatus gains Penetration Rate +5%.
-- When the carrier attacks a target below 75% HP, it gains Penetration Rate +6/8/10/12/14% (Amplification 1 to 5).
+**Amplification 1**: When the carrier is of the Primal Afflatus, Penetration Rate +5%. When the carrier attacks a target that is below 75% HP, Penetration Rate +6%.
+
+**Amplification 2**: When the carrier is of the Primal Afflatus, Penetration Rate +5%. When the carrier attacks a target that is below 75% HP, Penetration Rate +8%.
+
+**Amplification 3**: When the carrier is of the Primal Afflatus, Penetration Rate +5%. When the carrier attacks a target that is below 75% HP, Penetration Rate +10%.
+
+**Amplification 4**: When the carrier is of the Primal Afflatus, Penetration Rate +5%. When the carrier attacks a target that is below 75% HP, Penetration Rate +12%.
+
+**Amplification 5**: When the carrier is of the Primal Afflatus, Penetration Rate +5%. When the carrier attacks a target that is below 75% HP, Penetration Rate +14%.
 
 ## Names
 

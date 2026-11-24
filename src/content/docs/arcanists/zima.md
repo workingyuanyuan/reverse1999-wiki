@@ -36,30 +36,35 @@ sources:
 | Psychubes recommended in game | [Brave New World](/psychubes/brave-new-world/), [Hopscotch](/psychubes/hopscotch/), [Her Second Life](/psychubes/her-second-life/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Зима supports the team with Paper, which raises allies' DMG Dealt and DMG Heal, and holds enemies back: Sparrow silences from rank 2 and his Ultimate seals the main target. His Insight 1 passive raises his Penetration Rate while his HP is above 50% and cuts the damage he takes below it.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/zima/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Sparrow (single-target attack) | 200% Mental DMG | 200%; Silence 1 round | 300%; Silence 2 rounds |
-| Paper (mass buff) | allies DMG Dealt +15%, DMG Heal +15%; 2 rounds | +20%, +20%; 2 rounds | +25%, +25%; 3 rounds |
+### Sparrow
 
-[Silence]: the target cannot cast buff, debuff, heal or counter incantations.
+**Rank 1**: 1-target attack. Deals 200% Mental DMG.
+
+**Rank 2**: 1-target attack. Deals 200% Mental DMG. Inflicts \[Silence\] for 1 round on the target hit.
+
+**Rank 3**: 1-target attack. Deals 300% Mental DMG. Inflicts \[Silence\] for 2 rounds on the target hit.
+
+### Paper
+
+**Rank 1**: Mass buff. DMG Dealt +15% and DMG Heal +15% for all allies for 2 rounds.
+
+**Rank 2**: Mass buff. DMG Dealt +20% and DMG Heal +20% for all allies for 2 rounds.
+
+**Rank 3**: Mass buff. DMG Dealt +25% and DMG Heal +25% for all allies for 3 rounds.
 
 ## Ultimate: Poem, Island, Breeze
 
-Deals 250% Mental DMG to all enemies and puts the main target in [Seal] for 2 rounds.
-
-[Seal]: the target cannot cast its Ultimate.
+Mass attack. Deals 250% Mental DMG to all enemies. On hitting the main target, inflicts the \[Seal\] status on the main target for 2 rounds.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Penetration Rate +10% when he attacks with HP above 50%; DMG Taken −10% when he is attacked with HP below 50%. |
-| 2 | DMG Dealt +8% on entering battle. |
+**Insight 1 · Island**: When the user attacks, if the user's HP is above 50%, Penetration Rate +10%. When the user is attacked, if the user's HP is below 50%, DMG Taken -10%.
+
+**Insight 2 · Island Ⅱ**: DMG Dealt +8% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -68,13 +73,20 @@ Deals 250% Mental DMG to all enemies and puts the main target in [Seal] for 2 ro
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 280%. |
-| 2 | Sparrow deals 220, 230 or 350% by rank. |
-| 3 | Paper's DMG Heal bonus becomes +20, +25 or +30% by rank. |
-| 4 | The Ultimate deals 310%. |
-| 5 | The Ultimate deals 350%. |
+**Portrait 1**: **Poem, Island, Breeze**'s effect changes to: deals 280% Mental DMG.
+
+**Portrait 2**: **Sparrow**'s effect changes to: at 1/2/3 stars, deals 220/230/350% Mental DMG.
+
+**Portrait 3**: **Paper**'s effect changes to: at 1/2/3 stars, DMG Heal +20/25/30%.
+
+**Portrait 4**: **Poem, Island, Breeze**'s effect changes to: deals 310% Mental DMG.
+
+**Portrait 5**: **Poem, Island, Breeze**'s effect changes to: deals 350% Mental DMG.
+
+## Statuses
+
+- **Silence**: Cannot cast Buff, Debuff, Heal, or Counter-type incantations.
+- **Seal**: Cannot use Ultimate.
 
 ## Names
 

@@ -40,8 +40,15 @@ sources:
 
 ## Effect
 
-- After the carrier takes an extra action, it gets Healing Done +4/5/6/7/8%, up to 3 stacks (Amplification 1 to 5).
-- After the carrier is attacked or shares damage, all allies get Critical DMG +1.2/1.5/1.8/2.1/2.4% for 3 rounds, up to 12 stacks.
+**Amplification 1**: After the carrier performs an extra action, gain Healing Done +4%, stacks up to 3 times. After the carrier is attacked or shares damage, all allies gain Critical DMG +1.2% for 3 rounds, stacks up to 12 times.
+
+**Amplification 2**: After the carrier performs an extra action, gain Healing Done +5%, stacks up to 3 times. After the carrier is attacked or shares damage, all allies gain Critical DMG +1.5% for 3 rounds, stacks up to 12 times.
+
+**Amplification 3**: After the carrier performs an extra action, gain Healing Done +6%, stacks up to 3 times. After the carrier is attacked or shares damage, all allies gain Critical DMG +1.8% for 3 rounds, stacks up to 12 times.
+
+**Amplification 4**: After the carrier performs an extra action, gain Healing Done +7%, stacks up to 3 times. After the carrier is attacked or shares damage, all allies gain Critical DMG +2.1% for 3 rounds, stacks up to 12 times.
+
+**Amplification 5**: After the carrier performs an extra action, gain Healing Done +8%, stacks up to 3 times. After the carrier is attacked or shares damage, all allies gain Critical DMG +2.4% for 3 rounds, stacks up to 12 times.
 
 ## Names
 

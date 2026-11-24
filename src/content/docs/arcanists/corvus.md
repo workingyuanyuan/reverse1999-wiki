@@ -37,57 +37,51 @@ sources:
 | Psychubes recommended in game | [Bitter March of the Living](/psychubes/bitter-march-of-the-living/) |
 | Mainland release | 2025-10-09 |
 | Global release | 2026-01-01 |
-
-Corvus keeps an array, the Pulsing Field, under the team and sets up its first level herself. Each action she takes gives her Dynamo, and her follow-up attack, Sew It All Up, pours that Dynamo into the field, which rises to Lv.2 and Lv.3 and buffs every ally more at each level. Her incantations give her stacks of [Electric Arc], which raise her ATK, and put [Breaking Point] on an enemy, which Sew It All Up spends for its bonus effects.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/corvus/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Arc-Threaded Shot (single-target attack) | 200% Mental DMG; 2 stacks of Electric Arc | 300%; 4 stacks | 500%; 8 stacks |
-| Rosy Cracks (self channel) | 2 stacks of Electric Arc if the target already has Welding | 4 stacks | 8 stacks |
+### Arc-Threaded Shot
 
-- **Arc-Threaded Shot** gives the target it hits 1 stack of Breaking Point at every rank.
-- **Rosy Cracks** puts Corvus in [Stitching] for 2 rounds and puts [Welding] on the target enemy. On a target that already has Welding, Corvus also gains the Electric Arc in the table and the target gains 1 stack of Breaking Point.
+**Rank 1**: 1-target attack. Deals 200% Mental DMG. Gains 2 stacks of \[Electric Arc\]. Inflicts 1 stack of \[Breaking Point\] on the target hit.
+
+**Rank 2**: 1-target attack. Deals 300% Mental DMG. Gains 4 stacks of \[Electric Arc\]. Inflicts 1 stack of \[Breaking Point\] on the target hit.
+
+**Rank 3**: 1-target attack. Deals 500% Mental DMG. Gains 8 stacks of \[Electric Arc\]. Inflicts 1 stack of \[Breaking Point\] on the target hit.
+
+### Rosy Cracks
+
+**Rank 1**: Self channel. Enters \[Stitching\] status for 2 rounds. Inflicts \[Welding\] on the enemy target.
+
+If the target is already under \[Welding\], inflicts 1 stack of \[Breaking Point\] on them and grants 2 stacks of \[Electric Arc\] to self.
+
+**Rank 2**: Self channel. Enters \[Stitching\] status for 2 rounds. Inflicts \[Welding\] on the enemy target.
+
+If the target is already under \[Welding\], inflicts 1 stack of \[Breaking Point\] on them and grants 4 stacks of \[Electric Arc\] to self.
+
+**Rank 3**: Self channel. Enters \[Stitching\] status for 2 rounds. Inflicts \[Welding\] on the enemy target.
+
+If the target is already under \[Welding\], inflicts 1 stack of \[Breaking Point\] on them and grants 8 stacks of \[Electric Arc\] to self.
 
 ## Ultimate: Sewn into Forever
 
-Deals 700% Mental DMG to one enemy, gives it 1 stack of Breaking Point and triggers Sew It All Up once. The Ultimate does not count against the team's limit of incantations drawn.
-
-## Sew It All Up
-
-A single-target attack that counts as an extra action. It deals 400% Mental DMG, draws on Ultimate Might at a 100% rate and pours up to 20 stacks of Dynamo into the Pulsing Field. What else it does depends on the level of the field; the bonus marked with Breaking Point needs 1 stack of Breaking Point on the target and spends it.
-
-| Field level | Extra damage | With Breaking Point |
-| --- | --- | --- |
-| Lv.1 | none | Corvus gains 3 stacks of Electric Arc |
-| Lv.2 | +200% Mental DMG | +5% Mental DMG for each stack of Electric Arc she has |
-| Lv.3 | +600% Mental DMG | +5% Mental DMG and Ultimate Might rate +0.3% for each stack of Electric Arc or Flickering Arc she has |
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Pulsing Field | An array. At the start of a round it rises with the Dynamo poured into it: Lv.2 at 50 or more, Lv.3 at 120 or more. When the field ends, the Dynamo in it is lost. |
-| Pulsing Field Lv.1 | All allies DMG Bonus +15%, for 3 rounds. |
-| Pulsing Field Lv.2 | All allies Incantation Might +25% and DMG Bonus +15%, for 3 rounds. |
-| Pulsing Field Lv.3 | All allies Ultimate Might +35%, Incantation Might +25% and DMG Bonus +15%, for 2 rounds. |
-| Dynamo | Up to 30 stacks; cannot be dispelled. |
-| Electric Arc | ATK +0.3% per stack, up to 60 stacks. |
-| Flickering Arc | ATK +0.3% per stack, up to 240 stacks; cannot be dispelled. |
-| Breaking Point | Spent by Sew It All Up for its bonus effect. |
-| Welding | When the holder is attacked, Corvus gains 1 stack of Electric Arc. A Mental DMG attack also lowers its Mental DEF by 1%, down to −50% in total, and gives her 1 more stack. Sew It All Up strikes the enemy with Welding first; only one enemy has it at a time. |
-| Stitching | At the end of each round, Corvus casts Sew It All Up at the effect of the current field level. Gaining it again adds to its duration. |
-| Amplified Surge | Moxie +3 when the field reaches Lv.3; while the field is at Lv.3, Max Moxie +5 and immunity to Control effects. |
+1-target attack. Deals 700% Mental DMG. Inflicts 1 stack of \[Breaking Point\] on the target. Triggers \[Sew It All Up\] 1 time.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 0 (Precognition) | On entering battle, Corvus gains Amplified Surge. After each action she takes, she gains 10 stacks of Dynamo. At the start of a round with no Pulsing Field of any level, she sets up Pulsing Field Lv.1. |
-| 1 | When Pulsing Field Lv.3 ends, every 2 stacks of Electric Arc turn into 1 stack of Dynamo and 2 stacks of [Flickering Arc]. |
-| 2 | Critical Rate +10% on entering battle. |
-| 3 | When the enemy with Welding leaves the field, Welding passes to the enemy with the lowest HP percentage, a boss first, with the same number of Breaking Point stacks. |
+**Insight 0 · Precognition**: When entering battle, gains \[Amplified Surge\].
+
+After actively taking an action, gains 10 stacks of \[Dynamo\].
+
+At the start of the round, if not under a \[Pulsing Field\] of any level, deploy \[Pulsing Field Lv.1\].
+
+Ultimate does not take up the allied Incantation Draw Limit.
+
+**Insight 1 · Forward March**: When \[Pulsing Field Lv.3\] ends, every 2 stacks of \[Electric Arc\] are converted into 1 stack of \[Dynamo\] and 2 stacks of \[Flickering Arc\].
+
+**Insight 2 · Forward March II**: Critical Rate +10% when entering battle.
+
+**Insight 3 · Forward March III**: When the target under the \[Welding\] status retreats, inflicts \[Welding\] along with the same stacks of \[Breaking Point\] on the enemy with the lowest HP percentage (boss prioritized).
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -97,13 +91,36 @@ A single-target attack that counts as an extra action. It deals 400% Mental DMG,
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 1200% and gives 2 stacks of Breaking Point; Welding lowers Mental DEF by 2% per attack, down to −100% in total. |
-| 2 | The Ultimate triggers Sew It All Up twice. |
-| 3 | Sew It All Up deals 500%; its extra damage becomes 300% at Lv.2 and 700% at Lv.3. |
-| 4 | The bonus of Sew It All Up for each stack becomes 8% at Lv.2 and Lv.3. |
-| 5 | Both incantations give 4, 8 or 16 stacks of Electric Arc by rank; Electric Arc caps at 80 stacks and Flickering Arc at 320. |
+**Portrait 1**: **Sewn into Forever**: Mental DMG dealt increased to 1200%. Stacks of \[Breaking Point\] inflicted increased to 2. \[Welding\]'s Mental DEF reduction effect increased to -2% for each attack, stackable up to -100%.
+
+**Portrait 2**: **Sewn into Forever**: Triggers \[Sew It All Up\] 2 times.
+
+**Portrait 3**: **Rosy Cracks**: \[Sew It All Up\]'s Mental DMG dealt increased to 500%; additional Mental DMG under \[Pulsing Field Lv.2\]/\[Pulsing Field Lv.3\] increased to 300%/700%.
+
+**Portrait 4**: **Rosy Cracks**: \[Sew It All Up\]'s additional Mental DMG per \[Electric Arc\] stack under \[Pulsing Field Lv.2\] increased to 8%; additional Mental DMG per \[Electric Arc\] or \[Flickering Arc\] stack under \[Pulsing Field Lv.3\] increased to 8%.
+
+**Portrait 5**: **Arc-Threaded Shot**: Stacks of \[Electric Arc\] gained at rank 1/2/3 **Rosy Cracks** increased to 4/8/16. \[Electric Arc\] stack limit raised to 80. \[Flickering Arc\] stack limit raised to 320.
+
+## Statuses
+
+- **Electric Arc**: ATK +0.3%, up to 60 stacks.
+- **Breaking Point**: Consumed when being attacked by \[Sew It All Up\] to trigger an additional effect.
+- **Stitching**: At the end of the round, triggers \[Sew It All Up\] (effect based on \[Pulsing Field\] level). When gained repeatedly, the duration of the status extends accordingly.
+- **Welding**: When the carrier is attacked, Corvus gains 1 stack of \[Electric Arc\]; if the attack deals Mental DMG, suffers Mental DEF -1%, stackable up to -50%, and Corvus gains 1 extra stack of \[Electric Arc\]. \[Sew It All Up\] prioritizes the target with \[Welding\] (up to 1 at a time).
+- **Sew It All Up**: 1-target attack. Deals 400% Mental DMG. This attack benefits from Ultimate Might at a 100% rate. Transfers up to 20 stacks of \[Dynamo\] into \[Pulsing Field\]. This attack counts as an extra action.
+
+  If under \[Pulsing Field Lv.1\], consumes 1 stack of \[Breaking Point\] on the target to gain 3 stacks of \[Electric Arc\].
+
+  If under \[Pulsing Field Lv.2\], deals an additional 200% Mental DMG; consumes 1 stack of \[Breaking Point\] on the target to deal 5% increased Mental DMG for every stack of \[Electric Arc\] owned.
+
+  If under \[Pulsing Field Lv.3\], deals an additional 600% Mental DMG; consumes 1 stack of \[Breaking Point\] on the target to deal 5% increased Mental DMG and benefit from Ultimate Might at a +0.3% rate for every stack of \[Electric Arc\] or \[Flickering Arc\] owned.
+- **Amplified Surge**: When reaching \[Pulsing Field Lv.3\], gains Moxie +3. When under \[Pulsing Field Lv.3\], gains Max Moxie +5 and immunity to Control effects.
+- **Dynamo**: A product of technology used for meticulous machinery (up to 30 stacks, undispellable).
+- **Pulsing Field**: At the start of the round, Pulsing Field upgrades based on the \[Dynamo\] transferred into it. At 50+, upgrades into \[Pulsing Field Lv.2\]. At 120+, upgrades into \[Pulsing Field Lv.3\]. When Pulsing Field disappears, all \[Dynamo\] transferred into it are also cleared.
+- **Pulsing Field Lv.1**: All allies gain DMG Bonus +15% for 3 rounds.
+- **Pulsing Field Lv.3**: All allies gain Ultimate Might +35%, Incantation Might +25%, and DMG Bonus +15% for 2 rounds.
+- **Flickering Arc**: ATK +0.3%, up to 240 stacks (undispellable).
+- **Pulsing Field Lv.2**: All allies gain Incantation Might +25% and DMG Bonus +15% for 3 rounds.
 
 ## Names
 

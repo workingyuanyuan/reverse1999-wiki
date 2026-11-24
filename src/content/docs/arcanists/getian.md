@@ -35,37 +35,41 @@ sources:
 | Psychubes recommended in game | [On the Hand of Time](/psychubes/on-the-hand-of-time/), [The Third Commitment](/psychubes/the-third-commitment/), [Same Old Story](/psychubes/same-old-story/) |
 | Mainland release | 2024-02-01 |
 | Global release | 2024-06-20 |
-
-Getian marks enemies with [Shape of Bones], which lowers their Reality DEF and adds Genesis DMG to each hit they take. Unique Bearing starts the [Bone Reading] channel, which spends his Eureka at the end of each round on [Admonition], an attack on every marked enemy. His Ultimate lays the array [A Prophecy Told], which raises the whole team's damage and that of Reality DMG arcanists most.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/getian/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Old Bones (single-target attack) | 100% Reality DMG; Shape of Bones 2 rounds | 200% | 400% |
-| Unique Bearing (self channel) | enters Bone Reading; Eureka +2 | Eureka +3 | Eureka +5 |
+### Old Bones
 
-[Bone Reading]: if Getian is still channeling at the end of the round, he spends 2 Eureka to cast Admonition once. With less than 2, he spends all he has; when a cast leaves him at 0 Eureka, the channel ends.
+**Rank 1**: 1-target attack. Deals 100% Reality DMG. After attacking, inflicts \[Shape of Bones\] on the target for 2 rounds.
 
-[Admonition]: an attack on every enemy under Shape of Bones, for 120% Reality DMG; it does not count as an extra action.
+**Rank 2**: 1-target attack. Deals 200% Reality DMG. After attacking, inflicts \[Shape of Bones\] on the target for 2 rounds.
 
-[Shape of Bones]: Reality DEF −15%; each time the holder is attacked, it takes Genesis DMG equal to 30% of the ATK of the arcanist who applied it.
+**Rank 3**: 1-target attack. Deals 400% Reality DMG. After attacking, inflicts \[Shape of Bones\] on the target for 2 rounds.
+
+### Unique Bearing
+
+**Rank 1**: Self channel. Enters \[Bone Reading\] status. Eureka +2.
+
+**Rank 2**: Self channel. Enters \[Bone Reading\] status. Eureka +3.
+
+**Rank 3**: Self channel. Enters \[Bone Reading\] status. Eureka +5.
 
 ## Ultimate: I Shall Walk, Exist, and Know
 
-Lays [A Prophecy Told] for 3 rounds, gives Getian 3 Eureka and puts Shape of Bones on all enemies for 3 rounds.
-
-[A Prophecy Told]: an [Array]; all allies gain DMG Bonus +20%, and Reality DMG arcanists gain DMG Bonus +20% more when they attack.
-
-[Array]: a field effect on the characters in battle; only one array can stand at a time, on either side.
+Mass debuff. Creates special array \[A Prophecy Told\] for 3 rounds. Gains Eureka +3. Inflicts \[Shape of Bones\] on all enemies for 3 rounds.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | On entering battle with 3 or more Reality DMG arcanists in the team, Getian gains 3 Moxie, once. Inside A Prophecy Told, his Admonition has Critical Rate +20% and Critical DMG +20%. |
-| 2 | ATK +5% on entering battle. |
-| 3 | At the start of each round, a random enemy gets Shape of Bones for 2 rounds. At the end of each round inside A Prophecy Told, Getian gains 1 Eureka. |
+**Insight 1 · Bone Interpretor**: When entering battle with 3+ Reality DMG allies, grant Moxie +3 to self (triggers only 1 time).
+
+When in \[A Prophecy Told\], \[Admonition\] gains Critical Rate +20% and Critical DMG +20%.
+
+**Insight 2 · Bone Interpretor II**: ATK +5% when entering battle.
+
+**Insight 3 · Bone Interpretor III**: At the start of the round, inflict \[Shape of Bones\] on a random enemy for 2 rounds.
+
+At the end of the round, if in \[A Prophecy Told\], gain Eureka +1.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -75,24 +79,42 @@ Lays [A Prophecy Told] for 3 rounds, gives Getian 3 Eureka and puts Shape of Bon
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The array from the Ultimate lasts 1 round longer. |
-| 2 | Insight 1 needs only 2 Reality DMG arcanists and gives 4 Moxie; its Admonition bonus becomes +30%. |
-| 3 | Admonition deals 150%. |
-| 4 | Old Bones deals 160% at rank 1. |
-| 5 | The Admonition bonus from Insight 1 becomes +50%. |
+**Portrait 1**: **I Shall Walk, Exist, and Know**: +1 round duration to \[A Prophecy Told\].
+
+**Portrait 2**: **Bone Interpretor**: Now triggers with 2+ Reality DMG allies, and Moxie gained is increased to +4. When in \[A Prophecy Told\], \[Admonition\]'s Critical Rate and Critical DMG increase are now +30%.
+
+**Portrait 3**: **Unique Bearing**: \[Admonition\]'s Reality DMG dealt is increased to 150%.
+
+**Portrait 4**: **Old Bones**: At rank 1 incantation, Reality DMG dealt is increased to 160%.
+
+**Portrait 5**: **Bone Interpretor**: When in \[A Prophecy Told\], \[Admonition\]'s Critical Rate and Critical DMG increase are now +50%.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Getian has one Epiphany of four levels; it turns Admonition into an Ultimate and lets A Prophecy Told run on Eureka.
+**Epiphany 1, level 1**: Max Eureka +5. The \[Array Maintenance\] of \[A Prophecy Told\] becomes Eureka-consuming.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | Max Eureka +5. A Prophecy Told loses its fixed duration and is kept up by 2 Eureka each round; it ends when Eureka runs short. Insight 3 no longer gives Eureka at the end of the round, and the Ultimate gives Eureka equal to twice the array's duration. The array also gives Reality DMG arcanists Ultimate Might equal to 13.5% for each round of its original duration when they attack. Bone Reading lasts 5 rounds, casts Admonition without spending Eureka and no longer ends for lack of it; Admonition counts as an Ultimate and deals 100% more Reality DMG. |
-| 1 | 2 | Gains 1 Moxie on entering battle, and 1 Moxie at the end of each round inside A Prophecy Told. |
-| 1 | 3 | After Old Bones, Getian also casts Admonition, which deals extra Reality DMG equal to the multiplier of that Old Bones. |
-| 1 | 4 | Inside A Prophecy Told, the Critical Rate and Critical DMG that Admonition gets from Insight 1 are doubled. Casting the Ultimate while A Prophecy Told stands also casts Admonition once, with Reality DMG +700%. |
+At the end of the round, if under \[A Prophecy Told\], does not gain Eureka +1 anymore. The number of Getian's Eureka gained by casting **I Shall Walk, Exist, and Know** changes to (the array's duration round count x2).
+
+\[A Prophecy Told\] gains additional effects: When a Reality DMG character attacks, they gain an additional Ultimate Might +(original array's duration round count x13.5%).
+
+\[Bone Reading\] no longer costs Eureka to trigger \[Admonition\], no longer be removed due to lack of Eureka, and its duration is set to 5 rounds. \[Admonition\] now counts as an Ultimate and deals an additional 100% Reality DMG.
+
+**Epiphany 1, level 2**: When entering battle, gains Moxie +1. At the end of the round, if under \[A Prophecy Told\], gains Moxie +1.
+
+**Epiphany 1, level 3**: After casting **Old Bones**, additionally casts \[Admonition\] 1 time. This \[Admonition\] deals an additional (**Old Bones**'s Reality DMG) Reality DMG.
+
+**Epiphany 1, level 4**: When Getian casts \[Admonition\] under \[A Prophecy Told\], Critical Rate and Critical DMG gained from **Bone Interpretor** are doubled.
+
+When casting **I Shall Walk, Exist, and Know** under \[A Prophecy Told\], additionally casts \[Admonition\] 1 time. This \[Admonition\]'s Reality DMG +700%.
+
+## Statuses
+
+- **Shape of Bones**: Reality DEF -15%. When attacked, take an additional (the user's ATK x30%) Genesis DMG.
+- **Bone Reading**: When this Channel status is active at the end of the round, consume 2 Eureka to cast incantation \[Admonition\] (if there isn't enough Eureka, all Eureka is used up. If Eureka is 0 after casting, this status is removed).
+- **A Prophecy Told**: \[Array\] effect: Allied characters gain DMG Bonus +20%. When a Reality DMG character attacks, gain additional DMG Bonus +20%.
+- **Array Maintenance**: The array has no default duration and is maintained by consuming 2 Eureka each round. If there isn't enough Eureka, the array will be removed.
+- **Admonition**: Mass attack. Deals 120% Reality DMG to enemies in \[Shape of Bones\] status (does not count as an extra action).
+- **Array**: Battlefield effect. Continuously affects characters on the field (only one type of array can exist at a time, whether on the allied or enemy side).
 
 ## Names
 

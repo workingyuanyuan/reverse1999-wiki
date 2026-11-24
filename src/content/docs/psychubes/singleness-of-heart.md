@@ -39,11 +39,32 @@ sources:
 
 ## Effect
 
-- When an enemy under [Burn] attacks any ally, that attack gets DMG Dealt −2/2.5/3/3.5/4% (Amplification 1 to 5).
-- After the carrier casts its Ultimate, if [Lingering Glow] is above 120 points, all allies gain Critical DMG +12/15/18/21/24% for 3 rounds; the global client's English text sets the threshold at 120 points or more.
+**Amplification 1**: When an ally is attacked by an enemy under the \[Burn\] status, DMG Dealt -2% for that attack.
+
+After the carrier casts an Ultimate, if at 120 points of \[Lingering Glow\] or above, all allies gain Critical DMG +12% for 3 rounds.
+
+**Amplification 2**: When an ally is attacked by an enemy under the \[Burn\] status, DMG Dealt -2.5% for that attack.
+
+After the carrier casts an Ultimate, if at 120 points of \[Lingering Glow\] or above, all allies gain Critical DMG +15% for 3 rounds.
+
+**Amplification 3**: When an ally is attacked by an enemy under the \[Burn\] status, DMG Dealt -3% for that attack.
+
+After the carrier casts an Ultimate, if at 120 points of \[Lingering Glow\] or above, all allies gain Critical DMG +18% for 3 rounds.
+
+**Amplification 4**: When an ally is attacked by an enemy under the \[Burn\] status, DMG Dealt -3.5% for that attack.
+
+After the carrier casts an Ultimate, if at 120 points of \[Lingering Glow\] or above, all allies gain Critical DMG +21% for 3 rounds.
+
+**Amplification 5**: When an ally is attacked by an enemy under the \[Burn\] status, DMG Dealt -4% for that attack.
+
+After the carrier casts an Ultimate, if at 120 points of \[Lingering Glow\] or above, all allies gain Critical DMG +24% for 3 rounds.
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | Singleness of Heart | 我心如赤焰 | 我心如赤焰 | 澄みわたる真心 | 화염 같은 내 심장이여 |
+
+## Edition differences
+
+- The Chinese texts ask for Lingering Glow above 120 points; the global client's English text asks for 120 points or more.

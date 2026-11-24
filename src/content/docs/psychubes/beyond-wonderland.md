@@ -40,8 +40,15 @@ sources:
 
 ## Effect
 
-- The carrier gets Critical Rate +7/10.5/14/17.5/21% (Amplification 1 to 5).
-- After the carrier uses a debuff incantation, it gets Healing Done +3%, up to 4 stacks.
+**Amplification 1**: After the carrier uses a debuff incantation, the carrier's healing rate increases by 3%. This effect can stack up to 4 times. Increases carrier's Critical Rate by 7%.
+
+**Amplification 2**: After the carrier uses a debuff incantation, the carrier's healing rate increases by 3%. This effect can stack up to 4 times. Increases carrier's Critical Rate by 10.5%.
+
+**Amplification 3**: After the carrier uses a debuff incantation, the carrier's healing rate increases by 3%. This effect can stack up to 4 times. Increases carrier's Critical Rate by 14%.
+
+**Amplification 4**: After the carrier uses a debuff incantation, the carrier's healing rate increases by 3%. This effect can stack up to 4 times. Increases carrier's Critical Rate by 17.5%.
+
+**Amplification 5**: After the carrier uses a debuff incantation, the carrier's healing rate increases by 3%. This effect can stack up to 4 times. Increases carrier's Critical Rate by 21%.
 
 ## Names
 

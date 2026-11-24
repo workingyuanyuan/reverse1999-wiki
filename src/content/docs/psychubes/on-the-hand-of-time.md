@@ -40,8 +40,15 @@ sources:
 
 ## Effect
 
-- When the carrier attacks while channeling, that attack gets Penetration Rate +14/17.5/21/24.5/28% (Amplification 1 to 5).
-- Each extra action of the carrier gives it Critical DMG +6/7.5/9/10.5/12%, stacking up to 3 times; 1 stack is removed at the end of each round.
+**Amplification 1**: When the carrier attacks, if the carrier is in a channel status, the attack gains Penetration Rate +14%. When the carrier performs an extra action, the carrier gains Critical DMG +6%, stacking up to 3 times, with 1 stack removed at the end of each round.
+
+**Amplification 2**: When the carrier attacks, if the carrier is in a channel status, the attack gains Penetration Rate +17.5%. When the carrier performs an extra action, the carrier gains Critical DMG +7.5%, stacking up to 3 times, with 1 stack removed at the end of each round.
+
+**Amplification 3**: When the carrier attacks, if the carrier is in a channel status, the attack gains Penetration Rate +21%. When the carrier performs an extra action, the carrier gains Critical DMG +9%, stacking up to 3 times, with 1 stack removed at the end of each round.
+
+**Amplification 4**: When the carrier attacks, if the carrier is in a channel status, the attack gains Penetration Rate +24.5%. When the carrier performs an extra action, the carrier gains Critical DMG +10.5%, stacking up to 3 times, with 1 stack removed at the end of each round.
+
+**Amplification 5**: When the carrier attacks, if the carrier is in a channel status, the attack gains Penetration Rate +28%. When the carrier performs an extra action, the carrier gains Critical DMG +12%, stacking up to 3 times, with 1 stack removed at the end of each round.
 
 ## Names
 

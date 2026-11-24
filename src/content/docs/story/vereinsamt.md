@@ -1,6 +1,6 @@
 ---
 title: "Vereinsamt"
-description: "Vereinsamt: Main story of Reverse: 1999 in 31 stages, with the full story text."
+description: "Vereinsamt: chapter 7 of the Reverse: 1999 main story, in 31 stages."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global, global client 111.0.1077: chapter.json and episode.json (stage codes, in-game dates)"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-Vereinsamt is chapter 7TH of the main story of Reverse: 1999, in 31 stages. Its story begins on January 12, 1914, 20:30.
-
 ## Stages
 
 | Stage | Name | In-game time | Trails |

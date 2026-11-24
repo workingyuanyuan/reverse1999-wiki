@@ -37,52 +37,57 @@ sources:
 | Psychubes recommended in game | [A Dream Beyond Light](/psychubes/a-dream-beyond-light/) |
 | Mainland release | 2026-06-11 |
 | Global release | 2026-09-24 |
-
-Everecho has no incantation cards and no ordinary Ultimate: she casts through a [Conduit], which the team charges with Energy cards, and Harmonization takes the place of Moxie. Her Conduit switches between an attack that gives every ally [Past Shadows] and a mass heal that needs [Long-Lost Light], and she gives the whole team [Remembrance], a reserve that takes damage once HP reaches 1.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/everecho/profile/) |
 
 ## Incantations
 
-| Incantation | Effect |
-| --- | --- |
-| Yesterday's Yearning (mass attack, Interval) | 200% Reality DMG to all enemies; all allies gain 1 stack of [Past Shadows] for 2 rounds |
-| Tomorrow's Hope (mass heal) | all allies recover HP equal to 180% of Everecho's ATK; removes 2 kinds of Stats Down, Neg Status or Control effects from each ally |
+### Yesterday's Yearning
 
-- **Tomorrow's Hope** spends 1 stack of Long-Lost Light each time it is cast. With none left, the Conduit switches to Yesterday's Yearning.
-- [Interval]: once the Conduit casts the incantation, it stops for the rest of the round.
+**Rank 1**: \[Interval\]
 
-## Energy cards
+Mass attack. Deals 200% Reality DMG to all enemies. Grants 1 stack of \[Past Shadows\] to all allies for 2 rounds.
 
-| Card | Effect |
-| --- | --- |
-| Light's Might | Chaotic Energy +1; Everecho gains 1 stack of Long-Lost Light. Afterwards, unless the Conduit has Echoes' Embrace selected, it switches to Tomorrow's Hope. |
-| Light's Might II | as Light's Might, with Chaotic Energy +2 |
-| Chaotic Energy II | Chaotic Energy +2 |
+**Rank 2**: \[Interval\]
+
+Mass attack. Deals 200% Reality DMG to all enemies. Grants 1 stack of \[Past Shadows\] to all allies for 2 rounds.
+
+**Rank 3**: \[Interval\]
+
+Mass attack. Deals 200% Reality DMG to all enemies. Grants 1 stack of \[Past Shadows\] to all allies for 2 rounds.
+
+### Tomorrow's Hope
+
+**Rank 1**: Mass heal. Recovers (Everecho's ATK x180%) HP for all allies. Dispels 2 types of \[Stats Down\], \[Neg Status\], or \[Control\] effects from all allies.
+
+When cast, this incantation must consume 1 stack of \[Long-Lost Light\]; if there are no \[Long-Lost Light\] stacks, switches to \[Yesterday's Yearning\].
+
+**Rank 2**: Mass heal. Recovers (Everecho's ATK x240%) HP for all allies. Dispels 2 types of \[Stats Down\], \[Neg Status\], or \[Control\] effects from all allies.
+
+When cast, this incantation must consume 1 stack of \[Long-Lost Light\]; if there are no \[Long-Lost Light\] stacks, switches to \[Yesterday's Yearning\].
 
 ## Ultimate: Echoes' Embrace
 
-Deals 500% Reality DMG to all enemies, then puts [Hollow Shell] on all of them for 3 rounds, gives all allies 5 stacks of Past Shadows for 2 rounds and gives every Conduit ally [Rekindled Memory] for 3 rounds. Afterwards the Conduit switches to Tomorrow's Hope if Everecho holds Long-Lost Light, and to Yesterday's Yearning if she does not.
+Mass attack. Deals 500% Reality DMG to all enemies. After attacking, inflicts \[Hollow Shell\] on all enemies for 3 rounds. Grants 5 stacks of \[Past Shadows\] to all allies for 2 rounds. Grants \[Rekindled Memory\] to all \[Conduit\] allies for 3 rounds.
 
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Conduit | Charged with Energy; at the end of the AP Area it runs in a loop, spending Energy to cast incantations. |
-| Past Shadows | DMG Bonus equal to 0.6% of Everecho's ATK, plus DMG Bonus +1% for each stack. Up to 15 stacks; gaining it again refreshes its duration. |
-| Long-Lost Light | Lets Everecho's Conduit cast Tomorrow's Hope. |
-| Soothing Song | When its holder loses HP, it gains Remembrance in the same proportion of Remembrance's maximum as the share of HP lost. |
-| Remembrance | Once HP falls to 1, Remembrance takes the rest of the damage. Its maximum equals 400% of Everecho's ATK. |
-| Mend | At 4 stacks, lets its holder restart a Conduit that an Interval incantation stopped. Up to 4 stacks. |
-| Hollow Shell | Reality DEF, Mental DEF and Critical DEF −10%. |
-| Rekindled Memory | Critical DMG +2% for each stack of Past Shadows its holder has. |
+After attacking, if in \[Long-Lost Light\], switches to \[Tomorrow's Hope\]; otherwise, switches to \[Yesterday's Yearning\].
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 0 (Precognition) | No basic incantations or Ultimate; casts through the Conduit with Energy, and Harmonization replaces Moxie. On entering battle, all allies gain Soothing Song. Everecho gains 1 stack of Mend for each Energy the team spends. |
-| 1 | At the start of each round, Everecho gains Harmonization +15, and all allies recover HP equal to 20% of Remembrance. |
-| 2 | ATK +5% on entering battle. |
-| 3 | On entering battle, all allies take 30% less DMG and Everecho gains Harmonization +30. Each Conduit ally stores up to 50 Harmonization beyond the cap and refills from it at the end of the round when there is room. |
+**Insight 0 · Precognition**: Does not gain basic incantations or Ultimates. Casts incantations by activating a \[Conduit\] with Energy instead. Replaces Moxie with Harmonization.
+
+When entering battle, grants \[Soothing Song\] to all allies.
+
+For each Energy consumed by allies, Evercho gains 1 stack of \[Mend\].
+
+**Insight 1 · Lingering Soul**: At the start of the round, Everecho gains Harmonization +15, and all allies recover (\[Remembrance\] x20%) HP.
+
+**Insight 2 · Lingering Soul II**: ATK +5% when entering battle.
+
+**Insight 3 · Lingering Soul III**: When entering battle, grants DMG Taken -30% to all allies.
+
+Each \[Conduit\] ally can reserve up to 50 excess Harmonization (replenished at the end of the round if applicable).
+
+When entering battle, Everecho gains Harmonization +30.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -92,13 +97,30 @@ Deals 500% Reality DMG to all enemies, then puts [Hollow Shell] on all of them f
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Echoes' Embrace gives 10 stacks of Past Shadows; Past Shadows caps at 20 stacks; 2 Light's Might cards in the deck give Chaotic Energy +2. |
-| 2 | Past Shadows gives 0.8% of Everecho's ATK and +1.5% per stack; 1 more Light's Might card gives Chaotic Energy +2. |
-| 3 | Hollow Shell lowers Reality DEF, Mental DEF and Critical DEF by 15%. |
-| 4 | The Insight 1 heal becomes 35% of Remembrance; Tomorrow's Hope heals 240% of Everecho's ATK. |
-| 5 | Past Shadows gives 1.2% of Everecho's ATK and +2% per stack; 2 Chaotic Energy II cards in the deck give Chaotic Energy +3. |
+**Portrait 1**: **Echoes' Embrace** now grants 10 stacks of \[Past Shadows\] to all allies. \[Past Shadows\] now stacks up to 20 times. 2 copies of \[Light's Might\] now grant Chaotic Energy +2.
+
+**Portrait 2**: \[Past Shadows\] now grants DMG Bonus +(Everecho's ATK x0.8%)% at base, plus an additional DMG Bonus +1.5% per stack. 1 copy of \[Light's Might\] now grants Chaotic Energy +2.
+
+**Portrait 3**: **Echoes' Embrace**: \[Hollow Shell\] now inflicts Reality DEF -15%, Mental DEF -15%, and Critical DEF -15%.
+
+**Portrait 4**: **Precognition**: At the start of the round, all allies now recover (\[Remembrance\] x35%) HP. **Tomorrow's Hope** now recovers (Everecho's ATK x240%) HP for all allies.
+
+**Portrait 5**: \[Past Shadows\] now grants DMG Bonus +(Everecho's ATK x1.2%)% at base, plus an additional DMG Bonus +2% per stack. 2 copies of \[Chaotic Energy II\] now grant Chaotic Energy +3.
+
+## Statuses
+
+- **Interval**: After a Conduit casts this incantation, it cannot cast this incantation again this round.
+- **Past Shadows**: DMG Bonus +(Everecho's ATK x0.6%)%; for each stack, gains an additional DMG Bonus +1%, stacking up to 15 times (reapplying this status refreshes its duration).
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
+- **Long-Lost Light**: Enables Everecho's \[Conduit\] to cast \[Tomorrow's Hope\].
+- **Hollow Shell**: Reality DEF -10%, Mental DEF -10%, Critical DEF -10%.
+- **Rekindled Memory**: For each stack of \[Past Shadows\] held, Critical DMG +2%.
+- **Conduit**: Use Energy to power Conduits. Conduits activate at the end of the AP Area and repeatedly cast incantations by consuming Energy.
+- **Soothing Song**: After losing HP, gains \[Remembrance\] proportional to the percentage of HP lost.
+- **Mend**: At 4 stacks, enables the holder's \[Conduit\] to reactivate after casting an \[Interval\] incantation (stacks up to 4 times).
+- **Remembrance**: When HP is reduced to 1, \[Remembrance\] takes the remainder of the incoming DMG. The maximum value of \[Remembrance\] is equal to Everecho's ATK x400%.
+- **Light's Might**: Chaotic Energy +1. Grants 1 stack of \[Long-Lost Light\] to Everecho.
+- **Chaotic Energy II**: Chaotic Energy +2.
 
 ## Names
 

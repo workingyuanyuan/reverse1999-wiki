@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- After a Plant carrier attacks in an extra action, it gets Genesis DMG Dealt +2/3/3/4/4%, up to 3 stacks (Amplification 1 to 5).
-- When an ally casts a rewritten incantation, all enemies get [Poison] DMG Taken +1/1/2/2/3% for 3 rounds, up to 3 stacks.
+**Amplification 1**: If the carrier is a \[Plant\] character, after they perform an extra action attack, they gain Genesis DMG Dealt +2%, stacking up to 3 times.
+
+After an ally casts a rewritten incantation, inflicts \[Poison\] DMG Taken +1% on all enemies for 3 rounds, stacking up to 3 times.
+
+**Amplification 2**: If the carrier is a \[Plant\] character, after they perform an extra action attack, they gain Genesis DMG Dealt +3%, stacking up to 3 times.
+
+After an ally casts a rewritten incantation, inflicts \[Poison\] DMG Taken +1% on all enemies for 3 rounds, stacking up to 3 times.
+
+**Amplification 3**: If the carrier is a \[Plant\] character, after they perform an extra action attack, they gain Genesis DMG Dealt +3%, stacking up to 3 times.
+
+After an ally casts a rewritten incantation, inflicts \[Poison\] DMG Taken +2% on all enemies for 3 rounds, stacking up to 3 times.
+
+**Amplification 4**: If the carrier is a \[Plant\] character, after they perform an extra action attack, they gain Genesis DMG Dealt +4%, stacking up to 3 times.
+
+After an ally casts a rewritten incantation, inflicts \[Poison\] DMG Taken +2% on all enemies for 3 rounds, stacking up to 3 times.
+
+**Amplification 5**: If the carrier is a \[Plant\] character, after they perform an extra action attack, they gain Genesis DMG Dealt +4%, stacking up to 3 times.
+
+After an ally casts a rewritten incantation, inflicts \[Poison\] DMG Taken +3% on all enemies for 3 rounds, stacking up to 3 times.
 
 ## Names
 

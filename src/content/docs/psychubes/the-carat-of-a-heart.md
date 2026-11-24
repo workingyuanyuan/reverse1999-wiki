@@ -40,7 +40,15 @@ sources:
 
 ## Effect
 
-At the end of a round in which the carrier gained at least 3 Moxie, the carrier's next Ultimate gets Ultimate Might +8/10/12/14/16% (Amplification 1 to 5). With at least 4 Moxie gained that round, the bonus is +12/15/18/21/24% instead.
+**Amplification 1**: When the round ends, if the carrier gained at least 3 Moxie in the round, Ultimate Might +8% when casting the next Ultimate. If the carrier gained at least 4 Moxie in the round, this effect is increased to +12%.
+
+**Amplification 2**: When the round ends, if the carrier gained at least 3 Moxie in the round, Ultimate Might +10% when casting the next Ultimate. If the carrier gained at least 4 Moxie in the round, this effect is increased to +15%.
+
+**Amplification 3**: When the round ends, if the carrier gained at least 3 Moxie in the round, Ultimate Might +12% when casting the next Ultimate. If the carrier gained at least 4 Moxie in the round, this effect is increased to +18%.
+
+**Amplification 4**: When the round ends, if the carrier gained at least 3 Moxie in the round, Ultimate Might +14% when casting the next Ultimate. If the carrier gained at least 4 Moxie in the round, this effect is increased to +21%.
+
+**Amplification 5**: When the round ends, if the carrier gained at least 3 Moxie in the round, Ultimate Might +16% when casting the next Ultimate. If the carrier gained at least 4 Moxie in the round, this effect is increased to +24%.
 
 ## Names
 

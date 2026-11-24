@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- When the team actively casts more than 4 incantations in one round, each incantation beyond the fourth gives all allies DMG Dealt +3/4.5/4.5/6/6% (Amplification 1 to 5) for 1 round; at most 3 such incantations count.
-- With an Intellect carrier, each point of Eureka the team consumes gives all allies Incantation Might +0.2/0.2/0.3/0.3/0.4%, stacking up to 30 times, and the carrier gains Eureka +2 on entering battle.
+**Amplification 1**: When allies have casted more than 4 incantations in a single round, each additional cast grants DMG Dealt +3% to all allies for 1 round, stacks up to 3 times;
+
+If the carrier is of the \[Intellect\] afflatus, each Eureka consumed by allies grants Incantation Might +0.2% to all allies, stacks up to 30 times; when entering battle, gain Eureka +2 for self.
+
+**Amplification 2**: When allies have casted more than 4 incantations in a single round, each additional cast grants DMG Dealt +4.5% to all allies for 1 round, stacks up to 3 times;
+
+If the carrier is of the \[Intellect\] afflatus, each Eureka consumed by allies grants Incantation Might +0.2% to all allies, stacks up to 30 times; when entering battle, gain Eureka +2 for self.
+
+**Amplification 3**: When allies have casted more than 4 incantations in a single round, each additional cast grants DMG Dealt +4.5% to all allies for 1 round, stacks up to 3 times;
+
+If the carrier is of the \[Intellect\] afflatus, each Eureka consumed by allies grants Incantation Might +0.3% to all allies, stacks up to 30 times; when entering battle, gain Eureka +2 for self.
+
+**Amplification 4**: When allies have casted more than 4 incantations in a single round, each additional cast grants DMG Dealt +6% to all allies for 1 round, stacks up to 3 times;
+
+If the carrier is of the \[Intellect\] afflatus, each Eureka consumed by allies grants Incantation Might +0.3% to all allies, stacks up to 30 times; when entering battle, gain Eureka +2 for self.
+
+**Amplification 5**: When allies have casted more than 4 incantations in a single round, each additional cast grants DMG Dealt +6% to all allies for 1 round, stacks up to 3 times;
+
+If the carrier is of the \[Intellect\] afflatus, each Eureka consumed by allies grants Incantation Might +0.4% to all allies, stacks up to 30 times; when entering battle, gain Eureka +2 for self.
 
 ## Names
 

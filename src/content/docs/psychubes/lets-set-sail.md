@@ -1,6 +1,6 @@
 ---
 title: "Let's Set Sail"
-description: "Let's Set Sail is a 5-star ATK Psychube that raises Critical DMG against enemies with a Stats Down status."
+description: "Let's Set Sail is a 5-star ATK Psychube that raises Critical DMG."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
 caveat: "The Critical DMG bonus applies only when the target of the attack has a Stats Down status."
 lastVerified: 2026-11-23
@@ -39,7 +39,15 @@ sources:
 
 ## Effect
 
-When the carrier attacks an enemy that has a [Stats Down] status, it gets Critical DMG +14/17.5/21/24.5/28% (Amplification 1 to 5).
+**Amplification 1**: When the carrier attacks a target that's with a \[Stats Down\] status, Critical DMG +14%.
+
+**Amplification 2**: When the carrier attacks a target that's with a \[Stats Down\] status, Critical DMG +17.5%.
+
+**Amplification 3**: When the carrier attacks a target that's with a \[Stats Down\] status, Critical DMG +21%.
+
+**Amplification 4**: When the carrier attacks a target that's with a \[Stats Down\] status, Critical DMG +24.5%.
+
+**Amplification 5**: When the carrier attacks a target that's with a \[Stats Down\] status, Critical DMG +28%.
 
 ## Names
 

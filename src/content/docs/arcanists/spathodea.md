@@ -37,38 +37,37 @@ sources:
 | Psychubes recommended in game | [Long Night Talk](/psychubes/long-night-talk/), [Luxurious Leisure](/psychubes/luxurious-leisure/), [Never-Ending Q&A](/psychubes/never-ending-q-a/) |
 | Mainland release | 2023-11-30 |
 | Global release | 2024-04-18 |
-
-Spathodea is a Burn arcanist. Ignition Point stocks her with [Preignition], which turns into Burn on the target before her next attack, and [Exhilaration], which adds Critical Rate to it, and queues a Precast Little Boxer for the next round. Her Insight passives turn Burn into Critical Rate and critical hits into more Burn, and her Ultimate gains Critical DMG against a heavily burning target.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/spathodea/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Little Boxer (single-target attack) | 200% Reality DMG | 300% | 500% |
-| Ignition Point (self buff) | 3 [Preignition], 2 [Exhilaration], 1 [Preparation - Spathodea I] | 6, 3, 1 Preparation - Spathodea II | 9, 5, 1 Preparation - Spathodea III |
+### Little Boxer
 
-- Little Boxer gains Critical DMG +40% while Spathodea has Preignition, at every rank.
-- Preparation - Spathodea I, II or III makes a rank 1, 2 or 3 Little Boxer as a [Precast Incantation] at the start of the next round. She gains at most 1 Precast Incantation a round this way.
+**Rank 1**: 1-target attack. Deals 200% Reality DMG. When in \[Preignition\] status, this attack gains Critical DMG +40%.
 
-[Preignition]: before an attack, each stack puts 1 stack of [Burn] on the target; all stacks are then removed.
+**Rank 2**: 1-target attack. Deals 300% Reality DMG. When in \[Preignition\] status, this attack gains Critical DMG +40%.
 
-[Exhilaration]: each stack gives an attack Critical Rate +15%; all stacks are then removed.
+**Rank 3**: 1-target attack. Deals 500% Reality DMG. When in \[Preignition\] status, this attack gains Critical DMG +40%.
 
-[Precast Incantation]: counts as the incantation of the same name; unused ones are removed at the end of the round.
+### Ignition Point
+
+**Rank 1**: Self buff. Gains 3 stacks of \[Preignition\], 2 stacks of \[Exhilaration\] and 1 stack of \[Preparation - Spathodea I\].
+
+**Rank 2**: Self buff. Gains 6 stacks of \[Preignition\], 3 stacks of \[Exhilaration\] and 1 stack of \[Preparation - Spathodea II\].
+
+**Rank 3**: Self buff. Gains 9 stacks of \[Preignition\], 5 stacks of \[Exhilaration\] and 1 stack of \[Preparation - Spathodea III\].
 
 ## Ultimate: Flame Within the Fire
 
-Deals 700% Reality DMG to one enemy with Critical DMG +40%, and a further Critical DMG +40% if the target has 15 or more stacks of [Burn].
-
-[Burn]: Healing Taken −15%, which does not stack. At the end of each round, Genesis DMG based on 4% of the holder's ATK. Up to 30 stacks, which count as one Neg Status; half the stacks are removed each time it deals damage.
+1-target attack. Deals 700% Reality DMG. This attack gains Critical DMG +40%. If the target is afflicted with 15 or more stacks of \[Burn\], this attack gains extra Critical DMG +40%.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | After one of her attacks applies Burn, her next attack gains Critical Rate +25%. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | When one of her single-target attacks crits, the target gets 4 stacks of Burn. |
+**Insight 1 · Flame Flower**: When applying \[Burn\] status with an attack, the next attack gains Critical Rate +25%.
+
+**Insight 2 · Flame Flower II**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · Flame Flower III**: When a 1-target attack scores a Critical Hit, inflicts 4 stacks of \[Burn\].
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -78,28 +77,46 @@ Deals 700% Reality DMG to one enemy with Critical DMG +40%, and a further Critic
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Little Boxer's Critical DMG bonus becomes +70%. |
-| 2 | The Insight I Critical Rate bonus becomes +50%. |
-| 3 | Both Critical DMG bonuses of the Ultimate become +70%. |
-| 4 | Little Boxer deals 220, 330 or 550% by rank. |
-| 5 | The Ultimate deals 750%, and both its Critical DMG bonuses become +100%. |
+**Portrait 1**: **Little Boxer**: Critical DMG increased to 70%.
+
+**Portrait 2**: **Flame Flower**: Critical Rate increased to 50%.
+
+**Portrait 3**: **Flame Within the Fire**: Critical DMG increased to 70%. Extra Critical DMG increased to 70%.
+
+**Portrait 4**: **Little Boxer**: At Incantation rank 1/2/3, Reality DMG increased to 220/330/550%.
+
+**Portrait 5**: **Flame Within the Fire**: Reality DMG increased to 750%. Critical DMG increased to 100%. Extra Critical DMG increased to 100%.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Spathodea has one Epiphany of four levels, built on Burn and [Lingering Glow].
+**Epiphany 1, level 1**: Accumulates \[Lingering Glow\] (mutually exclusive with \[Bloodtithe\]) whenever an enemy is inflicted with \[Burn\] or \[Halo\].
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | Lingering Glow builds whenever any enemy gets Burn or [Halo], 100% faster when an ally applies Burn. On entering battle, all enemies get 6 stacks of Burn, and their Burn stack limit rises by 15. |
-| 1 | 2 | Exhilaration changes: on casting her Ultimate, each stack gives Critical Rate +5% and ATK +3%, up to 10 stacks, removed after the Ultimate. |
-| 1 | 3 | Little Boxer deals extra Reality DMG equal to 100% of its base, gets its Critical DMG bonus without Preignition, and puts 2 stacks of Burn on the target after the hit. Insight III no longer needs a critical hit: she puts 6 stacks of Burn on the target before attacking. |
-| 1 | 4 | The Ultimate gains Ultimate Might +2% for each Burn stack on the target, and extra Reality DMG equal to 5% of its base for every 10 points of Lingering Glow. She stores up to 2 Moxie beyond her cap and adds it back at the end of a round when she has room. |
+When entering battle, inflicts 6 stacks of Burn on all enemies.
 
-[Lingering Glow]: a team resource that builds whenever an enemy gets Burn or Halo, faster when fewer enemies remain. It cannot be held together with Bloodtithe.
+Whenever allies inflict \[Burn\], \[Lingering Glow\] accumulation +100%. All enemies' \[Burn\] stack limits increase by 15.
 
-[Halo]: like Burn, but Healing Taken −25%, and the damage is based on 4% of the ATK of the unit that first applied it.
+**Epiphany 1, level 2**: \[Exhilaration\] changes to: When casting an Ultimate, Critical Rate +5% and ATK +3% (stackable up to 10 times, removed after casting an Ultimate).
+
+**Epiphany 1, level 3**: **Little Boxer**: Deals an additional (base Reality DMG x100%) Reality DMG. Critical DMG Bonus no longer requires \[Preignition\]. After attacking, inflicts 2 stacks of \[Burn\] on the target.
+
+**Flame Flower**: Spathodea no longer requires critical attacks to inflict Burn. Instead, she inflicts 6 stacks of \[Burn\] on the target before attacking.
+
+**Epiphany 1, level 4**: **Flame Within the Fire**: For each stack of \[Burn\] on the target, this attack gains Ultimate Might +2%. For every 10 points of \[Lingering Glow\], this attack deals an additional (base Reality DMG x5%) Reality DMG.
+
+Spathodea can reserve up to 2 excess Moxie (replenished at the end of the round if applicable).
+
+## Statuses
+
+- **Preignition**: Before attacking, for each stack, inflicts 1 stack of \[Burn\] on the target (remove all after trigger).
+- **Exhilaration**: When attacking, for each stack, gain Critical Rate +15% (remove all after trigger).
+- **Preparation - Spathodea I**: At the start of the next round, generates one 1-star Precast Incantation: Little Boxer. Each round, Spathodea can only gain 1 \[Precast Incantation\] through Preparation.
+- **Preparation - Spathodea II**: At the start of the next round, generates one 2-star Precast Incantation: Little Boxer. Each round, Spathodea can only gain 1 \[Precast Incantation\] through Preparation.
+- **Preparation - Spathodea III**: At the start of the next round, generates one 3-star Precast Incantation: Little Boxer. Each round, Spathodea can only gain 1 \[Precast Incantation\] through Preparation.
+- **Burn**: Healing Taken -15% (unstackable). At the end of the round, takes (the holder's ATK x4%) Genesis DMG (stackable up to 30 times, multiple stacks of Burn is regarded as 1 \[Neg Status\], removes 50% of the stacks when triggered).
+- **Lingering Glow**: Accumulates \[Lingering Glow\] whenever an enemy is inflicted with \[Burn\] or \[Halo\]. The fewer enemies there are, the more \[Lingering Glow\] is accumulated.
+- **Bloodtithe**: Whenever allies lose 3000 HP combined, accumulate 1 point of \[Bloodtithe\]; HP lost from being attacked accumulates \[Bloodtithe\] at only 30% efficiency.
+- **Halo**: Healing Taken -25% (unstackable). At the end of the round, takes (the inflicter's ATK x4%) Genesis DMG (stackable up to 30 times, multiple stacks of Halo are regarded as 1 \[Neg Status\], removes 50% of the stacks when triggered).
+- **Precast Incantation**: A \[Precast Incantation\] is regarded as an incantation of the same name. At the end of the round, all unused \[Precast Incantation\] are removed.
 
 ## Names
 

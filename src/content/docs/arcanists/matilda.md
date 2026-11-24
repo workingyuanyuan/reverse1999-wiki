@@ -2,7 +2,7 @@
 title: "Matilda"
 description: "Matilda is a 5-star Star arcanist who deals Mental DMG and gains Critical Rate while she holds a buff."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
-caveat: "Her second Epiphany, which pairs her with Beryl, is out only on the mainland China service, and the English name of its status Deflection is not official."
+caveat: "Her second Epiphany, which pairs her with Beryl, is out only on the mainland China service."
 lastVerified: 2026-11-22
 aliases:
   - "瑪蒂爾達"
@@ -37,31 +37,37 @@ sources:
 | Psychubes recommended in game | [Addio Coda](/psychubes/addio-coda/), [Belt It Out](/psychubes/belt-it-out/), [In Their Figures](/psychubes/in-their-figures/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Matilda is one of the launch arcanists. Her Insight passives give her Critical Rate and lower the damage she takes while she has a Stats Up or Pos Status effect, her first incantation lowers the target's Critical Resist from rank 2, and her Ultimate is a single hit with extra Critical Rate. Her Euphoria adds Eureka and the Impromptu Incantation, and a second Epiphany ties her to [Beryl](/arcanists/beryl/).
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/matilda/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Work of Genius (single-target attack) | 200% Mental DMG | 250%; 1 stack of [Confusion] for 1 round | 450%; 1 stack of [Confusion] for 1 round |
-| Attention Everyone (attack on 2 enemies) | 120% Mental DMG | 180% | 300% |
+### Work of Genius
 
-Attention Everyone always has Penetration Rate +30%.
+**Rank 1**: 1-target attack. Deals 200% Mental DMG.
 
-[Confusion]: Critical Resist −25%; stacks, and each stack keeps its own duration.
+**Rank 2**: 1-target attack. Deals 250% Mental DMG. After attacking, inflicts 1 stack of \[Confusion\] on the target for 1 round.
+
+**Rank 3**: 1-target attack. Deals 450% Mental DMG. After attacking, inflicts 1 stack of \[Confusion\] on the target for 1 round.
+
+### Attention Everyone
+
+**Rank 1**: Mass attack. Deals 120% Mental DMG to 2 enemies. This attack enjoys Penetration Rate +30%.
+
+**Rank 2**: Mass attack. Deals 180% Mental DMG to 2 enemies. This attack enjoys Penetration Rate +30%.
+
+**Rank 3**: Mass attack. Deals 300% Mental DMG to 2 enemies. This attack enjoys Penetration Rate +30%.
 
 ## Ultimate: Instant of Prediction
 
-Deals 500% Mental DMG to one enemy with Critical Rate +15%.
+1-target attack. Deals 500% Mental DMG. This attack enjoys Critical Rate +15%.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Critical Rate +15% while Matilda has a Stats Up or Pos Status effect. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | DMG Taken −15% while she has a Stats Up or Pos Status effect. |
+**Insight 1 · The Proud Star**: When the caster is in \[Stats Up\] or \[Pos Status\] statuses, Critical Rate +15%.
+
+**Insight 2 · The Proud Star Ⅱ**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · The Proud Star Ⅲ**: When the caster is in \[Stats Up\] or \[Pos Status\] statuses, DMG Taken -15%.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -71,42 +77,44 @@ Deals 500% Mental DMG to one enemy with Critical Rate +15%.
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate's Critical Rate bonus becomes +23%. |
-| 2 | Work of Genius deals 220, 280 or 500% by rank. |
-| 3 | The Ultimate's Critical Rate bonus becomes +31%. |
-| 4 | Attention Everyone has Penetration Rate +40%. |
-| 5 | The Ultimate's Critical Rate bonus becomes +39%. |
+**Portrait 1**: **Instant of Prediction**'s effect changes to: this attack enjoys Critical Rate +23%.
+
+**Portrait 2**: **Work of Genius**'s effect changes to: at 1/2/3 stars, deals 220/280/500% Mental DMG.
+
+**Portrait 3**: **Instant of Prediction**'s effect changes to: this attack enjoys Critical Rate +31%.
+
+**Portrait 4**: **Attention Everyone**'s effect changes to: this attack enjoys Penetration Rate +40%.
+
+**Portrait 5**: **Instant of Prediction**'s effect changes to: this attack enjoys Critical Rate +39%.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 1. Matilda has two Epiphanies of four levels each. The first works with Eureka and the [Impromptu Incantation]. The second, out only on the mainland China service, works with Beryl and with [Halo], [Burn] and [Lingering Glow].
+**Epiphany 1, level 1**: Gain Max Eureka +5. At the start of the round, gain Eureka +4. Whenever an ally consumes Eureka, accumulate points of \[Inspiration\]. When entering battle, accumulate 3 points of \[Inspiration\].
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | Max Eureka +5, and Eureka +4 at the start of each round. Eureka the team spends turns into [Inspiration]; she enters battle with 3 points. After Work of Genius or Attention Everyone she spends 2 Eureka to give that round's Impromptu Incantation Critical Rate +15%, and Critical DMG +20% when it holds 5 or more Inspiration. |
-| 1 | 2 | In the same case, the Impromptu Incantation gains a further Critical DMG +30% when it holds 10 or more Inspiration. |
-| 1 | 3 | Her Ultimate adds 8 Inspiration and a further Critical Rate +15% to that round's Impromptu Incantation, and Critical DMG +50% when it holds 10 or more Inspiration. |
-| 1 | 4 | After her Ultimate, an Impromptu Incantation holding 10 or more Inspiration always crits. |
-| 2 | 1 | Insight I also makes Lingering Glow build whenever any enemy gets Burn or Halo, and Matilda puts 3 stacks of Halo on the target before each of her attacks. |
-| 2 | 2 | With Beryl in the team, Matilda follows Beryl's Blaze Through the Lens with a rank 1 Work of Genius. Work of Genius deals extra Mental DMG equal to 200% of its base; when the target has 5, 10, 20 or 30 stacks of Halo, all allies gain Critical Rate +25, 50, 75 or 100% for 3 rounds. |
-| 2 | 3 | Matilda follows Beryl's Nothing Unexpected with a rank 1 Attention Everyone. Attention Everyone deals extra Mental DMG equal to 200% of its base; when the main target has 5, 10, 20 or 30 stacks of Halo, Matilda gains ATK +15, 25, 50 or 80% for 3 rounds. |
-| 2 | 4 | Matilda follows Beryl's A Shimmering Night with her Ultimate. The Ultimate deals extra Mental DMG equal to 200% of its base and puts [Deflection] on the target for 3 rounds. |
+After casting **Work of Genius** or **Attention Everyone**, consume 2 Eureka to grant Critical Rate +15% to \[Impromptu Incantation\] for the round. If \[Impromptu Incantation\] has at least 5 points of \[Inspiration\], \[Impromptu Incantation\] gains an additional Critical DMG +20%.
 
-The follow-ups of levels 2 to 4 belong to her Insight III passive.
+**Epiphany 1, level 2**: After casting **Work of Genius** or **Attention Everyone** and consuming Eureka, if \[Impromptu Incantation\] has at least 10 points of Inspiration, \[Impromptu Incantation\] gains an additional Critical DMG +30%.
 
-| Status | Effect |
-| --- | --- |
-| Inspiration | Each Eureka spent adds 1 point. At the start of each round the points go at random onto basic incantations, at most 5 per card; points on cards not used that round are cleared. Casting a card that carries points adds an Impromptu Incantation at the end of the queue and passes the points to it. |
-| Impromptu Incantation | Attacks one random enemy for 200% Mental DMG plus 15% for each Inspiration point it holds; with 3, 6, 12 or 20 points it hits 1, 2, 3 or 5 more times. Its damage uses the average stats of all allies. |
-| Halo | Healing Taken −25%, which does not stack. At the end of each round, Genesis DMG based on 4% of the ATK of the unit that first applied it. Up to 30 stacks, which count as one Neg Status; half the stacks are removed each time it deals damage. |
-| Burn | Healing Taken −15%, which does not stack. At the end of each round, Genesis DMG based on 4% of the holder's ATK. Up to 30 stacks, which count as one Neg Status; half the stacks are removed each time it deals damage. |
-| Lingering Glow | A team resource that builds whenever an enemy gets Burn or Halo, faster when fewer enemies remain. It cannot be held together with Bloodtithe. |
-| Deflection | DMG Taken Reduction −30%. At the end of each round, the Halo stacks the target lost become Burn stacks equal to 200% of them, and each converted stack lowers the target's Mental DEF by 1.6% for 1 round. |
+**Epiphany 1, level 3**: After casting **Instant of Prediction**, grants 8 points of \[Inspiration\] and an additional Critical Rate +15% to \[Impromptu Incantation\] for the round. If \[Impromptu Incantation\] has at least 10 points of \[Inspiration\], \[Impromptu Incantation\] gains an additional Critical DMG +50%.
+
+**Epiphany 1, level 4**: After casting **Instant of Prediction**, if \[Impromptu Incantation\] has at least 10 points of Inspiration, \[Impromptu Incantation\] is always a critical hit.
+
+## Statuses
+
+- **Confusion**: Critical Resist -25% (stackable, each stack timed independently).
+- **Inspiration**: For every 1 Eureka consumed, accumulate 1 point of \[Inspiration\].
+
+  At the start of each round, randomly distribute Inspiration points onto basic incantations (each incantation may receive up to 5 points of Inspiration, and at the end of the round, the points of Inspiration on unused incantations are cleared).
+
+  When actively casting an incantation with \[Inspiration\] points on it, add an \[Impromptu Incantation\] to the end of the spell queue, and all Inspiration points on these casted incantations will be granted to the \[Impromptu Incantation\].
+- **Impromptu Incantation**: 1-target attack. Deals 200% Mental DMG to a random enemy and an additional (the total points of Inspiration granted to Impromptu Incantation x15%) Mental DMG. If Impromptu Incantation has at least 3/6/12/20 points of Inspiration, it gains attack instances +1/2/3/5 (Impromptu Incantation's DMG calculation is based on the average stats of all allies).
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | Matilda | 玛蒂尔达 | 瑪蒂爾達 | マチルダ | 마틸다 |
+
+## Edition differences
+
+- Matilda's Epiphany 2 is out only on the mainland China service.

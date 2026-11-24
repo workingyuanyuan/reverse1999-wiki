@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- When a Mineral carrier attacks while the team's maximum [Bloodtithe] is at least 50, it gets DMG Dealt +8/10/12/14/16% (Amplification 1 to 5).
-- Each time the carrier takes damage, it gains Critical DMG +2/2.5/3/3.5/4% at the end of the round, stacking up to 9 times.
+**Amplification 1**: If the carrier is a \[Mineral\] character and the team is at 50 points of Max \[Bloodtithe\] or above when they attack, DMG Dealt +8%.
+
+Each time the carrier takes damage, Critical DMG +2% at the end of the round, up to 9 stacks.
+
+**Amplification 2**: If the carrier is a \[Mineral\] character and the team is at 50 points of Max \[Bloodtithe\] or above when they attack, DMG Dealt +10%.
+
+Each time the carrier takes damage, Critical DMG +2.5% at the end of the round, up to 9 stacks.
+
+**Amplification 3**: If the carrier is a \[Mineral\] character and the team is at 50 points of Max \[Bloodtithe\] or above when they attack, DMG Dealt +12%.
+
+Each time the carrier takes damage, Critical DMG +3% at the end of the round, up to 9 stacks.
+
+**Amplification 4**: If the carrier is a \[Mineral\] character and the team is at 50 points of Max \[Bloodtithe\] or above when they attack, DMG Dealt +14%.
+
+Each time the carrier takes damage, Critical DMG +3.5% at the end of the round, up to 9 stacks.
+
+**Amplification 5**: If the carrier is a \[Mineral\] character and the team is at 50 points of Max \[Bloodtithe\] or above when they attack, DMG Dealt +16%.
+
+Each time the carrier takes damage, Critical DMG +4% at the end of the round, up to 9 stacks.
 
 ## Names
 

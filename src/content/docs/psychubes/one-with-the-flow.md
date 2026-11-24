@@ -39,8 +39,15 @@ sources:
 
 ## Effect
 
-- After the carrier actively casts an incantation while it has a [Force Field], it has a 24/30/36/42/48% (Amplification 1 to 5) chance to gain 1 Moxie.
-- For 3 rounds after the carrier casts its Ultimate, an ally that casts a rank 2 or rank 3 incantation gets DMG Dealt +6/7.5/9/10.5/12% or +8/10/12/14/16% respectively.
+**Amplification 1**: After the carrier actively casts an incantation, if the carrier has a \[Force Field\], there's a 24% chance to gain 1 Moxie. For 3 rounds after the carrier casts an ultimate, when an ally casts a rank 2/3 incantation, DMG Dealt +6%/8% for that ally.
+
+**Amplification 2**: After the carrier actively casts an incantation, if the carrier has a \[Force Field\], there's a 30% chance to gain 1 Moxie. For 3 rounds after the carrier casts an ultimate, when an ally casts a rank 2/3 incantation, DMG Dealt +7.5%/10% for that ally.
+
+**Amplification 3**: After the carrier actively casts an incantation, if the carrier has a \[Force Field\], there's a 36% chance to gain 1 Moxie. For 3 rounds after the carrier casts an ultimate, when an ally casts a rank 2/3 incantation, DMG Dealt +9%/12% for that ally.
+
+**Amplification 4**: After the carrier actively casts an incantation, if the carrier has a \[Force Field\], there's a 42% chance to gain 1 Moxie. For 3 rounds after the carrier casts an ultimate, when an ally casts a rank 2/3 incantation, DMG Dealt +10.5%/14% for that ally.
+
+**Amplification 5**: After the carrier actively casts an incantation, if the carrier has a \[Force Field\], there's a 48% chance to gain 1 Moxie. For 3 rounds after the carrier casts an ultimate, when an ally casts a rank 2/3 incantation, DMG Dealt +12%/16% for that ally.
 
 ## Names
 

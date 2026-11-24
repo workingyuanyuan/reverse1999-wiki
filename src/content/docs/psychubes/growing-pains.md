@@ -40,7 +40,15 @@ sources:
 
 ## Effect
 
-After a Plant carrier attacks, all allies gain Ultimate Might +2/2.5/3/3.5/4% (Amplification 1 to 5) for 3 rounds. The bonus stacks up to 4 times.
+**Amplification 1**: If the carrier is a \[Plant\] character, after attacking, grants all allies Ultimate Might +2% for 3 rounds, up to 4 stacks.
+
+**Amplification 2**: If the carrier is a \[Plant\] character, after attacking, grants all allies Ultimate Might +2.5% for 3 rounds, up to 4 stacks.
+
+**Amplification 3**: If the carrier is a \[Plant\] character, after attacking, grants all allies Ultimate Might +3% for 3 rounds, up to 4 stacks.
+
+**Amplification 4**: If the carrier is a \[Plant\] character, after attacking, grants all allies Ultimate Might +3.5% for 3 rounds, up to 4 stacks.
+
+**Amplification 5**: If the carrier is a \[Plant\] character, after attacking, grants all allies Ultimate Might +4% for 3 rounds, up to 4 stacks.
 
 ## Names
 

@@ -36,33 +36,37 @@ sources:
 | Psychubes recommended in game | [Balance, Please](/psychubes/balance-please/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Tennant pairs a single-target attack with a team shield that also cuts damage taken. Her Ultimate loads Diamond Bullets, which her next attacks spend to lower the target's Reality DEF. She casts the shield on her own when she enters battle and, from Insight 3, once when a round starts with her HP below half.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/tennant/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| A Shiny Diamond (single-target attack) | 200% Reality DMG | 300% | 500% |
-| A Bouquet of Galaxy (team shield) | [Shield] of 80% of Tennant's ATK | 120% | 200% |
+### A Shiny Diamond
 
-- **A Bouquet of Galaxy** shields all allies for 1 round; while the shield lasts, they take 20% less damage.
+**Rank 1**: 1-target attack. Deals 200% Reality DMG.
 
-[Shield]: absorbs damage while it lasts.
+**Rank 2**: 1-target attack. Deals 300% Reality DMG.
+
+**Rank 3**: 1-target attack. Deals 500% Reality DMG.
+
+### A Bouquet of Galaxy
+
+**Rank 1**: Mass buff. Gives all allies a \[Shield\] with (the caster's ATK ×80%) HP for 1 round. DMG Taken -20% while the \[Shield\] is active.
+
+**Rank 2**: Mass buff. Gives all allies a \[Shield\] with (the caster's ATK ×120%) HP for 1 round. DMG Taken -20% while the \[Shield\] is active.
+
+**Rank 3**: Mass buff. Gives all allies a \[Shield\] with (the caster's ATK ×200%) HP for 1 round. DMG Taken -20% while the \[Shield\] is active.
 
 ## Ultimate: A Sincere Heart
 
-Deals 550% Reality DMG to one enemy, then Tennant loads 2 [Diamond Bullet].
-
-[Diamond Bullet]: after an attack, the target's Reality DEF is lowered by 30% for 2 rounds; one bullet is spent each time.
+1-target attack. Deals 550% Reality DMG and then gains 2 stacks of \[Diamond Bullet\].
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | On entering battle, Tennant casts a rank 1 A Bouquet of Galaxy and loads 1 Diamond Bullet, once per battle. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | If a round starts with Tennant below 50% HP, she casts a rank 1 A Bouquet of Galaxy; this happens once. |
+**Insight 1 · Beautiful Lie**: After the caster enters battle, immediately casts 1-star \[A Bouquet of Galaxy\] and gains 1 stack of \[Diamond Bullet\] (only triggers 1 time).
+
+**Insight 2 · Beautiful Lie Ⅱ**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · Beautiful Lie Ⅲ**: If the caster starts a round with HP below 50%, immediately casts 1-star \[A Bouquet of Galaxy\] (only triggers 1 time).
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -72,24 +76,31 @@ Deals 550% Reality DMG to one enemy, then Tennant loads 2 [Diamond Bullet].
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 600%. |
-| 2 | A Shiny Diamond deals 220, 330 or 550% by rank. |
-| 3 | The Ultimate deals 650%. |
-| 4 | A Bouquet of Galaxy gives a shield of 90, 135 or 225% of her ATK by rank. |
-| 5 | The Ultimate deals 700%. |
+**Portrait 1**: **A Sincere Heart**'s effect changes to: deals 600% Reality DMG.
+
+**Portrait 2**: **A Shiny Diamond**: At Incantation rank 1/2/3, Reality DMG increased to 220/330/550%.
+
+**Portrait 3**: **A Sincere Heart**'s effect changes to: deals 650% Reality DMG.
+
+**Portrait 4**: **A Bouquet of Galaxy**'s effect changes to: at 1/2/3 stars, grants a \[Shield\] with (the caster's ATK ×90/135/225%) HP on all allies.
+
+**Portrait 5**: **A Sincere Heart** now deals 700% Reality DMG.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 1. Tennant has one Epiphany of four levels, built on Diamond Bullet.
+**Epiphany 1, level 1**: **Beautiful Lie** Insight I adjustments: After entering battle, immediately casts a rank 1 **A Bouquet of Galaxy** (triggers up to 1 time); at the start of odd-numbered rounds, gain 1 \[Diamond Bullet\] for self.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | The Insight 1 passive changes: Tennant still casts a rank 1 A Bouquet of Galaxy on entering battle, once, and she loads 1 Diamond Bullet at the start of every odd-numbered round. |
-| 1 | 2 | The Ultimate deals 40% more Reality DMG for each kind of bullet the team holds, up to 200% more. |
-| 1 | 3 | After any ally acts, if Tennant holds 2 or more Diamond Bullets, she casts a rank 1 A Shiny Diamond, at most once per round. |
-| 1 | 4 | For every 2 Diamond Bullets she spends, Tennant casts a rank 1 A Bouquet of Galaxy, at most once per round. |
+**Epiphany 1, level 2**: When casting **A Sincere Heart**, for each type of Bullet held by all allies, the attack deals an additional 40% Reality DMG, this effect can deal up to an additional 200% Reality DMG.
+
+**Epiphany 1, level 3**: After an ally takes an action, if this unit is holding at least 2 stacks of \[Diamond Bullet\], casts a rank 1 **A Shiny Diamond** (triggers up to 1 time per round).
+
+**Epiphany 1, level 4**: Whenever this unit triggers 2 \[Diamond Bullet\], immediately casts a rank 1 **A Bouquet of Galaxy** (triggers up to 1 time per round).
+
+## Statuses
+
+- **Shield**: Blocks certain DMG for a certain duration.
+- **Diamond Bullet**: After attacking, reduces the target’s Reality DEF by 30% for 2 rounds (reduced by 1 stack on trigger).
+- **A Bouquet of Galaxy**: Inflicts a Shield on all allies.
 
 ## Names
 

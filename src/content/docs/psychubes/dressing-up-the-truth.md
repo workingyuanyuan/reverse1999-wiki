@@ -32,7 +32,15 @@ sources:
 
 ## Effect
 
-When the carrier attacks a target below 50% HP, it gets DMG Dealt +20/25/30/35/40%; against a target below 30% HP, it gets another +20/25/30/35/40% on top (Amplification 1 to 5).
+**Amplification 1**: When the carrier attacks, gains DMG Dealt +20% if the target is below 50% HP; gains another DMG Dealt +20% if the target is below 30% HP.
+
+**Amplification 2**: When the carrier attacks, gains DMG Dealt +25% if the target is below 50% HP; gains another DMG Dealt +25% if the target is below 30% HP.
+
+**Amplification 3**: When the carrier attacks, gains DMG Dealt +30% if the target is below 50% HP; gains another DMG Dealt +30% if the target is below 30% HP.
+
+**Amplification 4**: When the carrier attacks, gains DMG Dealt +35% if the target is below 50% HP; gains another DMG Dealt +35% if the target is below 30% HP.
+
+**Amplification 5**: When the carrier attacks, gains DMG Dealt +40% if the target is below 50% HP; gains another DMG Dealt +40% if the target is below 30% HP.
 
 ## Names
 

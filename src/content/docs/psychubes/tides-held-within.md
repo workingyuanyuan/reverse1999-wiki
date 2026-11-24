@@ -40,8 +40,15 @@ sources:
 
 ## Effect
 
-- On entering battle, a Beast carrier gains Healing Done +12/15/18/21/24% (Amplification 1 to 5).
-- After the carrier casts its Ultimate while holding a [Force Field], all allies gain Ultimate Might +8/10/12/14/16% for 3 rounds.
+**Amplification 1**: When entering battle, if the carrier is a \[Beast\] character, gains Healing Done +12%. After the carrier casts an Ultimate, if the carrier is holding a \[Force Field\], all allies gain Ultimate Might +8% for 3 rounds.
+
+**Amplification 2**: When entering battle, if the carrier is a \[Beast\] character, gains Healing Done +15%. After the carrier casts an Ultimate, if the carrier is holding a \[Force Field\], all allies gain Ultimate Might +10% for 3 rounds.
+
+**Amplification 3**: When entering battle, if the carrier is a \[Beast\] character, gains Healing Done +18%. After the carrier casts an Ultimate, if the carrier is holding a \[Force Field\], all allies gain Ultimate Might +12% for 3 rounds.
+
+**Amplification 4**: When entering battle, if the carrier is a \[Beast\] character, gains Healing Done +21%. After the carrier casts an Ultimate, if the carrier is holding a \[Force Field\], all allies gain Ultimate Might +14% for 3 rounds.
+
+**Amplification 5**: When entering battle, if the carrier is a \[Beast\] character, gains Healing Done +24%. After the carrier casts an Ultimate, if the carrier is holding a \[Force Field\], all allies gain Ultimate Might +16% for 3 rounds.
 
 ## Names
 

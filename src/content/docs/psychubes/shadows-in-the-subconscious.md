@@ -40,8 +40,25 @@ sources:
 
 ## Effect
 
-- The carrier gets DMG Dealt +8/10/12/14/16% (Amplification 1 to 5) when attacking an enemy that has [Burn].
-- At the start of a round, if [Lingering Glow] is at 120 or more, all allies gain Critical DMG +12/15/18/21/24% for 1 round.
+**Amplification 1**: When the carrier attacks an enemy afflicted with \[Burn\], DMG Dealt +8%.
+
+At the start of the round, if there are at least 120 points of \[Lingering Glow\], grants Critical DMG +12% to all allies for 1 round.
+
+**Amplification 2**: When the carrier attacks an enemy afflicted with \[Burn\], DMG Dealt +10%.
+
+At the start of the round, if there are at least 120 points of \[Lingering Glow\], grants Critical DMG +15% to all allies for 1 round.
+
+**Amplification 3**: When the carrier attacks an enemy afflicted with \[Burn\], DMG Dealt +12%.
+
+At the start of the round, if there are at least 120 points of \[Lingering Glow\], grants Critical DMG +18% to all allies for 1 round.
+
+**Amplification 4**: When the carrier attacks an enemy afflicted with \[Burn\], DMG Dealt +14%.
+
+At the start of the round, if there are at least 120 points of \[Lingering Glow\], grants Critical DMG +21% to all allies for 1 round.
+
+**Amplification 5**: When the carrier attacks an enemy afflicted with \[Burn\], DMG Dealt +16%.
+
+At the start of the round, if there are at least 120 points of \[Lingering Glow\], grants Critical DMG +24% to all allies for 1 round.
 
 ## Names
 

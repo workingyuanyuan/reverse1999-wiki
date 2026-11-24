@@ -1,6 +1,6 @@
 ---
 title: "复乐园"
-description: "复乐园：重返未来：1999 主线，共 25 关，附剧情全文。"
+description: "复乐园：重返未来：1999 主线第 10 章，共 25 关。"
 appliesTo: "重返未来：1999，中国大陆版客户端 113.0.1422（4.1 版），简体中文文本"
 caveat: "文本是中国大陆版的简体中文；国际版落后两个版本，繁体中文等语言的部分台词措辞不同。"
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global，国际版客户端 111.0.1077：chapter.json 与 episode.json（关卡编号、游戏内时间）"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-复乐园是重返未来：1999 主线第 10TH 章，共 25 关。故事从 1991 年 3 月 30 日 12:01 开始。
-
 ## 关卡
 
 | 关卡 | 名称 | 游戏内时间 | 小径 |
@@ -49,7 +47,7 @@ sources:
 
 ## 登场的神秘学家
 
-[十四行诗](/zh-cn/arcanists/sonetto/)、[诺谛卡](/zh-cn/arcanists/nautika/)、[无线电小姐](/zh-cn/arcanists/ms-radio/)、[乌尔里希](/zh-cn/arcanists/ulrich/)、[莫莉德尔](/zh-cn/arcanists/moldir/)、[37](/zh-cn/arcanists/37/)、[无名者](/zh-cn/arcanists/ms-stranger/)、斯奈德、[6](/zh-cn/arcanists/6/)、[嚼嚼松果](/zh-cn/arcanists/buddy-fairchild/)
+[十四行诗](/zh-cn/arcanists/sonetto/)、[诺谛卡](/zh-cn/arcanists/nautika/)、[无线电小姐](/zh-cn/arcanists/ms-radio/)、[乌尔里希](/zh-cn/arcanists/ulrich/)、[莫莉德尔](/zh-cn/arcanists/moldir/)、[37](/zh-cn/arcanists/37/)、[无名者](/zh-cn/arcanists/ms-stranger/)、[斯奈德](/zh-cn/arcanists/schneider/)、[6](/zh-cn/arcanists/6/)、[嚼嚼松果](/zh-cn/arcanists/buddy-fairchild/)
 
 ## 名称
 

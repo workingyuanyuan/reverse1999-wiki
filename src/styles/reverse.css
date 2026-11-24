@@ -363,6 +363,13 @@ mobile-starlight-toc .toggle {
 	padding-top: 1.1rem;
 	border-top: 1px solid var(--rv-line);
 }
+/* A page with no answer line (an arcanist's profile) opens on its first section: the title's
+   own rule is the line above it. */
+.sl-markdown-content > .agent-note + .sl-heading-wrapper.level-h2 {
+	margin-top: 0;
+	padding-top: 0;
+	border-top: 0;
+}
 .sl-markdown-content :is(h2, h3, h4) {
 	font-family: var(--rv-serif);
 	font-weight: 600;
@@ -568,6 +575,22 @@ starlight-toc a[aria-current='true'] {
 	body::after {
 		will-change: transform;
 		animation: rv-rise-drops 90s linear infinite;
+	}
+	/* Schneider (arcanists/schneider/ and her profile, every language) is in the tables of both
+	   clients but was never playable; in the main story the Storm comes for her in 2ND-15. On her
+	   pages the margin rain is the Storm: the streaks fall four times as dense (a 110 x 130 px
+	   tile, so the 260 px rise is still a whole number of tiles), brighter, and rise in 1.3 s
+	   instead of 4 s; the drops in 30 s. Still only in the margins, and only with motion allowed. */
+	:root:has(link[rel='canonical'][href*='/arcanists/schneider/']) body::before {
+		--rv-rain: rgb(190 214 220 / 0.9);
+		background-size: 110px 130px;
+		animation-duration: 1.3s;
+	}
+	:root[data-theme='light']:has(link[rel='canonical'][href*='/arcanists/schneider/']) body::before {
+		--rv-rain: rgb(69 90 98 / 0.3);
+	}
+	:root:has(link[rel='canonical'][href*='/arcanists/schneider/']) body::after {
+		animation-duration: 30s;
 	}
 	/* Between pages the header and the sidebar stay put; only the page changes. */
 	@view-transition {

@@ -40,7 +40,15 @@ sources:
 
 ## Effect
 
-At the start of each round, the carrier gains Healing Done +3%, stacking up to 4/5/6/7/8 times (Amplification 1 to 5).
+**Amplification 1**: When a round begins, Healing Done +3% for the carrier. Stacks up to 4 times.
+
+**Amplification 2**: When a round begins, Healing Done +3% for the carrier. Stacks up to 5 times.
+
+**Amplification 3**: When a round begins, Healing Done +3% for the carrier. Stacks up to 6 times.
+
+**Amplification 4**: When a round begins, Healing Done +3% for the carrier. Stacks up to 7 times.
+
+**Amplification 5**: When a round begins, Healing Done +3% for the carrier. Stacks up to 8 times.
 
 ## Names
 

@@ -36,33 +36,35 @@ sources:
 | Psychubes recommended in game | [Long Night Talk](/psychubes/long-night-talk/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Sputnik hits harder while her HP stays high, and her second incantation puts her in a counter stance that costs any attacker 1 Moxie. Her Ultimate disarms and silences one target for 2 rounds, and her Insight 1 passive cuts the damage she takes while the counter is up.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/sputnik/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Revolving Momentum (single-target attack) | 160% Mental DMG; +60% if her HP is above 50% | 240%; +90% | 400%; +150% |
-| Silent Observation (self counter) | attacker Moxie −1; 2 rounds | attacker Moxie −1; 3 rounds | attacker Moxie −1, Sputnik Moxie +1; 3 rounds |
+### Revolving Momentum
 
-Silent Observation's counter triggers each time Sputnik is attacked while it lasts.
+**Rank 1**: 1-target attack. Deals 160% Mental DMG. If the user's HP is above 50%, this attack deals an additional 60% Mental DMG.
 
-[Counter]: an ongoing state whose effect triggers when the holder is attacked.
+**Rank 2**: 1-target attack. Deals 240% Mental DMG. If the user's HP is above 50%, this attack deals an additional 90% Mental DMG.
+
+**Rank 3**: 1-target attack. Deals 400% Mental DMG. If the user's HP is above 50%, this attack deals an additional 150% Mental DMG.
+
+### Silent Observation
+
+**Rank 1**: Self counter for 2 rounds. When the caster is attacked, Moxie -1 for the attacker.
+
+**Rank 2**: Self counter for 3 rounds. When the caster is attacked, Moxie -1 for the attacker.
+
+**Rank 3**: Self counter for 3 rounds. When the caster is attacked, Moxie -1 for the attacker and Moxie +1 for the caster.
 
 ## Ultimate: NDA Keeper
 
-Deals 350% Mental DMG to one enemy and inflicts [Disarm] and [Silence] on it for 2 rounds.
-
-- [Disarm]: the target cannot cast attack incantations.
-- [Silence]: the target cannot cast buff, debuff, heal or counter incantations.
+1-target attack. Deals 350% Mental DMG. Inflicts \[Disarm\] and \[Silence\] for 2 rounds on the target hit.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | DMG Taken −30% while Sputnik is in Counter. |
-| 2 | DMG Dealt +8% on entering battle. |
+**Insight 1 · Returning Home**: When the caster is in \[Counter\], DMG Taken -30%.
+
+**Insight 2 · Returning Home Ⅱ**: DMG Dealt +8% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -71,13 +73,21 @@ Deals 350% Mental DMG to one enemy and inflicts [Disarm] and [Silence] on it for
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 400%. |
-| 2 | Revolving Momentum's extra damage needs HP above 40%. |
-| 3 | The Ultimate deals 450%. |
-| 4 | Revolving Momentum's extra damage needs HP above 30%. |
-| 5 | The Ultimate deals 500%. |
+**Portrait 1**: **NDA Keeper**: Mental DMG increased to 400%.
+
+**Portrait 2**: **Revolving Momentum**'s effect changes to: additionally deals Mental DMG when the caster's HP is above 40%.
+
+**Portrait 3**: **NDA Keeper**: Mental DMG increased to 450%.
+
+**Portrait 4**: **Revolving Momentum**'s effect changes to: additionally deals Mental DMG when the caster's HP is above 30%.
+
+**Portrait 5**: **NDA Keeper**: Mental DMG increased to 500%.
+
+## Statuses
+
+- **Disarm**: Cannot cast Attack-type incantations.
+- **Silence**: Cannot cast Buff, Debuff, Heal, or Counter-type incantations.
+- **Counter**: Grants continuous Counter. Effect is triggered When the caster is attacked.
 
 ## Names
 

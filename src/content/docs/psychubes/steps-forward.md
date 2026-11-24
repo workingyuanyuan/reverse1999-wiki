@@ -40,9 +40,15 @@ sources:
 
 ## Effect
 
-- An Intellect carrier gains Critical Rate +6%.
-- With 2 or more kinds of [Special] status, the carrier gets Incantation Might +6/9/12/15/18% (Amplification 1 to 5) when attacking.
-- If it also has a [Force Field], that bonus becomes Incantation Might +12/15/18/21/24% instead, and it gets an extra Critical Rate +3/4.5/6/7.5/9% when attacking.
+**Amplification 1**: If the carrier's afflatus is \[Intellect\], Critical Rate is increased by 6%. If they hold 2 or more types of \[Special\] effects, Incantation Might is increased by 6% when attacking. In addition, if the carrier also has \[Force Field\], Incantation Might is instead increased by 12% when attacking, and Critical Rate is increased by a further 3% when attacking.
+
+**Amplification 2**: If the carrier's afflatus is \[Intellect\], Critical Rate is increased by 6%.If they hold 2 or more types of \[Special\] effects, Incantation Might is increased by 9% when attacking. In addition, if the carrier also has \[Force Field\], Incantation Might is instead increased by 15% when attacking, and Critical Rate is increased by a further 4.5% when attacking.
+
+**Amplification 3**: If the carrier's afflatus is \[Intellect\], Critical Rate is increased by 6%.If they hold 2 or more types of \[Special\] effects, Incantation Might is increased by 12% when attacking. In addition, if the carrier also has \[Force Field\], Incantation Might is instead increased by 18% when attacking, and Critical Rate is increased by a further 6% when attacking.
+
+**Amplification 4**: If the carrier's afflatus is \[Intellect\], Critical Rate is increased by 6%.If they hold 2 or more types of \[Special\] effects, Incantation Might is increased by 15% when attacking. In addition, if the carrier also has \[Force Field\], Incantation Might is instead increased by 21% when attacking, and Critical Rate is increased by a further 7.5% when attacking.
+
+**Amplification 5**: If the carrier's afflatus is \[Intellect\], Critical Rate is increased by 6%.If they hold 2 or more types of \[Special\] effects, Incantation Might is increased by 18% when attacking. In addition, if the carrier also has \[Force Field\], Incantation Might is instead increased by 24% when attacking, and Critical Rate is increased by a further 9% when attacking.
 
 ## Names
 

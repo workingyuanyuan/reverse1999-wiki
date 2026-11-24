@@ -40,7 +40,15 @@ sources:
 
 ## Effect
 
-After the carrier casts a mass Ultimate, every ally recovers HP equal to 32/40/48/56/64% of the carrier's ATK (Amplification 1 to 5).
+**Amplification 1**: After the carrier casts the mass Ultimate, HP +(the carrier's ATK x32%) for all allies.
+
+**Amplification 2**: After the carrier casts the mass Ultimate, HP +(the carrier's ATK x40%) for all allies.
+
+**Amplification 3**: After the carrier casts the mass Ultimate, HP +(the carrier's ATK x48%) for all allies.
+
+**Amplification 4**: After the carrier casts the mass Ultimate, HP +(the carrier's ATK x56%) for all allies.
+
+**Amplification 5**: After the carrier casts the mass Ultimate, HP +(the carrier's ATK x64%) for all allies.
 
 ## Names
 

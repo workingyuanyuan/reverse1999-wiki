@@ -1,6 +1,6 @@
 ---
 title: "Silent and Adoring"
-description: "Silent and Adoring is a 6-star ATK Psychube that raises damage and Genesis DMG on extra actions."
+description: "Silent and Adoring is a 6-star ATK Psychube that raises damage dealt and Genesis DMG."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
 caveat: "Both bonuses apply only to actions the carrier takes as extra actions."
 lastVerified: 2026-11-23
@@ -40,8 +40,15 @@ sources:
 
 ## Effect
 
-- The carrier's extra actions get DMG Dealt +12%.
-- Genesis DMG dealt through the carrier's extra actions gets +10/20/30/40/50% (Amplification 1 to 5).
+**Amplification 1**: When the carrier takes an extra action, Damage Dealt +12%. Genesis DMG through extra actions +10%.
+
+**Amplification 2**: When the carrier takes an extra action, Damage Dealt +12%. Genesis DMG through extra actions +20%.
+
+**Amplification 3**: When the carrier takes an extra action, Damage Dealt +12%. Genesis DMG through extra actions +30%.
+
+**Amplification 4**: When the carrier takes an extra action, Damage Dealt +12%. Genesis DMG through extra actions +40%.
+
+**Amplification 5**: When the carrier takes an extra action, Damage Dealt +12%. Genesis DMG through extra actions +50%.
 
 ## Names
 

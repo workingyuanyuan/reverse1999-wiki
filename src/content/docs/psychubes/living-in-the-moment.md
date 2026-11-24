@@ -30,11 +30,6 @@ sources:
 | Extra stat at max level | Critical Rate +13% |
 | Global client | not yet, mainland China client only |
 
-## Effect
-
-- When the carrier attacks, the target takes 0.6/0.8/0.8/1/1% more damage (Amplification 1 to 5) for each stack of [Halo] on it.
-- At the start of a round, if [Lingering Glow] is at 120 or more, all allies gain Critical DMG +8/8/13/13/18% for 1 round.
-
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |

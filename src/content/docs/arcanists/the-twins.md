@@ -37,52 +37,61 @@ sources:
 | Psychubes recommended in game | [The Art of Atoms](/psychubes/the-art-of-atoms/), [The Dance of Science](/psychubes/the-dance-of-science/) |
 | Mainland release | 2026-07-23 |
 | Global release | 2026-07-23 |
-
-The Twins fight through a [Conduit] instead of incantation cards. The team plays Energy cards to gather Mineral and Star Energy; at the end of the AP Area the Conduit spends it on the incantations of the set chosen, Left's or Right's, and each attack counts only as the Afflatus of the incantation cast. Their Ultimate spends all Mineral and Star Energy at once and grows stronger at 6, 9 and 12 Energy spent.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/the-twins/profile/) |
 
 ## Incantations
 
-The Conduit holds two sets of incantations, a Mineral set and a Star set; the Twins switch between them.
+### Atomic Fusion
 
-| Incantation | Set | Effect |
-| --- | --- | --- |
-| Atomic Fusion (self buff, Interval) | Mineral | Mineral Energy +4 at once |
-| Polymeric Ray (mass attack) | Mineral | 540% Reality DMG to all enemies; +90% for each Mineral Energy that all Conduits spent this round, +180% each once 6 or more were spent |
-| Extreme Overclocking (self buff, Interval) | Star | Critical Rate +20% and Critical DMG +40% for 1 round |
-| Balancé Across the Stars (mass attack) | Star | 270% Reality DMG to all enemies; +45% for each attack this Conduit made this round, +90% each once it made 4 or more |
+**Rank 1**: \[Interval\]
 
-- **Polymeric Ray** counts only as a Mineral attack and **Balancé Across the Stars** only as a Star attack, for Afflatus advantage.
-- [Interval]: once the Conduit casts the incantation, it cannot cast it again in the same round.
+Self buff. Mineral Energy +4.
+
+**Rank 2 · Polymeric Ray**: Mass attack. Deals 540% Reality DMG to all enemies. This attack only counts as a Mineral Afflatus attack. When attacking, for each Mineral Energy consumed by all allied \[Conduit\] this round, deals an additional 90% Reality DMG; if at least 6 Mineral Energy has been consumed this round, this effect increases to 180% Reality DMG for each Mineral Energy consumed.
+
+**Rank 3 · Polymeric Ray**: Mass attack. Deals 540% Reality DMG to all enemies. This attack only counts as a Mineral Afflatus attack. When attacking, for each Mineral Energy consumed by all allied \[Conduit\] this round, deals an additional 90% Reality DMG; if at least 6 Mineral Energy has been consumed this round, this effect increases to 180% Reality DMG for each Mineral Energy consumed.
+
+### Extreme Overclocking
+
+**Rank 1**: \[Interval\]
+
+Self buff. Gains Critical Rate +20% and Critical DMG +40% for 1 round.
+
+**Rank 2 · Balancé Across the Stars**: Mass attack. Deals 270% Reality DMG to all enemies. This attack only counts as a Star Afflatus attack. When attacking, for each time this \[Conduit\] has attacked this round, deals an additional 45% Reality DMG; if this \[Conduit\] has attacked at least 4 times this round, this effect increases to 90% Reality DMG for each time the \[Conduit\] has attacked.
+
+**Rank 3 · Balancé Across the Stars**: Mass attack. Deals 270% Reality DMG to all enemies. This attack only counts as a Star Afflatus attack. When attacking, for each time this \[Conduit\] has attacked this round, deals an additional 45% Reality DMG; if this \[Conduit\] has attacked at least 4 times this round, this effect increases to 90% Reality DMG for each time the \[Conduit\] has attacked.
 
 ## Ultimate: Technological Breakthrough
 
-Deals 2600% Reality DMG to all enemies and counts as both a Mineral and a Star attack. It spends all Mineral and Star Energy and adds 260% Reality DMG for each Energy spent. Spending more opens further steps, each adding 1300% Reality DMG:
+Mass attack. Deals 2600% Reality DMG to all enemies. This attack counts as both a Mineral and a Star Afflatus attack.
 
-| Energy spent | Bonus |
-| --- | --- |
-| 6 or more | +1300% Reality DMG; Critical Rate +100% for this attack |
-| 9 or more | another +1300%; Penetration Rate +70% for this attack |
-| 12 or more | another +1300%; 100% of Critical Rate beyond the cap becomes Critical DMG |
+When cast, consumes all Mineral and Star Energy. For each Energy consumed, this attack deals an additional 260% Reality DMG; if at least 6/9/12 Energy is consumed, this attack gains the following enhancements:
 
-## Energy cards
+When at least 6 Energy is consumed: This attack deals an additional 1300% Reality DMG and gains Critical Rate +100%.
 
-| Card | Effect |
-| --- | --- |
-| Mineral Energy I | Mineral Energy +1 |
-| Star Energy I | Star Energy +1 |
-| Mineral Energy II | Mineral Energy +2 |
-| Star Energy II | Star Energy +2 |
-| Efficient Conversion | Mineral Energy +1; Conduit Might +30% when Polymeric Ray is cast this round |
-| Pulse Amplification | Star Energy +1; Conduit Might +30% when Balancé Across the Stars is cast this round |
+When at least 9 Energy is consumed: This attack deals an additional 1300% Reality DMG and gains Penetration Rate +70%.
+
+When at least 12 Energy is consumed: This attack deals an additional 1300% Reality DMG and converts excess Critical Rate into Critical DMG at a 100% rate.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 0 (Precognition) | No ordinary incantations or Ultimate; casts through the Conduit with Energy, and Harmonization replaces Moxie. AP +1, Incantation Draw Limit +2, can equip 2 of their exclusive Psychubes, and has more kinds of Energy cards. An enemy attacking them with Afflatus advantage has its Stronger Afflatus DMG Multiplier cut by 30%. |
-| 1 | At the start of a round with full Harmonization, adds 1 copy of a starting Energy card as a Precast Incantation, at most once every 2 rounds. When Polymeric Ray or Balancé Across the Stars brings an enemy's Afflatus Guard to 0, the Twins gain 1 Mineral or Star Energy at the start of the next round, at most once a round each. |
-| 2 | Critical Rate +10% on entering battle. |
-| 3 | Harmonization +70 on entering battle, and +1 more Harmonization for each Energy the Conduit spends. |
+**Insight 0 · Precognition**: Does not gain basic incantations or Ultimates. Casts incantations by activating a \[Conduit\] with Energy instead. Replaces Moxie with Harmonization.
+
+The Twins' \[Conduit\] contains 2 sets of incantations and can switch between Left's and Right's incantations.
+
+The Twins have AP +1 and Incantation Draw Limit +2, can equip 2 of their exclusive Psychubes, and possess more types of Energy incantations.
+
+When the Twins cast different incantations, they count as different Afflatuses. When attacked by a Stronger Afflatus, the enemy's Stronger Afflatus DMG Multiplier -30%.
+
+**Insight 1 · Blesna and the Teardrop**: At the start of the round, if the Twins' Harmonization is full, generates 1 Precast Incantation duplicate of an initial Energy incantation (triggers up to 1 time every 2 rounds).
+
+After \[Polymeric Ray\] reduces an enemy's Afflatus Guard to 0, gains Mineral Energy +1 at the start of the next round (triggers up to 1 time per round).
+
+After \[Balancé Across the Stars\] reduces an enemy's Afflatus Guard to 0, gains Star Energy +1 at the start of the next round (triggers up to 1 time per round).
+
+**Insight 2 · Blesna and the Teardrop II**: Critical Rate +10% when entering battle.
+
+**Insight 3 · Blesna and the Teardrop III**: When entering battle, the Twins gain Harmonization +70. Whenever the Twins activate their \[Conduit\], for each Energy consumed, they additionally gain Harmonization +1.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -92,13 +101,36 @@ Deals 2600% Reality DMG to all enemies and counts as both a Mineral and a Star a
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | One Mineral Energy I and one Star Energy I card in each set give 2 Energy; the Ultimate deals 4160%, adds 416% per Energy spent and 2080% at each of the 6, 9 and 12 steps. |
-| 2 | One Energy I card in each set gives 2 and one Energy II card gives 3; Polymeric Ray deals 702% with +117% or +234% per Mineral Energy; Balancé Across the Stars deals 351% with +58.5% or +117% per attack; Atomic Fusion, Polymeric Ray, Extreme Overclocking and Balancé Across the Stars give Harmonization +20, +10, +20 and +6; Harmonization on entering battle becomes +100, and +2 per Energy spent. |
-| 3 | Polymeric Ray deals 864% with +144% or +288% per Mineral Energy; Balancé Across the Stars deals 432% with +72% or +144% per attack. |
-| 4 | Atomic Fusion gives Mineral Energy +6; Extreme Overclocking gives Critical Rate +30% and Critical DMG +60%. |
-| 5 | One Mineral Energy II and one Star Energy II card in each set give 3 Energy; Efficient Conversion and Pulse Amplification give 2 Energy and Conduit Might +50%; the Ultimate's steps give Critical Rate +150%, Penetration Rate +100% and a 120% conversion of excess Critical Rate. |
+**Portrait 1**: **Precognition**: 1 copy of \[Mineral Energy I\]/\[Star Energy I\] in each incantation set now grants Mineral/Star Energy +2. **Technological Breakthrough** now deals 4160% Reality DMG to all enemies and an additional 416% Reality DMG for each Energy consumed. When at least 6/9/12 Energy is consumed, **Technological Breakthrough** now deals an additional 2080%/2080%/2080% Reality DMG.
+
+**Portrait 2**: **Precognition**: 1 copy of \[Mineral Energy I\]/\[Star Energy I\] in each incantation set now grants Mineral/Star Energy +2 and 1 copy of \[Mineral Energy II\]/\[Star Energy II\] in each incantation set now grants Mineral/Star Energy +3.
+
+**Polymeric Ray** now deals 702% Reality DMG to all enemies and an additional 117%/234% Reality DMG for each Mineral Energy consumed.
+
+**Balancé Across the Stars** now deals 351% Reality DMG to all enemies and an additional 58.5%/117% Reality DMG for each time the Conduit has attacked this round.
+
+**Atomic Fusion**/**Polymeric Ray**/**Extreme Overclocking**/**Balancé Across the Stars** now grant Harmonization +20/10/20/6.
+
+**Precognition**: When entering battle, now gains Harmonization +100. For each Energy consumed, now additionally gains Harmonization +2.
+
+**Portrait 3**: **Polymeric Ray** now deals 864% Reality DMG to all enemies and an additional 144%/288% Reality DMG for each Mineral Energy consumed. **Balancé Across the Stars** now deals 432% Reality DMG to all enemies and an additional 72%/144% Reality DMG for each time the Conduit has attacked this round.
+
+**Portrait 4**: **Atomic Fusion** now grants Mineral Energy +6.
+
+**Extreme Overclocking** now grants Critical Rate +30% and Critical DMG +60%.
+
+**Portrait 5**: **Precognition**: 1 copy of \[Mineral Energy II\]/\[Star Energy II\] in each incantation set now grants Mineral/Star Energy +3. \[Efficient Conversion\] now grants Mineral Energy +2 and Conduit Might +50%. \[Pulse Amplification\] now grants Star Energy +2 and Conduit Might +50%. When at least 6/9/12 Energy is consumed, **Technological Breakthrough** now gains Critical Rate +150%/Penetration Rate +100%/excess Critical Rate to Critical DMG conversion rate +120%.
+
+## Statuses
+
+- **Interval**: After a Conduit casts this incantation, it cannot cast this incantation again this round.
+- **Conduit**: Use Energy to power Conduits. Conduits activate at the end of the AP Area and repeatedly cast incantations by consuming Energy.
+- **Mineral Energy I**: Mineral Energy +1.
+- **Star Energy I**: Star Energy +1.
+- **Mineral Energy II**: Mineral Energy +2.
+- **Star Energy II**: Star Energy +2.
+- **Efficient Conversion**: Mineral Energy +1. When casting \[Polymeric Ray\] this round, Conduit Might +30%.
+- **Pulse Amplification**: Star Energy +1. When casting \[Balancé Across the Stars\] this round, Conduit Might +30%.
 
 ## Names
 

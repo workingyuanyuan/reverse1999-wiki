@@ -37,30 +37,35 @@ sources:
 | Psychubes recommended in game | [Brave New World](/psychubes/brave-new-world/), [Hopscotch](/psychubes/hopscotch/), [Her Second Life](/psychubes/her-second-life/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Nick Bottom is one of the launch 4-star arcanists. His second incantation raises one ally's Reality DEF and Mental DEF and cuts the damage it takes, and his Ultimate trades almost all of his own HP for a cleanse, a Shield and [Summer Dream] on one ally. When he leaves the battle, he heals the ally with the lowest HP percentage.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/nick-bottom/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Wild Rose (single-target attack) | 200% Mental DMG | 250%; target Moxie −1 | 400%; target Moxie −2 |
-| Midsummer Vine (single-ally buff) | Reality DEF and Mental DEF +25%, DMG Taken −25%; 2 rounds | +30%, −30%; 2 rounds | +35%, −35%; 3 rounds |
+### Wild Rose
+
+**Rank 1**: 1-target attack. Deals 200% Mental DMG.
+
+**Rank 2**: 1-target attack. Deals 250% Mental DMG. Inflicts Moxie -1 on the target hit.
+
+**Rank 3**: 1-target attack. Deals 400% Mental DMG. Inflicts Moxie -2 on the target hit.
+
+### Midsummer Vine
+
+**Rank 1**: 1-target buff. Grants Reality DEF and Mental DEF +25% and DMG Taken -25% to the target for 2 rounds.
+
+**Rank 2**: 1-target buff. Grants Reality DEF and Mental DEF +30% and DMG Taken -30% to the target for 2 rounds.
+
+**Rank 3**: 1-target buff. Grants Reality DEF and Mental DEF +35% and DMG Taken -35% to the target for 3 rounds.
 
 ## Ultimate: Forest Eulogy
 
-Nick Bottom loses 99% of his current HP and removes Stats Down, Neg Status and Control effects from one ally. That ally gains a [Shield] equal to 100% of the HP he lost and enters [Summer Dream], for 3 rounds.
-
-[Summer Dream]: the holder is immune to Stats Down, Neg Status and Control effects, has DMG Taken Reduction +20%, and gains 1 Moxie at the start of each round.
-
-[Control]: effects that stop a character from acting: Daze, Petrify, Nightmare, Freeze, Disarm, Silence and Seal.
+1-target buff. Loses (Current HP x99%) HP, dispels all \[Stats Down\], \[Neg Status\], and \[Control\] effects from an ally, gains a Shield with (HP Lost in this Action x100%) HP, and enters the \[Summer Dream\] status. Lasts 3 rounds.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | When Nick Bottom leaves the battle, the other ally with the lowest HP percentage recovers HP equal to 50% of Nick Bottom's Max HP (the global English text reads 50% of that ally's Max HP). |
-| 2 | Reality DEF and Mental DEF +10% on entering battle. |
+**Insight 1 · In the Dust**: When the caster dies, HP +(the target's Max HP ×50%) for the ally with the lowest HP percentage.
+
+**Insight 2 · In the Dust Ⅱ**: Reality DEF and Mental DEF +10% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -69,16 +74,28 @@ Nick Bottom loses 99% of his current HP and removes Stats Down, Neg Status and C
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate's Shield becomes 125% of the HP lost. |
-| 2 | Wild Rose deals 220, 280 or 450% by rank. |
-| 3 | Midsummer Vine gives Reality DEF, Mental DEF and DMG Taken Reduction +30, 35 or 40% by rank. |
-| 4 | The Ultimate's Shield becomes 150% of the HP lost. |
-| 5 | The Ultimate's Shield becomes 175% of the HP lost. |
+**Portrait 1**: **Forest Eulogy**'s effect changes to: grants a \[Shield\] with (the user's Missing HP x125%) HP for all allies.
+
+**Portrait 2**: **Wild Rose**'s effect changes to: at 1/2/3 stars, deals 220/280/450% Mental DMG.
+
+**Portrait 3**: **Midsummer Vine**'s effect changes to: at 1/2/3 stars, Reality DEF, Mental DEF, and DMG Taken Reduction +30/35/40%.
+
+**Portrait 4**: **Forest Eulogy**'s effect changes to: grants a \[Shield\] with (the user's Missing HP x150%) HP for all allies.
+
+**Portrait 5**: **Forest Eulogy**'s effect changes to: grants a \[Shield\] with (the user's Missing HP x175%) HP for all allies.
+
+## Statuses
+
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
+- **Summer Dream**: Immune to \[Stats Down\], \[Neg Status\], and \[Control\] statuses. DMG Taken Reduction +20%, Moxie +1 when a round starts.
+- **Shield**: Blocks certain DMG for a certain duration.
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | Nick Bottom | 尼克·波顿 | 尼克·波頓 | ニック・ボトム | 닉 보텀 |
+
+## Edition differences
+
+- Insight 1: when Nick Bottom leaves the battle, the Chinese texts heal the ally with 50% of Nick Bottom's Max HP; the global client's English text uses 50% of that ally's Max HP.

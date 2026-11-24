@@ -1,6 +1,6 @@
 ---
 title: "復樂園"
-description: "復樂園：重返未來：1999 主線，共 25 關，附劇情全文。"
+description: "復樂園：重返未來：1999 主線第 10 章，共 25 關。"
 appliesTo: "重返未來：1999，國際版用戶端 111.0.1077（3.9 版），繁體中文文本"
 caveat: "文本是國際版的繁體中文；中國大陸版領先兩個版本，部分台詞措辭不同。"
 lastVerified: 2026-11-23
@@ -15,8 +15,6 @@ sources:
   - title: "re1999-data-global，國際版用戶端 111.0.1077：chapter.json 與 episode.json（關卡編號、遊戲內時間）"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/blob/7308a19ec644c60fd539034c9815cfaa23237dda/data/json/episode.json
 ---
-復樂園是重返未來：1999 主線第 10TH 章，共 25 關。故事從 1991 年 3 月 30 日 12:01 開始。
-
 ## 關卡
 
 | 關卡 | 名稱 | 遊戲內時間 | 小徑 |
@@ -49,7 +47,7 @@ sources:
 
 ## 登場的神秘學家
 
-[十四行詩](/zh-tw/arcanists/sonetto/)、[諾諦卡](/zh-tw/arcanists/nautika/)、[無線電小姐](/zh-tw/arcanists/ms-radio/)、[烏爾里希](/zh-tw/arcanists/ulrich/)、[莫莉德爾](/zh-tw/arcanists/moldir/)、[37](/zh-tw/arcanists/37/)、[無名者](/zh-tw/arcanists/ms-stranger/)、斯奈德、[6](/zh-tw/arcanists/6/)、[嚼嚼松果](/zh-tw/arcanists/buddy-fairchild/)
+[十四行詩](/zh-tw/arcanists/sonetto/)、[諾諦卡](/zh-tw/arcanists/nautika/)、[無線電小姐](/zh-tw/arcanists/ms-radio/)、[烏爾里希](/zh-tw/arcanists/ulrich/)、[莫莉德爾](/zh-tw/arcanists/moldir/)、[37](/zh-tw/arcanists/37/)、[無名者](/zh-tw/arcanists/ms-stranger/)、[斯奈德](/zh-tw/arcanists/schneider/)、[6](/zh-tw/arcanists/6/)、[嚼嚼松果](/zh-tw/arcanists/buddy-fairchild/)
 
 ## 名稱
 

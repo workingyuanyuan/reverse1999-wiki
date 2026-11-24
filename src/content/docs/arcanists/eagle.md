@@ -37,31 +37,35 @@ sources:
 | Psychubes recommended in game | [Going Along Alone](/psychubes/going-along-alone/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Eagle is one of the launch arcanists. On entering battle she puts [Sense Weakness] on the enemy with the highest ATK, lowering its Reality DEF and Critical DEF. Her single-target incantation hits harder and gains Leech Rate against a debuffed enemy, and her Ultimate adds Critical Rate and turns any excess into Critical DMG.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/eagle/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Old Pocket Watch (single-target attack) | 180% Reality DMG; +20% on a debuffed target | 270%; +30% | 450%; +50% |
-| Finger Lens (attack on 2 enemies) | 120% Reality DMG | 180% | 300% |
+### Old Pocket Watch
 
-- A debuffed target is one with a Stats Down, Neg Status or Control effect. Against it, Old Pocket Watch also gains Leech Rate +10% at every rank.
-- Finger Lens always has Penetration Rate +30%.
+**Rank 1**: 1-target attack. Deals 180% Reality DMG. If the target is in \[Stats Down\], \[Neg Status\], or \[Control\] statuses, this attack enjoys Leech Rate +10% and deals 20% more Reality DMG.
+
+**Rank 2**: 1-target attack. Deals 270% Reality DMG. If the target is in \[Stats Down\], \[Neg Status\], or \[Control\] statuses, this attack enjoys Leech Rate +10% and deals 30% more Reality DMG.
+
+**Rank 3**: 1-target attack. Deals 450% Reality DMG. If the target is in \[Stats Down\], \[Neg Status\], or \[Control\] statuses, this attack enjoys Leech Rate +10% and deals 50% more Reality DMG.
+
+### Finger Lens
+
+**Rank 1**: Mass attack. Deals 120% Reality DMG to 2 enemies. This attack gains Penetration Rate +30%.
+
+**Rank 2**: Mass attack. Deals 180% Reality DMG to 2 enemies. This attack gains Penetration Rate +30%.
+
+**Rank 3**: Mass attack. Deals 300% Reality DMG to 2 enemies. This attack gains Penetration Rate +30%.
 
 ## Ultimate: Between Superficiality and Reality
 
-Deals 400% Reality DMG to one enemy with Critical Rate +40%; any Critical Rate in excess becomes Critical DMG.
-
-[Sense Weakness]: Reality DEF −20% and Critical DEF −20%.
+1-target attack. Deals 400% Reality DMG. This attack enjoys Critical Rate +40%. Excess Critical Rate is converted to Critical DMG.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | On entering battle, the enemy with the highest ATK gets [Sense Weakness]; it is dispelled when Eagle leaves the field. |
-| 2 | Critical DMG +15% on entering battle. |
+**Insight 1 · Trainee**: When entering battle, inflicts \[Sense Weakness\] on the enemy with the highest ATK. When this unit dies, dispels \[Sense Weakness\].
+
+**Insight 2 · Trainee Ⅱ**: Critical DMG +15% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -70,13 +74,20 @@ Deals 400% Reality DMG to one enemy with Critical Rate +40%; any Critical Rate i
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate's Critical Rate bonus becomes +70%. |
-| 2 | Old Pocket Watch deals +40, +60 or +100% on a debuffed target by rank. |
-| 3 | Finger Lens has Penetration Rate +40%. |
-| 4 | The Ultimate's Critical Rate bonus becomes +100%. |
-| 5 | Old Pocket Watch's Leech Rate bonus on a debuffed target becomes +20%. |
+**Portrait 1**: **Between Superficiality and Reality**'s effect changes to: Critical Rate +70%.
+
+**Portrait 2**: **Old Pocket Watch**'s effect changes to: at 1/2/3 stars, additionally deals 40/60/100% Reality DMG to enemies in \[Stats Down\], \[Neg Status\] or \[Control\].
+
+**Portrait 3**: **Finger Lens**'s effect changes to: Penetration Rate +40%.
+
+**Portrait 4**: **Between Superficiality and Reality**'s effect changes to: Critical Rate +100%.
+
+**Portrait 5**: **Old Pocket Watch**'s effect changes to: this attack enjoys +20% Leech Rate against enemies in \[Stats Down\], \[Neg Status\] or \[Control\].
+
+## Statuses
+
+- **Control**: Statuses that limit characters' actions: Daze, Petrify, Nightmare, Freeze, Disarm, Silence, Seal.
+- **Sense Weakness**: Reality DEF -20% and Critical DEF -20%.
 
 ## Names
 

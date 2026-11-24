@@ -39,7 +39,15 @@ sources:
 
 ## Effect
 
-When a Beast carrier deploys an [Array], the Array also gives all allies Ultimate Might +10/12/14/16/18% (Amplification 1 to 5). The bonus is removed when the Array ends or is replaced.
+**Amplification 1**: If the carrier is a \[Beast\] character, their deployed \[Array\] additionally grants Ultimate Might +10% to all allies. This effect is removed after the Array ends or is replaced.
+
+**Amplification 2**: If the carrier is a \[Beast\] character, their deployed \[Array\] additionally grants Ultimate Might +12% to all allies. This effect is removed after the Array ends or is replaced.
+
+**Amplification 3**: If the carrier is a \[Beast\] character, their deployed \[Array\] additionally grants Ultimate Might +14% to all allies. This effect is removed after the Array ends or is replaced.
+
+**Amplification 4**: If the carrier is a \[Beast\] character, their deployed \[Array\] additionally grants Ultimate Might +16% to all allies. This effect is removed after the Array ends or is replaced.
+
+**Amplification 5**: If the carrier is a \[Beast\] character, their deployed \[Array\] additionally grants Ultimate Might +18% to all allies. This effect is removed after the Array ends or is replaced.
 
 ## Names
 

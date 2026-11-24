@@ -40,11 +40,23 @@ sources:
 
 ## Effect
 
-- If the team loses HP 3 or more times during a single action of a Mineral carrier, the carrier gains [Echoes of Life] after that action until the end of battle. This triggers once per battle. At Amplification 5 the global client's English text asks for more than 3 losses.
-- During any ally's action, each time an ally loses HP, the carrier gets Incantation Might +0.9/1.2/1.5/1.8/2.1%, up to 10 stacks (Amplification 1 to 5). The global client's English text asks a Mineral carrier for this effect at Amplification 1 to 4.
+**Amplification 1**: If the carrier is of the \[Mineral\] afflatus, and whenever allies lose HP three or more times as the carrier takes a single action, the carrier gains the \[Echoes of Life\] status afterward to until the end of battle (triggers only 1 time per battle). If the carrier is of the \[Mineral\] afflatus, and whenever any allied character loses HP as an ally takes an action, the carrier gains Incantation Might +0.9%, stackable up to 10 times.
+
+**Amplification 2**: If the carrier is of the \[Mineral\] afflatus, and whenever allies lose HP three or more times as the carrier takes a single action, the carrier gains the \[Echoes of Life\] status afterward to until the end of battle (triggers only 1 time per battle). If the carrier is of the \[Mineral\] afflatus, and whenever any allied character loses HP as an ally takes an action, the carrier gains Incantation Might +1.2%, stackable up to 10 times.
+
+**Amplification 3**: If the carrier is of the \[Mineral\] afflatus, and whenever allies lose HP three or more times as the carrier takes a single action, the carrier gains the \[Echoes of Life\] status afterward to until the end of battle (triggers only 1 time per battle). If the carrier is of the \[Mineral\] afflatus, and whenever any allied character loses HP as an ally takes an action, the carrier gains Incantation Might +1.5%, stackable up to 10 times.
+
+**Amplification 4**: If the carrier is of the \[Mineral\] afflatus, and whenever allies lose HP three or more times as the carrier takes a single action, the carrier gains the \[Echoes of Life\] status afterward to until the end of battle (triggers only 1 time per battle). If the carrier is of the \[Mineral\] afflatus, and whenever any allied character loses HP as an ally takes an action, the carrier gains Incantation Might +1.8%, stackable up to 10 times.
+
+**Amplification 5**: If the carrier is of the \[Mineral\] Afflatus, and whenever allies lose HP more than 3 times as the carrier takes a single action, the carrier gains the \[Echoes of Life\] status afterward, to until the end of battle (triggers up to 1 time per battle). Whenever any allied character loses HP as an ally takes an action, the carrier gains Incantation Might +2.1%, stackable up to 10 times.
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | From the Depths | 来自最深处 | 來自最深處 | 最奥より | 가장 깊은 곳에서 |
+
+## Edition differences
+
+- At Amplification 5 the global client's English text asks for more than 3 HP losses in one action; the Chinese texts ask for 3 or more.
+- At Amplification 1 to 4 the global client's English text asks for a Mineral carrier for the Incantation Might bonus; the Chinese texts do not.

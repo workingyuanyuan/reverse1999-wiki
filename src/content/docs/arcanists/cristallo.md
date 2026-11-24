@@ -37,33 +37,35 @@ sources:
 | Psychubes recommended in game | [Long Night Talk](/psychubes/long-night-talk/), [Take the Hard Journey](/psychubes/take-the-hard-journey/), [Let's Set Sail](/psychubes/lets-set-sail/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Cristallo is a 4-star support with two Insight levels. Her team buff raises Reality DEF and Mental DEF and adds a stack of [Sturdiness], her attack lowers one enemy's Reality DEF, and her Ultimate deals no damage on cast: it marks every enemy so that they take Genesis DMG at the end of each round and receive less healing.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/cristallo/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Caged Bird (single-target attack) | 200% Reality DMG | 200%; target Reality DEF −25% for 2 rounds | 350%; −35% for 3 rounds |
-| Dustless Blossom (mass buff) | all allies Reality DEF and Mental DEF +10% | +15% | +20% |
+### Caged Bird
 
-**Dustless Blossom** lasts 2 rounds at every rank and also gives every ally 1 stack of Sturdiness.
+**Rank 1**: 1-target attack. Deals 200% Reality DMG.
 
-[Sturdiness]: DMG Taken Reduction +25% when its holder is attacked; one stack is used each time.
+**Rank 2**: 1-target attack. Deals 200% Reality DMG. Inflicts Reality DEF -25% for 2 rounds on the target hit.
+
+**Rank 3**: 1-target attack. Deals 350% Reality DMG. Inflicts Reality DEF -35% for 3 rounds on the target hit.
+
+### Dustless Blossom
+
+**Rank 1**: Mass buff. Inflicts 1 stack of \[Sturdiness\] on all allies. Reality DEF and Mental DEF +10% for them for 2 rounds.
+
+**Rank 2**: Mass buff. Grants 1 stack of \[Sturdiness\] to all allies. Grants Reality DEF and Mental DEF +15% to all allies for 2 rounds.
+
+**Rank 3**: Mass buff. Grants 1 stack of \[Sturdiness\] to all allies. Grants Reality DEF and Mental DEF +20% to all allies for 2 rounds.
 
 ## Ultimate: This Is Radiotherapy
 
-Puts [Nasty Wound] and [Radiation Therapy] on all enemies for 2 rounds. At the end of each round they take Genesis DMG equal to 100% of Cristallo's ATK.
-
-- [Nasty Wound]: Healing Taken −50%.
-- [Radiation Therapy]: DMG Taken Reduction −15%, and Genesis DMG at the end of the round based on the caster's ATK.
+Mass debuff. Inflicts \[Nasty Wound\] and \[Radiation Therapy\] statuses on all enemies for 2 rounds. When the round ends, deals (the caster's ATK ×100%) Genesis DMG to them.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | When Cristallo is attacked, the other ally with the lowest HP percentage heals HP equal to 40% of her ATK. |
-| 2 | DMG Heal +10% on entering battle. |
+**Insight 1 · Page of Prayers**: When the caster is attacked, HP +(the caster's ATK ×40%) for another ally with the lowest HP percentage.
+
+**Insight 2 · Page of Prayers Ⅱ**: DMG Heal +10% when entering battle.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -72,13 +74,21 @@ Puts [Nasty Wound] and [Radiation Therapy] on all enemies for 2 rounds. At the e
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate's Genesis DMG becomes 110% of her ATK. |
-| 2 | Caged Bird lowers Reality DEF by 30% at rank 2 and 40% at rank 3. |
-| 3 | The Ultimate's Genesis DMG becomes 120% of her ATK. |
-| 4 | The Ultimate's Genesis DMG becomes 130% of her ATK. |
-| 5 | The Ultimate's Genesis DMG becomes 140% of her ATK. |
+**Portrait 1**: **This Is Radiotherapy**'s effect changes to: deals (the caster's ATK ×110%) Genesis DMG.
+
+**Portrait 2**: **Caged Bird**'s effect changes to: at 2/3 stars, Reality DEF -30/40%.
+
+**Portrait 3**: **This Is Radiotherapy**'s effect changes to: deals (the caster's ATK ×120%) Genesis DMG.
+
+**Portrait 4**: **This Is Radiotherapy**'s effect changes to: deals (the caster's ATK ×130%) Genesis DMG.
+
+**Portrait 5**: **This Is Radiotherapy**'s effect changes to: deals (the caster's ATK ×140%) Genesis DMG.
+
+## Statuses
+
+- **Sturdiness**: When attacked, DMG Taken Reduction +25% (-1 stack after trigger).
+- **Nasty Wound**: Healing Taken -50%.
+- **Radiation Therapy**: DMG Taken Reduction -15%. At the end of the round, takes Genesis DMG based on the user's ATK.
 
 ## Names
 

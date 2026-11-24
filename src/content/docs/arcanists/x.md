@@ -32,32 +32,37 @@ sources:
 | Psychubes recommended in game | [Brave New World](/psychubes/brave-new-world/), [Hopscotch](/psychubes/hopscotch/), [Her Second Life](/psychubes/her-second-life/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-X is one of the launch arcanists. Each of his two single-target attacks removes one kind of enemy effect, buffs or counters, and his Insight 1 silences any enemy he strips that way. His Ultimate hits all enemies, takes Moxie from them and, from Insight 3, stops them gaining Moxie for a round.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/x/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Anode and Cathode (single-target attack) | 200% Reality DMG | 250%; dispels all Stats Up and Pos Status effects | 450%; dispels as rank 2 |
-| Coffee or Tea (single-target attack) | 200% Reality DMG | 250%; dispels all Counter effects | 450%; dispels as rank 2 |
+### Anode and Cathode
 
-[Counter]: an effect that triggers when its holder is attacked.
+**Rank 1**: 1-target attack. Deals 200% Reality DMG.
+
+**Rank 2**: 1-target attack. Deals 250% Reality DMG and dispels all \[Stats Up\] and \[Pos Status\] statuses from the target.
+
+**Rank 3**: 1-target attack. Deals 450% Reality DMG and dispels all \[Stats Up\] and \[Pos Status\] statuses from the target.
+
+### Coffee or Tea
+
+**Rank 1**: 1-target attack. Deals 200% Reality DMG.
+
+**Rank 2**: 1-target attack. Deals 250% Reality DMG and dispels all \[Counter\] from the target.
+
+**Rank 3**: 1-target attack. Deals 450% Reality DMG and dispels all \[Counter\] from the target.
 
 ## Ultimate: Minimalism and Maximalism
 
-Deals 250% Reality DMG to all enemies and takes 2 Moxie from each enemy hit.
-
-- [Silence]: the target cannot cast Buff, Debuff, Heal or Counter incantations.
-- [Disconcert]: the target cannot gain Moxie.
+Mass attack. Deals 250% Reality DMG to all enemies. Inflicts Moxie -2 on the targets hit.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | An enemy that X strips of a Stats Up or Pos Status effect is silenced for 1 round; one stripped of a Counter effect is silenced for 2 rounds. |
-| 2 | DMG Dealt +8% on entering battle. |
-| 3 | After his Ultimate, the enemies hit are put in Disconcert for 1 round. |
+**Insight 1 · Effective Side Effects**: When the caster dispels \[Stats Up\] or \[Pos Status\] statuses from the enemy, inflicts \[Silence\] status on them for 1 round. When the caster dispels \[Counter\] status from the enemy, inflicts \[Silence\] status on them for 2 rounds.
+
+**Insight 2 · Effective Side Effects Ⅱ**: DMG Dealt +8% when entering battle.
+
+**Insight 3 · Effective Side Effects Ⅲ**: After casting the Ultimate, inflicts \[Disconcert\] status on the target(s) for 1 round.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -67,13 +72,21 @@ Deals 250% Reality DMG to all enemies and takes 2 Moxie from each enemy hit.
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 300%. |
-| 2 | Anode and Cathode deals 220, 280 or 500% by rank. |
-| 3 | The Ultimate deals 350%. |
-| 4 | Coffee or Tea deals 220, 280 or 500% by rank. |
-| 5 | The Ultimate deals 400%. |
+**Portrait 1**: **Minimalism and Maximalism**'s effect changes to: deals 300% Reality DMG.
+
+**Portrait 2**: **Anode and Cathode**'s effect changes to: at 1/2/3 stars, deals 220/280/500% Reality DMG.
+
+**Portrait 3**: **Minimalism and Maximalism**: Reality DMG increased to 350%.
+
+**Portrait 4**: **Coffee or Tea**'s effect changes to: at 1/2/3 stars, deals 220/280/500% Reality DMG.
+
+**Portrait 5**: **Minimalism and Maximalism**: Reality DMG increased to 400%.
+
+## Statuses
+
+- **Counter**: Grants continuous Counter. Effect is triggered When the caster is attacked.
+- **Silence**: Cannot cast Buff, Debuff, Heal, or Counter-type incantations.
+- **Disconcert**: Cannot gain Moxie.
 
 ## Names
 

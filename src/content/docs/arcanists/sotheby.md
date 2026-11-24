@@ -37,32 +37,37 @@ sources:
 | Psychubes recommended in game | [Your Friendly Exorcist](/psychubes/your-friendly-exorcist/), [Her Mournful Face](/psychubes/her-mournful-face/) |
 | Mainland release | 2023-05-31 |
 | Global release | 2023-10-26 |
-
-Sotheby poisons and heals at once. Triple the Dose! poisons two enemies, Concentrated Essence! gives all allies [Cure], a heal at the start of each round, and her Ultimate makes every Poison and Cure on the field take effect at once. Her one Euphoria Epiphany lets Cure fire early on an ally who drops low and adds [Duality Potion].
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/sotheby/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Triple the Dose! (attack on 2 enemies) | 80% Reality DMG; Poison 2 rounds | 120%; Poison 3 rounds | 200%; Poison 5 rounds |
-| Concentrated Essence! (mass heal) | Cure for 2 rounds, healing 50% of her ATK | 75% | 125% |
+### Triple the Dose!
 
-The Poison of Triple the Dose! deals Genesis DMG equal to 30% of Sotheby's ATK at the end of each round. Cure heals at the start of each round.
+**Rank 1**: Mass attack. Deals 80% Reality DMG to 2 enemies. Inflicts \[Poison\] for 2 rounds on the targets hit: at the end of the round, deals (the user's ATK x30%) Genesis DMG to the target.
+
+**Rank 2**: Mass attack. Deals 120% Reality DMG to 2 enemies. Inflicts \[Poison\] for 3 rounds on the targets hit: at the end of the round, deals (the user's ATK x30%) Genesis DMG to the target.
+
+**Rank 3**: Mass attack. Deals 200% Reality DMG to 2 enemies. Inflicts \[Poison\] for 5 rounds on the targets hit: at the end of the round, deals (the user's ATK x30%) Genesis DMG to the target.
+
+### Concentrated Essence!
+
+**Rank 1**: Mass healing. Gives all allies 2 rounds of \[Cure\]: when a round starts, HP +(the caster's ATK ×50%).
+
+**Rank 2**: Mass healing. Gives all allies 2 rounds of \[Cure\]: when a round starts, HP +(the caster's ATK ×75%).
+
+**Rank 3**: Mass healing. Gives all allies 2 rounds of \[Cure\]: when a round starts, HP +(the caster's ATK ×125%).
 
 ## Ultimate: Mix Them All Up!
 
-Deals 350% Reality DMG to all enemies, and every Poison and Cure on every character takes effect at once.
-
-- [Poison]: at the end of the round, the holder takes Genesis DMG based on the inflicter's ATK; several Poisons can stack.
-- [Cure]: at the start of the round, the holder heals by an amount based on the caster's ATK.
+Mass attack. Deals 350% Reality DMG to all enemies and all active \[Poison\] and \[Cure\] statuses on every character take effect immediately.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | Poison from Triple the Dose! lasts 1 round longer. |
-| 2 | Healing Done +10% on entering battle. |
-| 3 | Before Concentrated Essence! applies Cure, the Cure already on all allies takes effect at once. |
+**Insight 1 · Genius Lady**: The duration of \[Poison\] inflicted by \[Triple the Dose!\] +1 round.
+
+**Insight 2 · Genius Lady Ⅱ**: Healing Done +10% when entering battle.
+
+**Insight 3 · Genius Lady Ⅲ**: Before \[Concentrated Essence!\] inflicts \[Cure\] status, the \[Cure\] statuses on all allies take effect immediately.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -72,24 +77,33 @@ Deals 350% Reality DMG to all enemies, and every Poison and Cure on every charac
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate deals 450%. |
-| 2 | The Poison of Triple the Dose! deals 40% of her ATK. |
-| 3 | Concentrated Essence! heals 60, 90 or 150% of her ATK by rank. |
-| 4 | The Ultimate deals 500%. |
-| 5 | The Poison of Triple the Dose! deals 50% of her ATK. |
+**Portrait 1**: **Mix Them All Up!**: The Reality DMG dealt is increased to 450%.
+
+**Portrait 2**: **Triple the Dose!**'s effect changes to: \[Poison\] status inflicted by the skill deals (the caster's ATK ×40%) Genesis DMG.
+
+**Portrait 3**: **Concentrated Essence!**'s effect changes to: HP +(the caster's ATK ×60/90/150%)
+
+**Portrait 4**: **Mix Them All Up!**: Reality DMG increased to 500%.
+
+**Portrait 5**: **Triple the Dose!**'s effect changes to: \[Poison\] status inflicted by the skill deals (the caster's ATK ×50%) Genesis DMG.
 
 ## Euphoria
 
-Euphoria opens at Insight III level 30. Sotheby has one Epiphany of four levels.
+**Epiphany 1, level 1**: \[Cure\] Enhancement: After being attacked, if own current HP is below 40%, this effect is triggered immediately and the duration is reduced by 1 round. This effect also becomes stackable.
 
-| Epiphany | Level | Change |
-| --- | --- | --- |
-| 1 | 1 | Cure can stack, and when its holder is attacked and left below 40% HP, it heals at once and loses 1 round. Her Insight 3 passive changes to: Cure from Concentrated Essence! lasts 1 round longer. |
-| 1 | 2 | On entering battle, Healing Done +7% for every 1000 Max HP she has. |
-| 1 | 3 | On entering battle, Poison DMG Bonus +2% for every 100 ATK she has. |
-| 1 | 4 | She gains 1 stack of Duality Potion at the start of each round (up to 2 stacks). After she attacks, all stacks are spent: each puts a 2-round Poison on the target (30% of her ATK) and gives all allies Cure for 2 rounds, which heals 50% of her ATK each round start and also fires at once when its holder is attacked and left below 40% HP. |
+**Genius Lady** Insight III upgrade: The \[Cure\] that is granted by \[Concentrated Essence!\] gains +1 round duration.
+
+**Epiphany 1, level 2**: When entering battle, Sotheby gains Healing Done +7% for every 1000 Max HP she has.
+
+**Epiphany 1, level 3**: When entering battle, Sotheby gains Poison DMG Bonus +2% for every 100 ATK she has.
+
+**Epiphany 1, level 4**: At the start of the round, grant 1 stack of \[Duality Potion\] to self.
+
+## Statuses
+
+- **Poison**: At the end of the round, takes Genesis DMG based on the user's ATK (stackable).
+- **Cure**: At the start of the round, recovers HP based on the user's ATK.
+- **Duality Potion**: After attacking, consume all stacks; for each stack consumed, inflict 1 instance of \[Poison\] on the target for 2 rounds: at the end of the round, deal (the user's ATK x30%) Genesis DMG to the target; also grant \[Cure\] to all allies for 2 rounds (stacks up to 2 times).
 
 ## Names
 

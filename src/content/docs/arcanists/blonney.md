@@ -37,31 +37,37 @@ sources:
 | Psychubes recommended in game | [Spinning Yarns](/psychubes/spinning-yarns/) |
 | Mainland release | 2023-07-27 |
 | Global release | 2023-12-07 |
-
-Blonney is a single-target damage dealer built around critical hits. Killer Bunny carries its own Critical Rate and Critical DMG bonus, Chainsaw Massacre lowers the target's Critical Resist from rank 2, and each Ultimate raises her own critical stats for the next 2 rounds.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/blonney/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Killer Bunny (single-target attack) | 160% Reality DMG | 240% | 400% |
-| Chainsaw Massacre (single-target attack) | 200% Reality DMG | 250%; 1 stack of Confusion for 1 round | 450%; 1 stack of Confusion for 1 round |
+### Killer Bunny
 
-Killer Bunny has Critical Rate +25% and Critical DMG +25% on that attack at every rank.
+**Rank 1**: 1-target attack. Deals 160% Reality DMG. This attack enjoys Critical Rate and Critical DMG +25%.
 
-[Confusion]: Critical Resist −25% per stack; stacks add up, and each keeps its own duration.
+**Rank 2**: 1-target attack. Deals 240% Reality DMG. This attack enjoys Critical Rate and Critical DMG +25%.
+
+**Rank 3**: 1-target attack. Deals 400% Reality DMG. This attack enjoys Critical Rate and Critical DMG +25%.
+
+### Chainsaw Massacre
+
+**Rank 1**: 1-target attack. Deals 200% Reality DMG.
+
+**Rank 2**: 1-target attack. Deals 250% Reality DMG. After attacking, inflicts 1 stack of \[Confusion\] on the target for 1 round.
+
+**Rank 3**: 1-target attack. Deals 450% Reality DMG. After attacking, inflicts 1 stack of \[Confusion\] on the target for 1 round.
 
 ## Ultimate: Bloody Movie
 
-Deals 250% Reality DMG to all enemies, with Critical Rate +20% on that attack.
+Mass attack. Deals 250% Reality DMG to all enemies and increases the Critical Rate of this attack by 20%.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 1 | After she casts her Ultimate, Critical Rate and Critical DMG +20% for 2 rounds. |
-| 2 | Critical DMG +15% on entering battle. |
-| 3 | The bonus after her Ultimate gives a further 10% to Critical Rate and Critical DMG. |
+**Insight 1 · Monster Designer**: After casting an Ultimate, Critical Rate and Critical DMG increase by 20%. Lasts 2 rounds.
+
+**Insight 2 · Monster Designer II**: Critical DMG +15% when entering battle.
+
+**Insight 3 · Monster Designer III**: After casting an Ultimate, Critical Rate and Critical DMG increase by an additional 10%.
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -71,13 +77,19 @@ Deals 250% Reality DMG to all enemies, with Critical Rate +20% on that attack.
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | The Ultimate's Critical Rate bonus becomes +30%. |
-| 2 | Killer Bunny's Critical Rate and Critical DMG bonus becomes +30% at every rank. |
-| 3 | The Ultimate deals 300%. |
-| 4 | Chainsaw Massacre deals 220, 280 or 500% by rank. |
-| 5 | The Ultimate's Critical Rate bonus becomes +40%. |
+**Portrait 1**: **Bloody Movie** Changes Critical Rate increase effect to 30%.
+
+**Portrait 2**: **Killer Bunny** When at Incantation Rank 1/2/3, this attack's Critical Rate and Critical DMG increase effect changes to 30%.
+
+**Portrait 3**: **Bloody Movie**'s effect changes to: deals 300% Reality DMG.
+
+**Portrait 4**: **Chainsaw Massacre**'s effect changes to: at 1/2/3 stars, deals 220/280/500% Reality DMG.
+
+**Portrait 5**: **Bloody Movie** Increases Critical Rate effect to 40%.
+
+## Statuses
+
+- **Confusion**: Critical Resist -25% (stackable, each stack timed independently).
 
 ## Names
 

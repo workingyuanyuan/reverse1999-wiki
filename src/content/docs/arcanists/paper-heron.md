@@ -37,43 +37,57 @@ sources:
 | Psychubes recommended in game | [Wayfarer of the Dao](/psychubes/wayfarer-of-the-dao/) |
 | Mainland release | 2026-01-20 |
 | Global release | 2026-04-16 |
-
-Paper Heron leads an Inspiration team. Eureka that allies spend becomes Inspiration, which lands on incantation cards; casting a card that carries it adds an Impromptu Incantation to the end of the queue, and that attack grows with the Inspiration it collects. Her Precognition turns it into Plant Reality DMG that splits onto 2 more enemies, and her Qi Panorama array and the levels of Glimpse of the Dao add to it.
+| Profile | [Cover, items, stories, skins and voice lines](/arcanists/paper-heron/profile/) |
 
 ## Incantations
 
-| Incantation | Rank 1 | Rank 2 | Rank 3 |
-| --- | --- | --- | --- |
-| Shaper of Qi (attack on 2 enemies) | 200% Reality DMG | 300% | 500% |
-| Reader of Qi (team buff) | Impromptu Incantation DMG Dealt +20% | +25% | +30% |
+### Shaper of Qi
 
-- **Shaper of Qi** spends 2 Eureka after the attack to give this round's Impromptu Incantation 1 more attack.
-- **Reader of Qi** gives Paper Heron 2 stacks of [Valley Wind] and all allies [Auspicious Wind] for 2 rounds, and spends 2 Eureka for the DMG Dealt bonus in the table, which lasts the round.
+**Rank 1**: Mass attack. Deals 200% Reality DMG to 2 enemies.
+
+After attacking, consumes 2 Eureka to grant attack instance +1 to \[Impromptu Incantation\] for the round.
+
+**Rank 2**: Mass attack. Deals 300% Reality DMG to 2 enemies.
+
+After attacking, consumes 2 Eureka to grant attack instance +1 to \[Impromptu Incantation\] for the round.
+
+**Rank 3**: Mass attack. Deals 500% Reality DMG to 2 enemies.
+
+After attacking, consumes 2 Eureka to grant attack instance +1 to \[Impromptu Incantation\] for the round.
+
+### Reader of Qi
+
+**Rank 1**: Mass buff. Gains 2 stacks of \[Valley Wind\]. Grants \[Auspicious Wind\] to all allies for 2 rounds.
+
+Consumes 2 Eureka to grant DMG Dealt +20% to \[Impromptu Incantation\] for the round.
+
+**Rank 2**: Mass buff. Gains 2 stacks of \[Valley Wind\]. Grants \[Auspicious Wind\] to all allies for 2 rounds.
+
+Consumes 2 Eureka to grant DMG Dealt +25% to \[Impromptu Incantation\] for the round.
+
+**Rank 3**: Mass buff. Gains 2 stacks of \[Valley Wind\]. Grants \[Auspicious Wind\] to all allies for 2 rounds.
+
+Consumes 2 Eureka to grant DMG Dealt +30% to \[Impromptu Incantation\] for the round.
 
 ## Ultimate: A Paper Craft Legion
 
-Paper Heron gains 2 Eureka, then deals 750% Reality DMG to all enemies with Ultimate Might +15% for each Eureka she holds. Afterwards it adds 8 Inspiration to this round's Impromptu Incantation and raises [Glimpse of the Dao] by 1 level.
-
-## Statuses
-
-| Status | Effect |
-| --- | --- |
-| Inspiration | Each Eureka spent adds 1 point. At the start of each round the points go at random onto incantation cards, at most 5 per card; points on cards left unused are cleared at the end of the round. Casting a card that carries points adds an Impromptu Incantation at the end of the queue and gives it those points. |
-| Impromptu Incantation | Attacks 1 random enemy for 200% Mental DMG plus 15% per Inspiration point it carries; at 3, 6, 12 or 20 points it gains 1, 2, 3 or 5 more attacks. Its damage uses the average stats of all allies. |
-| Qi Panorama | Array (one array at a time on the field, on either side). Impromptu Incantation deals an extra 50% Reality DMG and gains DMG Bonus +15%, plus an extra 25% or 50% with 2 or 1 enemies present. It attacks at most 3 times a round; each attack beyond that adds 200% Reality DMG, counted up to 4 times. |
-| Glimpse of the Dao | Levels that strengthen Qi Panorama, each keeping the ones below. I: the split hits lose no Final DMG. II: an extra 25% or 50% Reality DMG with 2 or 1 enemies. III: an extra 100% Reality DMG, Penetration Rate +15%, and a further 25% or 50% with 2 or 1 enemies; it lasts 4 rounds, then falls back to II, and raising the level during III refreshes it. The level is kept when Qi Panorama ends and is deployed again. |
-| Valley Wind | At the start of a round, Paper Heron spends 1 stack and 2 Eureka for Impromptu Incantation DMG Dealt +20% that round. |
-| Auspicious Wind | Incantation Might +20% and DMG Bonus +20%; gaining it again adds to its duration. |
-| True Guidance | ATK equal to 15% of Paper Heron's ATK on entering battle. When the holder casts an incantation, Paper Heron spends 2 Eureka to add 2 Inspiration to this round's Impromptu Incantation. Cannot be dispelled. |
+Mass attack. Gains Eureka +2. Deals 750% Reality DMG to all enemies. For each Eureka Paper Heron has, this attack gains Ultimate Might +15%. After attacking, grants 8 points of \[Inspiration\] to \[Impromptu Incantation\] for the round and increases \[Glimpse of the Dao\]'s level by 1.
 
 ## Inheritance
 
-| Insight | Effect |
-| --- | --- |
-| 0 (Precognition) | Inspiration builds up whenever an ally spends Eureka; Paper Heron makes it more likely to land on attack incantations and raises the cap per card to 8. At the start of each round she recovers all her Eureka and gives every other ally 2. Impromptu Incantation deals Plant Reality DMG, splits onto 2 more enemies at Final DMG −70% on them, and deals an extra 25% or 50% Reality DMG with 2 or 1 enemies present. |
-| 1 | Max Eureka +5. On entering battle and after her Ultimate, deploys Qi Panorama if it is not already up. |
-| 2 | ATK +5% on entering battle. |
-| 3 | On entering battle, gives every other ally True Guidance, and with 2, or 3 or more, Inspiration allies present raises Glimpse of the Dao by 2 or 3 levels. Under Qi Panorama, Impromptu Incantation gains Incantation Might +5% per level of Glimpse of the Dao. |
+**Insight 0 · Precognition**: Whenever an ally consumes Eureka, accumulate points of \[Inspiration\]. Paper Heron increases the likelihood of \[Inspiration\] points being distributed onto attack-type incantations. The maximum number of \[Inspiration\] points that can be distributed onto each basic incantation is increased to 8.
+
+At the start of the round, Paper Heron recovers all her Eureka and also recovers 2 Eureka for all other allies.
+
+The DMG of \[Impromptu Incantation\] is converted to Plant-Afflatus Reality DMG. \[Impromptu Incantation\] splits and attacks 2 additional enemy targets, at a Final DMG Dealt -70% penalty against those targets. \[Impromptu Incantation\] additionally deals 25%/50% Reality DMG when the number of enemies present is 2/1.
+
+**Insight 1 · Bend with the Wind**: Gains Max Eureka +5. When entering battle or after casting an Ultimate, if not under \[Qi Panorama\], deploys \[Qi Panorama\].
+
+**Insight 2 · Bend with the Wind II**: ATK +5% when entering battle.
+
+**Insight 3 · Bend with the Wind III**: When entering battle, grants \[True Guidance\] to all other allies. When the number of \[Inspiration\] allies present is at least 2/3, raises \[Glimpse of the Dao\]'s level to 2/3.
+
+Under \[Qi Panorama\], \[Impromptu Incantation\] gains Incantation Might +(\[Glimpse of the Dao\]'s Current Level x5%).
 
 | Insight | Max level | Materials |
 | --- | --- | --- |
@@ -83,13 +97,48 @@ Paper Heron gains 2 Eureka, then deals 750% Reality DMG to all enemies with Ulti
 
 ## Portrait
 
-| Portrait | Change |
-| --- | --- |
-| 1 | Precognition's extra damage with 2 or 1 enemies becomes 50% or 100%; Qi Panorama's extra damage becomes 250%; Glimpse of the Dao III's extra damage becomes 250%. |
-| 2 | Under Qi Panorama, Impromptu Incantation attacks up to 4 times a round, and each attack beyond that adds 250%. |
-| 3 | Qi Panorama gives DMG Bonus +25% and an extra 50% or 100% with 2 or 1 enemies; Glimpse of the Dao II and III each give 50% or 100%; Glimpse of the Dao III gives Penetration Rate +20%. |
-| 4 | Shaper of Qi gives Impromptu Incantation 2 more attacks; Auspicious Wind gives DMG Bonus +35% and Incantation Might +35%. |
-| 5 | Under Qi Panorama, Impromptu Incantation attacks up to 5 times a round; each attack beyond that adds 300%, counted up to 5 times. |
+**Portrait 1**: **Precognition**: \[Impromptu Incantation\] now deals an additional 50%/100% Reality DMG when the number of enemies present is 2/1, an additional 250% Reality DMG when \[Qi Panorama\] is active, and an additional 250% Reality DMG during \[Glimpse of the Dao III\].
+
+**Portrait 2**: **Precognition**: When \[Qi Panorama\] is active, \[Impromptu Incantation\] can now attack up to 4 times each round, and \[Impromptu Incantation\] now deals an additional 250% Reality DMG for each excess attack instance.
+
+**Portrait 3**: **Precognition**: When \[Qi Panorama\] is active, \[Impromptu Incantation\] now gains DMG Bonus +25% and deals an additional 50%/100% Reality DMG when the number of enemies present is 2/1.
+
+When \[Qi Panorama\] is active during \[Glimpse of the Dao II\] or \[Glimpse of the Dao III\], \[Impromptu Incantation\] now deals an additional 50%/100% Reality DMG when the number of enemies present is 2/1.
+
+When \[Qi Panorama\] is active during \[Glimpse of the Dao III\], \[Impromptu Incantation\] now gains Penetration Rate +20%.
+
+**Portrait 4**: **Shaper of Qi** now grants attack instances +2 to \[Impromptu Incantation\] for the round.
+
+**Reader of Qi**: \[Auspicious Wind\] now grants DMG Bonus +35% and Incantation Might +35%.
+
+**Portrait 5**: **Precognition**: When \[Qi Panorama\] is active, \[Impromptu Incantation\] can now attack up to 5 times each round, and \[Impromptu Incantation\] now deals an additional 300% Reality DMG for each excess attack instance (now counting up to 5).
+
+## Statuses
+
+- **Impromptu Incantation**: 1-target attack. Deals 200% Mental DMG to a random enemy and an additional (the total points of Inspiration granted to Impromptu Incantation x15%) Mental DMG. If Impromptu Incantation has at least 3/6/12/20 points of Inspiration, it gains attack instances +1/2/3/5 (Impromptu Incantation's DMG calculation is based on the average stats of all allies).
+- **Valley Wind**: At the start of the round, Paper Heron consumes 1 stack of \[Valley Wind\] and 2 Eureka to grant DMG Dealt +20% to \[Impromptu Incantation\] for the round.
+- **Auspicious Wind**: Incantation Might +20%, DMG Bonus +20% (reapplying this status extends its duration).
+- **Inspiration**: For every 1 Eureka consumed, accumulate 1 point of \[Inspiration\].
+
+  At the start of each round, randomly distribute Inspiration points onto basic incantations (each incantation may receive up to 5 points of Inspiration, and at the end of the round, the points of Inspiration on unused incantations are cleared).
+
+  When actively casting an incantation with \[Inspiration\] points on it, add an \[Impromptu Incantation\] to the end of the spell queue, and all Inspiration points on these casted incantations will be granted to the \[Impromptu Incantation\].
+- **Glimpse of the Dao**: The \[Qi Panorama\] array gains enhancements corresponding to the level of \[Glimpse of the Dao\], as well as enhancements from all lower levels:
+
+  \[Glimpse of the Dao I\]: \[Impromptu Incantation\]'s split attacks no longer suffer a Final DMG Dealt penalty.
+
+  \[Glimpse of the Dao II\]: When the number of enemies present is 2/1, \[Impromptu Incantation\] deals an additional 25%/50% Reality DMG.
+
+  \[Glimpse of the Dao III\]: \[Impromptu Incantation\] deals an additional 100% Reality DMG, gains Penetration Rate +15%, and when the number of enemies present is 2/1, deals an additional 25%/50% Reality DMG.
+
+  \[Glimpse of the Dao III\] lasts 4 rounds; at the end of its duration, it downgrades to \[Glimpse of the Dao II\]. When \[Glimpse of the Dao\]'s level is increased while \[Glimpse of the Dao III\] is active, its duration is refreshed.
+
+  If the \[Qi Panorama\] array ends, \[Glimpse of the Dao\] will retain its current level until the array is redeployed.
+- **Qi Panorama**: \[Array\] Effects: \[Impromptu Incantation\] deals an additional 50% Reality DMG, gains DMG Bonus +15%, and when the number of enemies present is 2/1, deals an additional 25%/50% Reality DMG.
+
+  \[Impromptu Incantation\] can attack up to 3 times each round. For each excess attack instance (counting up to 4), \[Impromptu Incantation\] deals an additional 200% Reality DMG.
+- **True Guidance**: ATK +(Paper Heron's ATK when entering battle x15%). When the holder actively casts an incantation, Paper Heron consumes 2 Eureka to grant 2 additional points of Inspiration to \[Impromptu Incantation\] for the round. (Undispellable)
+- **Array**: Battlefield effect. Continuously affects characters on the field (only one type of array can exist at a time, whether on the allied or enemy side).
 
 ## Names
 

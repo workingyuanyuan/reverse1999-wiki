@@ -30,11 +30,6 @@ sources:
 | Recommended in game for | [Drake](/arcanists/drake/) |
 | Global client | not yet, mainland China client only |
 
-## Effect
-
-- On entering battle, a Beast carrier deals 8/10/12/14/16% more damage (Amplification 1 to 5).
-- When the carrier attacks while it is in [Burn] status, all allies gain Incantation Might +2/2.5/3/3.5/4% for 3 rounds, up to 4 stacks.
-
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |

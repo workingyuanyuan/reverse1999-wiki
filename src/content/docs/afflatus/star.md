@@ -1,6 +1,6 @@
 ---
 title: "Star arcanists"
-description: "Reverse: 1999 arcanists of the Star Afflatus: rarity, damage type, Euphoria and release dates."
+description: "Reverse: 1999 has 29 arcanists of the Star Afflatus."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
 caveat: "An arcanist whose global release says not yet is out only on the mainland China service; the mainland service runs about two versions ahead."
 lastVerified: 2026-11-22

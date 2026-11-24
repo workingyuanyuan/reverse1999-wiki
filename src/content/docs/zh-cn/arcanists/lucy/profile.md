@@ -1,8 +1,8 @@
 ---
 title: "露西 档案"
-description: "重返未来：1999 露西的档案：封面、单品、文化、皮肤与语音的游戏原文。"
+description: "重返未来：1999 露西的档案：国际版客户端有 3 套皮肤、68 句语音。"
 appliesTo: "重返未来：1999，中国大陆版客户端 113.0.1422（4.1 版），简体中文文本"
-caveat: "文本是中国大陆版的简体中文；国际版落后两个版本，繁体中文等语言的部分台词措辞不同。"
+caveat: "标签后括号内写有皮肤名的语音，只在露西换上该皮肤时播放。"
 lastVerified: 2026-11-24
 aliases:
   - "Lucy profile"
@@ -10,15 +10,13 @@ aliases:
   - "ルーシー プロフィール"
   - "루시 프로필"
 sources:
-  - title: "re1999-data-global，国际版客户端 111.0.1077：character_data.json、character_voice.json 与 skin.json（收录的条目）"
+  - title: "re1999-data-global，国际版客户端 111.0.1077：character_data.json、character_voice.json 与 skin.json"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/tree/7308a19ec644c60fd539034c9815cfaa23237dda/data/json
   - title: "re1999-data-global，国际版客户端 111.0.1077：英文、日文、韩文与繁体中文文本；文本的权利属于深蓝互动（Bluepoch）"
     url: https://github.com/St-Pavlov-Foundation/re1999-data-global/tree/7308a19ec644c60fd539034c9815cfaa23237dda/data/configs/language
   - title: "re1999-data，中国大陆版客户端 113.0.1422：同一批数据表的简体中文文本"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99/data/json
 ---
-[露西](/zh-cn/arcanists/lucy/)在重返未来：1999 的档案，为中国大陆版客户端的简体中文原文。
-
 ## 封面
 
 意识唤醒者艺术品，展出于19世纪20年代末，活跃至今，参展时长181年，诞生自12月30日冬。原展出于大不列颠及爱尔兰联合王国伦敦地区，后活跃于拉普拉斯科算中心。

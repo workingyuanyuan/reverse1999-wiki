@@ -1,6 +1,6 @@
 ---
 title: "Resonance"
-description: "Reverse: 1999 Resonance: levels and Insight by rarity, the grid, materials and Resonance Patterns."
+description: "Reverse: 1999 Resonance opens at Insight I and goes to level 15 for 5- and 6-star arcanists, 10 for the rest."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9) and mainland China client 113.0.1422 (version 4.1)"
 caveat: "Resonance levels 11 to 15 exist for 5- and 6-star arcanists only and need Insight III; 2-, 3- and 4-star arcanists stop at level 10."
 lastVerified: 2026-11-23
@@ -26,6 +26,8 @@ sources:
   - title: "BWIKI, 十四行诗, revision 26647 (Resonance and pattern materials)"
     url: https://wiki.biligame.com/reverse1999/%E5%8D%81%E5%9B%9B%E8%A1%8C%E8%AF%97?oldid=26647
 ---
+## How Resonance works
+
 Resonance raises an arcanist's stats with Ideas: pieces of several shapes placed on a grid. Each level enlarges the grid, adds Ideas or raises their level, and raises the main Idea, the piece in the shape of the arcanist's own set. Resonance opens at Insight I. Some arcanists show the same system as Reasoning, with Reasoning Patterns.
 
 | Field | Value |

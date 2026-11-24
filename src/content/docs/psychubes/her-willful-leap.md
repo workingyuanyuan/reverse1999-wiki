@@ -40,11 +40,32 @@ sources:
 
 ## Effect
 
-- After a Beast carrier casts a Channel incantation, all allies gain DMG Dealt +8/10/12/14/16% (Amplification 1 to 5) for 1 round; the global client's English text names this bonus DMG Bonus.
-- When the carrier attacks as an extra action, it gains Ultimate Might +4/5/6/7/8% for 1 round, stacking up to 3 times.
+**Amplification 1**: If the carrier is a \[Beast\] character, after casting a Channel incantation, grants DMG Bonus +8% to all allies for 1 round.
+
+When the carrier attacks, if it's an extra action, gains Ultimate Might +4% for 1 round, stacking up to 3 times.
+
+**Amplification 2**: If the carrier is a \[Beast\] character, after casting a Channel incantation, grants DMG Bonus +10% to all allies for 1 round.
+
+When the carrier attacks, if it's an extra action, gains Ultimate Might +5% for 1 round, stacking up to 3 times.
+
+**Amplification 3**: If the carrier is a \[Beast\] character, after casting a Channel incantation, grants DMG Bonus +12% to all allies for 1 round.
+
+When the carrier attacks, if it's an extra action, gains Ultimate Might +6% for 1 round, stacking up to 3 times.
+
+**Amplification 4**: If the carrier is a \[Beast\] character, after casting a Channel incantation, grants DMG Bonus +14% to all allies for 1 round.
+
+When the carrier attacks, if it's an extra action, gains Ultimate Might +7% for 1 round, stacking up to 3 times.
+
+**Amplification 5**: If the carrier is a \[Beast\] character, after casting a Channel incantation, grants DMG Bonus +16% to all allies for 1 round.
+
+When the carrier attacks, if it's an extra action, gains Ultimate Might +8% for 1 round, stacking up to 3 times.
 
 ## Names
 
 | English | Simplified Chinese | Traditional Chinese | Japanese | Korean |
 | --- | --- | --- | --- | --- |
 | Her Willful Leap | 跃过命运线 | 躍過命運線 | 運命を跳び越えて | 운명의 선을 넘어 |
+
+## Edition differences
+
+- The bonus that all allies gain is DMG Dealt in the Chinese texts and DMG Bonus in the global client's English text.
