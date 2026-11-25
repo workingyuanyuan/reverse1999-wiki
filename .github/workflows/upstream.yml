@@ -6,9 +6,8 @@ name: Check the sources
 
 on:
   schedule:
-    # Mondays and Thursdays 07:37 in Taipei (23:37 UTC the day before). Off the hour: runs at :00
-    # are often late. The mainland data changes with each version, about every three weeks.
-    - cron: '37 23 * * 0,3'
+    # Every day 07:37 in Taipei (23:37 UTC the day before). Off the hour: runs at :00 are often late.
+    - cron: '37 23 * * *'
   workflow_dispatch:
 
 permissions:

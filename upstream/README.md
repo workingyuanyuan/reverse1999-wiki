@@ -41,3 +41,9 @@ Exit 0: no difference. 1: differences. 2: the comparison could not be made (netw
 3. Correct the English pages named in the report, then the zh-TW, ja and ko pages; write zh-CN with `scripts/to-zh-cn.py`.
 4. Update `appliesTo` and the source links (commit and build) of every page that was read again, and its `lastVerified`.
 5. `pnpm verify`, then the owner confirms before the change goes live.
+
+## Schedule
+
+`.github/workflows/upstream.yml` runs the command every day (owner, 2026-11-25; on Mondays and Thursdays before) and by hand (`gh workflow run upstream.yml`). A difference on the default branch opens one issue with the label `upstream`, assigned to the owner; later runs replace its text, comment when a line other than a note is added, removed or changed, and close it when there is no difference. A run that could not make the check fails the workflow and leaves the issue as it is.
+
+GitHub stops scheduled workflows in a public repository after 60 days without activity in it; `gh workflow enable upstream.yml` starts them again.
