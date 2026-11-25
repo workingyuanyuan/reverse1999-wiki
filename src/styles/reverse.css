@@ -215,25 +215,32 @@ body::after {
 	background-size: 520px 520px;
 }
 /* The rain stays out of the text, so that nothing moves between or behind the words: it rises
-   only in the two margins between the text column and the sidebars. From 72rem the sidebar
-   and the table of contents are each --sl-sidebar-width wide at the window's edges, and the
-   column is centred, at most --sl-content-width wide; a mask clears all three, fading over
-   1.5 to 2rem. The streaks rise straight up: a transform on the layer would move its mask
-   with it. Below 72rem the column fills all the space beside the sidebar, so there is no rain. */
+   only in the margins between the text column and the sidebars, and in the empty bands
+   outside the frame on a very wide window. From 72rem the sidebar and the table of contents
+   are each --sl-sidebar-width wide, inside the centred frame (--frame-gap from each edge
+   above 120rem), and the column is centred, at most --sl-content-width wide; a mask clears
+   all three, fading over 1.5 to 2rem. The streaks rise straight up: a transform on the layer
+   would move its mask with it. Below 72rem the column fills all the space beside the
+   sidebar, so there is no rain. */
 body::before,
 body::after {
 	display: none;
 	--rv-half: calc(min(var(--sl-content-width), 100% - 2 * var(--sl-sidebar-width) - 3rem) / 2);
+	--rv-side: calc(var(--frame-gap, 0px) + var(--sl-sidebar-width));
 	mask-image: linear-gradient(
 		90deg,
-		transparent var(--sl-sidebar-width),
-		#000 calc(var(--sl-sidebar-width) + 1.5rem),
+		#000 calc(var(--frame-gap, 0px) - 1.5rem),
+		transparent var(--frame-gap, 0px),
+		transparent var(--rv-side),
+		#000 calc(var(--rv-side) + 1.5rem),
 		#000 calc(50% - var(--rv-half) - 2.5rem),
 		transparent calc(50% - var(--rv-half) - 0.5rem),
 		transparent calc(50% + var(--rv-half) + 0.5rem),
 		#000 calc(50% + var(--rv-half) + 2.5rem),
-		#000 calc(100% - var(--sl-sidebar-width) - 1.5rem),
-		transparent calc(100% - var(--sl-sidebar-width))
+		#000 calc(100% - var(--rv-side) - 1.5rem),
+		transparent calc(100% - var(--rv-side)),
+		transparent calc(100% - var(--frame-gap, 0px)),
+		#000 calc(100% - var(--frame-gap, 0px) + 1.5rem)
 	);
 }
 @media (min-width: 72rem) {
@@ -282,10 +289,227 @@ body::after {
 	}
 }
 
+/* Frame (root AGENTS.md, Visible page): no line between the text and either sidebar or
+   beside nested sidebar items, no visible heading over the table of contents, sidebar
+   scrollbars only under the pointer, a fade on the edge that has more to scroll, one
+   header row, and one centred frame on very wide windows. Shared by every skin; see the
+   "Frame" row in STACK.md. The same block is in the reference site's tui.css. */
+@media (min-width: 50rem) {
+	.sidebar-pane {
+		border-inline-end: 0;
+		scroll-padding-block: 1rem;
+	}
+}
+.sidebar-content ul ul li {
+	border-inline-start: 0;
+}
+/* The heading names the nav for screen readers (aria-labelledby), so it is hidden, not removed.
+   The phone's "On this page" toggle is its only control and stays. */
+starlight-toc h2 {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	clip-path: inset(50%);
+	white-space: nowrap;
+}
+/* The current heading: a static bar at the list edge, drawn as a border so that it survives
+   forced colours. Indentation is padding, so the bar sits at the same edge at every depth. */
+starlight-toc a {
+	border-inline-start: 2px solid transparent;
+}
+starlight-toc a[aria-current='true'] {
+	border-inline-start-color: var(--sl-color-accent);
+}
+@media (forced-colors: active) {
+	starlight-toc a:not([aria-current='true']) {
+		border-inline-start-color: Canvas;
+	}
+}
+@media (min-width: 72rem) {
+	.right-sidebar {
+		border-inline-start: 0;
+		width: var(--sl-sidebar-width);
+		scroll-padding-block: calc(var(--sl-nav-height) + 1rem) 1rem;
+	}
+}
+/* Scrollbar only while the pointer is over a sidebar or focus is in it. Below 50rem the
+   pane is the phone menu and keeps the system scrollbar; the table of contents is a
+   sidebar from 72rem (Starlight hides its scrollbar altogether). Forced colours reset
+   scrollbar-color to the system scrollbar. */
+@media (min-width: 50rem) and (hover: hover) {
+	.sidebar-pane {
+		scrollbar-width: thin;
+		scrollbar-color: transparent transparent;
+	}
+	.sidebar-pane:is(:hover, :focus-within) {
+		scrollbar-color: var(--sl-color-gray-3) transparent;
+	}
+}
+@media (min-width: 72rem) and (hover: hover) {
+	.right-sidebar {
+		scrollbar-width: thin;
+		scrollbar-color: transparent transparent;
+		scrollbar-gutter: stable;
+	}
+	.right-sidebar:is(:hover, :focus-within) {
+		scrollbar-color: var(--sl-color-gray-3) transparent;
+	}
+}
+/* Edge fade, only where the browser drives it by scroll position: the top edge fades once
+   the list has moved, the bottom edge until its end. A list that does not scroll has no
+   timeline, keeps 0px and shows no fade. No static fallback: it would dim the last item. */
+@property --fade-top {
+	syntax: '<length>';
+	inherits: false;
+	initial-value: 0px;
+}
+@property --fade-bottom {
+	syntax: '<length>';
+	inherits: false;
+	initial-value: 0px;
+}
+@keyframes edge-fade {
+	0% {
+		--fade-top: 0px;
+		--fade-bottom: 1rem;
+	}
+	8% {
+		--fade-top: 1rem;
+	}
+	92% {
+		--fade-bottom: 1rem;
+	}
+	100% {
+		--fade-top: 1rem;
+		--fade-bottom: 0px;
+	}
+}
+/* The right sidebar only from 72rem: below that it holds the phone's fixed "On this page" bar
+   in a box of no height, and a mask on it hides the bar. */
+@supports (animation-timeline: scroll()) {
+	@media (min-width: 50rem) {
+		.sidebar-pane {
+			--fade-start: 0px;
+			mask-image: linear-gradient(
+				to bottom,
+				transparent var(--fade-start),
+				#000 calc(var(--fade-start) + var(--fade-top)),
+				#000 calc(100% - var(--fade-bottom)),
+				transparent
+			);
+			/* Longhands only: with the `animation` shorthand the build folds the timeline into it,
+			   which Chromium rejects, and the fade never runs. */
+			animation-name: edge-fade;
+			animation-timing-function: linear;
+			animation-fill-mode: both;
+			animation-timeline: scroll(self);
+		}
+	}
+	@media (min-width: 72rem) {
+		/* The table of contents starts behind the fixed header; its visible top edge is below it. */
+		.right-sidebar {
+			--fade-start: var(--sl-nav-height);
+			mask-image: linear-gradient(
+				to bottom,
+				transparent var(--fade-start),
+				#000 calc(var(--fade-start) + var(--fade-top)),
+				#000 calc(100% - var(--fade-bottom)),
+				transparent
+			);
+			animation-name: edge-fade;
+			animation-timing-function: linear;
+			animation-fill-mode: both;
+			animation-timeline: scroll(self);
+		}
+	}
+	/* Keyboard focus is never dimmed, and forced colours show the lists plain. */
+	.sidebar-pane:has(:focus-visible),
+	.right-sidebar:has(:focus-visible) {
+		mask-image: none;
+	}
+	@media (forced-colors: active) {
+		.sidebar-pane,
+		.right-sidebar {
+			mask-image: none;
+		}
+	}
+}
+/* Header: the site name on the left, the section links in the middle, the buttons on the right,
+   and search at the top of the left sidebar. The side tracks never shrink below their content,
+   so where the left side is wide the links move right instead of being cut. Search stays the
+   one instance Starlight renders (one dialog, one Ctrl+K), moved by position only: in the tab
+   order it follows the section links. The sidebar's ground is the page's (see above), so the
+   band under it needs none. Pages without a sidebar (404) keep search in the header's middle. */
+@media screen and (min-width: 50rem) {
+	:root[data-has-sidebar] {
+		--search-band: 3.5rem;
+	}
+	:root[data-has-sidebar] header.header > .header > :has(> site-search) {
+		position: absolute;
+		inset-block-start: var(--sl-nav-height);
+		inset-inline-start: var(--frame-gap, 0px);
+		box-sizing: border-box;
+		width: var(--sl-sidebar-width);
+		height: var(--search-band);
+		align-items: flex-end;
+		padding-inline: var(--sl-sidebar-pad-x);
+	}
+	:root[data-has-sidebar] header.header > .header > .right-group {
+		grid-column: 3;
+		justify-self: end;
+	}
+	:root[data-has-sidebar] .sidebar-pane {
+		inset-block-start: calc(var(--sl-nav-height) + var(--search-band));
+	}
+}
+@media (min-width: 72rem) {
+	header.header > .header {
+		grid-template-columns: minmax(max-content, 1fr) minmax(10rem, 22rem) minmax(max-content, 1fr);
+	}
+	header.header > .header > .right-group {
+		justify-self: end;
+	}
+}
+@media screen and (min-width: 72rem) {
+	:root[data-has-sidebar] header.header > .header {
+		grid-template-columns: minmax(max-content, 1fr) auto minmax(max-content, 1fr);
+	}
+	:root[data-has-sidebar] header.header > .header > .title-wrapper {
+		display: contents;
+	}
+	:root[data-has-sidebar] header.header > .header > .title-wrapper > .site-title {
+		grid-column: 1;
+		justify-self: start;
+	}
+	:root[data-has-sidebar] header.header > .header > .title-wrapper > nav {
+		grid-column: 2;
+		margin-inline: 0;
+	}
+}
+/* Very wide windows: header, sidebar, text and table of contents in one centred frame.
+   --frame-gap is 0 up to 120rem (1920 px); % resolves against the viewport (fixed boxes) or the page. */
+@media (min-width: 72rem) {
+	:root {
+		--frame-gap: max(0px, (100% - 120rem) / 2);
+	}
+	header.header {
+		padding-inline: calc(var(--sl-nav-pad-x) + var(--frame-gap));
+	}
+	.sidebar-pane {
+		inset-inline-start: var(--frame-gap);
+	}
+	.main-frame {
+		padding-inline: calc(var(--sl-content-inline-start, 0rem) + var(--frame-gap)) var(--frame-gap);
+	}
+}
+
 /* Header: a black bar with a hairline under it, as the official site's menu bar. In the dark
    theme the bars that hide what scrolls under them (the header, the menu on a phone, the
-   table of contents bar) are black with their own grain, aligned with the window's grain;
-   the sidebars on a wide window are clear, so the edge light and the grain show through. */
+   table of contents bar) are black with their own grain, aligned with the window's grain.
+   On a wide window the sidebar is clear in both themes, so the page's ground (the edge light
+   and the grain, or the parchment) runs under it and no change of tone marks its edge. */
 header.header {
 	border-bottom: 1px solid var(--rv-line);
 }
@@ -293,7 +517,8 @@ header.header {
 	background: var(--rv-grain), #000;
 }
 @media (min-width: 50rem) {
-	:root:not([data-theme='light']) .sidebar-pane {
+	:root:not([data-theme='light']) sl-sidebar-pane.sidebar-pane,
+	.sidebar-pane {
 		background: transparent;
 	}
 }
