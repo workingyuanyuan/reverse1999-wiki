@@ -530,14 +530,15 @@ site-search button[data-open-modal],
 }
 
 /* Line length: prose stays near 40 characters a line in Chinese and Japanese, 75 letters in
-   English and Korean, even where the column is wider; tables keep the full column. */
-.sl-markdown-content > :is(p, ul, ol, blockquote):not(.facts, .answer) {
+   English and Korean, even where the column is wider; tables and the home page's key visual
+   keep the full column. */
+.sl-markdown-content > :is(p, ul, ol, blockquote):not(.facts, .answer, :has(> img[src*='/art/key-visual.'])) {
 	max-width: 75ch;
 }
-:root:is([lang='zh-TW'], [lang='zh-CN'], [lang='ja']) .sl-markdown-content > :is(p, ul, ol, blockquote):not(.facts, .answer) {
+:root:is([lang='zh-TW'], [lang='zh-CN'], [lang='ja']) .sl-markdown-content > :is(p, ul, ol, blockquote):not(.facts, .answer, :has(> img[src*='/art/key-visual.'])) {
 	max-width: 42em;
 }
-:root[lang='ko'] .sl-markdown-content > :is(p, ul, ol, blockquote):not(.facts, .answer) {
+:root[lang='ko'] .sl-markdown-content > :is(p, ul, ol, blockquote):not(.facts, .answer, :has(> img[src*='/art/key-visual.'])) {
 	max-width: 46em;
 }
 
@@ -692,6 +693,20 @@ mobile-starlight-toc .toggle {
 	max-width: 100%;
 	max-height: 20rem;
 	margin-inline: auto;
+}
+/* The key visual on the home page: the official rain scene as it is, the full width of the
+   column, square cornered and unframed like the rest of the site. The first section below it
+   follows the answer line with no rule above it (root AGENTS.md, Visible page). */
+.sl-markdown-content p > img[src*='/art/key-visual.'] {
+	width: 100%;
+	height: auto;
+	max-height: none;
+	border-radius: 1px;
+}
+.sl-markdown-content p:has(> img[src*='/art/key-visual.']) + .sl-heading-wrapper.level-h2 {
+	margin-top: 1.5rem;
+	padding-top: 0;
+	border-top: 0;
 }
 @media (min-width: 50rem) {
 	.sl-markdown-content img[src*='/art/'] {

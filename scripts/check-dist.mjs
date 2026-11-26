@@ -334,6 +334,8 @@ for (const [k, { id, data }] of pages.entries()) {
 	// page itself, or an index page that links it, each within the first 5,000 characters
 	// an extractor returns. A page that neither lists is one an agent cannot find.
 	if (id === 'index' || LOCALES.some((l) => l.dir === id)) {
+		// A game wiki's home page shows an official key visual of the game (root AGENTS.md, Visible page).
+		if (!/<img[^>]+src="[^"]*\/art\/key-visual\.webp"/.test(html)) fail(id, 'the home page shows no key visual (/art/key-visual.webp)');
 		const head = turndown.turndown(article?.content ?? '').slice(0, LIMIT);
 		const mine = pages.filter((p) => p.id !== id && localeOf(p.id) === localeOf(id));
 		const direct = mine.filter((p) => head.includes(`(${withBase(htmlPath(p.id))})`) || head.includes(`(${SITE}${htmlPath(p.id)})`));

@@ -9,6 +9,11 @@ aliases:
   - "重返未来：1999 Wiki"
   - "リバース：1999 Wiki"
   - "리버스: 1999 위키"
+art:
+  - title: "Taiwan official site, key visual"
+    url: https://re1999.movergames.com/
+  - title: "Image file (read 2026-11-26)"
+    url: https://image-download.vsplay.com/activity01/M00/1E/19/CgEPemUnnKWAGY7bAAcpik2N5BE692.jpg
 sources:
   - title: "re1999-data, mainland client 113.0.1422"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99
@@ -21,6 +26,8 @@ sources:
   - title: "Reverse: 1999 Wiki (Fandom): release dates"
     url: https://reverse1999.fandom.com/
 ---
+
+![Official key visual](/art/key-visual.webp)
 
 ## Mainland only
 

@@ -9,6 +9,11 @@ aliases:
   - "重返未來：1999 Wiki"
   - "重返未来：1999 Wiki"
   - "リバース：1999 Wiki"
+art:
+  - title: "대만 공식 사이트 키 비주얼"
+    url: https://re1999.movergames.com/
+  - title: "이미지 파일 (2026-11-26 확인)"
+    url: https://image-download.vsplay.com/activity01/M00/1E/19/CgEPemUnnKWAGY7bAAcpik2N5BE692.jpg
 sources:
   - title: "re1999-data, 중국 본토 클라이언트 113.0.1422"
     url: https://github.com/St-Pavlov-Foundation/re1999-data/tree/ab87bfc0e9855eca7075599a1adb667584afdd99
@@ -21,6 +26,8 @@ sources:
   - title: "Reverse: 1999 Wiki (Fandom): 출시일"
     url: https://reverse1999.fandom.com/
 ---
+
+![공식 키 비주얼](/art/key-visual.webp)
 
 ## 중국 본토 한정
 
