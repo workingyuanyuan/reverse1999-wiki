@@ -214,39 +214,52 @@ body::after {
 		radial-gradient(0.7px 60px at 470px 520px, var(--rv-rain), transparent);
 	background-size: 520px 520px;
 }
-/* The rain stays out of the text, so that nothing moves between or behind the words: it rises
-   only in the margins between the text column and the sidebars, and in the empty bands
-   outside the frame on a very wide window. From 72rem the sidebar and the table of contents
-   are each --sl-sidebar-width wide, inside the centred frame (--frame-gap from each edge
-   above 120rem), and the column is centred, at most --sl-content-width wide; a mask clears
-   all three, fading over 1.5 to 2rem. The streaks rise straight up: a transform on the layer
-   would move its mask with it. Below 72rem the column fills all the space beside the
-   sidebar, so there is no rain. */
+/* The rain stays out of the text column, so that nothing moves between or behind its words:
+   it rises everywhere else, behind the sidebar, the table of contents, the margins beside the
+   column and the empty bands outside the frame on a very wide window (root AGENTS.md, Visible
+   page: the lists beside the column may have motion behind them). From 72rem the sidebar and
+   the table of contents are each --sl-sidebar-width wide inside the centred frame, and the
+   column is centred, at most --sl-content-width wide; a mask clears the column, fading over
+   2rem. Behind the two lists the mask lets through --rv-list of the rain (all of it unless a
+   page sets less), so that their links read as on a still ground. From 50rem to 72rem only the sidebar stands beside the column, and the rain stays
+   behind it. The streaks rise straight up: a transform on the layer would move its mask with
+   it. Below 50rem the column fills the window, so there is no rain. */
 body::before,
 body::after {
 	display: none;
-	--rv-half: calc(min(var(--sl-content-width), 100% - 2 * var(--sl-sidebar-width) - 3rem) / 2);
-	--rv-side: calc(var(--frame-gap, 0px) + var(--sl-sidebar-width));
+	--rv-list-mask: rgb(0 0 0 / var(--rv-list, 1));
 	mask-image: linear-gradient(
 		90deg,
-		#000 calc(var(--frame-gap, 0px) - 1.5rem),
-		transparent var(--frame-gap, 0px),
-		transparent var(--rv-side),
-		#000 calc(var(--rv-side) + 1.5rem),
-		#000 calc(50% - var(--rv-half) - 2.5rem),
-		transparent calc(50% - var(--rv-half) - 0.5rem),
-		transparent calc(50% + var(--rv-half) + 0.5rem),
-		#000 calc(50% + var(--rv-half) + 2.5rem),
-		#000 calc(100% - var(--rv-side) - 1.5rem),
-		transparent calc(100% - var(--rv-side)),
-		transparent calc(100% - var(--frame-gap, 0px)),
-		#000 calc(100% - var(--frame-gap, 0px) + 1.5rem)
+		var(--rv-list-mask) calc(var(--sl-sidebar-width) - 1rem),
+		transparent calc(var(--sl-sidebar-width) + 0.5rem)
 	);
+}
+@media (min-width: 50rem) {
+	body::before,
+	body::after {
+		display: block;
+	}
 }
 @media (min-width: 72rem) {
 	body::before,
 	body::after {
-		display: block;
+		--rv-half: calc(min(var(--sl-content-width), 100% - 2 * var(--sl-sidebar-width) - 3rem) / 2);
+		--rv-side: calc(var(--frame-gap, 0px) + var(--sl-sidebar-width));
+		mask-image: linear-gradient(
+			90deg,
+			#000 calc(var(--frame-gap, 0px) - 1.5rem),
+			var(--rv-list-mask) var(--frame-gap, 0px),
+			var(--rv-list-mask) calc(var(--rv-side) - 0.5rem),
+			#000 calc(var(--rv-side) + 1rem),
+			#000 calc(50% - var(--rv-half) - 2.5rem),
+			transparent calc(50% - var(--rv-half) - 0.5rem),
+			transparent calc(50% + var(--rv-half) + 0.5rem),
+			#000 calc(50% + var(--rv-half) + 2.5rem),
+			#000 calc(100% - var(--rv-side) - 1rem),
+			var(--rv-list-mask) calc(100% - var(--rv-side) + 0.5rem),
+			var(--rv-list-mask) calc(100% - var(--frame-gap, 0px)),
+			#000 calc(100% - var(--frame-gap, 0px) + 1.5rem)
+		);
 	}
 }
 @media print {
@@ -838,7 +851,7 @@ starlight-toc a[aria-current='true'] {
    visual is a looping film of rain on a window. Here the title and the first blocks rise in,
    section headings, tables and the page notes rise in as they first come into view, and the
    page changes with a short cross-fade while the header and sidebar stay still; those play
-   once. The rain keeps rising in the margins: the streaks drift up one tile (260 px) in 4 s,
+   once. The rain keeps rising outside the text column: the streaks drift up one tile (260 px) in 4 s,
    the drops creep one tile (520 px) up the glass in 90 s. Images do not move, but for
    Schneider's (below). All of it sits
    inside prefers-reduced-motion: no-preference, and a block waits unseen for its entrance
@@ -865,14 +878,16 @@ starlight-toc a[aria-current='true'] {
 	}
 	/* Schneider (arcanists/schneider/ and her profile, every language) is in the tables of both
 	   clients but was never playable; in the main story the Storm comes for her in 2ND-15. On her
-	   pages the margin rain is the Storm. One tile moving as a whole shows its grid, so the streaks
+	   pages the rain is the Storm. One tile moving as a whole shows its grid, so the streaks
 	   here are ten layers of one streak each, every layer a tile of its own size (sizes that share
 	   no small factor, so the pattern repeats only far apart), and each rises at its own speed by
-	   moving its background, not the layer, so the mask stays on the margins: far streaks short,
+	   moving its background, not the layer, so the mask stays off the text column: far streaks short,
 	   thin and dim at 290 to 334 px/s, near ones long and bright at 778 to
 	   868 px/s. Each layer moves a whole number of its own tiles in 2 s, so the loop has no
-	   seam. Gusts swell and ebb over an uneven 9.7 s; the drops creep up the glass in 30 s. */
+	   seam. Behind the sidebar and the table of contents a
+	   third of it shows. Gusts swell and ebb over an uneven 9.7 s; the drops creep up the glass in 30 s. */
 	:root:has(link[rel='canonical'][href*='/arcanists/schneider/']) body::before {
+		--rv-list: 0.35;
 		--rv-storm-far: rgb(190 214 220 / 0.45);
 		--rv-storm-mid: rgb(190 214 220 / 0.65);
 		--rv-rain: rgb(200 222 228 / 0.9);
