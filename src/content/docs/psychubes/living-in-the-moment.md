@@ -28,7 +28,7 @@ sources:
 | Reality DEF at max level | 120 |
 | Mental DEF at max level | 120 |
 | Extra stat at max level | Critical Rate +13% |
-| Global client | not yet, mainland China client only |
+| Global client | no, mainland China client only |
 
 ## Names
 

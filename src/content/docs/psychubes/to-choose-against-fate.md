@@ -28,7 +28,7 @@ sources:
 | Mental DEF at max level | 160 |
 | Extra stat at max level | Critical DMG +24% |
 | Recommended in game for | [Drake](/arcanists/drake/) |
-| Global client | not yet, mainland China client only |
+| Global client | no, mainland China client only |
 
 ## Names
 

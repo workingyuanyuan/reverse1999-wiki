@@ -5,7 +5,8 @@ Pages in English, Traditional Chinese (zh-tw/), Japanese (ja/) and Korean (ko/).
 Checks the body only (the frontmatter may name sources). Exit code 1 when a page has a hit.
 Each hit is one of:
   SOURCE   the prose names a source; the page notes name it. Allowed only where two sources
-           disagree on something a reader acts on, or one player test stands alone (NGA).
+           disagree on something a reader acts on; a fact from one secondary source alone
+           carries a footnote, whose note line is not checked.
   HEDGE    a disclaimer: what is unknown, unannounced, not stated, or true "as of" a date.
   TIMED    time-limited content: events, sales, sign-ins, compensation, pre-downloads.
   SERVER   a second server's date or a region label beside a date; dates are UTC+8 server
@@ -104,6 +105,8 @@ def check(path):
     if rel == 'systems/statuses.md':
         lines = ['' if l.startswith('| ') else l for l in lines]
     for n, line in enumerate(lines, 1):
+        if re.match(r'\[\^\w+\]:', line):
+            continue  # a footnote's note names its source on purpose
         for kind, pats in PATTERNS.items():
             if kind in allowed:
                 continue

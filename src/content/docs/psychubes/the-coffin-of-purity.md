@@ -28,7 +28,7 @@ sources:
 | Reality DEF at max level | 160 |
 | Mental DEF at max level | 160 |
 | Extra stat at max level | DMG Heal +18% |
-| Global client | not yet, mainland China client only |
+| Global client | no, mainland China client only |
 
 ## Names
 

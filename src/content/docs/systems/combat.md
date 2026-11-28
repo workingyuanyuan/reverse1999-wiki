@@ -31,7 +31,7 @@ sources:
 ---
 ## Rounds
 
-A battle in Reverse: 1999 is fought in rounds. Each round the team gets a hand of incantation cards and a number of actions (AP) to spend on them; the enemies act on their own AP. Damage depends on the Afflatus of attacker and target, the damage type and the stats below.
+Each round the team gets a hand of incantation cards and a number of actions (AP) to spend on them; the enemies act on their own AP. Damage depends on the Afflatus of attacker and target, the damage type and the stats below.
 
 ## Afflatus advantage
 
@@ -64,7 +64,7 @@ Each arcanist deals Reality or Mental DMG; Genesis DMG comes from statuses such 
 
 ## Moxie and the Ultimate
 
-Moxie is the resource the Ultimate spends. An arcanist gains it by casting and moving incantations, and through some skills.
+An arcanist gains Moxie, the resource the Ultimate spends, by casting and moving incantations, and through some skills.
 
 - 131 of the 138 released arcanists need 5 Moxie for the Ultimate.
 - Alexios, Ezio Auditore, Kassandra, Coppelia, Everecho, The Twins and Hedone fill another resource instead.

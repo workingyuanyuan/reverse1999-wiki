@@ -21,7 +21,7 @@
 //  9. The 404 page links each language's home page and page list.
 // 10. robots.txt names the sitemap and carries a Content-Signal line.
 // 11. The header links the first page of each sidebar section (none while the site has one); the page notes link the Markdown twin, llms.txt and index.json; no text in <main>
-//     is about the site or the page (scripts/check-page-text.mjs).
+//     is about the site or the page; every footnote links a listed source (scripts/check-page-text.mjs).
 // Being found: title, description, canonical, hreflang and sitemap (scripts/check-found.mjs).
 
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
@@ -34,7 +34,7 @@ import { SITE, LOCALES, LLMS_NOTES, localeOf, bareId, idInLocale, htmlPath, mdPa
 import { bundlePath } from '../src/lib/llms.mjs';
 import { readPages, readPending } from '../src/lib/content-index.mjs';
 import { checkFound } from './check-found.mjs';
-import { checkHeaderAndOutputs, checkSelfReference, checkOpening } from './check-page-text.mjs';
+import { checkHeaderAndOutputs, checkSelfReference, checkOpening, checkFootnotes } from './check-page-text.mjs';
 import { checkProse } from './prose-review.mjs';
 
 const DIST = fileURLToPath(new URL('../dist/', import.meta.url));
@@ -386,6 +386,7 @@ for (const [k, { id, data }] of pages.entries()) {
 		outputs: [withBase(mdPath(id)), withBase(llmsPath(localeOf(id))), withBase('/index.json')],
 	});
 	checkOpening(doc, id, fail);
+	checkFootnotes(doc, id, fail, (data.sources || []).map((s) => s.url.replace(/\/$/, '')));
 	// Chapter and stage pages of the story quote the game's text, in which characters speak of pages.
 	// So do the kit of an arcanist page and the effect of a Psychube page (a passive named 翻閱此頁).
 	if (!isGameText(id)) checkSelfReference(withoutGameText(doc, id), id, fail);
@@ -409,6 +410,7 @@ for (const [k, { id, data }] of pages.entries()) {
 	// 5. No decoration leak into extracted text.
 	const visible = normalize(withoutGameText(doc, id).body.textContent);
 	for (const [name, pattern] of [
+		['footnote back-link glyph', /↩/],
 		// Add a pattern here for every piece of text the skin draws with CSS `content`. The skin
 		// draws its rhombus marks as shapes, with no text; a typed rhombus would copy them.
 		['rhombus before a name', /(^|\s)[◆◇♦❖]\s?\S/],

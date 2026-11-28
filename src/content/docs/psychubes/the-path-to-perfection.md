@@ -28,7 +28,7 @@ sources:
 | Reality DEF at max level | 130 |
 | Mental DEF at max level | 130 |
 | Extra stat at max level | DMG Bonus +10% |
-| Global client | not yet, mainland China client only |
+| Global client | no, mainland China client only |
 
 ## Names
 

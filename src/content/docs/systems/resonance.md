@@ -28,12 +28,10 @@ sources:
 ---
 ## How Resonance works
 
-Resonance raises an arcanist's stats with Ideas: pieces of several shapes placed on a grid. Each level enlarges the grid, adds Ideas or raises their level, and raises the main Idea, the piece in the shape of the arcanist's own set. Resonance opens at Insight I. Some arcanists show the same system as Reasoning, with Reasoning Patterns.
+Resonance raises an arcanist's stats with Ideas: pieces of several shapes placed on a grid. Each level enlarges the grid, adds Ideas or raises their level, and raises the main Idea, the piece in the shape of the arcanist's own set. Some arcanists show the same system as Reasoning, with Reasoning Patterns.
 
 | Field | Value |
 | --- | --- |
-| Opens at | Insight I |
-| Max level | 15 for 5- and 6-star arcanists, 10 for 2-, 3- and 4-star |
 | Resonance Patterns | from Resonance level 10 |
 | Main Idea, max level | 10 (5 and 6 stars), 6 (2 to 4 stars) |
 

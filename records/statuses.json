@@ -1,7 +1,7 @@
 {
 	"_note": "Text of the Statuses page in English (pipeline/write_systems.py); translations are statuses.<lang>.json with the same structure, section keys and row ids. Status names come from the game text by id (skill_eff_desc.json); 'unofficial' gives a name that no global client has yet, by language. The effect column is the game's text of that id in each language (skill_eff_desc.json), written by pipeline/write_systems.py.",
 	"title": "Statuses",
-	"description": "Reverse: 1999 statuses: positive and negative kinds, Control effects and the statuses arcanists share.",
+	"description": "Reverse: 1999 statuses are positive or negative: a dispel removes positive ones, Purify removes negative ones.",
 	"caveat": "Petrify ends when the holder takes a Reality DMG attack and Freeze when it takes a Mental DMG attack, so an attack of that type frees a controlled enemy.",
 	"aliases": [
 		"狀態效果",
@@ -14,7 +14,7 @@
 		"控制"
 	],
 	"lead": [
-		"Every status is positive or negative. The positive kinds are Stats Up, Pos Status and Counter, and a dispel removes them; the negative kinds are Stats Down, Neg Status and Control, and Purify removes them. A status the game marks as undispellable stays.",
+		"The positive kinds are Stats Up, Pos Status and Counter, and a dispel removes them; the negative kinds are Stats Down, Neg Status and Control, and Purify removes them. A status the game marks as undispellable stays.",
 		"Whether a second status of the same name replaces the first depends on their strength and duration. The special effect of an incantation can be resisted by the target, and Immunity blocks every negative kind."
 	],
 	"col": [
@@ -109,7 +109,7 @@
 		{
 			"key": "buffs",
 			"title": "Buffs",
-			"intro": "Positive statuses that several arcanists grant.",
+			"intro": "",
 			"rows": [
 				{
 					"id": 512
@@ -152,7 +152,7 @@
 		{
 			"key": "team",
 			"title": "Team mechanics",
-			"intro": "Resources and effects that a group of arcanists builds together. Bloodtithe, Lingering Glow and Pursuit Scope cannot be active at the same time in the mainland client; the global client's text of Bloodtithe and Lingering Glow lacks that clause, and Pursuit is out only on the mainland service.",
+			"intro": "Bloodtithe, Lingering Glow and Pursuit Scope cannot be active at the same time in the mainland client; the global client's text of Bloodtithe and Lingering Glow lacks that clause, and Pursuit is out only on the mainland service.",
 			"rows": [
 				{
 					"id": 30740203

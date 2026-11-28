@@ -28,7 +28,7 @@ sources:
 | Reality DEF at max level | 150 |
 | Mental DEF at max level | 150 |
 | Extra stat at max level | ATK +10% |
-| Global client | not yet, mainland China client only |
+| Global client | no, mainland China client only |
 
 ## Names
 

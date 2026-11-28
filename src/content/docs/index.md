@@ -33,7 +33,7 @@ sources:
 
 ## Mainland only
 
-Arcanists in the mainland China client 113.0.1422 who are not in the global client 111.0.1077.
+Five arcanists are in the mainland China client 113.0.1422 and not in the global client 111.0.1077.
 
 | Arcanist | Rarity | Afflatus | Damage | Mainland release |
 | --- | --- | --- | --- | --- |

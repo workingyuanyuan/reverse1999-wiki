@@ -1,6 +1,6 @@
 ---
 title: "Statuses"
-description: "Reverse: 1999 statuses: positive and negative kinds, Control effects and the statuses arcanists share."
+description: "Reverse: 1999 statuses are positive or negative: a dispel removes positive ones, Purify removes negative ones."
 appliesTo: "Reverse: 1999, mainland China client 113.0.1422 (version 4.1); global client 111.0.1077 (version 3.9)"
 caveat: "Petrify ends when the holder takes a Reality DMG attack and Freeze when it takes a Mental DMG attack, so an attack of that type frees a controlled enemy."
 lastVerified: 2026-11-23
@@ -23,7 +23,7 @@ sources:
 ---
 ## Kinds of status
 
-Every status is positive or negative. The positive kinds are Stats Up, Pos Status and Counter, and a dispel removes them; the negative kinds are Stats Down, Neg Status and Control, and Purify removes them. A status the game marks as undispellable stays.
+The positive kinds are Stats Up, Pos Status and Counter, and a dispel removes them; the negative kinds are Stats Down, Neg Status and Control, and Purify removes them. A status the game marks as undispellable stays.
 
 Whether a second status of the same name replaces the first depends on their strength and duration. The special effect of an incantation can be resisted by the target, and Immunity blocks every negative kind.
 
@@ -66,7 +66,7 @@ The damage these statuses deal is Genesis DMG.
 
 ## Buffs
 
-Positive statuses that several arcanists grant.
+
 
 | Status | Effect | Arcanists whose kit names it |
 | --- | --- | --- |
@@ -85,7 +85,7 @@ Positive statuses that several arcanists grant.
 
 ## Team mechanics
 
-Resources and effects that a group of arcanists builds together. Bloodtithe, Lingering Glow and Pursuit Scope cannot be active at the same time in the mainland client; the global client's text of Bloodtithe and Lingering Glow lacks that clause, and Pursuit is out only on the mainland service.
+Bloodtithe, Lingering Glow and Pursuit Scope cannot be active at the same time in the mainland client; the global client's text of Bloodtithe and Lingering Glow lacks that clause, and Pursuit is out only on the mainland service.
 
 | Status | Effect | Arcanists whose kit names it |
 | --- | --- | --- |

@@ -29,7 +29,7 @@ sources:
 | Mental DEF at max level | 150 |
 | Extra stat at max level | ATK +10% |
 | Recommended in game for | [Huntsworn Lilya](/arcanists/huntsworn-lilya/) |
-| Global client | not yet, mainland China client only |
+| Global client | no, mainland China client only |
 
 ## Names
 
