@@ -269,6 +269,18 @@ for (const [k, { id, data }] of pages.entries()) {
 	// The answer under the title is one short sentence: LOCALES gives each language's limit
 	// (English 110, Chinese 70, Japanese 70, Korean 90 characters).
 	const maxAnswer = localeOf(id).maxDescription;
+	// On a page about one thing (a character, a chapter), the answer line does not repeat the game's
+	// name: the reader is on that game's wiki (root AGENTS.md, Content contract).
+	{
+		const loc = localeOf(id);
+		const bare = loc.dir && id.startsWith(loc.dir + '/') ? id.slice(loc.dir.length + 1) : id;
+		const home = pages.find((p) => p.id === (loc.dir || 'index'))?.data;
+		if (home && /^(arcanists|psychubes|story)\/(?!(main|events|characters|characters-2|anecdotes|other|critical|damage-6|damage-5|might|survival)$)./.test(bare)) {
+			const names = [home.title, ...(home.aliases ?? [])].map((n) => String(n).replace(/\s*(wiki|위키)$/i, '')).filter((n) => n.length >= 3);
+			const hit = names.find((n) => String(data.description).includes(n));
+			if (hit) fail(id, `the answer line repeats the game's name (${hit}); the page is about one thing of the game`);
+		}
+	}
 	if (String(data.description).length > maxAnswer) fail(id, `description is ${String(data.description).length} characters; the limit is ${maxAnswer}`);
 
 	// 3. First 5,000 characters
@@ -336,6 +348,13 @@ for (const [k, { id, data }] of pages.entries()) {
 	if (id === 'index' || LOCALES.some((l) => l.dir === id)) {
 		// A game wiki's home page shows an official key visual of the game (root AGENTS.md, Visible page).
 		if (!/<img[^>]+src="[^"]*\/art\/key-visual\.webp"/.test(html)) fail(id, 'the home page shows no key visual (/art/key-visual.webp)');
+		// A game wiki's home page says in its answer line what the game is: its name and when it came out,
+		// not a list of what the site holds (root AGENTS.md, Content contract).
+		{
+			const game = String(data.title).replace(/\s*(wiki|위키)$/i, '');
+			if (!String(data.description).includes(game) || !/\d{4}-\d{2}-\d{2}/.test(String(data.description)))
+				fail(id, `the home page's description does not say what ${game} is (its name and its release date)`);
+		}
 		const head = turndown.turndown(article?.content ?? '').slice(0, LIMIT);
 		const mine = pages.filter((p) => p.id !== id && localeOf(p.id) === localeOf(id));
 		const direct = mine.filter((p) => head.includes(`(${withBase(htmlPath(p.id))})`) || head.includes(`(${SITE}${htmlPath(p.id)})`));

@@ -1,6 +1,6 @@
 ---
 title: "リバース：1999 Wiki"
-description: "リバース：1999 のグローバル版には神秘学家が134人いる。"
+description: "リバース：1999 はBluepochのタイムトラベル戦略RPG。中国本土で2023-05-31、グローバルで2023-10-26に配信。"
 appliesTo: "リバース：1999、中国本土版クライアント 113.0.1422（バージョン 4.1）とグローバル版クライアント 111.0.1077（バージョン 3.9）"
 caveat: "中国本土版はグローバル版よりおよそ2バージョン先を進んでいる。中国本土版で実装済みの神秘学家は、グローバル版のゲームにはまだいない。"
 lastVerified: 2026-11-22
@@ -25,6 +25,8 @@ sources:
     url: https://re1999.bluepoch.com/en/
   - title: "Reverse: 1999 Wiki (Fandom)：実装日"
     url: https://reverse1999.fandom.com/
+  - title: "Google Play の Reverse: 1999（ジャンル、開発）"
+    url: https://play.google.com/store/apps/details?id=com.bluepoch.m.en.reverse1999
 ---
 
 ![公式キービジュアル](/art/key-visual.webp)
@@ -37,7 +39,7 @@ sources:
 | --- | --- | --- | --- | --- |
 | [狩勲の魔女リーリャ](/ja/arcanists/huntsworn-lilya/)（狩勋女巫红弩箭） | ★6 | 星 | リアル | 2026-09-24 |
 | [ペルヒタ](/ja/arcanists/perchta/)（佩施塔） | ★6 | 星 | リアル | 2026-11-05 |
-| エヴリン（伊芙琳） | ★6 | 獣 | リアル | 2026-11-26、未実装 |
+| エヴリン（伊芙琳） | ★6 | 獣 | リアル | 2026-11-26 |
 | [ドレイク](/ja/arcanists/drake/)（德雷克） | ★6 | 獣 | メンタル | バージョン 4.0 |
 | [グリンドゥール](/ja/arcanists/glyndwr/)（格林杜尔） | ★4 | 獣 | リアル | バージョン 4.0 |
 

@@ -1,6 +1,6 @@
 ---
 title: "From the Depths of Space"
-description: "From the Depths of Space: Other stories of Reverse: 1999 in 9 stages."
+description: "From the Depths of Space is a chapter of the other stories, in 9 stages."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
 lastVerified: 2026-11-23

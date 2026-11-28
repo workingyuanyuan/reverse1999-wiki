@@ -1,6 +1,6 @@
 ---
 title: "Reverse: 1999 wiki"
-description: "Reverse: 1999 has 134 arcanists on the global service."
+description: "Reverse: 1999 is Bluepoch's time-travel strategy RPG; mainland China release 2023-05-31, global 2023-10-26."
 appliesTo: "Reverse: 1999, mainland China client 113.0.1422 (version 4.1) and global client 111.0.1077 (version 3.9)"
 caveat: "The mainland China service runs about two versions ahead of the global service: arcanists out on the mainland are not yet in the global game."
 lastVerified: 2026-11-22
@@ -25,6 +25,8 @@ sources:
     url: https://re1999.bluepoch.com/en/
   - title: "Reverse: 1999 Wiki (Fandom): release dates"
     url: https://reverse1999.fandom.com/
+  - title: "Reverse: 1999 on Google Play (genre, developer)"
+    url: https://play.google.com/store/apps/details?id=com.bluepoch.m.en.reverse1999
 ---
 
 ![Official key visual](/art/key-visual.webp)
@@ -37,7 +39,7 @@ Arcanists in the mainland China client 113.0.1422 who are not in the global clie
 | --- | --- | --- | --- | --- |
 | [Huntsworn Lilya](/arcanists/huntsworn-lilya/) (狩勋女巫红弩箭) | 6 stars | Star | Reality | 2026-09-24 |
 | [Perchta](/arcanists/perchta/) (佩施塔) | 6 stars | Star | Reality | 2026-11-05 |
-| Evelyn (伊芙琳) | 6 stars | Beast | Reality | 2026-11-26, not yet released |
+| Evelyn (伊芙琳) | 6 stars | Beast | Reality | 2026-11-26 |
 | [Drake](/arcanists/drake/) (德雷克) | 6 stars | Beast | Mental | version 4.0 |
 | [Glyndŵr](/arcanists/glyndwr/) (格林杜尔) | 4 stars | Beast | Reality | version 4.0 |
 

@@ -1,6 +1,6 @@
 ---
 title: "Brume profile"
-description: "Brume's profile in Reverse: 1999: 3 skins and 60 voice lines in the global client."
+description: "Brume has 3 skins and 60 voice lines in the global client."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "A voice line with a skin name in brackets after its label plays only while Brume wears that skin."
 lastVerified: 2026-11-24

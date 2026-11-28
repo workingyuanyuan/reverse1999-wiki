@@ -31,7 +31,7 @@ sources:
 | --- | --- | --- | --- | --- |
 | [狩勳女巫紅弩箭](/zh-tw/arcanists/huntsworn-lilya/) (Huntsworn Lilya) | 6 星 | 星 | 現實 | 2026-09-24 |
 | [佩施塔](/zh-tw/arcanists/perchta/) (Perchta) | 6 星 | 星 | 現實 | 2026-11-05 |
-| 伊芙琳 (Evelyn) | 6 星 | 獸 | 現實 | 2026-11-26，尚未上線 |
+| 伊芙琳 (Evelyn) | 6 星 | 獸 | 現實 | 2026-11-26 |
 | [德雷克](/zh-tw/arcanists/drake/) (Drake) | 6 星 | 獸 | 精神 | 4.0 版 |
 | [格林杜爾](/zh-tw/arcanists/glyndwr/) (Glyndŵr) | 4 星 | 獸 | 現實 | 4.0 版 |
 
@@ -39,7 +39,7 @@ sources:
 
 | 神秘學家 | 稀有度 | 中國大陸版上線 | 國際版上線 | 相隔天數 |
 | --- | --- | --- | --- | --- |
-| 伊芙琳 | 6 星 | 2026-11-26，尚未上線 | 尚未上線 | — |
+| 伊芙琳 | 6 星 | 2026-11-26 | 尚未上線 | — |
 | [佩施塔](/zh-tw/arcanists/perchta/) | 6 星 | 2026-11-05 | 尚未上線 | — |
 | [狩勳女巫紅弩箭](/zh-tw/arcanists/huntsworn-lilya/) | 6 星 | 2026-09-24 | 尚未上線 | — |
 | [納西瑟斯](/zh-tw/arcanists/narcissus/) | 6 星 | 2026-09-03 | 已在國際版用戶端中 | — |

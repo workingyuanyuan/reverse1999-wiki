@@ -1,6 +1,6 @@
 ---
 title: "The Campaign's Tale"
-description: "The Campaign's Tale: chapter 12 of the Reverse: 1999 main story, in 25 stages."
+description: "The Campaign's Tale is chapter 12 of the main story, in 25 stages."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
 lastVerified: 2026-11-23

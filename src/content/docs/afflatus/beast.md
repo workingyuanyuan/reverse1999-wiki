@@ -24,7 +24,7 @@ sources:
 | [Brume](/arcanists/brume/) | 6 stars | Mental | no | 2025-11-20 | 2026-02-12 |
 | [Centurion](/arcanists/centurion/) | 6 stars | Reality | yes | 2023-05-31 | 2023-10-26 |
 | [Drake](/arcanists/drake/) | 6 stars | Mental | no | version 4.0 | not yet |
-| Evelyn | 6 stars | Reality | no | 2026-11-26, not yet released | not yet |
+| Evelyn | 6 stars | Reality | no | 2026-11-26 | not yet |
 | [Getian](/arcanists/getian/) | 6 stars | Reality | yes | 2024-02-01 | 2024-06-20 |
 | [Igor](/arcanists/igor/) | 6 stars | Reality | no | 2026-01-01 | 2026-03-26 |
 | [J](/arcanists/j/) | 6 stars | Reality | yes | 2024-06-27 | 2024-11-21 |

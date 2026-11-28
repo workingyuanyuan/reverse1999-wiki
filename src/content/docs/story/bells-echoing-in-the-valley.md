@@ -1,6 +1,6 @@
 ---
 title: "Bells Echoing in the Valley"
-description: "Bells Echoing in the Valley: Character stories II of Reverse: 1999 in 8 stages."
+description: "Bells Echoing in the Valley is a chapter of the character stories II, in 8 stages."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
 lastVerified: 2026-11-23

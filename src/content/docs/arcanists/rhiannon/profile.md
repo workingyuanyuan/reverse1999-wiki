@@ -1,6 +1,6 @@
 ---
 title: "Rhiannon profile"
-description: "Rhiannon's profile in Reverse: 1999: 2 skins and 35 voice lines in the global client."
+description: "Rhiannon has 2 skins and 35 voice lines in the global client."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's, version 3.9; the mainland client is two versions ahead."
 lastVerified: 2026-11-24

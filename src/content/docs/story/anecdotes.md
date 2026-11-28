@@ -1,6 +1,6 @@
 ---
 title: "Anecdotes"
-description: "Reverse: 1999 Anecdotes: 33 chapters, 240 stages in all."
+description: "The 33 chapters and 240 stages of the Reverse: 1999 anecdotes."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
 lastVerified: 2026-11-23

@@ -1,6 +1,6 @@
 ---
 title: "The Syndrome of Silence"
-description: "The Syndrome of Silence: Other stories of Reverse: 1999 in 5 stages."
+description: "The Syndrome of Silence is a chapter of the other stories, in 5 stages."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
 lastVerified: 2026-11-23

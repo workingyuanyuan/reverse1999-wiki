@@ -1,6 +1,6 @@
 ---
 title: "The Turquoise Serpent Club"
-description: "The Turquoise Serpent Club: Event stories of Reverse: 1999 in 21 stages."
+description: "The Turquoise Serpent Club is a chapter of the event stories, in 21 stages."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
 lastVerified: 2026-11-23

@@ -1,6 +1,6 @@
 ---
 title: "Schneider profile"
-description: "Schneider's profile in Reverse: 1999: 1 skins and 34 voice lines in the global client."
+description: "Schneider has 1 skins and 34 voice lines in the global client."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's, version 3.9; the mainland client is two versions ahead."
 lastVerified: 2026-11-24

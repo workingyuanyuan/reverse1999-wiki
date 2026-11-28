@@ -1,6 +1,6 @@
 ---
 title: "Character stories II"
-description: "Reverse: 1999 Character stories II: 26 chapters, 226 stages in all."
+description: "The 26 chapters and 226 stages of the Reverse: 1999 character stories II."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
 lastVerified: 2026-11-23

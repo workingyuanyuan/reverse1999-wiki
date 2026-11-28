@@ -47,11 +47,13 @@ LIMIT = {'en': 110, 'zh-tw': 70, 'zh-cn': 70, 'ja': 70, 'ko': 70}
 T = {
 	'en': dict(
 		cats={'main': 'Main story', 'events': 'Event stories', 'characters': 'Character stories I', 'characters-2': 'Character stories II', 'anecdotes': 'Anecdotes', 'other': 'Other stories'},
-		cat_desc='Reverse: 1999 {c}: {n} chapters, {k} stages in all.',
-		ch_desc=['{n}: {c} of Reverse: 1999 in {k} stages.', '{n}: Reverse: 1999 {c}.', '{n}: Reverse: 1999 story.'],
-		ch_desc_main=['{n}: chapter {i} of the Reverse: 1999 main story, in {k} stages.', '{n}: chapter {i} of the Reverse: 1999 main story.', '{n}: Reverse: 1999 main story.'],
-		st_desc=['{s}: stage {k} of {n}, Reverse: 1999 {c}.', '{s}: stage {k} of {n}, Reverse: 1999.',
-			'{s}: a stage of {n}, Reverse: 1999.', '{s}: Reverse: 1999 story.'],
+		# The category inside a sentence.
+		inner={'main': 'main story', 'events': 'event stories', 'characters': 'character stories I', 'characters-2': 'character stories II', 'anecdotes': 'anecdotes', 'other': 'other stories'},
+		cat_desc='The {n} chapters and {k} stages of the Reverse: 1999 {ci}.',
+		ch_desc=['{n} is a chapter of the {ci}, in {k} stages.', '{n} is a chapter of the {ci}.', '{n} is a story chapter.'],
+		ch_desc_main=['{n} is chapter {i} of the main story, in {k} stages.', '{n} is chapter {i} of the main story.', '{n} is a main story chapter.'],
+		st_desc=['{s} is stage {k} of {n}, a chapter of the {ci}.', '{s} is stage {k} of {n}.',
+			'{s} is a stage of {n}.', '{s} is a story stage.'],
 		applies_gl='Reverse: 1999, global client {b} (version {v}), English text',
 		caveat_gl='The text is the global client\'s English; the mainland client, two versions ahead, words some lines differently.',
 		head=('Field', 'Value'), stage='Stage', name='Name', when='In-game time', trails='Trails', chapter='Chapter',
@@ -63,10 +65,10 @@ T = {
 			('re1999-data-global, global client {gl}: chapter.json and episode.json (stage codes, in-game dates)', 'gl')]),
 	'zh-tw': dict(
 		cats={'main': '主線', 'events': '活動劇情', 'characters': '角色劇情 I', 'characters-2': '角色劇情 II', 'anecdotes': '軼事', 'other': '其他劇情'},
-		cat_desc='重返未來：1999 的{c}：共 {n} 章、{k} 關。',
-		ch_desc=['{n}：重返未來：1999 {c}，共 {k} 關。', '{n}：重返未來：1999 {c}。', '{n}：重返未來：1999 劇情。'],
-		ch_desc_main=['{n}：重返未來：1999 主線第 {i} 章，共 {k} 關。', '{n}：重返未來：1999 主線第 {i} 章。', '{n}：重返未來：1999 主線劇情。'],
-		st_desc=['{s}：{n}第 {k} 關，重返未來：1999 {c}。', '{s}：{n}第 {k} 關，重返未來：1999。', '{s}：重返未來：1999 劇情關卡。', '重返未來：1999 劇情關卡。'],
+		cat_desc='重返未來：1999 的{c}共 {n} 章、{k} 關。',
+		ch_desc=['{n}是{c}，共 {k} 關。', '{n}是{c}。', '{n}是劇情章節。'],
+		ch_desc_main=['{n}是主線第 {i} 章，共 {k} 關。', '{n}是主線第 {i} 章。', '{n}是主線章節。'],
+		st_desc=['{s}是{c}「{n}」的第 {k} 關。', '{s}是「{n}」的第 {k} 關。', '{s}是劇情關卡。', '劇情關卡。'],
 		applies_gl='重返未來：1999，國際版用戶端 {b}（{v} 版），繁體中文文本',
 		caveat_gl='文本是國際版的繁體中文；中國大陸版領先兩個版本，部分台詞措辭不同。',
 		head=('項目', '內容'), stage='關卡', name='名稱', when='遊戲內時間', trails='小徑', chapter='章節',
@@ -78,10 +80,10 @@ T = {
 			('re1999-data-global，國際版用戶端 {gl}：chapter.json 與 episode.json（關卡編號、遊戲內時間）', 'gl')]),
 	'zh-cn': dict(
 		cats={'main': '主线', 'events': '活动剧情', 'characters': '角色剧情 I', 'characters-2': '角色剧情 II', 'anecdotes': '轶事', 'other': '其他剧情'},
-		cat_desc='重返未来：1999 的{c}：共 {n} 章、{k} 关。',
-		ch_desc=['{n}：重返未来：1999 {c}，共 {k} 关。', '{n}：重返未来：1999 {c}。', '{n}：重返未来：1999 剧情。'],
-		ch_desc_main=['{n}：重返未来：1999 主线第 {i} 章，共 {k} 关。', '{n}：重返未来：1999 主线第 {i} 章。', '{n}：重返未来：1999 主线剧情。'],
-		st_desc=['{s}：{n}第 {k} 关，重返未来：1999 {c}。', '{s}：{n}第 {k} 关，重返未来：1999。', '{s}：重返未来：1999 剧情关卡。', '重返未来：1999 剧情关卡。'],
+		cat_desc='重返未来：1999 的{c}共 {n} 章、{k} 关。',
+		ch_desc=['{n}是{c}，共 {k} 关。', '{n}是{c}。', '{n}是剧情章节。'],
+		ch_desc_main=['{n}是主线第 {i} 章，共 {k} 关。', '{n}是主线第 {i} 章。', '{n}是主线章节。'],
+		st_desc=['{s}是{c}「{n}」的第 {k} 关。', '{s}是「{n}」的第 {k} 关。', '{s}是剧情关卡。', '剧情关卡。'],
 		applies_cn='重返未来：1999，中国大陆版客户端 {b}（{v} 版），简体中文文本',
 		caveat_cn='文本是中国大陆版的简体中文；国际版落后两个版本，繁体中文等语言的部分台词措辞不同。',
 		head=('项目', '内容'), stage='关卡', name='名称', when='游戏内时间', trails='小径', chapter='章节',
@@ -93,10 +95,10 @@ T = {
 			('re1999-data-global，国际版客户端 {gl}：chapter.json 与 episode.json（关卡编号、游戏内时间）', 'gl')]),
 	'ja': dict(
 		cats={'main': 'メインストーリー', 'events': 'イベントストーリー', 'characters': 'キャラクターストーリー I', 'characters-2': 'キャラクターストーリー II', 'anecdotes': 'エピソード', 'other': 'その他のストーリー'},
-		cat_desc='リバース：1999 の{c}：全{n}章、{k}ステージ。',
-		ch_desc=['{n}：リバース：1999 の{c}、全{k}ステージ。', '{n}：リバース：1999 の{c}。', '{n}：リバース：1999 のストーリー。'],
-		ch_desc_main=['{n}：リバース：1999 のメインストーリー第{i}章、全{k}ステージ。', '{n}：リバース：1999 のメインストーリー第{i}章。', '{n}：リバース：1999 のメインストーリー。'],
-		st_desc=['{s}：{n}の第{k}ステージ。リバース：1999 の{c}。', '{s}：{n}の第{k}ステージ。', '{s}：リバース：1999 のストーリー。', 'リバース：1999 のストーリー。'],
+		cat_desc='リバース：1999 の{c}は全{n}章、{k}ステージ。',
+		ch_desc=['{n}は{c}で、全{k}ステージ。', '{n}は{c}。', '{n}はストーリーの章。'],
+		ch_desc_main=['{n}はメインストーリー第{i}章で、全{k}ステージ。', '{n}はメインストーリー第{i}章。', '{n}はメインストーリーの章。'],
+		st_desc=['{s}は{c}「{n}」の第{k}ステージ。', '{s}は「{n}」の第{k}ステージ。', '{s}はストーリーのステージ。', 'ストーリーのステージ。'],
 		applies_gl='リバース：1999、グローバル版クライアント {b}（バージョン {v}）、日本語テキスト',
 		caveat_gl='テキストはグローバル版の日本語。2バージョン先行する中国本土版では一部のセリフの言い回しが異なる。',
 		head=('項目', '内容'), stage='ステージ', name='名前', when='ゲーム内の時刻', trails='小径', chapter='章',
@@ -108,10 +110,10 @@ T = {
 			('re1999-data-global、グローバル版クライアント {gl}：chapter.json と episode.json（ステージ番号、ゲーム内の時刻）', 'gl')]),
 	'ko': dict(
 		cats={'main': '메인 스토리', 'events': '이벤트 스토리', 'characters': '캐릭터 스토리 I', 'characters-2': '캐릭터 스토리 II', 'anecdotes': '일화', 'other': '기타 스토리'},
-		cat_desc='리버스: 1999 {c}: 모두 {n}개 장, {k}개 스테이지.',
-		ch_desc=['{n}: 리버스: 1999 {c}, 모두 {k}개 스테이지.', '{n}: 리버스: 1999 {c}.', '{n}: 리버스: 1999 스토리.'],
-		ch_desc_main=['{n}: 리버스: 1999 메인 스토리 {i}장, 모두 {k}개 스테이지.', '{n}: 리버스: 1999 메인 스토리 {i}장.', '{n}: 리버스: 1999 메인 스토리.'],
-		st_desc=['{s}: {n}의 {k}번째 스테이지. 리버스: 1999 {c}.', '{s}: {n}의 {k}번째 스테이지.', '{s}: 리버스: 1999 스토리.', '리버스: 1999 스토리.'],
+		cat_desc='리버스: 1999의 {c}, 모두 {n}개 장과 {k}개 스테이지.',
+		ch_desc=['「{n}」{neun} {c}이며, 모두 {k}개 스테이지다.', '「{n}」{neun} {c}다.', '「{n}」{neun} 스토리의 장이다.'],
+		ch_desc_main=['「{n}」{neun} 메인 스토리 {i}장이며, 모두 {k}개 스테이지다.', '「{n}」{neun} 메인 스토리 {i}장이다.', '「{n}」{neun} 메인 스토리의 장이다.'],
+		st_desc=['「{s}」{sneun} {c} 「{n}」의 {k}번째 스테이지다.', '「{s}」{sneun} 「{n}」의 {k}번째 스테이지다.', '「{s}」{sneun} 스토리의 스테이지다.', '스토리의 스테이지.'],
 		applies_gl='리버스: 1999, 글로벌 클라이언트 {b}({v} 버전), 한국어 텍스트',
 		caveat_gl='텍스트는 글로벌 클라이언트의 한국어다. 두 버전 앞선 중국 본토 클라이언트는 일부 대사의 표현이 다르다.',
 		head=('항목', '내용'), stage='스테이지', name='이름', when='게임 내 시각', trails='트레일', chapter='장',
@@ -314,6 +316,15 @@ def q(s):
 	return s.replace('\\', '\\\\').replace('"', '\\"')
 
 
+def neun(word):
+	"""The Korean topic particle after a word: 은 after a final consonant, 는 after a vowel or a non-Hangul end."""
+	w = re.sub(r'[\s」』"\'.,!?…)）]+$', '', word)
+	c = w[-1:] if w else ''
+	if '가' <= c <= '힣':
+		return '은' if (ord(c) - 0xAC00) % 28 else '는'
+	return '은(는)'
+
+
 def fit(lang, options, **kw):
 	for o in options:
 		s = o.format(**kw)
@@ -362,7 +373,7 @@ def index_page(cat, chapters, mainland, lang):
 	if ml:
 		body += ['', f'## {t["mainland"]}', '', '\n'.join(f'- {m["name"]}' for m in ml)]
 	names = [T[x]['cats'][cat] for x in LANGS]
-	desc = t['cat_desc'].format(c=label, n=len(mine), k=sum(len(c['stages']) for c in mine))
+	desc = t['cat_desc'].format(c=label, ci=t.get('inner', {}).get(cat, label), n=len(mine), k=sum(len(c['stages']) for c in mine))
 	return frontmatter(lang, label, desc, names) + '\n'.join(body) + '\n'
 
 
@@ -384,7 +395,8 @@ def chapter_page(c, lang):
 	body += ['', f'## {t["names"]}', '', '| ' + ' | '.join(t['langs']) + ' |', '| --- | --- | --- | --- | --- |',
 		'| ' + ' | '.join(cell(c['names'][x]) for x in ('en', 'zh-cn', 'zh-tw', 'ja', 'ko')) + ' |']
 	# The main story's chapter codes are ordinals (10TH): the description gives the number.
-	desc = fit(lang, t['ch_desc_main'] if c['index'] else t['ch_desc'], n=n, i=re.sub(r'\D', '', str(c['index'])), k=len(sts), c=label)
+	desc = fit(lang, t['ch_desc_main'] if c['index'] else t['ch_desc'], n=n, i=re.sub(r'\D', '', str(c['index'])), k=len(sts), c=label,
+		ci=t.get('inner', {}).get(c['cat'], label), neun=neun(n))
 	return frontmatter(lang, n, desc, [c['names'][x] for x in LANGS]) + '\n'.join(body) + '\n'
 
 
@@ -539,7 +551,8 @@ def stage_page(c, s, lang):
 		body += ['', f'## {t["trail"]}']
 		for name, text in x['trails']:
 			body += ['', f'### {name}', '', fix_marks(relink(text, lang))]
-	desc = fit(lang, t['st_desc'], s=s['titles'][lang], k=s['k'], n=c['names'][lang], c=t['cats'][c['cat']])
+	desc = fit(lang, t['st_desc'], s=s['titles'][lang], k=s['k'], n=c['names'][lang], c=t['cats'][c['cat']],
+		ci=t.get('inner', {}).get(c['cat'], t['cats'][c['cat']]), sneun=neun(s['titles'][lang]))
 	return frontmatter(lang, s['titles'][lang], desc, [s['titles'][o] for o in LANGS]) + '\n'.join(body) + '\n'
 
 

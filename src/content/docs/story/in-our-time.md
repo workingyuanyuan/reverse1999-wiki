@@ -1,6 +1,6 @@
 ---
 title: "In Our Time"
-description: "In Our Time: chapter 1 of the Reverse: 1999 main story, in 16 stages."
+description: "In Our Time is chapter 1 of the main story, in 16 stages."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
 lastVerified: 2026-11-23

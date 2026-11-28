@@ -1,6 +1,6 @@
 ---
 title: "Notes on Shuori"
-description: "Notes on Shuori: Event stories of Reverse: 1999 in 23 stages."
+description: "Notes on Shuori is a chapter of the event stories, in 23 stages."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
 lastVerified: 2026-11-23

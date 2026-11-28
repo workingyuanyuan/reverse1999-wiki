@@ -1,6 +1,6 @@
 ---
 title: "Everecho profile"
-description: "Everecho's profile in Reverse: 1999: 3 skins and 51 voice lines in the global client."
+description: "Everecho has 3 skins and 51 voice lines in the global client."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "A voice line with a skin name in brackets after its label plays only while Everecho wears that skin."
 lastVerified: 2026-11-24

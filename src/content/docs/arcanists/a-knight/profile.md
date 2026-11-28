@@ -1,6 +1,6 @@
 ---
 title: "A Knight profile"
-description: "A Knight's profile in Reverse: 1999: 4 skins and 49 voice lines in the global client."
+description: "A Knight has 4 skins and 49 voice lines in the global client."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "A voice line with a skin name in brackets after its label plays only while A Knight wears that skin."
 lastVerified: 2026-11-24

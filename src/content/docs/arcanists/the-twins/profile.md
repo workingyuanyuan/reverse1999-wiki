@@ -1,6 +1,6 @@
 ---
 title: "The Twins profile"
-description: "The Twins's profile in Reverse: 1999: 3 skins and 54 voice lines in the global client."
+description: "The Twins has 3 skins and 54 voice lines in the global client."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "A voice line with a skin name in brackets after its label plays only while The Twins wears that skin."
 lastVerified: 2026-11-24

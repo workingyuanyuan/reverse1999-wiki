@@ -1,6 +1,6 @@
 ---
 title: "The Answering Machine, the Butterfly, and the Literary Critic"
-description: "The Answering Machine, the Butterfly, and the Literary Critic: Reverse: 1999 Character stories I."
+description: "The Answering Machine, the Butterfly, and the Literary Critic is a chapter of the character stories I."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
 lastVerified: 2026-11-23

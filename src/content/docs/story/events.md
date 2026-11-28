@@ -1,6 +1,6 @@
 ---
 title: "Event stories"
-description: "Reverse: 1999 Event stories: 23 chapters, 423 stages in all."
+description: "The 23 chapters and 423 stages of the Reverse: 1999 event stories."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
 lastVerified: 2026-11-23

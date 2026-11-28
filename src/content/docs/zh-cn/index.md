@@ -1,6 +1,6 @@
 ---
 title: "重返未来：1999 Wiki"
-description: "重返未来：1999 国际版有 134 位神秘学家。"
+description: "重返未来：1999 是深蓝互动开发的时空穿越策略 RPG，2023-05-31 在中国大陆上线，国际版 2023-10-26 上线。"
 appliesTo: "重返未来：1999，中国大陆版客户端 113.0.1422（4.1 版）与国际版客户端 111.0.1077（3.9 版）"
 caveat: "中国大陆版大约领先国际版两个版本：已在中国大陆版上线的神秘学家，国际版游戏里还没有。"
 lastVerified: 2026-11-22
@@ -25,6 +25,8 @@ sources:
     url: https://re1999.bluepoch.com/en/
   - title: "Reverse: 1999 Wiki (Fandom)：上线日期"
     url: https://reverse1999.fandom.com/
+  - title: "Google Play 上的 Reverse: 1999（类型、开发）"
+    url: https://play.google.com/store/apps/details?id=com.bluepoch.m.en.reverse1999
 ---
 
 ![官方主视觉图](/art/key-visual.webp)
@@ -37,7 +39,7 @@ sources:
 | --- | --- | --- | --- | --- |
 | [狩勋女巫红弩箭](/zh-cn/arcanists/huntsworn-lilya/) (Huntsworn Lilya) | 6 星 | 星 | 现实 | 2026-09-24 |
 | [佩施塔](/zh-cn/arcanists/perchta/) (Perchta) | 6 星 | 星 | 现实 | 2026-11-05 |
-| 伊芙琳 (Evelyn) | 6 星 | 兽 | 现实 | 2026-11-26，尚未上线 |
+| 伊芙琳 (Evelyn) | 6 星 | 兽 | 现实 | 2026-11-26 |
 | [德雷克](/zh-cn/arcanists/drake/) (Drake) | 6 星 | 兽 | 精神 | 4.0 版 |
 | [格林杜尔](/zh-cn/arcanists/glyndwr/) (Glyndŵr) | 4 星 | 兽 | 现实 | 4.0 版 |
 

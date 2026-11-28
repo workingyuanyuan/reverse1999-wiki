@@ -1,6 +1,6 @@
 ---
 title: "리버스: 1999 위키"
-description: "리버스: 1999 글로벌 서비스에는 마도학자 134명이 있다."
+description: "리버스: 1999는 Bluepoch이 개발한 시간 여행 전략 RPG로, 중국 본토에서 2023-05-31, 글로벌 서비스는 2023-10-26에 출시되었다."
 appliesTo: "리버스: 1999, 중국 본토 클라이언트 113.0.1422(4.1 버전)와 글로벌 클라이언트 111.0.1077(3.9 버전)"
 caveat: "중국 본토 서비스는 글로벌 서비스보다 약 두 버전 앞서 있다. 중국 본토에 출시된 마도학자는 글로벌 게임에 아직 없다."
 lastVerified: 2026-11-22
@@ -25,6 +25,8 @@ sources:
     url: https://re1999.bluepoch.com/en/
   - title: "Reverse: 1999 Wiki (Fandom): 출시일"
     url: https://reverse1999.fandom.com/
+  - title: "Google Play의 Reverse: 1999(장르, 개발)"
+    url: https://play.google.com/store/apps/details?id=com.bluepoch.m.en.reverse1999
 ---
 
 ![공식 키 비주얼](/art/key-visual.webp)
@@ -37,7 +39,7 @@ sources:
 | --- | --- | --- | --- | --- |
 | [사냥 훈장의 마녀 릴리아](/ko/arcanists/huntsworn-lilya/) (狩勋女巫红弩箭) | 6성 | 천체 | 현실 | 2026-09-24 |
 | [페르히타](/ko/arcanists/perchta/) (佩施塔) | 6성 | 천체 | 현실 | 2026-11-05 |
-| 에블린 (伊芙琳) | 6성 | 야수 | 현실 | 2026-11-26, 출시 전 |
+| 에블린 (伊芙琳) | 6성 | 야수 | 현실 | 2026-11-26 |
 | [드레이크](/ko/arcanists/drake/) (德雷克) | 6성 | 야수 | 정신 | 4.0 버전 |
 | [글린두르](/ko/arcanists/glyndwr/) (格林杜尔) | 4성 | 야수 | 현실 | 4.0 버전 |
 

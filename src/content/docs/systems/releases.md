@@ -31,7 +31,7 @@ Of the 130 arcanists out on both services, 5 came to the global service on the s
 | --- | --- | --- | --- | --- |
 | [Huntsworn Lilya](/arcanists/huntsworn-lilya/) (狩勋女巫红弩箭) | 6 stars | Star | Reality | 2026-09-24 |
 | [Perchta](/arcanists/perchta/) (佩施塔) | 6 stars | Star | Reality | 2026-11-05 |
-| Evelyn (伊芙琳) | 6 stars | Beast | Reality | 2026-11-26, not yet released |
+| Evelyn (伊芙琳) | 6 stars | Beast | Reality | 2026-11-26 |
 | [Drake](/arcanists/drake/) (德雷克) | 6 stars | Beast | Mental | version 4.0 |
 | [Glyndŵr](/arcanists/glyndwr/) (格林杜尔) | 4 stars | Beast | Reality | version 4.0 |
 
@@ -39,7 +39,7 @@ Of the 130 arcanists out on both services, 5 came to the global service on the s
 
 | Arcanist | Rarity | Mainland release | Global release | Days later |
 | --- | --- | --- | --- | --- |
-| Evelyn | 6 stars | 2026-11-26, not yet released | not yet | — |
+| Evelyn | 6 stars | 2026-11-26 | not yet | — |
 | [Perchta](/arcanists/perchta/) | 6 stars | 2026-11-05 | not yet | — |
 | [Huntsworn Lilya](/arcanists/huntsworn-lilya/) | 6 stars | 2026-09-24 | not yet | — |
 | [Narcissus](/arcanists/narcissus/) | 6 stars | 2026-09-03 | in the global client | — |

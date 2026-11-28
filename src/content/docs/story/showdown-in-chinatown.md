@@ -1,6 +1,6 @@
 ---
 title: "Showdown in Chinatown"
-description: "Showdown in Chinatown: Event stories of Reverse: 1999 in 22 stages."
+description: "Showdown in Chinatown is a chapter of the event stories, in 22 stages."
 appliesTo: "Reverse: 1999, global client 111.0.1077 (version 3.9), English text"
 caveat: "The text is the global client's English; the mainland client, two versions ahead, words some lines differently."
 lastVerified: 2026-11-23
