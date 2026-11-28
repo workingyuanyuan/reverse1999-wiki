@@ -9,7 +9,7 @@
     "preview": "node scripts/preview.mjs",
     "astro": "astro",
     "check": "node scripts/check-dist-parallel.mjs",
-    "verify": "python3 -I pipeline/check_prose.py && python3 -I pipeline/check_profile.py && python3 -I pipeline/check_pairs.py && astro build && node scripts/check-dist-parallel.mjs",
+    "verify": "node scripts/check-agents.mjs && python3 -I pipeline/check_prose.py && python3 -I pipeline/check_profile.py && python3 -I pipeline/check_pairs.py && astro build && node scripts/check-dist-parallel.mjs",
     "upstream": "python3 -I pipeline/upstream.py"
   },
   "dependencies": {
